@@ -1,0 +1,198 @@
+{
+  "microsim": {
+    "dublinCore": {
+      "title": "Viking Cruise Map",
+      "creator": [
+        "Dan McCreary"
+      ],
+      "subject": [
+        "Mediterranean travel",
+        "cruise itinerary",
+        "Aegean Sea",
+        "ancient history",
+        "geography"
+      ],
+      "description": "An interactive Leaflet map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens (November 14-21, 2026). Students step through six ports, see the sea route sailed on each leg, and read arrival and departure times, key sights, and a practical tip for every stop.",
+      "publisher": "Mediterranean Travels Intelligent Textbook",
+      "contributor": [],
+      "date": "2026-11-10",
+      "type": "Educational MicroSim",
+      "format": "text/html",
+      "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/viking-cruise-map/",
+      "language": "en",
+      "rights": "CC BY-NC-SA 4.0"
+    },
+    "search": {
+      "tags": [
+        "map",
+        "cruise",
+        "itinerary",
+        "Turkey",
+        "Greece",
+        "Leaflet"
+      ],
+      "searchKeywords": [
+        "Istanbul",
+        "Canakkale",
+        "Troy",
+        "Kusadasi",
+        "Ephesus",
+        "Rhodes",
+        "Heraklion",
+        "Knossos",
+        "Athens",
+        "Piraeus"
+      ],
+      "visualizationType": [
+        "map"
+      ],
+      "interactionLevel": "moderate",
+      "complexity": 2,
+      "relatedConcepts": [
+        "Sea routes",
+        "Dardanelles",
+        "Dodecanese islands",
+        "Minoan civilization",
+        "Greco-Roman cities"
+      ],
+      "applicationDomains": [
+        "education",
+        "exploration"
+      ]
+    },
+    "educational": {
+      "gradeLevel": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "Undergraduate",
+        "Adult"
+      ],
+      "subjectArea": [
+        "Social Studies",
+        "Other"
+      ],
+      "topic": [
+        "Eastern Mediterranean cruise ports",
+        "Ancient sites of Turkey and Greece"
+      ],
+      "learningObjectives": [
+        "Locate the six ports of the Istanbul-to-Athens cruise on a map and describe the sea route between them",
+        "Identify the most important historic sight at each port",
+        "Plan a realistic shore day using each port's arrival and departure times"
+      ],
+      "bloomsTaxonomy": [
+        "Remember",
+        "Understand",
+        "Apply"
+      ],
+      "prerequisites": [],
+      "duration": {
+        "typical": 10,
+        "range": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "difficulty": "Beginner"
+    },
+    "technical": {
+      "framework": "other",
+      "version": "1.0.0",
+      "canvasHeight": 640,
+      "canvasDimensions": {
+        "width": 750,
+        "height": 640,
+        "responsive": true
+      },
+      "dependencies": [
+        "leaflet@1.9.4",
+        "Esri World Street Map and World Imagery tiles",
+        "OpenStreetMap tiles"
+      ],
+      "browserCompatibility": [
+        "Chrome 90+",
+        "Firefox 88+",
+        "Safari 14+",
+        "Edge 90+"
+      ],
+      "performance": {
+        "memoryUsage": "low",
+        "loadTime": 1500
+      },
+      "deviceRequirements": {
+        "minScreenWidth": 320,
+        "touchSupport": true,
+        "keyboardRequired": false,
+        "mouseRequired": false,
+        "networkRequired": true
+      },
+      "accessibility": {
+        "screenReader": false,
+        "keyboardNavigation": true,
+        "colorContrast": true,
+        "altText": false
+      }
+    },
+    "userInterface": {
+      "layoutType": "responsive-width",
+      "layoutPattern": "map-left-panel-right",
+      "colorScheme": {
+        "drawingArea": "Esri street map",
+        "controlArea": "#fbfaf7",
+        "accent": "#c8963e",
+        "text": "#1d2a33"
+      },
+      "controls": [
+        {
+          "id": "prev",
+          "type": "button",
+          "label": "← Previous",
+          "description": "Move to the previous port"
+        },
+        {
+          "id": "overview",
+          "type": "button",
+          "label": "Whole route",
+          "description": "Zoom out to show the entire cruise route"
+        },
+        {
+          "id": "next",
+          "type": "button",
+          "label": "Next →",
+          "description": "Move to the next port"
+        },
+        {
+          "id": "dots",
+          "type": "button",
+          "label": "1-6",
+          "description": "Jump directly to a numbered port"
+        },
+        {
+          "id": "layers",
+          "type": "radio",
+          "label": "Base map",
+          "description": "Switch between street map, satellite, and OpenStreetMap tiles"
+        }
+      ],
+      "visualElements": [
+        {
+          "type": "shape",
+          "description": "Numbered pins for each of the six ports; the selected port is enlarged and gold",
+          "interactive": true
+        },
+        {
+          "type": "diagram",
+          "description": "Sea route legs: sailed legs solid navy, the current leg gold, future legs dashed blue",
+          "interactive": false
+        },
+        {
+          "type": "text-display",
+          "description": "Port detail card with dates, arrival and departure times, key sights, and a tip",
+          "interactive": false
+        }
+      ]
+    }
+  }
+}
