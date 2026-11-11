@@ -5,6 +5,8 @@ quality_score: 100
 image: /sims/viking-cruise-map/viking-cruise-map.png
 og:image: /sims/viking-cruise-map/viking-cruise-map.png
 status: implemented
+hide:
+  toc
 ---
 # Viking Cruise Map
 
