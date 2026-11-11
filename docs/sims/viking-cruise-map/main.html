@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Viking Cruise Map – Ancient Mediterranean Treasures (Nov 14–21, 2026)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Viking Star · Ancient Mediterranean Treasures</h1>
+  <span>Istanbul to Athens · November 14–21, 2026 · 7 nights</span>
+</header>
+<div id="map"></div>
+<aside id="panel">
+  <div id="detail"></div>
+  <div id="nav">
+    <div id="dots"></div>
+    <div class="btnrow">
+      <button id="prev">← Previous</button>
+      <button id="overview" class="ghost" title="Show the whole route">Whole route</button>
+      <button id="next">Next →</button>
+    </div>
+    <div class="hint">Tip: use the ← and → arrow keys, or click a numbered pin.</div>
+  </div>
+</aside>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="viking-cruise-map.js"></script>
+</body>
+</html>
