@@ -42,3 +42,21 @@
    Historical Timeline, and Bronze Age, which confirms the edges point the right way.
 7. **Index and nav** — `index.md` was rebuilt from `index-template.md` and the
    five report pages were added to the `nav:` block of `mkdocs.yml`.
+
+## Follow-up edit (same day)
+
+The author asked to record Turkish Delight and Saffron as foods we bought at
+the Spice Market (Spice Bazaar, ID 330).
+
+- **Turkish Delight** (ID 414) already existed; Spice Bazaar was added as a prerequisite.
+- **Saffron** was added as concept 596 (FOOD), with Spice Bazaar and Spice Trade as prerequisites.
+  It was appended to the end of the list so every existing ConceptID stays the same.
+- Regenerated the CSV, JSON, quality metrics, and distribution reports: 596 concepts, 937 edges,
+  still a valid single-component DAG.
+- **Eggplant** was added as concept 597 (FOOD), a favorite dish of the travelers, with Turkish
+  Cuisine and Greek Cuisine as prerequisites. Shared Greek-Turkish Dishes (ID 435) now also
+  depends on Eggplant, because eggplant dishes are a shared staple of both countries. The graph
+  now has 597 concepts and 940 edges and is still valid.
+- **Graffiti** was added as concept 598 (MODRN), for the street art we saw while driving around
+  Athens, with Daily Life in Athens and Greek Debt Crisis as prerequisites (Athens' graffiti
+  boomed during the crisis years). The graph now has 598 concepts and 942 edges and is still valid.

@@ -2,12 +2,12 @@
 
 ## Overview
 
-- **Total Concepts**: 595
+- **Total Concepts**: 598
 - **Foundational Concepts** (no prerequisites, other concepts depend on them): 16
-- **Terminal Nodes** (nothing depends on them, but have prerequisites): 190
+- **Terminal Nodes** (nothing depends on them, but have prerequisites): 191
 - **Orphaned Nodes** (completely disconnected, no edges): 0
-- **Concepts with Dependencies**: 579
-- **Average Dependencies per Concept**: 1.61
+- **Concepts with Dependencies**: 582
+- **Average Dependencies per Concept**: 1.62
 
 ## Graph Structure Validation
 
@@ -71,7 +71,7 @@ These concepts have no prerequisites:
 
 Terminal nodes are concepts that nothing else depends on but have prerequisites. They represent natural endpoints of learning paths — culminating or specialized concepts.
 
-- **Total Terminal Nodes**: 190 (31.9% of all concepts)
+- **Total Terminal Nodes**: 191 (31.9% of all concepts)
 - **Healthy Range**: 5-40% of total concepts
 
 Concepts at the end of learning paths:
@@ -97,7 +97,7 @@ Concepts at the end of learning paths:
 - **94**: Thera Eruption
 - **105**: Phaistos Disc
 
-*...and 170 more*
+*...and 171 more*
 
 ## Orphaned Nodes Analysis
 
@@ -121,11 +121,11 @@ Top 10 concepts that are prerequisites for the most other concepts:
 |------|-----------|---------------|----------|
 | 1 | 126 | Athens | 12 |
 | 2 | 522 | Paul as Change Case Study | 12 |
-| 3 | 552 | Learning for All | 10 |
-| 4 | 5 | Ancient Greece | 9 |
-| 5 | 53 | Thoughtful Traveler | 9 |
-| 6 | 187 | Ephesus | 9 |
-| 7 | 416 | Greek Cuisine | 9 |
+| 3 | 416 | Greek Cuisine | 10 |
+| 4 | 552 | Learning for All | 10 |
+| 5 | 5 | Ancient Greece | 9 |
+| 6 | 53 | Thoughtful Traveler | 9 |
+| 7 | 187 | Ephesus | 9 |
 | 8 | 443 | Oracle Consultation | 9 |
 | 9 | 9 | Islam | 8 |
 | 10 | 209 | Paul's Missionary Journeys | 8 |
@@ -135,10 +135,10 @@ Top 10 concepts that are prerequisites for the most other concepts:
 | Dependencies | Number of Concepts |
 |--------------|--------------------|
 | 0 | 16 |
-| 1 | 262 |
-| 2 | 284 |
-| 3 | 28 |
-| 4 | 5 |
+| 1 | 261 |
+| 2 | 288 |
+| 3 | 27 |
+| 4 | 6 |
 
 ## Recommendations
 

@@ -4,7 +4,7 @@ description: The numbered list of concepts covered in Mediterranean Travels, use
 ---
 # Concept List
 
-These 595 concepts make up the learning graph for *Mediterranean Travels*.
+These 598 concepts make up the learning graph for *Mediterranean Travels*.
 Each number is the concept's ConceptID in [learning-graph.csv](learning-graph.csv).
 
 1. Eastern Mediterranean
@@ -602,3 +602,6 @@ Each number is the concept's ConceptID in [learning-graph.csv](learning-graph.cs
 593. Education With Communities
 594. Good News Message
 595. Lessons Across the Route
+596. Saffron
+597. Eggplant
+598. Graffiti

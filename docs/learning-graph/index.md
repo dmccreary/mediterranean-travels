@@ -4,6 +4,10 @@ description: An introduction to the learning graph of 595 concepts that connects
 ---
 # Learning Graph for Mediterranean Travels
 
+[Open Learning Graph Viewer Fullscreen](../sims/graph-viewer/main.html){ .md-button .md-button--primary }
+
+<iframe src="../sims/graph-viewer/main.html" width="100%" height="600px" frameborder="0"></iframe>
+
 This section contains the learning graph for this textbook.  A learning graph is
 a graph of concepts used in this textbook.  Each concept is represented by a
 node in a network graph.  Concepts are connected by directed edges that indicate
@@ -60,7 +64,7 @@ It uses graph algorithms to look for specific quality patterns in the graph.
 - Graph structure validation - all concepts are connected
 - DAG validation (no cycles detected)
 - Foundational concepts: 16 entry points
-- 595 concepts and 934 dependency edges in a single connected graph
+- 598 concepts and 942 dependency edges in a single connected graph
 - Indegree distribution analysis
 - Longest dependency chains
 - Connectivity: percent of nodes connected to the main cluster

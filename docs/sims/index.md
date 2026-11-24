@@ -13,3 +13,6 @@ Plotly, Venn.js).
 - [Viking Cruise Map](viking-cruise-map/index.md) - an interactive map of the
   Istanbul-to-Athens cruise and our Delphi day trip, with times, key sights,
   and the route.
+- [Learning Graph Viewer](graph-viewer/index.md) - an interactive map of the
+  598 concepts in this guide and how they depend on each other, with search
+  and category filters.

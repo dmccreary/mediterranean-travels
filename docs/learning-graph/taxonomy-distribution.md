@@ -2,9 +2,9 @@
 
 ## Overview
 
-- **Total Concepts**: 595
+- **Total Concepts**: 598
 - **Number of Taxonomies**: 15
-- **Average Concepts per Taxonomy**: 39.7
+- **Average Concepts per Taxonomy**: 39.9
 
 ## Distribution Summary
 
@@ -12,16 +12,16 @@
 |----------|-----------|-------|------------|--------|
 | Paul and Early Christianity | PAUL | 56 | 9.4% | ✅ |
 | Foundations and Timeline | FOUND | 52 | 8.7% | ✅ |
-| Modern Turkey and Greece | MODRN | 51 | 8.6% | ✅ |
+| Modern Turkey and Greece | MODRN | 52 | 8.7% | ✅ |
 | Ottoman Empire and Islam | OTTO | 47 | 7.9% | ✅ |
 | Delphi and the Oracle | DELPH | 46 | 7.7% | ✅ |
-| Classical Greece and Athens | CLASS | 45 | 7.6% | ✅ |
-| Learning for All | LFA | 45 | 7.6% | ✅ |
+| Classical Greece and Athens | CLASS | 45 | 7.5% | ✅ |
+| Learning for All | LFA | 45 | 7.5% | ✅ |
 | Bronze Age Troy and Crete | BRONZ | 44 | 7.4% | ✅ |
-| Prediction and AI | PRED | 36 | 6.1% | ✅ |
-| Food and Drink | FOOD | 34 | 5.7% | ✅ |
+| Food and Drink | FOOD | 36 | 6.0% | ✅ |
+| Prediction and AI | PRED | 36 | 6.0% | ✅ |
 | Leadership and Change | LEAD | 33 | 5.5% | ✅ |
-| Thoughtful Travel and Etiquette | TRAV | 29 | 4.9% | ✅ |
+| Thoughtful Travel and Etiquette | TRAV | 29 | 4.8% | ✅ |
 | Hellenistic and Roman World | HELRO | 28 | 4.7% | ✅ |
 | Byzantium and Constantinople | BYZ | 28 | 4.7% | ✅ |
 | Knights and Venetians | MEDV | 21 | 3.5% | ✅ |
@@ -31,16 +31,16 @@
 ```
 Paul and Early Christiani ████  56 (  9.4%)
 Foundations and Timeline  ████  52 (  8.7%)
-Modern Turkey and Greece  ████  51 (  8.6%)
+Modern Turkey and Greece  ████  52 (  8.7%)
 Ottoman Empire and Islam  ███  47 (  7.9%)
 Delphi and the Oracle     ███  46 (  7.7%)
-Classical Greece and Athe ███  45 (  7.6%)
-Learning for All          ███  45 (  7.6%)
+Classical Greece and Athe ███  45 (  7.5%)
+Learning for All          ███  45 (  7.5%)
 Bronze Age Troy and Crete ███  44 (  7.4%)
-Prediction and AI         ███  36 (  6.1%)
-Food and Drink            ██  34 (  5.7%)
+Food and Drink            ███  36 (  6.0%)
+Prediction and AI         ███  36 (  6.0%)
 Leadership and Change     ██  33 (  5.5%)
-Thoughtful Travel and Eti ██  29 (  4.9%)
+Thoughtful Travel and Eti ██  29 (  4.8%)
 Hellenistic and Roman Wor ██  28 (  4.7%)
 Byzantium and Constantino ██  28 (  4.7%)
 Knights and Venetians     █  21 (  3.5%)
@@ -102,7 +102,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Modern Turkey and Greece (MODRN)
 
-**Count**: 51 concepts (8.6%)
+**Count**: 52 concepts (8.7%)
 
 **Concepts**:
 
@@ -121,7 +121,7 @@ All categories are under the 30% threshold. Good balance!
 - 363. Canakkale Today
 - 364. Greco-Turkish War
 - 365. Burning of Smyrna
-- *...and 36 more*
+- *...and 37 more*
 
 ### Ottoman Empire and Islam (OTTO)
 
@@ -171,7 +171,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Classical Greece and Athens (CLASS)
 
-**Count**: 45 concepts (7.6%)
+**Count**: 45 concepts (7.5%)
 
 **Concepts**:
 
@@ -194,7 +194,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Learning for All (LFA)
 
-**Count**: 45 concepts (7.6%)
+**Count**: 45 concepts (7.5%)
 
 **Concepts**:
 
@@ -238,9 +238,32 @@ All categories are under the 30% threshold. Good balance!
 - 96. Mycenaean Greeks
 - *...and 29 more*
 
+### Food and Drink (FOOD)
+
+**Count**: 36 concepts (6.0%)
+
+**Concepts**:
+
+- 402. Food as History
+- 403. Turkish Cuisine
+- 404. Ottoman Palace Kitchen
+- 405. Turkish Breakfast
+- 406. Simit
+- 407. Turkish Tea
+- 408. Turkish Coffee
+- 409. Meze
+- 410. Raki
+- 411. Kebab
+- 412. Balik Ekmek
+- 413. Baklava
+- 414. Turkish Delight
+- 415. Spice Trade
+- 416. Greek Cuisine
+- *...and 21 more*
+
 ### Prediction and AI (PRED)
 
-**Count**: 36 concepts (6.1%)
+**Count**: 36 concepts (6.0%)
 
 **Concepts**:
 
@@ -260,29 +283,6 @@ All categories are under the 30% threshold. Good balance!
 - 495. Oracle as Data Hub
 - 496. Interpreting Ambiguous Answers
 - *...and 21 more*
-
-### Food and Drink (FOOD)
-
-**Count**: 34 concepts (5.7%)
-
-**Concepts**:
-
-- 402. Food as History
-- 403. Turkish Cuisine
-- 404. Ottoman Palace Kitchen
-- 405. Turkish Breakfast
-- 406. Simit
-- 407. Turkish Tea
-- 408. Turkish Coffee
-- 409. Meze
-- 410. Raki
-- 411. Kebab
-- 412. Balik Ekmek
-- 413. Baklava
-- 414. Turkish Delight
-- 415. Spice Trade
-- 416. Greek Cuisine
-- *...and 19 more*
 
 ### Leadership and Change (LEAD)
 
@@ -309,7 +309,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Thoughtful Travel and Etiquette (TRAV)
 
-**Count**: 29 concepts (4.9%)
+**Count**: 29 concepts (4.8%)
 
 **Concepts**:
 
