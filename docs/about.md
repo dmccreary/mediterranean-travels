@@ -35,6 +35,14 @@ term is explained when it first appears.
 Cruise port times come from cruise-agency listings and can change. Confirm them
 with Viking, and check opening hours locally, since November is off-season.
 
+## Color Theme: Terracotta and Olive
+
+The site's colors come from the places on the trip: roof tiles, amphorae, and
+olive groves. Terracotta, the color of fired clay, runs through the header and
+the links. Olive green, the color of the groves along the Aegean coast and of
+Glaux the owl's satchel, highlights a link when you point at it. Together
+they make a warm, earthy palette that belongs to both Turkey and Greece.
+
 ## Author
 
 Dan McCreary

@@ -25,3 +25,7 @@ Thumbs.db
 
 # Google Takeout exports (read by scripts/google_photos_takeout.py)
 takeout/
+
+# ElevenLabs API key (written by `elevenlabs onboard`); never commit
+.env.local
+.env

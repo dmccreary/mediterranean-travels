@@ -1,0 +1,7 @@
+# Raw Google Takeout export (4+ GB of personal photos and videos).
+# Keep it local; only the small profiling results in this folder are committed.
+takeout/
+*.zip
+
+# Contact sheets and thumbnails are copies of the private photos.
+contact-sheets/

@@ -1,0 +1,234 @@
+{
+  "album_title": "Ann & Dan Eastern Mediterranean Cruise 2026",
+  "profiled_on": "2026-11-24",
+  "timezone": "Europe/Athens",
+  "files": {
+    "total_files": 2934,
+    "media_files": 1468,
+    "sidecar_files": 1465,
+    "album_metadata_file": true,
+    "media_without_sidecar": [
+      "IMG_1092-edited.HEIC",
+      "IMG_1803-edited.HEIC",
+      "IMG_1827-edited.HEIC"
+    ],
+    "sidecars_without_media": [],
+    "by_extension": {
+      "heic": 1444,
+      "mov": 15,
+      "jpeg": 7,
+      "png": 2
+    },
+    "photos": 1453,
+    "videos": 15,
+    "total_bytes": 4757852561,
+    "bytes_by_type": {
+      "photo": {
+        "count": 1453,
+        "total": 4518488805,
+        "min": 223291,
+        "median": 2871753,
+        "mean": 3109765.2,
+        "max": 13839185
+      },
+      "video": {
+        "count": 15,
+        "total": 239363756,
+        "min": 1664419,
+        "median": 14090615,
+        "mean": 15957583.7,
+        "max": 36145817
+      }
+    },
+    "largest_files": [
+      {
+        "file": "IMG_0539.MOV",
+        "bytes": 36145817
+      },
+      {
+        "file": "IMG_1302.MOV",
+        "bytes": 33360261
+      },
+      {
+        "file": "IMG_1303.MOV",
+        "bytes": 32223545
+      },
+      {
+        "file": "IMG_0603.MOV",
+        "bytes": 24289236
+      },
+      {
+        "file": "IMG_0738.MOV",
+        "bytes": 19006805
+      }
+    ],
+    "exact_duplicate_groups": []
+  },
+  "time": {
+    "items_with_taken_time": 1465,
+    "first_item": "2026-11-11T18:39:27+02:00",
+    "last_item": "2026-11-24T17:28:44+02:00",
+    "days_covered": 14,
+    "average_items_per_day": 104.6,
+    "per_day": {
+      "2026-11-11": 1,
+      "2026-11-12": 10,
+      "2026-11-13": 234,
+      "2026-11-14": 12,
+      "2026-11-15": 52,
+      "2026-11-16": 116,
+      "2026-11-17": 156,
+      "2026-11-18": 175,
+      "2026-11-19": 175,
+      "2026-11-20": 124,
+      "2026-11-21": 169,
+      "2026-11-22": 235,
+      "2026-11-23": 4,
+      "2026-11-24": 2
+    },
+    "busiest_day": [
+      "2026-11-22",
+      235
+    ],
+    "quietest_day": [
+      "2026-11-11",
+      1
+    ],
+    "per_hour": {
+      "0": 0,
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 2,
+      "6": 15,
+      "7": 18,
+      "8": 163,
+      "9": 337,
+      "10": 124,
+      "11": 128,
+      "12": 122,
+      "13": 126,
+      "14": 136,
+      "15": 140,
+      "16": 103,
+      "17": 5,
+      "18": 16,
+      "19": 12,
+      "20": 7,
+      "21": 7,
+      "22": 1,
+      "23": 0
+    },
+    "items_sharing_a_timestamp": 36,
+    "upload_delay_minutes": {
+      "min": 1.7,
+      "median": 8664.4,
+      "mean": 8769.9,
+      "max": 18132.8
+    }
+  },
+  "fields": {
+    "geotagged": 1350,
+    "geotagged_pct": 92.0,
+    "exif_geotagged": 1350,
+    "with_description": 17,
+    "people_tags_per_item": {
+      "0": 1307,
+      "1": 80,
+      "2": 67,
+      "3": 8,
+      "4": 2,
+      "5": 1
+    },
+    "distinct_people_tagged": 9,
+    "views": {
+      "min": 0,
+      "median": 1.0,
+      "mean": 0.8,
+      "max": 11
+    },
+    "never_viewed": 603,
+    "device_types": {
+      "IOS_PHONE": 1464,
+      "(none)": 3,
+      "webUpload": 1
+    }
+  },
+  "location": {
+    "coordinate_precision": "rounded to 2 decimals (~1 km)",
+    "bounding_box": {
+      "lat_min": 35.12,
+      "lat_max": 50.06,
+      "lon_min": -87.91,
+      "lon_max": 29.05
+    },
+    "per_day_centroid": {
+      "2026-11-12": {
+        "lat": 46.68,
+        "lon": -6.68,
+        "geotagged_items": 5
+      },
+      "2026-11-13": {
+        "lat": 41.01,
+        "lon": 28.98,
+        "geotagged_items": 214
+      },
+      "2026-11-14": {
+        "lat": 41.04,
+        "lon": 29.0,
+        "geotagged_items": 12
+      },
+      "2026-11-15": {
+        "lat": 41.02,
+        "lon": 28.97,
+        "geotagged_items": 51
+      },
+      "2026-11-16": {
+        "lat": 40.03,
+        "lon": 26.3,
+        "geotagged_items": 108
+      },
+      "2026-11-17": {
+        "lat": 37.93,
+        "lon": 27.33,
+        "geotagged_items": 156
+      },
+      "2026-11-18": {
+        "lat": 36.45,
+        "lon": 28.22,
+        "geotagged_items": 172
+      },
+      "2026-11-19": {
+        "lat": 35.3,
+        "lon": 25.18,
+        "geotagged_items": 166
+      },
+      "2026-11-20": {
+        "lat": 37.87,
+        "lon": 23.82,
+        "geotagged_items": 122
+      },
+      "2026-11-21": {
+        "lat": 37.98,
+        "lon": 23.73,
+        "geotagged_items": 167
+      },
+      "2026-11-22": {
+        "lat": 38.44,
+        "lon": 22.63,
+        "geotagged_items": 172
+      },
+      "2026-11-23": {
+        "lat": 37.97,
+        "lon": 23.73,
+        "geotagged_items": 4
+      },
+      "2026-11-24": {
+        "lat": 43.68,
+        "lon": -79.61,
+        "geotagged_items": 1
+      }
+    }
+  }
+}

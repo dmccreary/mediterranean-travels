@@ -1,0 +1,18 @@
+chapter,sheet_number,file,place,score,aesthetic,views,edited,described,orientation,taken_local,labels
+03,1,IMG_0595.HEIC,Blue Mosque,0.642,0.6,1,False,False,landscape,2026-11-13T16:28+02:00,structure; arch; art
+03,2,IMG_0671.HEIC,Istanbul (general),0.572,0.53,1,False,False,landscape,2026-11-15T09:42+02:00,structure; arch; art
+03,3,IMG_0518.HEIC,Istanbul (general),0.552,0.51,1,False,False,landscape,2026-11-13T13:38+02:00,people; adult; clothing
+04,1,IMG_0446.HEIC,Hagia Sophia,0.542,0.5,1,False,False,landscape,2026-11-13T09:20+02:00,structure; people; adult
+05,1,IMG_0595.HEIC,Blue Mosque,0.642,0.6,1,False,False,landscape,2026-11-13T16:28+02:00,structure; arch; art
+08,1,IMG_0746.HEIC,Troy,0.5,0.5,0,False,False,landscape,2026-11-16T11:51+02:00,outdoor; sky; blue_sky
+09,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
+09,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
+10,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
+10,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
+11,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
+11,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
+12,1,IMG_1030.HEIC,Palace of the Grand Master,0.54,0.54,0,False,False,landscape,2026-11-18T09:24+02:00,structure; people; adult
+14,1,IMG_1316.HEIC,Crete countryside,0.422,0.38,1,False,False,landscape,2026-11-19T19:18+02:00,tableware; utensil; plate
+15,1,IMG_1386.HEIC,Acropolis,0.562,0.52,1,False,False,landscape,2026-11-20T15:18+02:00,outdoor; sky; cloudy
+20,1,IMG_1597.HEIC,Athens (general),0.576,0.51,2,False,False,landscape,2026-11-21T18:54+02:00,outdoor; sky; night_sky
+20,2,IMG_1527.HEIC,National Archaeological Museum,0.556,0.49,2,False,False,landscape,2026-11-21T14:03+02:00,art; statue; interior_room

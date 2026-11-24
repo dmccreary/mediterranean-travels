@@ -1,0 +1,49 @@
+{
+  "_comment": "Landmark coordinates used by scripts/select_chapter_photos.py to sort trip photos into chapters. A photo goes to the NEAREST place whose radius contains it (smaller, more specific places win ties because they are closer). 'chapters' lists every chapter the place can illustrate; an empty list means 'not covered by a chapter yet' and the photos land on the extras sheet. Coordinates are public landmark locations, not photo locations.",
+  "places": [
+    {"name": "Hagia Sophia", "lat": 41.0086, "lon": 28.9802, "radius_m": 140, "chapters": ["04"]},
+    {"name": "Basilica Cistern", "lat": 41.0084, "lon": 28.9779, "radius_m": 70, "chapters": ["04"]},
+    {"name": "Hippodrome", "lat": 41.0063, "lon": 28.9753, "radius_m": 120, "chapters": ["04"]},
+    {"name": "Blue Mosque", "lat": 41.0054, "lon": 28.9768, "radius_m": 140, "chapters": ["05", "03"]},
+    {"name": "Topkapı Palace", "lat": 41.0115, "lon": 28.9834, "radius_m": 350, "chapters": ["05"]},
+    {"name": "Süleymaniye Mosque", "lat": 41.0162, "lon": 28.9640, "radius_m": 200, "chapters": ["05"]},
+    {"name": "Grand Bazaar", "lat": 41.0107, "lon": 28.9680, "radius_m": 250, "chapters": ["06"]},
+    {"name": "Spice Bazaar", "lat": 41.0166, "lon": 28.9706, "radius_m": 160, "chapters": ["06"]},
+    {"name": "Dolmabahçe Palace", "lat": 41.0391, "lon": 29.0004, "radius_m": 350, "chapters": ["07"]},
+    {"name": "Bosphorus and Ortaköy", "lat": 41.0478, "lon": 29.0270, "radius_m": 1500, "chapters": ["03"]},
+    {"name": "Istanbul (general)", "lat": 41.0200, "lon": 28.9800, "radius_m": 8000, "chapters": ["03"]},
+
+    {"name": "Troy", "lat": 39.9575, "lon": 26.2389, "radius_m": 1500, "chapters": ["08"]},
+    {"name": "Çanakkale and the Dardanelles", "lat": 40.1300, "lon": 26.3900, "radius_m": 25000, "chapters": ["08"]},
+
+    {"name": "Ephesus", "lat": 37.9395, "lon": 27.3417, "radius_m": 1500, "chapters": ["10", "09", "11"]},
+    {"name": "Selçuk", "lat": 37.9502, "lon": 27.3683, "radius_m": 1500, "chapters": ["09", "10"]},
+    {"name": "Kuşadası", "lat": 37.8600, "lon": 27.2600, "radius_m": 4000, "chapters": ["10"]},
+
+    {"name": "Palace of the Grand Master", "lat": 36.4458, "lon": 28.2236, "radius_m": 120, "chapters": ["12"]},
+    {"name": "Rhodes Old Town", "lat": 36.4449, "lon": 28.2269, "radius_m": 1500, "chapters": ["12"]},
+    {"name": "Lindos", "lat": 36.0917, "lon": 28.0876, "radius_m": 2000, "chapters": ["12"]},
+
+    {"name": "Knossos", "lat": 35.2980, "lon": 25.1631, "radius_m": 700, "chapters": ["13"]},
+    {"name": "Heraklion Archaeological Museum", "lat": 35.3389, "lon": 25.1375, "radius_m": 110, "chapters": ["13"]},
+    {"name": "Koules Fortress", "lat": 35.3434, "lon": 25.1360, "radius_m": 200, "chapters": ["14"]},
+    {"name": "Heraklion (general)", "lat": 35.3387, "lon": 25.1442, "radius_m": 3000, "chapters": ["14"]},
+    {"name": "Crete countryside", "lat": 35.1800, "lon": 25.2700, "radius_m": 25000, "chapters": ["14"]},
+
+    {"name": "Acropolis", "lat": 37.9715, "lon": 23.7257, "radius_m": 330, "chapters": ["15"]},
+    {"name": "Acropolis Museum", "lat": 37.9685, "lon": 23.7285, "radius_m": 110, "chapters": ["15", "20"]},
+    {"name": "Areopagus", "lat": 37.9723, "lon": 23.7235, "radius_m": 70, "chapters": ["16"]},
+    {"name": "Ancient Agora", "lat": 37.9755, "lon": 23.7225, "radius_m": 260, "chapters": ["16"]},
+    {"name": "Roman Agora", "lat": 37.9744, "lon": 23.7262, "radius_m": 90, "chapters": ["16"]},
+    {"name": "National Archaeological Museum", "lat": 37.9890, "lon": 23.7322, "radius_m": 200, "chapters": ["20"]},
+    {"name": "Athens (general)", "lat": 37.9780, "lon": 23.7320, "radius_m": 6000, "chapters": ["20"]},
+    {"name": "Cape Sounion", "lat": 37.6503, "lon": 24.0246, "radius_m": 2500, "chapters": []},
+
+    {"name": "Delphi Sanctuary", "lat": 38.4824, "lon": 22.5010, "radius_m": 600, "chapters": ["18", "17"]},
+    {"name": "Delphi Museum", "lat": 38.4805, "lon": 22.4960, "radius_m": 150, "chapters": ["18", "17"]},
+    {"name": "Arachova", "lat": 38.4795, "lon": 22.5850, "radius_m": 3000, "chapters": ["18"]},
+
+    {"name": "Frankfurt Airport", "lat": 50.0379, "lon": 8.5622, "radius_m": 5000, "chapters": ["02"]},
+    {"name": "Toronto Pearson Airport", "lat": 43.6777, "lon": -79.6248, "radius_m": 5000, "chapters": ["21"]}
+  ]
+}

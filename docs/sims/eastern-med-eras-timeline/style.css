@@ -1,0 +1,167 @@
+/* Eras of the Eastern Mediterranean Timeline - styles */
+:root {
+    --ink: #1d2a33;
+    --muted: #5d6d78;
+    --line: #dde4e8;
+    --paper: #fbfaf7;
+    --terracotta: #A4482A;
+    --olive: #6B7A3A;
+    --good: #2f7d4a;
+    --bad: #a4282a;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+}
+
+header {
+    background: var(--terracotta);
+    color: #fff;
+    padding: 8px 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+header .sub { font-size: 13px; opacity: 0.85; }
+#score { margin-left: auto; font-weight: 600; font-size: 14px; }
+
+#toolbar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--line);
+}
+#window-label { margin-left: auto; color: var(--muted); font-size: 12px; }
+
+button {
+    font: inherit;
+    font-size: 13px;
+    padding: 4px 10px;
+    border: 1px solid #b9c3c9;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+}
+button:hover:not(:disabled) { border-color: var(--olive); background: #f3f5ec; }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--olive); border-color: var(--olive); color: #fff; }
+button.primary:hover:not(:disabled) { background: #5a6831; }
+
+/* ---------- timeline ---------- */
+#timeline { background: #fff; border-bottom: 1px solid var(--line); }
+.vis-timeline { border: none !important; font-size: 12px; }
+.vis-labelset .vis-label .vis-inner { font-weight: 600; color: var(--muted); padding: 4px 6px; }
+.vis-time-axis .vis-text { color: var(--muted); }
+
+/* Let labels of narrow bands and events spill past their boxes */
+.vis-item .vis-item-content { white-space: nowrap !important; padding: 2px 6px !important; }
+.vis-item .vis-item-overflow { overflow: visible !important; }
+.vis-panel.vis-center, .vis-panel.vis-center .vis-content { overflow: visible; }
+
+/* Era bands */
+.vis-item.era {
+    border-radius: 3px;
+    border-width: 1px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.vis-item.era .vis-item-content { text-shadow: 0 0 2px #000, 0 0 3px #000; }
+.vis-item.era.dark-text .vis-item-content { color: #1d2a33; text-shadow: 0 0 2px #fff, 0 0 3px #fff; }
+.vis-item.era.dim { opacity: 0.35; }
+.vis-item.era.hl { box-shadow: 0 0 0 3px #1d2a33; z-index: 3; opacity: 1; }
+.vis-item.vis-selected.era { box-shadow: 0 0 0 3px #f2c14e; }
+
+/* The Modern band is very short, so its label sits to the left of the bar */
+.vis-item.event.vis-point.label-left .vis-item-content > span {
+    display: inline-block;
+    transform: translateX(calc(-100% - 22px));
+}
+.vis-item.event.vis-range.label-left .vis-item-content > span {
+    display: inline-block;
+    transform: translateX(calc(-100% - 12px));
+}
+.vis-item.era.label-left .vis-item-content > span {
+    display: inline-block;
+    transform: translateX(calc(-100% - 12px));
+}
+/* No divider lines between the three era rows or between event rows */
+.vis-foreground .vis-group.era-row, .vis-labelset .vis-label.era-row,
+.vis-foreground .vis-group.ev-row, .vis-labelset .vis-label.ev-row { border-bottom: none; }
+.vis-foreground .vis-group.era-row-last, .vis-labelset .vis-label.era-row-last { border-bottom: 1px solid #bfbfbf; }
+
+/* Background shading behind each era */
+.vis-item.vis-background.era-bg { opacity: 0.12; }
+
+/* Events */
+.vis-item.event {
+    background: #fff;
+    border-color: #5d6d78;
+    color: var(--ink);
+    cursor: pointer;
+}
+.vis-item.event.vis-range { background: #eef1f3; border-radius: 3px; height: 16px; line-height: 12px; }
+.vis-item.event.vis-range .vis-item-content { padding: 1px 6px !important; }
+.vis-item.event.vis-point .vis-item-content { padding: 0 4px !important; }
+.vis-item.event.vis-dot { border-color: #5d6d78; }
+.vis-item.event.hl { border-color: var(--terracotta); color: var(--terracotta); font-weight: 700; }
+.vis-item.vis-dot.event.hl { border-width: 5px; border-radius: 5px; }
+.vis-item.event.vis-range.hl { background: #f8e6df; }
+.vis-item.vis-selected.event { background: #fff4d6; border-color: #c8963e; }
+
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: #fff !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    max-width: 280px !important;
+    white-space: normal !important;
+    line-height: 1.35 !important;
+    border: none !important;
+}
+
+/* ---------- lower panels ---------- */
+#lower {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+    padding: 8px 10px 10px;
+}
+@media (max-width: 600px) {
+    #lower { grid-template-columns: 1fr; }
+}
+#quiz, #details {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 12px;
+    min-height: 190px;
+}
+#q-count { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+#q-text { font-weight: 600; margin: 4px 0 8px; line-height: 1.35; }
+#choices { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+#choices button:disabled { opacity: 1; }
+#choices button.correct { background: #e3f1e7; border-color: var(--good); color: var(--good); font-weight: 600; }
+#choices button.wrong { background: #f8e3e3; border-color: var(--bad); color: var(--bad); }
+#feedback { min-height: 38px; line-height: 1.35; margin-bottom: 8px; }
+#feedback .verdict-good { color: var(--good); font-weight: 700; }
+#feedback .verdict-bad { color: var(--bad); font-weight: 700; }
+#feedback .final { display: block; margin-top: 6px; font-weight: 600; }
+.row { display: flex; gap: 6px; }
+
+#details h2 { font-size: 15px; margin: 0 0 2px; }
+#details .when { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+#details p { margin: 4px 0; line-height: 1.35; }
+#details .note { font-size: 12px; color: var(--muted); font-style: italic; }
+#details a { color: var(--terracotta); }
+#details .placeholder { color: var(--muted); font-style: italic; }
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: baseline; }

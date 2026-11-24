@@ -1,0 +1,85 @@
+{
+  "album_title": "Ann & Dan Eastern Mediterranean Cruise 2026",
+  "timezone": "Europe/Athens",
+  "generated": "2026-11-24",
+  "total_items": 1465,
+  "photos": 1450,
+  "videos": 15,
+  "geotagged_items": 1350,
+  "first_item": "2026-11-11T18:39:27+02:00",
+  "last_item": "2026-11-24T17:28:44+02:00",
+  "days_covered": 14,
+  "average_items_per_day": 104.6,
+  "per_day": [
+    {
+      "date": "2026-11-11",
+      "items": 1,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-12",
+      "items": 10,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-13",
+      "items": 234,
+      "videos": 10
+    },
+    {
+      "date": "2026-11-14",
+      "items": 12,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-15",
+      "items": 52,
+      "videos": 1
+    },
+    {
+      "date": "2026-11-16",
+      "items": 116,
+      "videos": 1
+    },
+    {
+      "date": "2026-11-17",
+      "items": 156,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-18",
+      "items": 175,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-19",
+      "items": 175,
+      "videos": 2
+    },
+    {
+      "date": "2026-11-20",
+      "items": 124,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-21",
+      "items": 169,
+      "videos": 1
+    },
+    {
+      "date": "2026-11-22",
+      "items": 235,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-23",
+      "items": 4,
+      "videos": 0
+    },
+    {
+      "date": "2026-11-24",
+      "items": 2,
+      "videos": 0
+    }
+  ]
+}
