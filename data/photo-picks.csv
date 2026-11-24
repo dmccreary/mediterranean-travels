@@ -18,27 +18,27 @@ chapter,order,file,place,draft_caption,credit,taken_local,orientation,web_path
 03,6,IMG_0487.HEIC,Istanbul (general),A Turkish lunch of meze,Dan McCreary,2026-11-13T10:38+02:00,landscape,docs/chapters/03-istanbul-two-continents/img/turkish-lunch-meze.jpg
 03,7,IMG_0387.HEIC,Istanbul (general),Olives at a Turkish breakfast,Dan McCreary,2026-11-13T06:29+02:00,landscape,docs/chapters/03-istanbul-two-continents/img/olives-turkish-breakfast.jpg
 03,8,IMG_0631.HEIC,Istanbul (general),Gulls rafting on the Bosphorus,Dan McCreary,2026-11-14T12:32+02:00,landscape,docs/chapters/03-istanbul-two-continents/img/gulls-rafting-bosphorus.jpg
-04,1,IMG_0443.HEIC,Hagia Sophia,"Mosaic of the Virgin and Child with Emperor John II Komnenos and Empress Irene, 12th century, Hagia Sophia",Dan McCreary,2026-11-13T09:19+02:00,landscape,
-04,2,IMG_0424.HEIC,Hagia Sophia,"Calligraphic roundel naming the caliph Uthman, Hagia Sophia",Dan McCreary,2026-11-13T08:52+02:00,landscape,
-04,3,IMG_0440.HEIC,Hagia Sophia,Arcades of the Hagia Sophia gallery,Dan McCreary,2026-11-13T09:14+02:00,landscape,
-04,4,IMG_0427.HEIC,Hagia Sophia,Column capitals in Hagia Sophia,Dan McCreary,2026-11-13T08:55+02:00,landscape,
-04,5,IMG_0460.HEIC,Basilica Cistern,"Columns of the Basilica Cistern, 532 CE",Dan McCreary,2026-11-13T09:37+02:00,landscape,
-04,6,IMG_0454.HEIC,Basilica Cistern,Lit columns of the Basilica Cistern,Dan McCreary,2026-11-13T09:34+02:00,landscape,
-04,7,IMG_0447.HEIC,Hagia Sophia,Ottoman ablution fountain in the Hagia Sophia courtyard,Dan McCreary,2026-11-13T09:20+02:00,landscape,
-05,1,IMG_0599.HEIC,Blue Mosque,Prayer hall and domes of the Sultan Ahmed (Blue) Mosque,Dan McCreary,2026-11-13T16:29+02:00,landscape,
-05,2,IMG_0615.HEIC,Blue Mosque,The Blue Mosque's minarets at dusk,Dan McCreary,2026-11-13T16:39+02:00,landscape,
-05,3,IMG_0598.HEIC,Blue Mosque,"Painted dome and stained-glass windows, Blue Mosque",Dan McCreary,2026-11-13T16:29+02:00,landscape,
-05,4,IMG_0586.HEIC,Blue Mosque,Iznik-tiled galleries of the Blue Mosque,Dan McCreary,2026-11-13T16:16+02:00,landscape,
-05,5,IMG_0590.HEIC,Blue Mosque,A hanging egg-shaped ornament in the Blue Mosque,Dan McCreary,2026-11-13T16:19+02:00,landscape,
-05,6,IMG_0407.HEIC,Hagia Sophia,"The Imperial Gate (Bab-ı Hümayun), entrance to Topkapı Palace",Dan McCreary,2026-11-13T08:33+02:00,landscape,
-06,1,IMG_0646.HEIC,Spice Bazaar,Towers of ground spices in the Spice Bazaar,Dan McCreary,2026-11-15T08:50+02:00,landscape,
-06,2,IMG_0655.HEIC,Spice Bazaar,The vaulted main hall of the Spice Bazaar,Dan McCreary,2026-11-15T09:02+02:00,landscape,
-06,3,IMG_0651.HEIC,Spice Bazaar,A bazaar cat among evil-eye (nazar) charms,Dan McCreary,2026-11-15T08:53+02:00,landscape,
-06,4,IMG_0543.HEIC,Grand Bazaar,Rolls of pistachio Turkish delight,Dan McCreary,2026-11-13T15:00+02:00,landscape,
-06,5,IMG_0536.HEIC,Grand Bazaar,Jars of spices and teas,Dan McCreary,2026-11-13T14:57+02:00,landscape,
-06,6,IMG_0574.HEIC,Grand Bazaar,Gold jewelry in the Grand Bazaar,Dan McCreary,2026-11-13T15:21+02:00,landscape,
-06,7,IMG_0658.HEIC,Spice Bazaar,A dried-fruit and spice stall,Dan McCreary,2026-11-15T09:03+02:00,landscape,
-06,8,IMG_0527.HEIC,Grand Bazaar,A gate of the Grand Bazaar (verify),Dan McCreary,2026-11-13T14:53+02:00,landscape,
+04,1,IMG_0443.HEIC,Hagia Sophia,"Mosaic of the Virgin and Child with Emperor John II Komnenos and Empress Irene, 12th century, Hagia Sophia",Dan McCreary,2026-11-13T09:19+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/mosaic-virgin-child-emperor-john.jpg
+04,2,IMG_0424.HEIC,Hagia Sophia,"Calligraphic roundel naming the caliph Uthman, Hagia Sophia",Dan McCreary,2026-11-13T08:52+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/calligraphic-roundel-naming-caliph-uthman.jpg
+04,3,IMG_0440.HEIC,Hagia Sophia,Arcades of the Hagia Sophia gallery,Dan McCreary,2026-11-13T09:14+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/arcades-hagia-sophia-gallery.jpg
+04,4,IMG_0427.HEIC,Hagia Sophia,Column capitals in Hagia Sophia,Dan McCreary,2026-11-13T08:55+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/column-capitals-hagia-sophia.jpg
+04,5,IMG_0460.HEIC,Basilica Cistern,"Columns of the Basilica Cistern, 532 CE",Dan McCreary,2026-11-13T09:37+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/columns-basilica-cistern-532-ce.jpg
+04,6,IMG_0454.HEIC,Basilica Cistern,Lit columns of the Basilica Cistern,Dan McCreary,2026-11-13T09:34+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/lit-columns-basilica-cistern.jpg
+04,7,IMG_0447.HEIC,Hagia Sophia,Ottoman ablution fountain in the Hagia Sophia courtyard,Dan McCreary,2026-11-13T09:20+02:00,landscape,docs/chapters/04-byzantine-constantinople/img/ottoman-ablution-fountain-hagia-sophia.jpg
+05,1,IMG_0599.HEIC,Blue Mosque,Prayer hall and domes of the Sultan Ahmed (Blue) Mosque,Dan McCreary,2026-11-13T16:29+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/prayer-hall-domes-sultan-ahmed.jpg
+05,2,IMG_0615.HEIC,Blue Mosque,The Blue Mosque's minarets in the late afternoon,Dan McCreary,2026-11-13T16:39+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/blue-mosque-s-minarets-late.jpg
+05,3,IMG_0598.HEIC,Blue Mosque,"Painted dome and stained-glass windows, Blue Mosque",Dan McCreary,2026-11-13T16:29+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/painted-dome-stained-glass-windows.jpg
+05,4,IMG_0586.HEIC,Blue Mosque,Iznik-tiled galleries of the Blue Mosque,Dan McCreary,2026-11-13T16:16+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/iznik-tiled-galleries-blue-mosque.jpg
+05,5,IMG_0590.HEIC,Blue Mosque,A hanging egg-shaped ornament in the Blue Mosque,Dan McCreary,2026-11-13T16:19+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/hanging-egg-shaped-ornament-blue.jpg
+05,6,IMG_0407.HEIC,Hagia Sophia,"The Imperial Gate (Bab-ı Hümayun), entrance to Topkapı Palace",Dan McCreary,2026-11-13T08:33+02:00,landscape,docs/chapters/05-ottoman-istanbul/img/imperial-gate-bab-i-humayun.jpg
+06,1,IMG_0646.HEIC,Spice Bazaar,Towers of ground spices in the Spice Bazaar,Dan McCreary,2026-11-15T08:50+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/towers-ground-spices-spice-bazaar.jpg
+06,2,IMG_0655.HEIC,Spice Bazaar,The vaulted main hall of the Spice Bazaar,Dan McCreary,2026-11-15T09:02+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/vaulted-main-hall-spice-bazaar.jpg
+06,3,IMG_0651.HEIC,Spice Bazaar,A bazaar cat among evil-eye (nazar) charms,Dan McCreary,2026-11-15T08:53+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/bazaar-cat-among-evil-eye.jpg
+06,4,IMG_0543.HEIC,Grand Bazaar,Rolls of pistachio Turkish delight,Dan McCreary,2026-11-13T15:00+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/rolls-pistachio-turkish-delight.jpg
+06,5,IMG_0536.HEIC,Grand Bazaar,Jars of spices and teas,Dan McCreary,2026-11-13T14:57+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/jars-spices-teas.jpg
+06,6,IMG_0574.HEIC,Grand Bazaar,Gold jewelry in the Grand Bazaar,Dan McCreary,2026-11-13T15:21+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/gold-jewelry-grand-bazaar.jpg
+06,7,IMG_0658.HEIC,Spice Bazaar,A dried-fruit and spice stall,Dan McCreary,2026-11-15T09:03+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/dried-fruit-spice-stall.jpg
+06,8,IMG_0527.HEIC,Grand Bazaar,An Ottoman stone gateway near the Grand Bazaar,Dan McCreary,2026-11-13T14:53+02:00,landscape,docs/chapters/06-bazaars-scripts-presses/img/ottoman-stone-gateway-near-grand.jpg
 08,1,IMG_0796.HEIC,Troy,The wooden horse replica at the archaeological site of Troy,Dan McCreary,2026-11-16T12:44+02:00,landscape,
 08,2,IMG_0737.HEIC,Troy,Excavated walls of Troy,Dan McCreary,2026-11-16T11:38+02:00,landscape,
 08,3,IMG_0741.HEIC,Troy,The odeon (small theater) at Troy,Dan McCreary,2026-11-16T11:46+02:00,landscape,
