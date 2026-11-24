@@ -22,3 +22,6 @@ Thumbs.db
 .vscode/
 .idea/
 ~$*
+
+# Google Takeout exports (read by scripts/google_photos_takeout.py)
+takeout/

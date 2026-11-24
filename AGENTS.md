@@ -46,6 +46,8 @@ docs/learning-graph/        concept list, taxonomy, dependency graph, metrics
 docs/sims/                  MicroSims, one directory per sim
 docs/css/extra.css          custom CSS (status indicators, iframe styles)
 docs/img/                   cover image, license badge, mascot poses
+docs/data/                  generated data (photo-metrics.json)
+scripts/google_photos_takeout.py  Google Photos connector: Takeout export -> docs/photos.md metrics
 ```
 
 ## Build and serve rules

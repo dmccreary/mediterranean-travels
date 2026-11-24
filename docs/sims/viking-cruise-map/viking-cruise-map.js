@@ -1,12 +1,13 @@
 // Viking Cruise Map MicroSim - Leaflet.js
 // CANVAS_HEIGHT: 640
 // Interactive port-by-port map of the Viking Star "Ancient Mediterranean
-// Treasures" cruise, Istanbul to Athens, November 14-21, 2026.
+// Treasures" cruise, Istanbul to Athens, November 14-21, 2026, plus our
+// overland day trip from Athens to Delphi on November 22.
 // Click a numbered pin, a numbered dot, or use Previous/Next (or the arrow keys)
 // to step through the ports. Each leg of the sea route is highlighted as you go.
 
 // ---------- Cruise data ----------
-// "leg" is the approximate sea track sailed to reach this stop from the previous one.
+// "leg" is the approximate track (sea route, or road for Delphi) to reach this stop from the previous one.
 const stops = [
   {
     name: "Istanbul", country: "Turkey", coords: [41.0256, 28.9830], zoom: 12,
@@ -96,6 +97,22 @@ const stops = [
     ],
     tip: "Central Athens is about 30 minutes from the Piraeus cruise terminal by taxi or metro.",
     leg: [[35.55,25.05],[36.00,24.60],[36.50,24.20],[37.00,24.00],[37.50,23.85],[37.80,23.68]]
+  },
+  {
+    name: "Delphi", country: "Greece", coords: [38.4824, 22.5010], zoom: 12,
+    dates: "Sun Nov 22", days: "Trip day 12 · day trip by road",
+    arrive: "About 2½ hours by road from Athens", depart: "Back to Athens the same day",
+    intro: "After the cruise, a day trip inland to the sanctuary of Apollo on the slopes of Mount Parnassus. The ancient Greeks called it the navel of the world, and city-states came here to consult the oracle before making war, founding colonies or passing laws.",
+    sights: [
+      ["Temple of Apollo", "seat of the Pythia, the priestess who spoke the oracle's answers."],
+      ["Sacred Way and treasuries", "the winding path up the sanctuary, lined with offerings from rival cities; the Athenian Treasury is rebuilt."],
+      ["Theatre and Stadium", "the theatre looks down over the whole sanctuary; the stadium above it hosted the Pythian Games."],
+      ["Sanctuary of Athena Pronaia", "home of the circular Tholos, the most photographed ruin at Delphi, a short walk down the road."],
+      ["Delphi Archaeological Museum", "the bronze Charioteer of Delphi, the Sphinx of the Naxians and the Omphalos stone."],
+      ["Castalian Spring", "where pilgrims purified themselves before approaching the oracle."]
+    ],
+    tip: "The site climbs steeply, so start at the top (Stadium) while legs are fresh, then work down to the museum. November days are short and winter hours close early.",
+    leg: [[37.98,23.70],[38.07,23.74],[38.20,23.72],[38.29,23.52],[38.32,23.32],[38.40,23.05],[38.43,22.88],[38.44,22.70],[38.48,22.58]]
   }
 ];
 
@@ -171,7 +188,7 @@ function show(i, fly) {
   current = i;
   const s = stops[i];
   detail.innerHTML =
-    '<div class="stopnum">Port ' + (i + 1) + " of " + stops.length + " · " + esc(s.days) + "</div>" +
+    '<div class="stopnum">Stop ' + (i + 1) + " of " + stops.length + " · " + esc(s.days) + "</div>" +
     "<h2>" + esc(s.name) + "</h2>" +
     '<div class="country">' + esc(s.country) + "</div>" +
     '<dl class="facts">' +

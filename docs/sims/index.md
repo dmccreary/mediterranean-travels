@@ -11,4 +11,5 @@ Plotly, Venn.js).
 <!-- The MicroSim catalog is built up as new sims are added. -->
 
 - [Viking Cruise Map](viking-cruise-map/index.md) - an interactive map of the
-  Istanbul-to-Athens cruise with port times, key sights, and the sea route.
+  Istanbul-to-Athens cruise and our Delphi day trip, with times, key sights,
+  and the route.
