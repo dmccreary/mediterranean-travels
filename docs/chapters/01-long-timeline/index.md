@@ -1,6 +1,6 @@
 ---
 title: "Before We Go, Part 1: The Long Timeline of the Eastern Mediterranean"
-description: "The map and the clock for the whole trip: the geography of Anatolia, the Aegean, and Crete, the eras from the Bronze Age to the Ottomans, and the civilizations and faiths every later chapter builds on."
+description: "The map and the timeline for the whole trip: the geography of Anatolia, the Aegean, and Crete, the eras from the Bronze Age to the Ottomans, and the civilizations and faiths every later chapter builds on."
 generated_by: claude skill chapter-content-generator
 date: "2026-11-24 12:17:08"
 version: 1.11
@@ -10,7 +10,7 @@ version: 1.11
 
 ## Summary
 
-This chapter lays out the map and the clock for the whole trip. It places the Eastern Mediterranean, Anatolia, the Aegean, and Crete on the map, then walks the eras in order from the Bronze Age through the Archaic, Classical, Hellenistic, Roman, Byzantine, and Ottoman periods. It introduces the civilizations and faiths every later chapter builds on: the Minoans and Mycenaeans, the Greek city-states, the Roman Empire and the Pax Romana, and Judaism, Christianity, and Islam. Read it before departure; afterward we should be able to place any site on the route in its era.
+This chapter lays out the map and the timeline for the whole trip. It places the Eastern Mediterranean, Anatolia, the Aegean, and Crete on the map, then walks the eras in order from the Bronze Age through the Archaic, Classical, Hellenistic, Roman, Byzantine, and Ottoman periods. It introduces the civilizations and faiths every later chapter builds on: the Minoans and Mycenaeans, the Greek city-states, the Roman Empire and the Pax Romana, and Judaism, Christianity, and Islam. Read it before departure; afterward we should be able to place any site on the route in its era.
 
 ## Concepts Covered
 
@@ -52,11 +52,11 @@ This chapter assumes only the prerequisites listed in the [trip description](../
 
 ---
 
-## Why Start With a Map and a Clock
+## Why Start With a Map and a Timeline
 
-In thirteen days we will stand inside a Byzantine cathedral that became a mosque, walk a Roman marble street where a Greek goddess was worshipped, climb a Bronze Age palace on Crete, and look up at a temple built by the first democracy. The trouble is that the route runs backward and forward through time. Istanbul, our first stop, is mostly Byzantine and Ottoman. Troy and Knossos, in the middle of the cruise, are far older than anything in Istanbul. Classical Athens comes at the end. Without a map and a clock in our heads, the stops blur into one long afternoon of "very old stones."
+In thirteen days we will stand inside a Byzantine cathedral that became a mosque, walk a Roman marble street where a Greek goddess was worshipped, climb a Bronze Age palace on Crete, and look up at a temple built by the first democracy. The trouble is that the route runs backward and forward through time. Istanbul, our first stop, is mostly Byzantine and Ottoman. Troy and Knossos, in the middle of the cruise, are far older than anything in Istanbul. Classical Athens comes at the end. Without a map and a timeline in our heads, the stops blur into one long afternoon of "very old stones."
 
-This chapter is that map and clock. It is the longest chapter in the guide because almost every later chapter leans on it, so it is worth reading slowly, perhaps in two sittings before we fly. Everything here gets a fuller story later, at the place where it happened. The goal now is only to know where each place sits on the map and where each site sits in time.
+This chapter is that map and timeline. It is the longest chapter in the guide because almost every later chapter leans on it, so it is worth reading slowly, perhaps in two sittings before we fly. Everything here gets a fuller story later, at the place where it happened. The goal now is only to know where each place sits on the map and where each site sits in time.
 
 !!! mascot-welcome "Hello, I'm Glaux"
     ![Glaux the Little Owl waving hello](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
@@ -227,13 +227,13 @@ Now we can see Schliemann's famous error. He dug a huge trench straight down tow
     ![Glaux pointing out a helpful detail](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     At any ruin, ask the guide one question: "Which layer are we standing on, and what is underneath?" It turns a pile of stones into a sequence, and guides usually love answering it.
 
-## Part Three: The Clock
+## Part Three: The Timeline
 
 ### The Historical Timeline
 
 A **historical timeline** is a line that places events and periods in the order they happened, spaced according to how much time lay between them. Its value is less in any single date than in proportion: seeing that one period lasted two thousand years and another fewer than two hundred. Historians also divide long stretches of time into named **periods**, or eras, such as the Bronze Age or the Classical period. A period name is a label of convenience. People living through it did not know they were "Hellenistic"; scholars chose the names later to group centuries that share a style of art, a kind of government, or a technology.
 
-This chapter uses nine periods for the Eastern Mediterranean, from the start of the Bronze Age to today. The dates are rounded and, as we will see, the boundaries shift from place to place. But they give us a shared clock. Eight of the nine get their own sections below; the ninth, the modern era, belongs to later chapters.
+This chapter uses nine periods for the Eastern Mediterranean, from the start of the Bronze Age to today. The dates are rounded and, as we will see, the boundaries shift from place to place. But they give us a shared timeline. Eight of the nine get their own sections below; the ninth, the modern era, belongs to later chapters.
 
 The hardest thing about this timeline is its length. More than five thousand years separate the first Bronze Age villages from our trip, and our minds are not built to feel that span. One useful trick is to squeeze it into a single day.
 
@@ -352,7 +352,7 @@ Questions, in fixed order:
 4. After question 6, all 29 events appear. The learner can click any event or band to read its description and the chapter that goes deeper.
 5. The learner should notice that the morning-long Bronze Age and the evening-long Byzantine period dwarf the famous Classical period.
 
-**Feedback:** Six questions in fixed order, one attempt each. Correct: "Correct." followed by the Why text. Incorrect: "Not quite." followed by the Why text. The correct answer is shown after every answer. A running score "Correct: n of 6" is shown, and at the end "5 or more: you have the clock" or "Fewer than 5: reread the 24-hour clock table, then try again"; a Restart button clears the score.
+**Feedback:** Six questions in fixed order, one attempt each. Correct: "Correct." followed by the Why text. Incorrect: "Not quite." followed by the Why text. The correct answer is shown after every answer. A running score "Correct: n of 6" is shown, and at the end "5 or more: you have the timeline" or "Fewer than 5: reread the 24-hour clock table, then try again"; a Restart button clears the score.
 
 **Starting State:** The nine period bands on one screen, from 3200 BCE to 2026 CE, with question 1: "Which lasted longer: the Bronze Age or the Classical period?"
 
@@ -590,7 +590,7 @@ So a guide in Ephesus might call a building from 100 BCE "Roman," while our time
 
 !!! mascot-thinking "Periods Are Local"
     ![Glaux thinking with one wing raised](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
-    Notice that every period boundary is really a date when something changed *in one place*. Rome reached Ephesus a century before it reached Rhodes, and the Ottomans took Istanbul in 1453 but Crete only in 1669. The timeline is a shared clock; each city keeps its own time on it.
+    Notice that every period boundary is really a date when something changed *in one place*. Rome reached Ephesus a century before it reached Rhodes, and the Ottomans took Istanbul in 1453 but Crete only in 1669. The timeline is shared; each city keeps its own time on it.
 
 ### The Pax Romana
 
@@ -771,11 +771,11 @@ Questions, in fixed order:
 
 ## Putting It Together: Placing a Site in Its Era
 
-The summary of this chapter promised that afterward we would be able to place any site on the route in its era. We now have all the pieces: a map, a clock of nine periods, the civilizations that filled them, and the warning that period boundaries are local. Placing a site is a matter of asking the right questions in the right order.
+The summary of this chapter promised that afterward we would be able to place any site on the route in its era. We now have all the pieces: a map, a timeline of nine periods, the civilizations that filled them, and the warning that period boundaries are local. Placing a site is a matter of asking the right questions in the right order.
 
 !!! mascot-tip "Three Questions at Every Site"
     ![Glaux pointing out a helpful detail](../../img/mascot/tip.png){ class="mascot-admonition-img" }
-    Want to place any site in under a minute? Ask three things in order: when it was *built* (not restored), which period on our clock holds that date, and who ruled *this* place then. The first two give the era; the third reminds us that the era name may not be the builder's name.
+    Want to place any site in under a minute? Ask three things in order: when it was *built* (not restored), which period on our timeline holds that date, and who ruled *this* place then. The first two give the era; the third reminds us that the era name may not be the builder's name.
 
 **Worked example: Hagia Sophia's four lives.** Let's run the three questions on the most layered building of the trip. *When was it built?* Hagia Sophia was completed in 537 CE. *Which period holds that date?* 537 falls between 330 and 1453, so it is a Byzantine building. *Who ruled the place then?* The Byzantine emperor Justinian, in his capital, so here the era name and the builder match. But the building then kept living. It was a cathedral for 916 years, from 537 to 1453. Mehmed II converted it into a mosque in 1453, adding a minaret; during the Ottoman period it was a mosque for 481 years. The Turkish Republic made it a museum in 1934, opening to visitors in 1935, and in 2020 it became a mosque again. So Hagia Sophia is a Byzantine building with Ottoman and modern layers, and the Christian mosaics and Islamic calligraphy we will see side by side on Day 2 are each from a different era. Placing the building's *construction* in its era is the start; reading the later layers is the rest of the visit.
 
@@ -855,6 +855,6 @@ Cards, presented in shuffled order:
 - **Trade routes** and their chokepoints explain why Troy, Byzantion, Rhodes, and Crete were rich, and why they were fought over.
 - Period boundaries are local, and a period name tells *when*, not always *who*.
 
-!!! mascot-celebration "You Have the Map and the Clock"
+!!! mascot-celebration "You Have the Map and the Timeline"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now place any stop on our route in space and any site in one of nine periods, and you know to ask which layer, which definition, and who ruled here. That's the hardest groundwork of the whole trip done before we board a plane. Next, in [Part 2](../02-traveling-well/index.md), we pack for November and start the Learning for All thread.

@@ -49,7 +49,7 @@ This chapter builds on concepts from:
 
 ## From the Map to the Suitcase
 
-Part 1 gave us the map and the clock: where each stop sits, and which era each site belongs to. This chapter is about the trip itself, and about the kind of travelers we want to be on it. It has three jobs. First, the practical one: how the cruise and the days on our own fit together, what November will feel like, and what to check before we walk across a city to find a gate locked. Second, the human one: what it means to travel thoughtfully, with empathy for people who live where we are visiting. Third, it opens a thread that runs through the whole guide, called **Learning for All**, which starts here with the oldest learning technology on our route, the alphabet.
+Part 1 gave us the map and the timeline: where each stop sits, and which era each site belongs to. This chapter is about the trip itself, and about the kind of travelers we want to be on it. It has three jobs. First, the practical one: how the cruise and the days on our own fit together, what November will feel like, and what to check before we walk across a city to find a gate locked. Second, the human one: what it means to travel thoughtfully, with empathy for people who live where we are visiting. Third, it opens a thread that runs through the whole guide, called **Learning for All**, which starts here with the oldest learning technology on our route, the alphabet.
 
 These three jobs belong together. A traveler who reads the opening hours shows up when the guard is not about to close the gate. A traveler who can sound out a Greek sign can ask a stranger for help in a way that shows respect. And the alphabet is the reason any of us could read a travel guide in the first place.
 
@@ -169,7 +169,7 @@ For a thoughtful traveler, a cruise is a real trade-off, and it is worth being h
 
 ### Ancient Mediterranean Treasures
 
-Our cruise is the Viking Star's seven-night **Ancient Mediterranean Treasures** voyage, sailing from Istanbul on November 14, 2026, and arriving at Piraeus, the port of Athens, on November 20, with a final night aboard before we disembark on November 21. The name is a fair description: in seven days the ship stops at sites from nearly every era on our clock in Part 1. The ports are Istanbul (two days), Çanakkale for Troy and Gallipoli, Kusadasi for Ephesus, Rhodes, Heraklion for Knossos, and Piraeus for Athens.
+Our cruise is the Viking Star's seven-night **Ancient Mediterranean Treasures** voyage, sailing from Istanbul on November 14, 2026, and arriving at Piraeus, the port of Athens, on November 20, with a final night aboard before we disembark on November 21. The name is a fair description: in seven days the ship stops at sites from nearly every era on our timeline in Part 1. The ports are Istanbul (two days), Çanakkale for Troy and Gallipoli, Kusadasi for Ephesus, Rhodes, Heraklion for Knossos, and Piraeus for Athens.
 
 The voyage's order is the order of the sea lanes, not the order of history. Ships sail from Istanbul down through the Sea of Marmara and the Dardanelles, then south along the Turkish coast, then west across the southern Aegean to Crete and north to Athens. As Part 1 warned, that means our route jumps back and forth in time. We meet Byzantine and Ottoman Istanbul first, the Bronze Age at Troy and Knossos in the middle, and Classical Athens at the end.
 

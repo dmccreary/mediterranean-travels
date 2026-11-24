@@ -360,6 +360,16 @@ sometimes hallucinated content. All generating agents must follow these rules.
 4. **Examples over prose.** When explaining abstract logic, prefer a short
    commented example or a MicroSim to a long descriptive passage.
 
+## Preferred Terminology
+
+- **"Map and timeline", not "map and clock."** Chapter 1 frames the trip as
+  knowing *where* each stop sits and *when* each site was built. Call the
+  second half a **timeline**, because a clock shows hours, not dates or eras.
+  Write "the map and the timeline", "our timeline" and "a shared timeline",
+  never "the map and the clock" or "our clock." The exception is the literal
+  **24-hour clock** worked example in Chapter 1, which squeezes all of history
+  into a single day; keep "clock" there and when referring back to it.
+
 ## MicroSims (Interactive Examples)
 
 This book targets Level 2+ textbook intelligence, so interactivity is a
