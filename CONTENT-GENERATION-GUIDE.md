@@ -369,6 +369,121 @@ sometimes hallucinated content. All generating agents must follow these rules.
   never "the map and the clock" or "our clock." The exception is the literal
   **24-hour clock** worked example in Chapter 1, which squeezes all of history
   into a single day; keep "clock" there and when referring back to it.
+- **Turkish place names keep their Turkish letters in prose**: Kuşadası,
+  Çanakkale, Selçuk, Topkapı, Süleymaniye, Dolmabahçe, Haliç. Never write
+  "Kusadasi" or "Canakkale" in running text, tables of our own, or captions.
+  The one exception is a chapter's **Concepts Covered** table, which must
+  copy the learning-graph label exactly (for example "Kusadasi and Selcuk")
+  so the chapter stays linked to the graph.
+- **"Byzantium" for the Greek city before 330 CE**, matching the
+  learning-graph concept. Give the Greek form only when teaching the city's
+  names, as Chapter 3 does: "Byzantium (in Greek, *Byzantion*)". After 330 CE
+  the city is **Constantinople**, and after 1453 **Istanbul**; the empire and
+  its era are **Byzantine**.
+- **Dates use BCE and CE**, never BC or AD. Approximate dates are written
+  "c. 657 BCE" in tables, parentheses, and diagram specifications, and
+  "about 657 BCE" in running sentences.
+
+## Pronounce Buttons
+
+Many names on this trip are hard to say from their spelling alone. When a
+term that a reader might stumble over is **first used in the chapters**,
+add a pronounce button right after it. Examples: **Ephesus**, **Byzantine**,
+**Knossos**, **Mycenaean**, **Erechtheion**, **Topkapı**, **Kuşadası**,
+**Süleymaniye**, **Pythia**, **rhyton**.
+
+Skip terms that English readers already say correctly, such as Istanbul,
+Athens, Rhodes, Crete, and Troy. Skip terms the text already respells in
+place, such as *çay* ("pronounced chai").
+
+### Where Pronunciations Appear
+
+| Where | How many buttons per term |
+|---|---|
+| **Chapters** | Exactly one in the whole book, at the term's first use in reading order |
+| **Pronunciation Guide appendix** (`docs/appendices/pronunciation-guide.md`) | One: the running list of every term |
+| **Glossary**, once it exists | Optional: one on the term's glossary entry |
+
+All three reuse the same `docs/audio/<slug>.mp3` file; never generate a
+second recording of a term.
+
+### The Term List Is the Record
+
+`data/pronunciations.csv` lists every term the book pronounces, with its
+slug, respelling, and whether the pronunciation is English or local. To add
+a term:
+
+1. Check the CSV. If the term is already there, it already has its chapter
+   button; do not add another.
+2. Add a row: `term,slug,respelling,style`.
+3. Run `python3 scripts/pronunciations.py all`. It generates the missing
+   audio, inserts the chapter button at the first running-text use, rebuilds
+   the appendix, and checks that no term has buttons in two chapters.
+
+The appendix page is generated from the CSV, so never edit it by hand. Use
+`python3 scripts/pronunciations.py insert --dry-run` to preview where
+buttons would go.
+
+### Once in the Chapters
+
+- **Each term gets exactly one chapter button in the entire textbook**,
+  at its first use in reading order: the lowest-numbered chapter in which
+  it appears. Later chapters never repeat it, even when they discuss the
+  term at length.
+- When a new chapter is generated, run the script afterward. It only adds
+  buttons for terms that have none yet, so it never duplicates one.
+- If a chapter written later turns out to use the term *earlier* in reading
+  order, move the button to that earlier chapter rather than adding a
+  second one.
+
+### Where the Button Goes
+
+- At the **first use in running text**: a prose paragraph, a list item, or
+  a mascot admonition body.
+- Not in the Summary, the Concepts Covered table, Prerequisites, headings,
+  tables, figure captions, MicroSim specifications, `<details>` blocks, or
+  a bold "Worked example:" lead-in. If the first mention falls in one of
+  those, use the next mention in running text.
+- Place the button **directly after the term**, keeping a full name
+  together ("Mehmed II", "Galata Bridge") and moving past bold or italic
+  markers, so the button never lands inside them.
+
+### Markup
+
+The script writes this markup, which matches the Glaux button in Chapter 1
+and uses the `pronounce-btn` style in `docs/css/extra.css`:
+
+```html
+**Ephesus** <audio id="audio-ephesus" src="../../audio/ephesus.mp3" preload="none"></audio><button onclick="document.getElementById('audio-ephesus').play()" class="pronounce-btn">🔊 Pronounce</button> *EF-uh-sus* was the largest Greek city in Asia Minor.
+```
+
+- **Slug**: the term in lowercase ASCII, with spaces as hyphens and Turkish
+  or Greek letters reduced to plain letters (`kusadasi`, `hagia-sophia`).
+  The `audio-<slug>` id must be unique on its page.
+- **Path**: from a chapter's `index.md` or an appendix page, the audio path
+  is `../../audio/<slug>.mp3`.
+- **Respelling**: italics, in plain English syllables rather than IPA, with
+  the stressed syllable in capitals: *EF-uh-sus*, *BIZ-un-teen*,
+  *koo-SHAH-dah-suh*. The respelling must match what the recording says.
+
+### Which Pronunciation
+
+- For names with an **established English form**, use the English
+  pronunciation a guide would use: Ephesus, Byzantine, Knossos, Mycenaean.
+  Mark these `english` in the CSV.
+- For **Turkish and modern Greek names** with no English form, use the
+  local pronunciation: Kuşadası, Topkapı, Dolmabahçe, Arachova. Mark these
+  `local`.
+
+### Generating the Audio
+
+The script calls the `book-media-generator` skill's ElevenLabs script,
+which needs `ELEVENLABS_API_KEY` set in the environment to the secret key
+itself, not the key's ID (never write the key into any file). It stops at
+the first failure. It sends the plain word first; if a recording sounds
+wrong, regenerate that one file with a phonetic spelling or the SSML
+fallback described in the skill's pronounce-button guide, and keep the
+respelling in the CSV in step with it.
 
 ## MicroSims (Interactive Examples)
 
@@ -380,7 +495,142 @@ pedagogical requirement rather than a garnish.
 - **Format**: embed finished MicroSims with an `<iframe>` pointing at the
   simulation's `main.html`, followed by a fullscreen button link.
 - **Tools**: p5.js for physics, graphics, and simulation; Chart.js for data;
-  vis-network for graphs; Mermaid for flow and sequence diagrams.
+  vis-network for graphs; Mermaid for flow and sequence diagrams; Leaflet for
+  maps on real map tiles (the Viking Cruise Map); D3.js for drawn, unlabeled
+  or quiz-style maps (the Regions of the Eastern Mediterranean Map).
+
+## Photos
+
+Chapters are illustrated with our own trip photos first. A photo earns its
+place when it shows the thing the paragraph is about: the mosaic, the
+street, the dish. A pretty photo that matches no passage does not go in.
+
+### Sources, in Order of Preference
+
+1. **Our own photos** from the shared Google Photos album, already reviewed
+   and listed in `data/photo-picks.csv`. Use these whenever one fits.
+2. **Wikimedia Commons**, only when we have no suitable photo of something
+   the chapter needs (for example the Knossos site itself, the Linear B
+   tablets, or Dolmabahçe Palace, which we did not photograph). Use the
+   `book-media-generator` skill's chapter-image guide to find and download
+   them.
+
+Never use an image whose license is unclear, and never copy images from
+ordinary websites, stock sites, or search results.
+
+### Selecting Our Own Photos
+
+Never open full-size photos to choose them; that costs a large number of
+tokens. Use the zero-token pipeline instead, then review only the
+contact sheets:
+
+| Step | Script | Output |
+|---|---|---|
+| Label every photo on-device (Apple Vision); compile it first, as its header explains | `scripts/photo_labels.swift` | `data/photo-labels.jsonl` |
+| Sort photos to chapters by GPS and rank them | `scripts/select_chapter_photos.py` | `data/photo-candidates.csv` and `data/contact-sheets/chNN.jpg` |
+| Record the reviewed picks and captions | edit `data/photo-picks.csv` | |
+| Render one review sheet per chapter | `scripts/picks_sheets.py` | `data/contact-sheets/picks-chNN.jpg` |
+| Export web JPEGs into the chapter | `scripts/export_web_photos.py --chapters NN` | `docs/chapters/NN-*/img/*.jpg` |
+
+Landmark coordinates and their chapters live in `data/chapter-places.json`.
+The raw export (`data/takeout/`) and the contact sheets are gitignored and
+must never be committed.
+
+Selection rules:
+
+- **Each photo appears once in the whole book.** `data/photo-picks.csv`
+  is the record of which chapter owns a photo.
+- **Up to 10 photos per chapter.** A short chapter gets fewer. Fewer, better
+  photos beat a gallery.
+- **No identifiable strangers as the subject.** Skip photos where a person
+  is the point of the picture, including vendors and craftspeople, unless
+  we have their permission. Background crowds at a monument are acceptable.
+- **No photos of Ann, Dan, or fellow travelers** unless the author asks for
+  one by name.
+
+### Publishing Rules
+
+- **Always export with `scripts/export_web_photos.py`.** It resizes to a
+  1600 px long edge and removes all EXIF data, including GPS coordinates.
+  Never copy an original HEIC or JPEG into `docs/`.
+- **Store images in the chapter's own `img/` folder** and link them with a
+  path relative to the chapter's `index.md`, for example
+  `img/ortakoy-mosque-european-shore-bosphorus.jpg`.
+- **File names are lowercase kebab-case** and describe the subject, not the
+  camera (`blue-mosque-domes.jpg`, never `IMG_0606.jpg`).
+
+### Placement
+
+- Place a photo directly **after the paragraph it illustrates**, inside the
+  section that discusses its subject.
+- Never place a photo inside a list, a table, an admonition, or a
+  `<details>` block, and never between a table's introductory sentence and
+  the table.
+- Do not stack two photos back to back; put at least one paragraph between
+  them.
+
+### Figure Markup
+
+Every photo uses this exact form, which relies on the `md_in_html` and
+`attr_list` extensions and the `trip-photo` styles in `docs/css/extra.css`:
+
+```html
+<figure markdown="span" class="trip-photo">
+  ![Ortaköy Mosque on the European shore of the Bosphorus](img/ortakoy-mosque-european-shore-bosphorus.jpg){ loading=lazy }
+  <figcaption>Ortaköy Mosque on the European shore of the Bosphorus. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
+</figure>
+```
+
+Leave a blank line before and after the `<figure>` block.
+
+### Caption Rules
+
+1. **Describe what is in the frame**, as a single sentence fragment that
+   names the subject and, where useful, its place and date: "Columns of the
+   Basilica Cistern, 532 CE." Do not start with "This photo shows" or
+   "Here we see."
+2. **Every fact must be certain.** If a monument cannot be identified for
+   sure, use a general caption ("Roman-era ruins at Ephesus") rather than a
+   guess. Never publish a caption that still carries "(verify)".
+3. **Check time-of-day words against the timestamp** in
+   `data/photo-picks.csv` before writing "dawn", "sunset", "dusk", or
+   "night". Timestamps are stored in Athens time; Turkey is one hour ahead
+   of Athens in November. A photo that looks like dusk is often sunrise.
+4. **Use the book's dating style**: BCE and CE, "about 1500 BCE" for
+   approximate dates, and centuries written as "12th century".
+5. **Use correct local spelling** for places, including Turkish letters
+   (Kuşadası, Çanakkale, Topkapı).
+6. **End the description with a period, then the credit** in a
+   `photo-credit` span, as in the markup above.
+7. **Alt text repeats the description without the credit**, so screen
+   readers do not announce the credit as part of the image.
+
+### Credits
+
+**Our own photos** are credited "Photo by Dan McCreary". All current photos
+are Dan's. The `credit` column of `data/photo-picks.csv` is the source of
+truth; if a photo turns out to be someone else's, change it there and in
+the caption.
+
+**Wikimedia Commons images** must credit the author, the license, and link
+to the file's Commons page, as the license requires:
+
+```html
+<figcaption>The throne room at Knossos. <span class="photo-credit">Photo by Jane Doe, <a href="https://commons.wikimedia.org/wiki/File:Example.jpg">CC BY-SA 4.0</a>, via Wikimedia Commons</span></figcaption>
+```
+
+Use only images that are public domain, CC0, CC BY, or CC BY-SA. Copy the
+author name and license exactly as the file's Commons page states them.
+
+To add a Commons image:
+
+1. Download the original into `data/commons/` (gitignored).
+2. Add a row to `data/photo-picks.csv`, with `file` set to the repo path
+   (for example `data/commons/Knossos_throne_room.jpg`), the author in
+   `credit`, and two extra columns, `source_url` (the file's Commons page)
+   and `license`.
+3. Export it with `scripts/export_web_photos.py` like our own photos, since
+   Commons uploads can also carry camera GPS.
 
 ## Markdown Formatting Rules
 

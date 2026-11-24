@@ -58,13 +58,13 @@ This chapter builds on concepts from:
 
 ## Arriving in a City With Three Names
 
-We land on Wednesday, November 11, tired, a little disoriented, and in one of the oldest continuously inhabited capitals on Earth. Over 2,600 years this city has been called Byzantion, Constantinople, and Istanbul. It was the capital of the Roman Empire in the east for more than a thousand years and of the Ottoman Empire for nearly five hundred. Its skyline of domes and minarets is the result of those two empires, one Christian and one Muslim, building on the same seven hills.
+We land on Wednesday, November 11, tired, a little disoriented, and in one of the oldest continuously inhabited capitals on Earth. Over 2,600 years this city has been called Byzantium, Constantinople, and Istanbul. It was the capital of the Roman Empire in the east for more than a thousand years and of the Ottoman Empire for nearly five hundred. Its skyline of domes and minarets is the result of those two empires, one Christian and one Muslim, building on the same seven hills.
 
 Arrival day is the wrong day for a museum and the right day for the big picture. We will not try to see Hagia Sophia today; that is tomorrow's chapter. Today we want the story that makes every later day make sense: why anyone built a city here, why one emperor made it the center of the world, why its walls held for a thousand years, and why they finally fell in 1453. Along the way we will learn how to order breakfast, how to thank the man selling bread rings from a red cart, and what to do with the change in our pocket.
 
 !!! mascot-welcome "A City Built on Water"
     ![Glaux waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
-    Tonight we can eat a fish sandwich by the water where Greek fishermen once netted tuna, and cross from Europe to Asia for the price of a ferry ticket. By the end of this chapter, the view from the Galata Bridge will read like a history book: the Greek harbor, the emperor's city, the Conqueror's mosques. Every story here starts with the water, so that is where we start. Look closer.
+    Tonight we can eat a fish sandwich by the water where Greek fishermen once netted tuna, and cross from Europe to Asia for the price of a ferry ticket. By the end of this chapter, the view from the Galata Bridge <audio id="audio-galata" src="../../audio/galata.mp3" preload="none"></audio><button onclick="document.getElementById('audio-galata').play()" class="pronounce-btn">🔊 Pronounce</button> *GAH-lah-tah* will read like a history book: the Greek harbor, the emperor's city, the Conqueror's mosques. Every story here starts with the water, so that is where we start. Look closer.
 
 The chapter has six parts. Part One explains the water: the strait and the harbor that made the city possible. Part Two tells the story of Greek Byzantium becoming Roman Constantinople. Part Three is the story of the walls. Part Four follows the Ottomans to the siege of 1453. Part Five turns to the city of today and to food, and Part Six covers the words, money, and manners we need from the first hour.
 
@@ -82,7 +82,7 @@ For 2,600 years, whoever held the Bosphorus could tax, feed, or blockade every c
 
 <figure markdown="span" class="trip-photo">
   ![Ortaköy Mosque on the European shore of the Bosphorus](img/ortakoy-mosque-european-shore-bosphorus.jpg){ loading=lazy }
-  <figcaption>Ortaköy Mosque on the European shore of the Bosphorus</figcaption>
+  <figcaption>Ortaköy Mosque on the European shore of the Bosphorus. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 Before the strait was bridged, the only way across was by boat. The table below shows how the crossing works now, in the order the links were built.
@@ -96,14 +96,14 @@ Before the strait was bridged, the only way across was by boat. The table below 
 | Yavuz Sultan Selim Bridge | 2016 | Road and rail bridge near the Black Sea mouth | Seen from the air on arrival, if the flight path allows |
 | Eurasia Tunnel | 2016 | Road tunnel for cars under the southern end | Taxis may use it on the way to the Asian side |
 
-**Worked example: crossing a continent before dinner.** Suppose we have the late afternoon of Day 1 free. From the old city we walk down to the ferry piers at Eminönü, tap a transit card (the *İstanbulkart*, sold at machines by the piers) and board a ferry to Kadıköy, on the Asian shore. The trip takes about twenty minutes. On the way, look north up the strait: the European shore is on the left, the Asian shore on the right, and the first bridge hangs between them in the distance. Look back and see the old city's skyline from the water, which is how every sailor and invader saw it for two millennia: Topkapı Palace on the point, Hagia Sophia's dome behind it, then the minarets of the Süleymaniye on the next hill. In Kadıköy, which was the Greek city of Chalcedon (we will meet it again in a moment), we can walk through the food market, have tea, and take the ferry back as the lights come on. We will have crossed from Europe to Asia and back for a couple of transit fares, which, on our first day, is a fine way to feel what "a city on two continents" means.
+**Worked example: crossing a continent before dinner.** Suppose we have the late afternoon of Day 1 free. From the old city we walk down to the ferry piers at Eminönü <audio id="audio-eminonu" src="../../audio/eminonu.mp3" preload="none"></audio><button onclick="document.getElementById('audio-eminonu').play()" class="pronounce-btn">🔊 Pronounce</button> *eh-MEE-nuh-new*, tap a transit card (the *İstanbulkart*, sold at machines by the piers) and board a ferry to Kadıköy, on the Asian shore. The trip takes about twenty minutes. On the way, look north up the strait: the European shore is on the left, the Asian shore on the right, and the first bridge hangs between them in the distance. Look back and see the old city's skyline from the water, which is how every sailor and invader saw it for two millennia: Topkapı Palace <audio id="audio-topkapi" src="../../audio/topkapi.mp3" preload="none"></audio><button onclick="document.getElementById('audio-topkapi').play()" class="pronounce-btn">🔊 Pronounce</button> *TOP-kah-puh* on the point, Hagia Sophia's dome behind it, then the minarets of the Süleymaniye <audio id="audio-suleymaniye" src="../../audio/suleymaniye.mp3" preload="none"></audio><button onclick="document.getElementById('audio-suleymaniye').play()" class="pronounce-btn">🔊 Pronounce</button> *sue-lay-MAH-nee-yeh* on the next hill. In Kadıköy, which was the Greek city of Chalcedon (we will meet it again in a moment), we can walk through the food market, have tea, and take the ferry back as the lights come on. We will have crossed from Europe to Asia and back for a couple of transit fares, which, on our first day, is a fine way to feel what "a city on two continents" means.
 
 <figure markdown="span" class="trip-photo">
   ![Waterfront mansions (yalı) along the Bosphorus](img/waterfront-mansions-yali-along-bosphorus.jpg){ loading=lazy }
-  <figcaption>Waterfront mansions (yalı) along the Bosphorus</figcaption>
+  <figcaption>Waterfront mansions (yalı) along the Bosphorus. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
-Before we look at the map, three place names need defining, because the map sorts places by them. The **historic peninsula** is the triangle of land on the European side between the Golden Horn and the Sea of Marmara, where the Greek, Roman, Byzantine, and early Ottoman city stood; it holds Hagia Sophia, Topkapı, and most of the sights of Days 2 to 4. **Galata** (today part of the district of Beyoğlu) is the hill on the European side across the Golden Horn, where foreign merchants lived. The **Asian shore** is everything on the far side of the Bosphorus, including Kadıköy and Üsküdar. The **Golden Horn** itself is the curved inlet that separates the historic peninsula from Galata; Part Five tells its story.
+Before we look at the map, three place names need defining, because the map sorts places by them. The **historic peninsula** is the triangle of land on the European side between the Golden Horn and the Sea of Marmara, where the Greek, Roman, Byzantine, and early Ottoman city stood; it holds Hagia Sophia, Topkapı, and most of the sights of Days 2 to 4. **Galata** (today part of the district of Beyoğlu) is the hill on the European side across the Golden Horn, where foreign merchants lived. The **Asian shore** is everything on the far side of the Bosphorus, including Kadıköy and Üsküdar <audio id="audio-uskudar" src="../../audio/uskudar.mp3" preload="none"></audio><button onclick="document.getElementById('audio-uskudar').play()" class="pronounce-btn">🔊 Pronounce</button> *EWS-kew-dar*. The **Golden Horn** itself is the curved inlet that separates the historic peninsula from Galata; Part Five tells its story.
 
 #### Diagram: Istanbul's Three Shores
 
@@ -121,7 +121,7 @@ Type: map
 
 **Evidence of Mastery:** For each of the twelve places, the learner commits to one of three shores before the place's marker is revealed on the map. A classification is correct when it matches the Correct shore column in Content. Mastery is 10 of 12 correct on the first attempt. Panning the map and opening place infoboxes after the quiz is exploration, not evidence.
 
-**Misconceptions:** (1) All of Istanbul is in Europe. (2) The Golden Horn is part of the Bosphorus, so Galata is in Asia. (3) The old Greek city of Byzantion stood where the modern city center (Taksim) is. (4) The walls of Constantinople run along the Bosphorus.
+**Misconceptions:** (1) All of Istanbul is in Europe. (2) The Golden Horn is part of the Bosphorus, so Galata is in Asia. (3) The old Greek city of Byzantium stood where the modern city center (Taksim) is. (4) The walls of Constantinople run along the Bosphorus.
 
 **Instructional Rationale:** Classifying places by shore makes the learner build a mental model of the city's three parts and the two bodies of water that divide them. Committing to a shore before the marker appears is a prediction, and the reveal on the real map corrects the model immediately.
 
@@ -131,7 +131,7 @@ The map shows the Bosphorus, the Golden Horn and the northern edge of the Sea of
 
 | # | Place | Latitude | Longitude | Correct shore | Infobox text (shown after answering) |
 |---|---|---|---|---|---|
-| 1 | Sarayburnu (Seraglio Point) | 41.0157 | 28.9850 | Historic peninsula | The tip of the peninsula, where Greek Byzantion stood and Topkapı Palace stands now. |
+| 1 | Sarayburnu (Seraglio Point) | 41.0157 | 28.9850 | Historic peninsula | The tip of the peninsula, where Greek Byzantium stood and Topkapı Palace stands now. |
 | 2 | Hagia Sophia | 41.0086 | 28.9802 | Historic peninsula | Built 537 as a cathedral; Day 2's chapter. |
 | 3 | Column of Constantine (Çemberlitaş) | 41.0084 | 28.9711 | Historic peninsula | Raised for the dedication of Constantinople in 330; still standing on Divan Yolu. |
 | 4 | Golden Gate (Yedikule) | 40.9935 | 28.9223 | Historic peninsula | The ceremonial entrance at the southern end of the Theodosian land walls. |
@@ -171,7 +171,7 @@ Empires share a few working parts. They need a capital where power and wealth ga
 
 **Worked example: counting the empires of one city.** Let's count how many empires ruled this city and for how long, using dates we will meet in this chapter.
 
-1. **Persia** briefly controlled Byzantion in the late 500s BCE, when King Darius marched his army across the Bosphorus on a bridge of boats.
+1. **Persia** briefly controlled Byzantium in the late 500s BCE, when King Darius marched his army across the Bosphorus on a bridge of boats.
 2. **Rome** absorbed the city gradually, and by 73 CE it was formally part of the Roman Empire.
 3. **The Roman Empire in the east**, which historians call the Byzantine Empire, ruled from here from 330 to 1453, except for one break.
 4. **The Latin Empire** was the break: crusaders held the city from 1204 to 1261.
@@ -183,7 +183,7 @@ From 330 to 1922, then, Istanbul was an imperial capital for almost 1,600 years.
 
 ### Byzantium
 
-**Byzantium** (in Greek, *Byzantion*) is the Greek city founded on the tip of the historic peninsula around 657 BCE by colonists from Megara, a city-state near Athens. Like every Greek colony, it was a city-state of its own, with its own assembly, coins, and gods, and it kept that independence for centuries. Ancient writers said the founder's name was Byzas, and the city's name may come from him, though the story may also have been invented later to explain the name. The Latin form *Byzantium* is the one historians use, and it later gave its name to a whole empire.
+**Byzantium** (in Greek, *Byzantion*) is the Greek city founded on the tip of the historic peninsula around 657 BCE by colonists from Megara <audio id="audio-megara" src="../../audio/megara.mp3" preload="none"></audio><button onclick="document.getElementById('audio-megara').play()" class="pronounce-btn">🔊 Pronounce</button> *MEG-uh-ruh*, a city-state near Athens. Like every Greek colony, it was a city-state of its own, with its own assembly, coins, and gods, and it kept that independence for centuries. Ancient writers said the founder's name was Byzas, and the city's name may come from him, though the story may also have been invented later to explain the name. The Latin form *Byzantium* is the one historians use, and it later gave its name to a whole empire.
 
 There is a better story about the founding, and it ties our first day to Delphi, the oracle we will visit on Day 12. Across the Bosphorus, on the Asian shore, stood an older Greek colony called **Chalcedon**, where Kadıköy is today. The historian Herodotus, writing in the 400s BCE, reports that a Persian general named Megabazus heard that Chalcedon had been founded seventeen years before Byzantium, and said its founders must have been blind, since they had passed up the far better site across the water. Later Roman writers, Strabo and Tacitus, told the story differently: the Megarians had asked the oracle at Delphi where to settle, and Apollo told them to build "opposite the city of the blind." The Delphi version is almost certainly a later embellishment. But it shows that by Roman times everyone agreed on the point: Byzantium had the better site.
 
@@ -258,7 +258,7 @@ The Column of Constantine is easy to walk past, a blackened stump among traffic 
 
 <figure markdown="span" class="trip-photo">
   ![The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900](img/german-fountain-sultanahmet-square-gift.jpg){ loading=lazy }
-  <figcaption>The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900</figcaption>
+  <figcaption>The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ### The Byzantine Empire
@@ -295,13 +295,13 @@ His other lasting legacy was the division of the empire. When Theodosius died in
 
 ### The Theodosian Decrees
 
-The **Theodosian Decrees** are a series of laws issued by Theodosius I in 391 and 392 that banned pagan sacrifice, closed the temples of the old gods, and finally forbade pagan worship even in private homes. Earlier Christian emperors had restricted sacrifice, but these laws went further: visiting a temple became a crime, and worship of the gods who had been honored on our route for two thousand years became illegal. Bishops, soldiers, and mobs sometimes enforced them with violence. The most famous case was the destruction of the Serapeum, the great temple of Serapis in Alexandria, in 391.
+The **Theodosian Decrees** <audio id="audio-theodosian" src="../../audio/theodosian.mp3" preload="none"></audio><button onclick="document.getElementById('audio-theodosian').play()" class="pronounce-btn">🔊 Pronounce</button> *thee-uh-DOH-shun* are a series of laws issued by Theodosius I in 391 and 392 that banned pagan sacrifice, closed the temples of the old gods, and finally forbade pagan worship even in private homes. Earlier Christian emperors had restricted sacrifice, but these laws went further: visiting a temple became a crime, and worship of the gods who had been honored on our route for two thousand years became illegal. Bishops, soldiers, and mobs sometimes enforced them with violence. The most famous case was the destruction of the Serapeum, the great temple of Serapis in Alexandria, in 391.
 
 We know the exact wording of these laws because a later emperor, Theodosius II, had all the imperial laws since Constantine collected into the **Theodosian Code**, published in 438. That makes the decrees a primary source we can still read, which is unusual for something this old.
 
 **Worked example: tracing one decree along our route.** The decrees reach almost every ancient site we will visit, so it helps to follow their effects forward.
 
-- **Delphi (Day 12).** The oracle of Apollo had been consulted for more than a thousand years. With sacrifice banned and temples closed, the Pythia fell silent by the end of the 300s. A famous "last oracle," supposedly delivered to the emperor Julian, is a later legend, but the silence was real. Chapter 17 picks up this story.
+- **Delphi (Day 12).** The oracle of Apollo had been consulted for more than a thousand years. With sacrifice banned and temples closed, the Pythia <audio id="audio-pythia" src="../../audio/pythia.mp3" preload="none"></audio><button onclick="document.getElementById('audio-pythia').play()" class="pronounce-btn">🔊 Pronounce</button> *PITH-ee-uh* fell silent by the end of the 300s. A famous "last oracle," supposedly delivered to the emperor Julian, is a later legend, but the silence was real. Chapter 17 picks up this story.
 - **Olympia.** The ancient Olympic Games, held in honor of Zeus, are traditionally said to have ended after 393. Historians debate whether the end came under Theodosius I or his grandson in the 420s, but either way, it was a religious festival that no longer had a legal place.
 - **Athens (Days 10 to 13).** The Parthenon survived because it was converted into a church, which is why it was still standing for the Venetians to blow up in 1687.
 - **Ephesus (Day 7).** The Temple of Artemis, already damaged, lost its worship; its stones were reused in churches.
@@ -541,7 +541,7 @@ The conquest was also a story of what came after. Mehmed had promised his soldie
 
 <figure markdown="span" class="trip-photo">
   ![Istanbul seen from the water](img/istanbul-seen-water.jpg){ loading=lazy }
-  <figcaption>Istanbul seen from the water</figcaption>
+  <figcaption>Istanbul seen from the water. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 **Worked example: one city, many names.** Who calls the city what tells us who was looking at it, and from where.
@@ -561,7 +561,7 @@ The change of name was finally fixed for foreigners in 1930, when the Turkish po
 
 <figure markdown="span" class="trip-photo">
   ![A quiet residential street in Istanbul](img/quiet-residential-street-istanbul.jpg){ loading=lazy }
-  <figcaption>A quiet residential street in Istanbul</figcaption>
+  <figcaption>A quiet residential street in Istanbul. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ### The Golden Horn
@@ -570,7 +570,7 @@ The **Golden Horn** (in Turkish, *Haliç*, "the inlet") is the curved, horn-shap
 
 <figure markdown="span" class="trip-photo">
   ![Gulls rafting on the Bosphorus](img/gulls-rafting-bosphorus.jpg){ loading=lazy }
-  <figcaption>Gulls rafting on the Bosphorus</figcaption>
+  <figcaption>Gulls rafting on the Bosphorus. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ### Galata Tower
@@ -583,7 +583,7 @@ The **Golden Horn** (in Turkish, *Haliç*, "the inlet") is the curved, horn-shap
 
 Reading food as history means asking four questions of any dish. *Where did each ingredient first grow?* Tomatoes, peppers, and corn, for example, came from the Americas and reached the Ottoman Empire only after 1492. *Who brought it here, and when?* Coffee came up the Red Sea trade routes from Yemen in the 1500s. *What do the words say?* The Turkish word for corn, *mısır*, is also the Turkish word for Egypt, because corn arrived via Egypt. *What does it tell us about how people lived?* Yogurt, which is a Turkish word, is the way herders on the move kept milk from spoiling. The answers often surprise us, because dishes that feel ancient may be recent, and many foods we think of as one country's are shared by a whole region.
 
-**Worked example: reading a Turkish breakfast table.** Let's read tomorrow morning's breakfast in layers. The **olives** and **olive oil** are the oldest layer: olive trees have been cultivated around the eastern Mediterranean for thousands of years, long before Byzantion was founded. The **white cheese**, the **yogurt**, and the **kaymak** (thick clotted cream) carry the culture of Turkic herders who moved west from Central Asia into Anatolia after 1071, a dairy culture built on sheep, goats, and cattle; *yoğurt* and *kaymak* are Turkic words. The **sliced tomatoes** and the **green peppers** come from the Americas, a gift of the Columbian Exchange, the transfer of crops between the Americas and the rest of the world that began after 1492; tomatoes did not become common in Ottoman cooking until the 1800s. The **tea** is the newest layer of all. The Ottomans were coffee drinkers, and Turkey only became a nation of tea drinkers in the 20th century, after tea plantations were planted on the Black Sea coast at Rize in the 1930s and 1940s. One breakfast table, then, holds the ancient Mediterranean, the Turkish migration, the age of exploration, and the early Republic. The sorting activity below lets us practice reading these layers.
+**Worked example: reading a Turkish breakfast table.** Let's read tomorrow morning's breakfast in layers. The **olives** and **olive oil** are the oldest layer: olive trees have been cultivated around the eastern Mediterranean for thousands of years, long before Byzantium was founded. The **white cheese**, the **yogurt**, and the **kaymak** (thick clotted cream) carry the culture of Turkic herders who moved west from Central Asia into Anatolia after 1071, a dairy culture built on sheep, goats, and cattle; *yoğurt* and *kaymak* are Turkic words. The **sliced tomatoes** and the **green peppers** come from the Americas, a gift of the Columbian Exchange, the transfer of crops between the Americas and the rest of the world that began after 1492; tomatoes did not become common in Ottoman cooking until the 1800s. The **tea** is the newest layer of all. The Ottomans were coffee drinkers, and Turkey only became a nation of tea drinkers in the 20th century, after tea plantations were planted on the Black Sea coast at Rize in the 1930s and 1940s. One breakfast table, then, holds the ancient Mediterranean, the Turkish migration, the age of exploration, and the early Republic. The sorting activity below lets us practice reading these layers.
 
 #### Diagram: Reading Food in Layers
 
@@ -609,7 +609,7 @@ Type: microsim
 
 The five layers, shown as labeled bins with these descriptions:
 
-1. Ancient Mediterranean and Anatolia: grown or caught here since long before Byzantion.
+1. Ancient Mediterranean and Anatolia: grown or caught here since long before Byzantium.
 2. Turkic herders from Central Asia: brought by Turkish-speaking herders who moved into Anatolia after 1071.
 3. Ottoman trade and court: arrived through the empire's trade routes and palace kitchens, often from the Arab and Persian worlds.
 4. The Americas, after 1492: arrived through the Columbian Exchange.
@@ -618,7 +618,7 @@ The five layers, shown as labeled bins with these descriptions:
 | # | Food card | Correct layer | Why (shown as feedback) |
 |---|---|---|---|
 | 1 | Olives and olive oil | 1 | Olive trees have been cultivated around the eastern Mediterranean for thousands of years. |
-| 2 | Bonito and bluefish from the Bosphorus | 1 | Greek Byzantion grew rich salting and exporting the fish that migrate through the strait. |
+| 2 | Bonito and bluefish from the Bosphorus | 1 | Greek Byzantium grew rich salting and exporting the fish that migrate through the strait. |
 | 3 | Chickpeas | 1 | Chickpeas were first farmed in what is now southeastern Turkey, thousands of years before the Greeks arrived. |
 | 4 | Yogurt | 2 | Yogurt is a Turkic word, and souring milk was how herders on the move kept it from spoiling. |
 | 5 | Ayran (salted yogurt drink) | 2 | A herders' drink made from yogurt and water, now Turkey's everyday drink with kebab. |
@@ -659,18 +659,18 @@ Three features are worth knowing on our first day. First, Turkish cooking is **r
 
 <figure markdown="span" class="trip-photo">
   ![A Turkish lunch of meze](img/turkish-lunch-meze.jpg){ loading=lazy }
-  <figcaption>A Turkish lunch of meze</figcaption>
+  <figcaption>A Turkish lunch of meze. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 **Worked example: menemen, a breakfast in five layers.** *Menemen* is a skillet dish of eggs scrambled softly with tomatoes, green peppers, and often onion, cooked in olive oil or butter and eaten straight from the pan with bread. It looks simple. Read it as food history: the olive oil is ancient Mediterranean; the butter, if used, belongs to the herders' dairy tradition; the tomatoes and peppers are American, which means this "traditional" dish can be no older than the 1800s in its current form; the bread is the staple of every period; and the tea served alongside is 20th-century Republic. Istanbul cafés argue over whether menemen should include onions, a question with no historical answer but a lot of passion. Ordering it tomorrow is a good way to start a conversation with the waiter.
 
 ### Turkish Breakfast
 
-**Turkish breakfast** (*kahvaltı*) is the traditional morning meal of many small dishes eaten with bread and tea. Its name means "before coffee" (*kahve altı*), from the old custom of eating something before the morning coffee. A full breakfast spread, sometimes called *serpme kahvaltı*, can cover the table: white cheese and aged cheeses, black and green olives, tomatoes and cucumbers, honey and kaymak, jams, butter, boiled eggs or menemen, sometimes spicy sausage (*sucuk*), and baskets of bread and simit, with tea refilled until we stop it. Our hotel will likely serve a version of it. On a weekend, many Istanbul families make a long breakfast the main social meal of the day.
+**Turkish breakfast** (*kahvaltı* <audio id="audio-kahvalti" src="../../audio/kahvalti.mp3" preload="none"></audio><button onclick="document.getElementById('audio-kahvalti').play()" class="pronounce-btn">🔊 Pronounce</button> *kah-vahl-TUH*) is the traditional morning meal of many small dishes eaten with bread and tea. Its name means "before coffee" (*kahve altı*), from the old custom of eating something before the morning coffee. A full breakfast spread, sometimes called *serpme kahvaltı*, can cover the table: white cheese and aged cheeses, black and green olives, tomatoes and cucumbers, honey and kaymak, jams, butter, boiled eggs or menemen, sometimes spicy sausage (*sucuk*), and baskets of bread and simit, with tea refilled until we stop it. Our hotel will likely serve a version of it. On a weekend, many Istanbul families make a long breakfast the main social meal of the day.
 
 <figure markdown="span" class="trip-photo">
   ![Olives at a Turkish breakfast](img/olives-turkish-breakfast.jpg){ loading=lazy }
-  <figcaption>Olives at a Turkish breakfast</figcaption>
+  <figcaption>Olives at a Turkish breakfast. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ### Simit

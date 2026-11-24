@@ -20,7 +20,7 @@ List the albums the export contains:
 
     python3 scripts/google_photos_takeout.py takeout/*.zip --list
 
-Regenerate the metrics on docs/photos.md and write docs/data/photo-metrics.json:
+Regenerate the metrics on docs/appendices/photo-metrics.md and write docs/data/photo-metrics.json:
 
     python3 scripts/google_photos_takeout.py takeout/*.zip \
         --album "Ann & Dan Eastern Mediterranean Cruise 2026"
@@ -53,7 +53,7 @@ from typing import Callable, Iterator
 from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_PAGE = REPO_ROOT / "docs" / "photos.md"
+DEFAULT_PAGE = REPO_ROOT / "docs" / "appendices" / "photo-metrics.md"
 DEFAULT_JSON = REPO_ROOT / "docs" / "data" / "photo-metrics.json"
 START_MARKER = "<!-- photo-metrics:start -->"
 END_MARKER = "<!-- photo-metrics:end -->"
@@ -279,7 +279,7 @@ def main() -> None:
     parser.add_argument("--tz", default="Europe/Athens",
                         help="time zone for days and times (default: Europe/Athens)")
     parser.add_argument("--page", type=Path, default=DEFAULT_PAGE,
-                        help="markdown page to update (default: docs/photos.md)")
+                        help="markdown page to update (default: docs/appendices/photo-metrics.md)")
     parser.add_argument("--json", type=Path, default=DEFAULT_JSON,
                         help="metrics JSON to write (default: docs/data/photo-metrics.json)")
     parser.add_argument("--dry-run", action="store_true",

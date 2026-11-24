@@ -29,7 +29,7 @@ and the map ends with our overland day trip from Athens to Delphi:
 
 1. **Istanbul**, Turkey: Nov 14–15, overnight in port (trip days 4–5)
 2. **Çanakkale**, Turkey, the port for Troy and Gallipoli: Nov 16 (trip day 6)
-3. **Kusadasi**, Turkey, the port for Ephesus: Nov 17 (trip day 7)
+3. **Kuşadası**, Turkey, the port for Ephesus: Nov 17 (trip day 7)
 4. **Rhodes**, Greece: Nov 18 (trip day 8)
 5. **Heraklion**, Crete, Greece, the port for Knossos: Nov 19 (trip day 9)
 6. **Athens (Piraeus)**, Greece: Nov 20, disembarking Nov 21 (trip days 10–11)
@@ -105,7 +105,7 @@ most from it before and during the cruise.
 
 1. [Hagia Sophia](https://en.wikipedia.org/wiki/Hagia_Sophia) - accessed 2026-11-10 - Wikipedia - History of Istanbul's defining monument, the first stop on the itinerary.
 2. [Troy](https://en.wikipedia.org/wiki/Troy) - accessed 2026-11-10 - Wikipedia - The archaeological site visited from Çanakkale.
-3. [Ephesus](https://en.wikipedia.org/wiki/Ephesus) - accessed 2026-11-10 - Wikipedia - The Greco-Roman city visited from Kusadasi.
+3. [Ephesus](https://en.wikipedia.org/wiki/Ephesus) - accessed 2026-11-10 - Wikipedia - The Greco-Roman city visited from Kuşadası.
 4. [Medieval City of Rhodes](https://en.wikipedia.org/wiki/Medieval_city_of_Rhodes) - accessed 2026-11-10 - Wikipedia - The walled UNESCO old town beside the Rhodes cruise pier.
 5. [Knossos](https://en.wikipedia.org/wiki/Knossos) - accessed 2026-11-10 - Wikipedia - The Minoan palace visited from Heraklion.
 6. [Acropolis of Athens](https://en.wikipedia.org/wiki/Acropolis_of_Athens) - accessed 2026-11-10 - Wikipedia - The final cruise port's main monument.

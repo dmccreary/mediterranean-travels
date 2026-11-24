@@ -54,7 +54,7 @@ This chapter assumes only the prerequisites listed in the [trip description](../
 
 ## Why Start With a Map and a Timeline
 
-In thirteen days we will stand inside a Byzantine cathedral that became a mosque, walk a Roman marble street where a Greek goddess was worshipped, climb a Bronze Age palace on Crete, and look up at a temple built by the first democracy. The trouble is that the route runs backward and forward through time. Istanbul, our first stop, is mostly Byzantine and Ottoman. Troy and Knossos, in the middle of the cruise, are far older than anything in Istanbul. Classical Athens comes at the end. Without a map and a timeline in our heads, the stops blur into one long afternoon of "very old stones."
+In thirteen days we will stand inside a Byzantine <audio id="audio-byzantine" src="../../audio/byzantine.mp3" preload="none"></audio><button onclick="document.getElementById('audio-byzantine').play()" class="pronounce-btn">🔊 Pronounce</button> *BIZ-un-teen* cathedral that became a mosque, walk a Roman marble street where a Greek goddess was worshipped, climb a Bronze Age palace on Crete, and look up at a temple built by the first democracy. The trouble is that the route runs backward and forward through time. Istanbul, our first stop, is mostly Byzantine and Ottoman. Troy and Knossos <audio id="audio-knossos" src="../../audio/knossos.mp3" preload="none"></audio><button onclick="document.getElementById('audio-knossos').play()" class="pronounce-btn">🔊 Pronounce</button> *NOSS-us*, in the middle of the cruise, are far older than anything in Istanbul. Classical Athens comes at the end. Without a map and a timeline in our heads, the stops blur into one long afternoon of "very old stones."
 
 This chapter is that map and timeline. It is the longest chapter in the guide because almost every later chapter leans on it, so it is worth reading slowly, perhaps in two sittings before we fly. Everything here gets a fuller story later, at the place where it happened. The goal now is only to know where each place sits on the map and where each site sits in time.
 
@@ -109,7 +109,7 @@ That geography explains most of the history in this book. The Eastern Mediterran
 
 The Turks and the Greeks give the sea different names, and the names are a small lesson in point of view. In Turkish the Mediterranean is *Akdeniz*, the "White Sea," and the Black Sea is *Karadeniz*, the "Black Sea." One explanation is an old Turkic habit of naming directions by color, with white for the west and black for the north. In Greek the Mediterranean is simply *Mesógeios*, the "middle of the earth." Each name puts its speakers at the center.
 
-**Worked example: three continents in one trip.** Let's place our stops by continent. Istanbul is split by the Bosphorus strait: our hotel and the old city are in Europe, and the ferry to Kadıköy lands in Asia. Çanakkale, Kusadasi, and Ephesus are in Asia, on the western edge of Turkey. Rhodes lies in Europe politically, as part of Greece, but it is only about 18 km from the Turkish coast. Crete is in Europe, yet its south coast is only about 300 km from Libya, in Africa. Athens and Delphi are in mainland Europe. The point is not the labels. The point is that the "continents" here are a few hours apart by boat, which is why this one sea held so many different peoples together.
+**Worked example: three continents in one trip.** Let's place our stops by continent. Istanbul is split by the Bosphorus <audio id="audio-bosphorus" src="../../audio/bosphorus.mp3" preload="none"></audio><button onclick="document.getElementById('audio-bosphorus').play()" class="pronounce-btn">🔊 Pronounce</button> *BOS-fer-us* strait: our hotel and the old city are in Europe, and the ferry to Kadıköy lands in Asia. Çanakkale <audio id="audio-canakkale" src="../../audio/canakkale.mp3" preload="none"></audio><button onclick="document.getElementById('audio-canakkale').play()" class="pronounce-btn">🔊 Pronounce</button> *chah-NAHK-kah-leh*, Kuşadası <audio id="audio-kusadasi" src="../../audio/kusadasi.mp3" preload="none"></audio><button onclick="document.getElementById('audio-kusadasi').play()" class="pronounce-btn">🔊 Pronounce</button> *koo-SHAH-dah-suh*, and Ephesus <audio id="audio-ephesus" src="../../audio/ephesus.mp3" preload="none"></audio><button onclick="document.getElementById('audio-ephesus').play()" class="pronounce-btn">🔊 Pronounce</button> *EF-uh-sus* are in Asia, on the western edge of Turkey. Rhodes lies in Europe politically, as part of Greece, but it is only about 18 km from the Turkish coast. Crete is in Europe, yet its south coast is only about 300 km from Libya, in Africa. Athens and Delphi are in mainland Europe. The point is not the labels. The point is that the "continents" here are a few hours apart by boat, which is why this one sea held so many different peoples together.
 
 The map below follows our cruise from Istanbul to Athens and the day trip to Delphi. Click each port to see its date, its key sights, and a tip for the day.
 
@@ -122,24 +122,24 @@ The countries and regions we will pass through, in the order we meet them, are s
 | Region | Modern country | Our stops | Continent |
 |---|---|---|---|
 | Thrace and the Bosphorus | Turkey | Istanbul (European side) | Europe |
-| Anatolia | Turkey | Istanbul (Asian side), Çanakkale, Kusadasi, Ephesus | Asia |
+| Anatolia | Turkey | Istanbul (Asian side), Çanakkale, Kuşadası, Ephesus | Asia |
 | Dodecanese islands | Greece | Rhodes | Europe (by politics) |
 | Crete | Greece | Heraklion, Knossos | Europe (by politics) |
 | Attica and central Greece | Greece | Athens, Piraeus, Delphi | Europe |
 
 ### Anatolia
 
-**Anatolia** is the great peninsula of land that makes up the Asian part of Turkey, about 97 percent of the country. Its name comes from the Greek *anatolē*, "sunrise," because to Greeks it was the land toward the rising sun; the Turkish name, *Anadolu*, comes from the same word. Older books call it **Asia Minor**, "lesser Asia." It is bordered by the Black Sea to the north, the Aegean to the west, and the Mediterranean to the south. Its center is a high, dry plateau around 1,000 meters above sea level, cold in winter, ringed by mountains. Its western coast is the opposite: green river valleys that open onto deep bays and sheltered harbors.
+**Anatolia** <audio id="audio-anatolia" src="../../audio/anatolia.mp3" preload="none"></audio><button onclick="document.getElementById('audio-anatolia').play()" class="pronounce-btn">🔊 Pronounce</button> *an-uh-TOH-lee-uh* is the great peninsula of land that makes up the Asian part of Turkey, about 97 percent of the country. Its name comes from the Greek *anatolē*, "sunrise," because to Greeks it was the land toward the rising sun; the Turkish name, *Anadolu*, comes from the same word. Older books call it **Asia Minor**, "lesser Asia." It is bordered by the Black Sea to the north, the Aegean to the west, and the Mediterranean to the south. Its center is a high, dry plateau around 1,000 meters above sea level, cold in winter, ringed by mountains. Its western coast is the opposite: green river valleys that open onto deep bays and sheltered harbors.
 
-That western coast matters enormously for us. In the minds of many travelers, "ancient Greece" means the country of Greece. But some of the most important Greek cities were in Anatolia. Troy guarded the entrance to the Dardanelles. Ephesus and Miletus were among the largest Greek cities in the world. Greek philosophy began in this region, called **Ionia**, with thinkers like Thales of Miletus, around 600 BCE. Homer may have been an Ionian Greek.
+That western coast matters enormously for us. In the minds of many travelers, "ancient Greece" means the country of Greece. But some of the most important Greek cities were in Anatolia. Troy guarded the entrance to the Dardanelles <audio id="audio-dardanelles" src="../../audio/dardanelles.mp3" preload="none"></audio><button onclick="document.getElementById('audio-dardanelles').play()" class="pronounce-btn">🔊 Pronounce</button> *dar-duh-NELZ*. Ephesus and Miletus were among the largest Greek cities in the world. Greek philosophy began in this region, called **Ionia** <audio id="audio-ionia" src="../../audio/ionia.mp3" preload="none"></audio><button onclick="document.getElementById('audio-ionia').play()" class="pronounce-btn">🔊 Pronounce</button> *eye-OH-nee-uh*, with thinkers like Thales of Miletus, around 600 BCE. Homer may have been an Ionian Greek.
 
 Anatolia was never only Greek, though. It has been a land of many peoples for thousands of years. Before the Greeks, the **Hittites** ruled a Bronze Age empire from central Anatolia. Later came the Phrygians, whose King Midas lives on in legend, and the Lydians, whose King Croesus was so rich that "rich as Croesus" is still an English phrase. Persians, Macedonians, Romans, Byzantines, Seljuk Turks, and Ottomans followed. Today Anatolia is the heartland of the Turkish Republic, home to most of Turkey's roughly 85 million people.
 
-**Worked example: "Is Ephesus Greek or Turkish?"** We'll hear both answers on Day 7, and both are correct for different questions. If we ask *where is it now*, Ephesus is in Turkey, near the town of Selçuk. If we ask *who founded it*, Greek settlers did, around the 10th century BCE, on land already lived on by Anatolian peoples. If we ask *who built most of what we see*, it was Romans, mostly in the 1st and 2nd centuries CE. If we ask *who protects it now*, it is the Turkish state and Austrian and Turkish archaeologists. A careful traveler names the question before choosing the answer. The table below shows how many hands have held the Anatolian stops on our route.
+**Worked example: "Is Ephesus Greek or Turkish?"** We'll hear both answers on Day 7, and both are correct for different questions. If we ask *where is it now*, Ephesus is in Turkey, near the town of Selçuk <audio id="audio-selcuk" src="../../audio/selcuk.mp3" preload="none"></audio><button onclick="document.getElementById('audio-selcuk').play()" class="pronounce-btn">🔊 Pronounce</button> *SEL-chook*. If we ask *who founded it*, Greek settlers did, around the 10th century BCE, on land already lived on by Anatolian peoples. If we ask *who built most of what we see*, it was Romans, mostly in the 1st and 2nd centuries CE. If we ask *who protects it now*, it is the Turkish state and Austrian and Turkish archaeologists. A careful traveler names the question before choosing the answer. The table below shows how many hands have held the Anatolian stops on our route.
 
 | Stop | Greek city? | Roman city? | Byzantine city? | Ottoman city? | Today |
 |---|---|---|---|---|---|
-| Istanbul (Byzantion) | Yes, from c. 657 BCE | Yes | Capital, 330–1453 | Capital, 1453–1922 | Turkey's largest city |
+| Istanbul (Byzantium) | Yes, from c. 657 BCE | Yes | Capital, 330–1453 | Capital, 1453–1922 | Turkey's largest city |
 | Troy (Ilion) | Yes, after c. 700 BCE | Yes (Ilium) | Faded away | Ruins | Turkish national park |
 | Ephesus | Yes, from c. 1000 BCE | Capital of the province of Asia | Yes, a church center | Village of Ayasuluk (Selçuk) | Turkish archaeological site |
 
@@ -166,7 +166,7 @@ The table summarizes the Aegean's key waterways, all of which we will pass throu
 
 The **Greek Islands** are the thousands of islands that belong to Greece, most of them in the Aegean. Greece counts roughly 6,000 islands and islets, but only a little over 200 have people living on them. Geographers sort them into groups, and the group names appear on ferry schedules, museum labels, and menus.
 
-The groups follow the shape of the sea. The **Cyclades** form a rough circle around the tiny holy island of Delos; Santorini and Mykonos are Cycladic. The **Dodecanese**, "twelve islands," lie along the Turkish coast in the southeast; Rhodes is the largest. The **North Aegean** islands, such as Lesbos, Chios, and Samos, also sit just off Turkey. The **Sporades** lie off the mainland to the northwest. **Crete** stands alone at the southern edge of the Aegean, so large that it is usually treated as its own region. The **Ionian** islands, such as Corfu, are on the other side of Greece, in the Ionian Sea, and we will not see them.
+The groups follow the shape of the sea. The **Cyclades** <audio id="audio-cyclades" src="../../audio/cyclades.mp3" preload="none"></audio><button onclick="document.getElementById('audio-cyclades').play()" class="pronounce-btn">🔊 Pronounce</button> *SIK-luh-deez* form a rough circle around the tiny holy island of Delos; Santorini and Mykonos are Cycladic. The **Dodecanese** <audio id="audio-dodecanese" src="../../audio/dodecanese.mp3" preload="none"></audio><button onclick="document.getElementById('audio-dodecanese').play()" class="pronounce-btn">🔊 Pronounce</button> *doh-dek-uh-NEEZ*, "twelve islands," lie along the Turkish coast in the southeast; Rhodes is the largest. The **North Aegean** islands, such as Lesbos, Chios, and Samos, also sit just off Turkey. The **Sporades** lie off the mainland to the northwest. **Crete** stands alone at the southern edge of the Aegean, so large that it is usually treated as its own region. The **Ionian** islands, such as Corfu, are on the other side of Greece, in the Ionian Sea, and we will not see them.
 
 Not every island near Greece is Greek. Two islands near Çanakkale, Gökçeada (Imbros) and Bozcaada (Tenedos), belong to Turkey. And not every Greek island has been Greek for long. The Dodecanese, Rhodes included, were ruled by the Ottomans until 1912, then by Italy, and only joined Greece in 1947. Their streets carry Ottoman fountains, Italian administrative buildings, and Greek churches side by side.
 
@@ -182,7 +182,7 @@ Not every island near Greece is Greek. Two islands near Çanakkale, Gökçeada (
 
 ### Crete
 
-**Crete** is the largest Greek island and the fifth largest in the Mediterranean. It is about 260 km long and rarely more than 60 km wide, a long mountainous wall at the southern edge of the Aegean. Its highest peak, Psiloritis (the ancient Mount Ida), rises to 2,456 meters and often wears snow in late November. About 620,000 people live on Crete today, around a quarter of them in Heraklion, the port where we will dock.
+**Crete** is the largest Greek island and the fifth largest in the Mediterranean. It is about 260 km long and rarely more than 60 km wide, a long mountainous wall at the southern edge of the Aegean. Its highest peak, Psiloritis (the ancient Mount Ida), rises to 2,456 meters and often wears snow in late November. About 620,000 people live on Crete today, around a quarter of them in Heraklion <audio id="audio-heraklion" src="../../audio/heraklion.mp3" preload="none"></audio><button onclick="document.getElementById('audio-heraklion').play()" class="pronounce-btn">🔊 Pronounce</button> *heh-RAH-klee-on*, the port where we will dock.
 
 Crete's position made it a prize. It sits on the sea lane between Greece, Anatolia, Egypt, and the Levant, so whoever held its harbors could watch the traffic of the whole eastern sea. As a result, the island has passed through more hands than almost any place on our route. The list of its rulers is itself a summary of this chapter.
 
@@ -220,7 +220,7 @@ Before we try the checklist on real places, here is what each feature looks like
 | Records | Clay tablets, inscriptions, seal impressions |
 | Monumental building and shared beliefs | Temples, shrines, tombs, large public spaces |
 
-**Worked example: Çatalhöyük and Knossos.** Let's score two Anatolian and Cretan places against the checklist. Çatalhöyük, on the Anatolian plateau, was a large town of several thousand people from about 7100 to 5700 BCE. It had dense housing (yes), stored grain (partly), shrines and wall paintings (partly), but no palace, no writing, and little sign of specialized classes or a ruler. Most historians call it a remarkable early town, not a civilization. Knossos, around 1700 BCE, had a town of thousands around a palace (yes), huge storerooms with jars taller than a person (yes), a ruling palace administration (yes), clay tablets in the Linear A script (yes), and grand halls and shrines (yes). Knossos passes all five, which is why the Minoans are often called Europe's first civilization. Notice that the checklist says nothing about which society was wiser or happier.
+**Worked example: Çatalhöyük and Knossos.** Let's score two Anatolian and Cretan places against the checklist. Çatalhöyük, on the Anatolian plateau, was a large town of several thousand people from about 7100 to 5700 BCE. It had dense housing (yes), stored grain (partly), shrines and wall paintings (partly), but no palace, no writing, and little sign of specialized classes or a ruler. Most historians call it a remarkable early town, not a civilization. Knossos, around 1700 BCE, had a town of thousands around a palace (yes), huge storerooms with jars taller than a person (yes), a ruling palace administration (yes), clay tablets in the Linear A script (yes), and grand halls and shrines (yes). Knossos passes all five, which is why the Minoans <audio id="audio-minoan" src="../../audio/minoan.mp3" preload="none"></audio><button onclick="document.getElementById('audio-minoan').play()" class="pronounce-btn">🔊 Pronounce</button> *mih-NOH-un* are often called Europe's first civilization. Notice that the checklist says nothing about which society was wiser or happier.
 
 !!! mascot-thinking "Civilization Is a Shape, Not a Grade"
     ![Glaux thinking with one wing raised](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -276,13 +276,13 @@ The hardest thing about this timeline is its length. More than five thousand yea
 | Ottoman Period | 1453–1922 CE | 469 | 9:22 PM to 11:31 PM |
 | Modern era | 1922–2026 CE | 104 | 11:31 PM to midnight |
 
-Two things jump out. The Bronze Age fills the whole morning, while the Classical period, the age of the Parthenon and Socrates that most people mean by "ancient Greece," lasts only 43 minutes of the afternoon. And the Byzantine period, which many travelers have barely heard of, takes more than five hours of the evening. One more comparison: when Pericles built the Parthenon in 447 BCE, the first palace at Knossos (c. 1900 BCE) was about 1,450 years old. That is roughly how old Hagia Sophia (537 CE) is to us.
+Two things jump out. The Bronze Age fills the whole morning, while the Classical period, the age of the Parthenon and Socrates that most people mean by "ancient Greece," lasts only 43 minutes of the afternoon. And the Byzantine period, which many travelers have barely heard of, takes more than five hours of the evening. One more comparison: when Pericles built the Parthenon in 447 BCE, the first palace at Knossos (c. 1900 BCE) was about 1,450 years old. That is roughly how old Hagia Sophia <audio id="audio-hagia-sophia" src="../../audio/hagia-sophia.mp3" preload="none"></audio><button onclick="document.getElementById('audio-hagia-sophia').play()" class="pronounce-btn">🔊 Pronounce</button> *HAH-yuh soh-FEE-uh* (537 CE) is to us.
 
-The timeline below lets us explore these periods and the key events on our route. Before reading the descriptions, try to answer its six questions; each one tests a sense of proportion that the 24-hour clock just built.
+The timeline below draws these nine periods to scale and nothing else, so the lengths of the bands are the one thing to look at. Before reading the descriptions, try to answer its six questions; each one tests a sense of proportion that the 24-hour clock just built. Once the eras feel familiar, the [Timeline of Events](../../appendices/timeline-of-events.md) appendix adds 29 events on our route to the same scale.
 
 #### Diagram: Eras of the Eastern Mediterranean Timeline
 
-<iframe src="../../sims/eastern-med-eras-timeline/main.html" height="676px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/eastern-med-eras-timeline/main.html" height="440px" width="100%" scrolling="no"></iframe>
 
 [Run the Eras of the Eastern Mediterranean Timeline MicroSim Fullscreen](../../sims/eastern-med-eras-timeline/main.html){ .md-button .md-button--primary }
 
@@ -294,94 +294,60 @@ Type: timeline
 **Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** compare<br/>
-**Learning Objective:** The learner will compare the order, length, and overlap of the nine periods of Eastern Mediterranean history by answering six proportion questions before the answers are revealed, scoring at least 5 of 6.
+**Learning Objective:** The learner will compare the order and length of the nine periods of Eastern Mediterranean history by answering six proportion questions before the answers are revealed, scoring at least 5 of 6.
 
 **Prerequisites:** historical timeline, period (era), BCE and CE dating, no year zero, and the names of the nine periods (all defined in "The Historical Timeline" and "BCE and CE Dating" above).
 
-**Evidence of Mastery:** The learner commits an answer to each of six multiple-choice questions before the timeline reveals the relevant bands and events. An answer is correct when it matches the answer column in Content. Mastery is 5 of 6 correct on the first attempt. Scrolling the timeline, zooming with buttons, and clicking events to read their descriptions are exploration, not evidence.
+**Evidence of Mastery:** The learner commits an answer to each of six multiple-choice questions before the timeline highlights the relevant bands and shows their lengths. An answer is correct when it matches the answer column in Content. Mastery is 5 of 6 correct on the first attempt. Panning the timeline and clicking bands to read their descriptions are exploration, not evidence.
 
 **Misconceptions:** (1) The Classical period was long because it is famous. (2) The Byzantine period was a short epilogue to Rome. (3) Spans across the BCE/CE line are found by subtracting the two numbers. (4) Writing in Greece was continuous from the Bronze Age onward.
 
-**Instructional Rationale:** An Understand-level comparison of durations needs the learner to commit a judgment of proportion and then see it checked against a to-scale display. Asking before revealing turns the timeline from a picture into a test of the learner's mental model, and the infoboxes supply the explanation that makes the correction stick.
+**Instructional Rationale:** An Understand-level comparison of durations needs the learner to commit a judgment of proportion and then see it checked against a to-scale display. Asking before revealing turns the timeline from a picture into a test of the learner's mental model, and the infoboxes supply the explanation that makes the correction stick. Events are left out so that nothing competes with the band lengths; one or two sites per period appear only in the infobox, and the full set of events is a separate appendix MicroSim (eastern-med-events-timeline).
 
 **Content:**
 
-Period bands (shown to scale; BCE dates as negative years):
+Period bands (shown to scale; BCE dates as negative years), with the sites on our route named in each band's infobox:
 
-| # | Period | Start | End | One-line description |
-|---|---|---|---|---|
-| 1 | Bronze Age | c. 3200 BCE | c. 1100 BCE | Tools of bronze; palaces, scribes, and long-distance metal trade; Minoans, Mycenaeans, Hittites, and Troy. |
-| 2 | Iron Age | c. 1100 BCE | c. 800 BCE | After the palaces fell; iron replaces bronze; writing disappears from Greece. |
-| 3 | Archaic Period | c. 800 BCE | 480 BCE | The alphabet, Homer, city-states, colonies, the first coins, and the first democracy. |
-| 4 | Classical Period | 480 BCE | 323 BCE | From the Persian Wars to Alexander's death: Athens's Parthenon, theater, and philosophy. |
-| 5 | Hellenistic Period | 323 BCE | 31 BCE | Alexander's successor kingdoms spread Greek language and culture from Egypt to Afghanistan. |
-| 6 | Roman Period | 31 BCE | 330 CE | Rome rules the whole Mediterranean; the Pax Romana; Christianity spreads. |
-| 7 | Byzantine Period | 330 CE | 1453 CE | The Christian, Greek-speaking Roman Empire ruled from Constantinople. |
-| 8 | Ottoman Period | 1453 CE | 1922 CE | The Ottoman Empire rules from Istanbul over a multi-faith population. |
-| 9 | Modern era | 1922 CE | 2026 CE | The Republic of Turkey and modern Greece. |
-
-Events (date, title, description shown in the infobox, chapter that goes deeper):
-
-| # | Date | Title | Description | Chapter |
-|---|---|---|---|---|
-| 1 | c. 1900 BCE | First palace at Knossos | Minoans build the first great palace on Crete. | 13 |
-| 2 | c. 1600 BCE | Eruption of Thera | The volcano on Santorini erupts; its exact date is still debated. | 13 |
-| 3 | c. 1450 BCE | Mycenaeans at Knossos | Greek-speaking Mycenaeans take control of Knossos and write in Linear B. | 13 |
-| 4 | c. 1300 BCE | Uluburun ship sinks | A merchant ship carrying about 10 tons of copper and 1 ton of tin sinks off southern Turkey. | 1 |
-| 5 | c. 1180 BCE | Troy VIIa burns | The city that may be Homer's Troy is destroyed by fire. | 8 |
-| 6 | c. 1200–1150 BCE | Late Bronze Age collapse | Palaces across Greece, Anatolia, and the Levant are destroyed or abandoned. | 1 |
-| 7 | c. 800 BCE | The Greek alphabet | Greeks adapt the Phoenician alphabet and add letters for vowels. | 2 |
-| 8 | 776 BCE | First Olympic Games | The traditional date of the first games at Olympia. | 1 |
-| 9 | c. 657 BCE | Byzantion founded | Greek colonists from Megara found the city that will become Istanbul. | 3 |
-| 10 | c. 600 BCE | First coins | The kingdom of Lydia, in western Anatolia, strikes the first coins. | 1 |
-| 11 | 508 BCE | Democracy in Athens | Cleisthenes' reforms give power to the assembly of citizens. | 16 |
-| 12 | 480 BCE | Persians burn the Acropolis; Battle of Salamis | The Persian army burns Athens; the Greek fleet wins at Salamis. | 15 |
-| 13 | 447–432 BCE | The Parthenon is built | Athens builds the Parthenon with money from its allies. | 15 |
-| 14 | 399 BCE | Death of Socrates | Athens condemns Socrates to death. | 16 |
-| 15 | 323 BCE | Death of Alexander | Alexander the Great dies in Babylon; his generals divide his empire. | 1 |
-| 16 | c. 280 BCE | Colossus of Rhodes | The giant bronze statue of the sun god is completed. | 12 |
-| 17 | 146 BCE | Rome sacks Corinth | Mainland Greece falls under Roman control. | 1 |
-| 18 | 31 BCE | Battle of Actium | Octavian (later Augustus) defeats Antony and Cleopatra. | 1 |
-| 19 | 27 BCE–180 CE | Pax Romana | About two centuries of relative peace across the Roman Empire. | 1 |
-| 20 | c. 52–55 CE | Paul in Ephesus | The apostle Paul teaches in Ephesus for two to three years. | 9 |
-| 21 | 330 CE | Constantinople dedicated | Constantine makes the old city of Byzantion his new capital. | 3 |
-| 22 | 537 CE | Hagia Sophia completed | Justinian's great church is dedicated. | 4 |
-| 23 | 1054 CE | The Great Schism | The Orthodox and Catholic churches split. | 4 |
-| 24 | 1204 CE | Fourth Crusade sacks Constantinople | Western crusaders capture and loot the Byzantine capital. | 4 |
-| 25 | 1453 CE | Ottomans take Constantinople | Sultan Mehmed II captures the city. | 3 |
-| 26 | 1522 CE | Ottomans take Rhodes | Suleiman the Magnificent forces the Knights Hospitaller to leave Rhodes. | 12 |
-| 27 | 1669 CE | Ottomans take Candia | Heraklion falls after a siege of 21 years, ending Venetian Crete. | 14 |
-| 28 | 1821 CE | Greek War of Independence | The Greek revolt against Ottoman rule begins. | 7 |
-| 29 | 1923 CE | Republic of Turkey; population exchange | The Turkish Republic is founded, and Greece and Turkey exchange populations. | 7 |
+| # | Period | Start | End | One-line description | On our route |
+|---|---|---|---|---|---|
+| 1 | Bronze Age | c. 3200 BCE | c. 1100 BCE | Tools of bronze; palaces, scribes, and long-distance metal trade; Minoans, Mycenaeans, Hittites, and Troy. | First palace at Knossos (c. 1900 BCE); Troy VI (c. 1750–1300 BCE) |
+| 2 | Iron Age | c. 1100 BCE | c. 800 BCE | After the palaces fell; iron replaces bronze; writing disappears from Greece. | Greek speakers settle Ionia, the coast around Ephesus |
+| 3 | Archaic Period | c. 800 BCE | 480 BCE | The alphabet, Homer, city-states, colonies, the first coins, and the first democracy. | First Olympic Games (776 BCE); Byzantium founded (c. 657 BCE) |
+| 4 | Classical Period | 480 BCE | 323 BCE | From the Persian Wars to Alexander's death: Athens's Parthenon, theater, and philosophy. | The Parthenon (447–432 BCE) |
+| 5 | Hellenistic Period | 323 BCE | 31 BCE | Alexander's successor kingdoms spread Greek language and culture from Egypt to Afghanistan. | Colossus of Rhodes (c. 280 BCE) |
+| 6 | Roman Period | 31 BCE | 330 CE | Rome rules the whole Mediterranean; the Pax Romana; Christianity spreads. | Paul in Ephesus (c. 52–55 CE) |
+| 7 | Byzantine Period | 330 CE | 1453 CE | The Christian, Greek-speaking Roman Empire ruled from Constantinople. | Hagia Sophia (537 CE) |
+| 8 | Ottoman Period | 1453 CE | 1922 CE | The Ottoman Empire rules from Istanbul over a multi-faith population. | Topkapı Palace begun (1459 CE) |
+| 9 | Modern era | 1922 CE | 2026 CE | The Republic of Turkey and modern Greece. | Republic of Turkey founded (1923 CE) |
 
 Questions, in fixed order:
 
 | # | Question | Choices | Correct | Why (shown as feedback) |
 |---|---|---|---|---|
-| 1 | Which lasted longer? | Bronze Age; Classical Period | Bronze Age | The Bronze Age lasted about 2,100 years; the Classical period lasted 157 years. |
-| 2 | Was the Parthenon (447 BCE) built closer in time to the first palace at Knossos (c. 1900 BCE) or to Paul's years in Ephesus (c. 52 CE)? | Knossos; Paul | Paul | About 498 years separate the Parthenon from Paul, but about 1,453 years separate it from the first palace at Knossos. |
-| 3 | Which lasted longer? | Byzantine Period; Ottoman Period | Byzantine Period | The Byzantine period lasted 1,123 years (330–1453); the Ottoman period in Istanbul lasted 469 years (1453–1922). |
-| 4 | Did Paul teach in Ephesus before or during the Pax Romana? | Before; During | During | The Pax Romana began in 27 BCE and lasted to 180 CE; Paul was in Ephesus around 52–55 CE. |
-| 5 | How many years passed between the burning of the Acropolis (480 BCE) and the dedication of Constantinople (330 CE)? | 150; 809; 810; 850 | 809 | Across the BCE/CE line we add the two numbers and subtract one, because there was no year zero: 480 + 330 − 1 = 809. |
+| 1 | Which lasted longer: the Bronze Age or the Classical period? | Bronze Age; Classical Period | Bronze Age | The Bronze Age lasted about 2,100 years; the Classical period lasted 157 years. |
+| 2 | About how much of the whole timeline, 3200 BCE to 2026 CE, does the Bronze Age fill? | About a tenth; About a quarter; About two-fifths; About three-quarters | About two-fifths | The Bronze Age lasted about 2,100 of the 5,225 years, or about 40 percent: the whole morning on the 24-hour clock. |
+| 3 | Which lasted longer: the Byzantine period or the Ottoman period? | Byzantine Period; Ottoman Period | Byzantine Period | The Byzantine period lasted 1,123 years (330–1453); the Ottoman period in Istanbul lasted 469 years (1453–1922). |
+| 4 | Which lasted longer: the Classical, Hellenistic, and Roman periods put together, or the Byzantine period alone? | Classical + Hellenistic + Roman; Byzantine alone | Byzantine alone | 157 + 292 + 360 = 809 years for the three together, against 1,123 years for the Byzantine period alone. |
+| 5 | The Roman period ran from 31 BCE to 330 CE. How many years is that? | 299; 330; 360; 361 | 360 | Across the BCE/CE line we add the two numbers and subtract one, because there was no year zero: 31 + 330 − 1 = 360. |
 | 6 | In which period was writing almost unknown in Greece? | Bronze Age; Iron Age; Archaic Period; Hellenistic Period | Iron Age | After the palaces fell around 1200–1100 BCE, Linear B was forgotten; Greeks did not write again until they adopted the alphabet around 800 BCE. |
 
-**Provenance:** Period boundaries and event dates are from this chapter's sections "The Historical Timeline" through "The Ottoman Period," which use conventional rounded dates. Durations are computed from the Rules.
+**Provenance:** Period boundaries and site dates are from this chapter's sections "The Historical Timeline" through "The Ottoman Period," which use conventional rounded dates. Durations are computed from the Rules.
 
 **Rules:** Duration of a span that crosses from BCE to CE = BCE year + CE year − 1. Duration of a span within BCE = earlier year − later year. Duration within CE = later year − earlier year. All "c." dates are displayed with "c." and treated as their stated number for calculations. Period bands are shown to scale and do not overlap; the chapter's note that boundaries differ by place is shown in each band's infobox as "Boundaries vary by place; see the chapter." The learner can zoom from the full span (3200 BCE–2026 CE) to a 200-year window and back.
 
 **Learner Activity:**
 
-1. The learner sees the full timeline with the nine period bands labeled, events hidden, and question 1 shown.
-2. The learner chooses an answer. The bands named in the question are highlighted, their durations are shown, and the feedback appears.
-3. The learner presses Next; the next question appears. Events relevant to answered questions become visible and clickable.
-4. After question 6, all 29 events appear. The learner can click any event or band to read its description and the chapter that goes deeper.
+1. The learner sees the full timeline with the nine period bands labeled and question 1 shown.
+2. The learner chooses an answer. The bands named in the question are highlighted, their durations are shown, the timeline zooms to them, and the feedback appears.
+3. The learner presses Next; the view returns to the full span and the next question appears.
+4. After question 6, the learner can click any band to read its dates, length, description, and the sites on our route from that period.
 5. The learner should notice that the morning-long Bronze Age and the evening-long Byzantine period dwarf the famous Classical period.
 
 **Feedback:** Six questions in fixed order, one attempt each. Correct: "Correct." followed by the Why text. Incorrect: "Not quite." followed by the Why text. The correct answer is shown after every answer. A running score "Correct: n of 6" is shown, and at the end "5 or more: you have the timeline" or "Fewer than 5: reread the 24-hour clock table, then try again"; a Restart button clears the score.
 
 **Starting State:** The nine period bands on one screen, from 3200 BCE to 2026 CE, with question 1: "Which lasted longer: the Bronze Age or the Classical period?"
 
-**Chapter Anchors:** 3200 BCE to 2026 CE is 5,225 years. Bronze Age 2,100 years; Classical period 157 years; Byzantine period 1,123 years; Ottoman period 469 years. The first palace at Knossos (c. 1900 BCE) was about 1,450 years old when the Parthenon was built in 447 BCE. The Uluburun ship carried about 10 tons of copper and 1 ton of tin. 480 + 330 − 1 = 809.
+**Chapter Anchors:** 3200 BCE to 2026 CE is 5,225 years. Bronze Age 2,100 years (about 40 percent of the timeline); Classical period 157 years; Hellenistic period 292 years; Roman period 360 years (31 + 330 − 1); Byzantine period 1,123 years; Ottoman period 469 years.
 </details>
 
 ### BCE and CE Dating
@@ -408,9 +374,9 @@ Nine periods in a row is a lot to carry, and the names are easy to mix up on a f
 
 The **Bronze Age** is the period when the most important tools and weapons were made of **bronze**, a metal made by melting together about nine parts copper and one part tin. In the Aegean it lasted from about 3200 BCE to about 1100 BCE. Bronze is harder than copper and holds a sharper edge, and it can be cast in molds, so it changed farming, carpentry, and especially war. But bronze had a built-in problem. Copper was fairly common; Cyprus was so famous for it that the Latin word for copper, *cuprum*, comes from the island's name. Tin was rare, and much of it came from very far away, perhaps as far as Central Asia. Making bronze meant joining a trade network that stretched across the known world.
 
-That network built the first civilizations of our route. Great kingdoms ruled the Bronze Age Eastern Mediterranean: Egypt, the Hittites in Anatolia, city-kingdoms in the Levant, and, around the Aegean, the Minoans on Crete, the Mycenaean Greeks on the mainland, and the city of Troy. Their kings wrote letters to one another, calling each other "brother," and exchanged gifts of gold, horses, and fine cloth. Their palaces employed scribes who kept accounts on clay tablets.
+That network built the first civilizations of our route. Great kingdoms ruled the Bronze Age Eastern Mediterranean: Egypt, the Hittites in Anatolia, city-kingdoms in the Levant, and, around the Aegean, the Minoans on Crete, the Mycenaean Greeks <audio id="audio-mycenaean" src="../../audio/mycenaean.mp3" preload="none"></audio><button onclick="document.getElementById('audio-mycenaean').play()" class="pronounce-btn">🔊 Pronounce</button> *my-suh-NEE-un* on the mainland, and the city of Troy. Their kings wrote letters to one another, calling each other "brother," and exchanged gifts of gold, horses, and fine cloth. Their palaces employed scribes who kept accounts on clay tablets.
 
-**Worked example: the Uluburun shipwreck.** In 1982 a Turkish sponge diver named Mehmet Çakır reported strange "metal biscuits with ears" on the seabed off Uluburun, near the town of Kaş on Turkey's southern coast. They turned out to be copper ingots from a merchant ship that sank around 1300 BCE. Over eleven seasons, archaeologists raised about 10 tons of copper, mostly in the form of 354 flat "oxhide" ingots, and about 1 ton of tin. Let's read that cargo as evidence. Ten tons of copper to one ton of tin is a ratio of 10 to 1, almost exactly the recipe for bronze. This was a floating bronze kit, enough to make about 11 tons of bronze, perhaps thousands of weapons and tools. The ship also carried glass ingots, African ebony, hippopotamus ivory, Canaanite jars of resin, and a gold scarab with the name of the Egyptian queen Nefertiti. One small ship carried goods from at least seven cultures. Its remains are in the Bodrum Museum of Underwater Archaeology, and the ship tells us more about Bronze Age trade than any written text does.
+**Worked example: the Uluburun shipwreck.** In 1982 a Turkish sponge diver named Mehmet Çakır reported strange "metal biscuits with ears" on the seabed off Uluburun <audio id="audio-uluburun" src="../../audio/uluburun.mp3" preload="none"></audio><button onclick="document.getElementById('audio-uluburun').play()" class="pronounce-btn">🔊 Pronounce</button> *oo-loo-boo-ROON*, near the town of Kaş on Turkey's southern coast. They turned out to be copper ingots from a merchant ship that sank around 1300 BCE. Over eleven seasons, archaeologists raised about 10 tons of copper, mostly in the form of 354 flat "oxhide" ingots, and about 1 ton of tin. Let's read that cargo as evidence. Ten tons of copper to one ton of tin is a ratio of 10 to 1, almost exactly the recipe for bronze. This was a floating bronze kit, enough to make about 11 tons of bronze, perhaps thousands of weapons and tools. The ship also carried glass ingots, African ebony, hippopotamus ivory, Canaanite jars of resin, and a gold scarab with the name of the Egyptian queen Nefertiti. One small ship carried goods from at least seven cultures. Its remains are in the Bodrum Museum of Underwater Archaeology, and the ship tells us more about Bronze Age trade than any written text does.
 
 Around 1200 to 1150 BCE, that whole interlocking world fell apart. Within a few generations, Mycenae, Pylos, Troy, the Hittite capital of Hattusa, and many Levantine cities were burned or abandoned. Egyptian inscriptions blame raiders they called the "Sea Peoples." Historians today see a chain of causes: drought, earthquakes, raids, revolts, and the breakdown of the trade that brought tin. When one link of a tightly connected system broke, the others followed. Historians call this the **Late Bronze Age collapse**, and it opens the next period.
 
@@ -441,7 +407,7 @@ Mycenaean society looked very different from Minoan Crete. Its centers were hill
 
 <figure markdown="span" class="trip-photo">
   ![Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE](img/gold-cups-vapheio-mycenaean-greece.jpg){ loading=lazy }
-  <figcaption>Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE</figcaption>
+  <figcaption>Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 **Worked example: tablets baked by disaster.** Linear B tablets were made of unbaked clay, used for the year's accounts and then reused. They should have crumbled long ago. They survived because the palaces that stored them burned, and the fires baked the clay hard. So the records we have are the records of each palace's last months. What do they say? They are not poems or laws but inventories: sheep, wool, chariot wheels, bronze, olive oil, and offerings to gods. Some of those gods are familiar, including Zeus, Hera, and Poseidon. We read the Mycenaeans, in other words, through their bookkeeping, frozen at the moment of their destruction.
@@ -463,11 +429,11 @@ The **Iron Age** is the period when iron replaced bronze as the main metal for t
 
 For Greece, the first centuries of the Iron Age, about 1100 to 800 BCE, were hard. The population fell, many settlements were abandoned, and long-distance trade shrank. Above all, writing disappeared. Linear B had been a tool of palace scribes, and when the palaces fell, nobody needed it. For about three to four hundred years, nobody in Greece wrote anything at all. Older books call this the Greek **Dark Age**, a name that describes our lack of written sources more than the people's lives. Archaeology shows that some communities did well, and that stories of the heroic past were passed down orally by poets.
 
-Around 800 BCE, two things ended that silence. Greek traders met the **Phoenicians**, a seafaring people of the Levant coast, and borrowed their alphabet of 22 letters, all for consonants. The Greeks reused some of those letters for vowels: Phoenician *aleph* became Greek *alpha*. For the first time, a script could write down the sounds of a language with a small set of letters that almost anyone could learn. And among the first things the Greeks wrote down, probably in the 8th or 7th century BCE, were the two great poems of Homer, the *Iliad* and the *Odyssey*.
+Around 800 BCE, two things ended that silence. Greek traders met the **Phoenicians** <audio id="audio-phoenician" src="../../audio/phoenician.mp3" preload="none"></audio><button onclick="document.getElementById('audio-phoenician').play()" class="pronounce-btn">🔊 Pronounce</button> *fuh-NEE-shun*, a seafaring people of the Levant coast, and borrowed their alphabet of 22 letters, all for consonants. The Greeks reused some of those letters for vowels: Phoenician *aleph* became Greek *alpha*. For the first time, a script could write down the sounds of a language with a small set of letters that almost anyone could learn. And among the first things the Greeks wrote down, probably in the 8th or 7th century BCE, were the two great poems of Homer, the *Iliad* and the *Odyssey*.
 
 <figure markdown="span" class="trip-photo">
   ![A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE](img/geometric-period-lidded-box-pyxis.jpg){ loading=lazy }
-  <figcaption>A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE</figcaption>
+  <figcaption>A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 **Worked example: why iron spread when bronze had ruled.** Compare the Uluburun ship with an Iron Age village smith. To make one ton of bronze, a Bronze Age kingdom needed about 900 kg of copper from Cyprus and about 100 kg of tin from perhaps thousands of kilometers away, carried by ships like the one that sank at Uluburun. When the trade network collapsed around 1200 BCE, the tin stopped coming. Iron ore, by contrast, could be dug from local bogs and hillsides. The smith needed a hot fire, skill, and a lot of charcoal, but no foreign suppliers and no king. That is why the Iron Age took hold just when the palaces fell. The table sums up the difference.
@@ -493,7 +459,7 @@ What the Greeks left behind is hard to overstate. Western ideas of democracy, hi
 
 | City | Founded by Greeks? | Now in | What survives that is Greek |
 |---|---|---|---|
-| Byzantion (Istanbul) | Yes, by settlers from Megara, c. 657 BCE | Turkey | The name and the site; almost no buildings |
+| Byzantium (Istanbul) | Yes, by settlers from Megara, c. 657 BCE | Turkey | The name and the site; almost no buildings |
 | Ilion (Troy) | Greek city on an older site, after c. 700 BCE | Turkey | Temple foundations of Athena |
 | Ephesus | Yes, c. 1000 BCE, on an older Anatolian site | Turkey | The site of the Temple of Artemis |
 | Rhodes | Yes; unified city founded 408 BCE | Greece | The acropolis of Lindos; the street plan |
@@ -532,7 +498,7 @@ In these three centuries the Greeks adopted the alphabet and wrote down Homer. T
 
 **Worked example: the first coins.** Our trip passes close to the place where coins were invented. Around 600 BCE, the kingdom of Lydia, with its capital at Sardis, about 100 km inland from Ephesus, began stamping lumps of electrum, a natural mix of gold and silver, with a royal symbol. Why would that matter? Before coins, every trade meant weighing metal and testing its purity. A stamped coin carried a guarantee of weight and purity from the king, so it could pass from hand to hand without a scale. Some of the earliest coins ever found were buried as offerings under the Temple of Artemis at Ephesus. Lydia's most famous king, Croesus, paid for many of that temple's columns, and his name became a byword for wealth. Within a century, almost every Greek city struck its own coins. Athens put Glaux's ancestor, the little owl of Athena, on its silver four-drachma coin, which became the most trusted currency in the Greek world.
 
-The period ended in fire. The Persian Empire, the largest the world had seen, had conquered Lydia and the Ionian Greek cities by about 540 BCE. When the Ionians revolted and Athens helped them, Persia invaded Greece. The Athenians won at Marathon in 490 BCE, but in 480 BCE a much larger Persian army marched south, overwhelmed the Spartans at Thermopylae, and burned the temples on the Athenian Acropolis. That same year the Greek fleet destroyed the Persian navy at Salamis, within sight of Piraeus, where our ship will dock. Historians use 480 BCE as the line between the Archaic and Classical periods.
+The period ended in fire. The Persian Empire, the largest the world had seen, had conquered Lydia and the Ionian Greek cities by about 540 BCE. When the Ionians revolted and Athens helped them, Persia invaded Greece. The Athenians won at Marathon in 490 BCE, but in 480 BCE a much larger Persian army marched south, overwhelmed the Spartans at Thermopylae, and burned the temples on the Athenian Acropolis. That same year the Greek fleet destroyed the Persian navy at Salamis, within sight of Piraeus <audio id="audio-piraeus" src="../../audio/piraeus.mp3" preload="none"></audio><button onclick="document.getElementById('audio-piraeus').play()" class="pronounce-btn">🔊 Pronounce</button> *pie-REE-us*, where our ship will dock. Historians use 480 BCE as the line between the Archaic and Classical periods.
 
 | Archaic "first" | Approximate date | Where |
 |---|---|---|
@@ -548,7 +514,7 @@ The **Classical period** runs from 480 BCE, the year of Salamis, to 323 BCE, the
 
 <figure markdown="span" class="trip-photo">
   ![Temple of Poseidon at Cape Sounion, about 440 BCE](img/temple-poseidon-cape-sounion-about.jpg){ loading=lazy }
-  <figcaption>Temple of Poseidon at Cape Sounion, about 440 BCE</figcaption>
+  <figcaption>Temple of Poseidon at Cape Sounion, about 440 BCE. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 The period divides into two halves. In the first, after defeating Persia, Athens led a naval alliance of Aegean cities called the **Delian League**. Over time Athens turned the alliance into an empire, collecting yearly payments from its allies and using its fleet to keep them in line. That money paid for the age of Pericles, the building of the Parthenon, and a golden age of drama and thought. In the second half, Athens and Sparta fought the long Peloponnesian War (431–404 BCE), which Athens lost. In 399 BCE the restored Athenian democracy put Socrates to death. Over the next decades, the kingdom of **Macedon**, in the north, rose under Philip II, who defeated Athens and Thebes at Chaeronea in 338 BCE. Philip's son Alexander, tutored by Aristotle, then conquered the Persian Empire.
@@ -576,7 +542,7 @@ A few of those kingdoms matter for us. The **Ptolemies** ruled Egypt from Alexan
 
 The most lasting gift of the Hellenistic world was a language. Across all these kingdoms, people from different backgrounds needed a shared tongue for trade and government. The result was **Koine** Greek, "common" Greek, a simpler form of the Athenian dialect. Koine became the everyday language of the Eastern Mediterranean for centuries. Jewish scholars in Alexandria translated the Hebrew Bible into it, and later Christians wrote the New Testament in it.
 
-**Worked example: why Paul wrote to Romans in Greek.** Here's a puzzle we will meet in the Paul chapters. Paul was a Jew from Tarsus, in southern Anatolia, writing to communities in cities ruled by Rome, including Rome itself. Why did he write all his letters in Greek and not in Latin, Hebrew, or Aramaic? The Hellenistic period answers it. Three centuries before Paul, Alexander's conquests had made Greek the shared language of the eastern half of the Mediterranean. Even when Rome took over, the East kept speaking Koine, and many people in Rome itself, traders, freed slaves, immigrants from the East, spoke it too. A letter in Koine could be read aloud in Ephesus, Corinth, Thessaloniki, and Rome. Greek was the lingua franca, the way English is today.
+**Worked example: why Paul wrote to Romans in Greek.** Here's a puzzle we will meet in the Paul chapters. Paul was a Jew from Tarsus, in southern Anatolia, writing to communities in cities ruled by Rome, including Rome itself. Why did he write all his letters in Greek and not in Latin, Hebrew, or Aramaic? The Hellenistic period answers it. Three centuries before Paul, Alexander's conquests had made Greek the shared language of the eastern half of the Mediterranean. Even when Rome took over, the East kept speaking Koine, and many people in Rome itself, traders, freed slaves, immigrants from the East, spoke it too. A letter in Koine could be read aloud in Ephesus, Corinth, Thessaloniki <audio id="audio-thessaloniki" src="../../audio/thessaloniki.mp3" preload="none"></audio><button onclick="document.getElementById('audio-thessaloniki').play()" class="pronounce-btn">🔊 Pronounce</button> *thess-uh-loh-NEE-kee*, and Rome. Greek was the lingua franca, the way English is today.
 
 | Hellenistic kingdom or city | Capital | Founded by | Ended |
 |---|---|---|---|
@@ -618,7 +584,7 @@ The trouble is that Rome arrived at different places at different times. So muse
 
 <figure markdown="span" class="trip-photo">
   ![Roman-era ruins at Ephesus](img/roman-era-ruins-ephesus.jpg){ loading=lazy }
-  <figcaption>Roman-era ruins at Ephesus</figcaption>
+  <figcaption>Roman-era ruins at Ephesus. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 **Worked example: when did the Roman period start at each stop?** Let's apply the definition, using the dates in the Roman Empire table above.
@@ -629,7 +595,7 @@ The trouble is that Rome arrived at different places at different times. So muse
 | Athens and Delphi | 146 BCE | After the destruction of Corinth |
 | Crete | 67 BCE | Conquered by the Roman general Metellus |
 | Rhodes | 1st century CE | A free ally of Rome for two centuries before being absorbed into a province |
-| Byzantion (Istanbul) | 1st century CE | A free city allied with Rome before being absorbed |
+| Byzantium (Istanbul) | 1st century CE | A free city allied with Rome before being absorbed |
 
 So a guide in Ephesus might call a building from 100 BCE "Roman," while our timeline would still call it "Hellenistic." Neither is wrong. The site guide is using the local definition, and our timeline is using a region-wide one. When labels disagree, the first question is always which definition the label is using.
 
@@ -641,7 +607,7 @@ So a guide in Ephesus might call a building from 100 BCE "Roman," while our time
 
 The **Pax Romana**, "Roman peace," is the period of about two centuries, from Augustus becoming emperor in 27 BCE to the death of the emperor Marcus Aurelius in 180 CE, when the Mediterranean world enjoyed unusual internal peace and stability. There were wars on the frontiers and violent revolts inside, but for most people in most provinces, armies did not march through their fields for generations. That had never happened before across so large an area.
 
-The peace had practical foundations. In 67 BCE, the general Pompey had cleared the Mediterranean of pirates in a single campaign, so ships could sail safely between any two ports. Rome built tens of thousands of kilometers of paved highways, including the Via Egnatia, which ran across northern Greece to Byzantion. A single currency, a single law, and a single government made trade and travel simpler than they had ever been. Cities across the East grew rich and filled with marble: the theaters, baths, libraries, and colonnaded streets we will see at Ephesus mostly date from these two centuries. Estimates of Ephesus's population at its height range widely, from about 30,000 to over 200,000; even the low figure made it a major city.
+The peace had practical foundations. In 67 BCE, the general Pompey had cleared the Mediterranean of pirates in a single campaign, so ships could sail safely between any two ports. Rome built tens of thousands of kilometers of paved highways, including the Via Egnatia, which ran across northern Greece to Byzantium. A single currency, a single law, and a single government made trade and travel simpler than they had ever been. Cities across the East grew rich and filled with marble: the theaters, baths, libraries, and colonnaded streets we will see at Ephesus mostly date from these two centuries. Estimates of Ephesus's population at its height range widely, from about 30,000 to over 200,000; even the low figure made it a major city.
 
 The peace also had a price. It was imposed and kept by force. Provinces paid heavy taxes to support the army and Rome itself, and those who resisted were crushed. In Judea, a Jewish revolt in 66 CE ended in 70 CE with the destruction of the Temple in Jerusalem. The word "peace" described the view from Rome; it did not describe every province.
 
@@ -676,13 +642,13 @@ Anatolia was one of the first centers of the new faith. Followers were first cal
 
 #### The Byzantine Period
 
-The **Byzantine period** runs from 330 CE, when Constantine dedicated his new capital Constantinople on the site of old Byzantion, to 1453, when the city fell to the Ottomans. The **Byzantine Empire** is the name historians give to the eastern Roman Empire in these centuries: Christian, increasingly Greek-speaking, and ruled from Constantinople. It lasted 1,123 years, longer than any other period on our timeline except the Bronze Age.
+The **Byzantine period** runs from 330 CE, when Constantine dedicated his new capital Constantinople on the site of old Byzantium, to 1453, when the city fell to the Ottomans. The **Byzantine Empire** is the name historians give to the eastern Roman Empire in these centuries: Christian, increasingly Greek-speaking, and ruled from Constantinople. It lasted 1,123 years, longer than any other period on our timeline except the Bronze Age.
 
 Its people never called themselves "Byzantine." That name was popularized by a German scholar, Hieronymus Wolf, in 1557, a century after the empire ended. They called themselves *Rhomaioi*, "Romans," and their state the Roman Empire. Latin faded from government in the 600s, and Greek took over. Their culture produced Hagia Sophia, completed in 537 under the emperor Justinian, gold mosaics, icons, and a legal code that still shapes European law. They also survived repeated sieges: Persians and Avars in 626, Arab armies in the 670s and again in 717–718.
 
 <figure markdown="span" class="trip-photo">
   ![Gilded vaults in the galleries of Hagia Sophia, completed 537 CE](img/gilded-vaults-galleries-hagia-sophia.jpg){ loading=lazy }
-  <figcaption>Gilded vaults in the galleries of Hagia Sophia, completed 537 CE</figcaption>
+  <figcaption>Gilded vaults in the galleries of Hagia Sophia, completed 537 CE. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 The empire's worst blow came from fellow Christians. In 1204 the knights of the **Fourth Crusade**, diverted from a campaign to the Holy Land and deeply in debt to Venice, captured and looted Constantinople. The empire was carved into pieces. The Byzantines retook their capital in 1261, but the empire never recovered its strength, and Venetians, Genoese, crusader knights, and Turks took over much of the Aegean.
@@ -717,7 +683,7 @@ Like the earlier periods, the Ottoman period came and went at different times in
 
 <figure markdown="span" class="trip-photo">
   ![Domes of the Sultan Ahmed (Blue) Mosque, completed 1616](img/domes-sultan-ahmed-blue-mosque.jpg){ loading=lazy }
-  <figcaption>Domes of the Sultan Ahmed (Blue) Mosque, completed 1616</figcaption>
+  <figcaption>Domes of the Sultan Ahmed (Blue) Mosque, completed 1616. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ### Three Faiths Side by Side
@@ -739,7 +705,7 @@ We have walked the eras one at a time. One idea runs through all of them and exp
 
 The goods changed from era to era, but the logic did not. In the Bronze Age, ships carried copper, tin, glass, and luxury goods between palaces. In the Classical period, the most important cargo was grain: Athens could not grow enough wheat for its population and depended on ships bringing grain from the Black Sea through the Bosphorus and the Dardanelles. In the Roman period, grain ships from Alexandria fed Rome, and the same sea lanes carried travelers like Paul. In the Byzantine and Ottoman centuries, Constantinople stood at the western end of the overland Silk Roads, and Venetian and Genoese merchants carried silk, spices, and wine around the Aegean. Spices still give Istanbul's Spice Bazaar its scent; saffron, which painters on Bronze Age Santorini showed women gathering about 3,600 years ago, is one of the spices we carried home from it.
 
-**Worked example: two wars over a strait.** Here are two stories that show the power of a chokepoint. In 405 BCE, near the end of the Peloponnesian War, the Spartan admiral Lysander caught the Athenian fleet on the beach at Aegospotami, on the Dardanelles, and destroyed it. With no fleet to protect the grain ships coming through the strait, Athens faced starvation, and it surrendered the next spring. Two centuries later, in 220 BCE, Byzantion began charging a toll on every ship passing through the Bosphorus. Rhodes, whose wealth came from free trade, declared war on Byzantion and won: the tolls were dropped. In both cases the decisive weapon was not an army but a narrow strip of water. Holding that water is the reason Byzantion became Constantinople, and the reason Istanbul is still Turkey's richest city.
+**Worked example: two wars over a strait.** Here are two stories that show the power of a chokepoint. In 405 BCE, near the end of the Peloponnesian War, the Spartan admiral Lysander caught the Athenian fleet on the beach at Aegospotami, on the Dardanelles, and destroyed it. With no fleet to protect the grain ships coming through the strait, Athens faced starvation, and it surrendered the next spring. Two centuries later, in 220 BCE, Byzantium began charging a toll on every ship passing through the Bosphorus. Rhodes, whose wealth came from free trade, declared war on Byzantium and won: the tolls were dropped. In both cases the decisive weapon was not an army but a narrow strip of water. Holding that water is the reason Byzantium became Constantinople, and the reason Istanbul is still Turkey's richest city.
 
 The map below lets us test this idea before seeing the routes. Each question asks us to predict something about a route; answering it draws that route on the map.
 
@@ -769,7 +735,7 @@ Places (marker always visible and clickable; the infobox shows the name, the rol
 
 | # | Place | Latitude | Longitude | Role (infobox text) | Trip day |
 |---|---|---|---|---|---|
-| 1 | Byzantion / Constantinople / Istanbul | 41.01 | 28.98 | Controls the Bosphorus, the only sea gate between the Black Sea and the Mediterranean. | Days 1–5 |
+| 1 | Byzantium / Constantinople / Istanbul | 41.01 | 28.98 | Controls the Bosphorus, the only sea gate between the Black Sea and the Mediterranean. | Days 1–5 |
 | 2 | Troy (Hisarlik) | 39.96 | 26.24 | Overlooks the entrance to the Dardanelles. | Day 6 |
 | 3 | Chersonesos (Crimea) | 44.61 | 33.49 | Greek colony and Black Sea grain port. | none |
 | 4 | Ephesus | 37.94 | 27.34 | Harbor city and capital of the Roman province of Asia. | Day 7 |
@@ -791,21 +757,21 @@ Routes (each a line through the listed places in order; hidden until its questio
 | Route | Era | Path | Cargo (infobox text) |
 |---|---|---|---|
 | A | Bronze Age, c. 1300 BCE | Byblos → Enkomi → Uluburun shipwreck → Rhodes → Knossos → Mycenae | Copper, tin, glass, ivory, ebony |
-| B | Classical, 5th century BCE | Chersonesos → Byzantion → Troy → Piraeus | Black Sea wheat for Athens |
-| C | Hellenistic, 3rd century BCE | Byzantion → Troy → Rhodes → Alexandria | Grain, wine, and goods passing Rhodes's harbor |
-| D | Byzantine and Venetian, 13th–15th centuries CE | Venice → Heraklion → Byzantion | Silk and spices from the Silk Roads; Cretan wine and grain |
+| B | Classical, 5th century BCE | Chersonesos → Byzantium → Troy → Piraeus | Black Sea wheat for Athens |
+| C | Hellenistic, 3rd century BCE | Byzantium → Troy → Rhodes → Alexandria | Grain, wine, and goods passing Rhodes's harbor |
+| D | Byzantine and Venetian, 13th–15th centuries CE | Venice → Heraklion → Byzantium | Silk and spices from the Silk Roads; Cretan wine and grain |
 
 Questions, in fixed order:
 
 | # | Question | Choices | Correct | Route revealed | Why (shown as feedback) |
 |---|---|---|---|---|---|
 | 1 | The Uluburun ship carried about 10 tons of copper. Where did most of that copper probably come from? | Cyprus; Crete; Athens; Venice | Cyprus | A | Cyprus was the Bronze Age's great copper source, and chemical tests link most of the ingots to it; the Latin word for copper comes from the island's name. |
-| 2 | A grain ship leaves Chersonesos for Athens. Which places must it pass? | The Bosphorus at Byzantion and the Dardanelles at Troy; Rhodes and Crete; Corinth and Mycenae; Cyprus and Byblos | The Bosphorus at Byzantion and the Dardanelles at Troy | B | The only sea exit from the Black Sea runs through the Bosphorus and then the Dardanelles. |
+| 2 | A grain ship leaves Chersonesos for Athens. Which places must it pass? | The Bosphorus at Byzantium and the Dardanelles at Troy; Rhodes and Crete; Corinth and Mycenae; Cyprus and Byblos | The Bosphorus at Byzantium and the Dardanelles at Troy | B | The only sea exit from the Black Sea runs through the Bosphorus and then the Dardanelles. |
 | 3 | In 405 BCE Sparta destroyed Athens's fleet at Aegospotami on the Dardanelles. Why did Athens surrender the next spring? | Its grain route was cut; Sparta had captured the Acropolis; a plague had begun; Persia invaded | Its grain route was cut | B (stays visible) | Athens could not feed itself; without a fleet it could not protect the grain ships coming through the strait. |
-| 4 | In 220 BCE Rhodes went to war with Byzantion. What was the most likely cause? | Byzantion began charging tolls on ships in the Bosphorus; a religious quarrel; Byzantion attacked Crete; Rhodes wanted to rule Troy | Byzantion began charging tolls on ships in the Bosphorus | C | Rhodes lived by free trade, and a toll at the Bosphorus taxed every ship trading with the Black Sea. |
+| 4 | In 220 BCE Rhodes went to war with Byzantium. What was the most likely cause? | Byzantium began charging tolls on ships in the Bosphorus; a religious quarrel; Byzantium attacked Crete; Rhodes wanted to rule Troy | Byzantium began charging tolls on ships in the Bosphorus | C | Rhodes lived by free trade, and a toll at the Bosphorus taxed every ship trading with the Black Sea. |
 | 5 | Why did Venice want Crete after 1204? | Its harbors sat on the sea lane between Venice and Constantinople and the Levant; Crete had the only tin mines; it controlled the Bosphorus; it was the closest island to Venice | Its harbors sat on the sea lane between Venice and Constantinople and the Levant | D | Crete lay midway on Venice's eastern sea lanes, so its harbors protected and supplied Venetian ships; Venice ruled it from 1211 to 1669. |
 
-**Provenance:** Coordinates are approximate, rounded to 0.01°, taken from the Wikipedia article for each place; the generator must check each against that article before publishing and correct any that differ by more than 0.05°. The Uluburun cargo figures, Aegospotami (405 BCE), the Rhodes–Byzantion war (220 BCE, reported by the historian Polybius), and the dates of Venetian Crete are from this chapter's sections "The Bronze Age," "Crete," and "Trade Routes." Route paths are simplified illustrations of typical routes, not records of single voyages; the map must label them "simplified routes."
+**Provenance:** Coordinates are approximate, rounded to 0.01°, taken from the Wikipedia article for each place; the generator must check each against that article before publishing and correct any that differ by more than 0.05°. The Uluburun cargo figures, Aegospotami (405 BCE), the Rhodes–Byzantium war (220 BCE, reported by the historian Polybius), and the dates of Venetian Crete are from this chapter's sections "The Bronze Age," "Crete," and "Trade Routes." Route paths are simplified illustrations of typical routes, not records of single voyages; the map must label them "simplified routes."
 
 **Rules:** Routes are drawn as straight segments between the listed places, in the listed order, each with an arrow showing direction. A route is revealed only after its question is answered and then stays visible. Route B appears after question 2 and stays visible for question 3. Clicking a revealed route opens its era and cargo text. The map opens showing all 16 places, from Venice to Alexandria and from Chersonesos to Byblos; zoom and pan use the map's buttons and dragging, not the mouse wheel.
 
@@ -821,7 +787,7 @@ Questions, in fixed order:
 
 **Starting State:** All 16 place markers with names, no routes, and question 1: "The Uluburun ship carried about 10 tons of copper. Where did most of that copper probably come from?"
 
-**Chapter Anchors:** The Uluburun ship sank c. 1300 BCE with about 10 tons of copper and 1 ton of tin. Aegospotami, 405 BCE; Athens surrendered the next spring. Rhodes went to war with Byzantion in 220 BCE over Bosphorus tolls. Venice ruled Crete from 1211 to 1669. Byzantion founded c. 657 BCE.
+**Chapter Anchors:** The Uluburun ship sank c. 1300 BCE with about 10 tons of copper and 1 ton of tin. Aegospotami, 405 BCE; Athens surrendered the next spring. Rhodes went to war with Byzantium in 220 BCE over Bosphorus tolls. Venice ruled Crete from 1211 to 1669. Byzantium founded c. 657 BCE.
 </details>
 
 ## Putting It Together: Placing a Site in Its Era
@@ -832,7 +798,7 @@ The summary of this chapter promised that afterward we would be able to place an
     ![Glaux pointing out a helpful detail](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     Want to place any site in under a minute? Ask three things in order: when it was *built* (not restored), which period on our timeline holds that date, and who ruled *this* place then. The first two give the era; the third reminds us that the era name may not be the builder's name.
 
-**Worked example: Hagia Sophia's four lives.** Let's run the three questions on the most layered building of the trip. *When was it built?* Hagia Sophia was completed in 537 CE. *Which period holds that date?* 537 falls between 330 and 1453, so it is a Byzantine building. *Who ruled the place then?* The Byzantine emperor Justinian, in his capital, so here the era name and the builder match. But the building then kept living. It was a cathedral for 916 years, from 537 to 1453. Mehmed II converted it into a mosque in 1453, adding a minaret; during the Ottoman period it was a mosque for 481 years. The Turkish Republic made it a museum in 1934, opening to visitors in 1935, and in 2020 it became a mosque again. So Hagia Sophia is a Byzantine building with Ottoman and modern layers, and the Christian mosaics and Islamic calligraphy we will see side by side on Day 2 are each from a different era. Placing the building's *construction* in its era is the start; reading the later layers is the rest of the visit.
+**Worked example: Hagia Sophia's four lives.** Let's run the three questions on the most layered building of the trip. *When was it built?* Hagia Sophia was completed in 537 CE. *Which period holds that date?* 537 falls between 330 and 1453, so it is a Byzantine building. *Who ruled the place then?* The Byzantine emperor Justinian, in his capital, so here the era name and the builder match. But the building then kept living. It was a cathedral for 916 years, from 537 to 1453. Mehmed II <audio id="audio-mehmed" src="../../audio/mehmed.mp3" preload="none"></audio><button onclick="document.getElementById('audio-mehmed').play()" class="pronounce-btn">🔊 Pronounce</button> *MEH-met* converted it into a mosque in 1453, adding a minaret; during the Ottoman period it was a mosque for 481 years. The Turkish Republic made it a museum in 1934, opening to visitors in 1935, and in 2020 it became a mosque again. So Hagia Sophia is a Byzantine building with Ottoman and modern layers, and the Christian mosaics and Islamic calligraphy we will see side by side on Day 2 are each from a different era. Placing the building's *construction* in its era is the start; reading the later layers is the rest of the visit.
 
 The MicroSim below gives us practice with fifteen objects and buildings we will see on the trip. For each one, we read when it was built and choose its period.
 
@@ -907,7 +873,7 @@ Cards, presented in shuffled order:
 - The eras in order: **Bronze Age** (Minoans, Mycenaeans, Troy), **Iron Age** (collapse, iron, the alphabet), **Archaic period** (city-states, coins, democracy), **Classical period** (Athens and the Parthenon), **Hellenistic period** (Alexander's kingdoms and Koine Greek), **Roman period** (the **Roman Empire** and the **Pax Romana**), **Byzantine period** (Constantinople and Hagia Sophia), and **Ottoman period**.
 - **Ancient Greece** was a civilization of more than 1,000 independent **city-states**, not a country, and three of our Greek cities are in today's Turkey.
 - **Judaism**, **Christianity**, and **Islam** arrived on the route in that order, and each left houses of worship we will visit.
-- **Trade routes** and their chokepoints explain why Troy, Byzantion, Rhodes, and Crete were rich, and why they were fought over.
+- **Trade routes** and their chokepoints explain why Troy, Byzantium, Rhodes, and Crete were rich, and why they were fought over.
 - Period boundaries are local, and a period name tells *when*, not always *who*.
 
 !!! mascot-celebration "You Have the Map and the Timeline"

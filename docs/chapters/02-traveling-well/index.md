@@ -165,7 +165,7 @@ The middle seven nights of our trip are on the **Viking Star**, an ocean cruise 
 
 <figure markdown="span" class="trip-photo">
   ![Our ship docked on the Bosphorus in Istanbul](img/ship-docked-bosphorus-istanbul.jpg){ loading=lazy }
-  <figcaption>Our ship docked on the Bosphorus in Istanbul</figcaption>
+  <figcaption>Our ship docked on the Bosphorus in Istanbul. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 For a thoughtful traveler, a cruise is a real trade-off, and it is worth being honest about both sides. On the plus side, a cruise solves the hardest problem in this part of the world: moving between ports that are a night's sail apart, without repacking a suitcase six times. It also lets us reach places, like Rhodes and Crete, in a week that would take two weeks by ferry. On the minus side, a cruise ship can make every port feel like the same day: off the ship at 8, into a coach, through the site with a crowd of shipmates, back aboard by 5. Cruise passengers also spend less money ashore than overnight visitors, because they sleep and eat aboard.
@@ -174,16 +174,16 @@ For a thoughtful traveler, a cruise is a real trade-off, and it is worth being h
 
 ### Ancient Mediterranean Treasures
 
-Our cruise is the Viking Star's seven-night **Ancient Mediterranean Treasures** voyage, sailing from Istanbul on November 14, 2026, and arriving at Piraeus, the port of Athens, on November 20, with a final night aboard before we disembark on November 21. The name is a fair description: in seven days the ship stops at sites from nearly every era on our timeline in Part 1. The ports are Istanbul (two days), Çanakkale for Troy and Gallipoli, Kusadasi for Ephesus, Rhodes, Heraklion for Knossos, and Piraeus for Athens.
+Our cruise is the Viking Star's seven-night **Ancient Mediterranean Treasures** voyage, sailing from Istanbul on November 14, 2026, and arriving at Piraeus, the port of Athens, on November 20, with a final night aboard before we disembark on November 21. The name is a fair description: in seven days the ship stops at sites from nearly every era on our timeline in Part 1. The ports are Istanbul (two days), Çanakkale for Troy and Gallipoli <audio id="audio-gallipoli" src="../../audio/gallipoli.mp3" preload="none"></audio><button onclick="document.getElementById('audio-gallipoli').play()" class="pronounce-btn">🔊 Pronounce</button> *guh-LIP-uh-lee*, Kuşadası for Ephesus, Rhodes, Heraklion for Knossos, and Piraeus for Athens.
 
 The voyage's order is the order of the sea lanes, not the order of history. Ships sail from Istanbul down through the Sea of Marmara and the Dardanelles, then south along the Turkish coast, then west across the southern Aegean to Crete and north to Athens. As Part 1 warned, that means our route jumps back and forth in time. We meet Byzantine and Ottoman Istanbul first, the Bronze Age at Troy and Knossos in the middle, and Classical Athens at the end.
 
 <figure markdown="span" class="trip-photo">
   ![Early morning on deck as the ship reaches Heraklion](img/early-morning-deck-ship-reaches.jpg){ loading=lazy }
-  <figcaption>Early morning on deck as the ship reaches Heraklion</figcaption>
+  <figcaption>Early morning on deck as the ship reaches Heraklion. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
-**Worked example: reading the route as a timeline.** Using the periods from Part 1, here is the "oldest thing we will see" at each port in voyage order. Istanbul: the Hippodrome's Egyptian obelisk, carved about 1450 BCE but brought to Constantinople in 390 CE. Çanakkale: the walls of Troy, the oldest layers about 3000 BCE. Kusadasi: Ephesus, mostly Roman, 1st and 2nd centuries CE. Rhodes: the Hellenistic acropolis and the medieval knights' city. Heraklion: Knossos, first palace about 1900 BCE. Piraeus: the Acropolis of Athens, the Parthenon from 447–432 BCE. The dates swing by more than three thousand years from one morning to the next, which is exactly why each daily chapter begins by placing its site on the clock.
+**Worked example: reading the route as a timeline.** Using the periods from Part 1, here is the "oldest thing we will see" at each port in voyage order. Istanbul: the Hippodrome's Egyptian obelisk, carved about 1450 BCE but brought to Constantinople in 390 CE. Çanakkale: the walls of Troy, the oldest layers about 3000 BCE. Kuşadası: Ephesus, mostly Roman, 1st and 2nd centuries CE. Rhodes: the Hellenistic acropolis and the medieval knights' city. Heraklion: Knossos, first palace about 1900 BCE. Piraeus: the Acropolis of Athens, the Parthenon from 447–432 BCE. The dates swing by more than three thousand years from one morning to the next, which is exactly why each daily chapter begins by placing its site on the clock.
 
 ### The Trip Itinerary
 
@@ -197,7 +197,7 @@ The **trip itinerary** is the day-by-day plan for all thirteen days, from arriva
 | 4 | Sat Nov 14 | Istanbul, Turkey | Embark the Viking Star (overnight in port) |
 | 5 | Sun Nov 15 | Istanbul, Turkey | In port until 6:00 PM; the Grand Bazaar is closed on Sundays |
 | 6 | Mon Nov 16 | Çanakkale (Troy and Gallipoli), Turkey | 9:00 AM – 4:00 PM |
-| 7 | Tue Nov 17 | Kusadasi (Ephesus), Turkey | 7:00 AM – 6:00 PM |
+| 7 | Tue Nov 17 | Kuşadası (Ephesus), Turkey | 7:00 AM – 6:00 PM |
 | 8 | Wed Nov 18 | Rhodes, Greece | 7:00 AM – 6:00 PM |
 | 9 | Thu Nov 19 | Heraklion (Knossos), Crete, Greece | 7:00 AM – 6:00 PM |
 | 10 | Fri Nov 20 | Athens (Piraeus), Greece | Arrive 7:00 AM; final night aboard |
@@ -207,17 +207,17 @@ The **trip itinerary** is the day-by-day plan for all thirteen days, from arriva
 
 The [Viking Cruise Map](../../sims/viking-cruise-map/index.md) from Part 1 shows the same route on a map, with a tip for each stop.
 
-There is one hidden detail in this table that catches travelers every year. Turkey stays on a single clock all year, three hours ahead of Greenwich (UTC+3). Greece moves its clocks back at the end of October, so in November it is two hours ahead of Greenwich (UTC+2). When we sail from Kusadasi to Rhodes on the night of Day 7, we cross a time zone.
+There is one hidden detail in this table that catches travelers every year. Turkey stays on a single clock all year, three hours ahead of Greenwich (UTC+3). Greece moves its clocks back at the end of October, so in November it is two hours ahead of Greenwich (UTC+2). When we sail from Kuşadası to Rhodes on the night of Day 7, we cross a time zone.
 
 !!! mascot-warning "The Hour We Gain at Sea"
     ![Glaux raising a cautionary wing](../../img/mascot/warning.png){ class="mascot-admonition-img" }
-    Greece is one hour behind Turkey in November, and the ship changes its clocks overnight between Kusadasi and Rhodes. A phone usually updates itself, but an alarm set the night before, or a watch, may not. Check the ship's daily program for the clock change and the all-aboard time, and set the watch back before bed on Day 7.
+    Greece is one hour behind Turkey in November, and the ship changes its clocks overnight between Kuşadası and Rhodes. A phone usually updates itself, but an alarm set the night before, or a watch, may not. Check the ship's daily program for the clock change and the all-aboard time, and set the watch back before bed on Day 7.
 
-**Worked example: Tuesday, November 17.** Let's read Day 7 off the itinerary. We are in Kusadasi, on the Turkish coast, from 7:00 AM to 6:00 PM, Turkish time. Ephesus is about 20 km inland, so the morning goes to the site and the museum in nearby Selçuk. The sun sets around 6:00 PM, about when the ship sails, so we should be back aboard before dark. Before bed we set our watches back one hour for Greece. And the daily chapter tells us to read Paul at Ephesus, Part 2 that evening, while the Great Theater is still fresh.
+**Worked example: Tuesday, November 17.** Let's read Day 7 off the itinerary. We are in Kuşadası, on the Turkish coast, from 7:00 AM to 6:00 PM, Turkish time. Ephesus is about 20 km inland, so the morning goes to the site and the museum in nearby Selçuk. The sun sets around 6:00 PM, about when the ship sails, so we should be back aboard before dark. Before bed we set our watches back one hour for Greece. And the daily chapter tells us to read Paul at Ephesus, Part 2 that evening, while the Great Theater is still fresh.
 
 <figure markdown="span" class="trip-photo">
   ![Kuşadası at first light, with the ship at the pier](img/kusadasi-first-light-ship-pier.jpg){ loading=lazy }
-  <figcaption>Kuşadası at first light, with the ship at the pier</figcaption>
+  <figcaption>Kuşadası at first light, with the ship at the pier. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
 ## Part Three: Traveling in November
@@ -322,10 +322,10 @@ The off-season matters most on the islands, where many jobs depend on summer vis
 
 <figure markdown="span" class="trip-photo">
   ![Cruise ships anchored off Rhodes](img/cruise-ships-anchored-off-rhodes.jpg){ loading=lazy }
-  <figcaption>Cruise ships anchored off Rhodes</figcaption>
+  <figcaption>Cruise ships anchored off Rhodes. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
 </figure>
 
-**Worked example: what the off-season gives Delphi.** On a summer day, coaches arrive at Delphi from Athens by mid-morning and the Sacred Way fills with groups. On Sunday, November 22, we can expect a quieter site, mist on the mountain, and perhaps a few other cars in the lot. But winter hours mean the site and museum close earlier in the afternoon, and the drive is about 2½ hours each way. So the off-season plan is to leave Athens early, see the site first while it is open, the museum next, and lunch in the village or in Arachova after. As the Oracle chapters will explain, the off-season even has an ancient meaning here: in myth, Apollo left Delphi in the winter months.
+**Worked example: what the off-season gives Delphi.** On a summer day, coaches arrive at Delphi from Athens by mid-morning and the Sacred Way fills with groups. On Sunday, November 22, we can expect a quieter site, mist on the mountain, and perhaps a few other cars in the lot. But winter hours mean the site and museum close earlier in the afternoon, and the drive is about 2½ hours each way. So the off-season plan is to leave Athens early, see the site first while it is open, the museum next, and lunch in the village or in Arachova <audio id="audio-arachova" src="../../audio/arachova.mp3" preload="none"></audio><button onclick="document.getElementById('audio-arachova').play()" class="pronounce-btn">🔊 Pronounce</button> *ah-RAH-kho-vah* after. As the Oracle chapters will explain, the off-season even has an ancient meaning here: in myth, Apollo left Delphi in the winter months.
 
 ### Opening Hours and Closures
 
@@ -352,18 +352,13 @@ The **daily chapter routine** is the habit this guide is built around: one chapt
 
 Each daily chapter follows the same order, so we always know where to look: what we will see, the history behind it, things to notice, food and drink, the people who live there now, etiquette and a few useful words, practical notes, and a short Learning for All note at the end. The deep-dive chapters are different. They are longer, slower reads about Paul of Tarsus and the Oracle of Delphi, and they are scheduled for quiet evenings and the long drive back from Delphi.
 
-<figure markdown="span" class="trip-photo">
-  ![Sunrise from the bow, approaching Heraklion](img/sunrise-bow-approaching-heraklion.jpg){ loading=lazy }
-  <figcaption>Sunrise from the bow, approaching Heraklion</figcaption>
-</figure>
-
 | When | Read |
 |---|---|
 | Before we go | Part 1 (the timeline) and Part 2 (this chapter) |
 | Day 1, on the flight or the first evening | Day 1: Istanbul, a City on Two Continents |
 | Days 2–5, at breakfast | The Istanbul chapters for Days 2, 3, 4, and 5 |
 | Day 6, at breakfast | Day 6: Troy and Gallipoli |
-| Day 6, evening, sailing to Kusadasi | Paul at Ephesus, Part 1 |
+| Day 6, evening, sailing to Kuşadası | Paul at Ephesus, Part 1 |
 | Day 7, at breakfast | Day 7: Ephesus |
 | Day 7, evening, sailing to Rhodes | Paul at Ephesus, Part 2 |
 | Days 8–10, at breakfast | Rhodes; Knossos (and Venetian Heraklion at lunch); the Acropolis |
@@ -375,6 +370,11 @@ Each daily chapter follows the same order, so we always know where to look: what
 
 **Worked example: a breakfast plan for Day 9.** Day 9 is our longest reading day, so let's plan it. The ship docks in Heraklion at 7:00 AM and leaves at 6:00 PM. Knossos is about 5 km from the port and opens in the morning, so the Knossos chapter is the one to read over breakfast. The Venetian Heraklion chapter covers the harbor fortress and the old town, which we will see in the afternoon, so it can wait for a coffee at lunchtime near the Morosini Fountain. Splitting the reading this way puts each chapter as close as possible to the place it describes, which is the whole point of the routine.
 
+<figure markdown="span" class="trip-photo">
+  ![Sunrise from the bow, approaching Heraklion](img/sunrise-bow-approaching-heraklion.jpg){ loading=lazy }
+  <figcaption>Sunrise from the bow, approaching Heraklion. <span class="photo-credit">Photo by Dan McCreary</span></figcaption>
+</figure>
+
 ### The Travel Journal
 
 A **travel journal** is a short written record we keep each day of what we noticed, ate, and learned from the people we met. It does not need to be long or literary. Its job is to slow us down at the end of the day and turn a blur of impressions into a few things we chose to remember. Writing about an experience the same day, in our own words, is one of the most reliable ways to remember it, and the act of choosing what to write is itself a kind of noticing.
@@ -385,7 +385,7 @@ The journal is also the "Create" outcome of this trip: by the end, we will have 
 2. **I ate…** one dish or drink, and what it tasted like.
 3. **I learned from…** one person we met: who they were and what they told us.
 
-**Worked example: a journal entry for Day 2.** Here is what a five-minute entry might look like after Hagia Sophia. *I noticed:* the worn hollows in the stone ramp to the upper gallery, made by fifteen centuries of feet. *I ate:* a simit and a glass of tea on a bench in Sultanahmet Park, the tea in a tulip-shaped glass, too hot to hold at the top. *I learned from:* the man who sold us the tea, who said his grandfather sold tea at the same spot, and that tourists ask him about the building but never about his family. Three sentences, written on the ship or in the hotel, and that day will come back years from now in a way photographs alone cannot bring back.
+**Worked example: a journal entry for Day 2.** Here is what a five-minute entry might look like after Hagia Sophia. *I noticed:* the worn hollows in the stone ramp to the upper gallery, made by fifteen centuries of feet. *I ate:* a simit <audio id="audio-simit" src="../../audio/simit.mp3" preload="none"></audio><button onclick="document.getElementById('audio-simit').play()" class="pronounce-btn">🔊 Pronounce</button> *see-MEET* and a glass of tea on a bench in Sultanahmet Park <audio id="audio-sultanahmet" src="../../audio/sultanahmet.mp3" preload="none"></audio><button onclick="document.getElementById('audio-sultanahmet').play()" class="pronounce-btn">🔊 Pronounce</button> *sool-TAHN-ah-met*, the tea in a tulip-shaped glass, too hot to hold at the top. *I learned from:* the man who sold us the tea, who said his grandfather sold tea at the same spot, and that tourists ask him about the building but never about his family. Three sentences, written on the ship or in the hotel, and that day will come back years from now in a way photographs alone cannot bring back.
 
 ## Part Five: Letters
 

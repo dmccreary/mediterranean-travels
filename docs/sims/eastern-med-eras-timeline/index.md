@@ -1,6 +1,6 @@
 ---
 title: Eras of the Eastern Mediterranean Timeline
-description: A to-scale timeline of the nine periods of Eastern Mediterranean history, from the Bronze Age to today, with 29 key events and six proportion questions to answer before the answers are revealed.
+description: A to-scale timeline of the nine periods of Eastern Mediterranean history, from the Bronze Age to today, with six proportion questions to answer before the band lengths are revealed.
 image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png
 og:image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png
 twitter:image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png
@@ -14,7 +14,7 @@ hide:
 
 # Eras of the Eastern Mediterranean Timeline
 
-<iframe src="main.html" height="676px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="440px" width="100%" scrolling="no"></iframe>
 
 [Run the Eras of the Eastern Mediterranean Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
@@ -28,41 +28,41 @@ Age fills almost half the line. The Classical period, the age of the Parthenon
 and Socrates, is a thin sliver, and the Byzantine period is longer than most
 travelers expect.
 
-Twenty-nine events on our route sit on the same scale, from the first palace at
-Knossos (c. 1900 BCE) to the founding of the Republic of Turkey (1923 CE). Each
-event names the chapter of this book that covers it in depth.
+The timeline shows periods only. Events are left out on purpose, so the band
+lengths are the one thing to look at. Clicking a band names one or two sites on
+our route from that period. The full version, with 29 events and the chapter
+that covers each, is the
+[Events of the Eastern Mediterranean Timeline](../eastern-med-events-timeline/index.md)
+in the appendix.
 
 The timeline is also a short quiz. It asks six questions about proportion, one
-at a time. Each answer is committed before the relevant bands and events are
-highlighted and their lengths shown, so the display checks the learner's
-mental picture instead of handing over the answer.
+at a time. Each answer is committed before the relevant bands are highlighted
+and their lengths shown, so the display checks the learner's mental picture
+instead of handing over the answer.
 
 ## How to Use
 
-1. **Answer question 1.** The nine bands are visible at full scale; the events
-   are hidden. Choose an answer by judging the band lengths.
-2. **Read the feedback.** The bands and events named in the question are
-   highlighted, their lengths in years appear on the bands, and the timeline
-   zooms to them. The feedback explains the answer either way.
+1. **Answer question 1.** The nine bands are visible at full scale. Choose an
+   answer by judging the band lengths.
+2. **Read the feedback.** The bands named in the question are highlighted,
+   their lengths in years appear on the bands, and the timeline zooms to them.
+   The feedback explains the answer either way.
 3. **Press Next.** The view returns to the full span and the next question
-   appears. Events from earlier questions stay on the timeline.
-4. **After question 6** all 29 events appear and the right-hand panel shows the
-   final score. Press **Full span** to see everything, then click any band or
-   event to read its dates, description, and the chapter that goes deeper.
-5. **Restart** clears the score and hides the events again.
+   appears.
+4. **After question 6** the right-hand panel shows the final score. Press
+   **Full span** to see all nine periods, then click any band to read its
+   dates, length, and the sites on our route from that period.
+5. **Restart** clears the score and returns to question 1.
 
-Use **◀ ▶** to pan, **+ −** to zoom (down to a 200-year window), or drag the
-timeline sideways. The mouse wheel scrolls the page, not the timeline.
-
-When events are crowded, some are drawn as a dot without a label. Hover over a
-dot to see its name, or zoom in to make room for the labels.
+Drag the timeline sideways to pan. The mouse wheel scrolls the page, not the
+timeline.
 
 ## Reading the Dates
 
 Years BCE are counted down and years CE are counted up, and there is no year
 zero. The axis marks the line between them as **BCE | CE**. The quiz uses the
 chapter's rule for spans that cross that line: add the two numbers and subtract
-one. From 480 BCE to 330 CE is 480 + 330 − 1 = 809 years. Dates marked "c."
+one. From 31 BCE to 330 CE is 31 + 330 − 1 = 360 years. Dates marked "c."
 (*circa*) are approximate. Period boundaries are rounded and vary from place to
 place, so each band's infobox says so.
 
@@ -72,7 +72,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/mediterranean-travels/sims/eastern-med-eras-timeline/main.html"
-        height="676px"
+        height="440px"
         width="100%"
         scrolling="no"></iframe>
 ```
@@ -84,7 +84,7 @@ The travelers on this trip: curious adults who love the history of
 civilization, culture, and food.
 
 ### Learning Objective
-Compare the order, length, and overlap of the nine periods of Eastern
+Compare the order and length of the nine periods of Eastern
 Mediterranean history by answering six proportion questions before the
 answers are revealed, scoring at least 5 of 6 (Bloom: Understand, verb:
 compare).
@@ -100,25 +100,25 @@ periods.
 
 ### Activities
 
-1. **Predict** (5 min): Answer the six questions in order without zooming in to
-   measure first. Note which answers surprised you.
-2. **Explore** (3 min): After question 6, click the events on the route and
-   find the one closest in time to each site you most want to see.
+1. **Predict** (5 min): Answer the six questions in order by eye, without
+   working out the numbers first. Note which answers surprised you.
+2. **Explore** (3 min): After question 6, click each band and find the period
+   of the site you most want to see.
 3. **Reflect** (2 min): Using the 24-hour clock from the chapter, say in one
    sentence why the Classical period feels long but is not.
 
 ### Assessment
-Mastery is 5 of 6 correct on the first attempt. Exploring the timeline,
-zooming, and clicking events are practice, not evidence. Each question targets
+Mastery is 5 of 6 correct on the first attempt. Exploring the timeline and
+clicking bands are practice, not evidence. Each question targets
 a misconception:
 
 | Question | Misconception it tests |
 |---|---|
 | 1. Bronze Age or Classical? | The Classical period was long because it is famous. |
-| 2. Parthenon closer to Knossos or Paul? | Famous ancient events are all "about the same age." |
+| 2. How much of the timeline is the Bronze Age? | Prehistory is a short prelude to "real" history. |
 | 3. Byzantine or Ottoman? | The Byzantine period was a short epilogue to Rome. |
-| 4. Paul before or during the Pax Romana? | Placing an event inside a named span. |
-| 5. Years from 480 BCE to 330 CE? | Spans across the BCE/CE line are found by subtracting. |
+| 4. Classical + Hellenistic + Roman, or Byzantine? | The Byzantine period was a short epilogue to Rome. |
+| 5. Length of the Roman period, 31 BCE to 330 CE? | Spans across the BCE/CE line are found by subtracting. |
 | 6. When was writing almost unknown? | Writing in Greece was continuous from the Bronze Age on. |
 
 ## References

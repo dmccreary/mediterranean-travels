@@ -48,8 +48,12 @@ docs/css/extra.css          custom CSS (status indicators, iframe styles)
 docs/img/                   cover image, license badge
 docs/img/mascot/            Glaux the Little Owl: character sheet, pose prompts, poses
 docs/css/mascot.css         mascot admonition styles
+docs/chapters/NN-*/img/     trip photos for that chapter (web JPEGs, GPS removed)
 docs/data/                  generated data (photo-metrics.json)
-scripts/google_photos_takeout.py  Google Photos connector: Takeout export -> docs/photos.md metrics
+data/                       trip-photo pipeline data; photo-picks.csv lists every
+                            chosen photo and caption (see "Photos" in the guide)
+scripts/google_photos_takeout.py  Google Photos connector: Takeout export -> docs/appendices/photo-metrics.md
+scripts/*photo*, picks_sheets.py  photo labeling, selection, review sheets, web export
 ```
 
 ## Build and serve rules

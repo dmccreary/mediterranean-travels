@@ -1,8 +1,10 @@
 // Eras of the Eastern Mediterranean Timeline - vis-timeline
-// CANVAS_HEIGHT: 672
-// Nine period bands shown to scale from 3200 BCE to 2026 CE, plus 29 events.
-// Six proportion questions are asked before the relevant bands and events are
-// revealed. Years are stored as signed numbers: negative = BCE, positive = CE.
+// CANVAS_HEIGHT: 440
+// Nine period bands shown to scale from 3200 BCE to 2026 CE, and nothing else:
+// this is the Chapter 1 introduction, so events live in a separate appendix
+// sim (eastern-med-events-timeline). Six proportion questions are asked before
+// the relevant bands are highlighted and their lengths shown.
+// Years are stored as signed numbers: negative = BCE, positive = CE.
 // There is no year zero, so durations that cross the BCE/CE line subtract one.
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -14,124 +16,65 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // row = which of three staggered label rows the band sits in, so the
     // names of short periods do not collide at the full 5,000-year view.
+    // short = name drawn on the band; name = full name in tooltip and infobox.
+    // anchors = one or two sites on our route, shown only in the infobox, so
+    // each era has something concrete to hang on without crowding the bands.
     const ERAS = [
         { key: 'bronze', short: 'Bronze Age',      name: 'Bronze Age',         start: -3200, end: -1100, cStart: true,  cEnd: true,  color: '#B07030', row: 0,
-          desc: 'Tools of bronze; palaces, scribes, and long-distance metal trade; Minoans, Mycenaeans, Hittites, and Troy.' },
+          desc: 'Tools of bronze; palaces, scribes, and long-distance metal trade; Minoans, Mycenaeans, Hittites, and Troy.',
+          anchors: ['First palace at Knossos (c. 1900 BCE)', 'Troy VI (c. 1750–1300 BCE)'] },
         { key: 'iron', short: 'Iron Age',        name: 'Iron Age',           start: -1100, end: -800,  cStart: true,  cEnd: true,  color: '#5E6B73', row: 1,
-          desc: 'After the palaces fell; iron replaces bronze; writing disappears from Greece.' },
+          desc: 'After the palaces fell; iron replaces bronze; writing disappears from Greece.',
+          anchors: ['Greek speakers settle Ionia, the coast around Ephesus'] },
         { key: 'archaic', short: 'Archaic',     name: 'Archaic Period',     start: -800,  end: -480,  cStart: true,  cEnd: false, color: '#C9A227', row: 2, dark: true,
-          desc: 'The alphabet, Homer, city-states, colonies, the first coins, and the first democracy.' },
+          desc: 'The alphabet, Homer, city-states, colonies, the first coins, and the first democracy.',
+          anchors: ['First Olympic Games (776 BCE)', 'Byzantium founded (c. 657 BCE)'] },
         { key: 'classical', short: 'Classical',   name: 'Classical Period',   start: -480,  end: -323,  color: '#2E6E9E', row: 0,
-          desc: "From the Persian Wars to Alexander's death: Athens's Parthenon, theater, and philosophy." },
+          desc: "From the Persian Wars to Alexander's death: Athens's Parthenon, theater, and philosophy.",
+          anchors: ['The Parthenon (447–432 BCE)'] },
         { key: 'hellenistic', short: 'Hellenistic', name: 'Hellenistic Period', start: -323,  end: -31,   color: '#4BA3A0', row: 1, dark: true,
-          desc: "Alexander's successor kingdoms spread Greek language and culture from Egypt to Afghanistan." },
+          desc: "Alexander's successor kingdoms spread Greek language and culture from Egypt to Afghanistan.",
+          anchors: ['Colossus of Rhodes (c. 280 BCE)'] },
         { key: 'roman', short: 'Roman',       name: 'Roman Period',       start: -31,   end: 330,   color: '#A4282A', row: 2,
-          desc: 'Rome rules the whole Mediterranean; the Pax Romana; Christianity spreads.' },
+          desc: 'Rome rules the whole Mediterranean; the Pax Romana; Christianity spreads.',
+          anchors: ['Paul in Ephesus (c. 52–55 CE)'] },
         { key: 'byzantine', short: 'Byzantine',   name: 'Byzantine Period',   start: 330,   end: 1453,  color: '#6E3F8F', row: 0,
-          desc: 'The Christian, Greek-speaking Roman Empire ruled from Constantinople.' },
+          desc: 'The Christian, Greek-speaking Roman Empire ruled from Constantinople.',
+          anchors: ['Hagia Sophia (537 CE)'] },
         { key: 'ottoman', short: 'Ottoman',     name: 'Ottoman Period',     start: 1453,  end: 1922,  color: '#2F7D4A', row: 1,
-          desc: 'The Ottoman Empire rules from Istanbul over a multi-faith population.' },
+          desc: 'The Ottoman Empire rules from Istanbul over a multi-faith population.',
+          anchors: ['Topkapı Palace begun (1459 CE)'] },
         { key: 'modern', short: 'Modern',      name: 'Modern era',         start: 1922,  end: 2026,  color: '#D98B9B', row: 2, dark: true, labelLeft: true,
-          desc: 'The Republic of Turkey and modern Greece.' }
-    ];
-
-    // short = name drawn on the band; name = full name in tooltip and infobox
-    // label = short text drawn on the timeline; title = full name in the infobox
-    const EVENTS = [
-        { id: 1,  start: -1900, c: true, label: 'Knossos palace',     title: 'First palace at Knossos', ch: 13,
-          desc: 'Minoans build the first great palace on Crete.' },
-        { id: 2,  start: -1600, c: true, label: 'Thera erupts',       title: 'Eruption of Thera', ch: 13,
-          desc: 'The volcano on Santorini erupts; its exact date is still debated.' },
-        { id: 3,  start: -1450, c: true, label: 'Linear B',           title: 'Mycenaeans at Knossos', ch: 13,
-          desc: 'Greek-speaking Mycenaeans take control of Knossos and write in Linear B.' },
-        { id: 4,  start: -1300, c: true, label: 'Uluburun ship',      title: 'Uluburun ship sinks', ch: 1,
-          desc: 'A merchant ship carrying about 10 tons of copper and 1 ton of tin sinks off southern Turkey.' },
-        { id: 5,  start: -1180, c: true, label: 'Troy VIIa burns',    title: 'Troy VIIa burns', ch: 8,
-          desc: "The city that may be Homer's Troy is destroyed by fire." },
-        { id: 6,  start: -1200, end: -1150, c: true, label: 'Bronze Age collapse', title: 'Late Bronze Age collapse', ch: 1,
-          desc: 'Palaces across Greece, Anatolia, and the Levant are destroyed or abandoned.' },
-        { id: 7,  start: -800,  c: true, label: 'Greek alphabet',     title: 'The Greek alphabet', ch: 2,
-          desc: 'Greeks adapt the Phoenician alphabet and add letters for vowels.' },
-        { id: 8,  start: -776,  label: 'First Olympics',              title: 'First Olympic Games', ch: 1,
-          desc: 'The traditional date of the first games at Olympia.' },
-        { id: 9,  start: -657,  c: true, label: 'Byzantion founded',  title: 'Byzantion founded', ch: 3,
-          desc: 'Greek colonists from Megara found the city that will become Istanbul.' },
-        { id: 10, start: -600,  c: true, label: 'First coins',        title: 'First coins', ch: 1,
-          desc: 'The kingdom of Lydia, in western Anatolia, strikes the first coins.' },
-        { id: 11, start: -508,  label: 'Democracy',                   title: 'Democracy in Athens', ch: 16,
-          desc: "Cleisthenes' reforms give power to the assembly of citizens." },
-        { id: 12, start: -480,  label: 'Acropolis burned',            title: 'Persians burn the Acropolis; Battle of Salamis', ch: 15,
-          desc: 'The Persian army burns Athens; the Greek fleet wins at Salamis.' },
-        { id: 13, start: -447,  end: -432, label: 'Parthenon',        title: 'The Parthenon is built', ch: 15,
-          desc: 'Athens builds the Parthenon with money from its allies.' },
-        { id: 14, start: -399,  label: 'Socrates dies',               title: 'Death of Socrates', ch: 16,
-          desc: 'Athens condemns Socrates to death.' },
-        { id: 15, start: -323,  label: 'Alexander dies',              title: 'Death of Alexander', ch: 1,
-          desc: 'Alexander the Great dies in Babylon; his generals divide his empire.' },
-        { id: 16, start: -280,  c: true, label: 'Colossus',           title: 'Colossus of Rhodes', ch: 12,
-          desc: 'The giant bronze statue of the sun god is completed.' },
-        { id: 17, start: -146,  label: 'Corinth sacked',              title: 'Rome sacks Corinth', ch: 1,
-          desc: 'Mainland Greece falls under Roman control.' },
-        { id: 18, start: -31,   label: 'Actium',                      title: 'Battle of Actium', ch: 1,
-          desc: 'Octavian (later Augustus) defeats Antony and Cleopatra.' },
-        { id: 19, start: -27,   end: 180, label: 'Pax Romana',        title: 'Pax Romana', ch: 1,
-          desc: 'About two centuries of relative peace across the Roman Empire.' },
-        { id: 20, start: 52,    end: 55, c: true, label: 'Paul in Ephesus', title: 'Paul in Ephesus', ch: 9,
-          desc: 'The apostle Paul teaches in Ephesus for two to three years.' },
-        { id: 21, start: 330,   label: 'Constantinople',              title: 'Constantinople dedicated', ch: 3,
-          desc: 'Constantine makes the old city of Byzantion his new capital.' },
-        { id: 22, start: 537,   label: 'Hagia Sophia',                title: 'Hagia Sophia completed', ch: 4,
-          desc: "Justinian's great church is dedicated." },
-        { id: 23, start: 1054,  label: 'Great Schism',                title: 'The Great Schism', ch: 4,
-          desc: 'The Orthodox and Catholic churches split.' },
-        { id: 24, start: 1204,  label: 'Fourth Crusade',              title: 'Fourth Crusade sacks Constantinople', ch: 4,
-          desc: 'Western crusaders capture and loot the Byzantine capital.' },
-        { id: 25, start: 1453,  label: 'Ottomans take the city',      title: 'Ottomans take Constantinople', ch: 3,
-          desc: 'Sultan Mehmed II captures the city.' },
-        { id: 26, start: 1522,  label: 'Rhodes falls',                title: 'Ottomans take Rhodes', ch: 12,
-          desc: 'Suleiman the Magnificent forces the Knights Hospitaller to leave Rhodes.' },
-        { id: 27, start: 1669,  label: 'Candia falls',                title: 'Ottomans take Candia', ch: 14,
-          desc: 'Heraklion falls after a siege of 21 years, ending Venetian Crete.' },
-        { id: 28, start: 1821,  label: 'Greek revolt',                title: 'Greek War of Independence', ch: 7,
-          desc: 'The Greek revolt against Ottoman rule begins.' },
-        { id: 29, start: 1923,  label: 'Turkish Republic',            title: 'Republic of Turkey; population exchange', ch: 7,
-          desc: 'The Turkish Republic is founded, and Greece and Turkey exchange populations.' }
+          desc: 'The Republic of Turkey and modern Greece.',
+          anchors: ['Republic of Turkey founded (1923 CE)'] }
     ];
 
     const QUESTIONS = [
         { q: 'Which lasted longer: the Bronze Age or the Classical period?',
           choices: ['Bronze Age', 'Classical Period'], correct: 0,
           why: 'The Bronze Age lasted about 2,100 years; the Classical period lasted 157 years.',
-          eras: ['bronze', 'classical'], events: [1, 6, 12, 15] },
-        { q: 'Was the Parthenon (447 BCE) built closer in time to the first palace at Knossos (c. 1900 BCE) or to Paul’s years in Ephesus (c. 52 CE)?',
-          choices: ['Knossos', 'Paul'], correct: 1,
-          why: 'About 498 years separate the Parthenon from Paul, but about 1,453 years separate it from the first palace at Knossos.',
-          eras: [], events: [1, 13, 20] },
+          eras: ['bronze', 'classical'] },
+        { q: 'About how much of the whole timeline, 3200 BCE to 2026 CE, does the Bronze Age fill?',
+          choices: ['About a tenth', 'About a quarter', 'About two-fifths', 'About three-quarters'], correct: 2,
+          why: 'The Bronze Age lasted about 2,100 of the 5,225 years, or about 40 percent: the whole morning on the 24-hour clock.',
+          eras: ['bronze'] },
         { q: 'Which lasted longer: the Byzantine period or the Ottoman period?',
           choices: ['Byzantine Period', 'Ottoman Period'], correct: 0,
           why: 'The Byzantine period lasted 1,123 years (330–1453); the Ottoman period in Istanbul lasted 469 years (1453–1922).',
-          eras: ['byzantine', 'ottoman'], events: [21, 22, 25, 29] },
-        { q: 'Did Paul teach in Ephesus before or during the Pax Romana?',
-          choices: ['Before', 'During'], correct: 1,
-          why: 'The Pax Romana began in 27 BCE and lasted to 180 CE; Paul was in Ephesus around 52–55 CE.',
-          eras: ['roman'], events: [18, 19, 20] },
-        { q: 'How many years passed between the burning of the Acropolis (480 BCE) and the dedication of Constantinople (330 CE)?',
-          choices: ['150', '809', '810', '850'], correct: 1,
-          why: 'Across the BCE/CE line we add the two numbers and subtract one, because there was no year zero: 480 + 330 − 1 = 809.',
-          eras: [], events: [12, 21] },
+          eras: ['byzantine', 'ottoman'] },
+        { q: 'Which lasted longer: the Classical, Hellenistic, and Roman periods put together, or the Byzantine period alone?',
+          choices: ['Classical + Hellenistic + Roman', 'Byzantine alone'], correct: 1,
+          why: '157 + 292 + 360 = 809 years for the three together, against 1,123 years for the Byzantine period alone.',
+          eras: ['classical', 'hellenistic', 'roman', 'byzantine'] },
+        { q: 'The Roman period ran from 31 BCE to 330 CE. How many years is that?',
+          choices: ['299', '330', '360', '361'], correct: 2,
+          why: 'Across the BCE/CE line we add the two numbers and subtract one, because there was no year zero: 31 + 330 − 1 = 360.',
+          eras: ['roman'] },
         { q: 'In which period was writing almost unknown in Greece?',
           choices: ['Bronze Age', 'Iron Age', 'Archaic Period', 'Hellenistic Period'], correct: 1,
           why: 'After the palaces fell around 1200–1100 BCE, Linear B was forgotten; Greeks did not write again until they adopted the alphabet around 800 BCE.',
-          eras: ['iron'], events: [3, 6, 7] }
+          eras: ['iron'] }
     ];
-
-    const CHAPTER_DIRS = {
-        1: '01-long-timeline', 2: '02-traveling-well', 3: '03-istanbul-two-continents',
-        4: '04-byzantine-constantinople', 7: '07-end-of-empire-modern-turkey',
-        8: '08-troy-and-gallipoli', 9: '09-paul-life-letters', 12: '12-rhodes',
-        13: '13-knossos-minoans-linear-b', 14: '14-venetian-heraklion',
-        15: '15-athens-acropolis', 16: '16-athens-agora-democracy'
-    };
 
     // Full view: a little room on each side. The short Modern-era band draws
     // its label to the left of the bar so it is not clipped at the right edge.
@@ -164,13 +107,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function fmtNum(n) { return n.toLocaleString('en-US'); }
 
-    function eventDate(ev) {
-        if (ev.end === undefined) return fmtYear(ev.start, ev.c);
-        const sameEra = (ev.start < 0) === (ev.end < 0);
-        const a = sameEra ? Math.abs(ev.start) : fmtYear(ev.start, false);
-        return (ev.c ? 'c. ' : '') + a + '–' + fmtYear(ev.end, false);
-    }
-
     function eraDates(era) {
         return fmtYear(era.start, era.cStart) + ' – ' + fmtYear(era.end, era.cEnd);
     }
@@ -187,77 +123,20 @@ document.addEventListener('DOMContentLoaded', function () {
     // Build the vis-timeline items
     // ------------------------------------------------------------------
     // vis-timeline's own stacking counts a spilled label as part of a bar's
-    // width, which pushes far-apart bands onto extra lines. So stacking is
-    // off and rows are assigned here: three fixed era rows, then a fixed
-    // number of event rows that are re-packed for the current zoom. Each
-    // event gets its label on the right if there is room, on the left if it
-    // sits near the right edge, and otherwise only its dot (hover or click it
-    // to read the name).
-    const LABEL_COL = 52;   // width of the group-label column on the left
-    const MAX_EVENT_ROWS = 10;
-    const measureCtx = document.createElement('canvas').getContext('2d');
-    measureCtx.font = 'bold 12px -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif';
-
+    // width, which pushes far-apart bands onto extra lines. So stacking is off
+    // and each band is assigned to one of three fixed rows.
     const container = document.getElementById('timeline');
     let timeline = null;              // created below
-    let revealedEvents = new Set();
-    let hlEvents = new Set();
     let qIndex = 0;
     let score = 0;
     let answered = false;
     let finished = false;
 
-    function packEvents() {
-        let winStart = FULL_START, winEnd = FULL_END;
-        if (timeline) {
-            const win = timeline.getWindow();
-            winStart = win.start.getFullYear();
-            winEnd = win.end.getFullYear();
-        }
-        const W = Math.max(280, container.clientWidth - LABEL_COL);
-        const pxPerYear = W / Math.max(1, winEnd - winStart);
-        const rowEnds = new Array(MAX_EVENT_ROWS).fill(-Infinity);
-        const shown = EVENTS.filter(ev => revealedEvents.has(ev.id))
-            .sort((p, q) => p.start - q.start);
-
-        shown.forEach(ev => {
-            const x0 = (ev.start - winStart) * pxPerYear;
-            const xEnd = ev.end !== undefined ? (ev.end - winStart) * pxPerYear : x0;
-            if (xEnd < 0 || x0 > W) { ev.row = 0; ev.mode = 'right'; return; }  // off screen
-            const textW = measureCtx.measureText(ev.label).width + (ev.end === undefined ? 22 : 14);
-            const right = { mode: 'right', a: x0 - 6, b: Math.max(xEnd, x0 + textW) };
-            const left  = { mode: 'left',  a: x0 - textW, b: Math.max(xEnd, x0 + 8) };
-            const dot   = { mode: 'dot',   a: x0 - 6, b: Math.max(xEnd, x0 + 8) };
-            const cands = [];
-            if (right.b <= W) cands.push(right);
-            if (left.a >= 0) cands.push(left);
-            cands.push(dot);
-            for (const c of cands) {
-                const r = rowEnds.findIndex(end => end + 4 <= c.a);
-                if (r >= 0) { ev.row = r; ev.mode = c.mode; rowEnds[r] = c.b; return; }
-            }
-            // Nowhere free: put the dot in the row that ends soonest
-            let r = 0;
-            rowEnds.forEach((end, k) => { if (end < rowEnds[r]) r = k; });
-            ev.row = r; ev.mode = 'dot'; rowEnds[r] = Math.max(rowEnds[r], dot.b);
-        });
-    }
-
-    function renderEvents() {
-        packEvents();
-        items.update(EVENTS.filter(ev => revealedEvents.has(ev.id))
-            .map(ev => eventItem(ev, hlEvents.has(ev.id))));
-    }
-
-    const groupList = [
+    const groups = new vis.DataSet([
         { id: 'eras0', content: 'Eras', order: 0, className: 'era-row' },
         { id: 'eras1', content: '', order: 1, className: 'era-row' },
         { id: 'eras2', content: '', order: 2, className: 'era-row era-row-last' }
-    ];
-    for (let r = 0; r < MAX_EVENT_ROWS; r++) {
-        groupList.push({ id: 'ev' + r, content: r === 0 ? 'Events' : '', order: 10 + r, className: 'ev-row' });
-    }
-    const groups = new vis.DataSet(groupList);
+    ]);
 
     function eraItem(era, opts) {
         opts = opts || {};
@@ -282,27 +161,8 @@ document.addEventListener('DOMContentLoaded', function () {
         };
     }
 
-    function eventItem(ev, hl) {
-        const mode = ev.mode || 'right';
-        const item = {
-            id: 'ev-' + ev.id,
-            group: 'ev' + (ev.row || 0),
-            start: toDate(ev.start),
-            content: mode === 'dot' ? '' : (mode === 'left' ? '<span>' + ev.label + '</span>' : ev.label),
-            title: eventDate(ev) + ' — ' + ev.title,
-            className: 'event' + (hl ? ' hl' : '') + (mode === 'left' ? ' label-left' : '')
-        };
-        if (ev.end !== undefined) {
-            item.end = toDate(ev.end);
-            item.type = 'range';
-        } else {
-            item.type = 'point';
-        }
-        return item;
-    }
-
     const items = new vis.DataSet();
-    // Faint full-height shading for every era, behind both groups
+    // Faint full-height shading for every era, behind the bands
     ERAS.forEach(era => items.add({
         id: 'bg-' + era.key,
         start: toDate(era.start),
@@ -315,7 +175,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const options = {
         width: '100%',
-        height: '340px',
         orientation: 'top',
         stack: false,            // rows are assigned above
         groupOrder: 'order',
@@ -324,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
         max: toDate(2800),
         zoomMin: 200 * YEAR_MS,
         zoomMax: 6500 * YEAR_MS,
-        zoomable: false,         // buttons only, so the page can still scroll
+        zoomable: false,         // the view changes only when a question zooms in
         moveable: true,          // click-and-drag panning
         selectable: true,
         showCurrentTime: false,
@@ -353,14 +212,6 @@ document.addEventListener('DOMContentLoaded', function () {
     };
     timeline = new vis.Timeline(container, items, groups, options);
 
-    // Re-pack event rows whenever the zoom, pan, or iframe width changes
-    timeline.on('rangechanged', renderEvents);
-    let resizeTimer = null;
-    window.addEventListener('resize', function () {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(renderEvents, 200);
-    });
-
     // Vertical wheel scrolls the page; horizontal wheel pans the timeline.
     container.addEventListener('wheel', function (e) {
         const isHorizontal = Math.abs(e.deltaX) > Math.abs(e.deltaY);
@@ -377,25 +228,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }, true);
 
     // ------------------------------------------------------------------
-    // Navigation buttons
+    // Full-span button and window label
     // ------------------------------------------------------------------
     function showFullSpan(animate) {
         setView(toDate(FULL_START), toDate(FULL_END), animate);
     }
 
-    function pan(fraction) {
-        const win = timeline.getWindow();
-        const shift = (win.end - win.start) * fraction;
-        timeline.setWindow(new Date(win.start.valueOf() + shift),
-                           new Date(win.end.valueOf() + shift));
-    }
-
-    document.getElementById('pan-left').onclick = () => pan(-0.3);
-    document.getElementById('pan-right').onclick = () => pan(0.3);
-    document.getElementById('zoom-in').onclick = () => timeline.zoomIn(0.5);
-    document.getElementById('zoom-out').onclick = () => timeline.zoomOut(0.5);
     document.getElementById('full-span').onclick = () => {
-        if (finished) setHighlights([], []);   // quiz over: show every band at full strength
+        if (finished) setHighlights([]);   // quiz over: show every band at full strength
         showFullSpan(true);
     };
 
@@ -441,37 +281,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnRestart = document.getElementById('restart-btn');
     const elDetails = document.getElementById('details');
 
-    function setHighlights(eraKeys, eventIds) {
+    function setHighlights(eraKeys) {
         const anyEra = eraKeys.length > 0;
         items.update(ERAS.map(era => eraItem(era, {
             hl: eraKeys.includes(era.key),
             dim: anyEra && !eraKeys.includes(era.key),
             showDuration: eraKeys.includes(era.key)
         })));
-        hlEvents = new Set(eventIds);
-        renderEvents();
     }
 
-    function revealEvents(ids) {
-        ids.forEach(id => revealedEvents.add(id));
-        renderEvents();
-    }
-
-    function hideAllEvents() {
-        items.remove(EVENTS.map(ev => 'ev-' + ev.id));
-        revealedEvents = new Set();
-        hlEvents = new Set();
-    }
-
-    // Zoom to show every highlighted band and event with some padding
-    function fitTo(eraKeys, eventIds) {
+    // Zoom to show every highlighted band with some padding
+    function fitTo(eraKeys) {
         const years = [];
         eraKeys.forEach(k => { const e = eraByKey(k); years.push(e.start, e.end); });
-        eventIds.forEach(id => {
-            const ev = EVENTS.find(x => x.id === id);
-            years.push(ev.start);
-            if (ev.end !== undefined) years.push(ev.end);
-        });
         if (!years.length) return;
         let lo = Math.min(...years), hi = Math.max(...years);
         const pad = Math.max((hi - lo) * 0.12, 60);
@@ -513,9 +335,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         Q.eras.forEach(k => revealedEras.add(k));
-        revealEvents(Q.events);
-        setHighlights(Q.eras, Q.events);
-        fitTo(Q.eras, Q.events);
+        setHighlights(Q.eras);
+        fitTo(Q.eras);
 
         let html = right ? '<span class="verdict-good">Correct.</span> '
                          : '<span class="verdict-bad">Not quite.</span> The answer is <b>' +
@@ -524,15 +345,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (qIndex === QUESTIONS.length - 1) {
             finished = true;
-            revealEvents(EVENTS.map(ev => ev.id));
-            setHighlights(Q.eras, Q.events);
             const verdict = score >= 5
-                ? '5 or more: you have the clock.'
+                ? '5 or more: you have the timeline.'
                 : 'Fewer than 5: reread the 24-hour clock table, then press Restart and try again.';
             elDetails.innerHTML =
                 '<h2>Correct: ' + score + ' of ' + QUESTIONS.length + '</h2>' +
                 '<p><b>' + verdict + '</b></p>' +
-                '<p>All 29 events are now on the timeline. Press <b>Full span</b> to see them all, then click any band or event to read about it.</p>';
+                '<p>Press <b>Full span</b> to see all nine periods, then click any band to read about it and its length.</p>';
             btnNext.disabled = true;
             btnNext.textContent = 'Done';
         } else {
@@ -544,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function nextQuestion() {
         if (!answered || finished) return;
         qIndex++;
-        setHighlights([], []);
+        setHighlights([]);
         showFullSpan(true);
         renderQuestion();
     }
@@ -554,11 +373,10 @@ document.addEventListener('DOMContentLoaded', function () {
         score = 0;
         finished = false;
         revealedEras = new Set();
-        hideAllEvents();
-        setHighlights([], []);
+        setHighlights([]);
         timeline.setSelection([]);
         elScore.textContent = 'Correct: 0 of ' + QUESTIONS.length;
-        elDetails.innerHTML = '<div class="placeholder">Answer the question, then click any era band or event to read about it.</div>';
+        elDetails.innerHTML = '<div class="placeholder">Answer the question, then click any era band to read about it.</div>';
         showFullSpan(true);
         renderQuestion();
     }
@@ -569,41 +387,27 @@ document.addEventListener('DOMContentLoaded', function () {
     // ------------------------------------------------------------------
     // Infobox
     // ------------------------------------------------------------------
-    function chapterLink(ch) {
-        if (ch === 1) return 'This chapter goes deeper.';
-        const dir = CHAPTER_DIRS[ch];
-        return 'Read more in <a href="../../chapters/' + dir + '/" target="_top">Chapter ' + ch + '</a>.';
-    }
-
     function showEra(era) {
         const showDur = finished || revealedEras.has(era.key);
         const dur = showDur
             ? ' · ' + fmtNum(duration(era.start, era.end)) + ' years'
-            : ' · duration shown after you answer a question about it';
+            : ' · length shown after you answer a question about it';
         elDetails.innerHTML =
             '<h2><span class="swatch" style="background:' + era.color + '"></span>' + era.name + '</h2>' +
             '<div class="when">' + eraDates(era) + dur + '</div>' +
             '<p>' + era.desc + '</p>' +
+            '<p><b>On our route:</b> ' + era.anchors.join('; ') + '.</p>' +
             '<p class="note">' + BOUNDARY_NOTE + '</p>';
-    }
-
-    function showEvent(ev) {
-        elDetails.innerHTML =
-            '<h2>' + ev.title + '</h2>' +
-            '<div class="when">' + eventDate(ev) + '</div>' +
-            '<p>' + ev.desc + '</p>' +
-            '<p class="note">' + chapterLink(ev.ch) + '</p>';
     }
 
     timeline.on('select', function (props) {
         if (!props.items.length) return;
         const id = String(props.items[0]);
         if (id.startsWith('era-')) showEra(eraByKey(id.slice(4)));
-        else if (id.startsWith('ev-')) showEvent(EVENTS.find(ev => ev.id === Number(id.slice(3))));
     });
 
     // ------------------------------------------------------------------
-    // Start: nine bands, no events, question 1
+    // Start: nine bands, question 1
     // ------------------------------------------------------------------
     renderQuestion();
 });

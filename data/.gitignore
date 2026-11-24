@@ -5,3 +5,6 @@ takeout/
 
 # Contact sheets and thumbnails are copies of the private photos.
 contact-sheets/
+
+# Wikimedia Commons originals (exported copies go into docs/ via scripts/export_web_photos.py).
+commons/

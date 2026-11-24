@@ -3,7 +3,10 @@
 
 For each row of data/photo-picks.csv in the chosen chapters:
 
-1. `sips` (built into macOS) converts the HEIC original to JPEG and
+0. The source is the Takeout album file named in `file`, or, when `file`
+   contains a slash, a repo-relative path (Wikimedia Commons downloads are
+   kept in data/commons/, which is gitignored).
+1. `sips` (built into macOS) converts the original to JPEG and
    downsizes it so the long edge is at most --max-edge pixels.
 2. Pillow applies the camera orientation and re-saves the image WITHOUT any
    EXIF block, which removes GPS coordinates, timestamps, and device details.
@@ -89,7 +92,12 @@ def main() -> None:
             dest = out_dir / f"{slugify(caption)}-{n}.jpg"
             n += 1
         used.add(dest)
-        export(args.album_dir / row["file"], dest, args.max_edge, args.quality)
+        # Our photos are named by file within the Takeout album; Wikimedia
+        # Commons downloads are given as a repo path such as data/commons/x.jpg.
+        src = REPO / row["file"] if "/" in row["file"] else args.album_dir / row["file"]
+        if not src.exists():
+            raise SystemExit(f"error: source image not found: {src}")
+        export(src, dest, args.max_edge, args.quality)
         verify_clean(dest)
         row["web_path"] = str(dest.relative_to(REPO))
         print(f"{row['file']:<16} -> {row['web_path']}  ({dest.stat().st_size // 1024} KB)")
