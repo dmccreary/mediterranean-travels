@@ -1,0 +1,233 @@
+{
+  "microsim": {
+    "dublinCore": {
+      "title": "Events of the Eastern Mediterranean Timeline",
+      "creator": [
+        "Dan McCreary"
+      ],
+      "subject": [
+        "ancient history",
+        "historical periods",
+        "Eastern Mediterranean",
+        "chronology",
+        "BCE and CE dating"
+      ],
+      "description": "A to-scale vis-timeline of the nine periods of Eastern Mediterranean history with 29 key events on the trip route, each linked to the chapter that covers it. Learners answer six questions about period lengths and the gaps between events before the relevant bands and events are revealed, then explore every band and event. The appendix companion to the Chapter 1 eras timeline.",
+      "publisher": "Mediterranean Travels Intelligent Textbook",
+      "contributor": [],
+      "date": "2026-11-24",
+      "type": "Educational MicroSim",
+      "format": "text/html",
+      "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/eastern-med-events-timeline/",
+      "language": "en",
+      "rights": "CC BY-NC-SA 4.0"
+    },
+    "search": {
+      "tags": [
+        "timeline",
+        "history",
+        "periods",
+        "eras",
+        "quiz",
+        "vis-timeline",
+        "events"
+      ],
+      "searchKeywords": [
+        "Bronze Age",
+        "Iron Age",
+        "Archaic period",
+        "Classical period",
+        "Hellenistic period",
+        "Roman period",
+        "Byzantine period",
+        "Ottoman period",
+        "Knossos",
+        "Parthenon",
+        "Hagia Sophia",
+        "Pax Romana",
+        "no year zero"
+      ],
+      "visualizationType": [
+        "timeline"
+      ],
+      "interactionLevel": "moderate",
+      "complexity": 2,
+      "relatedConcepts": [
+        "Historical timeline",
+        "Period (era)",
+        "BCE and CE dating",
+        "No year zero",
+        "Late Bronze Age collapse"
+      ],
+      "applicationDomains": [
+        "history education",
+        "travel preparation"
+      ]
+    },
+    "educational": {
+      "gradeLevel": [
+        "Adult"
+      ],
+      "subjectArea": [
+        "Social Studies"
+      ],
+      "topic": [
+        "Key events on the trip route",
+        "Placing events within historical periods"
+      ],
+      "learningObjectives": [
+        "Place key events on the route within the nine periods and compare the time between them, by answering six questions before the answers are revealed, scoring at least 5 of 6"
+      ],
+      "bloomsTaxonomy": [
+        "Understand"
+      ],
+      "prerequisites": [
+        "names and order of the nine periods",
+        "BCE and CE dating",
+        "no year zero"
+      ],
+      "duration": {
+        "typical": 10,
+        "range": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "difficulty": "Beginner"
+    },
+    "technical": {
+      "framework": "vis-timeline",
+      "version": "1.0.0",
+      "canvasHeight": 672,
+      "canvasDimensions": {
+        "width": 750,
+        "height": 672,
+        "responsive": true
+      },
+      "dependencies": [
+        "vis-timeline@7.7.3"
+      ],
+      "browserCompatibility": [
+        "Chrome 90+",
+        "Firefox 88+",
+        "Safari 14+",
+        "Edge 90+"
+      ],
+      "performance": {
+        "memoryUsage": "low",
+        "loadTime": 1000
+      },
+      "deviceRequirements": {
+        "minScreenWidth": 600,
+        "touchSupport": true,
+        "keyboardRequired": false,
+        "mouseRequired": false,
+        "networkRequired": true
+      },
+      "accessibility": {
+        "screenReader": false,
+        "keyboardNavigation": true,
+        "colorContrast": true,
+        "altText": false
+      }
+    },
+    "userInterface": {
+      "layoutType": "responsive-width",
+      "layoutPattern": "timeline-top-panels-bottom",
+      "colorScheme": {
+        "drawingArea": "#ffffff",
+        "controlArea": "#fbfaf7",
+        "accent": "#A4482A",
+        "text": "#1d2a33"
+      },
+      "controls": [
+        {
+          "id": "choices",
+          "type": "button",
+          "label": "Answer choices",
+          "description": "Commit one answer per question; one attempt each"
+        },
+        {
+          "id": "next-btn",
+          "type": "button",
+          "label": "Next",
+          "description": "Go to the next question and return to the full span"
+        },
+        {
+          "id": "restart-btn",
+          "type": "button",
+          "label": "Restart",
+          "description": "Clear the score, hide the events, and return to question 1"
+        },
+        {
+          "id": "pan-left",
+          "type": "button",
+          "label": "Pan left",
+          "description": "Move the view 30% earlier"
+        },
+        {
+          "id": "pan-right",
+          "type": "button",
+          "label": "Pan right",
+          "description": "Move the view 30% later"
+        },
+        {
+          "id": "zoom-in",
+          "type": "button",
+          "label": "+",
+          "description": "Zoom in, down to a 200-year window"
+        },
+        {
+          "id": "zoom-out",
+          "type": "button",
+          "label": "-",
+          "description": "Zoom out"
+        },
+        {
+          "id": "full-span",
+          "type": "button",
+          "label": "Full span",
+          "description": "Show 3200 BCE to 2026 CE"
+        }
+      ],
+      "visualElements": [
+        {
+          "type": "diagram",
+          "description": "Nine colored period bands drawn to scale in three staggered rows, with faint full-height shading",
+          "interactive": true
+        },
+        {
+          "type": "shape",
+          "description": "Event dots and short spans, revealed as questions are answered; all 29 appear after question 6",
+          "interactive": true
+        },
+        {
+          "type": "text-display",
+          "description": "Question, feedback with the reason, running score, and an infobox for the selected band or event",
+          "interactive": false
+        }
+      ]
+    },
+    "pedagogical": {
+      "teachingStrategy": "Predict, then check against a to-scale display",
+      "keyQuestions": [
+        "Which lasted longer: the Bronze Age or the Classical period?",
+        "Was the Parthenon built closer in time to the first palace at Knossos or to Paul's years in Ephesus?",
+        "Which lasted longer: the Byzantine period or the Ottoman period?",
+        "Did Paul teach in Ephesus before or during the Pax Romana?",
+        "How many years passed between 480 BCE and 330 CE?",
+        "In which period was writing almost unknown in Greece?"
+      ],
+      "commonMisconceptions": [
+        "The Classical period was long because it is famous",
+        "The Byzantine period was a short epilogue to Rome",
+        "Spans across the BCE/CE line are found by subtracting the two numbers",
+        "Writing in Greece was continuous from the Bronze Age onward"
+      ],
+      "assessmentOpportunities": [
+        "Six multiple-choice questions, one attempt each; mastery is 5 of 6 on the first attempt"
+      ]
+    },
+    "chapter": "appendices"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Events of the Eastern Mediterranean Timeline using vis-timeline</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Events of the Eastern Mediterranean</h1>
+        <span class="sub">3200 BCE – 2026 CE, to scale</span>
+        <span id="score">Correct: 0 of 6</span>
+    </header>
+
+    <div id="toolbar">
+        <button id="pan-left" title="Pan left">◀</button>
+        <button id="pan-right" title="Pan right">▶</button>
+        <button id="zoom-in" title="Zoom in">+</button>
+        <button id="zoom-out" title="Zoom out">−</button>
+        <button id="full-span" title="Show 3200 BCE to 2026 CE">Full span</button>
+        <span id="window-label"></span>
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="lower">
+        <section id="quiz">
+            <div id="q-count"></div>
+            <div id="q-text"></div>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <div class="row">
+                <button id="next-btn" class="primary">Next →</button>
+                <button id="restart-btn">Restart</button>
+            </div>
+        </section>
+        <section id="details">
+            <div class="placeholder">Answer the question, then click any era band or event to read about it.</div>
+        </section>
+    </div>
+</main>
+<script src="eastern-med-events-timeline.js"></script>
+</body>
+</html>
