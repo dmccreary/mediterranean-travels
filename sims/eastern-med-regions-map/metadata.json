@@ -1,0 +1,253 @@
+{
+  "microsim": {
+    "dublinCore": {
+      "title": "Regions of the Eastern Mediterranean Map",
+      "creator": [
+        "Dan McCreary"
+      ],
+      "subject": [
+        "Mediterranean travel",
+        "geography",
+        "Aegean Sea",
+        "Anatolia",
+        "Greek islands"
+      ],
+      "description": "An atlas-style D3.js map of the regions, island groups, seas, and straits named in Part One of Chapter 1: Thrace, Anatolia, Ionia, Attica and Central Greece, Crete, the Cyclades, the Dodecanese, the North Aegean Islands, the Aegean Sea, the Eastern Mediterranean, the Bosphorus, and the Dardanelles. Hovering shows an infobox; clicking explores a region and checks it off a 12-item list, with a confetti cannon when all 12 are explored. A Find the Region mode hides the names and gives feedback and hints on every click. Every meaningful action is emitted as an xAPI-shaped statement and shown in an Event stream tab.",
+      "publisher": "Mediterranean Travels Intelligent Textbook",
+      "contributor": [],
+      "date": "2026-11-24",
+      "type": "Educational MicroSim",
+      "format": "text/html",
+      "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/eastern-med-regions-map/",
+      "language": "en",
+      "rights": "CC BY-NC-SA 4.0"
+    },
+    "search": {
+      "tags": [
+        "map",
+        "geography",
+        "regions",
+        "Turkey",
+        "Greece",
+        "D3.js",
+        "xAPI"
+      ],
+      "searchKeywords": [
+        "Eastern Mediterranean",
+        "Aegean Sea",
+        "Anatolia",
+        "Asia Minor",
+        "Ionia",
+        "Thrace",
+        "Attica",
+        "Crete",
+        "Cyclades",
+        "Dodecanese",
+        "North Aegean Islands",
+        "Bosphorus",
+        "Dardanelles",
+        "Hellespont"
+      ],
+      "visualizationType": [
+        "map"
+      ],
+      "interactionLevel": "high",
+      "complexity": 2,
+      "relatedConcepts": [
+        "Mediterranean",
+        "Eastern Mediterranean",
+        "Anatolia",
+        "Aegean Sea",
+        "Greek Islands",
+        "Crete"
+      ],
+      "applicationDomains": [
+        "education",
+        "exploration",
+        "assessment"
+      ]
+    },
+    "educational": {
+      "gradeLevel": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "Undergraduate",
+        "Adult"
+      ],
+      "subjectArea": [
+        "Social Studies"
+      ],
+      "topic": [
+        "Regions of the Eastern Mediterranean",
+        "Physical and historical geography of Turkey and Greece"
+      ],
+      "learningObjectives": [
+        "Locate the 12 key regions, island groups, seas, and straits of the Eastern Mediterranean on an unlabeled map",
+        "Name the modern country and continent of each stop on the trip route",
+        "Explain why the Bosphorus and the Dardanelles controlled the only sea passage out of the Black Sea"
+      ],
+      "bloomsTaxonomy": [
+        "Remember",
+        "Understand"
+      ],
+      "bloomVerb": "locate",
+      "prerequisites": [
+        "Read Part One: The Map in Chapter 1"
+      ],
+      "duration": {
+        "typical": 10,
+        "range": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "difficulty": "Beginner"
+    },
+    "technical": {
+      "framework": "other",
+      "version": "1.0.0",
+      "canvasHeight": 742,
+      "canvasDimensions": {
+        "width": 750,
+        "height": 742,
+        "responsive": true
+      },
+      "dependencies": [
+        "d3@7.9.0",
+        "topojson-client@3.1.0",
+        "canvas-confetti@1.9.3",
+        "world-atlas@2.0.2 (Natural Earth 1:10m country outlines, public domain)"
+      ],
+      "browserCompatibility": [
+        "Chrome 90+",
+        "Firefox 88+",
+        "Safari 14+",
+        "Edge 90+"
+      ],
+      "performance": {
+        "memoryUsage": "low",
+        "loadTime": 1500
+      },
+      "deviceRequirements": {
+        "minScreenWidth": 360,
+        "touchSupport": true,
+        "keyboardRequired": false,
+        "mouseRequired": false,
+        "networkRequired": true
+      },
+      "accessibility": {
+        "screenReader": true,
+        "keyboardNavigation": true,
+        "colorContrast": true,
+        "altText": true,
+        "reducedMotion": true
+      }
+    },
+    "userInterface": {
+      "layoutType": "responsive-width",
+      "layoutPattern": "map-top-panel-bottom",
+      "colorScheme": {
+        "drawingArea": "#bcd8e3",
+        "controlArea": "#ffffff",
+        "accent": "#A4482A",
+        "text": "#23303a"
+      },
+      "controls": [
+        {
+          "id": "mode-explore",
+          "type": "button",
+          "label": "Explore",
+          "description": "Hover for infoboxes and click regions to check them off the list"
+        },
+        {
+          "id": "mode-find",
+          "type": "button",
+          "label": "Find the Region",
+          "description": "A 12-question challenge with the key-region names hidden"
+        },
+        {
+          "id": "reset",
+          "type": "button",
+          "label": "Reset",
+          "description": "Clear progress and return to the full map"
+        },
+        {
+          "id": "zoom",
+          "type": "button",
+          "label": "+ / − / Home",
+          "description": "Zoom in, zoom out, or show the whole map; the map can also be dragged"
+        },
+        {
+          "id": "checklist",
+          "type": "button",
+          "label": "Checklist",
+          "description": "Click a region name to have the map show where it is (no credit)"
+        },
+        {
+          "id": "events",
+          "type": "button",
+          "label": "Event stream",
+          "description": "Shows the xAPI-shaped learning statements the sim has emitted, with a Copy JSON button"
+        }
+      ],
+      "visualElements": [
+        {
+          "type": "map",
+          "description": "Natural Earth coastlines in a conic projection: Greece and Turkey in two warm tints, island groups outlined with dashed lines, historic regions with dashed inland borders",
+          "interactive": true
+        },
+        {
+          "type": "text-display",
+          "description": "Hover infobox with the region's type, other names, a one-line summary, and our stops",
+          "interactive": false
+        },
+        {
+          "type": "text-display",
+          "description": "Detail panel with a fuller description, modern country, continent, and stops",
+          "interactive": false
+        },
+        {
+          "type": "animation",
+          "description": "A small confetti burst for each newly explored region and a confetti cannon when all 12 are found",
+          "interactive": false
+        }
+      ]
+    },
+    "xapi": {
+      "status": "events-emitted-not-yet-connected",
+      "statementShape": "xAPI 1.0.3 statement objects; window event 'microsim:xapi', postMessage type 'microsim-xapi', and window.MicroSimEvents.statements()",
+      "verbs": {
+        "initialized": "The map loaded, or a Find challenge started",
+        "experienced": "Hovered a region for at least 600 ms in Explore mode (result.duration)",
+        "interacted": "Clicked a region in Explore mode (first visit or revisit), or switched modes",
+        "asked": "Asked to be shown a region (checklist or Show me button)",
+        "answered": "Clicked a region in Find mode (result.success, result.response, attempt number)",
+        "completed": "Explored all 12 key regions, or finished the Find challenge (result.score)"
+      }
+    },
+    "usage": {
+      "recommendedUsage": [
+        "pre-reading orientation before Chapter 1",
+        "self-check after reading Part One: The Map",
+        "trip preparation"
+      ],
+      "instructionalStrategies": [
+        "guided exploration with hover infoboxes",
+        "retrieval practice in Find the Region mode",
+        "immediate corrective feedback with hints"
+      ],
+      "assessmentQuestions": [
+        "Which strait separates Europe from Asia at Istanbul?",
+        "Which island group lies along the southwest coast of Turkey, and which of our stops is in it?",
+        "Why is Ionia part of Anatolia but associated with ancient Greek culture?"
+      ],
+      "commonMisconceptions": [
+        "Ancient Greece was only in the modern country of Greece (much of it was on Anatolia's west coast)",
+        "Istanbul lies entirely in Asia (its old city is in Europe)",
+        "Every island near Greece is Greek (Gökçeada and Bozcaada are Turkish)"
+      ]
+    }
+  }
+}
