@@ -143,3 +143,15 @@
 .pronounce-btn:hover {
     background: rgba(107, 122, 58, 0.25);
 }
+
+/* Trip photos in chapters (exported by scripts/export_web_photos.py).
+   Cap the height so portrait shots do not take over the page. */
+.md-typeset figure.trip-photo img {
+  max-height: 32rem;
+  width: auto;
+  border-radius: 0.2rem;
+}
+.md-typeset figure.trip-photo figcaption {
+  max-width: 40rem;
+  font-style: italic;
+}

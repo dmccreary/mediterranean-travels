@@ -163,6 +163,11 @@ The six principles, shown on screen for reference throughout: Curiosity (ask and
 
 The middle seven nights of our trip are on the **Viking Star**, an ocean cruise ship operated by Viking. She entered service in 2015 as the first of the company's ocean ships, and she is small by modern cruise standards: about 930 guests, compared with five or six thousand on the largest ships at sea. Viking's ocean ships take only adult guests and have no casino, and they are designed for port-intensive itineraries where the destinations, not the ship, are the main event. A guided shore excursion is included in each port, with optional excursions at extra cost.
 
+<figure markdown="span" class="trip-photo">
+  ![Our ship docked on the Bosphorus in Istanbul](img/ship-docked-bosphorus-istanbul.jpg){ loading=lazy }
+  <figcaption>Our ship docked on the Bosphorus in Istanbul</figcaption>
+</figure>
+
 For a thoughtful traveler, a cruise is a real trade-off, and it is worth being honest about both sides. On the plus side, a cruise solves the hardest problem in this part of the world: moving between ports that are a night's sail apart, without repacking a suitcase six times. It also lets us reach places, like Rhodes and Crete, in a week that would take two weeks by ferry. On the minus side, a cruise ship can make every port feel like the same day: off the ship at 8, into a coach, through the site with a crowd of shipmates, back aboard by 5. Cruise passengers also spend less money ashore than overnight visitors, because they sleep and eat aboard.
 
 **Worked example: a port day that is ours.** Let's plan Rhodes, Day 8, two ways. In the default plan, we take a morning coach excursion and return to the ship for lunch. In the thoughtful plan, we still take the excursion, but we eat lunch in the Old Town instead of aboard, at a family taverna our guide recommends, and we spend the afternoon walking the Jewish Quarter, which coach tours often skip. The ship docks at the edge of the Old Town walls, so it is a short walk back. The second plan costs one lunch and gives a local family some of the money our visit brings. It also gives us one of the most important stories on the island, which comes back in the Day 8 Learning for All note.
@@ -172,6 +177,11 @@ For a thoughtful traveler, a cruise is a real trade-off, and it is worth being h
 Our cruise is the Viking Star's seven-night **Ancient Mediterranean Treasures** voyage, sailing from Istanbul on November 14, 2026, and arriving at Piraeus, the port of Athens, on November 20, with a final night aboard before we disembark on November 21. The name is a fair description: in seven days the ship stops at sites from nearly every era on our timeline in Part 1. The ports are Istanbul (two days), Çanakkale for Troy and Gallipoli, Kusadasi for Ephesus, Rhodes, Heraklion for Knossos, and Piraeus for Athens.
 
 The voyage's order is the order of the sea lanes, not the order of history. Ships sail from Istanbul down through the Sea of Marmara and the Dardanelles, then south along the Turkish coast, then west across the southern Aegean to Crete and north to Athens. As Part 1 warned, that means our route jumps back and forth in time. We meet Byzantine and Ottoman Istanbul first, the Bronze Age at Troy and Knossos in the middle, and Classical Athens at the end.
+
+<figure markdown="span" class="trip-photo">
+  ![Early morning on deck as the ship reaches Heraklion](img/early-morning-deck-ship-reaches.jpg){ loading=lazy }
+  <figcaption>Early morning on deck as the ship reaches Heraklion</figcaption>
+</figure>
 
 **Worked example: reading the route as a timeline.** Using the periods from Part 1, here is the "oldest thing we will see" at each port in voyage order. Istanbul: the Hippodrome's Egyptian obelisk, carved about 1450 BCE but brought to Constantinople in 390 CE. Çanakkale: the walls of Troy, the oldest layers about 3000 BCE. Kusadasi: Ephesus, mostly Roman, 1st and 2nd centuries CE. Rhodes: the Hellenistic acropolis and the medieval knights' city. Heraklion: Knossos, first palace about 1900 BCE. Piraeus: the Acropolis of Athens, the Parthenon from 447–432 BCE. The dates swing by more than three thousand years from one morning to the next, which is exactly why each daily chapter begins by placing its site on the clock.
 
@@ -204,6 +214,11 @@ There is one hidden detail in this table that catches travelers every year. Turk
     Greece is one hour behind Turkey in November, and the ship changes its clocks overnight between Kusadasi and Rhodes. A phone usually updates itself, but an alarm set the night before, or a watch, may not. Check the ship's daily program for the clock change and the all-aboard time, and set the watch back before bed on Day 7.
 
 **Worked example: Tuesday, November 17.** Let's read Day 7 off the itinerary. We are in Kusadasi, on the Turkish coast, from 7:00 AM to 6:00 PM, Turkish time. Ephesus is about 20 km inland, so the morning goes to the site and the museum in nearby Selçuk. The sun sets around 6:00 PM, about when the ship sails, so we should be back aboard before dark. Before bed we set our watches back one hour for Greece. And the daily chapter tells us to read Paul at Ephesus, Part 2 that evening, while the Great Theater is still fresh.
+
+<figure markdown="span" class="trip-photo">
+  ![Kuşadası at first light, with the ship at the pier](img/kusadasi-first-light-ship-pier.jpg){ loading=lazy }
+  <figcaption>Kuşadası at first light, with the ship at the pier</figcaption>
+</figure>
 
 ## Part Three: Traveling in November
 
@@ -305,6 +320,11 @@ Prediction questions, in this order:
 
 The off-season matters most on the islands, where many jobs depend on summer visitors. In Rhodes, many beach hotels and seasonal restaurants close by November, and their workers go home or move to other work, often the olive harvest. Big working cities like Istanbul, Athens, and Heraklion change much less, because most of their people never worked in tourism at all. The scale of tourism in Greece makes the season matter: the country of about ten million people receives more than thirty million foreign visitors a year, about three for every resident, and most of them come in summer.
 
+<figure markdown="span" class="trip-photo">
+  ![Cruise ships anchored off Rhodes](img/cruise-ships-anchored-off-rhodes.jpg){ loading=lazy }
+  <figcaption>Cruise ships anchored off Rhodes</figcaption>
+</figure>
+
 **Worked example: what the off-season gives Delphi.** On a summer day, coaches arrive at Delphi from Athens by mid-morning and the Sacred Way fills with groups. On Sunday, November 22, we can expect a quieter site, mist on the mountain, and perhaps a few other cars in the lot. But winter hours mean the site and museum close earlier in the afternoon, and the drive is about 2½ hours each way. So the off-season plan is to leave Athens early, see the site first while it is open, the museum next, and lunch in the village or in Arachova after. As the Oracle chapters will explain, the off-season even has an ancient meaning here: in myth, Apollo left Delphi in the winter months.
 
 ### Opening Hours and Closures
@@ -331,6 +351,11 @@ The off-season matters most on the islands, where many jobs depend on summer vis
 The **daily chapter routine** is the habit this guide is built around: one chapter for each day, read at breakfast or the night before, so that each morning we arrive knowing what happened at the place, what to look for, what to eat, and who lives there now. The guide has twenty-one chapters: these two before we go, fourteen daily chapters for the thirteen days (Day 9 has two, for Knossos in the morning and Heraklion in the afternoon), four deep-dive chapters, and a short chapter for the flight home.
 
 Each daily chapter follows the same order, so we always know where to look: what we will see, the history behind it, things to notice, food and drink, the people who live there now, etiquette and a few useful words, practical notes, and a short Learning for All note at the end. The deep-dive chapters are different. They are longer, slower reads about Paul of Tarsus and the Oracle of Delphi, and they are scheduled for quiet evenings and the long drive back from Delphi.
+
+<figure markdown="span" class="trip-photo">
+  ![Sunrise from the bow, approaching Heraklion](img/sunrise-bow-approaching-heraklion.jpg){ loading=lazy }
+  <figcaption>Sunrise from the bow, approaching Heraklion</figcaption>
+</figure>
 
 | When | Read |
 |---|---|

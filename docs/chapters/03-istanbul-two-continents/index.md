@@ -80,6 +80,11 @@ The Bosphorus is also a strange piece of water. It is really two rivers, one on 
 
 For 2,600 years, whoever held the Bosphorus could tax, feed, or blockade every city on the Black Sea, and could block the grain ships that fed the Mediterranean. Today about 40,000 ships pass through each year, tankers and freighters gliding between the ferries and the fishing boats past the city's front windows. Under the Montreux Convention of 1936, Turkey must let merchant ships pass freely in peacetime, but it can limit warships, which is why the strait shows up in the news whenever there is a war around the Black Sea.
 
+<figure markdown="span" class="trip-photo">
+  ![Ortaköy Mosque on the European shore of the Bosphorus](img/ortakoy-mosque-european-shore-bosphorus.jpg){ loading=lazy }
+  <figcaption>Ortaköy Mosque on the European shore of the Bosphorus</figcaption>
+</figure>
+
 Before the strait was bridged, the only way across was by boat. The table below shows how the crossing works now, in the order the links were built.
 
 | Crossing | Opened | What it is | Useful to us? |
@@ -92,6 +97,11 @@ Before the strait was bridged, the only way across was by boat. The table below 
 | Eurasia Tunnel | 2016 | Road tunnel for cars under the southern end | Taxis may use it on the way to the Asian side |
 
 **Worked example: crossing a continent before dinner.** Suppose we have the late afternoon of Day 1 free. From the old city we walk down to the ferry piers at Eminönü, tap a transit card (the *İstanbulkart*, sold at machines by the piers) and board a ferry to Kadıköy, on the Asian shore. The trip takes about twenty minutes. On the way, look north up the strait: the European shore is on the left, the Asian shore on the right, and the first bridge hangs between them in the distance. Look back and see the old city's skyline from the water, which is how every sailor and invader saw it for two millennia: Topkapı Palace on the point, Hagia Sophia's dome behind it, then the minarets of the Süleymaniye on the next hill. In Kadıköy, which was the Greek city of Chalcedon (we will meet it again in a moment), we can walk through the food market, have tea, and take the ferry back as the lights come on. We will have crossed from Europe to Asia and back for a couple of transit fares, which, on our first day, is a fine way to feel what "a city on two continents" means.
+
+<figure markdown="span" class="trip-photo">
+  ![Waterfront mansions (yalı) along the Bosphorus](img/waterfront-mansions-yali-along-bosphorus.jpg){ loading=lazy }
+  <figcaption>Waterfront mansions (yalı) along the Bosphorus</figcaption>
+</figure>
 
 Before we look at the map, three place names need defining, because the map sorts places by them. The **historic peninsula** is the triangle of land on the European side between the Golden Horn and the Sea of Marmara, where the Greek, Roman, Byzantine, and early Ottoman city stood; it holds Hagia Sophia, Topkapı, and most of the sights of Days 2 to 4. **Galata** (today part of the district of Beyoğlu) is the hill on the European side across the Golden Horn, where foreign merchants lived. The **Asian shore** is everything on the far side of the Bosphorus, including Kadıköy and Üsküdar. The **Golden Horn** itself is the curved inlet that separates the historic peninsula from Galata; Part Five tells its story.
 
@@ -245,6 +255,11 @@ The city grew fast. By the 500s it may have held around half a million people, a
 | Beyazıt, near the Grand Bazaar | The Forum of Theodosius, a later emperor's forum | Beyazıt Square and Istanbul University's gate |
 
 The Column of Constantine is easy to walk past, a blackened stump among traffic and shops. It is also the most direct physical link to the founding of the city: a column that stood at the center of Constantine's dedication ceremony in 330, still standing where he put it nearly seventeen centuries ago.
+
+<figure markdown="span" class="trip-photo">
+  ![The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900](img/german-fountain-sultanahmet-square-gift.jpg){ loading=lazy }
+  <figcaption>The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900</figcaption>
+</figure>
 
 ### The Byzantine Empire
 
@@ -524,6 +539,11 @@ The conquest was also a story of what came after. Mehmed had promised his soldie
 
 **Istanbul** is the Turkish name of the city, in official use since the Republic, and today it is Turkey's largest city, with about 15.7 million people, nearly one Turk in five. The name has an unexpected origin. It comes from medieval Greek: *eis tin polin* (εἰς τὴν πόλιν), "into the city" or "to the City," which is what Greeks in the countryside said when they were going to Constantinople, because there was only one City. Turkish speakers heard it as one word. The Ottomans used it in everyday speech for centuries, while their official documents usually called the city *Kostantiniyye*, the Arabic form of Constantinople.
 
+<figure markdown="span" class="trip-photo">
+  ![Istanbul seen from the water](img/istanbul-seen-water.jpg){ loading=lazy }
+  <figcaption>Istanbul seen from the water</figcaption>
+</figure>
+
 **Worked example: one city, many names.** Who calls the city what tells us who was looking at it, and from where.
 
 | Name | Language | Meaning | Who used it |
@@ -539,9 +559,19 @@ The conquest was also a story of what came after. Mehmed had promised his soldie
 
 The change of name was finally fixed for foreigners in 1930, when the Turkish postal service began asking that letters be addressed to İstanbul rather than Constantinople. Seven years earlier, in 1923, Ankara had become the capital of the new Republic. Istanbul lost its government but kept its trade, its port, its universities, and its importance, and it has grown more than fifteen-fold since then. Most of its people today were born elsewhere in Turkey or are the children of people who were, which is one reason the city's food and accents come from every corner of Anatolia.
 
+<figure markdown="span" class="trip-photo">
+  ![A quiet residential street in Istanbul](img/quiet-residential-street-istanbul.jpg){ loading=lazy }
+  <figcaption>A quiet residential street in Istanbul</figcaption>
+</figure>
+
 ### The Golden Horn
 
 The **Golden Horn** (in Turkish, *Haliç*, "the inlet") is the curved, horn-shaped inlet of the Bosphorus, about 7.5 km long, that separates the historic peninsula from Galata and formed the city's natural harbor. Its name, *Chrysokeras* in Greek, is old and may describe its shape and the golden light on the water at sunset, or the wealth that passed through it. Its deep, calm water sheltered the fleets of every empire that ruled here, which is why the defenders of 1453 guarded its mouth with a chain. Today the **Galata Bridge** crosses it near the mouth, with a row of fishermen along its rails at every hour and fish restaurants on its lower deck, and the view from the bridge at dusk, mosques on one side and Galata Tower on the other, is the classic first evening in Istanbul.
+
+<figure markdown="span" class="trip-photo">
+  ![Gulls rafting on the Bosphorus](img/gulls-rafting-bosphorus.jpg){ loading=lazy }
+  <figcaption>Gulls rafting on the Bosphorus</figcaption>
+</figure>
 
 ### Galata Tower
 
@@ -627,11 +657,21 @@ The five layers, shown as labeled bins with these descriptions:
 
 Three features are worth knowing on our first day. First, Turkish cooking is **regional**. The Black Sea coast is known for anchovies and corn bread, the southeast for spicy kebabs and pistachios, the Aegean for olive-oil vegetable dishes, central Anatolia for meat, bread, and dumplings. Istanbul, full of migrants from all of them, has restaurants from every region. Second, much of it is shared with neighbors. Greeks, Armenians, Arabs, Balkan peoples, and Turks eat many of the same dishes under similar names, and arguments over who invented baklava or stuffed grape leaves are best enjoyed rather than settled. Third, a great deal of it is **vegetable cooking**: a whole family of dishes called *zeytinyağlılar*, "those with olive oil," are vegetables slow-cooked in olive oil and served cool.
 
+<figure markdown="span" class="trip-photo">
+  ![A Turkish lunch of meze](img/turkish-lunch-meze.jpg){ loading=lazy }
+  <figcaption>A Turkish lunch of meze</figcaption>
+</figure>
+
 **Worked example: menemen, a breakfast in five layers.** *Menemen* is a skillet dish of eggs scrambled softly with tomatoes, green peppers, and often onion, cooked in olive oil or butter and eaten straight from the pan with bread. It looks simple. Read it as food history: the olive oil is ancient Mediterranean; the butter, if used, belongs to the herders' dairy tradition; the tomatoes and peppers are American, which means this "traditional" dish can be no older than the 1800s in its current form; the bread is the staple of every period; and the tea served alongside is 20th-century Republic. Istanbul cafés argue over whether menemen should include onions, a question with no historical answer but a lot of passion. Ordering it tomorrow is a good way to start a conversation with the waiter.
 
 ### Turkish Breakfast
 
 **Turkish breakfast** (*kahvaltı*) is the traditional morning meal of many small dishes eaten with bread and tea. Its name means "before coffee" (*kahve altı*), from the old custom of eating something before the morning coffee. A full breakfast spread, sometimes called *serpme kahvaltı*, can cover the table: white cheese and aged cheeses, black and green olives, tomatoes and cucumbers, honey and kaymak, jams, butter, boiled eggs or menemen, sometimes spicy sausage (*sucuk*), and baskets of bread and simit, with tea refilled until we stop it. Our hotel will likely serve a version of it. On a weekend, many Istanbul families make a long breakfast the main social meal of the day.
+
+<figure markdown="span" class="trip-photo">
+  ![Olives at a Turkish breakfast](img/olives-turkish-breakfast.jpg){ loading=lazy }
+  <figcaption>Olives at a Turkish breakfast</figcaption>
+</figure>
 
 ### Simit
 

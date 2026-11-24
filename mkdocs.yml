@@ -73,11 +73,12 @@ nav:
     - List of MicroSims: sims/index.md
     - Eras of the Eastern Mediterranean Timeline: sims/eastern-med-eras-timeline/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Regions of the Eastern Mediterranean Map: sims/eastern-med-regions-map/index.md
     - Viking Cruise Map: sims/viking-cruise-map/index.md
 
-
-
-  - Trip Photo Metrics: photos.md
+  - Appendices:
+    - List of Appendices: appendices/index.md
+    - Trip Photo Metrics: appendices/photo-metrics.md
 
   - License: license.md
   - Contact: contact.md

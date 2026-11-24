@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+<title>Regions of the Eastern Mediterranean Map</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header id="topbar">
+    <h1>Eastern Mediterranean</h1>
+    <div id="modes" role="tablist" aria-label="Map mode">
+      <button id="mode-explore" role="tab" aria-selected="true" class="on">Explore</button>
+      <button id="mode-find" role="tab" aria-selected="false">Find the Region</button>
+    </div>
+    <div id="progress" aria-live="polite">
+      <span id="progress-text">Explored 0 of 12</span>
+      <span id="progress-bar"><span id="progress-fill"></span></span>
+    </div>
+    <button id="reset" class="ghost" title="Clear progress and return to the full map">Reset</button>
+  </header>
+
+  <div id="map-wrap">
+    <svg id="map" role="img" aria-label="Map of the Eastern Mediterranean: Greece, Turkey, the Aegean Sea and its island groups"></svg>
+    <div id="loading">Loading coastlines…</div>
+    <div id="zoom-ctl">
+      <button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+      <button id="zoom-out" title="Zoom out" aria-label="Zoom out">&minus;</button>
+      <button id="zoom-home" title="Show the whole map" aria-label="Show the whole map">&#8962;</button>
+    </div>
+    <div id="legend" aria-hidden="true">
+      <span><i class="sw sw-gr"></i>Greece</span>
+      <span><i class="sw sw-tr"></i>Turkey</span>
+      <span><i class="sw sw-done"></i>Explored</span>
+      <span><i class="sw sw-hull"></i>Island group</span>
+    </div>
+    <div id="find-card" hidden>
+      <div class="fc-q" id="fc-q">Question 1 of 12</div>
+      <div class="fc-prompt">Find: <b id="fc-target">—</b></div>
+      <div class="fc-msg" id="fc-msg">Click the region on the map.</div>
+      <button id="fc-skip" class="ghost small">Show me</button>
+    </div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div id="infobox" aria-hidden="true"></div>
+    <div id="celebrate" hidden>
+      <div class="cb-card">
+        <div class="cb-title" id="cb-title">Every key region explored</div>
+        <div class="cb-body" id="cb-body"></div>
+        <div class="cb-btns">
+          <button id="cb-primary">Try the Find challenge</button>
+          <button id="cb-secondary" class="ghost">Keep exploring</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="panel">
+    <div id="detail" aria-live="polite"></div>
+    <div id="side">
+      <div id="tabs" role="tablist">
+        <button id="tab-list" role="tab" aria-selected="true" class="on">Checklist</button>
+        <button id="tab-events" role="tab" aria-selected="false">Event stream <span id="ev-count">0</span></button>
+      </div>
+      <div id="pane-list"></div>
+      <div id="pane-events" hidden>
+        <div id="ev-head">
+          <span>Learning events (xAPI preview)</span>
+          <button id="ev-copy" class="ghost small" title="Copy every statement as JSON">Copy JSON</button>
+        </div>
+        <ol id="ev-list"></ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="eastern-med-regions-map.js"></script>
+</body>
+</html>

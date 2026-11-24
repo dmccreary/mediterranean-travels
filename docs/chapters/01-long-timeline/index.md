@@ -76,6 +76,31 @@ This chapter is that map and timeline. It is the longest chapter in the guide be
 
 ## Part One: The Map
 
+Every place named in this part of the chapter is on the map below. Hover over a region, sea, or strait to see what it is and which of our stops it holds, then click each of the 12 key regions to check it off. Once all 12 are explored, try **Find the Region**, which hides the names and asks us to find each one.
+
+#### Map: Regions of the Eastern Mediterranean
+
+<iframe src="../../sims/eastern-med-regions-map/main.html" height="746px" width="100%" scrolling="no"></iframe>
+
+[Run the Regions of the Eastern Mediterranean Map MicroSim Fullscreen](../../sims/eastern-med-regions-map/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Regions of the Eastern Mediterranean Map</summary>
+Type: map
+**sim-id:** eastern-med-regions-map<br/>
+**Library:** D3.js<br/>
+**Status:** Built<br/>
+**Bloom Level:** Remember<br/>
+**Bloom Verb:** locate<br/>
+**Learning Objective:** The learner will locate the 12 key regions, island groups, seas, and straits of the Eastern Mediterranean on an unlabeled map, finding at least 9 of 12 on the first try.
+
+**Key regions:** Eastern Mediterranean, Aegean Sea, Bosphorus, Dardanelles, Thrace (European Turkey), Anatolia, Ionia, Attica and Central Greece, Crete, Cyclades, Dodecanese, North Aegean Islands. Context labels: Greece, Turkey, Black Sea, Sea of Marmara, Ionian Sea, Sporades, Saronic Islands, Ionian Islands, Cyprus, the Levant, Egypt.
+
+**Interaction:** Hover shows an infobox. In Explore mode, clicking a key region checks it off, with a confetti burst, and exploring all 12 fires a confetti cannon. Find the Region hides the key names, names any wrong choice with a hint, and reveals the answer after two misses.
+
+**Evidence of Mastery:** First-try score in Find the Region, emitted as an xAPI `completed` statement. Each click is an `answered` statement with its attempt number.
+</details>
+
 ### The Eastern Mediterranean
 
 The **Mediterranean** is the sea almost enclosed by Europe, Asia, and Africa; its name comes from the Latin for "in the middle of the land." The **Eastern Mediterranean** is the half of that sea east of Italy and Libya, together with the lands around it: Greece and its islands, Turkey, Cyprus, the coast of Syria, Lebanon, Israel, and Palestine (often called the *Levant*), and Egypt. It is the one place on Earth where three continents come within sight, or a short sail, of one another. Istanbul itself sits on two of them.
@@ -414,6 +439,11 @@ The **Mycenaean Greeks** were the Bronze Age people of mainland Greece, from abo
 
 Mycenaean society looked very different from Minoan Crete. Its centers were hilltop fortresses with walls of enormous stone blocks; later Greeks thought only the one-eyed giants called Cyclopes could have lifted them. The Lion Gate at Mycenae, carved around 1250 BCE, is the most famous of these. Mycenaean kings were buried with gold masks, weapons, and drinking cups. In Homer's *Iliad*, written down centuries later, Agamemnon, king of Mycenae, leads the Greeks against Troy. Homer's heroes are a poet's memory of this world, blurred and rearranged.
 
+<figure markdown="span" class="trip-photo">
+  ![Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE](img/gold-cups-vapheio-mycenaean-greece.jpg){ loading=lazy }
+  <figcaption>Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE</figcaption>
+</figure>
+
 **Worked example: tablets baked by disaster.** Linear B tablets were made of unbaked clay, used for the year's accounts and then reused. They should have crumbled long ago. They survived because the palaces that stored them burned, and the fires baked the clay hard. So the records we have are the records of each palace's last months. What do they say? They are not poems or laws but inventories: sheep, wool, chariot wheels, bronze, olive oil, and offerings to gods. Some of those gods are familiar, including Zeus, Hera, and Poseidon. We read the Mycenaeans, in other words, through their bookkeeping, frozen at the moment of their destruction.
 
 The two Bronze Age Aegean civilizations are easy to confuse, so it helps to set them side by side.
@@ -434,6 +464,11 @@ The **Iron Age** is the period when iron replaced bronze as the main metal for t
 For Greece, the first centuries of the Iron Age, about 1100 to 800 BCE, were hard. The population fell, many settlements were abandoned, and long-distance trade shrank. Above all, writing disappeared. Linear B had been a tool of palace scribes, and when the palaces fell, nobody needed it. For about three to four hundred years, nobody in Greece wrote anything at all. Older books call this the Greek **Dark Age**, a name that describes our lack of written sources more than the people's lives. Archaeology shows that some communities did well, and that stories of the heroic past were passed down orally by poets.
 
 Around 800 BCE, two things ended that silence. Greek traders met the **Phoenicians**, a seafaring people of the Levant coast, and borrowed their alphabet of 22 letters, all for consonants. The Greeks reused some of those letters for vowels: Phoenician *aleph* became Greek *alpha*. For the first time, a script could write down the sounds of a language with a small set of letters that almost anyone could learn. And among the first things the Greeks wrote down, probably in the 8th or 7th century BCE, were the two great poems of Homer, the *Iliad* and the *Odyssey*.
+
+<figure markdown="span" class="trip-photo">
+  ![A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE](img/geometric-period-lidded-box-pyxis.jpg){ loading=lazy }
+  <figcaption>A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE</figcaption>
+</figure>
 
 **Worked example: why iron spread when bronze had ruled.** Compare the Uluburun ship with an Iron Age village smith. To make one ton of bronze, a Bronze Age kingdom needed about 900 kg of copper from Cyprus and about 100 kg of tin from perhaps thousands of kilometers away, carried by ships like the one that sank at Uluburun. When the trade network collapsed around 1200 BCE, the tin stopped coming. Iron ore, by contrast, could be dug from local bogs and hillsides. The smith needed a hot fire, skill, and a lot of charcoal, but no foreign suppliers and no king. That is why the Iron Age took hold just when the palaces fell. The table sums up the difference.
 
@@ -511,6 +546,11 @@ The period ended in fire. The Persian Empire, the largest the world had seen, ha
 
 The **Classical period** runs from 480 BCE, the year of Salamis, to 323 BCE, the death of Alexander the Great. It is only about 157 years long, yet it is what most people picture when they hear "ancient Greece": the Parthenon, the tragedies of Aeschylus, Sophocles, and Euripides, the histories of Herodotus and Thucydides, the philosophy of Socrates, Plato, and Aristotle, and the sculpture that later artists, from the Romans to the Renaissance, treated as the model of beauty. "Classical" itself means "of the first rank," a judgment made by later admirers.
 
+<figure markdown="span" class="trip-photo">
+  ![Temple of Poseidon at Cape Sounion, about 440 BCE](img/temple-poseidon-cape-sounion-about.jpg){ loading=lazy }
+  <figcaption>Temple of Poseidon at Cape Sounion, about 440 BCE</figcaption>
+</figure>
+
 The period divides into two halves. In the first, after defeating Persia, Athens led a naval alliance of Aegean cities called the **Delian League**. Over time Athens turned the alliance into an empire, collecting yearly payments from its allies and using its fleet to keep them in line. That money paid for the age of Pericles, the building of the Parthenon, and a golden age of drama and thought. In the second half, Athens and Sparta fought the long Peloponnesian War (431–404 BCE), which Athens lost. In 399 BCE the restored Athenian democracy put Socrates to death. Over the next decades, the kingdom of **Macedon**, in the north, rose under Philip II, who defeated Athens and Thebes at Chaeronea in 338 BCE. Philip's son Alexander, tutored by Aristotle, then conquered the Persian Empire.
 
 **Worked example: who paid for the Parthenon?** On Day 10 we will look up at the Parthenon, built between 447 and 432 BCE, fifteen years for one of the most perfect buildings in the world. Let's follow the money. In 454 BCE Athens moved the Delian League's treasury from the island of Delos to Athens, saying it would be safer from Persia. Pericles then used part of the allies' payments, meant for defense, to rebuild the temples the Persians had burned. The biographer Plutarch reports that Pericles' opponents accused him of decking out Athens with money that belonged to its allies. So the Parthenon is a monument both to Athenian genius and to Athenian empire: the democracy at home was paid for, in part, by power over others abroad. Both things are true, and both are worth thinking about as we climb the Acropolis.
@@ -576,6 +616,11 @@ The **Roman period** is not quite the same thing as the Roman Empire. The Roman 
 
 The trouble is that Rome arrived at different places at different times. So museum labels on our route may call something "Roman period" even if it is older than 31 BCE, because Rome got there first. The Hellenistic and Roman periods overlap on the ground, even though they do not overlap on our tidy timeline.
 
+<figure markdown="span" class="trip-photo">
+  ![Roman-era ruins at Ephesus](img/roman-era-ruins-ephesus.jpg){ loading=lazy }
+  <figcaption>Roman-era ruins at Ephesus</figcaption>
+</figure>
+
 **Worked example: when did the Roman period start at each stop?** Let's apply the definition, using the dates in the Roman Empire table above.
 
 | Stop | Roman rule began | Why |
@@ -635,6 +680,11 @@ The **Byzantine period** runs from 330 CE, when Constantine dedicated his new ca
 
 Its people never called themselves "Byzantine." That name was popularized by a German scholar, Hieronymus Wolf, in 1557, a century after the empire ended. They called themselves *Rhomaioi*, "Romans," and their state the Roman Empire. Latin faded from government in the 600s, and Greek took over. Their culture produced Hagia Sophia, completed in 537 under the emperor Justinian, gold mosaics, icons, and a legal code that still shapes European law. They also survived repeated sieges: Persians and Avars in 626, Arab armies in the 670s and again in 717–718.
 
+<figure markdown="span" class="trip-photo">
+  ![Gilded vaults in the galleries of Hagia Sophia, completed 537 CE](img/gilded-vaults-galleries-hagia-sophia.jpg){ loading=lazy }
+  <figcaption>Gilded vaults in the galleries of Hagia Sophia, completed 537 CE</figcaption>
+</figure>
+
 The empire's worst blow came from fellow Christians. In 1204 the knights of the **Fourth Crusade**, diverted from a campaign to the Holy Land and deeply in debt to Venice, captured and looted Constantinople. The empire was carved into pieces. The Byzantines retook their capital in 1261, but the empire never recovered its strength, and Venetians, Genoese, crusader knights, and Turks took over much of the Aegean.
 
 **Worked example: when did the Byzantine period end at each stop?** The timeline says 1453, but as with the Roman period, the date was different on the ground.
@@ -664,6 +714,11 @@ Within a few decades of Muhammad's death in 632, Arab Muslim armies conquered Sy
 The **Ottoman period** is the era of the **Ottoman Empire**, a Muslim Turkish state founded around 1299 by a chieftain named Osman in northwest Anatolia. For our route it runs from the conquest of Constantinople in 1453 to the end of the empire in 1922. At its height under Suleiman the Magnificent (1520–1566), the empire ruled Anatolia, the Balkans, the Middle East, Egypt, and North Africa. It was a multi-faith empire: Muslims, Orthodox Christians, Armenians, and Jews lived under its rule, each community with its own religious courts and leaders.
 
 Like the earlier periods, the Ottoman period came and went at different times in different places. Athens was Ottoman from 1458 until the Greek War of Independence, which began in 1821; Greece was recognized as independent in 1830. Rhodes was Ottoman from 1522 to 1912, and Crete from 1669 to 1898. The empire ended after defeat in the First World War. The sultanate was abolished in 1922, and the Republic of Turkey was founded in 1923. Chapters 5 through 7 tell that story.
+
+<figure markdown="span" class="trip-photo">
+  ![Domes of the Sultan Ahmed (Blue) Mosque, completed 1616](img/domes-sultan-ahmed-blue-mosque.jpg){ loading=lazy }
+  <figcaption>Domes of the Sultan Ahmed (Blue) Mosque, completed 1616</figcaption>
+</figure>
 
 ### Three Faiths Side by Side
 

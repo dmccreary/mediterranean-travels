@@ -1,18 +1,321 @@
 chapter,sheet_number,file,place,score,aesthetic,views,edited,described,orientation,taken_local,labels
-03,1,IMG_0595.HEIC,Blue Mosque,0.642,0.6,1,False,False,landscape,2026-11-13T16:28+02:00,structure; arch; art
-03,2,IMG_0671.HEIC,Istanbul (general),0.572,0.53,1,False,False,landscape,2026-11-15T09:42+02:00,structure; arch; art
-03,3,IMG_0518.HEIC,Istanbul (general),0.552,0.51,1,False,False,landscape,2026-11-13T13:38+02:00,people; adult; clothing
-04,1,IMG_0446.HEIC,Hagia Sophia,0.542,0.5,1,False,False,landscape,2026-11-13T09:20+02:00,structure; people; adult
-05,1,IMG_0595.HEIC,Blue Mosque,0.642,0.6,1,False,False,landscape,2026-11-13T16:28+02:00,structure; arch; art
-08,1,IMG_0746.HEIC,Troy,0.5,0.5,0,False,False,landscape,2026-11-16T11:51+02:00,outdoor; sky; blue_sky
-09,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
-09,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
-10,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
-10,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
-11,1,IMG_0887.HEIC,Ephesus,0.53,0.53,0,False,False,landscape,2026-11-17T09:12+02:00,outdoor; sky; cloudy
-11,2,IMG_0816.HEIC,Ephesus,0.46,0.46,0,False,False,landscape,2026-11-17T08:15+02:00,outdoor; people; adult
-12,1,IMG_1030.HEIC,Palace of the Grand Master,0.54,0.54,0,False,False,landscape,2026-11-18T09:24+02:00,structure; people; adult
-14,1,IMG_1316.HEIC,Crete countryside,0.422,0.38,1,False,False,landscape,2026-11-19T19:18+02:00,tableware; utensil; plate
-15,1,IMG_1386.HEIC,Acropolis,0.562,0.52,1,False,False,landscape,2026-11-20T15:18+02:00,outdoor; sky; cloudy
-20,1,IMG_1597.HEIC,Athens (general),0.576,0.51,2,False,False,landscape,2026-11-21T18:54+02:00,outdoor; sky; night_sky
-20,2,IMG_1527.HEIC,National Archaeological Museum,0.556,0.49,2,False,False,landscape,2026-11-21T14:03+02:00,art; statue; interior_room
+03,1,IMG_0387.HEIC,Istanbul (general),0.987,0.69,4,False,True,landscape,2026-11-13T06:29+02:00,structure; wood_processed; utensil
+03,2,IMG_0399.HEIC,Istanbul (general),0.756,0.69,2,False,False,landscape,2026-11-13T08:21+02:00,outdoor; structure; building
+03,3,IMG_0494.HEIC,Istanbul (general),0.7,0.7,0,False,False,landscape,2026-11-13T11:18+02:00,machine; vehicle; watercraft
+03,4,IMG_0586.HEIC,Blue Mosque,0.682,0.64,1,False,False,landscape,2026-11-13T16:16+02:00,light; chandelier; structure
+03,5,IMG_0594.HEIC,Blue Mosque,0.682,0.64,1,False,False,landscape,2026-11-13T16:28+02:00,structure; interior_room; arch
+03,6,IMG_0389.HEIC,Bosphorus and Ortaköy,0.677,0.58,4,False,False,landscape,2026-11-13T07:08+02:00,outdoor; land; grass
+03,7,IMG_0622.HEIC,Bosphorus and Ortaköy,0.66,0.66,0,False,False,landscape,2026-11-14T08:13+02:00,outdoor; sky; blue_sky
+03,8,IMG_0487.HEIC,Istanbul (general),0.65,0.65,0,False,False,landscape,2026-11-13T10:38+02:00,tableware; utensil; plate
+03,9,IMG_0496.HEIC,Istanbul (general),0.65,0.65,0,False,False,landscape,2026-11-13T11:30+02:00,outdoor; sky; cloudy
+03,10,IMG_0672.HEIC,Istanbul (general),0.632,0.59,1,False,False,landscape,2026-11-15T09:42+02:00,structure; arch; fence
+03,11,IMG_0497.HEIC,Bosphorus and Ortaköy,0.63,0.63,0,False,False,landscape,2026-11-13T11:37+02:00,outdoor; sky; cloudy
+03,12,IMG_0397.HEIC,Istanbul (general),0.626,0.71,2,False,False,landscape,2026-11-13T08:20+02:00,people; adult; material
+03,13,IMG_0401.HEIC,Istanbul (general),0.626,0.56,2,False,False,landscape,2026-11-13T08:25+02:00,people; adult; structure
+03,14,IMG_0582.HEIC,Istanbul (general),0.622,0.58,1,False,False,landscape,2026-11-13T16:05+02:00,lamppost; light; outdoor
+03,15,IMG_0683.HEIC,Istanbul (general),0.622,0.58,1,False,False,landscape,2026-11-15T16:33+02:00,outdoor; sky; cloudy
+03,16,IMG_0618.HEIC,Istanbul (general),0.62,0.62,0,False,False,landscape,2026-11-13T16:43+02:00,people; adult; structure
+03,17,IMG_0599.HEIC,Blue Mosque,0.612,0.57,1,False,False,landscape,2026-11-13T16:29+02:00,structure; arch; interior_room
+03,18,IMG_0631.HEIC,Istanbul (general),0.61,0.61,0,False,False,landscape,2026-11-14T12:32+02:00,animal; bird; gull
+03,19,IMG_0498.HEIC,Bosphorus and Ortaköy,0.61,0.61,0,False,False,landscape,2026-11-13T11:38+02:00,outdoor; sky; blue_sky
+03,20,IMG_0590.HEIC,Blue Mosque,0.602,0.56,1,False,False,landscape,2026-11-13T16:19+02:00,structure; arch; art
+04,1,IMG_0429.HEIC,Hagia Sophia,0.71,0.56,11,False,False,landscape,2026-11-13T08:57+02:00,people; adult; clothing
+04,2,IMG_0420.HEIC,Hagia Sophia,0.696,0.43,2,False,True,landscape,2026-11-13T08:49+02:00,people; adult; structure
+04,3,IMG_0427.HEIC,Hagia Sophia,0.68,0.53,11,False,False,landscape,2026-11-13T08:55+02:00,structure; light; chandelier
+04,4,IMG_0416.HEIC,Hagia Sophia,0.676,0.61,2,False,False,landscape,2026-11-13T08:45+02:00,structure; arch; fence
+04,5,IMG_0411.HEIC,Hagia Sophia,0.666,0.4,2,False,True,landscape,2026-11-13T08:41+02:00,structure; people; adult
+04,6,IMG_0454.HEIC,Basilica Cistern,0.666,0.6,2,False,False,landscape,2026-11-13T09:34+02:00,structure; arch; material
+04,7,IMG_0580.HEIC,Basilica Cistern,0.642,0.6,1,False,False,landscape,2026-11-13T16:02+02:00,outdoor; sky; cloudy
+04,8,IMG_0584.HEIC,Hippodrome,0.602,0.56,1,False,False,landscape,2026-11-13T16:08+02:00,outdoor; sky; cloudy
+04,9,IMG_0460.HEIC,Basilica Cistern,0.596,0.53,2,False,False,landscape,2026-11-13T09:37+02:00,structure; arch; brick
+04,10,IMG_0417.HEIC,Hagia Sophia,0.586,0.52,2,False,False,landscape,2026-11-13T08:46+02:00,structure; arch; material
+04,11,IMG_0447.HEIC,Hagia Sophia,0.572,0.53,1,False,False,landscape,2026-11-13T09:20+02:00,outdoor; sky; cloudy
+04,12,IMG_0579.HEIC,Basilica Cistern,0.552,0.51,1,False,False,landscape,2026-11-13T16:01+02:00,outdoor; sky; cloudy
+04,13,IMG_0424.HEIC,Hagia Sophia,0.547,0.43,6,False,False,landscape,2026-11-13T08:52+02:00,structure; arch; interior_room
+04,14,IMG_0442.HEIC,Hagia Sophia,0.542,0.5,1,False,False,landscape,2026-11-13T09:17+02:00,adult; people; structure
+04,15,IMG_0443.HEIC,Hagia Sophia,0.532,0.49,1,False,False,landscape,2026-11-13T09:19+02:00,structure; arch; art
+04,16,IMG_0407.HEIC,Hagia Sophia,0.516,0.45,2,False,False,landscape,2026-11-13T08:33+02:00,people; structure; arch
+04,17,IMG_0458.HEIC,Basilica Cistern,0.516,0.45,2,False,False,landscape,2026-11-13T09:36+02:00,structure; people; adult
+04,18,IMG_0440.HEIC,Hagia Sophia,0.512,0.47,1,False,False,landscape,2026-11-13T09:14+02:00,structure; arch; people
+04,19,IMG_0457.HEIC,Basilica Cistern,0.496,0.43,2,False,False,landscape,2026-11-13T09:35+02:00,people; adult; structure
+04,20,IMG_0405.HEIC,Hagia Sophia,0.486,0.42,2,False,False,landscape,2026-11-13T08:30+02:00,people; adult; outdoor
+05,1,IMG_0586.HEIC,Blue Mosque,0.682,0.64,1,False,False,landscape,2026-11-13T16:16+02:00,light; chandelier; structure
+05,2,IMG_0594.HEIC,Blue Mosque,0.682,0.64,1,False,False,landscape,2026-11-13T16:28+02:00,structure; interior_room; arch
+05,3,IMG_0599.HEIC,Blue Mosque,0.612,0.57,1,False,False,landscape,2026-11-13T16:29+02:00,structure; arch; interior_room
+05,4,IMG_0590.HEIC,Blue Mosque,0.602,0.56,1,False,False,landscape,2026-11-13T16:19+02:00,structure; arch; art
+05,5,IMG_0606.HEIC,Blue Mosque,0.59,0.59,0,False,False,landscape,2026-11-13T16:31+02:00,structure; arch; interior_room
+05,6,IMG_0608.HEIC,Blue Mosque,0.48,0.48,0,False,False,landscape,2026-11-13T16:32+02:00,people; adult; structure
+05,7,IMG_0589.HEIC,Blue Mosque,0.462,0.42,1,False,False,landscape,2026-11-13T16:18+02:00,people; adult; structure
+05,8,IMG_0598.HEIC,Blue Mosque,0.462,0.42,1,False,False,landscape,2026-11-13T16:29+02:00,art; decoration; stained_glass
+05,9,IMG_0615.HEIC,Blue Mosque,0.44,0.44,0,False,False,landscape,2026-11-13T16:39+02:00,outdoor; structure; building
+05,10,IMG_0585.HEIC,Blue Mosque,0.432,0.39,1,False,False,landscape,2026-11-13T16:09+02:00,outdoor; sky; cloudy
+05,11,IMG_0611.HEIC,Blue Mosque,0.42,0.42,0,False,False,landscape,2026-11-13T16:37+02:00,outdoor; sky; people
+06,1,IMG_0647.HEIC,Spice Bazaar,0.6,0.6,0,False,False,landscape,2026-11-15T08:52+02:00,structure; wood_processed
+06,2,IMG_0543.HEIC,Grand Bazaar,0.59,0.59,0,False,False,landscape,2026-11-13T15:00+02:00,
+06,3,IMG_0536.HEIC,Grand Bazaar,0.582,0.54,1,False,False,landscape,2026-11-13T14:57+02:00,
+06,4,IMG_0661.HEIC,Spice Bazaar,0.57,0.72,0,False,False,landscape,2026-11-15T09:07+02:00,clothing; footwear; shoes
+06,5,IMG_0554.HEIC,Grand Bazaar,0.54,0.54,0,False,False,landscape,2026-11-13T15:03+02:00,material; raw_glass
+06,6,IMG_0645.HEIC,Spice Bazaar,0.53,0.53,0,False,False,landscape,2026-11-15T08:47+02:00,people; food; nut
+06,7,IMG_0651.HEIC,Spice Bazaar,0.53,0.53,0,False,False,landscape,2026-11-15T08:53+02:00,animal; mammal; cat
+06,8,IMG_0530.HEIC,Grand Bazaar,0.522,0.48,1,False,False,landscape,2026-11-13T14:54+02:00,outdoor; sky; cloudy
+06,9,IMG_0649.HEIC,Spice Bazaar,0.51,0.51,0,False,False,landscape,2026-11-15T08:53+02:00,structure; wood_processed; interior_room
+06,10,IMG_0538.HEIC,Grand Bazaar,0.482,0.44,1,False,False,landscape,2026-11-13T14:58+02:00,people; adult; interior_room
+06,11,IMG_0574.HEIC,Grand Bazaar,0.482,0.59,1,False,False,landscape,2026-11-13T15:21+02:00,material; raw_glass
+06,12,IMG_0646.HEIC,Spice Bazaar,0.48,0.48,0,False,False,landscape,2026-11-15T08:50+02:00,material; textile
+06,13,IMG_0643.HEIC,Spice Bazaar,0.46,0.46,0,False,False,landscape,2026-11-15T08:46+02:00,clothing; jacket; people
+06,14,IMG_0658.HEIC,Spice Bazaar,0.45,0.45,0,False,False,landscape,2026-11-15T09:03+02:00,interior_room; interior_shop; people
+06,15,IMG_0527.HEIC,Grand Bazaar,0.422,0.38,1,False,False,landscape,2026-11-13T14:53+02:00,people; outdoor; sky
+06,16,IMG_0663.HEIC,Spice Bazaar,0.422,0.38,1,False,False,landscape,2026-11-15T09:32+02:00,people; adult; outdoor
+06,17,IMG_0638.HEIC,Spice Bazaar,0.42,0.42,0,False,False,landscape,2026-11-15T08:34+02:00,people; adult; clothing
+06,18,IMG_0640.HEIC,Spice Bazaar,0.41,0.41,0,False,False,landscape,2026-11-15T08:37+02:00,structure; arch; people
+06,19,IMG_0655.HEIC,Spice Bazaar,0.41,0.41,0,False,False,landscape,2026-11-15T09:02+02:00,people; adult; crowd
+06,20,IMG_0531.HEIC,Grand Bazaar,0.402,0.36,1,False,False,landscape,2026-11-13T14:55+02:00,people; crowd; structure
+08,1,IMG_0700.HEIC,Çanakkale and the Dardanelles,0.68,0.68,0,False,False,landscape,2026-11-16T09:36+02:00,outdoor; sky; blue_sky
+08,2,IMG_0727.HEIC,Çanakkale and the Dardanelles,0.672,0.63,1,False,False,landscape,2026-11-16T10:12+02:00,outdoor; sky; blue_sky
+08,3,IMG_0796.HEIC,Troy,0.67,0.67,0,False,False,landscape,2026-11-16T12:44+02:00,outdoor; sky; cloudy
+08,4,IMG_0704.HEIC,Çanakkale and the Dardanelles,0.65,0.65,0,False,False,landscape,2026-11-16T09:37+02:00,outdoor; sky; blue_sky
+08,5,IMG_0690.HEIC,Çanakkale and the Dardanelles,0.64,0.64,0,False,False,landscape,2026-11-16T07:18+02:00,outdoor; sky; cloudy
+08,6,IMG_0741.HEIC,Troy,0.612,0.57,1,False,False,landscape,2026-11-16T11:46+02:00,outdoor; sky; blue_sky
+08,7,IMG_0711.HEIC,Çanakkale and the Dardanelles,0.61,0.61,0,False,False,landscape,2026-11-16T09:42+02:00,outdoor; sky; cloudy
+08,8,IMG_0725.HEIC,Çanakkale and the Dardanelles,0.602,0.56,1,False,False,landscape,2026-11-16T10:10+02:00,outdoor; sky; structure
+08,9,IMG_0732.HEIC,Troy,0.602,0.56,1,False,False,landscape,2026-11-16T11:30+02:00,outdoor; sky; structure
+08,10,IMG_0785.HEIC,Troy,0.57,0.57,0,False,False,landscape,2026-11-16T12:30+02:00,outdoor; sky; blue_sky
+08,11,IMG_0723.HEIC,Çanakkale and the Dardanelles,0.562,0.52,1,False,False,landscape,2026-11-16T10:08+02:00,
+08,12,IMG_0737.HEIC,Troy,0.562,0.52,1,False,False,landscape,2026-11-16T11:38+02:00,outdoor; sky; blue_sky
+08,13,IMG_0743.HEIC,Troy,0.562,0.52,1,False,False,landscape,2026-11-16T11:47+02:00,outdoor; land; grass
+08,14,IMG_0689.HEIC,Çanakkale and the Dardanelles,0.56,0.56,0,False,False,landscape,2026-11-16T07:15+02:00,outdoor; sky; cloudy
+08,15,IMG_0784.HEIC,Troy,0.56,0.56,0,False,False,landscape,2026-11-16T12:30+02:00,outdoor; sky; blue_sky
+08,16,IMG_0787.HEIC,Troy,0.56,0.56,0,False,False,landscape,2026-11-16T12:31+02:00,outdoor; sky; cloudy
+08,17,IMG_0731.HEIC,Troy,0.552,0.51,1,False,False,landscape,2026-11-16T11:30+02:00,outdoor; sky; clothing
+08,18,IMG_0740.HEIC,Troy,0.552,0.51,1,False,False,landscape,2026-11-16T11:45+02:00,outdoor; sky; cloudy
+08,19,IMG_0693.HEIC,Çanakkale and the Dardanelles,0.55,0.55,0,False,False,landscape,2026-11-16T08:38+02:00,outdoor; sky; cloudy
+08,20,IMG_0729.HEIC,Çanakkale and the Dardanelles,0.542,0.5,1,False,False,landscape,2026-11-16T10:27+02:00,outdoor; sky; people
+09,1,IMG_0854.HEIC,Ephesus,0.672,0.63,1,False,False,landscape,2026-11-17T08:50+02:00,outdoor; sky; cloudy
+09,2,IMG_0841.HEIC,Ephesus,0.642,0.6,1,False,False,landscape,2026-11-17T08:43+02:00,outdoor; sky; cloudy
+09,3,IMG_0831.HEIC,Ephesus,0.64,0.64,0,False,False,landscape,2026-11-17T08:34+02:00,structure; outdoor; sky
+09,4,IMG_0836.HEIC,Ephesus,0.632,0.59,1,False,False,landscape,2026-11-17T08:39+02:00,outdoor; sky; cloudy
+09,5,IMG_0868.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:00+02:00,outdoor; sky; cloudy
+09,6,IMG_0880.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:08+02:00,outdoor; sky; cloudy
+09,7,IMG_0892.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:13+02:00,outdoor; sky; people
+09,8,IMG_0852.HEIC,Ephesus,0.612,0.57,1,False,False,landscape,2026-11-17T08:48+02:00,outdoor; sky; cloudy
+09,9,IMG_0924.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:28+02:00,people; adult; outdoor
+09,10,IMG_0930.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:31+02:00,outdoor; sky; blue_sky
+09,11,IMG_0813.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:14+02:00,outdoor; sky; structure
+09,12,IMG_0827.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:29+02:00,animal; mammal; cat
+09,13,IMG_0934.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T09:35+02:00,outdoor; sky; land
+09,14,IMG_0845.HEIC,Ephesus,0.592,0.55,1,False,False,landscape,2026-11-17T08:44+02:00,outdoor; structure; building
+09,15,IMG_0823.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:26+02:00,outdoor; sky; structure
+09,16,IMG_0860.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:53+02:00,outdoor; sky; art
+09,17,IMG_0932.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:33+02:00,outdoor; sky; land
+09,18,IMG_0937.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:37+02:00,outdoor; sky; blue_sky
+09,19,IMG_0846.HEIC,Ephesus,0.582,0.54,1,False,False,landscape,2026-11-17T08:45+02:00,outdoor; structure; building
+09,20,IMG_0850.HEIC,Ephesus,0.582,0.54,1,False,False,landscape,2026-11-17T08:47+02:00,outdoor; sky; art
+10,1,IMG_0854.HEIC,Ephesus,0.672,0.63,1,False,False,landscape,2026-11-17T08:50+02:00,outdoor; sky; cloudy
+10,2,IMG_0809.HEIC,Kuşadası,0.66,0.66,0,False,False,landscape,2026-11-17T06:26+02:00,outdoor; sky; blue_sky
+10,3,IMG_0841.HEIC,Ephesus,0.642,0.6,1,False,False,landscape,2026-11-17T08:43+02:00,outdoor; sky; cloudy
+10,4,IMG_0831.HEIC,Ephesus,0.64,0.64,0,False,False,landscape,2026-11-17T08:34+02:00,structure; outdoor; sky
+10,5,IMG_0836.HEIC,Ephesus,0.632,0.59,1,False,False,landscape,2026-11-17T08:39+02:00,outdoor; sky; cloudy
+10,6,IMG_0868.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:00+02:00,outdoor; sky; cloudy
+10,7,IMG_0880.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:08+02:00,outdoor; sky; cloudy
+10,8,IMG_0892.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:13+02:00,outdoor; sky; people
+10,9,IMG_0852.HEIC,Ephesus,0.612,0.57,1,False,False,landscape,2026-11-17T08:48+02:00,outdoor; sky; cloudy
+10,10,IMG_0924.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:28+02:00,people; adult; outdoor
+10,11,IMG_0930.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:31+02:00,outdoor; sky; blue_sky
+10,12,IMG_0813.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:14+02:00,outdoor; sky; structure
+10,13,IMG_0827.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:29+02:00,animal; mammal; cat
+10,14,IMG_0934.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T09:35+02:00,outdoor; sky; land
+10,15,IMG_0845.HEIC,Ephesus,0.592,0.55,1,False,False,landscape,2026-11-17T08:44+02:00,outdoor; structure; building
+10,16,IMG_0811.HEIC,Kuşadası,0.59,0.59,0,False,False,landscape,2026-11-17T06:41+02:00,outdoor; land; island
+10,17,IMG_0823.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:26+02:00,outdoor; sky; structure
+10,18,IMG_0860.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:53+02:00,outdoor; sky; art
+10,19,IMG_0932.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:33+02:00,outdoor; sky; land
+10,20,IMG_0937.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:37+02:00,outdoor; sky; blue_sky
+11,1,IMG_0854.HEIC,Ephesus,0.672,0.63,1,False,False,landscape,2026-11-17T08:50+02:00,outdoor; sky; cloudy
+11,2,IMG_0841.HEIC,Ephesus,0.642,0.6,1,False,False,landscape,2026-11-17T08:43+02:00,outdoor; sky; cloudy
+11,3,IMG_0831.HEIC,Ephesus,0.64,0.64,0,False,False,landscape,2026-11-17T08:34+02:00,structure; outdoor; sky
+11,4,IMG_0836.HEIC,Ephesus,0.632,0.59,1,False,False,landscape,2026-11-17T08:39+02:00,outdoor; sky; cloudy
+11,5,IMG_0868.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:00+02:00,outdoor; sky; cloudy
+11,6,IMG_0880.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:08+02:00,outdoor; sky; cloudy
+11,7,IMG_0892.HEIC,Ephesus,0.62,0.62,0,False,False,landscape,2026-11-17T09:13+02:00,outdoor; sky; people
+11,8,IMG_0852.HEIC,Ephesus,0.612,0.57,1,False,False,landscape,2026-11-17T08:48+02:00,outdoor; sky; cloudy
+11,9,IMG_0924.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:28+02:00,people; adult; outdoor
+11,10,IMG_0930.HEIC,Ephesus,0.61,0.61,0,False,False,landscape,2026-11-17T09:31+02:00,outdoor; sky; blue_sky
+11,11,IMG_0813.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:14+02:00,outdoor; sky; structure
+11,12,IMG_0827.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T08:29+02:00,animal; mammal; cat
+11,13,IMG_0934.HEIC,Ephesus,0.6,0.6,0,False,False,landscape,2026-11-17T09:35+02:00,outdoor; sky; land
+11,14,IMG_0845.HEIC,Ephesus,0.592,0.55,1,False,False,landscape,2026-11-17T08:44+02:00,outdoor; structure; building
+11,15,IMG_0823.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:26+02:00,outdoor; sky; structure
+11,16,IMG_0860.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T08:53+02:00,outdoor; sky; art
+11,17,IMG_0932.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:33+02:00,outdoor; sky; land
+11,18,IMG_0937.HEIC,Ephesus,0.59,0.59,0,False,False,landscape,2026-11-17T09:37+02:00,outdoor; sky; blue_sky
+11,19,IMG_0846.HEIC,Ephesus,0.582,0.54,1,False,False,landscape,2026-11-17T08:45+02:00,outdoor; structure; building
+11,20,IMG_0850.HEIC,Ephesus,0.582,0.54,1,False,False,landscape,2026-11-17T08:47+02:00,outdoor; sky; art
+12,1,IMG_1004.HEIC,Rhodes Old Town,0.78,0.78,0,False,False,landscape,2026-11-18T08:58+02:00,structure; outdoor; sky
+12,2,IMG_0979.HEIC,Rhodes Old Town,0.752,0.71,1,False,False,landscape,2026-11-18T08:22+02:00,outdoor; sky; cloudy
+12,3,IMG_1066.HEIC,Rhodes Old Town,0.75,0.75,0,False,False,landscape,2026-11-18T10:18+02:00,plant; foliage; outdoor
+12,4,IMG_0982.HEIC,Rhodes Old Town,0.742,0.7,1,False,False,landscape,2026-11-18T08:25+02:00,structure; arch; outdoor
+12,5,IMG_1076.HEIC,Rhodes Old Town,0.712,0.67,1,False,False,landscape,2026-11-18T10:56+02:00,outdoor; sky; cloudy
+12,6,IMG_0985.HEIC,Rhodes Old Town,0.682,0.64,1,False,False,landscape,2026-11-18T08:27+02:00,structure; people; adult
+12,7,IMG_1117.HEIC,Palace of the Grand Master,0.67,0.67,0,False,False,landscape,2026-11-18T15:10+02:00,outdoor; structure; building
+12,8,IMG_0967.HEIC,Rhodes Old Town,0.612,0.57,1,False,False,landscape,2026-11-18T08:00+02:00,outdoor; structure; building
+12,9,IMG_1028.HEIC,Palace of the Grand Master,0.61,0.61,0,False,False,landscape,2026-11-18T09:19+02:00,outdoor; sky; cloudy
+12,10,IMG_1109.HEIC,Palace of the Grand Master,0.61,0.61,0,False,False,landscape,2026-11-18T15:05+02:00,grass; land; outdoor
+12,11,IMG_0965.HEIC,Rhodes Old Town,0.602,0.56,1,False,False,landscape,2026-11-18T07:53+02:00,outdoor; sky; cloudy
+12,12,IMG_1139.HEIC,Rhodes Old Town,0.6,0.6,0,False,False,landscape,2026-11-18T17:34+02:00,outdoor; sky; cloudy
+12,13,IMG_1073.HEIC,Rhodes Old Town,0.592,0.55,1,False,False,landscape,2026-11-18T10:37+02:00,outdoor; sky; cloudy
+12,14,IMG_1088.HEIC,Rhodes Old Town,0.592,0.55,1,False,False,landscape,2026-11-18T14:14+02:00,outdoor; land; grass
+12,15,IMG_1011.HEIC,Rhodes Old Town,0.59,0.59,0,False,False,landscape,2026-11-18T09:09+02:00,outdoor; alley; land
+12,16,IMG_1031.HEIC,Palace of the Grand Master,0.59,0.59,0,False,False,landscape,2026-11-18T09:24+02:00,structure; arch; people
+12,17,IMG_1128.HEIC,Palace of the Grand Master,0.59,0.59,0,False,False,landscape,2026-11-18T15:14+02:00,outdoor; structure; building
+12,18,IMG_0975.HEIC,Rhodes Old Town,0.582,0.54,1,False,False,landscape,2026-11-18T08:18+02:00,outdoor; sky; cloudy
+12,19,IMG_0976.HEIC,Rhodes Old Town,0.582,0.54,1,False,False,landscape,2026-11-18T08:18+02:00,outdoor; sky; cloudy
+12,20,IMG_1074.HEIC,Rhodes Old Town,0.572,0.53,1,False,False,landscape,2026-11-18T10:38+02:00,outdoor; structure; building
+13,1,IMG_1224.HEIC,Heraklion Archaeological Museum,0.752,0.71,1,False,False,landscape,2026-11-19T09:54+02:00,people; skull
+13,2,IMG_1175.HEIC,Heraklion Archaeological Museum,0.622,0.58,1,False,False,landscape,2026-11-19T09:15+02:00,
+13,3,IMG_1219.HEIC,Heraklion Archaeological Museum,0.612,0.57,1,False,False,landscape,2026-11-19T09:51+02:00,art; statue
+13,4,IMG_1225.HEIC,Heraklion Archaeological Museum,0.602,0.56,1,False,False,landscape,2026-11-19T09:56+02:00,structure; wood_processed; people
+13,5,IMG_1231.HEIC,Heraklion Archaeological Museum,0.572,0.68,1,False,False,landscape,2026-11-19T09:59+02:00,structure; wood_processed; art
+13,6,IMG_1222.HEIC,Heraklion Archaeological Museum,0.552,0.66,1,False,False,landscape,2026-11-19T09:53+02:00,container; vase
+13,7,IMG_1198.HEIC,Heraklion Archaeological Museum,0.55,0.55,0,False,False,landscape,2026-11-19T09:31+02:00,structure; wood_processed; people
+13,8,IMG_1229.HEIC,Heraklion Archaeological Museum,0.492,0.6,1,False,False,landscape,2026-11-19T09:58+02:00,art; decoration; jewelry
+13,9,IMG_1171.HEIC,Heraklion Archaeological Museum,0.472,0.43,1,False,False,landscape,2026-11-19T09:12+02:00,people; adult; material
+13,10,IMG_1187.HEIC,Heraklion Archaeological Museum,0.47,0.47,0,False,False,landscape,2026-11-19T09:22+02:00,people; adult; utensil
+13,11,IMG_1235.HEIC,Heraklion Archaeological Museum,0.462,0.42,1,False,False,landscape,2026-11-19T10:03+02:00,people; adult; crowd
+13,12,IMG_1154.HEIC,Heraklion Archaeological Museum,0.442,0.4,1,False,False,landscape,2026-11-19T08:58+02:00,people; adult; structure
+13,13,IMG_1157.HEIC,Heraklion Archaeological Museum,0.432,0.39,1,False,False,landscape,2026-11-19T08:59+02:00,people; adult; material
+13,14,IMG_1162.HEIC,Heraklion Archaeological Museum,0.432,0.54,1,False,False,landscape,2026-11-19T09:04+02:00,art; decoration; jewelry
+13,15,IMG_1191.HEIC,Heraklion Archaeological Museum,0.43,0.43,0,False,False,landscape,2026-11-19T09:26+02:00,structure; wood_processed; people
+13,16,IMG_1217.HEIC,Heraklion Archaeological Museum,0.422,0.53,1,False,False,landscape,2026-11-19T09:49+02:00,
+13,17,IMG_1239.HEIC,Heraklion Archaeological Museum,0.42,0.42,0,False,False,landscape,2026-11-19T10:06+02:00,people; adult; clothing
+13,18,IMG_1210.HEIC,Heraklion Archaeological Museum,0.41,0.41,0,False,False,landscape,2026-11-19T09:40+02:00,material; raw_glass; people
+13,19,IMG_1151.HEIC,Heraklion Archaeological Museum,0.4,0.4,0,False,False,landscape,2026-11-19T08:50+02:00,people; adult; structure
+13,20,IMG_1159.HEIC,Heraklion Archaeological Museum,0.392,0.35,1,False,False,landscape,2026-11-19T09:03+02:00,people; adult; material
+14,1,IMG_1279.HEIC,Crete countryside,0.772,0.73,1,False,False,portrait,2026-11-19T14:32+02:00,outdoor; sky; blue_sky
+14,2,IMG_1297.HEIC,Crete countryside,0.732,0.69,1,False,False,landscape,2026-11-19T15:15+02:00,plant; flower; rose
+14,3,IMG_1292.HEIC,Crete countryside,0.722,0.68,1,False,False,landscape,2026-11-19T14:42+02:00,outdoor; sky; blue_sky
+14,4,IMG_1144.HEIC,Heraklion (general),0.67,0.67,0,False,False,landscape,2026-11-19T06:59+02:00,outdoor; sky; cloudy
+14,5,IMG_1315.HEIC,Crete countryside,0.662,0.62,1,False,False,landscape,2026-11-19T15:35+02:00,outdoor; sky; blue_sky
+14,6,IMG_1294.HEIC,Crete countryside,0.642,0.6,1,False,False,landscape,2026-11-19T14:43+02:00,outdoor; sky; cloudy
+14,7,IMG_1258.HEIC,Heraklion (general),0.642,0.6,1,False,False,landscape,2026-11-19T10:37+02:00,outdoor; sky; blue_sky
+14,8,IMG_1147.HEIC,Heraklion (general),0.63,0.63,0,False,False,landscape,2026-11-19T07:01+02:00,outdoor; sky; cloudy
+14,9,IMG_1281.HEIC,Crete countryside,0.622,0.58,1,False,False,landscape,2026-11-19T14:33+02:00,outdoor; sky; cloudy
+14,10,IMG_1150.HEIC,Heraklion (general),0.62,0.62,0,False,False,landscape,2026-11-19T07:08+02:00,outdoor; sky; cloudy
+14,11,IMG_1304.HEIC,Crete countryside,0.612,0.57,1,False,False,landscape,2026-11-19T15:22+02:00,people; adult; structure
+14,12,IMG_1283.HEIC,Crete countryside,0.602,0.56,1,False,False,landscape,2026-11-19T14:33+02:00,outdoor; sky; blue_sky
+14,13,IMG_1259.HEIC,Heraklion (general),0.602,0.56,1,False,False,landscape,2026-11-19T10:38+02:00,structure; outdoor; sky
+14,14,IMG_1269.HEIC,Koules Fortress,0.582,0.54,1,False,False,landscape,2026-11-19T11:28+02:00,structure; arch; outdoor
+14,15,IMG_1306.HEIC,Crete countryside,0.572,0.53,1,False,False,landscape,2026-11-19T15:28+02:00,container; bucket; structure
+14,16,IMG_1257.HEIC,Heraklion (general),0.562,0.52,1,False,False,landscape,2026-11-19T10:35+02:00,people; adult; structure
+14,17,IMG_1314.HEIC,Crete countryside,0.552,0.51,1,False,False,landscape,2026-11-19T15:34+02:00,outdoor; sky; blue_sky
+14,18,IMG_1262.HEIC,Heraklion (general),0.512,0.47,1,False,False,landscape,2026-11-19T10:43+02:00,structure; arch; art
+14,19,IMG_1268.HEIC,Koules Fortress,0.512,0.47,1,False,False,landscape,2026-11-19T11:26+02:00,outdoor; sky; blue_sky
+14,20,IMG_1149.HEIC,Heraklion (general),0.5,0.5,0,False,False,landscape,2026-11-19T07:02+02:00,outdoor; sky; cloudy
+15,1,IMG_1404.HEIC,Acropolis,0.762,0.72,1,False,False,landscape,2026-11-20T15:36+02:00,structure; outdoor; sky
+15,2,IMG_1407.HEIC,Acropolis,0.752,0.71,1,False,False,landscape,2026-11-20T15:39+02:00,structure; outdoor; sky
+15,3,IMG_1438.HEIC,Acropolis,0.722,0.68,1,False,False,landscape,2026-11-20T16:19+02:00,structure; outdoor; sky
+15,4,IMG_1411.HEIC,Acropolis,0.662,0.62,1,False,False,landscape,2026-11-20T15:56+02:00,outdoor; sky; cloudy
+15,5,IMG_1435.HEIC,Acropolis,0.652,0.61,1,False,False,landscape,2026-11-20T16:16+02:00,structure; outdoor; sky
+15,6,IMG_1432.HEIC,Acropolis,0.642,0.6,1,False,False,landscape,2026-11-20T16:14+02:00,structure; outdoor; sky
+15,7,IMG_1422.HEIC,Acropolis,0.632,0.59,1,False,False,landscape,2026-11-20T16:05+02:00,outdoor; sky; cloudy
+15,8,IMG_1425.HEIC,Acropolis,0.632,0.59,1,False,False,landscape,2026-11-20T16:09+02:00,outdoor; sky; blue_sky
+15,9,IMG_1416.HEIC,Acropolis,0.602,0.56,1,False,False,landscape,2026-11-20T15:59+02:00,structure; outdoor; sky
+15,10,IMG_1399.HEIC,Acropolis,0.592,0.55,1,False,False,landscape,2026-11-20T15:32+02:00,outdoor; sky; cloudy
+15,11,IMG_1418.HEIC,Acropolis,0.592,0.55,1,False,False,landscape,2026-11-20T16:02+02:00,outdoor; sky; blue_sky
+15,12,IMG_1419.HEIC,Acropolis,0.582,0.54,1,False,False,landscape,2026-11-20T16:03+02:00,outdoor; sky; cloudy
+15,13,IMG_1428.HEIC,Acropolis,0.582,0.54,1,False,False,landscape,2026-11-20T16:11+02:00,outdoor; sky; cloudy
+15,14,IMG_1410.HEIC,Acropolis,0.572,0.53,1,False,False,landscape,2026-11-20T15:56+02:00,outdoor; sky; blue_sky
+15,15,IMG_1423.HEIC,Acropolis,0.572,0.53,1,False,False,landscape,2026-11-20T16:06+02:00,outdoor; sky; land
+15,16,IMG_1429.HEIC,Acropolis,0.572,0.53,1,False,False,landscape,2026-11-20T16:12+02:00,outdoor; structure; sky
+15,17,IMG_1433.HEIC,Acropolis,0.572,0.53,1,False,False,landscape,2026-11-20T16:15+02:00,outdoor; sky; structure
+15,18,IMG_1379.HEIC,Acropolis,0.562,0.52,1,False,False,landscape,2026-11-20T15:00+02:00,structure; conveyance; stairs
+15,19,IMG_1386.HEIC,Acropolis,0.562,0.52,1,False,False,landscape,2026-11-20T15:18+02:00,outdoor; sky; cloudy
+15,20,IMG_1389.HEIC,Acropolis,0.562,0.52,1,False,False,landscape,2026-11-20T15:22+02:00,outdoor; sky; cloudy
+16,1,IMG_1377.HEIC,Ancient Agora,0.642,0.6,1,False,False,landscape,2026-11-20T13:43+02:00,tableware; utensil; plate
+16,2,IMG_1374.HEIC,Ancient Agora,0.622,0.58,1,False,False,landscape,2026-11-20T13:02+02:00,structure; arch; outdoor
+16,3,IMG_1368.HEIC,Ancient Agora,0.532,0.49,1,False,False,landscape,2026-11-20T12:58+02:00,outdoor; sky; cloudy
+16,4,IMG_1373.HEIC,Ancient Agora,0.532,0.49,1,False,False,landscape,2026-11-20T13:01+02:00,structure; fence; outdoor
+16,5,IMG_1439.HEIC,Areopagus,0.532,0.49,1,False,False,landscape,2026-11-20T16:20+02:00,outdoor; sky; people
+16,6,IMG_1384.HEIC,Areopagus,0.482,0.44,1,False,False,landscape,2026-11-20T15:05+02:00,people; adult; outdoor
+16,7,IMG_1370.HEIC,Ancient Agora,0.452,0.41,1,False,False,landscape,2026-11-20T12:59+02:00,structure; fence; outdoor
+16,8,IMG_1376.HEIC,Ancient Agora,0.302,0.26,1,False,False,landscape,2026-11-20T13:25+02:00,tableware; utensil; fork
+16,9,IMG_1372.HEIC,Ancient Agora,0.292,0.25,1,False,False,landscape,2026-11-20T13:00+02:00,outdoor; sky; cloudy
+17,1,IMG_1728.HEIC,Delphi Sanctuary,0.712,0.67,1,False,False,landscape,2026-11-22T12:57+02:00,outdoor; sky; blue_sky
+17,2,IMG_1731.HEIC,Delphi Sanctuary,0.702,0.66,1,False,False,landscape,2026-11-22T12:59+02:00,outdoor; sky; people
+17,3,IMG_1746.HEIC,Delphi Sanctuary,0.692,0.65,1,False,False,landscape,2026-11-22T13:09+02:00,outdoor; sky; cloudy
+17,4,IMG_1756.HEIC,Delphi Sanctuary,0.692,0.65,1,False,False,landscape,2026-11-22T13:14+02:00,outdoor; sky; blue_sky
+17,5,IMG_1717.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T12:48+02:00,outdoor; sky; land
+17,6,IMG_1757.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T13:14+02:00,outdoor; sky; land
+17,7,IMG_1775.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T13:44+02:00,outdoor; land; hill
+17,8,IMG_1738.HEIC,Delphi Sanctuary,0.672,0.63,1,False,False,landscape,2026-11-22T13:05+02:00,outdoor; sky; cloudy
+17,9,IMG_1732.HEIC,Delphi Sanctuary,0.652,0.61,1,False,False,landscape,2026-11-22T13:01+02:00,outdoor; sky; cloudy
+17,10,IMG_1751.HEIC,Delphi Sanctuary,0.642,0.6,1,False,False,landscape,2026-11-22T13:11+02:00,outdoor; land; sky
+17,11,IMG_1629.HEIC,Delphi Sanctuary,0.636,0.57,2,False,False,landscape,2026-11-22T10:57+02:00,outdoor; sky; blue_sky
+17,12,IMG_1710.HEIC,Delphi Sanctuary,0.632,0.59,1,False,False,landscape,2026-11-22T12:43+02:00,outdoor; sky; cloudy
+17,13,IMG_1745.HEIC,Delphi Sanctuary,0.632,0.59,1,False,False,landscape,2026-11-22T13:08+02:00,outdoor; sky; cloudy
+17,14,IMG_1631.HEIC,Delphi Sanctuary,0.626,0.56,2,False,False,landscape,2026-11-22T11:02+02:00,outdoor; sky; blue_sky
+17,15,IMG_1708.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T12:41+02:00,outdoor; sky; cloudy
+17,16,IMG_1744.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T13:08+02:00,outdoor; sky; blue_sky
+17,17,IMG_1760.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T13:20+02:00,outdoor; sky; cloudy
+17,18,IMG_1719.HEIC,Delphi Sanctuary,0.612,0.57,1,False,False,landscape,2026-11-22T12:49+02:00,outdoor; structure; sky
+17,19,IMG_1721.HEIC,Delphi Sanctuary,0.612,0.57,1,False,False,landscape,2026-11-22T12:51+02:00,outdoor; land; grass
+17,20,IMG_1722.HEIC,Delphi Sanctuary,0.612,0.57,1,False,False,landscape,2026-11-22T12:52+02:00,outdoor; land; grass
+18,1,IMG_1829.HEIC,Arachova,0.72,0.72,0,False,False,landscape,2026-11-22T16:16+02:00,outdoor; sky; land
+18,2,IMG_1728.HEIC,Delphi Sanctuary,0.712,0.67,1,False,False,landscape,2026-11-22T12:57+02:00,outdoor; sky; blue_sky
+18,3,IMG_1731.HEIC,Delphi Sanctuary,0.702,0.66,1,False,False,landscape,2026-11-22T12:59+02:00,outdoor; sky; people
+18,4,IMG_1746.HEIC,Delphi Sanctuary,0.692,0.65,1,False,False,landscape,2026-11-22T13:09+02:00,outdoor; sky; cloudy
+18,5,IMG_1756.HEIC,Delphi Sanctuary,0.692,0.65,1,False,False,landscape,2026-11-22T13:14+02:00,outdoor; sky; blue_sky
+18,6,IMG_1717.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T12:48+02:00,outdoor; sky; land
+18,7,IMG_1757.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T13:14+02:00,outdoor; sky; land
+18,8,IMG_1775.HEIC,Delphi Sanctuary,0.682,0.64,1,False,False,landscape,2026-11-22T13:44+02:00,outdoor; land; hill
+18,9,IMG_1738.HEIC,Delphi Sanctuary,0.672,0.63,1,False,False,landscape,2026-11-22T13:05+02:00,outdoor; sky; cloudy
+18,10,IMG_1732.HEIC,Delphi Sanctuary,0.652,0.61,1,False,False,landscape,2026-11-22T13:01+02:00,outdoor; sky; cloudy
+18,11,IMG_1751.HEIC,Delphi Sanctuary,0.642,0.6,1,False,False,landscape,2026-11-22T13:11+02:00,outdoor; land; sky
+18,12,IMG_1629.HEIC,Delphi Sanctuary,0.636,0.57,2,False,False,landscape,2026-11-22T10:57+02:00,outdoor; sky; blue_sky
+18,13,IMG_1710.HEIC,Delphi Sanctuary,0.632,0.59,1,False,False,landscape,2026-11-22T12:43+02:00,outdoor; sky; cloudy
+18,14,IMG_1745.HEIC,Delphi Sanctuary,0.632,0.59,1,False,False,landscape,2026-11-22T13:08+02:00,outdoor; sky; cloudy
+18,15,IMG_1631.HEIC,Delphi Sanctuary,0.626,0.56,2,False,False,landscape,2026-11-22T11:02+02:00,outdoor; sky; blue_sky
+18,16,IMG_1708.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T12:41+02:00,outdoor; sky; cloudy
+18,17,IMG_1744.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T13:08+02:00,outdoor; sky; blue_sky
+18,18,IMG_1760.HEIC,Delphi Sanctuary,0.622,0.58,1,False,False,landscape,2026-11-22T13:20+02:00,outdoor; sky; cloudy
+18,19,IMG_1719.HEIC,Delphi Sanctuary,0.612,0.57,1,False,False,landscape,2026-11-22T12:49+02:00,outdoor; structure; sky
+18,20,IMG_1721.HEIC,Delphi Sanctuary,0.612,0.57,1,False,False,landscape,2026-11-22T12:51+02:00,outdoor; land; grass
+20,1,IMG_1520.HEIC,National Archaeological Museum,0.786,0.72,2,False,False,landscape,2026-11-21T13:47+02:00,art; statue; interior_room
+20,2,IMG_1531.HEIC,National Archaeological Museum,0.766,0.7,2,False,False,landscape,2026-11-21T14:07+02:00,art; statue
+20,3,IMG_1443.HEIC,Athens (general),0.702,0.66,1,False,False,landscape,2026-11-21T10:49+02:00,outdoor; blue_sky; sky
+20,4,IMG_1477.HEIC,Athens (general),0.696,0.63,2,False,False,landscape,2026-11-21T12:33+02:00,outdoor; sky; cloudy
+20,5,IMG_1442.HEIC,Athens (general),0.682,0.64,1,False,False,landscape,2026-11-21T10:24+02:00,structure; interior_room; bedroom
+20,6,IMG_1524.HEIC,National Archaeological Museum,0.682,0.64,1,False,False,landscape,2026-11-21T13:56+02:00,art; statue
+20,7,IMG_1525.HEIC,National Archaeological Museum,0.672,0.63,1,False,False,landscape,2026-11-21T13:58+02:00,art; statue; structure
+20,8,IMG_1475.HEIC,Athens (general),0.666,0.6,2,False,False,landscape,2026-11-21T12:31+02:00,structure; conveyance; stairs
+20,9,IMG_1547.HEIC,National Archaeological Museum,0.662,0.62,1,False,False,landscape,2026-11-21T14:30+02:00,art; container; vase
+20,10,IMG_1610.HEIC,Athens (general),0.656,0.59,2,False,False,landscape,2026-11-22T06:56+02:00,structure; utensil; tableware
+20,11,IMG_1458.HEIC,Athens (general),0.652,0.61,1,False,False,landscape,2026-11-21T11:11+02:00,outdoor; sky; blue_sky
+20,12,IMG_1464.HEIC,Athens (general),0.646,0.58,2,False,False,landscape,2026-11-21T11:22+02:00,outdoor; sky; people
+20,13,IMG_1474.HEIC,Athens (general),0.646,0.58,2,False,False,landscape,2026-11-21T12:30+02:00,outdoor; sky; plant
+20,14,IMG_1480.HEIC,Athens (general),0.646,0.58,2,False,False,landscape,2026-11-21T12:35+02:00,outdoor; sky; cloudy
+20,15,IMG_1360.HEIC,Athens (general),0.642,0.6,1,False,False,landscape,2026-11-20T12:06+02:00,lamppost; light; outdoor
+20,16,IMG_1536.HEIC,National Archaeological Museum,0.636,0.57,2,False,False,landscape,2026-11-21T14:11+02:00,art; statue
+20,17,IMG_1468.HEIC,Athens (general),0.626,0.56,2,False,False,landscape,2026-11-21T11:45+02:00,art; statue; material
+20,18,IMG_1471.HEIC,Athens (general),0.626,0.56,2,False,False,landscape,2026-11-21T11:55+02:00,people; crowd; structure
+20,19,IMG_1514.HEIC,National Archaeological Museum,0.622,0.58,1,False,False,landscape,2026-11-21T13:43+02:00,people; adult; material
+20,20,IMG_1461.HEIC,Athens (general),0.616,0.55,2,False,False,landscape,2026-11-21T11:17+02:00,outdoor; sky; blue_sky
+extras,1,IMG_1348.HEIC,Cape Sounion,0.812,0.77,1,False,False,landscape,2026-11-20T10:15+02:00,outdoor; sky; cloudy
+extras,2,IMG_1335.HEIC,Cape Sounion,0.752,0.71,1,False,False,landscape,2026-11-20T09:59+02:00,structure; outdoor; sky
+extras,3,IMG_1352.HEIC,Cape Sounion,0.752,0.71,1,False,False,landscape,2026-11-20T10:18+02:00,outdoor; sky; cloudy
+extras,4,IMG_1330.HEIC,Cape Sounion,0.682,0.64,1,False,False,landscape,2026-11-20T09:53+02:00,outdoor; sky; cloudy
+extras,5,IMG_1347.HEIC,Cape Sounion,0.682,0.64,1,False,False,landscape,2026-11-20T10:14+02:00,outdoor; people; adult
+extras,6,IMG_1342.HEIC,Cape Sounion,0.672,0.63,1,False,False,landscape,2026-11-20T10:12+02:00,outdoor; people; adult
+extras,7,IMG_1320.HEIC,Cape Sounion,0.652,0.61,1,False,False,landscape,2026-11-20T09:33+02:00,outdoor; land; grass
+extras,8,IMG_1356.HEIC,Cape Sounion,0.642,0.6,1,False,False,landscape,2026-11-20T10:23+02:00,rocks; structure; plant
+extras,9,IMG_1333.HEIC,Cape Sounion,0.632,0.59,1,False,False,landscape,2026-11-20T09:57+02:00,outdoor; structure; sky
+extras,10,IMG_1337.HEIC,Cape Sounion,0.602,0.56,1,False,False,landscape,2026-11-20T10:02+02:00,outdoor; structure; sky
+extras,11,IMG_1327.HEIC,Cape Sounion,0.592,0.55,1,False,False,landscape,2026-11-20T09:46+02:00,outdoor; land; hill
+extras,12,IMG_1328.HEIC,Cape Sounion,0.592,0.55,1,False,False,landscape,2026-11-20T09:46+02:00,outdoor; sky; cloudy
+extras,13,IMG_1319.HEIC,Cape Sounion,0.582,0.54,1,False,False,landscape,2026-11-20T09:32+02:00,outdoor; sky; cloudy
+extras,14,IMG_1334.HEIC,Cape Sounion,0.582,0.54,1,False,False,landscape,2026-11-20T09:58+02:00,outdoor; sky; cloudy
+extras,15,IMG_1349.HEIC,Cape Sounion,0.582,0.54,1,False,False,landscape,2026-11-20T10:16+02:00,outdoor; sky; cloudy
+extras,16,IMG_1318.HEIC,Cape Sounion,0.562,0.52,1,False,False,landscape,2026-11-20T09:31+02:00,outdoor; sky; cloudy
+extras,17,IMG_1340.HEIC,Cape Sounion,0.562,0.52,1,False,False,landscape,2026-11-20T10:09+02:00,outdoor; sky; cloudy
+extras,18,IMG_1350.HEIC,Cape Sounion,0.562,0.52,1,False,False,landscape,2026-11-20T10:17+02:00,outdoor; sky; cloudy
+extras,19,IMG_1322.HEIC,Cape Sounion,0.542,0.5,1,False,False,landscape,2026-11-20T09:35+02:00,structure; rocks; land
+extras,20,IMG_1323.HEIC,Cape Sounion,0.532,0.49,1,False,False,landscape,2026-11-20T09:36+02:00,structure; rocks; plant

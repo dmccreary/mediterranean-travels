@@ -6,7 +6,7 @@ Pipeline (all local, zero LLM tokens until the contact sheets are reviewed):
 1. Place  - every geotagged photo goes to the nearest landmark in
             data/chapter-places.json whose radius contains it, and so to that
             landmark's chapters.
-2. Filter - drops screenshots/receipts (Vision "utility"), photos with
+2. Filter - drops placards, documents and screenshots, photos with
             people tagged in Google Photos, and photos where a face fills
             more than --max-face-area of the frame (the book is public).
 3. Rank   - Apple Vision aesthetic score, plus small bonuses for photos you
@@ -46,6 +46,7 @@ REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data"
 PHOTO_EXT = {".heic", ".heif", ".jpg", ".jpeg", ".png"}
 BURST_SECONDS = 20
+DOCUMENT_LABELS = {"document", "printed_page", "illustrations", "map", "screenshot", "receipt", "text"}
 
 # Contact-sheet geometry: 5 x 4 cells of 300 x 250 -> 1500 x ~1060 px,
 # about the token cost of one ordinary photo.
@@ -115,6 +116,7 @@ def score(photo: dict) -> float:
     s += 0.15 * math.log1p(photo["views"]) / math.log1p(11)  # 11 = most-viewed item in this album
     s += 0.2 if photo["described"] else 0
     s += 0.2 if photo["edited"] else 0
+    s -= 0.15 if photo["utility"] else 0
     return round(s, 3)
 
 
@@ -141,8 +143,12 @@ def build_photos(album: Path, labels: dict, places: list, tz: ZoneInfo, max_face
         if place is None:
             skipped["not near any listed place"] += 1
             continue
-        if lab.get("utility"):
-            skipped["screenshot / utility image"] += 1
+        # Vision's "utility" flag also fires on mosaics, statues and interiors in
+        # this album, so it only excludes when the content looks like a document
+        # (museum placards, printed pages, maps); otherwise it is a score penalty.
+        top_labels = {l["label"] for l in lab.get("labels", [])[:3]}
+        if lab.get("utility") and top_labels & DOCUMENT_LABELS:
+            skipped["placard / document / screenshot"] += 1
             continue
         if meta.get("people"):
             skipped["people tagged in Google Photos"] += 1
@@ -163,6 +169,7 @@ def build_photos(album: Path, labels: dict, places: list, tz: ZoneInfo, max_face
             "edited": "-edited." in name,
             "labels": [l["label"] for l in lab.get("labels", [])[:3]],
             "landscape": lab.get("width", 0) >= lab.get("height", 0),
+            "utility": bool(lab.get("utility")),
         }
         photo["score"] = score(photo)
         photos.append(photo)
@@ -202,18 +209,26 @@ def thumbnail(src: Path, cache: Path) -> Image.Image:
     return img
 
 
+def sheet_font(size: int) -> ImageFont.ImageFont:
+    """A system font with Turkish and Greek letters (Pillow's default lacks ç, ş, ı)."""
+    for path in ("/System/Library/Fonts/Supplemental/Arial Unicode.ttf", "/System/Library/Fonts/Helvetica.ttc"):
+        if Path(path).exists():
+            return ImageFont.truetype(path, size)
+    return ImageFont.load_default(size=size)
+
+
 def contact_sheet(title: str, picks: list, cache: Path, out: Path) -> None:
     rows = math.ceil(len(picks) / COLS)
     sheet = Image.new("RGB", (COLS * CELL_W, HEADER_H + rows * (THUMB_H + CAPTION_H)), "white")
     draw = ImageDraw.Draw(sheet)
-    font = ImageFont.load_default(size=18)
-    small = ImageFont.load_default(size=13)
+    font, small = sheet_font(18), sheet_font(13)
     draw.text((10, 10), title[:120], fill="black", font=font)
     for i, p in enumerate(picks):
         x, y = (i % COLS) * CELL_W, HEADER_H + (i // COLS) * (THUMB_H + CAPTION_H)
         img = thumbnail(p["path"], cache)
         sheet.paste(img, (x + (CELL_W - img.width) // 2, y + (THUMB_H - img.height) // 2))
-        draw.text((x + 6, y + THUMB_H + 4), f"{i + 1}. {p['place'][:30]}", fill="black", font=small)
+        label = p.get("label") or p["place"]
+        draw.text((x + 6, y + THUMB_H + 4), f"{i + 1}. {label[:38]}", fill="black", font=small)
         draw.rectangle([x + 4, y + 4, x + 32, y + 26], fill="black")
         draw.text((x + 8, y + 6), str(i + 1), fill="white", font=font)
     sheet.save(out, quality=82)
