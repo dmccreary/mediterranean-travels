@@ -19,6 +19,14 @@
   const VIEW = { west: 19.4, east: 36.0, south: 30.55, north: 42.1 };
   const HOVER_MIN_MS = 600;      // shorter hovers are mouse crossings, not evidence
   const CONFETTI_COLORS = ['#A4482A', '#6B7A3A', '#2F6F8E', '#C8963E', '#F4ECD9'];
+  // The Event stream tab is for reviewers and instructors, not students. It
+  // appears only when show-events=true is on the sim's URL or on the URL of
+  // the page that embeds it. Events are emitted either way.
+  const SHOW_EVENTS = (function () {
+    const on = search => new URLSearchParams(search).get('show-events') === 'true';
+    if (on(location.search)) return true;
+    try { return window.parent !== window && on(window.parent.location.search); } catch (e) { return false; }
+  })();
 
   // ------------------------------------------------------------------
   // Region data. key: true = on the 12-item checklist and in the Find
@@ -117,7 +125,7 @@
       id: 'anatolia', key: true, name: 'Anatolia',
       kind: 'Region', alt: 'Asia Minor · Anadolu (Turkish)',
       country: 'Turkey', continent: 'Asia',
-      stops: 'Istanbul (Asian side), Çanakkale, Kusadasi, Ephesus',
+      stops: 'Istanbul (Asian side), Çanakkale, Kuşadası, Ephesus',
       teaser: 'The great peninsula that makes up the Asian part of Turkey, about 97 percent of the country.',
       blurb: 'The great peninsula that makes up the Asian part of Turkey, about 97 percent of the country. Its name comes from the Greek anatolē, "sunrise." The center is a high, dry plateau around 1,000 m up; the west coast is green valleys and deep, sheltered bays.',
       where: 'the large peninsula of Asian Turkey, between the Black Sea and the Mediterranean',
@@ -128,7 +136,7 @@
       id: 'ionia', key: true, name: 'Ionia',
       kind: 'Historic region', alt: 'The central Aegean coast of Anatolia',
       country: 'Turkey', continent: 'Asia',
-      stops: 'Kusadasi and Ephesus (Day 7)',
+      stops: 'Kuşadası and Ephesus (Day 7)',
       teaser: 'The central Aegean coast of Anatolia, home of great Greek cities like Ephesus and Miletus.',
       blurb: 'The middle of Anatolia\'s Aegean coast, home of great Greek cities like Ephesus and Miletus. Greek philosophy began here with Thales of Miletus around 600 BCE, and Homer may have been an Ionian Greek. Its borders were never fixed, so the dashed line is approximate.',
       where: 'the middle of Anatolia\'s Aegean coast, around Ephesus',
@@ -237,7 +245,7 @@
       id: 'turkey', key: false, name: 'Turkey',
       kind: 'Country', alt: 'Türkiye (Turkish)',
       country: 'Turkey', continent: 'Asia and Europe',
-      stops: 'Istanbul, Çanakkale, Kusadasi, Ephesus',
+      stops: 'Istanbul, Çanakkale, Kuşadası, Ephesus',
       teaser: 'A country on two continents: Anatolia in Asia and Thrace in Europe.',
       blurb: 'A country on two continents: Anatolia in Asia and Thrace in Europe. Two islands near Çanakkale, Gökçeada (Imbros) and Bozcaada (Tenedos), are Turkish, not Greek.',
       geom: { countryRest: 'Turkey' }
@@ -503,14 +511,18 @@
     refreshClasses();
   }
 
+  function bindRegion(sel, id) {
+    return sel.on('pointerenter', ev => onEnter(id, ev))
+      .on('pointermove', ev => moveInfobox(ev))
+      .on('pointerleave', ev => onLeave(id, ev))
+      .on('click', ev => onClick(id, ev));
+  }
+
   function addShape(sel, id, interactive) {
     sel.attr('data-id', id);
     if (!interactive) return sel;
     const r = BY_ID.get(id);
-    sel.on('pointerenter', ev => onEnter(id, ev))
-      .on('pointermove', ev => moveInfobox(ev))
-      .on('pointerleave', ev => onLeave(id, ev))
-      .on('click', ev => onClick(id, ev));
+    bindRegion(sel, id);
     // One focusable element per region for keyboard users
     if (!sel.node().ownerSVGElement.querySelector('[data-id="' + id + '"][tabindex]')) {
       sel.attr('tabindex', 0).attr('role', 'button')
@@ -538,6 +550,15 @@
       if (r && r.key && i === 0) t.append('tspan').attr('class', 'check').attr('data-check', r.id).text('✓ ');
       t.append('tspan').text(txt);
     });
+    // A label belongs to its region: clicking or hovering the words works the
+    // same as the shape. Without this, a click on a label that sits over
+    // water (such as "Bosphorus") falls through to the sea underneath.
+    if (r) {
+      const b = g.node().getBBox(), pad = 4;
+      bindRegion(g.insert('rect', ':first-child').attr('class', 'label-hit')
+        .attr('x', b.x - pad).attr('y', b.y - pad)
+        .attr('width', b.width + 2 * pad).attr('height', b.height + 2 * pad), r.id);
+    }
   }
 
   function placeLabels() {
@@ -1077,7 +1098,8 @@
   // ------------------------------------------------------------------
   wireControls();
   introDetail(); renderChecklist(); updateProgress(); renderEvents();
-  if (new URLSearchParams(location.search).get('events') === 'open') showTab('events');
+  if (SHOW_EVENTS) showTab('events');
+  else $('tab-events').hidden = true;
 
   fetch(DATA_URL)
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })

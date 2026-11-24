@@ -108,7 +108,7 @@ button.small { font-size: 12px; padding: 3px 8px; }
 .strait-line { fill: none; stroke: var(--aegean); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 5 3; pointer-events: none; }
 .strait-line.explored { stroke: var(--olive); }
 .strait-line.hover { stroke: var(--terracotta); stroke-width: 4.5; stroke-dasharray: none; }
-.strait-hit { fill: none; stroke: rgba(0,0,0,0); stroke-width: 20; stroke-linecap: round; pointer-events: stroke; cursor: pointer; }
+.strait-hit { fill: none; stroke: rgba(0,0,0,0); stroke-width: 28; stroke-linecap: round; pointer-events: stroke; cursor: pointer; }
 
 /* Feedback states */
 .flash-ok   { animation: flashOk .9s ease; }
@@ -131,6 +131,7 @@ button.small { font-size: 12px; padding: 3px 8px; }
 
 /* Labels (never intercept the pointer) */
 .labels { pointer-events: none; }
+.labels .label-hit { fill: rgba(0,0,0,0); stroke: none; pointer-events: all; cursor: pointer; }
 .labels text {
   font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
   paint-order: stroke; stroke-linejoin: round; text-anchor: middle;

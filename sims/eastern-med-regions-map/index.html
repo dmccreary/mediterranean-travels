@@ -843,6 +843,8 @@
       
         
       
+        
+      
     
     
     
@@ -1146,9 +1148,12 @@ them one at a time, in random order:</p>
 <h2 id="learning-events-xapi">Learning Events (xAPI)<a class="headerlink" href="#learning-events-xapi" title="Permanent link">&para;</a></h2>
 <p>This MicroSim records what a student does as
 <a href="https://xapi.com/overview/">xAPI</a> statements, the standard format a Learning
-Record Store reads. It does not send them anywhere yet. Open the <strong>Event
-stream</strong> tab under the map to watch them arrive, or add <code>?events=open</code> to the
-sim's URL to open that tab on load. <strong>Copy JSON</strong> copies every statement.</p>
+Record Store reads. It does not send them anywhere yet.</p>
+<p>Students never see the statements. To watch them arrive, add
+<code>?show-events=true</code> to the URL, either the
+<a href="main.html?show-events=true">sim's own URL</a> or the URL of a page that embeds
+it, such as <a href="?show-events=true">this page</a>. An <strong>Event stream</strong> tab then
+appears under the map, already open. <strong>Copy JSON</strong> copies every statement.</p>
 <table>
 <thead>
 <tr>

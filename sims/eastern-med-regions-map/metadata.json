@@ -12,7 +12,7 @@
         "Anatolia",
         "Greek islands"
       ],
-      "description": "An atlas-style D3.js map of the regions, island groups, seas, and straits named in Part One of Chapter 1: Thrace, Anatolia, Ionia, Attica and Central Greece, Crete, the Cyclades, the Dodecanese, the North Aegean Islands, the Aegean Sea, the Eastern Mediterranean, the Bosphorus, and the Dardanelles. Hovering shows an infobox; clicking explores a region and checks it off a 12-item list, with a confetti cannon when all 12 are explored. A Find the Region mode hides the names and gives feedback and hints on every click. Every meaningful action is emitted as an xAPI-shaped statement and shown in an Event stream tab.",
+      "description": "An atlas-style D3.js map of the regions, island groups, seas, and straits named in Part One of Chapter 1: Thrace, Anatolia, Ionia, Attica and Central Greece, Crete, the Cyclades, the Dodecanese, the North Aegean Islands, the Aegean Sea, the Eastern Mediterranean, the Bosphorus, and the Dardanelles. Hovering shows an infobox; clicking explores a region and checks it off a 12-item list, with a confetti cannon when all 12 are explored. A Find the Region mode hides the names and gives feedback and hints on every click. Every meaningful action is emitted as an xAPI-shaped statement; an Event stream tab that lists them appears only when show-events=true is added to the URL.",
       "publisher": "Mediterranean Travels Intelligent Textbook",
       "contributor": [],
       "date": "2026-11-24",
@@ -189,7 +189,7 @@
           "id": "events",
           "type": "button",
           "label": "Event stream",
-          "description": "Shows the xAPI-shaped learning statements the sim has emitted, with a Copy JSON button"
+          "description": "Hidden unless show-events=true is on the sim's URL or the embedding page's URL; lists the xAPI-shaped statements emitted, with a Copy JSON button"
         }
       ],
       "visualElements": [
@@ -225,7 +225,8 @@
         "asked": "Asked to be shown a region (checklist or Show me button)",
         "answered": "Clicked a region in Find mode (result.success, result.response, attempt number)",
         "completed": "Explored all 12 key regions, or finished the Find challenge (result.score)"
-      }
+      },
+      "eventStreamTab": "Shown only with show-events=true on the sim URL or the embedding page URL"
     },
     "usage": {
       "recommendedUsage": [

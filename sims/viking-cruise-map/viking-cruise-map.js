@@ -39,7 +39,7 @@ const stops = [
     leg: [[40.97,28.70],[40.80,28.00],[40.62,27.30],[40.45,26.80],[40.40,26.68],[40.27,26.52]]
   },
   {
-    name: "Kusadasi (Ephesus)", country: "Turkey", coords: [37.8620, 27.2560], zoom: 10,
+    name: "Kuşadası (Ephesus)", country: "Turkey", coords: [37.8620, 27.2560], zoom: 10,
     dates: "Tue Nov 17", days: "Cruise day 4",
     arrive: "7:00 AM", depart: "6:00 PM",
     intro: "A resort town on the Aegean coast and the port for Ephesus, one of the best-preserved Greco-Roman cities anywhere.",

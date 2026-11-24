@@ -134,10 +134,13 @@
     color: #85361C;                          /* dark terracotta */
     border: 1px solid #6B7A3A;               /* olive */
     border-radius: 4px;
-    padding: 2px 10px;
-    font-size: 0.85em;
+    padding: 0 8px;
+    font-size: 0.8em;
+    line-height: 1.5;
     cursor: pointer;
-    margin-bottom: 8px;
+    margin: 0 2px;              /* sits inline in running text */
+    vertical-align: baseline;
+    white-space: nowrap;
     display: inline-block;
 }
 .pronounce-btn:hover {
@@ -154,4 +157,10 @@
 .md-typeset figure.trip-photo figcaption {
   max-width: 40rem;
   font-style: italic;
+}
+.md-typeset figure.trip-photo .photo-credit {
+  font-style: normal;
+  font-size: 0.85em;
+  opacity: 0.75;
+  white-space: nowrap;
 }
