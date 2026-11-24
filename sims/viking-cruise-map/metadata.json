@@ -12,7 +12,7 @@
         "ancient history",
         "geography"
       ],
-      "description": "An interactive Leaflet map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens (November 14-21, 2026). Students step through six ports, see the sea route sailed on each leg, and read arrival and departure times, key sights, and a practical tip for every stop.",
+      "description": "An interactive Leaflet map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens (November 14-21, 2026), plus the overland day trip from Athens to Delphi on November 22. Students step through seven stops, see the sea and road route on each leg, and read arrival and departure times, key sights, and a practical tip for every stop.",
       "publisher": "Mediterranean Travels Intelligent Textbook",
       "contributor": [],
       "date": "2026-11-10",
@@ -41,7 +41,9 @@
         "Heraklion",
         "Knossos",
         "Athens",
-        "Piraeus"
+        "Piraeus",
+        "Delphi",
+        "Oracle of Delphi"
       ],
       "visualizationType": [
         "map"
@@ -53,7 +55,8 @@
         "Dardanelles",
         "Dodecanese islands",
         "Minoan civilization",
-        "Greco-Roman cities"
+        "Greco-Roman cities",
+        "Oracle of Delphi"
       ],
       "applicationDomains": [
         "education",
@@ -78,7 +81,7 @@
         "Ancient sites of Turkey and Greece"
       ],
       "learningObjectives": [
-        "Locate the six ports of the Istanbul-to-Athens cruise on a map and describe the sea route between them",
+        "Locate the six cruise ports and the Delphi day trip on a map and describe the route between them",
         "Identify the most important historic sight at each port",
         "Plan a realistic shore day using each port's arrival and departure times"
       ],
@@ -149,7 +152,7 @@
           "id": "prev",
           "type": "button",
           "label": "← Previous",
-          "description": "Move to the previous port"
+          "description": "Move to the previous stop"
         },
         {
           "id": "overview",
@@ -161,13 +164,13 @@
           "id": "next",
           "type": "button",
           "label": "Next →",
-          "description": "Move to the next port"
+          "description": "Move to the next stop"
         },
         {
           "id": "dots",
           "type": "button",
-          "label": "1-6",
-          "description": "Jump directly to a numbered port"
+          "label": "1-7",
+          "description": "Jump directly to a numbered stop"
         },
         {
           "id": "layers",
@@ -179,12 +182,12 @@
       "visualElements": [
         {
           "type": "shape",
-          "description": "Numbered pins for each of the six ports; the selected port is enlarged and gold",
+          "description": "Numbered pins for the six ports and Delphi; the selected stop is enlarged and gold",
           "interactive": true
         },
         {
           "type": "diagram",
-          "description": "Sea route legs: sailed legs solid navy, the current leg gold, future legs dashed blue",
+          "description": "Route legs (sea, then road to Delphi): completed legs solid navy, the current leg gold, future legs dashed blue",
           "interactive": false
         },
         {
