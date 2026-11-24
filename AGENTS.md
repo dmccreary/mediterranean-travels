@@ -45,7 +45,9 @@ docs/chapters/              chapter content, one directory per chapter
 docs/learning-graph/        concept list, taxonomy, dependency graph, metrics
 docs/sims/                  MicroSims, one directory per sim
 docs/css/extra.css          custom CSS (status indicators, iframe styles)
-docs/img/                   cover image, license badge, mascot poses
+docs/img/                   cover image, license badge
+docs/img/mascot/            Glaux the Little Owl: character sheet, pose prompts, poses
+docs/css/mascot.css         mascot admonition styles
 docs/data/                  generated data (photo-metrics.json)
 scripts/google_photos_takeout.py  Google Photos connector: Takeout export -> docs/photos.md metrics
 ```

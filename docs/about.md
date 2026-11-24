@@ -27,7 +27,7 @@ term is explained when it first appears.
 - **Read the before-you-go chapter first.** It sets out the big timeline of the
   region and a few words of Turkish and Greek.
 - **Use the [Viking Cruise Map](sims/viking-cruise-map/index.md)** to see where
-  each port is and how the ship gets there.
+  each port is, how the ship gets there, and the road from Athens to Delphi.
 - **Search** (top right) for any person, place, or dish.
 - **Keep a journal.** A few lines each evening about what we noticed, ate, and
   learned from the people we met is worth more than a hundred photographs.

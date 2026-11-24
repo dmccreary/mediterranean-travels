@@ -1,0 +1,596 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Eastern Mediterranean,,FOUND
+2,Historical Timeline,,FOUND
+3,Civilization,,FOUND
+4,Archaeology,,FOUND
+5,Ancient Greece,,FOUND
+6,Roman Empire,,FOUND
+7,Christianity,,FOUND
+8,Judaism,,FOUND
+9,Islam,,FOUND
+10,Anatolia,1,FOUND
+11,Aegean Sea,1,FOUND
+12,Bosphorus Strait,1,FOUND
+13,Dardanelles Strait,1,FOUND
+14,Greek Islands,11,FOUND
+15,Crete,14,FOUND
+16,Mediterranean Climate,1,FOUND
+17,BCE and CE Dating,2,FOUND
+18,Bronze Age,2|3,FOUND
+19,Iron Age,18,FOUND
+20,Archaic Period,19|5,FOUND
+21,Classical Period,20,FOUND
+22,Hellenistic Period,21,FOUND
+23,Roman Period,22|6,FOUND
+24,Byzantine Period,23|7,FOUND
+25,Ottoman Period,24|9,FOUND
+26,Empire,3,FOUND
+27,City-State,3|5,FOUND
+28,Trade Routes,1|3,FOUND
+29,Primary Source,4,FOUND
+30,Myth Versus History,29,FOUND
+31,Contested History,30,FOUND
+32,Cultural Memory,31,FOUND
+33,Layers of a City,4|2,FOUND
+34,Writing Systems,3,FOUND
+35,Alphabet,34,FOUND
+36,Greek Language,5|35,FOUND
+37,Turkish Language,10,FOUND
+38,Olympian Gods,5,FOUND
+39,Greek Mythology,38,FOUND
+40,Reading a Ruin,4|33,FOUND
+41,Stratigraphy,40,FOUND
+42,Classical Orders,40|5,FOUND
+43,Doric Order,42,FOUND
+44,Ionic Order,42,FOUND
+45,Corinthian Order,42,FOUND
+46,Mosaic,40,FOUND
+47,Fresco,40,FOUND
+48,Inscription,40|34,FOUND
+49,Spolia,40|33,FOUND
+50,Restoration and Reconstruction,40,FOUND
+51,Site Museum,4,FOUND
+52,UNESCO World Heritage Site,4,FOUND
+53,Thoughtful Traveler,,TRAV
+54,Empathy in Travel,53,TRAV
+55,Seeing Past the Tourist Script,54,TRAV
+56,Viking Star Cruise,53|1,TRAV
+57,Ancient Mediterranean Treasures,56,TRAV
+58,Trip Itinerary,57,TRAV
+59,Port Times,56,TRAV
+60,Shore Excursion,59,TRAV
+61,Piraeus Port,59,TRAV
+62,Off-Season Travel,58,TRAV
+63,November Weather,16|62,TRAV
+64,Packing for November,63,TRAV
+65,Opening Hours and Closures,62,TRAV
+66,Daily Chapter Routine,58,TRAV
+67,Travel Journal,66|53,TRAV
+68,Basic Turkish Phrases,37|53,TRAV
+69,Basic Greek Phrases,36|53,TRAV
+70,Turkish Hospitality,54|68,TRAV
+71,Philoxenia,54|69,TRAV
+72,Dress at Sacred Sites,53,TRAV
+73,Photography Etiquette,53,TRAV
+74,Tipping Customs,53,TRAV
+75,Bargaining in Bazaars,70,TRAV
+76,Currency and Payments,53,TRAV
+77,Tourism Economy,54|62,TRAV
+78,Off-Season Livelihoods,77,TRAV
+79,Overtourism,77,TRAV
+80,Local Guides,77,TRAV
+81,Day Trip to Delphi,58,TRAV
+82,Minoan Civilization,18|15,BRONZ
+83,Knossos Palace,82,BRONZ
+84,Arthur Evans,83|4,BRONZ
+85,Evans Reconstructions,84|50,BRONZ
+86,Myth of the Minotaur,39|83,BRONZ
+87,Labyrinth,86,BRONZ
+88,Minoan Frescoes,82|47,BRONZ
+89,Bull-Leaping Fresco,88,BRONZ
+90,Throne Room at Knossos,83,BRONZ
+91,Palace Economy,83|28,BRONZ
+92,Storage Pithoi,91,BRONZ
+93,Snake Goddess Figurines,82,BRONZ
+94,Thera Eruption,82,BRONZ
+95,Linear A,82|34,BRONZ
+96,Mycenaean Greeks,18|5,BRONZ
+97,Linear B,95|96,BRONZ
+98,Palace Scribes,97|91,BRONZ
+99,Alice Kober,97,BRONZ
+100,Michael Ventris,97,BRONZ
+101,Decipherment of Linear B,99|100,BRONZ
+102,Bronze Age Collapse,96|82,BRONZ
+103,Greek Dark Age,102|19,BRONZ
+104,Heraklion Archaeological Museum,82|51,BRONZ
+105,Phaistos Disc,104|95,BRONZ
+106,Troy,18|10,BRONZ
+107,Hisarlik Mound,106|41,BRONZ
+108,Frank Calvert,107,BRONZ
+109,Heinrich Schliemann,107|108,BRONZ
+110,Priam's Treasure,109,BRONZ
+111,Nine Cities of Troy,107,BRONZ
+112,Troy VI and VIIa,111,BRONZ
+113,Hittite Empire,18|10,BRONZ
+114,Wilusa,113|106,BRONZ
+115,Trojan War,106|39|96,BRONZ
+116,Oral Tradition,103,BRONZ
+117,Homer,116,BRONZ
+118,Iliad,117|115,BRONZ
+119,Odyssey,117,BRONZ
+120,Trojan Horse,115|119,BRONZ
+121,Troy Museum,106|51,BRONZ
+122,Historicity of Troy,118|112|114|30,BRONZ
+123,Phoenician Alphabet,35|28,BRONZ
+124,Greek Alphabet,123|103,BRONZ
+125,Homer Written Down,124|118,BRONZ
+126,Athens,5|27,CLASS
+127,Acropolis,126,CLASS
+128,Athena,38,CLASS
+129,Pericles,126|21,CLASS
+130,Phidias,129,CLASS
+131,Parthenon,127|128|130|43,CLASS
+132,Parthenon Sculptures,131,CLASS
+133,Parthenon Marbles Dispute,132|31,CLASS
+134,Parthenon as Church and Mosque,131|33|24|25,CLASS
+135,Propylaea,127,CLASS
+136,Erechtheion,127|44,CLASS
+137,Caryatids,136,CLASS
+138,Temple of Athena Nike,127|128,CLASS
+139,Acropolis Museum,132|137|51,CLASS
+140,Ancient Agora of Athens,126,CLASS
+141,Stoa,140,CLASS
+142,Temple of Hephaestus,140|43,CLASS
+143,Athenian Democracy,126|21,CLASS
+144,Pnyx,143,CLASS
+145,Ostracism,143,CLASS
+146,Athenian Citizenship,143,CLASS
+147,Persian Wars,21|26,CLASS
+148,Battle of Marathon,147,CLASS
+149,Themistocles,147|126,CLASS
+150,Battle of Salamis,149,CLASS
+151,Herodotus,147|29,CLASS
+152,Greek Theater,126|21,CLASS
+153,Theater of Dionysus,152|127,CLASS
+154,Greek Tragedy,152|39,CLASS
+155,Hubris,154,CLASS
+156,Greek Philosophy,21|126,CLASS
+157,Socrates,156,CLASS
+158,Socratic Method,157,CLASS
+159,Sophists,156,CLASS
+160,Trial of Socrates,157|143,CLASS
+161,Plato,157,CLASS
+162,Plato's Academy,161,CLASS
+163,Phaedrus on Writing,161|34,CLASS
+164,Aristotle,162,CLASS
+165,Lyceum,164,CLASS
+166,Stoicism,141|156,CLASS
+167,Areopagus,127|143,CLASS
+168,National Archaeological Museum,126|51,CLASS
+169,Antikythera Mechanism,168|22,CLASS
+170,Temple of Olympian Zeus,126|45|182,CLASS
+171,Alexander the Great,164|22,HELRO
+172,Hellenistic Kingdoms,171,HELRO
+173,Koine Greek,172|36,HELRO
+174,Seven Wonders of the World,22,HELRO
+175,Rhodes,14|27,HELRO
+176,Helios,38|175,HELRO
+177,Colossus of Rhodes,176|174|172,HELRO
+178,Lindos Acropolis,175|128,HELRO
+179,Rhodes School of Rhetoric,175|156,HELRO
+180,Roman Students at Rhodes,179|6,HELRO
+181,Pax Romana,6|23,HELRO
+182,Hadrian,181,HELRO
+183,Roman Province of Asia,181|10,HELRO
+184,Roman Citizenship,6,HELRO
+185,Roman Roads,181|28,HELRO
+186,Roman Bath Culture,181,HELRO
+187,Ephesus,183|27,HELRO
+188,Ephesus Harbor Silting,187,HELRO
+189,Temple of Artemis,187|174|44,HELRO
+190,Artemis of Ephesus,189,HELRO
+191,Ephesus Museum,190|51,HELRO
+192,Curetes Street,187,HELRO
+193,Marble Street,187,HELRO
+194,Great Theater of Ephesus,187|152,HELRO
+195,Library of Celsus,192|193,HELRO
+196,Terrace Houses,192|46|47,HELRO
+197,Temple of Hadrian at Ephesus,192|182|45,HELRO
+198,Ephesus Public Latrines,186|192,HELRO
+199,Jesus of Nazareth,8|23,PAUL
+200,Early Jesus Movement,199,PAUL
+201,John the Apostle,200,PAUL
+202,Tarsus,10|6,PAUL
+203,Pharisees,8,PAUL
+204,Jewish Law,8,PAUL
+205,Gentiles,8,PAUL
+206,Paul of Tarsus,202|203|184|200,PAUL
+207,Paul as Persecutor,206,PAUL
+208,Road to Damascus,207,PAUL
+209,Paul's Missionary Journeys,208|185,PAUL
+210,Book of Acts,209|29,PAUL
+211,Pauline Letters,209|173,PAUL
+212,New Testament,211|7,PAUL
+213,Seven Undisputed Letters,211,PAUL
+214,Disputed Pauline Letters,211,PAUL
+215,Letter to the Ephesians,214,PAUL
+216,First Corinthians,213,PAUL
+217,Letter to the Galatians,213,PAUL
+218,Letter to the Romans,213,PAUL
+219,Council of Jerusalem,205|204|209,PAUL
+220,Paul in Ephesus,209|187,PAUL
+221,Hall of Tyrannus,220,PAUL
+222,Priscilla and Aquila,220,PAUL
+223,Apollos,222,PAUL
+224,Timothy and Titus,209,PAUL
+225,Phoebe,218,PAUL
+226,Riot of the Silversmiths,220|190|194,PAUL
+227,Demetrius the Silversmith,226,PAUL
+228,Farewell at Miletus,220,PAUL
+229,St. Paul's Prison Tower,220|30,PAUL
+230,Grace and Faith,217|204,PAUL
+231,Neither Jew Nor Greek,217|205,PAUL
+232,One Body Many Parts,216,PAUL
+233,Love as Greatest Virtue,216,PAUL
+234,Paul and the Stoics,166|211,PAUL
+235,Paul in Athens,209|126,PAUL
+236,Areopagus Speech,235|167|234,PAUL
+237,Altar to an Unknown God,236,PAUL
+238,Areopagus Bronze Plaque,236,PAUL
+239,Tentmaking,206,PAUL
+240,Paul's Death in Rome,209,PAUL
+241,St. Paul's Bay at Lindos,178|209,PAUL
+242,Titus in Crete,224|15,PAUL
+243,Augustine of Hippo,218|230,PAUL
+244,Protestant Reformation,243|230,PAUL
+245,Individual Conscience,244,PAUL
+246,Idea of Human Equality,231,PAUL
+247,Paul's Contested Legacy,213|214,PAUL
+248,Christian Anti-Judaism,247,PAUL
+249,Basilica of St. John,201|187,PAUL
+250,House of the Virgin Mary,201|30,PAUL
+251,Church of Mary at Ephesus,187|7,PAUL
+252,Council of Ephesus,251|256,PAUL
+253,Euangelion,173|211,PAUL
+254,Evangelist,253,PAUL
+255,Byzantium,27|12,BYZ
+256,Constantine the Great,6|7,BYZ
+257,Constantinople,255|256,BYZ
+258,Byzantine Empire,257|24,BYZ
+259,Theodosius I,256,BYZ
+260,Theodosian Decrees,259,BYZ
+261,Theodosian Walls,257,BYZ
+262,Hippodrome,257,BYZ
+263,Serpent Column,262|147|439,BYZ
+264,Justinian,258,BYZ
+265,Nika Riots,262|264,BYZ
+266,Hagia Sophia,264,BYZ
+267,Hagia Sophia Dome,266,BYZ
+268,Byzantine Mosaics,46|258,BYZ
+269,Deesis Mosaic,268|266,BYZ
+270,Basilica Cistern,264,BYZ
+271,Medusa Heads,270|49,BYZ
+272,Eastern Orthodox Church,258|7,BYZ
+273,Orthodox Icons,272,BYZ
+274,Iconoclasm,273,BYZ
+275,Great Schism of 1054,272,BYZ
+276,Fourth Crusade,283|275,BYZ
+277,Fall of Constantinople,261|306,BYZ
+278,Chora Church,268,BYZ
+279,Ecumenical Patriarchate,272|257,BYZ
+280,Byzantine Manuscript Copying,258|34,BYZ
+281,Hagia Sophia as Mosque,266|277,BYZ
+282,Hagia Sophia Status Debate,281|373|31,BYZ
+283,Crusades,7|9,MEDV
+284,Knights Hospitaller,283,MEDV
+285,Hospitaller Rhodes,284|175,MEDV
+286,Rhodes Medieval Town,285|52,MEDV
+287,Street of the Knights,286,MEDV
+288,Palace of the Grand Master,286,MEDV
+289,Hospital of the Knights,284|286,MEDV
+290,Rhodes City Walls,286,MEDV
+291,Siege of Rhodes 1522,290|307,MEDV
+292,Republic of Venice,28|276,MEDV
+293,Venetian Crete,292|15,MEDV
+294,Candia,293,MEDV
+295,Koules Fortress,294,MEDV
+296,Venetian Walls of Heraklion,294,MEDV
+297,Morosini Fountain,294,MEDV
+298,Siege of Candia,296|304,MEDV
+299,Cretan Renaissance,293,MEDV
+300,El Greco,299|273,MEDV
+301,Marcus Musurus,299|280,MEDV
+302,Aldus Manutius,292|567,MEDV
+303,Aldine Editions,302|301,MEDV
+304,Ottoman Empire,,OTTO
+305,Sultan,304,OTTO
+306,Mehmed the Conqueror,305,OTTO
+307,Suleiman the Magnificent,305,OTTO
+308,Mimar Sinan,307,OTTO
+309,Caliphate,9|305,OTTO
+310,Istanbul,277,OTTO
+311,Golden Horn,310|12,OTTO
+312,Galata Tower,311,OTTO
+313,Topkapi Palace,306|310,OTTO
+314,Harem of Topkapi,313,OTTO
+315,Topkapi Treasury,313,OTTO
+316,Sacred Relics Chamber,313|9,OTTO
+317,Gulhane Park,313,OTTO
+318,Ottoman Mosque Architecture,267|308,OTTO
+319,Blue Mosque,318,OTTO
+320,Suleymaniye Mosque,308|318,OTTO
+321,Vakif Endowment,9|304,OTTO
+322,Kulliye Mosque Complex,320|321,OTTO
+323,Medrese,322,OTTO
+324,Imaret Soup Kitchen,322,OTTO
+325,Iznik Tiles,318,OTTO
+326,Islamic Calligraphy,9|34,OTTO
+327,Ottoman Turkish Script,37|326,OTTO
+328,Scribes and Copyists,327,OTTO
+329,Grand Bazaar,310|28,OTTO
+330,Spice Bazaar,329|415,OTTO
+331,Turkish Bath,186|310,OTTO
+332,Millet System,304|8|7,OTTO
+333,Multi-Faith Empire,332,OTTO
+334,Sephardic Jewish Refugees,8|304,OTTO
+335,Hebrew Press of 1493,334|567,OTTO
+336,Ibrahim Muteferrika,567|327,OTTO
+337,Delayed Arabic-Script Printing,336|328,OTTO
+338,Ottoman Rhodes,291,OTTO
+339,Ottoman Crete,298,OTTO
+340,Ottoman Rule in Greece,304|277,OTTO
+341,Five Pillars of Islam,9,OTTO
+342,Quran,9,OTTO
+343,Daily Prayer,341,OTTO
+344,Prayer Times,343,OTTO
+345,Call to Prayer,344,OTTO
+346,Minaret,345,OTTO
+347,Friday Prayer,343,OTTO
+348,Ablution,343,OTTO
+349,Mihrab and Minbar,343|318,OTTO
+350,Mosque Etiquette,72|343,OTTO
+351,Ottoman Decline,304,MODRN
+352,Greek War of Independence,340|351,MODRN
+353,Modern Greek State,352,MODRN
+354,Athens as Modern Capital,353|126,MODRN
+355,World War I,351,MODRN
+356,World War II,355,MODRN
+357,Gallipoli Campaign,355|13,MODRN
+358,ANZAC Forces,357,MODRN
+359,Anzac Cove,358,MODRN
+360,Mustafa Kemal Ataturk,357,MODRN
+361,Canakkale Martyrs Memorial,357,MODRN
+362,Johnnies and Mehmets Words,360|358|31,MODRN
+363,Canakkale Today,13|78,MODRN
+364,Greco-Turkish War,355|353,MODRN
+365,Burning of Smyrna,364,MODRN
+366,Turkish War of Independence,364|360,MODRN
+367,Treaty of Lausanne,366,MODRN
+368,Population Exchange of 1923,367,MODRN
+369,Asia Minor Refugees,368|365,MODRN
+370,Rebetiko,369,MODRN
+371,Republic of Turkey,366,MODRN
+372,Ataturk's Reforms,371,MODRN
+373,Secularism in Turkey,372,MODRN
+374,Alphabet Reform of 1928,372|327|35,MODRN
+375,Nation's Schools,374|317|551,MODRN
+376,Ataturk Memorial Day,360,MODRN
+377,Italian Rule of Rhodes,338|351,MODRN
+378,Jewish Quarter of Rhodes,334|286,MODRN
+379,Kahal Shalom Synagogue,378,MODRN
+380,Rhodes Deportation of 1944,378|356|377,MODRN
+381,Dodecanese Union With Greece,356|377,MODRN
+382,Battle of Crete,356|15,MODRN
+383,Athens Polytechnic Uprising,353,MODRN
+384,Greek Debt Crisis,353,MODRN
+385,Turkish Economy Today,371,MODRN
+386,Greek-Turkish Relations,368|32,MODRN
+387,Daily Life in Istanbul,310|385,MODRN
+388,Daily Life in Athens,354|384,MODRN
+389,Cretan Village Life,15|419,MODRN
+390,Family Life Today,387|388,MODRN
+391,Orthodox Faith Today,272|388,MODRN
+392,Faith in Modern Turkey,373|343,MODRN
+393,Migration and Refugees Today,387|369,MODRN
+394,Nikos Kazantzakis,296|353,MODRN
+395,Plaka Neighborhood,354,MODRN
+396,Rhodes Today,286|78,MODRN
+397,Kusadasi and Selcuk,187|78,MODRN
+398,Heraklion Today,294|78,MODRN
+399,Modern Delphi Village,437|481,MODRN
+400,Arachova,436|78,MODRN
+401,Amfissa Olive Groves,417|437,MODRN
+402,Food as History,,FOOD
+403,Turkish Cuisine,402|10,FOOD
+404,Ottoman Palace Kitchen,403|313,FOOD
+405,Turkish Breakfast,403,FOOD
+406,Simit,405,FOOD
+407,Turkish Tea,405,FOOD
+408,Turkish Coffee,403,FOOD
+409,Meze,403,FOOD
+410,Raki,409,FOOD
+411,Kebab,403,FOOD
+412,Balik Ekmek,403|311,FOOD
+413,Baklava,404,FOOD
+414,Turkish Delight,404,FOOD
+415,Spice Trade,28|402,FOOD
+416,Greek Cuisine,402|5,FOOD
+417,Olive Oil,402|16,FOOD
+418,Mediterranean Diet,417,FOOD
+419,Cretan Diet,418|15,FOOD
+420,Dakos,419,FOOD
+421,Horta,419,FOOD
+422,Tsikoudia,419,FOOD
+423,Thyme Honey,416,FOOD
+424,Loukoumades,423,FOOD
+425,Feta Cheese,416,FOOD
+426,Greek Salad,425|417,FOOD
+427,Souvlaki and Gyros,416,FOOD
+428,Mezedes,416,FOOD
+429,Ouzo,428,FOOD
+430,Greek Wine,416,FOOD
+431,Greek Coffee,408|416,FOOD
+432,Fresh Fish,416|11,FOOD
+433,Taverna Culture,416|71,FOOD
+434,Symposium,430|156,FOOD
+435,Shared Greek-Turkish Dishes,403|416|368,FOOD
+436,Mount Parnassus,5,DELPH
+437,Delphi,436,DELPH
+438,Apollo,38,DELPH
+439,Sanctuary of Apollo,437|438,DELPH
+440,Oracle of Delphi,439,DELPH
+441,Oracle as Living Faith,440,DELPH
+442,Pythia,440,DELPH
+443,Oracle Consultation,442,DELPH
+444,Priests Who Framed Answers,442,DELPH
+445,Fees and Sacrifice,443,DELPH
+446,Oracle in Verse and Prose,443|444,DELPH
+447,Sacred Way of Delphi,439,DELPH
+448,Treasuries of Delphi,447|27,DELPH
+449,Athenian Treasury,448|126|148,DELPH
+450,Temple of Apollo at Delphi,439|43,DELPH
+451,Omphalos,450,DELPH
+452,Castalian Spring,437,DELPH
+453,Polygonal Wall,450|48,DELPH
+454,Manumission Records,453,DELPH
+455,Pythian Games,439,DELPH
+456,Theater of Delphi,439|152,DELPH
+457,Stadium of Delphi,455,DELPH
+458,Athena Pronaia Sanctuary,437|128,DELPH
+459,Tholos of Delphi,458,DELPH
+460,Delphi Archaeological Museum,437|51,DELPH
+461,Charioteer of Delphi,460|455,DELPH
+462,Amphictyonic League,440|27,DELPH
+463,Delphic Neutrality,462,DELPH
+464,Greek Colonization,440|20,DELPH
+465,Croesus of Lydia,443|10,DELPH
+466,Croesus Prophecy,465,DELPH
+467,Wooden Walls Prophecy,443|149|151,DELPH
+468,Chaerephon's Question,443|157,DELPH
+469,Bribery of the Oracle,443|151,DELPH
+470,Hedging Answers,443|147,DELPH
+471,Geological Fault Theory,442|450,DELPH
+472,Know Thyself,450,DELPH
+473,Nothing in Excess,450|155,DELPH
+474,Dionysus at Delphi,439|38,DELPH
+475,Apollo's Winter Absence,474|438,DELPH
+476,Oedipus Prophecy,440|154,DELPH
+477,Plutarch,440|23,DELPH
+478,Decline of the Oracle,477|463,DELPH
+479,Closing of the Oracle,478|260,DELPH
+480,Oracle's Long Lifespan,479|17,DELPH
+481,French Excavation of Delphi,437|4,DELPH
+482,Human Need for Foresight,,PRED
+483,Artificial Intelligence,,PRED
+484,Prediction,482,PRED
+485,Machine Learning,483|484,PRED
+486,Predictive Model,485,PRED
+487,Training Data,485,PRED
+488,Data Bias,487,PRED
+489,Large Language Model,485,PRED
+490,Next-Word Prediction,489,PRED
+491,Weather Forecasting,486,PRED
+492,Loan and Hiring Algorithms,486|488,PRED
+493,Prediction Uncertainty,486,PRED
+494,Ancient Prediction Machines,169|484,PRED
+495,Oracle as Data Hub,443|487,PRED
+496,Interpreting Ambiguous Answers,443|493,PRED
+497,Human in the Loop,496|467,PRED
+498,Confirmation Bias,466|484,PRED
+499,Self-Fulfilling Prophecy,476|486,PRED
+500,Student Risk Prediction,499,PRED
+501,Predictive Policing,499|488,PRED
+502,Who Funds the Model,469|486,PRED
+503,Model Calibration,493,PRED
+504,Track Record and Trust,503|480,PRED
+505,Prediction Horizon,493|475,PRED
+506,AI Capability Forecasting,505|483,PRED
+507,AI Doubling Curves,506,PRED
+508,Answer as Start of Inquiry,468|158,PRED
+509,AI as Thinking Partner,508|489,PRED
+510,Values Beyond Prediction,472|486,PRED
+511,Climate Models,486|473,PRED
+512,Acting on Foresight,511,PRED
+513,Long-Term Consequences,512,PRED
+514,Consent in Mass Prediction,492,PRED
+515,Testability of Predictions,503|496,PRED
+516,Limits of the Oracle Parallel,441|515|514,PRED
+517,Delphi Reflection Questions,516|510|513,PRED
+518,Change Leadership,,LEAD
+519,Legacy Institution,518,LEAD
+520,Direct Instruction,519,LEAD
+521,AI-Native School,520|483,LEAD
+522,Paul as Change Case Study,206|518,LEAD
+523,Insider Change Leader,522|208,LEAD
+524,Veteran Teacher Champions,523|520,LEAD
+525,Essential Versus Inherited,219|522,LEAD
+526,Grammar of Schooling,525|519,LEAD
+527,Seat Time and Carnegie Unit,526,LEAD
+528,Compelling Inclusive Vision,231|522,LEAD
+529,Lecture to Dialogue,221|158|522,LEAD
+530,Teacher as Coach,529|521,LEAD
+531,Diffusion of Innovation,518,LEAD
+532,Hub and Spoke Diffusion,220|522,LEAD
+533,Pilot School as Hub,532|531,LEAD
+534,Letters as Teaching Technology,211|522,LEAD
+535,Building a Team,222|224|225|522,LEAD
+536,Guiding Coalition,535,LEAD
+537,Meeting People Where They Are,237|522,LEAD
+538,Stages of Concern,537|531,LEAD
+539,Economics of Resistance,226|522,LEAD
+540,Systems Thinking,232|518,LEAD
+541,School as a System,540|521,LEAD
+542,Implementation Dip,216|531,LEAD
+543,Change Fatigue,542,LEAD
+544,Sustainable Funding,239|522,LEAD
+545,Succession Planning,228|522,LEAD
+546,Anchoring Change in Culture,545|541,LEAD
+547,New Model Becomes Legacy,546|519,LEAD
+548,Who Is Hurt by Change,248|522,LEAD
+549,Limits of the Paul Parallel,547|548|247,LEAD
+550,Leadership Reflection,549|67,LEAD
+551,Literacy,,LFA
+552,Learning for All,551,LFA
+553,Democratization of Education,552,LFA
+554,AI in Education,553|483,LFA
+555,AI-Native Schools Companion,554|521,LFA
+556,Education Evangelism,254|554,LFA
+557,Knowledge Gatekeepers,552,LFA
+558,Widening the Circle,557,LFA
+559,Shared Language Spreads Ideas,173|558,LFA
+560,Mother-Tongue Learning,559,LFA
+561,AI Translation,560|554,LFA
+562,Lowering the Cost of Reading,124|551,LFA
+563,Simpler Interface to Knowledge,374|562,LFA
+564,Literacy Rate Uncertainty,551|29,LFA
+565,Costs of Top-Down Reform,374|368,LFA
+566,Gutenberg,34,LFA
+567,Printing Press,566,LFA
+568,Cost of Delaying Technology,337|531,LFA
+569,Scribal Resistance,328|539,LFA
+570,Endowed Free Education,321|323,LFA
+571,Library as Public Access,195|552,LFA
+572,Philanthropy for Knowledge,571,LFA
+573,Affordable Course Materials,303|552,LFA
+574,Open Educational Resources,572|573,LFA
+575,Intelligent Textbook,574|554,LFA
+576,Traveling to the Teacher,180|552,LFA
+577,One-on-One Tutoring,164|171,LFA
+578,Bloom's 2 Sigma Problem,577,LFA
+579,Mastery Learning,578,LFA
+580,AI Tutoring,578|554,LFA
+581,Teaching Comes to Learner,576|580,LFA
+582,Who Pays for Learning,159|157|552,LFA
+583,Elite Knowledge Is Fragile,98|102|552,LFA
+584,Concentrated AI Risk,583|554,LFA
+585,Outsider Breakthroughs,101|552,LFA
+586,Credit for Groundwork,99|101,LFA
+587,Fear of New Learning Tech,163|552,LFA
+588,AI Over-Reliance,587|554,LFA
+589,AI Guardrails,588|508,LFA
+590,Who Democracy Left Out,146|552,LFA
+591,Measuring Who Is Left Out,590|380,LFA
+592,Evangelism's Shadow,556|565,LFA
+593,Education With Communities,592|537|54,LFA
+594,Good News Message,593|67,LFA
+595,Lessons Across the Route,593|517|550,LFA

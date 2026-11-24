@@ -27,11 +27,12 @@ Thirteen days through Turkey and Greece, **November 11–23, 2026**:
 - **Nov 14–20: the Viking Star cruise.** *Ancient Mediterranean Treasures*, from
   Istanbul past Troy and Ephesus to Rhodes, Crete, and Athens.
 - **Nov 21–23: Athens on our own.** Three days in the city where democracy,
-  philosophy, and theater began.
+  philosophy, and theater began, with a day trip to the oracle at Delphi on
+  Nov 22.
 
 The [Trip Description](course-description.md) has the full day-by-day
 itinerary, and the [Viking Cruise Map](sims/viking-cruise-map/index.md) shows
-the route port by port.
+the route port by port, ending with the road to Delphi.
 
 ## How to Use This Guide
 

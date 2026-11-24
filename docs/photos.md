@@ -1,17 +1,18 @@
 ---
 title: Trip Photo Metrics
-description: Metrics for the shared Google Photos album from Ann and Dan's Eastern Mediterranean cruise, November 11 to 23, 2026.
+description: Metrics for the shared Google Photos album from Ann and Dan's Eastern Mediterranean trip, November 11 to 23, 2026.
 ---
 # Trip Photo Metrics
 
 These are the running numbers for the shared photo album Ann and Dan kept
-during the Istanbul to Athens cruise.
+during the whole trip: three days in Istanbul, the Viking Star cruise from
+Istanbul to Athens, and the days in Athens afterward, including Delphi.
 
 <!-- photo-metrics:start -->
 
 | Metric | Value |
 |---|---|
-| Album title | Ann & Dan Eastern Mediterranean Cruse 2026 |
+| Album title | Ann & Dan Eastern Mediterranean Cruise 2026 |
 | Total items (photos and videos) | 1,469 |
 | First item | Wednesday, November 11, 2026, 10:39 AM (US Central) |
 | Last item | Monday, November 23, 2026, 6:54 PM (US Eastern) |

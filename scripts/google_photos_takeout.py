@@ -23,7 +23,7 @@ List the albums the export contains:
 Regenerate the metrics on docs/photos.md and write docs/data/photo-metrics.json:
 
     python3 scripts/google_photos_takeout.py takeout/*.zip \
-        --album "Ann & Dan Eastern Mediterranean Cruse 2026"
+        --album "Ann & Dan Eastern Mediterranean Cruise 2026"
 
 Inputs may be Takeout .zip files (read in place, never extracted) and/or
 already-extracted Takeout folders. Only the JSON sidecar files are read; the
