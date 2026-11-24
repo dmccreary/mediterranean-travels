@@ -1,0 +1,7495 @@
+{
+  "metadata": {
+    "title": "Mediterranean Travels",
+    "description": "A day-by-day travel companion for a November 2026 journey from Istanbul to Athens, focused on the history of civilization, culture, cuisine, and empathy for the people who live along the route, with deep dives on Paul at Ephesus and the Oracle of Delphi and a Learning for All thread on AI and education.",
+    "creator": "Dan McCreary",
+    "date": "2026-11-24",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations and Timeline",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "TRAV": {
+      "classifierName": "Thoughtful Travel and Etiquette",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BRONZ": {
+      "classifierName": "Bronze Age Troy and Crete",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CLASS": {
+      "classifierName": "Classical Greece and Athens",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "HELRO": {
+      "classifierName": "Hellenistic and Roman World",
+      "color": "Peru",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PAUL": {
+      "classifierName": "Paul and Early Christianity",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BYZ": {
+      "classifierName": "Byzantium and Constantinople",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MEDV": {
+      "classifierName": "Knights and Venetians",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "OTTO": {
+      "classifierName": "Ottoman Empire and Islam",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MODRN": {
+      "classifierName": "Modern Turkey and Greece",
+      "color": "OliveDrab",
+      "font": {
+        "color": "white"
+      }
+    },
+    "FOOD": {
+      "classifierName": "Food and Drink",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DELPH": {
+      "classifierName": "Delphi and the Oracle",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PRED": {
+      "classifierName": "Prediction and AI",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LEAD": {
+      "classifierName": "Leadership and Change",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "LFA": {
+      "classifierName": "Learning for All",
+      "color": "DeepPink",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Eastern Mediterranean",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 749
+    },
+    {
+      "id": 2,
+      "label": "Historical Timeline",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 881
+    },
+    {
+      "id": 3,
+      "label": "Civilization",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1600
+    },
+    {
+      "id": 4,
+      "label": "Archaeology",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 183
+    },
+    {
+      "id": 5,
+      "label": "Ancient Greece",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1771
+    },
+    {
+      "id": 6,
+      "label": "Roman Empire",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1031
+    },
+    {
+      "id": 7,
+      "label": "Christianity",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 288
+    },
+    {
+      "id": 8,
+      "label": "Judaism",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 336
+    },
+    {
+      "id": 9,
+      "label": "Islam",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 82
+    },
+    {
+      "id": 10,
+      "label": "Anatolia",
+      "group": "FOUND",
+      "cis": 269
+    },
+    {
+      "id": 11,
+      "label": "Aegean Sea",
+      "group": "FOUND",
+      "cis": 102
+    },
+    {
+      "id": 12,
+      "label": "Bosphorus Strait",
+      "group": "FOUND",
+      "cis": 145
+    },
+    {
+      "id": 13,
+      "label": "Dardanelles Strait",
+      "group": "FOUND",
+      "cis": 40
+    },
+    {
+      "id": 14,
+      "label": "Greek Islands",
+      "group": "FOUND",
+      "cis": 100
+    },
+    {
+      "id": 15,
+      "label": "Crete",
+      "group": "FOUND",
+      "cis": 73
+    },
+    {
+      "id": 16,
+      "label": "Mediterranean Climate",
+      "group": "FOUND",
+      "cis": 12
+    },
+    {
+      "id": 17,
+      "label": "BCE and CE Dating",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 18,
+      "label": "Bronze Age",
+      "group": "FOUND",
+      "cis": 809
+    },
+    {
+      "id": 19,
+      "label": "Iron Age",
+      "group": "FOUND",
+      "cis": 705
+    },
+    {
+      "id": 20,
+      "label": "Archaic Period",
+      "group": "FOUND",
+      "cis": 692
+    },
+    {
+      "id": 21,
+      "label": "Classical Period",
+      "group": "FOUND",
+      "cis": 690
+    },
+    {
+      "id": 22,
+      "label": "Hellenistic Period",
+      "group": "FOUND",
+      "cis": 500
+    },
+    {
+      "id": 23,
+      "label": "Roman Period",
+      "group": "FOUND",
+      "cis": 400
+    },
+    {
+      "id": 24,
+      "label": "Byzantine Period",
+      "group": "FOUND",
+      "cis": 62
+    },
+    {
+      "id": 25,
+      "label": "Ottoman Period",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 26,
+      "label": "Empire",
+      "group": "FOUND",
+      "cis": 15
+    },
+    {
+      "id": 27,
+      "label": "City-State",
+      "group": "FOUND",
+      "cis": 465
+    },
+    {
+      "id": 28,
+      "label": "Trade Routes",
+      "group": "FOUND",
+      "cis": 155
+    },
+    {
+      "id": 29,
+      "label": "Primary Source",
+      "group": "FOUND",
+      "cis": 18
+    },
+    {
+      "id": 30,
+      "label": "Myth Versus History",
+      "group": "FOUND",
+      "cis": 10
+    },
+    {
+      "id": 31,
+      "label": "Contested History",
+      "group": "FOUND",
+      "cis": 6
+    },
+    {
+      "id": 32,
+      "label": "Cultural Memory",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 33,
+      "label": "Layers of a City",
+      "group": "FOUND",
+      "cis": 68
+    },
+    {
+      "id": 34,
+      "label": "Writing Systems",
+      "group": "FOUND",
+      "cis": 155
+    },
+    {
+      "id": 35,
+      "label": "Alphabet",
+      "group": "FOUND",
+      "cis": 98
+    },
+    {
+      "id": 36,
+      "label": "Greek Language",
+      "group": "FOUND",
+      "cis": 84
+    },
+    {
+      "id": 37,
+      "label": "Turkish Language",
+      "group": "FOUND",
+      "cis": 20
+    },
+    {
+      "id": 38,
+      "label": "Olympian Gods",
+      "group": "FOUND",
+      "cis": 120
+    },
+    {
+      "id": 39,
+      "label": "Greek Mythology",
+      "group": "FOUND",
+      "cis": 20
+    },
+    {
+      "id": 40,
+      "label": "Reading a Ruin",
+      "group": "FOUND",
+      "cis": 64
+    },
+    {
+      "id": 41,
+      "label": "Stratigraphy",
+      "group": "FOUND",
+      "cis": 10
+    },
+    {
+      "id": 42,
+      "label": "Classical Orders",
+      "group": "FOUND",
+      "cis": 37
+    },
+    {
+      "id": 43,
+      "label": "Doric Order",
+      "group": "FOUND",
+      "cis": 22
+    },
+    {
+      "id": 44,
+      "label": "Ionic Order",
+      "group": "FOUND",
+      "cis": 11
+    },
+    {
+      "id": 45,
+      "label": "Corinthian Order",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 46,
+      "label": "Mosaic",
+      "group": "FOUND",
+      "cis": 5
+    },
+    {
+      "id": 47,
+      "label": "Fresco",
+      "group": "FOUND",
+      "cis": 4
+    },
+    {
+      "id": 48,
+      "label": "Inscription",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 49,
+      "label": "Spolia",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 50,
+      "label": "Restoration and Reconstruction",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 51,
+      "label": "Site Museum",
+      "group": "FOUND",
+      "cis": 11
+    },
+    {
+      "id": 52,
+      "label": "UNESCO World Heritage Site",
+      "group": "FOUND",
+      "cis": 17
+    },
+    {
+      "id": 53,
+      "label": "Thoughtful Traveler",
+      "group": "TRAV",
+      "shape": "box",
+      "cis": 59
+    },
+    {
+      "id": 54,
+      "label": "Empathy in Travel",
+      "group": "TRAV",
+      "cis": 18
+    },
+    {
+      "id": 55,
+      "label": "Seeing Past the Tourist Script",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 56,
+      "label": "Viking Star Cruise",
+      "group": "TRAV",
+      "cis": 25
+    },
+    {
+      "id": 57,
+      "label": "Ancient Mediterranean Treasures",
+      "group": "TRAV",
+      "cis": 21
+    },
+    {
+      "id": 58,
+      "label": "Trip Itinerary",
+      "group": "TRAV",
+      "cis": 20
+    },
+    {
+      "id": 59,
+      "label": "Port Times",
+      "group": "TRAV",
+      "cis": 3
+    },
+    {
+      "id": 60,
+      "label": "Shore Excursion",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 61,
+      "label": "Piraeus Port",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 62,
+      "label": "Off-Season Travel",
+      "group": "TRAV",
+      "cis": 13
+    },
+    {
+      "id": 63,
+      "label": "November Weather",
+      "group": "TRAV",
+      "cis": 2
+    },
+    {
+      "id": 64,
+      "label": "Packing for November",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 65,
+      "label": "Opening Hours and Closures",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 66,
+      "label": "Daily Chapter Routine",
+      "group": "TRAV",
+      "cis": 5
+    },
+    {
+      "id": 67,
+      "label": "Travel Journal",
+      "group": "TRAV",
+      "cis": 4
+    },
+    {
+      "id": 68,
+      "label": "Basic Turkish Phrases",
+      "group": "TRAV",
+      "cis": 3
+    },
+    {
+      "id": 69,
+      "label": "Basic Greek Phrases",
+      "group": "TRAV",
+      "cis": 3
+    },
+    {
+      "id": 70,
+      "label": "Turkish Hospitality",
+      "group": "TRAV",
+      "cis": 2
+    },
+    {
+      "id": 71,
+      "label": "Philoxenia",
+      "group": "TRAV",
+      "cis": 2
+    },
+    {
+      "id": 72,
+      "label": "Dress at Sacred Sites",
+      "group": "TRAV",
+      "cis": 2
+    },
+    {
+      "id": 73,
+      "label": "Photography Etiquette",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 74,
+      "label": "Tipping Customs",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 75,
+      "label": "Bargaining in Bazaars",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 76,
+      "label": "Currency and Payments",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 77,
+      "label": "Tourism Economy",
+      "group": "TRAV",
+      "cis": 9
+    },
+    {
+      "id": 78,
+      "label": "Off-Season Livelihoods",
+      "group": "TRAV",
+      "cis": 6
+    },
+    {
+      "id": 79,
+      "label": "Overtourism",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 80,
+      "label": "Local Guides",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 81,
+      "label": "Day Trip to Delphi",
+      "group": "TRAV",
+      "cis": 1
+    },
+    {
+      "id": 82,
+      "label": "Minoan Civilization",
+      "group": "BRONZ",
+      "cis": 48
+    },
+    {
+      "id": 83,
+      "label": "Knossos Palace",
+      "group": "BRONZ",
+      "cis": 11
+    },
+    {
+      "id": 84,
+      "label": "Arthur Evans",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 85,
+      "label": "Evans Reconstructions",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 86,
+      "label": "Myth of the Minotaur",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 87,
+      "label": "Labyrinth",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 88,
+      "label": "Minoan Frescoes",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 89,
+      "label": "Bull-Leaping Fresco",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 90,
+      "label": "Throne Room at Knossos",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 91,
+      "label": "Palace Economy",
+      "group": "BRONZ",
+      "cis": 5
+    },
+    {
+      "id": 92,
+      "label": "Storage Pithoi",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 93,
+      "label": "Snake Goddess Figurines",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 94,
+      "label": "Thera Eruption",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 95,
+      "label": "Linear A",
+      "group": "BRONZ",
+      "cis": 15
+    },
+    {
+      "id": 96,
+      "label": "Mycenaean Greeks",
+      "group": "BRONZ",
+      "cis": 34
+    },
+    {
+      "id": 97,
+      "label": "Linear B",
+      "group": "BRONZ",
+      "cis": 13
+    },
+    {
+      "id": 98,
+      "label": "Palace Scribes",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 99,
+      "label": "Alice Kober",
+      "group": "BRONZ",
+      "cis": 5
+    },
+    {
+      "id": 100,
+      "label": "Michael Ventris",
+      "group": "BRONZ",
+      "cis": 4
+    },
+    {
+      "id": 101,
+      "label": "Decipherment of Linear B",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 102,
+      "label": "Bronze Age Collapse",
+      "group": "BRONZ",
+      "cis": 15
+    },
+    {
+      "id": 103,
+      "label": "Greek Dark Age",
+      "group": "BRONZ",
+      "cis": 12
+    },
+    {
+      "id": 104,
+      "label": "Heraklion Archaeological Museum",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 105,
+      "label": "Phaistos Disc",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 106,
+      "label": "Troy",
+      "group": "BRONZ",
+      "cis": 18
+    },
+    {
+      "id": 107,
+      "label": "Hisarlik Mound",
+      "group": "BRONZ",
+      "cis": 9
+    },
+    {
+      "id": 108,
+      "label": "Frank Calvert",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 109,
+      "label": "Heinrich Schliemann",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 110,
+      "label": "Priam's Treasure",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 111,
+      "label": "Nine Cities of Troy",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 112,
+      "label": "Troy VI and VIIa",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 113,
+      "label": "Hittite Empire",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 114,
+      "label": "Wilusa",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 115,
+      "label": "Trojan War",
+      "group": "BRONZ",
+      "cis": 5
+    },
+    {
+      "id": 116,
+      "label": "Oral Tradition",
+      "group": "BRONZ",
+      "cis": 7
+    },
+    {
+      "id": 117,
+      "label": "Homer",
+      "group": "BRONZ",
+      "cis": 6
+    },
+    {
+      "id": 118,
+      "label": "Iliad",
+      "group": "BRONZ",
+      "cis": 3
+    },
+    {
+      "id": 119,
+      "label": "Odyssey",
+      "group": "BRONZ",
+      "cis": 2
+    },
+    {
+      "id": 120,
+      "label": "Trojan Horse",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 121,
+      "label": "Troy Museum",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 122,
+      "label": "Historicity of Troy",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 123,
+      "label": "Phoenician Alphabet",
+      "group": "BRONZ",
+      "cis": 5
+    },
+    {
+      "id": 124,
+      "label": "Greek Alphabet",
+      "group": "BRONZ",
+      "cis": 4
+    },
+    {
+      "id": 125,
+      "label": "Homer Written Down",
+      "group": "BRONZ",
+      "cis": 1
+    },
+    {
+      "id": 126,
+      "label": "Athens",
+      "group": "CLASS",
+      "cis": 234
+    },
+    {
+      "id": 127,
+      "label": "Acropolis",
+      "group": "CLASS",
+      "cis": 21
+    },
+    {
+      "id": 128,
+      "label": "Athena",
+      "group": "CLASS",
+      "cis": 11
+    },
+    {
+      "id": 129,
+      "label": "Pericles",
+      "group": "CLASS",
+      "cis": 7
+    },
+    {
+      "id": 130,
+      "label": "Phidias",
+      "group": "CLASS",
+      "cis": 6
+    },
+    {
+      "id": 131,
+      "label": "Parthenon",
+      "group": "CLASS",
+      "cis": 5
+    },
+    {
+      "id": 132,
+      "label": "Parthenon Sculptures",
+      "group": "CLASS",
+      "cis": 3
+    },
+    {
+      "id": 133,
+      "label": "Parthenon Marbles Dispute",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 134,
+      "label": "Parthenon as Church and Mosque",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 135,
+      "label": "Propylaea",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 136,
+      "label": "Erechtheion",
+      "group": "CLASS",
+      "cis": 3
+    },
+    {
+      "id": 137,
+      "label": "Caryatids",
+      "group": "CLASS",
+      "cis": 2
+    },
+    {
+      "id": 138,
+      "label": "Temple of Athena Nike",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 139,
+      "label": "Acropolis Museum",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 140,
+      "label": "Ancient Agora of Athens",
+      "group": "CLASS",
+      "cis": 13
+    },
+    {
+      "id": 141,
+      "label": "Stoa",
+      "group": "CLASS",
+      "cis": 11
+    },
+    {
+      "id": 142,
+      "label": "Temple of Hephaestus",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 143,
+      "label": "Athenian Democracy",
+      "group": "CLASS",
+      "cis": 16
+    },
+    {
+      "id": 144,
+      "label": "Pnyx",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 145,
+      "label": "Ostracism",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 146,
+      "label": "Athenian Citizenship",
+      "group": "CLASS",
+      "cis": 3
+    },
+    {
+      "id": 147,
+      "label": "Persian Wars",
+      "group": "CLASS",
+      "cis": 14
+    },
+    {
+      "id": 148,
+      "label": "Battle of Marathon",
+      "group": "CLASS",
+      "cis": 2
+    },
+    {
+      "id": 149,
+      "label": "Themistocles",
+      "group": "CLASS",
+      "cis": 4
+    },
+    {
+      "id": 150,
+      "label": "Battle of Salamis",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 151,
+      "label": "Herodotus",
+      "group": "CLASS",
+      "cis": 5
+    },
+    {
+      "id": 152,
+      "label": "Greek Theater",
+      "group": "CLASS",
+      "cis": 20
+    },
+    {
+      "id": 153,
+      "label": "Theater of Dionysus",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 154,
+      "label": "Greek Tragedy",
+      "group": "CLASS",
+      "cis": 12
+    },
+    {
+      "id": 155,
+      "label": "Hubris",
+      "group": "CLASS",
+      "cis": 7
+    },
+    {
+      "id": 156,
+      "label": "Greek Philosophy",
+      "group": "CLASS",
+      "cis": 132
+    },
+    {
+      "id": 157,
+      "label": "Socrates",
+      "group": "CLASS",
+      "cis": 114
+    },
+    {
+      "id": 158,
+      "label": "Socratic Method",
+      "group": "CLASS",
+      "cis": 6
+    },
+    {
+      "id": 159,
+      "label": "Sophists",
+      "group": "CLASS",
+      "cis": 2
+    },
+    {
+      "id": 160,
+      "label": "Trial of Socrates",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 161,
+      "label": "Plato",
+      "group": "CLASS",
+      "cis": 101
+    },
+    {
+      "id": 162,
+      "label": "Plato's Academy",
+      "group": "CLASS",
+      "cis": 96
+    },
+    {
+      "id": 163,
+      "label": "Phaedrus on Writing",
+      "group": "CLASS",
+      "cis": 4
+    },
+    {
+      "id": 164,
+      "label": "Aristotle",
+      "group": "CLASS",
+      "cis": 95
+    },
+    {
+      "id": 165,
+      "label": "Lyceum",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 166,
+      "label": "Stoicism",
+      "group": "CLASS",
+      "cis": 10
+    },
+    {
+      "id": 167,
+      "label": "Areopagus",
+      "group": "CLASS",
+      "cis": 9
+    },
+    {
+      "id": 168,
+      "label": "National Archaeological Museum",
+      "group": "CLASS",
+      "cis": 3
+    },
+    {
+      "id": 169,
+      "label": "Antikythera Mechanism",
+      "group": "CLASS",
+      "cis": 2
+    },
+    {
+      "id": 170,
+      "label": "Temple of Olympian Zeus",
+      "group": "CLASS",
+      "cis": 1
+    },
+    {
+      "id": 171,
+      "label": "Alexander the Great",
+      "group": "HELRO",
+      "cis": 88
+    },
+    {
+      "id": 172,
+      "label": "Hellenistic Kingdoms",
+      "group": "HELRO",
+      "cis": 82
+    },
+    {
+      "id": 173,
+      "label": "Koine Greek",
+      "group": "HELRO",
+      "cis": 80
+    },
+    {
+      "id": 174,
+      "label": "Seven Wonders of the World",
+      "group": "HELRO",
+      "cis": 9
+    },
+    {
+      "id": 175,
+      "label": "Rhodes",
+      "group": "HELRO",
+      "cis": 26
+    },
+    {
+      "id": 176,
+      "label": "Helios",
+      "group": "HELRO",
+      "cis": 2
+    },
+    {
+      "id": 177,
+      "label": "Colossus of Rhodes",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 178,
+      "label": "Lindos Acropolis",
+      "group": "HELRO",
+      "cis": 2
+    },
+    {
+      "id": 179,
+      "label": "Rhodes School of Rhetoric",
+      "group": "HELRO",
+      "cis": 4
+    },
+    {
+      "id": 180,
+      "label": "Roman Students at Rhodes",
+      "group": "HELRO",
+      "cis": 3
+    },
+    {
+      "id": 181,
+      "label": "Pax Romana",
+      "group": "HELRO",
+      "cis": 176
+    },
+    {
+      "id": 182,
+      "label": "Hadrian",
+      "group": "HELRO",
+      "cis": 3
+    },
+    {
+      "id": 183,
+      "label": "Roman Province of Asia",
+      "group": "HELRO",
+      "cis": 56
+    },
+    {
+      "id": 184,
+      "label": "Roman Citizenship",
+      "group": "HELRO",
+      "cis": 152
+    },
+    {
+      "id": 185,
+      "label": "Roman Roads",
+      "group": "HELRO",
+      "cis": 113
+    },
+    {
+      "id": 186,
+      "label": "Roman Bath Culture",
+      "group": "HELRO",
+      "cis": 3
+    },
+    {
+      "id": 187,
+      "label": "Ephesus",
+      "group": "HELRO",
+      "cis": 55
+    },
+    {
+      "id": 188,
+      "label": "Ephesus Harbor Silting",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 189,
+      "label": "Temple of Artemis",
+      "group": "HELRO",
+      "cis": 7
+    },
+    {
+      "id": 190,
+      "label": "Artemis of Ephesus",
+      "group": "HELRO",
+      "cis": 6
+    },
+    {
+      "id": 191,
+      "label": "Ephesus Museum",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 192,
+      "label": "Curetes Street",
+      "group": "HELRO",
+      "cis": 9
+    },
+    {
+      "id": 193,
+      "label": "Marble Street",
+      "group": "HELRO",
+      "cis": 6
+    },
+    {
+      "id": 194,
+      "label": "Great Theater of Ephesus",
+      "group": "HELRO",
+      "cis": 5
+    },
+    {
+      "id": 195,
+      "label": "Library of Celsus",
+      "group": "HELRO",
+      "cis": 5
+    },
+    {
+      "id": 196,
+      "label": "Terrace Houses",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 197,
+      "label": "Temple of Hadrian at Ephesus",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 198,
+      "label": "Ephesus Public Latrines",
+      "group": "HELRO",
+      "cis": 1
+    },
+    {
+      "id": 199,
+      "label": "Jesus of Nazareth",
+      "group": "PAUL",
+      "cis": 156
+    },
+    {
+      "id": 200,
+      "label": "Early Jesus Movement",
+      "group": "PAUL",
+      "cis": 155
+    },
+    {
+      "id": 201,
+      "label": "John the Apostle",
+      "group": "PAUL",
+      "cis": 3
+    },
+    {
+      "id": 202,
+      "label": "Tarsus",
+      "group": "PAUL",
+      "cis": 152
+    },
+    {
+      "id": 203,
+      "label": "Pharisees",
+      "group": "PAUL",
+      "cis": 152
+    },
+    {
+      "id": 204,
+      "label": "Jewish Law",
+      "group": "PAUL",
+      "cis": 11
+    },
+    {
+      "id": 205,
+      "label": "Gentiles",
+      "group": "PAUL",
+      "cis": 8
+    },
+    {
+      "id": 206,
+      "label": "Paul of Tarsus",
+      "group": "PAUL",
+      "cis": 151
+    },
+    {
+      "id": 207,
+      "label": "Paul as Persecutor",
+      "group": "PAUL",
+      "cis": 116
+    },
+    {
+      "id": 208,
+      "label": "Road to Damascus",
+      "group": "PAUL",
+      "cis": 115
+    },
+    {
+      "id": 209,
+      "label": "Paul's Missionary Journeys",
+      "group": "PAUL",
+      "cis": 112
+    },
+    {
+      "id": 210,
+      "label": "Book of Acts",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 211,
+      "label": "Pauline Letters",
+      "group": "PAUL",
+      "cis": 69
+    },
+    {
+      "id": 212,
+      "label": "New Testament",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 213,
+      "label": "Seven Undisputed Letters",
+      "group": "PAUL",
+      "cis": 39
+    },
+    {
+      "id": 214,
+      "label": "Disputed Pauline Letters",
+      "group": "PAUL",
+      "cis": 11
+    },
+    {
+      "id": 215,
+      "label": "Letter to the Ephesians",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 216,
+      "label": "First Corinthians",
+      "group": "PAUL",
+      "cis": 12
+    },
+    {
+      "id": 217,
+      "label": "Letter to the Galatians",
+      "group": "PAUL",
+      "cis": 10
+    },
+    {
+      "id": 218,
+      "label": "Letter to the Romans",
+      "group": "PAUL",
+      "cis": 7
+    },
+    {
+      "id": 219,
+      "label": "Council of Jerusalem",
+      "group": "PAUL",
+      "cis": 4
+    },
+    {
+      "id": 220,
+      "label": "Paul in Ephesus",
+      "group": "PAUL",
+      "cis": 22
+    },
+    {
+      "id": 221,
+      "label": "Hall of Tyrannus",
+      "group": "PAUL",
+      "cis": 3
+    },
+    {
+      "id": 222,
+      "label": "Priscilla and Aquila",
+      "group": "PAUL",
+      "cis": 4
+    },
+    {
+      "id": 223,
+      "label": "Apollos",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 224,
+      "label": "Timothy and Titus",
+      "group": "PAUL",
+      "cis": 4
+    },
+    {
+      "id": 225,
+      "label": "Phoebe",
+      "group": "PAUL",
+      "cis": 3
+    },
+    {
+      "id": 226,
+      "label": "Riot of the Silversmiths",
+      "group": "PAUL",
+      "cis": 4
+    },
+    {
+      "id": 227,
+      "label": "Demetrius the Silversmith",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 228,
+      "label": "Farewell at Miletus",
+      "group": "PAUL",
+      "cis": 7
+    },
+    {
+      "id": 229,
+      "label": "St. Paul's Prison Tower",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 230,
+      "label": "Grace and Faith",
+      "group": "PAUL",
+      "cis": 6
+    },
+    {
+      "id": 231,
+      "label": "Neither Jew Nor Greek",
+      "group": "PAUL",
+      "cis": 3
+    },
+    {
+      "id": 232,
+      "label": "One Body Many Parts",
+      "group": "PAUL",
+      "cis": 8
+    },
+    {
+      "id": 233,
+      "label": "Love as Greatest Virtue",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 234,
+      "label": "Paul and the Stoics",
+      "group": "PAUL",
+      "cis": 9
+    },
+    {
+      "id": 235,
+      "label": "Paul in Athens",
+      "group": "PAUL",
+      "cis": 9
+    },
+    {
+      "id": 236,
+      "label": "Areopagus Speech",
+      "group": "PAUL",
+      "cis": 8
+    },
+    {
+      "id": 237,
+      "label": "Altar to an Unknown God",
+      "group": "PAUL",
+      "cis": 6
+    },
+    {
+      "id": 238,
+      "label": "Areopagus Bronze Plaque",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 239,
+      "label": "Tentmaking",
+      "group": "PAUL",
+      "cis": 2
+    },
+    {
+      "id": 240,
+      "label": "Paul's Death in Rome",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 241,
+      "label": "St. Paul's Bay at Lindos",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 242,
+      "label": "Titus in Crete",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 243,
+      "label": "Augustine of Hippo",
+      "group": "PAUL",
+      "cis": 3
+    },
+    {
+      "id": 244,
+      "label": "Protestant Reformation",
+      "group": "PAUL",
+      "cis": 2
+    },
+    {
+      "id": 245,
+      "label": "Individual Conscience",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 246,
+      "label": "Idea of Human Equality",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 247,
+      "label": "Paul's Contested Legacy",
+      "group": "PAUL",
+      "cis": 9
+    },
+    {
+      "id": 248,
+      "label": "Christian Anti-Judaism",
+      "group": "PAUL",
+      "cis": 5
+    },
+    {
+      "id": 249,
+      "label": "Basilica of St. John",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 250,
+      "label": "House of the Virgin Mary",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 251,
+      "label": "Church of Mary at Ephesus",
+      "group": "PAUL",
+      "cis": 2
+    },
+    {
+      "id": 252,
+      "label": "Council of Ephesus",
+      "group": "PAUL",
+      "cis": 1
+    },
+    {
+      "id": 253,
+      "label": "Euangelion",
+      "group": "PAUL",
+      "cis": 7
+    },
+    {
+      "id": 254,
+      "label": "Evangelist",
+      "group": "PAUL",
+      "cis": 6
+    },
+    {
+      "id": 255,
+      "label": "Byzantium",
+      "group": "BYZ",
+      "cis": 141
+    },
+    {
+      "id": 256,
+      "label": "Constantine the Great",
+      "group": "BYZ",
+      "cis": 147
+    },
+    {
+      "id": 257,
+      "label": "Constantinople",
+      "group": "BYZ",
+      "cis": 140
+    },
+    {
+      "id": 258,
+      "label": "Byzantine Empire",
+      "group": "BYZ",
+      "cis": 58
+    },
+    {
+      "id": 259,
+      "label": "Theodosius I",
+      "group": "BYZ",
+      "cis": 5
+    },
+    {
+      "id": 260,
+      "label": "Theodosian Decrees",
+      "group": "BYZ",
+      "cis": 4
+    },
+    {
+      "id": 261,
+      "label": "Theodosian Walls",
+      "group": "BYZ",
+      "cis": 77
+    },
+    {
+      "id": 262,
+      "label": "Hippodrome",
+      "group": "BYZ",
+      "cis": 3
+    },
+    {
+      "id": 263,
+      "label": "Serpent Column",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 264,
+      "label": "Justinian",
+      "group": "BYZ",
+      "cis": 18
+    },
+    {
+      "id": 265,
+      "label": "Nika Riots",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 266,
+      "label": "Hagia Sophia",
+      "group": "BYZ",
+      "cis": 14
+    },
+    {
+      "id": 267,
+      "label": "Hagia Sophia Dome",
+      "group": "BYZ",
+      "cis": 10
+    },
+    {
+      "id": 268,
+      "label": "Byzantine Mosaics",
+      "group": "BYZ",
+      "cis": 3
+    },
+    {
+      "id": 269,
+      "label": "Deesis Mosaic",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 270,
+      "label": "Basilica Cistern",
+      "group": "BYZ",
+      "cis": 2
+    },
+    {
+      "id": 271,
+      "label": "Medusa Heads",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 272,
+      "label": "Eastern Orthodox Church",
+      "group": "BYZ",
+      "cis": 30
+    },
+    {
+      "id": 273,
+      "label": "Orthodox Icons",
+      "group": "BYZ",
+      "cis": 3
+    },
+    {
+      "id": 274,
+      "label": "Iconoclasm",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 275,
+      "label": "Great Schism of 1054",
+      "group": "BYZ",
+      "cis": 24
+    },
+    {
+      "id": 276,
+      "label": "Fourth Crusade",
+      "group": "BYZ",
+      "cis": 23
+    },
+    {
+      "id": 277,
+      "label": "Fall of Constantinople",
+      "group": "BYZ",
+      "cis": 76
+    },
+    {
+      "id": 278,
+      "label": "Chora Church",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 279,
+      "label": "Ecumenical Patriarchate",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 280,
+      "label": "Byzantine Manuscript Copying",
+      "group": "BYZ",
+      "cis": 6
+    },
+    {
+      "id": 281,
+      "label": "Hagia Sophia as Mosque",
+      "group": "BYZ",
+      "cis": 2
+    },
+    {
+      "id": 282,
+      "label": "Hagia Sophia Status Debate",
+      "group": "BYZ",
+      "cis": 1
+    },
+    {
+      "id": 283,
+      "label": "Crusades",
+      "group": "MEDV",
+      "cis": 43
+    },
+    {
+      "id": 284,
+      "label": "Knights Hospitaller",
+      "group": "MEDV",
+      "cis": 19
+    },
+    {
+      "id": 285,
+      "label": "Hospitaller Rhodes",
+      "group": "MEDV",
+      "cis": 17
+    },
+    {
+      "id": 286,
+      "label": "Rhodes Medieval Town",
+      "group": "MEDV",
+      "cis": 16
+    },
+    {
+      "id": 287,
+      "label": "Street of the Knights",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 288,
+      "label": "Palace of the Grand Master",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 289,
+      "label": "Hospital of the Knights",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 290,
+      "label": "Rhodes City Walls",
+      "group": "MEDV",
+      "cis": 7
+    },
+    {
+      "id": 291,
+      "label": "Siege of Rhodes 1522",
+      "group": "MEDV",
+      "cis": 6
+    },
+    {
+      "id": 292,
+      "label": "Republic of Venice",
+      "group": "MEDV",
+      "cis": 22
+    },
+    {
+      "id": 293,
+      "label": "Venetian Crete",
+      "group": "MEDV",
+      "cis": 16
+    },
+    {
+      "id": 294,
+      "label": "Candia",
+      "group": "MEDV",
+      "cis": 8
+    },
+    {
+      "id": 295,
+      "label": "Koules Fortress",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 296,
+      "label": "Venetian Walls of Heraklion",
+      "group": "MEDV",
+      "cis": 4
+    },
+    {
+      "id": 297,
+      "label": "Morosini Fountain",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 298,
+      "label": "Siege of Candia",
+      "group": "MEDV",
+      "cis": 2
+    },
+    {
+      "id": 299,
+      "label": "Cretan Renaissance",
+      "group": "MEDV",
+      "cis": 7
+    },
+    {
+      "id": 300,
+      "label": "El Greco",
+      "group": "MEDV",
+      "cis": 1
+    },
+    {
+      "id": 301,
+      "label": "Marcus Musurus",
+      "group": "MEDV",
+      "cis": 5
+    },
+    {
+      "id": 302,
+      "label": "Aldus Manutius",
+      "group": "MEDV",
+      "cis": 5
+    },
+    {
+      "id": 303,
+      "label": "Aldine Editions",
+      "group": "MEDV",
+      "cis": 4
+    },
+    {
+      "id": 304,
+      "label": "Ottoman Empire",
+      "group": "OTTO",
+      "shape": "box",
+      "cis": 314
+    },
+    {
+      "id": 305,
+      "label": "Sultan",
+      "group": "OTTO",
+      "cis": 110
+    },
+    {
+      "id": 306,
+      "label": "Mehmed the Conqueror",
+      "group": "OTTO",
+      "cis": 86
+    },
+    {
+      "id": 307,
+      "label": "Suleiman the Magnificent",
+      "group": "OTTO",
+      "cis": 22
+    },
+    {
+      "id": 308,
+      "label": "Mimar Sinan",
+      "group": "OTTO",
+      "cis": 15
+    },
+    {
+      "id": 309,
+      "label": "Caliphate",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 310,
+      "label": "Istanbul",
+      "group": "OTTO",
+      "cis": 21
+    },
+    {
+      "id": 311,
+      "label": "Golden Horn",
+      "group": "OTTO",
+      "cis": 3
+    },
+    {
+      "id": 312,
+      "label": "Galata Tower",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 313,
+      "label": "Topkapi Palace",
+      "group": "OTTO",
+      "cis": 9
+    },
+    {
+      "id": 314,
+      "label": "Harem of Topkapi",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 315,
+      "label": "Topkapi Treasury",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 316,
+      "label": "Sacred Relics Chamber",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 317,
+      "label": "Gulhane Park",
+      "group": "OTTO",
+      "cis": 2
+    },
+    {
+      "id": 318,
+      "label": "Ottoman Mosque Architecture",
+      "group": "OTTO",
+      "cis": 9
+    },
+    {
+      "id": 319,
+      "label": "Blue Mosque",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 320,
+      "label": "Suleymaniye Mosque",
+      "group": "OTTO",
+      "cis": 5
+    },
+    {
+      "id": 321,
+      "label": "Vakif Endowment",
+      "group": "OTTO",
+      "cis": 6
+    },
+    {
+      "id": 322,
+      "label": "Kulliye Mosque Complex",
+      "group": "OTTO",
+      "cis": 4
+    },
+    {
+      "id": 323,
+      "label": "Medrese",
+      "group": "OTTO",
+      "cis": 2
+    },
+    {
+      "id": 324,
+      "label": "Imaret Soup Kitchen",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 325,
+      "label": "Iznik Tiles",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 326,
+      "label": "Islamic Calligraphy",
+      "group": "OTTO",
+      "cis": 17
+    },
+    {
+      "id": 327,
+      "label": "Ottoman Turkish Script",
+      "group": "OTTO",
+      "cis": 16
+    },
+    {
+      "id": 328,
+      "label": "Scribes and Copyists",
+      "group": "OTTO",
+      "cis": 4
+    },
+    {
+      "id": 329,
+      "label": "Grand Bazaar",
+      "group": "OTTO",
+      "cis": 4
+    },
+    {
+      "id": 330,
+      "label": "Spice Bazaar",
+      "group": "OTTO",
+      "cis": 3
+    },
+    {
+      "id": 331,
+      "label": "Turkish Bath",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 332,
+      "label": "Millet System",
+      "group": "OTTO",
+      "cis": 2
+    },
+    {
+      "id": 333,
+      "label": "Multi-Faith Empire",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 334,
+      "label": "Sephardic Jewish Refugees",
+      "group": "OTTO",
+      "cis": 6
+    },
+    {
+      "id": 335,
+      "label": "Hebrew Press of 1493",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 336,
+      "label": "Ibrahim Muteferrika",
+      "group": "OTTO",
+      "cis": 3
+    },
+    {
+      "id": 337,
+      "label": "Delayed Arabic-Script Printing",
+      "group": "OTTO",
+      "cis": 2
+    },
+    {
+      "id": 338,
+      "label": "Ottoman Rhodes",
+      "group": "OTTO",
+      "cis": 5
+    },
+    {
+      "id": 339,
+      "label": "Ottoman Crete",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 340,
+      "label": "Ottoman Rule in Greece",
+      "group": "OTTO",
+      "cis": 52
+    },
+    {
+      "id": 341,
+      "label": "Five Pillars of Islam",
+      "group": "OTTO",
+      "cis": 10
+    },
+    {
+      "id": 342,
+      "label": "Quran",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 343,
+      "label": "Daily Prayer",
+      "group": "OTTO",
+      "cis": 9
+    },
+    {
+      "id": 344,
+      "label": "Prayer Times",
+      "group": "OTTO",
+      "cis": 3
+    },
+    {
+      "id": 345,
+      "label": "Call to Prayer",
+      "group": "OTTO",
+      "cis": 2
+    },
+    {
+      "id": 346,
+      "label": "Minaret",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 347,
+      "label": "Friday Prayer",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 348,
+      "label": "Ablution",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 349,
+      "label": "Mihrab and Minbar",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 350,
+      "label": "Mosque Etiquette",
+      "group": "OTTO",
+      "cis": 1
+    },
+    {
+      "id": 351,
+      "label": "Ottoman Decline",
+      "group": "MODRN",
+      "cis": 135
+    },
+    {
+      "id": 352,
+      "label": "Greek War of Independence",
+      "group": "MODRN",
+      "cis": 51
+    },
+    {
+      "id": 353,
+      "label": "Modern Greek State",
+      "group": "MODRN",
+      "cis": 50
+    },
+    {
+      "id": 354,
+      "label": "Athens as Modern Capital",
+      "group": "MODRN",
+      "cis": 6
+    },
+    {
+      "id": 355,
+      "label": "World War I",
+      "group": "MODRN",
+      "cis": 79
+    },
+    {
+      "id": 356,
+      "label": "World War II",
+      "group": "MODRN",
+      "cis": 5
+    },
+    {
+      "id": 357,
+      "label": "Gallipoli Campaign",
+      "group": "MODRN",
+      "cis": 38
+    },
+    {
+      "id": 358,
+      "label": "ANZAC Forces",
+      "group": "MODRN",
+      "cis": 3
+    },
+    {
+      "id": 359,
+      "label": "Anzac Cove",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 360,
+      "label": "Mustafa Kemal Ataturk",
+      "group": "MODRN",
+      "cis": 33
+    },
+    {
+      "id": 361,
+      "label": "Canakkale Martyrs Memorial",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 362,
+      "label": "Johnnies and Mehmets Words",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 363,
+      "label": "Canakkale Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 364,
+      "label": "Greco-Turkish War",
+      "group": "MODRN",
+      "cis": 35
+    },
+    {
+      "id": 365,
+      "label": "Burning of Smyrna",
+      "group": "MODRN",
+      "cis": 4
+    },
+    {
+      "id": 366,
+      "label": "Turkish War of Independence",
+      "group": "MODRN",
+      "cis": 30
+    },
+    {
+      "id": 367,
+      "label": "Treaty of Lausanne",
+      "group": "MODRN",
+      "cis": 12
+    },
+    {
+      "id": 368,
+      "label": "Population Exchange of 1923",
+      "group": "MODRN",
+      "cis": 11
+    },
+    {
+      "id": 369,
+      "label": "Asia Minor Refugees",
+      "group": "MODRN",
+      "cis": 3
+    },
+    {
+      "id": 370,
+      "label": "Rebetiko",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 371,
+      "label": "Republic of Turkey",
+      "group": "MODRN",
+      "cis": 17
+    },
+    {
+      "id": 372,
+      "label": "Ataturk's Reforms",
+      "group": "MODRN",
+      "cis": 12
+    },
+    {
+      "id": 373,
+      "label": "Secularism in Turkey",
+      "group": "MODRN",
+      "cis": 3
+    },
+    {
+      "id": 374,
+      "label": "Alphabet Reform of 1928",
+      "group": "MODRN",
+      "cis": 8
+    },
+    {
+      "id": 375,
+      "label": "Nation's Schools",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 376,
+      "label": "Ataturk Memorial Day",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 377,
+      "label": "Italian Rule of Rhodes",
+      "group": "MODRN",
+      "cis": 4
+    },
+    {
+      "id": 378,
+      "label": "Jewish Quarter of Rhodes",
+      "group": "MODRN",
+      "cis": 4
+    },
+    {
+      "id": 379,
+      "label": "Kahal Shalom Synagogue",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 380,
+      "label": "Rhodes Deportation of 1944",
+      "group": "MODRN",
+      "cis": 2
+    },
+    {
+      "id": 381,
+      "label": "Dodecanese Union With Greece",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 382,
+      "label": "Battle of Crete",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 383,
+      "label": "Athens Polytechnic Uprising",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 384,
+      "label": "Greek Debt Crisis",
+      "group": "MODRN",
+      "cis": 6
+    },
+    {
+      "id": 385,
+      "label": "Turkish Economy Today",
+      "group": "MODRN",
+      "cis": 4
+    },
+    {
+      "id": 386,
+      "label": "Greek-Turkish Relations",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 387,
+      "label": "Daily Life in Istanbul",
+      "group": "MODRN",
+      "cis": 3
+    },
+    {
+      "id": 388,
+      "label": "Daily Life in Athens",
+      "group": "MODRN",
+      "cis": 4
+    },
+    {
+      "id": 389,
+      "label": "Cretan Village Life",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 390,
+      "label": "Family Life Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 391,
+      "label": "Orthodox Faith Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 392,
+      "label": "Faith in Modern Turkey",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 393,
+      "label": "Migration and Refugees Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 394,
+      "label": "Nikos Kazantzakis",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 395,
+      "label": "Plaka Neighborhood",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 396,
+      "label": "Rhodes Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 397,
+      "label": "Kusadasi and Selcuk",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 398,
+      "label": "Heraklion Today",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 399,
+      "label": "Modern Delphi Village",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 400,
+      "label": "Arachova",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 401,
+      "label": "Amfissa Olive Groves",
+      "group": "MODRN",
+      "cis": 1
+    },
+    {
+      "id": 402,
+      "label": "Food as History",
+      "group": "FOOD",
+      "shape": "box",
+      "cis": 47
+    },
+    {
+      "id": 403,
+      "label": "Turkish Cuisine",
+      "group": "FOOD",
+      "cis": 16
+    },
+    {
+      "id": 404,
+      "label": "Ottoman Palace Kitchen",
+      "group": "FOOD",
+      "cis": 3
+    },
+    {
+      "id": 405,
+      "label": "Turkish Breakfast",
+      "group": "FOOD",
+      "cis": 3
+    },
+    {
+      "id": 406,
+      "label": "Simit",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 407,
+      "label": "Turkish Tea",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 408,
+      "label": "Turkish Coffee",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 409,
+      "label": "Meze",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 410,
+      "label": "Raki",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 411,
+      "label": "Kebab",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 412,
+      "label": "Balik Ekmek",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 413,
+      "label": "Baklava",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 414,
+      "label": "Turkish Delight",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 415,
+      "label": "Spice Trade",
+      "group": "FOOD",
+      "cis": 5
+    },
+    {
+      "id": 416,
+      "label": "Greek Cuisine",
+      "group": "FOOD",
+      "cis": 16
+    },
+    {
+      "id": 417,
+      "label": "Olive Oil",
+      "group": "FOOD",
+      "cis": 9
+    },
+    {
+      "id": 418,
+      "label": "Mediterranean Diet",
+      "group": "FOOD",
+      "cis": 6
+    },
+    {
+      "id": 419,
+      "label": "Cretan Diet",
+      "group": "FOOD",
+      "cis": 5
+    },
+    {
+      "id": 420,
+      "label": "Dakos",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 421,
+      "label": "Horta",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 422,
+      "label": "Tsikoudia",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 423,
+      "label": "Thyme Honey",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 424,
+      "label": "Loukoumades",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 425,
+      "label": "Feta Cheese",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 426,
+      "label": "Greek Salad",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 427,
+      "label": "Souvlaki and Gyros",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 428,
+      "label": "Mezedes",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 429,
+      "label": "Ouzo",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 430,
+      "label": "Greek Wine",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 431,
+      "label": "Greek Coffee",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 432,
+      "label": "Fresh Fish",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 433,
+      "label": "Taverna Culture",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 434,
+      "label": "Symposium",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 435,
+      "label": "Shared Greek-Turkish Dishes",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 436,
+      "label": "Mount Parnassus",
+      "group": "DELPH",
+      "cis": 88
+    },
+    {
+      "id": 437,
+      "label": "Delphi",
+      "group": "DELPH",
+      "cis": 86
+    },
+    {
+      "id": 438,
+      "label": "Apollo",
+      "group": "DELPH",
+      "cis": 81
+    },
+    {
+      "id": 439,
+      "label": "Sanctuary of Apollo",
+      "group": "DELPH",
+      "cis": 76
+    },
+    {
+      "id": 440,
+      "label": "Oracle of Delphi",
+      "group": "DELPH",
+      "cis": 47
+    },
+    {
+      "id": 441,
+      "label": "Oracle as Living Faith",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 442,
+      "label": "Pythia",
+      "group": "DELPH",
+      "cis": 26
+    },
+    {
+      "id": 443,
+      "label": "Oracle Consultation",
+      "group": "DELPH",
+      "cis": 22
+    },
+    {
+      "id": 444,
+      "label": "Priests Who Framed Answers",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 445,
+      "label": "Fees and Sacrifice",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 446,
+      "label": "Oracle in Verse and Prose",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 447,
+      "label": "Sacred Way of Delphi",
+      "group": "DELPH",
+      "cis": 3
+    },
+    {
+      "id": 448,
+      "label": "Treasuries of Delphi",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 449,
+      "label": "Athenian Treasury",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 450,
+      "label": "Temple of Apollo at Delphi",
+      "group": "DELPH",
+      "cis": 15
+    },
+    {
+      "id": 451,
+      "label": "Omphalos",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 452,
+      "label": "Castalian Spring",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 453,
+      "label": "Polygonal Wall",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 454,
+      "label": "Manumission Records",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 455,
+      "label": "Pythian Games",
+      "group": "DELPH",
+      "cis": 3
+    },
+    {
+      "id": 456,
+      "label": "Theater of Delphi",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 457,
+      "label": "Stadium of Delphi",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 458,
+      "label": "Athena Pronaia Sanctuary",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 459,
+      "label": "Tholos of Delphi",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 460,
+      "label": "Delphi Archaeological Museum",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 461,
+      "label": "Charioteer of Delphi",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 462,
+      "label": "Amphictyonic League",
+      "group": "DELPH",
+      "cis": 6
+    },
+    {
+      "id": 463,
+      "label": "Delphic Neutrality",
+      "group": "DELPH",
+      "cis": 5
+    },
+    {
+      "id": 464,
+      "label": "Greek Colonization",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 465,
+      "label": "Croesus of Lydia",
+      "group": "DELPH",
+      "cis": 3
+    },
+    {
+      "id": 466,
+      "label": "Croesus Prophecy",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 467,
+      "label": "Wooden Walls Prophecy",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 468,
+      "label": "Chaerephon's Question",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 469,
+      "label": "Bribery of the Oracle",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 470,
+      "label": "Hedging Answers",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 471,
+      "label": "Geological Fault Theory",
+      "group": "DELPH",
+      "cis": 1
+    },
+    {
+      "id": 472,
+      "label": "Know Thyself",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 473,
+      "label": "Nothing in Excess",
+      "group": "DELPH",
+      "cis": 6
+    },
+    {
+      "id": 474,
+      "label": "Dionysus at Delphi",
+      "group": "DELPH",
+      "cis": 5
+    },
+    {
+      "id": 475,
+      "label": "Apollo's Winter Absence",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 476,
+      "label": "Oedipus Prophecy",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 477,
+      "label": "Plutarch",
+      "group": "DELPH",
+      "cis": 5
+    },
+    {
+      "id": 478,
+      "label": "Decline of the Oracle",
+      "group": "DELPH",
+      "cis": 4
+    },
+    {
+      "id": 479,
+      "label": "Closing of the Oracle",
+      "group": "DELPH",
+      "cis": 3
+    },
+    {
+      "id": 480,
+      "label": "Oracle's Long Lifespan",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 481,
+      "label": "French Excavation of Delphi",
+      "group": "DELPH",
+      "cis": 2
+    },
+    {
+      "id": 482,
+      "label": "Human Need for Foresight",
+      "group": "PRED",
+      "shape": "box",
+      "cis": 52
+    },
+    {
+      "id": 483,
+      "label": "Artificial Intelligence",
+      "group": "PRED",
+      "shape": "box",
+      "cis": 74
+    },
+    {
+      "id": 484,
+      "label": "Prediction",
+      "group": "PRED",
+      "cis": 51
+    },
+    {
+      "id": 485,
+      "label": "Machine Learning",
+      "group": "PRED",
+      "cis": 48
+    },
+    {
+      "id": 486,
+      "label": "Predictive Model",
+      "group": "PRED",
+      "cis": 35
+    },
+    {
+      "id": 487,
+      "label": "Training Data",
+      "group": "PRED",
+      "cis": 9
+    },
+    {
+      "id": 488,
+      "label": "Data Bias",
+      "group": "PRED",
+      "cis": 7
+    },
+    {
+      "id": 489,
+      "label": "Large Language Model",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 490,
+      "label": "Next-Word Prediction",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 491,
+      "label": "Weather Forecasting",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 492,
+      "label": "Loan and Hiring Algorithms",
+      "group": "PRED",
+      "cis": 5
+    },
+    {
+      "id": 493,
+      "label": "Prediction Uncertainty",
+      "group": "PRED",
+      "cis": 16
+    },
+    {
+      "id": 494,
+      "label": "Ancient Prediction Machines",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 495,
+      "label": "Oracle as Data Hub",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 496,
+      "label": "Interpreting Ambiguous Answers",
+      "group": "PRED",
+      "cis": 6
+    },
+    {
+      "id": 497,
+      "label": "Human in the Loop",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 498,
+      "label": "Confirmation Bias",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 499,
+      "label": "Self-Fulfilling Prophecy",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 500,
+      "label": "Student Risk Prediction",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 501,
+      "label": "Predictive Policing",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 502,
+      "label": "Who Funds the Model",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 503,
+      "label": "Model Calibration",
+      "group": "PRED",
+      "cis": 6
+    },
+    {
+      "id": 504,
+      "label": "Track Record and Trust",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 505,
+      "label": "Prediction Horizon",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 506,
+      "label": "AI Capability Forecasting",
+      "group": "PRED",
+      "cis": 2
+    },
+    {
+      "id": 507,
+      "label": "AI Doubling Curves",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 508,
+      "label": "Answer as Start of Inquiry",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 509,
+      "label": "AI as Thinking Partner",
+      "group": "PRED",
+      "cis": 1
+    },
+    {
+      "id": 510,
+      "label": "Values Beyond Prediction",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 511,
+      "label": "Climate Models",
+      "group": "PRED",
+      "cis": 5
+    },
+    {
+      "id": 512,
+      "label": "Acting on Foresight",
+      "group": "PRED",
+      "cis": 4
+    },
+    {
+      "id": 513,
+      "label": "Long-Term Consequences",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 514,
+      "label": "Consent in Mass Prediction",
+      "group": "PRED",
+      "cis": 4
+    },
+    {
+      "id": 515,
+      "label": "Testability of Predictions",
+      "group": "PRED",
+      "cis": 4
+    },
+    {
+      "id": 516,
+      "label": "Limits of the Oracle Parallel",
+      "group": "PRED",
+      "cis": 3
+    },
+    {
+      "id": 517,
+      "label": "Delphi Reflection Questions",
+      "group": "PRED",
+      "cis": 2
+    },
+    {
+      "id": 518,
+      "label": "Change Leadership",
+      "group": "LEAD",
+      "shape": "box",
+      "cis": 64
+    },
+    {
+      "id": 519,
+      "label": "Legacy Institution",
+      "group": "LEAD",
+      "cis": 18
+    },
+    {
+      "id": 520,
+      "label": "Direct Instruction",
+      "group": "LEAD",
+      "cis": 11
+    },
+    {
+      "id": 521,
+      "label": "AI-Native School",
+      "group": "LEAD",
+      "cis": 9
+    },
+    {
+      "id": 522,
+      "label": "Paul as Change Case Study",
+      "group": "LEAD",
+      "cis": 32
+    },
+    {
+      "id": 523,
+      "label": "Insider Change Leader",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 524,
+      "label": "Veteran Teacher Champions",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 525,
+      "label": "Essential Versus Inherited",
+      "group": "LEAD",
+      "cis": 3
+    },
+    {
+      "id": 526,
+      "label": "Grammar of Schooling",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 527,
+      "label": "Seat Time and Carnegie Unit",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 528,
+      "label": "Compelling Inclusive Vision",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 529,
+      "label": "Lecture to Dialogue",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 530,
+      "label": "Teacher as Coach",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 531,
+      "label": "Diffusion of Innovation",
+      "group": "LEAD",
+      "cis": 6
+    },
+    {
+      "id": 532,
+      "label": "Hub and Spoke Diffusion",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 533,
+      "label": "Pilot School as Hub",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 534,
+      "label": "Letters as Teaching Technology",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 535,
+      "label": "Building a Team",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 536,
+      "label": "Guiding Coalition",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 537,
+      "label": "Meeting People Where They Are",
+      "group": "LEAD",
+      "cis": 5
+    },
+    {
+      "id": 538,
+      "label": "Stages of Concern",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 539,
+      "label": "Economics of Resistance",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 540,
+      "label": "Systems Thinking",
+      "group": "LEAD",
+      "cis": 7
+    },
+    {
+      "id": 541,
+      "label": "School as a System",
+      "group": "LEAD",
+      "cis": 6
+    },
+    {
+      "id": 542,
+      "label": "Implementation Dip",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 543,
+      "label": "Change Fatigue",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 544,
+      "label": "Sustainable Funding",
+      "group": "LEAD",
+      "cis": 1
+    },
+    {
+      "id": 545,
+      "label": "Succession Planning",
+      "group": "LEAD",
+      "cis": 6
+    },
+    {
+      "id": 546,
+      "label": "Anchoring Change in Culture",
+      "group": "LEAD",
+      "cis": 5
+    },
+    {
+      "id": 547,
+      "label": "New Model Becomes Legacy",
+      "group": "LEAD",
+      "cis": 4
+    },
+    {
+      "id": 548,
+      "label": "Who Is Hurt by Change",
+      "group": "LEAD",
+      "cis": 4
+    },
+    {
+      "id": 549,
+      "label": "Limits of the Paul Parallel",
+      "group": "LEAD",
+      "cis": 3
+    },
+    {
+      "id": 550,
+      "label": "Leadership Reflection",
+      "group": "LEAD",
+      "cis": 2
+    },
+    {
+      "id": 551,
+      "label": "Literacy",
+      "group": "LFA",
+      "shape": "box",
+      "cis": 44
+    },
+    {
+      "id": 552,
+      "label": "Learning for All",
+      "group": "LFA",
+      "cis": 39
+    },
+    {
+      "id": 553,
+      "label": "Democratization of Education",
+      "group": "LFA",
+      "cis": 15
+    },
+    {
+      "id": 554,
+      "label": "AI in Education",
+      "group": "LFA",
+      "cis": 14
+    },
+    {
+      "id": 555,
+      "label": "AI-Native Schools Companion",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 556,
+      "label": "Education Evangelism",
+      "group": "LFA",
+      "cis": 5
+    },
+    {
+      "id": 557,
+      "label": "Knowledge Gatekeepers",
+      "group": "LFA",
+      "cis": 5
+    },
+    {
+      "id": 558,
+      "label": "Widening the Circle",
+      "group": "LFA",
+      "cis": 4
+    },
+    {
+      "id": 559,
+      "label": "Shared Language Spreads Ideas",
+      "group": "LFA",
+      "cis": 3
+    },
+    {
+      "id": 560,
+      "label": "Mother-Tongue Learning",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 561,
+      "label": "AI Translation",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 562,
+      "label": "Lowering the Cost of Reading",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 563,
+      "label": "Simpler Interface to Knowledge",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 564,
+      "label": "Literacy Rate Uncertainty",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 565,
+      "label": "Costs of Top-Down Reform",
+      "group": "LFA",
+      "cis": 5
+    },
+    {
+      "id": 566,
+      "label": "Gutenberg",
+      "group": "LFA",
+      "cis": 11
+    },
+    {
+      "id": 567,
+      "label": "Printing Press",
+      "group": "LFA",
+      "cis": 10
+    },
+    {
+      "id": 568,
+      "label": "Cost of Delaying Technology",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 569,
+      "label": "Scribal Resistance",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 570,
+      "label": "Endowed Free Education",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 571,
+      "label": "Library as Public Access",
+      "group": "LFA",
+      "cis": 4
+    },
+    {
+      "id": 572,
+      "label": "Philanthropy for Knowledge",
+      "group": "LFA",
+      "cis": 3
+    },
+    {
+      "id": 573,
+      "label": "Affordable Course Materials",
+      "group": "LFA",
+      "cis": 3
+    },
+    {
+      "id": 574,
+      "label": "Open Educational Resources",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 575,
+      "label": "Intelligent Textbook",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 576,
+      "label": "Traveling to the Teacher",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 577,
+      "label": "One-on-One Tutoring",
+      "group": "LFA",
+      "cis": 5
+    },
+    {
+      "id": 578,
+      "label": "Bloom's 2 Sigma Problem",
+      "group": "LFA",
+      "cis": 4
+    },
+    {
+      "id": 579,
+      "label": "Mastery Learning",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 580,
+      "label": "AI Tutoring",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 581,
+      "label": "Teaching Comes to Learner",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 582,
+      "label": "Who Pays for Learning",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 583,
+      "label": "Elite Knowledge Is Fragile",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 584,
+      "label": "Concentrated AI Risk",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 585,
+      "label": "Outsider Breakthroughs",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 586,
+      "label": "Credit for Groundwork",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 587,
+      "label": "Fear of New Learning Tech",
+      "group": "LFA",
+      "cis": 3
+    },
+    {
+      "id": 588,
+      "label": "AI Over-Reliance",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 589,
+      "label": "AI Guardrails",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 590,
+      "label": "Who Democracy Left Out",
+      "group": "LFA",
+      "cis": 2
+    },
+    {
+      "id": 591,
+      "label": "Measuring Who Is Left Out",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 592,
+      "label": "Evangelism's Shadow",
+      "group": "LFA",
+      "cis": 4
+    },
+    {
+      "id": 593,
+      "label": "Education With Communities",
+      "group": "LFA",
+      "cis": 3
+    },
+    {
+      "id": 594,
+      "label": "Good News Message",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 595,
+      "label": "Lessons Across the Route",
+      "group": "LFA",
+      "cis": 1
+    },
+    {
+      "id": 596,
+      "label": "Saffron",
+      "group": "FOOD",
+      "cis": 1
+    },
+    {
+      "id": 597,
+      "label": "Eggplant",
+      "group": "FOOD",
+      "cis": 2
+    },
+    {
+      "id": 598,
+      "label": "Graffiti",
+      "group": "MODRN",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 10,
+      "to": 1
+    },
+    {
+      "from": 11,
+      "to": 1
+    },
+    {
+      "from": 12,
+      "to": 1
+    },
+    {
+      "from": 13,
+      "to": 1
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 1
+    },
+    {
+      "from": 17,
+      "to": 2
+    },
+    {
+      "from": 18,
+      "to": 2
+    },
+    {
+      "from": 18,
+      "to": 3
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 20,
+      "to": 5
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 23,
+      "to": 6
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 24,
+      "to": 7
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 25,
+      "to": 9
+    },
+    {
+      "from": 26,
+      "to": 3
+    },
+    {
+      "from": 27,
+      "to": 3
+    },
+    {
+      "from": 27,
+      "to": 5
+    },
+    {
+      "from": 28,
+      "to": 1
+    },
+    {
+      "from": 28,
+      "to": 3
+    },
+    {
+      "from": 29,
+      "to": 4
+    },
+    {
+      "from": 30,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 4
+    },
+    {
+      "from": 33,
+      "to": 2
+    },
+    {
+      "from": 34,
+      "to": 3
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 5
+    },
+    {
+      "from": 36,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 10
+    },
+    {
+      "from": 38,
+      "to": 5
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 4
+    },
+    {
+      "from": 40,
+      "to": 33
+    },
+    {
+      "from": 41,
+      "to": 40
+    },
+    {
+      "from": 42,
+      "to": 40
+    },
+    {
+      "from": 42,
+      "to": 5
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 42
+    },
+    {
+      "from": 45,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 40
+    },
+    {
+      "from": 47,
+      "to": 40
+    },
+    {
+      "from": 48,
+      "to": 40
+    },
+    {
+      "from": 48,
+      "to": 34
+    },
+    {
+      "from": 49,
+      "to": 40
+    },
+    {
+      "from": 49,
+      "to": 33
+    },
+    {
+      "from": 50,
+      "to": 40
+    },
+    {
+      "from": 51,
+      "to": 4
+    },
+    {
+      "from": 52,
+      "to": 4
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 53
+    },
+    {
+      "from": 56,
+      "to": 1
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 57
+    },
+    {
+      "from": 59,
+      "to": 56
+    },
+    {
+      "from": 60,
+      "to": 59
+    },
+    {
+      "from": 61,
+      "to": 59
+    },
+    {
+      "from": 62,
+      "to": 58
+    },
+    {
+      "from": 63,
+      "to": 16
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 62
+    },
+    {
+      "from": 66,
+      "to": 58
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 67,
+      "to": 53
+    },
+    {
+      "from": 68,
+      "to": 37
+    },
+    {
+      "from": 68,
+      "to": 53
+    },
+    {
+      "from": 69,
+      "to": 36
+    },
+    {
+      "from": 69,
+      "to": 53
+    },
+    {
+      "from": 70,
+      "to": 54
+    },
+    {
+      "from": 70,
+      "to": 68
+    },
+    {
+      "from": 71,
+      "to": 54
+    },
+    {
+      "from": 71,
+      "to": 69
+    },
+    {
+      "from": 72,
+      "to": 53
+    },
+    {
+      "from": 73,
+      "to": 53
+    },
+    {
+      "from": 74,
+      "to": 53
+    },
+    {
+      "from": 75,
+      "to": 70
+    },
+    {
+      "from": 76,
+      "to": 53
+    },
+    {
+      "from": 77,
+      "to": 54
+    },
+    {
+      "from": 77,
+      "to": 62
+    },
+    {
+      "from": 78,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 77
+    },
+    {
+      "from": 80,
+      "to": 77
+    },
+    {
+      "from": 81,
+      "to": 58
+    },
+    {
+      "from": 82,
+      "to": 18
+    },
+    {
+      "from": 82,
+      "to": 15
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 84,
+      "to": 4
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 85,
+      "to": 50
+    },
+    {
+      "from": 86,
+      "to": 39
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 82
+    },
+    {
+      "from": 88,
+      "to": 47
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 83
+    },
+    {
+      "from": 91,
+      "to": 83
+    },
+    {
+      "from": 91,
+      "to": 28
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 93,
+      "to": 82
+    },
+    {
+      "from": 94,
+      "to": 82
+    },
+    {
+      "from": 95,
+      "to": 82
+    },
+    {
+      "from": 95,
+      "to": 34
+    },
+    {
+      "from": 96,
+      "to": 18
+    },
+    {
+      "from": 96,
+      "to": 5
+    },
+    {
+      "from": 97,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 98,
+      "to": 91
+    },
+    {
+      "from": 99,
+      "to": 97
+    },
+    {
+      "from": 100,
+      "to": 97
+    },
+    {
+      "from": 101,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 96
+    },
+    {
+      "from": 102,
+      "to": 82
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 103,
+      "to": 19
+    },
+    {
+      "from": 104,
+      "to": 82
+    },
+    {
+      "from": 104,
+      "to": 51
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 105,
+      "to": 95
+    },
+    {
+      "from": 106,
+      "to": 18
+    },
+    {
+      "from": 106,
+      "to": 10
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 107,
+      "to": 41
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 109
+    },
+    {
+      "from": 111,
+      "to": 107
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 18
+    },
+    {
+      "from": 113,
+      "to": 10
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 114,
+      "to": 106
+    },
+    {
+      "from": 115,
+      "to": 106
+    },
+    {
+      "from": 115,
+      "to": 39
+    },
+    {
+      "from": 115,
+      "to": 96
+    },
+    {
+      "from": 116,
+      "to": 103
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 118,
+      "to": 115
+    },
+    {
+      "from": 119,
+      "to": 117
+    },
+    {
+      "from": 120,
+      "to": 115
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 106
+    },
+    {
+      "from": 121,
+      "to": 51
+    },
+    {
+      "from": 122,
+      "to": 118
+    },
+    {
+      "from": 122,
+      "to": 112
+    },
+    {
+      "from": 122,
+      "to": 114
+    },
+    {
+      "from": 122,
+      "to": 30
+    },
+    {
+      "from": 123,
+      "to": 35
+    },
+    {
+      "from": 123,
+      "to": 28
+    },
+    {
+      "from": 124,
+      "to": 123
+    },
+    {
+      "from": 124,
+      "to": 103
+    },
+    {
+      "from": 125,
+      "to": 124
+    },
+    {
+      "from": 125,
+      "to": 118
+    },
+    {
+      "from": 126,
+      "to": 5
+    },
+    {
+      "from": 126,
+      "to": 27
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 38
+    },
+    {
+      "from": 129,
+      "to": 126
+    },
+    {
+      "from": 129,
+      "to": 21
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 127
+    },
+    {
+      "from": 131,
+      "to": 128
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 131,
+      "to": 43
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 133,
+      "to": 132
+    },
+    {
+      "from": 133,
+      "to": 31
+    },
+    {
+      "from": 134,
+      "to": 131
+    },
+    {
+      "from": 134,
+      "to": 33
+    },
+    {
+      "from": 134,
+      "to": 24
+    },
+    {
+      "from": 134,
+      "to": 25
+    },
+    {
+      "from": 135,
+      "to": 127
+    },
+    {
+      "from": 136,
+      "to": 127
+    },
+    {
+      "from": 136,
+      "to": 44
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 127
+    },
+    {
+      "from": 138,
+      "to": 128
+    },
+    {
+      "from": 139,
+      "to": 132
+    },
+    {
+      "from": 139,
+      "to": 137
+    },
+    {
+      "from": 139,
+      "to": 51
+    },
+    {
+      "from": 140,
+      "to": 126
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 43
+    },
+    {
+      "from": 143,
+      "to": 126
+    },
+    {
+      "from": 143,
+      "to": 21
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 146,
+      "to": 143
+    },
+    {
+      "from": 147,
+      "to": 21
+    },
+    {
+      "from": 147,
+      "to": 26
+    },
+    {
+      "from": 148,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 147
+    },
+    {
+      "from": 149,
+      "to": 126
+    },
+    {
+      "from": 150,
+      "to": 149
+    },
+    {
+      "from": 151,
+      "to": 147
+    },
+    {
+      "from": 151,
+      "to": 29
+    },
+    {
+      "from": 152,
+      "to": 126
+    },
+    {
+      "from": 152,
+      "to": 21
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 153,
+      "to": 127
+    },
+    {
+      "from": 154,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 39
+    },
+    {
+      "from": 155,
+      "to": 154
+    },
+    {
+      "from": 156,
+      "to": 21
+    },
+    {
+      "from": 156,
+      "to": 126
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 156
+    },
+    {
+      "from": 160,
+      "to": 157
+    },
+    {
+      "from": 160,
+      "to": 143
+    },
+    {
+      "from": 161,
+      "to": 157
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 163,
+      "to": 161
+    },
+    {
+      "from": 163,
+      "to": 34
+    },
+    {
+      "from": 164,
+      "to": 162
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 166,
+      "to": 141
+    },
+    {
+      "from": 166,
+      "to": 156
+    },
+    {
+      "from": 167,
+      "to": 127
+    },
+    {
+      "from": 167,
+      "to": 143
+    },
+    {
+      "from": 168,
+      "to": 126
+    },
+    {
+      "from": 168,
+      "to": 51
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 169,
+      "to": 22
+    },
+    {
+      "from": 170,
+      "to": 126
+    },
+    {
+      "from": 170,
+      "to": 45
+    },
+    {
+      "from": 170,
+      "to": 182
+    },
+    {
+      "from": 171,
+      "to": 164
+    },
+    {
+      "from": 171,
+      "to": 22
+    },
+    {
+      "from": 172,
+      "to": 171
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 173,
+      "to": 36
+    },
+    {
+      "from": 174,
+      "to": 22
+    },
+    {
+      "from": 175,
+      "to": 14
+    },
+    {
+      "from": 175,
+      "to": 27
+    },
+    {
+      "from": 176,
+      "to": 38
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 177,
+      "to": 174
+    },
+    {
+      "from": 177,
+      "to": 172
+    },
+    {
+      "from": 178,
+      "to": 175
+    },
+    {
+      "from": 178,
+      "to": 128
+    },
+    {
+      "from": 179,
+      "to": 175
+    },
+    {
+      "from": 179,
+      "to": 156
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 180,
+      "to": 6
+    },
+    {
+      "from": 181,
+      "to": 6
+    },
+    {
+      "from": 181,
+      "to": 23
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 10
+    },
+    {
+      "from": 184,
+      "to": 6
+    },
+    {
+      "from": 185,
+      "to": 181
+    },
+    {
+      "from": 185,
+      "to": 28
+    },
+    {
+      "from": 186,
+      "to": 181
+    },
+    {
+      "from": 187,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 27
+    },
+    {
+      "from": 188,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 187
+    },
+    {
+      "from": 189,
+      "to": 174
+    },
+    {
+      "from": 189,
+      "to": 44
+    },
+    {
+      "from": 190,
+      "to": 189
+    },
+    {
+      "from": 191,
+      "to": 190
+    },
+    {
+      "from": 191,
+      "to": 51
+    },
+    {
+      "from": 192,
+      "to": 187
+    },
+    {
+      "from": 193,
+      "to": 187
+    },
+    {
+      "from": 194,
+      "to": 187
+    },
+    {
+      "from": 194,
+      "to": 152
+    },
+    {
+      "from": 195,
+      "to": 192
+    },
+    {
+      "from": 195,
+      "to": 193
+    },
+    {
+      "from": 196,
+      "to": 192
+    },
+    {
+      "from": 196,
+      "to": 46
+    },
+    {
+      "from": 196,
+      "to": 47
+    },
+    {
+      "from": 197,
+      "to": 192
+    },
+    {
+      "from": 197,
+      "to": 182
+    },
+    {
+      "from": 197,
+      "to": 45
+    },
+    {
+      "from": 198,
+      "to": 186
+    },
+    {
+      "from": 198,
+      "to": 192
+    },
+    {
+      "from": 199,
+      "to": 8
+    },
+    {
+      "from": 199,
+      "to": 23
+    },
+    {
+      "from": 200,
+      "to": 199
+    },
+    {
+      "from": 201,
+      "to": 200
+    },
+    {
+      "from": 202,
+      "to": 10
+    },
+    {
+      "from": 202,
+      "to": 6
+    },
+    {
+      "from": 203,
+      "to": 8
+    },
+    {
+      "from": 204,
+      "to": 8
+    },
+    {
+      "from": 205,
+      "to": 8
+    },
+    {
+      "from": 206,
+      "to": 202
+    },
+    {
+      "from": 206,
+      "to": 203
+    },
+    {
+      "from": 206,
+      "to": 184
+    },
+    {
+      "from": 206,
+      "to": 200
+    },
+    {
+      "from": 207,
+      "to": 206
+    },
+    {
+      "from": 208,
+      "to": 207
+    },
+    {
+      "from": 209,
+      "to": 208
+    },
+    {
+      "from": 209,
+      "to": 185
+    },
+    {
+      "from": 210,
+      "to": 209
+    },
+    {
+      "from": 210,
+      "to": 29
+    },
+    {
+      "from": 211,
+      "to": 209
+    },
+    {
+      "from": 211,
+      "to": 173
+    },
+    {
+      "from": 212,
+      "to": 211
+    },
+    {
+      "from": 212,
+      "to": 7
+    },
+    {
+      "from": 213,
+      "to": 211
+    },
+    {
+      "from": 214,
+      "to": 211
+    },
+    {
+      "from": 215,
+      "to": 214
+    },
+    {
+      "from": 216,
+      "to": 213
+    },
+    {
+      "from": 217,
+      "to": 213
+    },
+    {
+      "from": 218,
+      "to": 213
+    },
+    {
+      "from": 219,
+      "to": 205
+    },
+    {
+      "from": 219,
+      "to": 204
+    },
+    {
+      "from": 219,
+      "to": 209
+    },
+    {
+      "from": 220,
+      "to": 209
+    },
+    {
+      "from": 220,
+      "to": 187
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 222,
+      "to": 220
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 224,
+      "to": 209
+    },
+    {
+      "from": 225,
+      "to": 218
+    },
+    {
+      "from": 226,
+      "to": 220
+    },
+    {
+      "from": 226,
+      "to": 190
+    },
+    {
+      "from": 226,
+      "to": 194
+    },
+    {
+      "from": 227,
+      "to": 226
+    },
+    {
+      "from": 228,
+      "to": 220
+    },
+    {
+      "from": 229,
+      "to": 220
+    },
+    {
+      "from": 229,
+      "to": 30
+    },
+    {
+      "from": 230,
+      "to": 217
+    },
+    {
+      "from": 230,
+      "to": 204
+    },
+    {
+      "from": 231,
+      "to": 217
+    },
+    {
+      "from": 231,
+      "to": 205
+    },
+    {
+      "from": 232,
+      "to": 216
+    },
+    {
+      "from": 233,
+      "to": 216
+    },
+    {
+      "from": 234,
+      "to": 166
+    },
+    {
+      "from": 234,
+      "to": 211
+    },
+    {
+      "from": 235,
+      "to": 209
+    },
+    {
+      "from": 235,
+      "to": 126
+    },
+    {
+      "from": 236,
+      "to": 235
+    },
+    {
+      "from": 236,
+      "to": 167
+    },
+    {
+      "from": 236,
+      "to": 234
+    },
+    {
+      "from": 237,
+      "to": 236
+    },
+    {
+      "from": 238,
+      "to": 236
+    },
+    {
+      "from": 239,
+      "to": 206
+    },
+    {
+      "from": 240,
+      "to": 209
+    },
+    {
+      "from": 241,
+      "to": 178
+    },
+    {
+      "from": 241,
+      "to": 209
+    },
+    {
+      "from": 242,
+      "to": 224
+    },
+    {
+      "from": 242,
+      "to": 15
+    },
+    {
+      "from": 243,
+      "to": 218
+    },
+    {
+      "from": 243,
+      "to": 230
+    },
+    {
+      "from": 244,
+      "to": 243
+    },
+    {
+      "from": 244,
+      "to": 230
+    },
+    {
+      "from": 245,
+      "to": 244
+    },
+    {
+      "from": 246,
+      "to": 231
+    },
+    {
+      "from": 247,
+      "to": 213
+    },
+    {
+      "from": 247,
+      "to": 214
+    },
+    {
+      "from": 248,
+      "to": 247
+    },
+    {
+      "from": 249,
+      "to": 201
+    },
+    {
+      "from": 249,
+      "to": 187
+    },
+    {
+      "from": 250,
+      "to": 201
+    },
+    {
+      "from": 250,
+      "to": 30
+    },
+    {
+      "from": 251,
+      "to": 187
+    },
+    {
+      "from": 251,
+      "to": 7
+    },
+    {
+      "from": 252,
+      "to": 251
+    },
+    {
+      "from": 252,
+      "to": 256
+    },
+    {
+      "from": 253,
+      "to": 173
+    },
+    {
+      "from": 253,
+      "to": 211
+    },
+    {
+      "from": 254,
+      "to": 253
+    },
+    {
+      "from": 255,
+      "to": 27
+    },
+    {
+      "from": 255,
+      "to": 12
+    },
+    {
+      "from": 256,
+      "to": 6
+    },
+    {
+      "from": 256,
+      "to": 7
+    },
+    {
+      "from": 257,
+      "to": 255
+    },
+    {
+      "from": 257,
+      "to": 256
+    },
+    {
+      "from": 258,
+      "to": 257
+    },
+    {
+      "from": 258,
+      "to": 24
+    },
+    {
+      "from": 259,
+      "to": 256
+    },
+    {
+      "from": 260,
+      "to": 259
+    },
+    {
+      "from": 261,
+      "to": 257
+    },
+    {
+      "from": 262,
+      "to": 257
+    },
+    {
+      "from": 263,
+      "to": 262
+    },
+    {
+      "from": 263,
+      "to": 147
+    },
+    {
+      "from": 263,
+      "to": 439
+    },
+    {
+      "from": 264,
+      "to": 258
+    },
+    {
+      "from": 265,
+      "to": 262
+    },
+    {
+      "from": 265,
+      "to": 264
+    },
+    {
+      "from": 266,
+      "to": 264
+    },
+    {
+      "from": 267,
+      "to": 266
+    },
+    {
+      "from": 268,
+      "to": 46
+    },
+    {
+      "from": 268,
+      "to": 258
+    },
+    {
+      "from": 269,
+      "to": 268
+    },
+    {
+      "from": 269,
+      "to": 266
+    },
+    {
+      "from": 270,
+      "to": 264
+    },
+    {
+      "from": 271,
+      "to": 270
+    },
+    {
+      "from": 271,
+      "to": 49
+    },
+    {
+      "from": 272,
+      "to": 258
+    },
+    {
+      "from": 272,
+      "to": 7
+    },
+    {
+      "from": 273,
+      "to": 272
+    },
+    {
+      "from": 274,
+      "to": 273
+    },
+    {
+      "from": 275,
+      "to": 272
+    },
+    {
+      "from": 276,
+      "to": 283
+    },
+    {
+      "from": 276,
+      "to": 275
+    },
+    {
+      "from": 277,
+      "to": 261
+    },
+    {
+      "from": 277,
+      "to": 306
+    },
+    {
+      "from": 278,
+      "to": 268
+    },
+    {
+      "from": 279,
+      "to": 272
+    },
+    {
+      "from": 279,
+      "to": 257
+    },
+    {
+      "from": 280,
+      "to": 258
+    },
+    {
+      "from": 280,
+      "to": 34
+    },
+    {
+      "from": 281,
+      "to": 266
+    },
+    {
+      "from": 281,
+      "to": 277
+    },
+    {
+      "from": 282,
+      "to": 281
+    },
+    {
+      "from": 282,
+      "to": 373
+    },
+    {
+      "from": 282,
+      "to": 31
+    },
+    {
+      "from": 283,
+      "to": 7
+    },
+    {
+      "from": 283,
+      "to": 9
+    },
+    {
+      "from": 284,
+      "to": 283
+    },
+    {
+      "from": 285,
+      "to": 284
+    },
+    {
+      "from": 285,
+      "to": 175
+    },
+    {
+      "from": 286,
+      "to": 285
+    },
+    {
+      "from": 286,
+      "to": 52
+    },
+    {
+      "from": 287,
+      "to": 286
+    },
+    {
+      "from": 288,
+      "to": 286
+    },
+    {
+      "from": 289,
+      "to": 284
+    },
+    {
+      "from": 289,
+      "to": 286
+    },
+    {
+      "from": 290,
+      "to": 286
+    },
+    {
+      "from": 291,
+      "to": 290
+    },
+    {
+      "from": 291,
+      "to": 307
+    },
+    {
+      "from": 292,
+      "to": 28
+    },
+    {
+      "from": 292,
+      "to": 276
+    },
+    {
+      "from": 293,
+      "to": 292
+    },
+    {
+      "from": 293,
+      "to": 15
+    },
+    {
+      "from": 294,
+      "to": 293
+    },
+    {
+      "from": 295,
+      "to": 294
+    },
+    {
+      "from": 296,
+      "to": 294
+    },
+    {
+      "from": 297,
+      "to": 294
+    },
+    {
+      "from": 298,
+      "to": 296
+    },
+    {
+      "from": 298,
+      "to": 304
+    },
+    {
+      "from": 299,
+      "to": 293
+    },
+    {
+      "from": 300,
+      "to": 299
+    },
+    {
+      "from": 300,
+      "to": 273
+    },
+    {
+      "from": 301,
+      "to": 299
+    },
+    {
+      "from": 301,
+      "to": 280
+    },
+    {
+      "from": 302,
+      "to": 292
+    },
+    {
+      "from": 302,
+      "to": 567
+    },
+    {
+      "from": 303,
+      "to": 302
+    },
+    {
+      "from": 303,
+      "to": 301
+    },
+    {
+      "from": 305,
+      "to": 304
+    },
+    {
+      "from": 306,
+      "to": 305
+    },
+    {
+      "from": 307,
+      "to": 305
+    },
+    {
+      "from": 308,
+      "to": 307
+    },
+    {
+      "from": 309,
+      "to": 9
+    },
+    {
+      "from": 309,
+      "to": 305
+    },
+    {
+      "from": 310,
+      "to": 277
+    },
+    {
+      "from": 311,
+      "to": 310
+    },
+    {
+      "from": 311,
+      "to": 12
+    },
+    {
+      "from": 312,
+      "to": 311
+    },
+    {
+      "from": 313,
+      "to": 306
+    },
+    {
+      "from": 313,
+      "to": 310
+    },
+    {
+      "from": 314,
+      "to": 313
+    },
+    {
+      "from": 315,
+      "to": 313
+    },
+    {
+      "from": 316,
+      "to": 313
+    },
+    {
+      "from": 316,
+      "to": 9
+    },
+    {
+      "from": 317,
+      "to": 313
+    },
+    {
+      "from": 318,
+      "to": 267
+    },
+    {
+      "from": 318,
+      "to": 308
+    },
+    {
+      "from": 319,
+      "to": 318
+    },
+    {
+      "from": 320,
+      "to": 308
+    },
+    {
+      "from": 320,
+      "to": 318
+    },
+    {
+      "from": 321,
+      "to": 9
+    },
+    {
+      "from": 321,
+      "to": 304
+    },
+    {
+      "from": 322,
+      "to": 320
+    },
+    {
+      "from": 322,
+      "to": 321
+    },
+    {
+      "from": 323,
+      "to": 322
+    },
+    {
+      "from": 324,
+      "to": 322
+    },
+    {
+      "from": 325,
+      "to": 318
+    },
+    {
+      "from": 326,
+      "to": 9
+    },
+    {
+      "from": 326,
+      "to": 34
+    },
+    {
+      "from": 327,
+      "to": 37
+    },
+    {
+      "from": 327,
+      "to": 326
+    },
+    {
+      "from": 328,
+      "to": 327
+    },
+    {
+      "from": 329,
+      "to": 310
+    },
+    {
+      "from": 329,
+      "to": 28
+    },
+    {
+      "from": 330,
+      "to": 329
+    },
+    {
+      "from": 330,
+      "to": 415
+    },
+    {
+      "from": 331,
+      "to": 186
+    },
+    {
+      "from": 331,
+      "to": 310
+    },
+    {
+      "from": 332,
+      "to": 304
+    },
+    {
+      "from": 332,
+      "to": 8
+    },
+    {
+      "from": 332,
+      "to": 7
+    },
+    {
+      "from": 333,
+      "to": 332
+    },
+    {
+      "from": 334,
+      "to": 8
+    },
+    {
+      "from": 334,
+      "to": 304
+    },
+    {
+      "from": 335,
+      "to": 334
+    },
+    {
+      "from": 335,
+      "to": 567
+    },
+    {
+      "from": 336,
+      "to": 567
+    },
+    {
+      "from": 336,
+      "to": 327
+    },
+    {
+      "from": 337,
+      "to": 336
+    },
+    {
+      "from": 337,
+      "to": 328
+    },
+    {
+      "from": 338,
+      "to": 291
+    },
+    {
+      "from": 339,
+      "to": 298
+    },
+    {
+      "from": 340,
+      "to": 304
+    },
+    {
+      "from": 340,
+      "to": 277
+    },
+    {
+      "from": 341,
+      "to": 9
+    },
+    {
+      "from": 342,
+      "to": 9
+    },
+    {
+      "from": 343,
+      "to": 341
+    },
+    {
+      "from": 344,
+      "to": 343
+    },
+    {
+      "from": 345,
+      "to": 344
+    },
+    {
+      "from": 346,
+      "to": 345
+    },
+    {
+      "from": 347,
+      "to": 343
+    },
+    {
+      "from": 348,
+      "to": 343
+    },
+    {
+      "from": 349,
+      "to": 343
+    },
+    {
+      "from": 349,
+      "to": 318
+    },
+    {
+      "from": 350,
+      "to": 72
+    },
+    {
+      "from": 350,
+      "to": 343
+    },
+    {
+      "from": 351,
+      "to": 304
+    },
+    {
+      "from": 352,
+      "to": 340
+    },
+    {
+      "from": 352,
+      "to": 351
+    },
+    {
+      "from": 353,
+      "to": 352
+    },
+    {
+      "from": 354,
+      "to": 353
+    },
+    {
+      "from": 354,
+      "to": 126
+    },
+    {
+      "from": 355,
+      "to": 351
+    },
+    {
+      "from": 356,
+      "to": 355
+    },
+    {
+      "from": 357,
+      "to": 355
+    },
+    {
+      "from": 357,
+      "to": 13
+    },
+    {
+      "from": 358,
+      "to": 357
+    },
+    {
+      "from": 359,
+      "to": 358
+    },
+    {
+      "from": 360,
+      "to": 357
+    },
+    {
+      "from": 361,
+      "to": 357
+    },
+    {
+      "from": 362,
+      "to": 360
+    },
+    {
+      "from": 362,
+      "to": 358
+    },
+    {
+      "from": 362,
+      "to": 31
+    },
+    {
+      "from": 363,
+      "to": 13
+    },
+    {
+      "from": 363,
+      "to": 78
+    },
+    {
+      "from": 364,
+      "to": 355
+    },
+    {
+      "from": 364,
+      "to": 353
+    },
+    {
+      "from": 365,
+      "to": 364
+    },
+    {
+      "from": 366,
+      "to": 364
+    },
+    {
+      "from": 366,
+      "to": 360
+    },
+    {
+      "from": 367,
+      "to": 366
+    },
+    {
+      "from": 368,
+      "to": 367
+    },
+    {
+      "from": 369,
+      "to": 368
+    },
+    {
+      "from": 369,
+      "to": 365
+    },
+    {
+      "from": 370,
+      "to": 369
+    },
+    {
+      "from": 371,
+      "to": 366
+    },
+    {
+      "from": 372,
+      "to": 371
+    },
+    {
+      "from": 373,
+      "to": 372
+    },
+    {
+      "from": 374,
+      "to": 372
+    },
+    {
+      "from": 374,
+      "to": 327
+    },
+    {
+      "from": 374,
+      "to": 35
+    },
+    {
+      "from": 375,
+      "to": 374
+    },
+    {
+      "from": 375,
+      "to": 317
+    },
+    {
+      "from": 375,
+      "to": 551
+    },
+    {
+      "from": 376,
+      "to": 360
+    },
+    {
+      "from": 377,
+      "to": 338
+    },
+    {
+      "from": 377,
+      "to": 351
+    },
+    {
+      "from": 378,
+      "to": 334
+    },
+    {
+      "from": 378,
+      "to": 286
+    },
+    {
+      "from": 379,
+      "to": 378
+    },
+    {
+      "from": 380,
+      "to": 378
+    },
+    {
+      "from": 380,
+      "to": 356
+    },
+    {
+      "from": 380,
+      "to": 377
+    },
+    {
+      "from": 381,
+      "to": 356
+    },
+    {
+      "from": 381,
+      "to": 377
+    },
+    {
+      "from": 382,
+      "to": 356
+    },
+    {
+      "from": 382,
+      "to": 15
+    },
+    {
+      "from": 383,
+      "to": 353
+    },
+    {
+      "from": 384,
+      "to": 353
+    },
+    {
+      "from": 385,
+      "to": 371
+    },
+    {
+      "from": 386,
+      "to": 368
+    },
+    {
+      "from": 386,
+      "to": 32
+    },
+    {
+      "from": 387,
+      "to": 310
+    },
+    {
+      "from": 387,
+      "to": 385
+    },
+    {
+      "from": 388,
+      "to": 354
+    },
+    {
+      "from": 388,
+      "to": 384
+    },
+    {
+      "from": 389,
+      "to": 15
+    },
+    {
+      "from": 389,
+      "to": 419
+    },
+    {
+      "from": 390,
+      "to": 387
+    },
+    {
+      "from": 390,
+      "to": 388
+    },
+    {
+      "from": 391,
+      "to": 272
+    },
+    {
+      "from": 391,
+      "to": 388
+    },
+    {
+      "from": 392,
+      "to": 373
+    },
+    {
+      "from": 392,
+      "to": 343
+    },
+    {
+      "from": 393,
+      "to": 387
+    },
+    {
+      "from": 393,
+      "to": 369
+    },
+    {
+      "from": 394,
+      "to": 296
+    },
+    {
+      "from": 394,
+      "to": 353
+    },
+    {
+      "from": 395,
+      "to": 354
+    },
+    {
+      "from": 396,
+      "to": 286
+    },
+    {
+      "from": 396,
+      "to": 78
+    },
+    {
+      "from": 397,
+      "to": 187
+    },
+    {
+      "from": 397,
+      "to": 78
+    },
+    {
+      "from": 398,
+      "to": 294
+    },
+    {
+      "from": 398,
+      "to": 78
+    },
+    {
+      "from": 399,
+      "to": 437
+    },
+    {
+      "from": 399,
+      "to": 481
+    },
+    {
+      "from": 400,
+      "to": 436
+    },
+    {
+      "from": 400,
+      "to": 78
+    },
+    {
+      "from": 401,
+      "to": 417
+    },
+    {
+      "from": 401,
+      "to": 437
+    },
+    {
+      "from": 403,
+      "to": 402
+    },
+    {
+      "from": 403,
+      "to": 10
+    },
+    {
+      "from": 404,
+      "to": 403
+    },
+    {
+      "from": 404,
+      "to": 313
+    },
+    {
+      "from": 405,
+      "to": 403
+    },
+    {
+      "from": 406,
+      "to": 405
+    },
+    {
+      "from": 407,
+      "to": 405
+    },
+    {
+      "from": 408,
+      "to": 403
+    },
+    {
+      "from": 409,
+      "to": 403
+    },
+    {
+      "from": 410,
+      "to": 409
+    },
+    {
+      "from": 411,
+      "to": 403
+    },
+    {
+      "from": 412,
+      "to": 403
+    },
+    {
+      "from": 412,
+      "to": 311
+    },
+    {
+      "from": 413,
+      "to": 404
+    },
+    {
+      "from": 414,
+      "to": 404
+    },
+    {
+      "from": 414,
+      "to": 330
+    },
+    {
+      "from": 415,
+      "to": 28
+    },
+    {
+      "from": 415,
+      "to": 402
+    },
+    {
+      "from": 416,
+      "to": 402
+    },
+    {
+      "from": 416,
+      "to": 5
+    },
+    {
+      "from": 417,
+      "to": 402
+    },
+    {
+      "from": 417,
+      "to": 16
+    },
+    {
+      "from": 418,
+      "to": 417
+    },
+    {
+      "from": 419,
+      "to": 418
+    },
+    {
+      "from": 419,
+      "to": 15
+    },
+    {
+      "from": 420,
+      "to": 419
+    },
+    {
+      "from": 421,
+      "to": 419
+    },
+    {
+      "from": 422,
+      "to": 419
+    },
+    {
+      "from": 423,
+      "to": 416
+    },
+    {
+      "from": 424,
+      "to": 423
+    },
+    {
+      "from": 425,
+      "to": 416
+    },
+    {
+      "from": 426,
+      "to": 425
+    },
+    {
+      "from": 426,
+      "to": 417
+    },
+    {
+      "from": 427,
+      "to": 416
+    },
+    {
+      "from": 428,
+      "to": 416
+    },
+    {
+      "from": 429,
+      "to": 428
+    },
+    {
+      "from": 430,
+      "to": 416
+    },
+    {
+      "from": 431,
+      "to": 408
+    },
+    {
+      "from": 431,
+      "to": 416
+    },
+    {
+      "from": 432,
+      "to": 416
+    },
+    {
+      "from": 432,
+      "to": 11
+    },
+    {
+      "from": 433,
+      "to": 416
+    },
+    {
+      "from": 433,
+      "to": 71
+    },
+    {
+      "from": 434,
+      "to": 430
+    },
+    {
+      "from": 434,
+      "to": 156
+    },
+    {
+      "from": 435,
+      "to": 403
+    },
+    {
+      "from": 435,
+      "to": 416
+    },
+    {
+      "from": 435,
+      "to": 368
+    },
+    {
+      "from": 435,
+      "to": 597
+    },
+    {
+      "from": 436,
+      "to": 5
+    },
+    {
+      "from": 437,
+      "to": 436
+    },
+    {
+      "from": 438,
+      "to": 38
+    },
+    {
+      "from": 439,
+      "to": 437
+    },
+    {
+      "from": 439,
+      "to": 438
+    },
+    {
+      "from": 440,
+      "to": 439
+    },
+    {
+      "from": 441,
+      "to": 440
+    },
+    {
+      "from": 442,
+      "to": 440
+    },
+    {
+      "from": 443,
+      "to": 442
+    },
+    {
+      "from": 444,
+      "to": 442
+    },
+    {
+      "from": 445,
+      "to": 443
+    },
+    {
+      "from": 446,
+      "to": 443
+    },
+    {
+      "from": 446,
+      "to": 444
+    },
+    {
+      "from": 447,
+      "to": 439
+    },
+    {
+      "from": 448,
+      "to": 447
+    },
+    {
+      "from": 448,
+      "to": 27
+    },
+    {
+      "from": 449,
+      "to": 448
+    },
+    {
+      "from": 449,
+      "to": 126
+    },
+    {
+      "from": 449,
+      "to": 148
+    },
+    {
+      "from": 450,
+      "to": 439
+    },
+    {
+      "from": 450,
+      "to": 43
+    },
+    {
+      "from": 451,
+      "to": 450
+    },
+    {
+      "from": 452,
+      "to": 437
+    },
+    {
+      "from": 453,
+      "to": 450
+    },
+    {
+      "from": 453,
+      "to": 48
+    },
+    {
+      "from": 454,
+      "to": 453
+    },
+    {
+      "from": 455,
+      "to": 439
+    },
+    {
+      "from": 456,
+      "to": 439
+    },
+    {
+      "from": 456,
+      "to": 152
+    },
+    {
+      "from": 457,
+      "to": 455
+    },
+    {
+      "from": 458,
+      "to": 437
+    },
+    {
+      "from": 458,
+      "to": 128
+    },
+    {
+      "from": 459,
+      "to": 458
+    },
+    {
+      "from": 460,
+      "to": 437
+    },
+    {
+      "from": 460,
+      "to": 51
+    },
+    {
+      "from": 461,
+      "to": 460
+    },
+    {
+      "from": 461,
+      "to": 455
+    },
+    {
+      "from": 462,
+      "to": 440
+    },
+    {
+      "from": 462,
+      "to": 27
+    },
+    {
+      "from": 463,
+      "to": 462
+    },
+    {
+      "from": 464,
+      "to": 440
+    },
+    {
+      "from": 464,
+      "to": 20
+    },
+    {
+      "from": 465,
+      "to": 443
+    },
+    {
+      "from": 465,
+      "to": 10
+    },
+    {
+      "from": 466,
+      "to": 465
+    },
+    {
+      "from": 467,
+      "to": 443
+    },
+    {
+      "from": 467,
+      "to": 149
+    },
+    {
+      "from": 467,
+      "to": 151
+    },
+    {
+      "from": 468,
+      "to": 443
+    },
+    {
+      "from": 468,
+      "to": 157
+    },
+    {
+      "from": 469,
+      "to": 443
+    },
+    {
+      "from": 469,
+      "to": 151
+    },
+    {
+      "from": 470,
+      "to": 443
+    },
+    {
+      "from": 470,
+      "to": 147
+    },
+    {
+      "from": 471,
+      "to": 442
+    },
+    {
+      "from": 471,
+      "to": 450
+    },
+    {
+      "from": 472,
+      "to": 450
+    },
+    {
+      "from": 473,
+      "to": 450
+    },
+    {
+      "from": 473,
+      "to": 155
+    },
+    {
+      "from": 474,
+      "to": 439
+    },
+    {
+      "from": 474,
+      "to": 38
+    },
+    {
+      "from": 475,
+      "to": 474
+    },
+    {
+      "from": 475,
+      "to": 438
+    },
+    {
+      "from": 476,
+      "to": 440
+    },
+    {
+      "from": 476,
+      "to": 154
+    },
+    {
+      "from": 477,
+      "to": 440
+    },
+    {
+      "from": 477,
+      "to": 23
+    },
+    {
+      "from": 478,
+      "to": 477
+    },
+    {
+      "from": 478,
+      "to": 463
+    },
+    {
+      "from": 479,
+      "to": 478
+    },
+    {
+      "from": 479,
+      "to": 260
+    },
+    {
+      "from": 480,
+      "to": 479
+    },
+    {
+      "from": 480,
+      "to": 17
+    },
+    {
+      "from": 481,
+      "to": 437
+    },
+    {
+      "from": 481,
+      "to": 4
+    },
+    {
+      "from": 484,
+      "to": 482
+    },
+    {
+      "from": 485,
+      "to": 483
+    },
+    {
+      "from": 485,
+      "to": 484
+    },
+    {
+      "from": 486,
+      "to": 485
+    },
+    {
+      "from": 487,
+      "to": 485
+    },
+    {
+      "from": 488,
+      "to": 487
+    },
+    {
+      "from": 489,
+      "to": 485
+    },
+    {
+      "from": 490,
+      "to": 489
+    },
+    {
+      "from": 491,
+      "to": 486
+    },
+    {
+      "from": 492,
+      "to": 486
+    },
+    {
+      "from": 492,
+      "to": 488
+    },
+    {
+      "from": 493,
+      "to": 486
+    },
+    {
+      "from": 494,
+      "to": 169
+    },
+    {
+      "from": 494,
+      "to": 484
+    },
+    {
+      "from": 495,
+      "to": 443
+    },
+    {
+      "from": 495,
+      "to": 487
+    },
+    {
+      "from": 496,
+      "to": 443
+    },
+    {
+      "from": 496,
+      "to": 493
+    },
+    {
+      "from": 497,
+      "to": 496
+    },
+    {
+      "from": 497,
+      "to": 467
+    },
+    {
+      "from": 498,
+      "to": 466
+    },
+    {
+      "from": 498,
+      "to": 484
+    },
+    {
+      "from": 499,
+      "to": 476
+    },
+    {
+      "from": 499,
+      "to": 486
+    },
+    {
+      "from": 500,
+      "to": 499
+    },
+    {
+      "from": 501,
+      "to": 499
+    },
+    {
+      "from": 501,
+      "to": 488
+    },
+    {
+      "from": 502,
+      "to": 469
+    },
+    {
+      "from": 502,
+      "to": 486
+    },
+    {
+      "from": 503,
+      "to": 493
+    },
+    {
+      "from": 504,
+      "to": 503
+    },
+    {
+      "from": 504,
+      "to": 480
+    },
+    {
+      "from": 505,
+      "to": 493
+    },
+    {
+      "from": 505,
+      "to": 475
+    },
+    {
+      "from": 506,
+      "to": 505
+    },
+    {
+      "from": 506,
+      "to": 483
+    },
+    {
+      "from": 507,
+      "to": 506
+    },
+    {
+      "from": 508,
+      "to": 468
+    },
+    {
+      "from": 508,
+      "to": 158
+    },
+    {
+      "from": 509,
+      "to": 508
+    },
+    {
+      "from": 509,
+      "to": 489
+    },
+    {
+      "from": 510,
+      "to": 472
+    },
+    {
+      "from": 510,
+      "to": 486
+    },
+    {
+      "from": 511,
+      "to": 486
+    },
+    {
+      "from": 511,
+      "to": 473
+    },
+    {
+      "from": 512,
+      "to": 511
+    },
+    {
+      "from": 513,
+      "to": 512
+    },
+    {
+      "from": 514,
+      "to": 492
+    },
+    {
+      "from": 515,
+      "to": 503
+    },
+    {
+      "from": 515,
+      "to": 496
+    },
+    {
+      "from": 516,
+      "to": 441
+    },
+    {
+      "from": 516,
+      "to": 515
+    },
+    {
+      "from": 516,
+      "to": 514
+    },
+    {
+      "from": 517,
+      "to": 516
+    },
+    {
+      "from": 517,
+      "to": 510
+    },
+    {
+      "from": 517,
+      "to": 513
+    },
+    {
+      "from": 519,
+      "to": 518
+    },
+    {
+      "from": 520,
+      "to": 519
+    },
+    {
+      "from": 521,
+      "to": 520
+    },
+    {
+      "from": 521,
+      "to": 483
+    },
+    {
+      "from": 522,
+      "to": 206
+    },
+    {
+      "from": 522,
+      "to": 518
+    },
+    {
+      "from": 523,
+      "to": 522
+    },
+    {
+      "from": 523,
+      "to": 208
+    },
+    {
+      "from": 524,
+      "to": 523
+    },
+    {
+      "from": 524,
+      "to": 520
+    },
+    {
+      "from": 525,
+      "to": 219
+    },
+    {
+      "from": 525,
+      "to": 522
+    },
+    {
+      "from": 526,
+      "to": 525
+    },
+    {
+      "from": 526,
+      "to": 519
+    },
+    {
+      "from": 527,
+      "to": 526
+    },
+    {
+      "from": 528,
+      "to": 231
+    },
+    {
+      "from": 528,
+      "to": 522
+    },
+    {
+      "from": 529,
+      "to": 221
+    },
+    {
+      "from": 529,
+      "to": 158
+    },
+    {
+      "from": 529,
+      "to": 522
+    },
+    {
+      "from": 530,
+      "to": 529
+    },
+    {
+      "from": 530,
+      "to": 521
+    },
+    {
+      "from": 531,
+      "to": 518
+    },
+    {
+      "from": 532,
+      "to": 220
+    },
+    {
+      "from": 532,
+      "to": 522
+    },
+    {
+      "from": 533,
+      "to": 532
+    },
+    {
+      "from": 533,
+      "to": 531
+    },
+    {
+      "from": 534,
+      "to": 211
+    },
+    {
+      "from": 534,
+      "to": 522
+    },
+    {
+      "from": 535,
+      "to": 222
+    },
+    {
+      "from": 535,
+      "to": 224
+    },
+    {
+      "from": 535,
+      "to": 225
+    },
+    {
+      "from": 535,
+      "to": 522
+    },
+    {
+      "from": 536,
+      "to": 535
+    },
+    {
+      "from": 537,
+      "to": 237
+    },
+    {
+      "from": 537,
+      "to": 522
+    },
+    {
+      "from": 538,
+      "to": 537
+    },
+    {
+      "from": 538,
+      "to": 531
+    },
+    {
+      "from": 539,
+      "to": 226
+    },
+    {
+      "from": 539,
+      "to": 522
+    },
+    {
+      "from": 540,
+      "to": 232
+    },
+    {
+      "from": 540,
+      "to": 518
+    },
+    {
+      "from": 541,
+      "to": 540
+    },
+    {
+      "from": 541,
+      "to": 521
+    },
+    {
+      "from": 542,
+      "to": 216
+    },
+    {
+      "from": 542,
+      "to": 531
+    },
+    {
+      "from": 543,
+      "to": 542
+    },
+    {
+      "from": 544,
+      "to": 239
+    },
+    {
+      "from": 544,
+      "to": 522
+    },
+    {
+      "from": 545,
+      "to": 228
+    },
+    {
+      "from": 545,
+      "to": 522
+    },
+    {
+      "from": 546,
+      "to": 545
+    },
+    {
+      "from": 546,
+      "to": 541
+    },
+    {
+      "from": 547,
+      "to": 546
+    },
+    {
+      "from": 547,
+      "to": 519
+    },
+    {
+      "from": 548,
+      "to": 248
+    },
+    {
+      "from": 548,
+      "to": 522
+    },
+    {
+      "from": 549,
+      "to": 547
+    },
+    {
+      "from": 549,
+      "to": 548
+    },
+    {
+      "from": 549,
+      "to": 247
+    },
+    {
+      "from": 550,
+      "to": 549
+    },
+    {
+      "from": 550,
+      "to": 67
+    },
+    {
+      "from": 552,
+      "to": 551
+    },
+    {
+      "from": 553,
+      "to": 552
+    },
+    {
+      "from": 554,
+      "to": 553
+    },
+    {
+      "from": 554,
+      "to": 483
+    },
+    {
+      "from": 555,
+      "to": 554
+    },
+    {
+      "from": 555,
+      "to": 521
+    },
+    {
+      "from": 556,
+      "to": 254
+    },
+    {
+      "from": 556,
+      "to": 554
+    },
+    {
+      "from": 557,
+      "to": 552
+    },
+    {
+      "from": 558,
+      "to": 557
+    },
+    {
+      "from": 559,
+      "to": 173
+    },
+    {
+      "from": 559,
+      "to": 558
+    },
+    {
+      "from": 560,
+      "to": 559
+    },
+    {
+      "from": 561,
+      "to": 560
+    },
+    {
+      "from": 561,
+      "to": 554
+    },
+    {
+      "from": 562,
+      "to": 124
+    },
+    {
+      "from": 562,
+      "to": 551
+    },
+    {
+      "from": 563,
+      "to": 374
+    },
+    {
+      "from": 563,
+      "to": 562
+    },
+    {
+      "from": 564,
+      "to": 551
+    },
+    {
+      "from": 564,
+      "to": 29
+    },
+    {
+      "from": 565,
+      "to": 374
+    },
+    {
+      "from": 565,
+      "to": 368
+    },
+    {
+      "from": 566,
+      "to": 34
+    },
+    {
+      "from": 567,
+      "to": 566
+    },
+    {
+      "from": 568,
+      "to": 337
+    },
+    {
+      "from": 568,
+      "to": 531
+    },
+    {
+      "from": 569,
+      "to": 328
+    },
+    {
+      "from": 569,
+      "to": 539
+    },
+    {
+      "from": 570,
+      "to": 321
+    },
+    {
+      "from": 570,
+      "to": 323
+    },
+    {
+      "from": 571,
+      "to": 195
+    },
+    {
+      "from": 571,
+      "to": 552
+    },
+    {
+      "from": 572,
+      "to": 571
+    },
+    {
+      "from": 573,
+      "to": 303
+    },
+    {
+      "from": 573,
+      "to": 552
+    },
+    {
+      "from": 574,
+      "to": 572
+    },
+    {
+      "from": 574,
+      "to": 573
+    },
+    {
+      "from": 575,
+      "to": 574
+    },
+    {
+      "from": 575,
+      "to": 554
+    },
+    {
+      "from": 576,
+      "to": 180
+    },
+    {
+      "from": 576,
+      "to": 552
+    },
+    {
+      "from": 577,
+      "to": 164
+    },
+    {
+      "from": 577,
+      "to": 171
+    },
+    {
+      "from": 578,
+      "to": 577
+    },
+    {
+      "from": 579,
+      "to": 578
+    },
+    {
+      "from": 580,
+      "to": 578
+    },
+    {
+      "from": 580,
+      "to": 554
+    },
+    {
+      "from": 581,
+      "to": 576
+    },
+    {
+      "from": 581,
+      "to": 580
+    },
+    {
+      "from": 582,
+      "to": 159
+    },
+    {
+      "from": 582,
+      "to": 157
+    },
+    {
+      "from": 582,
+      "to": 552
+    },
+    {
+      "from": 583,
+      "to": 98
+    },
+    {
+      "from": 583,
+      "to": 102
+    },
+    {
+      "from": 583,
+      "to": 552
+    },
+    {
+      "from": 584,
+      "to": 583
+    },
+    {
+      "from": 584,
+      "to": 554
+    },
+    {
+      "from": 585,
+      "to": 101
+    },
+    {
+      "from": 585,
+      "to": 552
+    },
+    {
+      "from": 586,
+      "to": 99
+    },
+    {
+      "from": 586,
+      "to": 101
+    },
+    {
+      "from": 587,
+      "to": 163
+    },
+    {
+      "from": 587,
+      "to": 552
+    },
+    {
+      "from": 588,
+      "to": 587
+    },
+    {
+      "from": 588,
+      "to": 554
+    },
+    {
+      "from": 589,
+      "to": 588
+    },
+    {
+      "from": 589,
+      "to": 508
+    },
+    {
+      "from": 590,
+      "to": 146
+    },
+    {
+      "from": 590,
+      "to": 552
+    },
+    {
+      "from": 591,
+      "to": 590
+    },
+    {
+      "from": 591,
+      "to": 380
+    },
+    {
+      "from": 592,
+      "to": 556
+    },
+    {
+      "from": 592,
+      "to": 565
+    },
+    {
+      "from": 593,
+      "to": 592
+    },
+    {
+      "from": 593,
+      "to": 537
+    },
+    {
+      "from": 593,
+      "to": 54
+    },
+    {
+      "from": 594,
+      "to": 593
+    },
+    {
+      "from": 594,
+      "to": 67
+    },
+    {
+      "from": 595,
+      "to": 593
+    },
+    {
+      "from": 595,
+      "to": 517
+    },
+    {
+      "from": 595,
+      "to": 550
+    },
+    {
+      "from": 596,
+      "to": 330
+    },
+    {
+      "from": 596,
+      "to": 415
+    },
+    {
+      "from": 597,
+      "to": 403
+    },
+    {
+      "from": 597,
+      "to": 416
+    },
+    {
+      "from": 598,
+      "to": 388
+    },
+    {
+      "from": 598,
+      "to": 384
+    }
+  ]
+}
