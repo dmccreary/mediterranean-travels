@@ -264,6 +264,10 @@ The timeline below sets twelve later moments in Paul's influence side by side, s
 
 #### Diagram: How Paul's Words Traveled
 
+<iframe src="../../sims/how-pauls-words-traveled/main.html" height="656px" width="100%" scrolling="no"></iframe>
+
+[Run the How Paul's Words Traveled MicroSim Fullscreen](../../sims/how-pauls-words-traveled/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>How Paul's Words Traveled</summary>
 Type: timeline
@@ -464,6 +468,10 @@ The **grammar of schooling** is the historians David Tyack and William Tobin's p
 **Seat time** is the amount of time a student spends in class, used as the measure of how much instruction has been received. The **Carnegie unit** is the standard high school credit built on it, defined in 1906 by the Carnegie Foundation for the Advancement of Teaching as 120 hours of class in one subject over a school year. It was created for a practical reason, to decide which colleges qualified for the Foundation's pensions and to give colleges a common way to read high school transcripts, and most American high schools still award credit on that basis. Its weakness is that it counts hours, not learning: a student who already knows the material and a student who is lost earn the same credit. It is a clear example of an inherited form, and the sorter below asks us to tell such forms from the purposes they serve.
 
 #### Diagram: Essential or Inherited?
+
+<iframe src="../../sims/essential-or-inherited-school-practices/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Essential or Inherited? MicroSim Fullscreen](../../sims/essential-or-inherited-school-practices/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Essential or Inherited?</summary>
@@ -682,6 +690,10 @@ Corinth was Paul's implementation dip. A year or two after he founded the commun
 **Change fatigue** is the weariness and cynicism people feel when one change follows another with no time to absorb any of them. The organizational researcher Eric Abrahamson called it "repetitive change syndrome." In schools it sounds like "This too shall pass," said by a teacher who has seen five initiatives come and go. Change fatigue is the reason an implementation dip is dangerous: people who have been through many changes expect this one to be abandoned too, so they wait it out, and their waiting makes the dip deeper. *AI-Native Schools* treats change fatigue in [Sustaining Change: Systems Thinking and National Adoption](https://dmccreary.github.io/ai-native-schools/chapters/18-sustaining-change-systems-thinking/) as an argument for focus: fewer changes, kept longer, by leaders who finish what they start. Paul's advice to the Galatians fits it: "let us not grow weary in doing what is right." It is easier to follow when there is only one right thing to do at a time. The diagram below lets us practice reading loops like the ones in this part, including two from Paul's world.
 
 #### Diagram: Reinforcing or Balancing? Loops From Ephesus to the Staff Room
+
+<iframe src="../../sims/loops-ephesus-to-staff-room/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Reinforcing or Balancing? Loops From Ephesus to the Staff Room MicroSim Fullscreen](../../sims/loops-ephesus-to-staff-room/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Reinforcing or Balancing? Loops From Ephesus to the Staff Room</summary>
