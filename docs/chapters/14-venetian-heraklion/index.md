@@ -330,7 +330,7 @@ To see why that mattered, we need three words from the printing shop. Early book
 
 #### Diagram: Folding the Sheet: Folio, Quarto, Octavo
 
-<iframe src="../../sims/folio-quarto-octavo-paper-calculator/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/folio-quarto-octavo-paper-calculator/main.html" height="624px" width="100%" scrolling="no"></iframe>
 
 [Run the Folding the Sheet: Folio, Quarto, Octavo MicroSim Fullscreen](../../sims/folio-quarto-octavo-paper-calculator/main.html){ .md-button .md-button--primary }
 

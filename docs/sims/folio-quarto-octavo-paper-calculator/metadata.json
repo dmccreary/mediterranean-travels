@@ -2,7 +2,7 @@
   "title": "Folding the Sheet: Folio, Quarto, Octavo",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for folding the sheet: folio, quarto, octavo",
+  "description": "Calculate the pages and sheets of paper in one copy of Virgil as a folio, a plain octavo, and an Aldine-style octavo, then explore any format, page density, and print run.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "Folding the Sheet: Folio, Quarto, Octavo",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Calculate the number of pages and sheets of paper needed for one copy of Virgil's works in folio, quarto, or octavo format at a given number of lines per page, getting all three challenge calculations exactly right within two attempts each."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Sheet",
+      "Folio",
+      "Quarto",
+      "Octavo",
+      "Italic type",
+      "Commentary",
+      "Aldine editions"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 620
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Worked practice problems with immediate feedback, then free exploration",
+    "keyQuestions": [
+      "How many pages does one sheet make in each format?",
+      "Why must sheets per copy round up?",
+      "How much of the Aldine saving came from the fold, and how much from the denser page?"
+    ],
+    "commonMisconceptions": [
+      "A sheet is a page (a sheet makes 4, 8, or 16 pages).",
+      "The small format alone explains the Aldine savings; the compact type and missing commentary did not matter.",
+      "A cheaper book must hold a shorter text.",
+      "Pages divide evenly into sheets, so a part-sheet can be ignored."
+    ],
+    "assessmentOpportunities": [
+      "Three challenge calculations, two attempts each (mastery: all three correct).",
+      "Follow-up: sheets for a quarto Virgil at 20 lines per page (81)."
+    ]
   },
-  "chapter": "14-venetian-heraklion"
+  "chapter": "14-venetian-heraklion",
+  "type": "Interactive Calculator",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/folio-quarto-octavo-paper-calculator/"
 }
