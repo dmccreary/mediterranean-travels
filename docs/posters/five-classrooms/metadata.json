@@ -1,0 +1,73 @@
+{
+  "title": "Five Classrooms Across Three Thousand Years",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive infographic overlay comparing five classrooms from the route, from the Lyceum to a modern tutoring room, with hover tooltips, a click-to-open infobox, and a quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Who could learn: five classrooms and the Learning for All pattern",
+    "learningObjectives": [
+      "Compare five classrooms from the route, from the Lyceum to a modern tutoring room.",
+      "For each classroom, state who was inside, what opened the door, and who was still left outside."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Chapter 2: the four-step Learning for All pattern"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 940
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "Who was inside, and who was still left outside?",
+      "What opened the door, and who resisted?",
+      "What does the modern room keep from the older ones?"
+    ],
+    "commonMisconceptions": [
+      "The five classrooms are steps on a ladder of progress.",
+      "A technology that lowers cost reaches everyone.",
+      "Free tuition means open to everyone."
+    ],
+    "assessmentOpportunities": [
+      "Ten-question quiz mode: click the classroom that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a classroom for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks ten questions answered by clicking a classroom."
+    }
+  ],
+  "chapter": "02-traveling-well",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}

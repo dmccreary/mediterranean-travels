@@ -5,8 +5,11 @@ description: Build spec for the Five Classrooms interactive poster, with the pan
 
 # Spec: Five Classrooms Across Three Thousand Years
 
-**Status:** spec and draft data only. No image has been generated, and there is
-no `index.md` or `main.html` yet, so this poster is not in the nav.
+**Status:** built (2026-11-25). The image is generated, the zones are calibrated
+to it, and the page is in the nav at
+[Five Classrooms Across Three Thousand Years](index.md). It is `built`, not
+`approved`: the author approves it after trying the controls. The Lyceum panel
+was kept as drafted (the first option in the open questions below).
 
 ## Learning Objective
 
@@ -114,19 +117,13 @@ about what is drawn.
 | File | State |
 |---|---|
 | `image-prompt.md` | Drafted. Ready for author review before any image is generated. |
-| `data.json` | Drafted. Zones are computed from the layout (16 px margin and gap on a 1536 × 1024 image) and must be recalibrated against the real image. |
-| `five-classrooms.png` | Not generated. |
-| `main.html`, `index.md`, `metadata.json` | Not created. Copy from `docs/posters/oracle-vs-algorithm/` once the image exists. |
+| `data.json` | Done. The measured panel edges match the layout (16 px margin and gap), so the zones are unchanged. Facts were trimmed to fit the infobox, and the last chip is "Tutoring" so it fits on one line. |
+| `five-classrooms.png` | Generated, 1536 × 1024, no text in the image. `five-classrooms-card.png` is the 1200 px social card. |
+| `main.html`, `five-classrooms.js`, `index.md`, `metadata.json` | Created from the Oracle and Algorithm poster. The infobox minimum height is raised to 330 px and the iframe is 940 px tall, because the four-step text is longer than the other posters'. |
 
 ## Next Steps
 
-1. Author reviews this spec and `image-prompt.md`, and answers the open
-   questions, above all the Lyceum.
-2. Generate the image, save it as `five-classrooms.png`, and check that each
-   panel's top band is empty and the image has no text.
-3. Measure the real panel edges, update the zones, and copy the page files from
-   the Oracle and Algorithm poster.
-4. Write `index.md` with `status: built` after the controls work, and leave
-   `approved` to the author.
-5. Add the poster to [List of Posters](../index.md) and to `nav:` in `mkdocs.yml`,
-   then run `mkdocs build --strict`.
+1. Author tries Explore and Quiz, checks the five zones with `main.html?edit=true`
+   if any edge looks off, and sets `status: approved` in `index.md`.
+2. Optionally, decide on the sixth room (the Hall of Tyrannus) or a Lyceum
+   four-step note in Chapter 20.
