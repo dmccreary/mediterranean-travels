@@ -199,6 +199,12 @@ The table summarizes how to tell the three Greek orders apart.
     ![Glaux thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
     Think of the capital as the column's hat: a plain cushion, a pair of scrolls, or a basket of leaves. Nine times out of ten the hat alone names the order, and the base and flutes only confirm it. That frees our eyes for the more interesting question: who paid for this, and why here?
 
+Before we look at each order in turn, the poster below draws one column of each order side by side, at the same height, with a piece of the entablature it carries. Hover over a column to see its name and key feature, or click it to read about its base, shaft, capital, frieze, proportions, and where we see it on our route. Then press **Quiz Mode** to hide the names and test ourselves.
+
+<iframe src="../../posters/column-types/main.html" height="830px" width="100%" scrolling="no" title="The three classical orders: Doric, Ionic, and Corinthian columns"></iframe>
+
+[Open the Three Classical Orders Poster Fullscreen](../../posters/column-types/main.html){ .md-button .md-button--primary }
+
 ### The Ionic Order
 
 The **Ionic order** is the classical order whose capital carries two spiral volutes, and whose slender, usually fluted shaft stands on a molded base. It was invented in Ionia, the Greek coast of Anatolia and its islands, in the 6th century BCE, and Ephesus is its home ground: the archaic Temple of Artemis was one of the first giant Ionic temples, and its huge scrolled capitals set a pattern for the whole Greek world. The Ionic order is lighter and more decorative than the Doric. Its shaft is usually 8 or 9 times as tall as it is wide, its flutes are separated by narrow flat strips rather than meeting in sharp edges, and its frieze is a continuous band, ideal for a long carved procession. In Athens we will meet it again on the Acropolis, Day 10, in the small Temple of Athena Nike and the Erechtheion <audio id="audio-erechtheion" src="../../audio/erechtheion.mp3" preload="none"></audio><button onclick="document.getElementById('audio-erechtheion').play()" class="pronounce-btn">🔊 Pronounce</button> *eh-REK-thee-on*; Athenians built in Ionic when they wanted grace, and in Doric when they wanted weight.

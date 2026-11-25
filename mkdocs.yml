@@ -67,7 +67,9 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Glossary Quality Report: learning-graph/glossary-quality-report.md
       - Mascot Test: learning-graph/mascot-test.md
+      - Feature Checklist: learning-graph/feature-checklist.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md
@@ -154,6 +156,8 @@ nav:
     - Extensions and Excursions: appendices/extensions-and-excursions.md
     - Who Created the Antikythera Mechanism: appendices/antikythera-mechanism.md
 
+  - Glossary: glossary.md
+
   - License: license.md
   - Contact: contact.md
 
@@ -218,6 +222,9 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Currency-safe math: inline is \(...\) only, never single $. Rendered by
   # KaTeX (see extra_javascript and docs/js/katex.js).
   - pymdownx.arithmatex:
