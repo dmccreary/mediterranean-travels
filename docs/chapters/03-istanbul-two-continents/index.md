@@ -107,6 +107,10 @@ Before we look at the map, three place names need defining, because the map sort
 
 #### Diagram: Istanbul's Three Shores
 
+<iframe src="../../sims/istanbul-three-shores-map/main.html" height="680px" width="100%" scrolling="no"></iframe>
+
+[Run the Istanbul's Three Shores MicroSim Fullscreen](../../sims/istanbul-three-shores-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Istanbul's Three Shores</summary>
 Type: map
@@ -330,6 +334,10 @@ The interactive cross-section below lets us take the attacker's route through th
 
 #### Diagram: Layers of the Theodosian Walls
 
+<iframe src="../../sims/theodosian-walls-layers/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Layers of the Theodosian Walls MicroSim Fullscreen](../../sims/theodosian-walls-layers/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Layers of the Theodosian Walls</summary>
 Type: infographic
@@ -473,6 +481,10 @@ Because the siege has so many moving parts, the step-through below asks a single
 
 #### Diagram: The Siege of 1453, Step by Step
 
+<iframe src="../../sims/siege-of-1453-step-through/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Siege of 1453, Step by Step MicroSim Fullscreen](../../sims/siege-of-1453-step-through/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>The Siege of 1453, Step by Step</summary>
 Type: microsim
@@ -586,6 +598,10 @@ Reading food as history means asking four questions of any dish. *Where did each
 **Worked example: reading a Turkish breakfast table.** Let's read tomorrow morning's breakfast in layers. The **olives** and **olive oil** are the oldest layer: olive trees have been cultivated around the eastern Mediterranean for thousands of years, long before Byzantium was founded. The **white cheese**, the **yogurt**, and the **kaymak** (thick clotted cream) carry the culture of Turkic herders who moved west from Central Asia into Anatolia after 1071, a dairy culture built on sheep, goats, and cattle; *yoğurt* and *kaymak* are Turkic words. The **sliced tomatoes** and the **green peppers** come from the Americas, a gift of the Columbian Exchange, the transfer of crops between the Americas and the rest of the world that began after 1492; tomatoes did not become common in Ottoman cooking until the 1800s. The **tea** is the newest layer of all. The Ottomans were coffee drinkers, and Turkey only became a nation of tea drinkers in the 20th century, after tea plantations were planted on the Black Sea coast at Rize in the 1930s and 1940s. One breakfast table, then, holds the ancient Mediterranean, the Turkish migration, the age of exploration, and the early Republic. The sorting activity below lets us practice reading these layers.
 
 #### Diagram: Reading Food in Layers
+
+<iframe src="../../sims/food-history-layers-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Reading Food in Layers MicroSim Fullscreen](../../sims/food-history-layers-sorter/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Reading Food in Layers</summary>
@@ -751,6 +767,10 @@ Turkish spelling is wonderfully regular: each letter has one sound, and words ar
 The activity below puts the phrases into the situations we will actually meet on our Istanbul days.
 
 #### Diagram: The Right Words at the Right Moment
+
+<iframe src="../../sims/turkish-phrase-situations/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Right Words at the Right Moment MicroSim Fullscreen](../../sims/turkish-phrase-situations/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>The Right Words at the Right Moment</summary>

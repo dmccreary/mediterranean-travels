@@ -2,7 +2,7 @@
   "title": "Istanbul's Three Shores",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for istanbul's three shores",
+  "description": "Classify twelve Istanbul places as on the historic peninsula, in Galata, or on the Asian shore, then see each one appear on a satellite map.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "Istanbul's Three Shores",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve Istanbul places by the shore they stand on (the historic peninsula, Galata, or the Asian shore), with at least 10 of 12 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Strait",
+      "The Bosphorus Strait",
+      "The historic peninsula",
+      "Galata",
+      "The Asian shore",
+      "The Golden Horn"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 676
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri World Imagery tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (classification on a map)",
+    "keyQuestions": [
+      "Which body of water separates Europe from Asia in Istanbul?",
+      "Which body of water separates the historic peninsula from Galata?",
+      "Why do the Byzantine and early Ottoman monuments cluster on one shore?"
+    ],
+    "commonMisconceptions": [
+      "All of Istanbul is in Europe.",
+      "The Golden Horn is part of the Bosphorus, so Galata is in Asia.",
+      "The old Greek city of Byzantium stood where the modern city center (Taksim) is.",
+      "The walls of Constantinople run along the Bosphorus."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve places (mastery: 10 of 12).",
+      "Name the water crossed and the continent reached on the Eminönü to Kadıköy ferry."
+    ]
   },
-  "chapter": "03-istanbul-two-continents"
+  "chapter": "03-istanbul-two-continents",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/istanbul-three-shores-map/"
 }
