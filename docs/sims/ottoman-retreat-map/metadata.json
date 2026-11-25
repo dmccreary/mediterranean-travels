@@ -1,0 +1,42 @@
+{
+  "title": "Where the Empire Withdrew, 1683\u20131923",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive MicroSim for where the empire withdrew, 1683\u20131923",
+  "date": "2026-11-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Where the Empire Withdrew, 1683\u20131923",
+    "learningObjectives": [
+      "TODO: Add learning objectives"
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Leaflet",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 450
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": [],
+    "commonMisconceptions": [],
+    "assessmentOpportunities": []
+  },
+  "chapter": "07-end-of-empire-modern-turkey"
+}

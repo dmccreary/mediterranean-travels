@@ -1,0 +1,42 @@
+{
+  "title": "Where in Paul's Life Was Each Letter Written?",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive MicroSim for where in paul's life was each letter written?",
+  "date": "2026-11-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Where in Paul's Life Was Each Letter Written?",
+    "learningObjectives": [
+      "TODO: Add learning objectives"
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-timeline",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 450
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": [],
+    "commonMisconceptions": [],
+    "assessmentOpportunities": []
+  },
+  "chapter": "09-paul-life-letters"
+}

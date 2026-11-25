@@ -1,0 +1,42 @@
+{
+  "title": "From the Schism to the Sack, 1054\u20131261",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive MicroSim for from the schism to the sack, 1054\u20131261",
+  "date": "2026-11-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "From the Schism to the Sack, 1054\u20131261",
+    "learningObjectives": [
+      "TODO: Add learning objectives"
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-timeline",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 450
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration",
+    "keyQuestions": [],
+    "commonMisconceptions": [],
+    "assessmentOpportunities": []
+  },
+  "chapter": "04-byzantine-constantinople"
+}
