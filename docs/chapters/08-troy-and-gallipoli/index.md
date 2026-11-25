@@ -363,7 +363,7 @@ To test the idea, Parry and his student Albert Lord went in 1933 to 1935 to Yugo
 
 #### Diagram: Finish the Line Like a Homeric Singer
 
-<iframe src="../../sims/homeric-formula-builder/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/homeric-formula-builder/main.html" height="564px" width="100%" scrolling="no"></iframe>
 
 [Run the Finish the Line Like a Homeric Singer MicroSim Fullscreen](../../sims/homeric-formula-builder/main.html){ .md-button .md-button--primary }
 
