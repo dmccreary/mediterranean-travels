@@ -105,6 +105,10 @@ Before we practice these ideas, it helps to remember that they are judgments, no
 
 #### Diagram: Thoughtful Traveler Choices
 
+<iframe src="../../sims/thoughtful-traveler-choices/main.html" height="594px" width="100%" scrolling="no"></iframe>
+
+[Run the Thoughtful Traveler Choices MicroSim Fullscreen](../../sims/thoughtful-traveler-choices/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Thoughtful Traveler Choices</summary>
 Type: microsim
@@ -241,6 +245,10 @@ The days are also short. In mid-November the sun sets around 5:10 PM in Athens a
 The chart below lets us compare our stops month by month and predict what November will feel like before we see the answer.
 
 #### Diagram: November Weather at Our Stops
+
+<iframe src="../../sims/november-weather-at-our-stops/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the November Weather at Our Stops MicroSim Fullscreen](../../sims/november-weather-at-our-stops/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>November Weather at Our Stops</summary>
@@ -414,6 +422,10 @@ The sorting activity below puts the four kinds to work on twelve scripts, most o
 
 #### Diagram: Sort the Scripts
 
+<iframe src="../../sims/sort-the-scripts/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Sort the Scripts MicroSim Fullscreen](../../sims/sort-the-scripts/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Sort the Scripts</summary>
 Type: microsim
@@ -535,6 +547,10 @@ The activity below gives practice with twelve signs we are likely to see in Gree
 
 #### Diagram: Read a Greek Sign
 
+<iframe src="../../sims/read-a-greek-sign/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Read a Greek Sign MicroSim Fullscreen](../../sims/read-a-greek-sign/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Read a Greek Sign</summary>
 Type: microsim
@@ -616,6 +632,10 @@ The great widening, in other words, is recent: most of it happened in the last c
 The chart below lets us test our sense of how fast that great widening happened.
 
 #### Diagram: World Literacy Over Two Centuries
+
+<iframe src="../../sims/world-literacy-over-time/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the World Literacy Over Two Centuries MicroSim Fullscreen](../../sims/world-literacy-over-time/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>World Literacy Over Two Centuries</summary>
