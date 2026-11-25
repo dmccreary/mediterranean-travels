@@ -691,7 +691,7 @@ Corinth was Paul's implementation dip. A year or two after he founded the commun
 
 #### Diagram: Reinforcing or Balancing? Loops From Ephesus to the Staff Room
 
-<iframe src="../../sims/loops-ephesus-to-staff-room/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/loops-ephesus-to-staff-room/main.html" height="564px" width="100%" scrolling="no"></iframe>
 
 [Run the Reinforcing or Balancing? Loops From Ephesus to the Staff Room MicroSim Fullscreen](../../sims/loops-ephesus-to-staff-room/main.html){ .md-button .md-button--primary }
 
