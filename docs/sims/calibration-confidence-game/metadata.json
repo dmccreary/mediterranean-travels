@@ -2,41 +2,68 @@
   "title": "How Calibrated Are You?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for how calibrated are you?",
-  "date": "2026-11-24",
+  "description": "State the probability that each of twelve statements from this book is true, then judge your own calibration from your Brier score, reliability table and calibration chart, and judge two illustrative weather forecasters.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "How Calibrated Are You?",
+    "subjectArea": "Computer Science",
+    "topic": "Model calibration, Brier score, reliability diagrams, and overconfidence",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Assess whether one's own probability judgments, and those of two weather forecasters, are overconfident, underconfident, or well calibrated, by stating probabilities for twelve statements and judging the results against a reliability table, with all three assessments correct."
     ],
     "bloomsTaxonomy": "Evaluate",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Probability",
+      "Prediction uncertainty",
+      "Model calibration",
+      "Overconfident",
+      "Underconfident",
+      "Brier score"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 600
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Generate-then-judge: the learner first creates a personal probability record, then judges it, and two forecasters' records, against the calibration standard",
+    "keyQuestions": [
+      "Were your 90 and 100 percent answers right as often as you claimed?",
+      "Is your average confidence above, near, or below your percent right?",
+      "Which forecaster's stated percentage matches how often it rained?",
+      "Why can a confident forecaster score worse than one who always says 50 percent?"
+    ],
+    "commonMisconceptions": [
+      "Being confident is the same as being well calibrated.",
+      "A 70 percent forecast is wrong whenever the event does not happen.",
+      "Saying 50 percent on everything is a safe strategy.",
+      "Twelve answers are enough to know one's calibration for sure."
+    ],
+    "assessmentOpportunities": [
+      "Three committed judgments, one attempt each (mastery: 3 of 3): own calibration, the better-calibrated forecaster, and whether Forecaster B was overconfident.",
+      "Explain why one dry day cannot prove a 70 percent rain forecast wrong."
+    ]
   },
-  "chapter": "19-algorithm"
+  "chapter": "19-algorithm",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/calibration-confidence-game/"
 }

@@ -468,7 +468,7 @@ The MicroSim below turns this into a game: we give probabilities for twelve stat
 
 #### Diagram: How Calibrated Are You?
 
-<iframe src="../../sims/calibration-confidence-game/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/calibration-confidence-game/main.html" height="604px" width="100%" scrolling="no"></iframe>
 
 [Run the How Calibrated Are You? MicroSim Fullscreen](../../sims/calibration-confidence-game/main.html){ .md-button .md-button--primary }
 
