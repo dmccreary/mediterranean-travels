@@ -1,0 +1,133 @@
+/* Eleven Centuries of the Oracle - styles */
+:root {
+    --ink: #1d2a33;
+    --muted: #5d6d78;
+    --line: #dde4e8;
+    --paper: #fbfaf7;
+    --header: #4a3b10;
+    --good: #2f7d4a;
+    --bad: #a4282a;
+    --strength: #1f5fa8;
+    --weak: #b35806;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+}
+main { display: block; width: 100%; }
+
+header {
+    background: var(--header);
+    color: #fff;
+    height: 38px;
+    padding: 8px 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    overflow: hidden;
+}
+header h1 { margin: 0; font-size: 18px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#score { margin-left: auto; font-weight: 600; font-size: 14px; white-space: nowrap; }
+
+button {
+    font: inherit;
+    font-size: 13px;
+    padding: 4px 10px;
+    border: 1px solid #b9c3c9;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+}
+button:hover:not(:disabled) { border-color: var(--header); background: #f6f1ea; }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--header); border-color: var(--header); color: #fff; }
+button.primary:hover:not(:disabled) { background: #33290b; }
+
+/* ---------- the card ---------- */
+#card {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 8px 12px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#c-head { display: flex; gap: 10px; align-items: baseline; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+#c-date { color: var(--header); font-weight: 700; font-size: 15px; text-transform: none; letter-spacing: 0; }
+#c-text { font-size: 15px; font-weight: 600; line-height: 1.3; min-height: 39px; }
+#c-q { font-size: 13px; color: var(--muted); }
+#choices { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
+#choices.four { grid-template-columns: repeat(4, 1fr); }
+#choices button { min-height: 36px; line-height: 1.15; padding: 3px 8px; border-width: 2px; border-left-width: 7px; text-align: left; font-size: 14px; }
+#choices.four button { font-size: 13px; border-left-width: 2px; }
+#choices button:disabled { opacity: 0.55; }
+#choices button.correct { background: #e3f1e7; border-color: var(--good); opacity: 1; font-weight: 600; }
+#choices button.wrong { background: #f8e3e3; border-color: var(--bad); opacity: 1; }
+#choices button.strength { border-left-color: var(--strength); }
+#choices button.weak { border-left-color: var(--weak); }
+#feedback { flex: 1; line-height: 1.35; font-size: 13px; overflow-y: auto; }
+#feedback .good { color: var(--good); font-weight: 700; }
+#feedback .bad { color: var(--bad); font-weight: 700; }
+#feedback .muted { color: var(--muted); font-style: italic; }
+.row { display: flex; gap: 6px; align-items: center; }
+.row .hint { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* ---------- toolbar and timeline ---------- */
+#toolbar button { white-space: nowrap; flex: none; }
+#toolbar { display: flex; align-items: center; gap: 6px; padding: 6px 10px; height: 36px; overflow: hidden; }
+#note { color: var(--muted); font-size: 12px; font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#timeline { background: #fff; border-top: 1px solid var(--line); }
+.vis-timeline { border: none !important; font-size: 12px; }
+.vis-time-axis .vis-text { color: var(--muted); }
+.vis-labelset .vis-label .vis-inner { font-weight: 700; font-size: 12px; padding: 4px 8px; line-height: 1.2; }
+.vis-labelset .vis-label.g-strength .vis-inner { color: var(--strength); }
+.vis-labelset .vis-label.g-weak .vis-inner { color: var(--weak); }
+.vis-foreground .vis-group.g-strength { background: rgba(31, 95, 168, 0.04); }
+.vis-foreground .vis-group.g-weak { background: rgba(179, 88, 6, 0.05); }
+
+/* Answered cards: a badge with a shape cue (triangle up / down) and a color */
+.vis-item.cardi { cursor: pointer; background: #fff; border-color: #c5ced4; color: var(--ink); }
+.vis-item.cardi .vis-item-content { padding: 0 2px !important; white-space: nowrap; }
+.vis-item.vis-range.cardi .vis-item-overflow { overflow: visible; }
+.vis-item.cardi .num { display: inline-block; min-width: 20px; padding: 0 5px; border-radius: 9px; color: #fff; font-weight: 700; font-size: 11px; line-height: 17px; text-align: center; }
+.vis-item.cardi.strength .num { background: var(--strength); }
+.vis-item.cardi.weak .num { background: var(--weak); }
+.vis-item.cardi.miss { border: 2px dashed var(--bad); }
+.vis-item.cardi.now { box-shadow: 0 0 0 3px #f2c14e; }
+.vis-item.vis-selected.cardi { background: #fff4d6; border-color: #c8963e; }
+.vis-item.vis-dot.cardi { display: none; }
+.vis-item.vis-line.cardi { opacity: 0.35; }
+
+/* The 1,140-year lifespan and, at the end, the cluster of weakness */
+.vis-item.vis-background.life { background: rgba(160, 118, 28, 0.10); overflow: visible; }
+.vis-item.vis-background.life .vis-item-overflow { overflow: visible; }
+.vis-item.vis-background.life .vis-item-content { position: absolute; bottom: 2px; left: 0; font-size: 11px; font-weight: 700; color: #6e5010; padding: 0 4px !important; white-space: nowrap; }
+.vis-item.vis-background.cluster { background: repeating-linear-gradient(45deg, rgba(179,88,6,0.10), rgba(179,88,6,0.10) 6px, rgba(179,88,6,0.02) 6px, rgba(179,88,6,0.02) 12px); overflow: visible; }
+.vis-item.vis-background.cluster .vis-item-overflow { overflow: visible; }
+.vis-item.vis-background.cluster .vis-item-content { position: absolute; top: 2px; left: 0; font-size: 11px; font-weight: 700; color: #7a3c04; padding: 0 4px !important; white-space: nowrap; }
+
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: #fff !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    max-width: 280px !important;
+    white-space: normal !important;
+    line-height: 1.35 !important;
+    border: none !important;
+}
+
+@media (max-width: 600px) {
+    #choices.four { grid-template-columns: repeat(2, 1fr); }
+    #choices button { min-height: 32px; font-size: 13px; }
+    .row .hint, #note { display: none; }
+    header h1 { font-size: 15px; }
+    #score { font-size: 12px; }
+}

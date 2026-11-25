@@ -678,7 +678,7 @@ The timeline below sorts fourteen moments of those centuries into signs of the o
 
 #### Diagram: Eleven Centuries of the Oracle
 
-<iframe src="../../sims/delphi-oracle-strength-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/delphi-oracle-strength-timeline/main.html" height="486px" width="100%" scrolling="no"></iframe>
 
 [Run the Eleven Centuries of the Oracle MicroSim Fullscreen](../../sims/delphi-oracle-strength-timeline/main.html){ .md-button .md-button--primary }
 
