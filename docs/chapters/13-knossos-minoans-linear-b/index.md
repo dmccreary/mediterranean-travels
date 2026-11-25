@@ -368,7 +368,7 @@ The timeline below sets the whole story of Knossos, from village to decipherment
 
 #### Diagram: Knossos From Village to Decipherment
 
-<iframe src="../../sims/knossos-village-to-decipherment-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/knossos-village-to-decipherment-timeline/main.html" height="680px" width="100%" scrolling="no"></iframe>
 
 [Run the Knossos From Village to Decipherment MicroSim Fullscreen](../../sims/knossos-village-to-decipherment-timeline/main.html){ .md-button .md-button--primary }
 
