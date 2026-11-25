@@ -7,14 +7,88 @@
     <title>Paul's Journeys and Our Route using Leaflet</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #1d2a33; background: aliceblue; }
+        main { display: block; width: 100%; }
+        #header { height: 40px; padding: 6px 12px 0; background: #12304a; color: #fff; display: flex; align-items: baseline; gap: 12px; flex-wrap: nowrap; overflow: hidden; }
+        #header h1 { font-size: 17px; margin: 0; font-weight: bold; white-space: nowrap; }
+        #header span { font-size: 13px; opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #map { height: 420px; width: 100%; border-bottom: 1px solid silver; background: #b9d3e6; }
+        #quiz { height: 236px; padding: 8px 12px; background: white; border-top: 1px solid silver; display: flex; flex-direction: column; gap: 6px; }
+        #qhead { display: flex; justify-content: space-between; font-size: 13px; color: #4a5a66; }
+        #qhead b { color: #12304a; }
+        #qtext { font-size: 16px; font-weight: bold; line-height: 1.3; }
+        #choices { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 6px; }
+        #choices.five { grid-template-columns: 1fr 1fr 1fr 1fr 0.8fr; }
+        #choices button { font-size: 14px; line-height: 1.15; padding: 4px 4px; min-height: 40px; border: 2px solid #8aa0b0; border-radius: 6px; background: #f4f8fb; color: #1d2a33; cursor: pointer; }
+        #choices button small { display: block; font-size: 12px; color: #4a5a66; }
+        #choices button .sw { display: inline-block; width: 14px; height: 4px; margin-right: 5px; vertical-align: 3px; }
+        #choices button:hover:enabled { background: #e2edf5; border-color: #12304a; }
+        #choices button:disabled { cursor: default; opacity: 0.55; }
+        #choices button.correct { background: #dff2df; border-color: #2e7d32; opacity: 1; }
+        #choices button.wrong { background: #fbe3e3; border-color: #c62828; opacity: 1; }
+        #choices button.toggle.on { background: #12304a; color: #fff; border-color: #12304a; }
+        #choices button.toggle.on small { color: #dfe8ef; }
+        #feedback { font-size: 13px; line-height: 1.35; flex: 1; overflow: hidden; }
+        #feedback .ok { color: #2e7d32; font-weight: bold; }
+        #feedback .no { color: #c62828; font-weight: bold; }
+        #feedback .ctx { color: #4a5a66; font-style: italic; }
+        #feedback .extra { color: #7a4a00; font-weight: bold; }
+        #btnrow { display: flex; gap: 8px; align-items: center; }
+        #btnrow button { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid #12304a; background: #12304a; color: #fff; cursor: pointer; }
+        #btnrow button.ghost { background: #fff; color: #12304a; }
+        #btnrow button:disabled { opacity: .35; cursor: default; }
+        #btnrow button.hidden { display: none; }
+        #btnrow label { font-size: 13px; color: #12304a; display: flex; align-items: center; gap: 4px; cursor: pointer; }
+        #btnrow .hint { font-size: 12px; color: #5d6d78; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+        .place-label { background: rgba(255,255,255,0.9); border: none; box-shadow: none; padding: 0px 3px; font-size: 11px; font-weight: bold; color: #12304a; }
+        .place-label.cur { background: #12304a; color: #fff; font-size: 12px; }
+        .place-label::before { display: none; }
+        .ref-label { background: rgba(18,48,74,0.88); border: none; box-shadow: none; padding: 0px 4px; font-size: 11px; font-weight: bold; color: #fff; }
+        .ref-label::before { display: none; }
+        .ours-label { background: rgba(255,248,225,0.95); border: 1px solid #b07d00; box-shadow: none; padding: 0px 3px; font-size: 10px; color: #6a4a00; }
+        .ours-label::before { display: none; }
+        .ref-icon div { width: 11px; height: 11px; background: #12304a; border: 2px solid #fff; box-shadow: 0 0 0 1px #12304a; transform: rotate(45deg); }
+        .ours-icon div { width: 9px; height: 9px; background: #e0a100; border: 2px solid #fff; box-shadow: 0 0 0 1px #6a4a00; }
+        .legend { background: rgba(255,255,255,0.93); padding: 5px 8px; border-radius: 6px; font-size: 11px; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,0.3); max-width: 230px; }
+        .legend .lt { font-weight: bold; color: #12304a; }
+        .legend .ln { display: inline-block; width: 16px; height: 0; vertical-align: middle; margin-right: 5px; border-top: 3px solid #555; }
+        .legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin-right: 4px; border: 2px solid #fff; box-shadow: 0 0 0 1px #555; }
+        .legend .sq { display: inline-block; width: 9px; height: 9px; vertical-align: middle; margin-right: 5px; background: #e0a100; border: 1px solid #fff; box-shadow: 0 0 0 1px #6a4a00; }
+        .legend .dia { display: inline-block; width: 8px; height: 8px; vertical-align: middle; margin: 0 6px 0 1px; background: #12304a; transform: rotate(45deg); }
+        .legend .note { color: #5d6d78; font-style: italic; }
+        .leaflet-popup-content { font-size: 13px; line-height: 1.4; margin: 8px 10px; max-width: 250px; }
+        .leaflet-popup-content b { color: #12304a; }
+        @media (max-width: 600px) {
+            #header span { display: none; }
+            #choices button { font-size: 12px; }
+            #choices button small { font-size: 11px; }
+            #btnrow .hint { display: none; }
+            .legend { display: none; }
+        }
     </style>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="paul-journeys-and-our-route.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div id="header">
+            <h1>Paul's Journeys and Our Route</h1>
+            <span>Routes as told in Acts; dates approximate</span>
+        </div>
+        <div id="map" role="application" aria-label="Map of the Mediterranean from Rome to Damascus and Jerusalem, showing our November 2026 route and twelve numbered places Paul visited"></div>
+        <div id="quiz">
+            <div id="qhead"><span id="qnum"></span><span id="score"></span></div>
+            <div id="qtext"></div>
+            <div id="choices"></div>
+            <div id="feedback" aria-live="polite"></div>
+            <div id="btnrow">
+                <button id="next" disabled>Next place</button>
+                <button id="restart" class="ghost hidden">Try again</button>
+                <label><input type="checkbox" id="ours" checked> Our route</label>
+                <span class="hint" id="hint">Keys 1 to 4 choose a journey; Enter goes on.</span>
+            </div>
+        </div>
+    </main>
+    <script src="paul-journeys-and-our-route.js"></script>
 </body>
 </html>

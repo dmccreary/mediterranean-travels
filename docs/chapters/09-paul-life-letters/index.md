@@ -522,6 +522,10 @@ Between the third journey and the voyage, Paul was arrested in Jerusalem and hel
 
 #### Diagram: Paul's Journeys and Our Route
 
+<iframe src="../../sims/paul-journeys-and-our-route/main.html" height="700px" width="100%" scrolling="no"></iframe>
+
+[Run the Paul's Journeys and Our Route MicroSim Fullscreen](../../sims/paul-journeys-and-our-route/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Paul's Journeys and Our Route</summary>
 Type: map
@@ -628,6 +632,10 @@ Acts is a precious source and a careful piece of writing with its own purposes: 
 The sorter below gives us practice with exactly that, using claims we will hear from guides in Ephesus tomorrow.
 
 #### Diagram: Who Says So? Sorting Claims About Paul
+
+<iframe src="../../sims/who-says-so-paul-sources/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Who Says So? Sorting Claims About Paul MicroSim Fullscreen](../../sims/who-says-so-paul-sources/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Who Says So? Sorting Claims About Paul</summary>
@@ -837,6 +845,10 @@ The last chapter of Romans is a list of greetings to more than two dozen people 
 The **New Testament** is the second part of the Christian Bible: 27 writings in Koine Greek from the 1st and early 2nd centuries CE, made up of four Gospels, the Book of Acts, 21 letters, and the Book of Revelation. Thirteen of the 27 bear Paul's name, nearly half the books and nearly a quarter of the text, and his letters are the oldest writings in it. The collection took shape over centuries: Paul's letters were being gathered by about 100 CE, the oldest surviving manuscript of a collection of them, a papyrus book known as P46, dates from about 200 CE, and the first list of exactly the 27 books we have now appears in a letter of Bishop Athanasius of Alexandria in 367 CE. Now we can put the seven undisputed letters back into Paul's life, using the clues inside each one, as the timeline below asks us to do.
 
 #### Diagram: Where in Paul's Life Was Each Letter Written?
+
+<iframe src="../../sims/paul-letters-on-his-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Where in Paul's Life Was Each Letter Written? MicroSim Fullscreen](../../sims/paul-letters-on-his-timeline/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Where in Paul's Life Was Each Letter Written?</summary>
