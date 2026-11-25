@@ -41,6 +41,30 @@ to compare them. Others label the parts of one picture with numbered **call-outs
 
     Two cutaway floor plans on one footprint, to compare five stages of the bath and see where the match breaks.
 
+-   [![Hagia Sophia: One Building, Four Lives](./hagia-sophia-four-lives/hagia-sophia-four-lives-thumb.jpg){ loading=lazy }](hagia-sophia-four-lives/index.md)
+
+    **[Hagia Sophia: One Building, Four Lives](hagia-sophia-four-lives/index.md)** (Side by side)
+
+    The same view of the nave as a cathedral, a mosque, a museum, and a mosque again, beside what never changed.
+
+-   [![The Colossus: Popular Picture and Likely Truth](./colossus-myth-and-evidence/colossus-myth-and-evidence-thumb.jpg){ loading=lazy }](colossus-myth-and-evidence/index.md)
+
+    **[The Colossus: Popular Picture and Likely Truth](colossus-myth-and-evidence/index.md)** (Side by side)
+
+    The giant most people imagine, beside what the evidence supports, for its pose, its place, and its end.
+
+-   [![A Scribe's Page and an Aldine Page](./scribe-and-aldine-page/scribe-and-aldine-page-thumb.jpg){ loading=lazy }](scribe-and-aldine-page/index.md)
+
+    **[A Scribe's Page and an Aldine Page](scribe-and-aldine-page/index.md)** (Side by side)
+
+    A hand-copied Byzantine page and a small Venetian printed page, compared in six ways.
+
+-   [![One Table, Two Names](./one-table-two-names/one-table-two-names-thumb.jpg){ loading=lazy }](one-table-two-names/index.md)
+
+    **[One Table, Two Names](one-table-two-names/index.md)** (Side by side)
+
+    Six pairs of Turkish and Greek dishes on one table, with both names and what the two kitchens share.
+
 -   [![Anatomy of an Ottoman Mosque](./anatomy-of-a-mosque/anatomy-of-a-mosque-thumb.jpg){ loading=lazy }](anatomy-of-a-mosque/index.md)
 
     **[Anatomy of an Ottoman Mosque](anatomy-of-a-mosque/index.md)** (Call-outs)
@@ -59,12 +83,31 @@ to compare them. Others label the parts of one picture with numbered **call-outs
 
     The crank, the gear train, and the front and back dials of an ancient prediction machine.
 
+-   [![Inside the Hagia Sophia Dome](./hagia-sophia-dome/hagia-sophia-dome-thumb.jpg){ loading=lazy }](hagia-sophia-dome/index.md)
+
+    **[Inside the Hagia Sophia Dome](hagia-sophia-dome/index.md)** (Call-outs)
+
+    A cross-section showing the piers, pendentives, windows, half-domes, and buttresses that hold up the dome.
+
+-   [![Walk Down the Hippodrome](./hippodrome-walk/hippodrome-walk-thumb.jpg){ loading=lazy }](hippodrome-walk/index.md)
+
+    **[Walk Down the Hippodrome](hippodrome-walk/index.md)** (Call-outs)
+
+    Three borrowed monuments on the old track line in Istanbul, and where each came from.
+
+-   [![The Library of Celsus Facade](./library-of-celsus/library-of-celsus-thumb.jpg){ loading=lazy }](library-of-celsus/index.md)
+
+    **[The Library of Celsus Facade](library-of-celsus/index.md)** (Call-outs)
+
+    Part by part, the front of the library at Ephesus, from the steps to the burial chamber under the floor.
+
+-   [![A Trireme at Salamis](./trireme-at-salamis/trireme-at-salamis-thumb.jpg){ loading=lazy }](trireme-at-salamis/index.md)
+
+    **[A Trireme at Salamis](trireme-at-salamis/index.md)** (Call-outs)
+
+    An Athenian warship cut open, and how the men who rowed it gave the poorest citizens a claim on the city.
+
 </div>
 
-## More Posters Are Planned
-
-Eight more posters have a written spec and an image prompt and are waiting for
-their images: Hagia Sophia in four lives, a scribe's page and an Aldine page,
-One Table, Two Names, the Colossus, the Library of Celsus, the Hagia Sophia dome,
-the Hippodrome, and a trireme at Salamis. See [Poster Ideas](poster-ideas.md)
-for the full list and where each one stands.
+The ideas behind these posters, and how each one was planned, are in
+[Poster Ideas](poster-ideas.md).

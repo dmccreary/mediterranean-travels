@@ -1,0 +1,70 @@
+{
+  "title": "One Table, Two Names",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over and click six pairs of dishes on one table, Turkish above and Greek below, to learn both names and what the two kitchens share, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Shared Turkish and Greek dishes",
+    "learningObjectives": [
+      "The learner will match six Turkish and Greek dish pairs, give both names for each, and explain, without taking a side, why the two kitchens share so many dishes: one empire for centuries, and the population exchange of 1923."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Meze, coffee, and baklava, from [Chapter 6](../../chapters/06-bazaars-scripts-presses/index.md), and the population exchange, from [Chapter 7](../../chapters/07-end-of-empire-modern-turkey/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 940
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "What do the two kitchens share, and why?",
+      "What does each pair differ in?"
+    ],
+    "commonMisconceptions": [
+      "One country invented every shared dish.",
+      "A shared dish means a shared name."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: click the zone that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a zone for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks 10 questions answered by clicking a zone."
+    }
+  ],
+  "chapter": "06-bazaars-scripts-presses",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}

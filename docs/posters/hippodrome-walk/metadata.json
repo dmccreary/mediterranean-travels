@@ -1,0 +1,70 @@
+{
+  "title": "Walk Down the Hippodrome",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over eight numbered parts of the old Hippodrome square in Istanbul, three monuments and what stands around them, to learn where each came from and who set it up here, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "The Hippodrome and its borrowed monuments",
+    "learningObjectives": [
+      "The learner will read the three monuments on the Hippodrome's old track line as three borrowed layers, and for each one state where it came from, who set it up here, and which way of adding a layer it shows: built over, reused, converted, or removed."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The Hippodrome, spolia, and Justinian, from [Chapter 4](../../chapters/04-byzantine-constantinople/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/diagram.js",
+      "../../sims/shared-libs/style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration followed by retrieval practice",
+    "keyQuestions": [
+      "Where did each monument come from?",
+      "Who set it up here?"
+    ],
+    "commonMisconceptions": [
+      "The monuments were made for this square.",
+      "The Hippodrome still has its track."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: identify each marked part from its description"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a marker or label to read about that part."
+    },
+    {
+      "name": "Quiz",
+      "type": "button",
+      "description": "Hides the labels and asks you to click the marker that matches each description."
+    }
+  ],
+  "chapter": "04-byzantine-constantinople",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}

@@ -52,26 +52,26 @@ Learning for All.
 
 ## Where Each Idea Stands
 
-"Built" means the poster page is live. "Spec ready" means the folder has a `spec.md`, an `image-prompt.md`, and a draft
-`data.json`, and is waiting for you to generate the image. The `image-prompt.md`
-files are not published on the site, so they are named, not linked.
+"Built" means the poster page is live. Every poster also has a `spec.md`, an
+`image-prompt.md`, and a `data.json` in its folder. The `image-prompt.md` files
+are not published on the site.
 
 | # | Idea | Engine | Status |
 |---|---|---|---|
 | 1 | The Oracle and the Algorithm, Side by Side | Grid | [Built](oracle-vs-algorithm/index.md) |
 | 2 | Five Classrooms Across Three Thousand Years | Grid | [Built](five-classrooms/index.md) |
-| 3 | Hagia Sophia: One Building, Four Lives | Grid | [Spec ready](hagia-sophia-four-lives/spec.md) |
+| 3 | Hagia Sophia: One Building, Four Lives | Grid | [Built](hagia-sophia-four-lives/index.md) |
 | 4 | The Acropolis, Then and Now | Grid | [Built](acropolis-then-and-now/index.md) |
-| 5 | A Scribe's Page and an Aldine Page | Grid | [Spec ready](scribe-and-aldine-page/spec.md) |
+| 5 | A Scribe's Page and an Aldine Page | Grid | [Built](scribe-and-aldine-page/index.md) |
 | 6 | Roman Bath and Turkish Hamam | Grid | [Built](bath-and-hamam/index.md) |
-| 7 | One Table, Two Names | Grid | [Spec ready](one-table-two-names/spec.md) |
-| 8 | The Colossus: Popular Picture and Likely Truth | Grid | [Spec ready](colossus-myth-and-evidence/spec.md) |
+| 7 | One Table, Two Names | Grid | [Built](one-table-two-names/index.md) |
+| 8 | The Colossus: Popular Picture and Likely Truth | Grid | [Built](colossus-myth-and-evidence/index.md) |
 | 9 | Anatomy of a Mosque | Call-out | [Built](anatomy-of-a-mosque/index.md) |
 | 10 | Delphi: Climbing the Sacred Way | Call-out | [Built](delphi-sacred-way/index.md) |
-| 11 | The Library of Celsus Facade | Call-out | [Spec ready](library-of-celsus/spec.md) |
-| 12 | Inside the Hagia Sophia Dome | Call-out | [Spec ready](hagia-sophia-dome/spec.md) |
-| 13 | Walk Down the Hippodrome | Call-out | [Spec ready](hippodrome-walk/spec.md) |
-| 14 | A Trireme at Salamis | Call-out | [Spec ready](trireme-at-salamis/spec.md) |
+| 11 | The Library of Celsus Facade | Call-out | [Built](library-of-celsus/index.md) |
+| 12 | Inside the Hagia Sophia Dome | Call-out | [Built](hagia-sophia-dome/index.md) |
+| 13 | Walk Down the Hippodrome | Call-out | [Built](hippodrome-walk/index.md) |
+| 14 | A Trireme at Salamis | Call-out | [Built](trireme-at-salamis/index.md) |
 | 15 | The Antikythera Mechanism, Opened Up | Call-out | [Built](antikythera-opened/index.md) |
 
 The seven call-out posters use the call-out library (`diagram.js` and

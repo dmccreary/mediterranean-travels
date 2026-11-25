@@ -5,8 +5,9 @@ description: Build spec for the scribe-and-Aldine poster, with the six feature p
 
 # Spec: A Scribe's Page and an Aldine Page
 
-**Status:** spec and draft data only. No image has been generated, and there is
-no `index.md` or `main.html` yet, so this poster is not in the nav.
+**Status:** built (2026-11-25). The image is generated, the zones are calibrated
+to it, and the page is in the nav at [A Scribe's Page and an Aldine Page](index.md). It is `built`, not
+`approved`: the author approves it after trying the controls.
 
 ## Learning Objective
 

@@ -1,0 +1,70 @@
+{
+  "title": "A Scribe's Page and an Aldine Page",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over and click six paired scenes comparing a hand-copied Byzantine page with a small Aldine printed page, to see surface, hand or type, size, who made it, how long it took, and who could own one, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Scribes and the Aldine press",
+    "learningObjectives": [
+      "The learner will compare a hand-copied Byzantine page with a small Aldine page along six features (surface, hand or type, page and size, who made it, how long it took, and who could own one), and for each pair name where the comparison stops being fair."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Scribes, presses, and Aldine editions, from [Chapter 6](../../chapters/06-bazaars-scripts-presses/index.md) and [Chapter 14](../../chapters/14-venetian-heraklion/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 940
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "Where does the comparison stop being fair?",
+      "Who could own each book?"
+    ],
+    "commonMisconceptions": [
+      "Printing made books cheap for everyone at once.",
+      "A scribe was always slower and worse than a press."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: click the zone that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a zone for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks 10 questions answered by clicking a zone."
+    }
+  ],
+  "chapter": "14-venetian-heraklion",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
