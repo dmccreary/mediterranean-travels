@@ -238,7 +238,7 @@ The climate shaped everything else on our route. The Mediterranean "triad" of wh
 
 ### November Weather
 
-**November weather** on our route means mild days, cool evenings, short afternoons, and the first real rains of the wet season. Istanbul and Çanakkale, on the Turkish straits in the north, are the coolest stops, with typical November afternoons around 15–16 °C (59–61 °F). Athens, Rhodes, and Heraklion are milder, with afternoons around 19–21 °C (66–70 °F). Nights are about 6–8 °C cooler than afternoons. Delphi, high on the slope of Mount Parnassus, is several degrees colder than Athens and can be foggy, and Mount Ida on Crete may already have snow. Rain comes in bursts, a stormy day followed by clear ones, so a rainy forecast rarely means a lost day.
+**November weather** on our route means mild days, cool evenings, short afternoons, and the first real rains of the wet season. Istanbul and Çanakkale, on the Turkish straits in the north, are the coolest stops, with typical November afternoons around 15–16 °C (59–61 °F). Athens, Rhodes, and Heraklion are milder, with afternoons around 19–21 °C (66–70 °F). Nights are about 5–8 °C cooler than afternoons. Delphi, high on the slope of Mount Parnassus, is several degrees colder than Athens and can be foggy, and Mount Ida on Crete may already have snow. Rain comes in bursts, a stormy day followed by clear ones, so a rainy forecast rarely means a lost day.
 
 The days are also short. In mid-November the sun sets around 5:10 PM in Athens and Heraklion. In Turkey, which keeps its summer clock all year, the sun sets later by the clock, around 5:45 PM in Istanbul, but rises late too, close to 8:00 AM.
 
@@ -302,13 +302,13 @@ Prediction questions, in this order:
 2. The chart appears with all six stops' November highs side by side, and the correct answer is marked.
 3. For questions 2–4, the learner chooses an answer, then the relevant chart is revealed (Athens monthly rainfall; Athens monthly highs; Istanbul and Heraklion November values).
 4. After the four questions, free exploration unlocks: the learner chooses any stop and sees its twelve-month temperature lines and rainfall bars, with November marked.
-5. The learner should notice the near-rainless summer and the jump in rain from October to November at every stop.
+5. The learner should notice that every stop is wetter in November than in any summer month. The Aegean and Cretan stops are nearly rainless in summer, while Istanbul, near the Black Sea, keeps some summer rain.
 
 **Feedback:** Four questions, fixed order, one attempt each. Correct: "Right. <one-sentence explanation using the stop's actual values>." Incorrect: "Not quite. <the correct answer> — <one-sentence explanation using the actual values>." Each explanation names the misconception the question targets: (1) the northern stops on the Turkish straits are cooler than the Aegean and Cretan stops; (2) the Mediterranean summer is dry and November starts the wet season; (3) the hottest month comes after the summer solstice; (4) a cool evening in Istanbul and a warm afternoon on Crete need different layers. A score "Predictions correct: n of 4" is shown.
 
 **Starting State:** Question 1 with its six choices and no chart yet, under the prompt "We'll be in all six places in November. Where should we pack the warmest layer for?"
 
-**Chapter Anchors:** Six stops. Istanbul and Çanakkale are the coolest, with November afternoons around 15–16 °C (59–61 °F); Athens, Rhodes and Heraklion around 19–21 °C (66–70 °F); nights about 6–8 °C cooler than afternoons. If the copied data disagree with any of these prose values, flag the difference to the author rather than changing the data.
+**Chapter Anchors:** Six stops. Istanbul and Çanakkale are the coolest, with November afternoons around 15–16 °C (59–61 °F); Athens, Rhodes and Heraklion around 19–21 °C (66–70 °F); nights about 5–8 °C cooler than afternoons. If the copied data disagree with any of these prose values, flag the difference to the author rather than changing the data.
 </details>
 
 ### Packing for November

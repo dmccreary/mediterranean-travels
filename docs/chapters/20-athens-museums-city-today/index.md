@@ -468,7 +468,7 @@ Sights, in this order:
 2. The learner selects an event on the timeline and commits it. The selected event is highlighted.
 3. The sim marks the match and shows the Why text. The matched event is labeled with the sight's number.
 4. The learner continues through S2 to S8 in order.
-5. At the end, the timeline shows all eight sights attached to their events, and the learner should notice that five of the eight fall between 2002 and 2023.
+5. At the end, the timeline shows all eight sights attached to their events, and the learner should notice that six of the eight fall between 2002 and 2023.
 
 **Feedback:** Eight sights in fixed order, two attempts each. Correct: "Correct: " followed by the Why text. First wrong attempt: "Not this one. Look for an event that would leave this mark on the street." plus, for S2, "Think about what happened between Greece and Turkey." Second wrong attempt: the correct event is revealed with the Why text, and the sight counts as missed. A running score "n of 8 correct on the first attempt" is shown.
 

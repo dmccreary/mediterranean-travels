@@ -492,7 +492,7 @@ On July 1, 1952, Ventris announced on BBC radio that Linear B was Greek. Four ye
 
 The **decipherment of Linear B** is the work, completed between 1950 and 1953, that showed Linear B wrote an early form of Greek and assigned sound values to most of its signs. Ventris did not finish it alone. After the radio talk, John Chadwick, a Cambridge scholar of early Greek who had worked as a codebreaker in the Second World War, wrote to offer help, and he supplied what Ventris lacked: deep knowledge of how Greek had changed over time. Together they published the case in 1953 and the first full handbook, *Documents in Mycenaean Greek*, in 1956. They also built on the American scholar Emmett Bennett, whose careful catalog of the signs and edition of the Pylos tablets, published in 1951, gave everyone a reliable set of texts to test.
 
-Many scholars doubted the decipherment at first. The test came from the ground. In 1952 the American archaeologist Carl Blegen dug up a new tablet at Pylos, and when he read it with Ventris's values in 1953 it described tripods and cups, with a little picture of each object beside its word. The word *ti-ri-po-de*, "tripods," stood next to a drawing of a three-legged cauldron. A cup described as *qe-to-ro-we*, "four-handled," was drawn with four handles; one described as *ti-ri-o-we*, "three-handled," had three; and one described as *a-no-we*, "without handles," had none. No one could have arranged that match in advance. Doubt quickly faded.
+Many scholars doubted the decipherment at first. The test came from the ground. In 1952 the American archaeologist Carl Blegen dug up a new tablet at Pylos, and when he read it with Ventris's values in 1953 it described tripods and cups, with a little picture of each object beside its word. The word *ti-ri-po-de*, "tripods," stood next to a drawing of a three-legged cauldron. A cup described as *qe-to-ro-we*, "four-handled," was drawn with four handles; two cups described as *ti-ri-o-we-e*, "three-handled," each had three; and one described as *a-no-we*, "without handles," had none. No one could have arranged that match in advance. Doubt quickly faded.
 
 !!! mascot-encourage "Code-Breaking Feels Hard Because It Is"
     ![Glaux encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
@@ -570,7 +570,7 @@ Step 5 (the Pylos tripod tablet). A short Greek word bank is shown: *tri-* "thre
 |---|---|---|---|
 | 1 | ti-ri-po-de | Tripods (three-legged cauldrons) | *Tri-* "three" plus *podes* "feet": tripodes. |
 | 2 | qe-to-ro-we | A cup with four handles | *Kwetro-* "four" plus *-owes* "handled." |
-| 3 | ti-ri-o-we | A cup with three handles | *Tri-* "three" plus *-owes* "handled." |
+| 3 | ti-ri-o-we-e | Cups with three handles | *Tri-* "three" plus *-owes* "handled." |
 | 4 | a-no-we | A cup with no handles | *An-* "without" plus *-owes* "handled." |
 
 Choices for each word: tripods; a cup with four handles; a cup with three handles; a cup with no handles; a chariot wheel; a jar of oil. Each choice may be used once.
@@ -592,7 +592,7 @@ Choices for each word: tripods; a cup with four handles; a cup with three handle
 
 **Starting State:** An empty grid with five vowel columns and blank rows, a row of unread Linear B signs, and the question "Linear B uses about 90 sound-signs. What kind of script is this?"
 
-**Chapter Anchors:** Linear B has about 90 sound-signs; Kober's triplet a-mi-ni-so / a-mi-ni-si-jo / a-mi-ni-si-ja; place names ko-no-so, a-mi-ni-so, tu-ri-so, pa-i-to; Ventris announced on July 1, 1952; tripod tablet found by Blegen at Pylos in 1952 and read in 1953; ti-ri-po-de, qe-to-ro-we, ti-ri-o-we, a-no-we; three place names and four tablet words.
+**Chapter Anchors:** Linear B has about 90 sound-signs; Kober's triplet a-mi-ni-so / a-mi-ni-si-jo / a-mi-ni-si-ja; place names ko-no-so, a-mi-ni-so, tu-ri-so, pa-i-to; Ventris announced on July 1, 1952; tripod tablet found by Blegen at Pylos in 1952 and read in 1953; ti-ri-po-de, qe-to-ro-we, ti-ri-o-we-e, a-no-we; three place names and four tablet words.
 </details>
 
 ### Elite Knowledge Is Fragile
