@@ -256,7 +256,7 @@ We now have the parts, and can put them together. **Reading a ruin** is the prac
 
 #### Diagram: Read the Ruin: Which Layer?
 
-<iframe src="../../sims/read-the-ruin-layers/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/read-the-ruin-layers/main.html" height="584px" width="100%" scrolling="no"></iframe>
 
 [Run the Read the Ruin: Which Layer? MicroSim Fullscreen](../../sims/read-the-ruin-layers/main.html){ .md-button .md-button--primary }
 

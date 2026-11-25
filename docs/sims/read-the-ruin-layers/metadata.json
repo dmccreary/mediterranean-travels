@@ -2,7 +2,7 @@
   "title": "Read the Ruin: Which Layer?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for read the ruin: which layer?",
+  "description": "Place twelve things seen on Day 2 in Istanbul into the Roman, Byzantine, Latin occupation, Ottoman or Republic layer in which they arrived, including three trap cards made long before they arrived.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,57 @@
     "subjectArea": "Social Studies",
     "topic": "Read the Ruin: Which Layer?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Apply the rule \"a thing belongs to the layer in which it arrived at this place\" to assign twelve things seen on Day 2 to one of five historical layers, with at least 10 of 12 correct on the first attempt, including at least 2 of the 3 trap cards."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Layers of a city",
+      "Spolia",
+      "The four ways a layer is added: built over, reused, converted, removed",
+      "The Roman, Byzantine, Ottoman and Republic eras"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 580
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Rule-based classification practice with immediate feedback (sorting)",
+    "keyQuestions": [
+      "In which layer did this arrive?",
+      "When was it made, and when did it arrive here?",
+      "Which of the four ways added this layer?"
+    ],
+    "commonMisconceptions": [
+      "An object belongs to the era in which it was made.",
+      "Anything that looks European and modern must be from the Republic.",
+      "Removal is not a layer.",
+      "Everything in Hagia Sophia is Byzantine."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12, with at least 2 of 3 trap cards).",
+      "Name the three Byzantine-layer objects that are much older than Byzantium.",
+      "Place the Blue Mosque and the Library of Celsus statues in their layers."
+    ]
   },
-  "chapter": "04-byzantine-constantinople"
+  "chapter": "04-byzantine-constantinople",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/read-the-ruin-layers/"
 }
