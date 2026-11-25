@@ -1,0 +1,314 @@
+{
+ "title": "Literate and illiterate world population (World series)",
+ "source": "Our World in Data, Literate and illiterate world population",
+ "url": "https://ourworldindata.org/grapher/literate-and-illiterate-world-population",
+ "downloaded": "2026-11-24",
+ "units": "percent of the world population (adults aged 15 and over in recent decades)",
+ "data": [
+  {
+   "year": 1820,
+   "literate": 12.05,
+   "illiterate": 87.95
+  },
+  {
+   "year": 1870,
+   "literate": 18.74,
+   "illiterate": 81.26
+  },
+  {
+   "year": 1880,
+   "literate": 19.63,
+   "illiterate": 80.37
+  },
+  {
+   "year": 1890,
+   "literate": 20.52,
+   "illiterate": 79.48
+  },
+  {
+   "year": 1900,
+   "literate": 21.4,
+   "illiterate": 78.6
+  },
+  {
+   "year": 1910,
+   "literate": 26.45,
+   "illiterate": 73.55
+  },
+  {
+   "year": 1920,
+   "literate": 31.62,
+   "illiterate": 68.38
+  },
+  {
+   "year": 1930,
+   "literate": 32.53,
+   "illiterate": 67.47
+  },
+  {
+   "year": 1940,
+   "literate": 41.88,
+   "illiterate": 58.12
+  },
+  {
+   "year": 1950,
+   "literate": 35.96,
+   "illiterate": 64.04
+  },
+  {
+   "year": 1960,
+   "literate": 41.62,
+   "illiterate": 58.38
+  },
+  {
+   "year": 1975,
+   "literate": 65.42,
+   "illiterate": 34.58
+  },
+  {
+   "year": 1976,
+   "literate": 65.57,
+   "illiterate": 34.43
+  },
+  {
+   "year": 1977,
+   "literate": 65.88,
+   "illiterate": 34.12
+  },
+  {
+   "year": 1978,
+   "literate": 66.5,
+   "illiterate": 33.5
+  },
+  {
+   "year": 1979,
+   "literate": 67.15,
+   "illiterate": 32.85
+  },
+  {
+   "year": 1980,
+   "literate": 67.76,
+   "illiterate": 32.24
+  },
+  {
+   "year": 1981,
+   "literate": 68.35,
+   "illiterate": 31.65
+  },
+  {
+   "year": 1982,
+   "literate": 68.93,
+   "illiterate": 31.07
+  },
+  {
+   "year": 1983,
+   "literate": 69.49,
+   "illiterate": 30.51
+  },
+  {
+   "year": 1984,
+   "literate": 70.15,
+   "illiterate": 29.85
+  },
+  {
+   "year": 1985,
+   "literate": 70.73,
+   "illiterate": 29.27
+  },
+  {
+   "year": 1986,
+   "literate": 71.27,
+   "illiterate": 28.73
+  },
+  {
+   "year": 1987,
+   "literate": 71.94,
+   "illiterate": 28.06
+  },
+  {
+   "year": 1988,
+   "literate": 73.55,
+   "illiterate": 26.45
+  },
+  {
+   "year": 1989,
+   "literate": 74.07,
+   "illiterate": 25.93
+  },
+  {
+   "year": 1990,
+   "literate": 74.63,
+   "illiterate": 25.37
+  },
+  {
+   "year": 1991,
+   "literate": 75.06,
+   "illiterate": 24.94
+  },
+  {
+   "year": 1992,
+   "literate": 75.51,
+   "illiterate": 24.49
+  },
+  {
+   "year": 1993,
+   "literate": 75.97,
+   "illiterate": 24.03
+  },
+  {
+   "year": 1994,
+   "literate": 76.42,
+   "illiterate": 23.58
+  },
+  {
+   "year": 1995,
+   "literate": 76.87,
+   "illiterate": 23.13
+  },
+  {
+   "year": 1996,
+   "literate": 77.3,
+   "illiterate": 22.7
+  },
+  {
+   "year": 1997,
+   "literate": 79.3,
+   "illiterate": 20.7
+  },
+  {
+   "year": 1998,
+   "literate": 80.52,
+   "illiterate": 19.48
+  },
+  {
+   "year": 1999,
+   "literate": 80.9,
+   "illiterate": 19.1
+  },
+  {
+   "year": 2000,
+   "literate": 81.12,
+   "illiterate": 18.88
+  },
+  {
+   "year": 2001,
+   "literate": 81.37,
+   "illiterate": 18.63
+  },
+  {
+   "year": 2002,
+   "literate": 81.74,
+   "illiterate": 18.26
+  },
+  {
+   "year": 2003,
+   "literate": 82.22,
+   "illiterate": 17.78
+  },
+  {
+   "year": 2004,
+   "literate": 82.56,
+   "illiterate": 17.44
+  },
+  {
+   "year": 2005,
+   "literate": 82.57,
+   "illiterate": 17.43
+  },
+  {
+   "year": 2006,
+   "literate": 82.53,
+   "illiterate": 17.47
+  },
+  {
+   "year": 2007,
+   "literate": 83.12,
+   "illiterate": 16.88
+  },
+  {
+   "year": 2008,
+   "literate": 83.48,
+   "illiterate": 16.52
+  },
+  {
+   "year": 2009,
+   "literate": 83.8,
+   "illiterate": 16.2
+  },
+  {
+   "year": 2010,
+   "literate": 84.37,
+   "illiterate": 15.63
+  },
+  {
+   "year": 2011,
+   "literate": 84.71,
+   "illiterate": 15.29
+  },
+  {
+   "year": 2012,
+   "literate": 84.91,
+   "illiterate": 15.09
+  },
+  {
+   "year": 2013,
+   "literate": 85.21,
+   "illiterate": 14.79
+  },
+  {
+   "year": 2014,
+   "literate": 85.56,
+   "illiterate": 14.44
+  },
+  {
+   "year": 2015,
+   "literate": 85.96,
+   "illiterate": 14.04
+  },
+  {
+   "year": 2016,
+   "literate": 86.28,
+   "illiterate": 13.72
+  },
+  {
+   "year": 2017,
+   "literate": 86.47,
+   "illiterate": 13.53
+  },
+  {
+   "year": 2018,
+   "literate": 86.76,
+   "illiterate": 13.24
+  },
+  {
+   "year": 2019,
+   "literate": 86.79,
+   "illiterate": 13.21
+  },
+  {
+   "year": 2020,
+   "literate": 86.98,
+   "illiterate": 13.02
+  },
+  {
+   "year": 2021,
+   "literate": 87.17,
+   "illiterate": 12.83
+  },
+  {
+   "year": 2022,
+   "literate": 87.39,
+   "illiterate": 12.61
+  },
+  {
+   "year": 2023,
+   "literate": 87.58,
+   "illiterate": 12.42
+  },
+  {
+   "year": 2024,
+   "literate": 87.74,
+   "illiterate": 12.26
+  }
+ ]
+}

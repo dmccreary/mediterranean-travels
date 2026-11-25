@@ -2,7 +2,7 @@
   "title": "World Literacy Over Two Centuries",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for world literacy over two centuries",
+  "description": "Predict the world's literacy rate in 1820, when more than half the world first became literate, and what share of adults still cannot read, then see each answer on a line chart from 1820 to 2024.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,71 @@
     "subjectArea": "Social Studies",
     "topic": "World Literacy Over Two Centuries",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret a line chart of the share of the world's people who could read from 1820 to today, answering at least 2 of 3 prediction questions correctly before each answer is revealed."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Literacy",
+      "Functional literacy",
+      "The 1820 and present-day literacy estimates",
+      "The UNESCO estimate of adults who cannot read"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Chart.js",
-    "version": "1.0",
+    "version": "4.4.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 610
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Chart.js 4.4.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (prediction questions with data feedback), followed by free exploration",
+    "keyQuestions": [
+      "How many people could read two hundred years ago?",
+      "When did more than half the world first become literate?",
+      "Is illiteracy now too rare to matter?"
+    ],
+    "commonMisconceptions": [
+      "Most people have been able to read since the invention of printing.",
+      "Mass literacy is centuries old in most of the world.",
+      "Illiteracy is now so rare it no longer matters."
+    ],
+    "assessmentOpportunities": [
+      "Score on three locked-in predictions (mastery: 2 of 3).",
+      "Explain why a small share of illiterate adults is still a large number of people."
+    ]
   },
-  "chapter": "02-traveling-well"
+  "dataSources": [
+    {
+      "name": "Our World in Data, Literate and illiterate world population (World series)",
+      "url": "https://ourworldindata.org/grapher/literate-and-illiterate-world-population",
+      "downloaded": "2026-11-24",
+      "file": "world-literacy-data.json"
+    },
+    {
+      "name": "UNESCO estimate of adults lacking basic literacy (about 750 million)",
+      "url": "https://www.unesco.org/en/literacy"
+    },
+    {
+      "name": "UN World Population Prospects 2024 (about 6.1 billion adults aged 15+, approximate)",
+      "url": "https://population.un.org/wpp/"
+    }
+  ],
+  "chapter": "02-traveling-well",
+  "type": "Interactive Chart",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/world-literacy-over-time/"
 }

@@ -633,7 +633,7 @@ The chart below lets us test our sense of how fast that great widening happened.
 
 #### Diagram: World Literacy Over Two Centuries
 
-<iframe src="../../sims/world-literacy-over-time/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/world-literacy-over-time/main.html" height="614px" width="100%" scrolling="no"></iframe>
 
 [Run the World Literacy Over Two Centuries MicroSim Fullscreen](../../sims/world-literacy-over-time/main.html){ .md-button .md-button--primary }
 
