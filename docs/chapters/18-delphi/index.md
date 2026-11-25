@@ -448,7 +448,7 @@ Delphi's story after the oracle falls into four stages, and naming them makes th
 
 #### Diagram: Delphi After the Oracle
 
-<iframe src="../../sims/delphi-after-the-oracle-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/delphi-after-the-oracle-timeline/main.html" height="594px" width="100%" scrolling="no"></iframe>
 
 [Run the Delphi After the Oracle MicroSim Fullscreen](../../sims/delphi-after-the-oracle-timeline/main.html){ .md-button .md-button--primary }
 

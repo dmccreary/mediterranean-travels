@@ -6,15 +6,36 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Delphi After the Oracle using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="delphi-after-the-oracle-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Delphi After the Oracle</h1>
+        <span id="score">Predictions correct: 0 of 9</span>
+    </header>
+
+    <section id="card" aria-live="polite">
+        <div id="c-head"><span id="c-count"></span><span id="c-date"></span><span id="c-label"></span></div>
+        <div id="c-desc"></div>
+        <div id="c-q">Which stage is this? Predict before the description is revealed.</div>
+        <div id="choices" role="group" aria-label="The four stages"></div>
+        <div id="feedback"></div>
+        <div class="row">
+            <button id="next-btn" class="primary">Next event &rarr;</button>
+            <button id="restart-btn">Restart</button>
+            <span class="hint" id="hint">Keys 1 to 4 choose; Enter goes on.</span>
+        </div>
+    </section>
+
+    <div id="toolbar">
+        <button id="full-span" title="Show 300 CE to 2000 CE, with 400 to 1400 CE compressed">Full span</button>
+        <button id="close-up" title="Show 1880 to 2000">Close-up: 1880&ndash;2000</button>
+        <span id="note">Hatched band: 1,000 empty years (400&ndash;1400 CE) squeezed ten to one.</span>
+    </div>
+    <div id="timeline"></div>
+</main>
+<script src="delphi-after-the-oracle-timeline.js"></script>
 </body>
 </html>
