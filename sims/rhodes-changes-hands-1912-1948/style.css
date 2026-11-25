@@ -1,0 +1,178 @@
+/* Rhodes Changes Hands, 1912–1948 - styles */
+:root {
+    --ink: #1d2a33;
+    --muted: #5d6d78;
+    --line: #dde4e8;
+    --paper: #fbfaf7;
+    --header: #1F4E79;
+    --accent: #A4482A;
+    --good: #2f7d4a;
+    --bad: #a4282a;
+    --ottoman: #2F7D4A;
+    --italy: #B5652B;
+    --germany: #4D4D4D;
+    --britain: #6E3F8F;
+    --greece: #0D5EAF;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+}
+
+header {
+    background: var(--header);
+    color: #fff;
+    padding: 8px 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+header h1 { margin: 0; font-size: 18px; font-weight: 600; }
+#score { margin-left: auto; font-weight: 600; font-size: 14px; }
+
+#prompt {
+    background: #fff8dc;
+    border-bottom: 1px solid #e7d9a3;
+    color: #5a4a10;
+    font-weight: 600;
+    padding: 6px 14px;
+}
+
+#toolbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--line);
+}
+#legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    padding: 5px 12px;
+    color: var(--muted);
+    font-size: 12px;
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+}
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: baseline; }
+
+button {
+    font: inherit;
+    font-size: 13px;
+    padding: 4px 10px;
+    border: 1px solid #b9c3c9;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+}
+button:hover:not(:disabled) { border-color: var(--header); background: #eef3f8; }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--header); border-color: var(--header); color: #fff; }
+button.primary:hover:not(:disabled) { background: #173c5e; }
+
+/* ---------- timeline ---------- */
+#timeline { background: #fff; border-bottom: 1px solid var(--line); }
+.vis-timeline { border: none !important; font-size: 12px; }
+.vis-labelset .vis-label .vis-inner { font-weight: 600; padding: 4px 6px; }
+.vis-time-axis .vis-text { color: var(--muted); }
+
+/* Rule spans: colored bands; text is cut off when a band is too short */
+.vis-item.span { color: #fff; border-width: 0; border-radius: 3px; height: 24px; line-height: 18px; font-weight: 600; cursor: pointer; }
+.vis-item.span .vis-item-content { padding: 2px 6px !important; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.vis-item.span.ottoman { background: var(--ottoman); }
+.vis-item.span.italy   { background: var(--italy); }
+.vis-item.span.germany { background: var(--germany); }
+.vis-item.span.britain { background: var(--britain); }
+.vis-item.span.greece  { background: var(--greece); }
+.vis-item.span.hl { box-shadow: 0 0 0 3px #f2c14e; z-index: 2; }
+.vis-item.span.dim { opacity: 0.35; }
+.vis-item.span.vis-selected { box-shadow: 0 0 0 2px #1d2a33; }
+
+/* Events: number badges, with short labels when there is room */
+.vis-item.ev .vis-item-content { white-space: nowrap !important; padding: 0 3px !important; }
+.vis-item.ev .vis-item-overflow { overflow: visible !important; }
+.vis-panel.vis-center, .vis-panel.vis-center .vis-content { overflow: visible; }
+.vis-item.ev { cursor: pointer; color: var(--ink); background: #fff; border-color: #c5ced4; }
+.vis-item.ev .num {
+    display: inline-block;
+    min-width: 18px;
+    padding: 0 3px;
+    border-radius: 9px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    border: 2px solid transparent;
+}
+.vis-item.ev .txt { margin-left: 3px; }
+#timeline.compact .vis-item.ev .txt { display: none; }
+.vis-item.ev.ottoman .num { background: var(--ottoman); border-color: var(--ottoman); }
+.vis-item.ev.italy .num   { background: var(--italy);   border-color: var(--italy); }
+.vis-item.ev.germany .num { background: var(--germany); border-color: var(--germany); }
+.vis-item.ev.britain .num { background: var(--britain); border-color: var(--britain); }
+.vis-item.ev.greece .num  { background: var(--greece);  border-color: var(--greece); }
+/* Events on the Greek mainland: hollow badge */
+.vis-item.ev.mainland .num { background: #fff !important; color: var(--ink); }
+.vis-item.ev.hl { box-shadow: 0 0 0 3px #f2c14e; }
+.vis-item.ev.hl .vis-item-content { font-weight: 700; }
+.vis-item.vis-selected.ev { background: #fff4d6; border-color: #c8963e; z-index: 3; }
+.vis-item.vis-selected.ev .vis-item-content { font-weight: 700; }
+.vis-item.vis-dot.ev { display: none; }
+
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: #fff !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    max-width: 280px !important;
+    white-space: normal !important;
+    line-height: 1.35 !important;
+    border: none !important;
+}
+
+/* ---------- lower panels ---------- */
+#lower {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 8px 10px 10px;
+}
+@media (max-width: 600px) {
+    #lower { grid-template-columns: 1fr; }
+}
+#quiz, #details {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 12px;
+    min-height: 420px;  /* holds the tallest state, the final feedback, so the page never grows */
+}
+#q-count { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+#q-text { font-weight: 600; margin: 4px 0 8px; line-height: 1.35; }
+#choices { display: flex; flex-direction: column; gap: 5px; margin-bottom: 8px; }
+#choices button { text-align: left; }
+#choices button:disabled { opacity: 1; }
+#choices button.correct { background: #e3f1e7; border-color: var(--good); color: var(--good); font-weight: 600; }
+#choices button.wrong { background: #f8e3e3; border-color: var(--bad); color: var(--bad); }
+#feedback { min-height: 20px; line-height: 1.35; margin-bottom: 8px; }
+#feedback .verdict-good { color: var(--good); font-weight: 700; }
+#feedback .verdict-bad { color: var(--bad); font-weight: 700; }
+#feedback .final { display: block; margin-top: 6px; font-weight: 600; }
+.row { display: flex; gap: 6px; }
+
+#details h2 { font-size: 15px; margin: 0 0 2px; }
+#details .when { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+#details p { margin: 4px 0; line-height: 1.4; }
+#details .ruled { font-size: 13px; margin-top: 8px; padding: 5px 8px; background: #f4f6f8; border-radius: 4px; }
+#details .placeholder { color: var(--muted); font-style: italic; }
+#details .step { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }

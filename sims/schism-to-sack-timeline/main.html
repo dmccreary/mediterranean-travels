@@ -6,15 +6,47 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>From the Schism to the Sack, 1054–1261 using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="schism-to-sack-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>From the Schism to the Sack, 1054–1261</h1>
+        <span id="score">Correct: 0 of 4</span>
+    </header>
+
+    <div id="prompt">The Fourth Crusade set out for Egypt. How did it end in Constantinople?</div>
+
+    <div id="toolbar">
+        <button id="prev-btn" title="Previous event in date order">← Previous event</button>
+        <button id="next-ev-btn" title="Next event in date order">Next event →</button>
+        <button id="full-span" title="Show 1050 to 1265">Full span</button>
+        <button id="close-up" title="Zoom in on 1195 to 1210">Close-up: 1200–1205</button>
+        <span id="legend"></span>
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="lower">
+        <section id="details">
+            <div class="placeholder">
+                <p>Each row follows one story, and the numbers give the date order of all seventeen events.</p>
+                <p>Click any event, or press <b>Next event</b> to read them in date order. Hover over an event for its date.</p>
+            </div>
+        </section>
+        <section id="quiz">
+            <div id="q-count"></div>
+            <div id="q-text"></div>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <div class="row">
+                <button id="next-btn" class="primary">Next question →</button>
+                <button id="restart-btn">Restart</button>
+            </div>
+        </section>
+    </div>
+</main>
+<script src="schism-to-sack-timeline.js"></script>
 </body>
 </html>

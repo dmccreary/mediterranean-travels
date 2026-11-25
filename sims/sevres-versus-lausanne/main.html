@@ -4,16 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Sèvres or Lausanne? using html</title>
+    <title>Sèvres or Lausanne?</title>
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #1d2a33; background: aliceblue; }
+        main { display: block; width: 100%; }
+        #header { height: 40px; padding: 6px 12px 0; background: #12304a; color: #fff; display: flex; align-items: baseline; gap: 12px; overflow: hidden; }
+        #header h1 { font-size: 17px; margin: 0; font-weight: bold; white-space: nowrap; }
+        #header span { font-size: 13px; opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #prompt { padding: 7px 12px 5px; font-size: 15px; font-weight: bold; line-height: 1.25; }
+        #tablewrap { padding: 0 8px; }
+        table { width: 100%; border-collapse: collapse; table-layout: fixed; background: #fff; font-size: 13px; line-height: 1.2; }
+        th { background: #e4ecf3; color: #12304a; text-align: left; font-size: 12px; padding: 4px 5px; border: 1px solid #c3d0da; }
+        td { padding: 2px 5px; border: 1px solid #d5dee5; vertical-align: top; }
+        col.c-num { width: 24px; }
+        col.c-term { width: 18%; }
+        col.c-out { width: 98px; }
+        td.num { text-align: center; font-weight: bold; color: #12304a; }
+        td.term { font-weight: bold; }
+        td.hidden-cell { background: repeating-linear-gradient(135deg, #f1f4f7, #f1f4f7 6px, #e8edf2 6px, #e8edf2 12px); color: #7a8893; text-align: center; font-weight: bold; vertical-align: middle; }
+        td.laus { position: relative; }
+        td.hidden-cell .ghost-text { visibility: hidden; font-weight: normal; display: block; text-align: left; }
+        td.hidden-cell .qmark { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; }
+        tr.current td { background: #fff6dd; }
+        tr.current td.hidden-cell { background: repeating-linear-gradient(135deg, #fff1c9, #fff1c9 6px, #ffe8a8 6px, #ffe8a8 12px); color: #8a6a10; }
+        tr.current td.num { box-shadow: inset 4px 0 0 #f2b632; }
+        tr.hover td { background: #eef4fa; }
+        td.out { text-align: left; vertical-align: middle; font-size: 12px; white-space: nowrap; padding: 2px 3px; }
+        .badge { display: inline-block; padding: 1px 6px; border-radius: 10px; color: #fff; font-weight: bold; font-size: 12px; }
+        .badge.reversed { background: #b35806; }
+        .badge.kept { background: #2F6E8E; }
+        .mark { display: inline-block; font-size: 14px; margin-left: 3px; font-weight: bold; vertical-align: middle; }
+        .mark.ok { color: #2e7d32; }
+        .mark.no { color: #c62828; }
+        #panel { margin-top: 6px; height: 190px; padding: 7px 12px; background: #fff; border-top: 1px solid silver; display: flex; flex-direction: column; gap: 6px; }
+        #qhead { display: flex; justify-content: space-between; font-size: 13px; color: #4a5a66; }
+        #qhead b { color: #12304a; }
+        #qtext { font-size: 15px; font-weight: bold; line-height: 1.3; }
+        #choices { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+        #choices.three { grid-template-columns: 1fr 1fr 1fr; }
+        #choices button { font-size: 14px; line-height: 1.25; padding: 6px 8px; min-height: 34px; border: 2px solid #8aa0b0; border-radius: 6px; background: #f4f8fb; color: #1d2a33; cursor: pointer; font-family: inherit; }
+        #choices.three button { text-align: left; font-size: 13px; }
+        #choices button .sw { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+        #choices button:hover:enabled { background: #e2edf5; border-color: #12304a; }
+        #choices button:disabled { cursor: default; opacity: 0.55; }
+        #choices button.correct { background: #dff2df; border-color: #2e7d32; opacity: 1; }
+        #choices button.wrong { background: #fbe3e3; border-color: #c62828; opacity: 1; }
+        #feedback { font-size: 13px; line-height: 1.35; flex: 1; overflow: hidden; }
+        #feedback .ok { color: #2e7d32; font-weight: bold; }
+        #feedback .no { color: #c62828; font-weight: bold; }
+        #btnrow { display: flex; gap: 8px; align-items: center; margin-top: auto; }
+        #btnrow button { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid #12304a; background: #12304a; color: #fff; cursor: pointer; font-family: inherit; }
+        #btnrow button.ghost { background: #fff; color: #12304a; }
+        #btnrow button:disabled { opacity: .35; cursor: default; }
+        #btnrow .hint { font-size: 12px; color: #5d6d78; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+        @media (max-width: 560px) {
+            #header span { display: none; }
+            table { font-size: 12px; }
+            col.c-out { width: 84px; }
+            .badge { font-size: 11px; padding: 1px 4px; }
+            #choices.three { grid-template-columns: 1fr; }
+            #btnrow .hint { display: none; }
+        }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
-    <script src="sevres-versus-lausanne.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div id="header">
+            <h1>Sèvres or Lausanne?</h1>
+            <span>Predict each term, then reveal what Lausanne did</span>
+        </div>
+        <div id="prompt">The Turkish nationalists won the war. Which of these terms survived the peace?</div>
+        <div id="tablewrap">
+            <table aria-label="Ten terms of the Treaty of Sèvres compared with the Treaty of Lausanne">
+                <colgroup><col class="c-num"><col class="c-term"><col><col><col class="c-out"></colgroup>
+                <thead><tr><th>#</th><th>Term</th><th>Treaty of Sèvres, 1920</th><th>Treaty of Lausanne, 1923</th><th>Lausanne</th></tr></thead>
+                <tbody id="rows"></tbody>
+            </table>
+        </div>
+        <div id="panel">
+            <div id="qhead"><span id="qnum"></span><span id="score"></span></div>
+            <div id="qtext"></div>
+            <div id="choices"></div>
+            <div id="feedback" aria-live="polite"></div>
+            <div id="btnrow">
+                <button id="next" disabled>Next term</button>
+                <button id="restart" class="ghost">Try Again</button>
+                <span class="hint" id="hint">Keys R and K predict; Enter goes on.</span>
+            </div>
+        </div>
+    </main>
+    <script src="sevres-versus-lausanne.js"></script>
 </body>
 </html>

@@ -2,41 +2,68 @@
   "title": "When Printing Arrived",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for when printing arrived",
-  "date": "2026-11-24",
+  "description": "A horizontal bar chart of the years from Gutenberg's Bible (about 1455) to the first printing in ten scripts and places in Western Europe and the Ottoman Empire, with an infobox for each bar and four interpretation questions.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "When Printing Arrived",
+    "topic": "The spread of printing and delayed Arabic-script printing in the Ottoman Empire",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret a chart of the years between Gutenberg's Bible and the first printing in ten scripts and places, answering at least 3 of 4 questions correctly."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Gutenberg",
+      "Printing press",
+      "Hebrew press of 1493",
+      "İbrahim Müteferrika",
+      "Delayed Arabic-script printing",
+      "Millet system"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Chart.js",
-    "version": "1.0",
+    "version": "4.4.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 706
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Chart.js 4.4.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Chart interpretation with one-attempt multiple-choice questions and bar highlighting",
+    "keyQuestions": [
+      "Which community printed first in Istanbul?",
+      "About how many years after Gutenberg's Bible did the first Ottoman Turkish book in Arabic script appear?",
+      "Which statement fits the chart?",
+      "What does bar 6 show about the delay?"
+    ],
+    "commonMisconceptions": [
+      "There were no printing presses in Istanbul before 1727.",
+      "Arabic script could not be printed at all before the 18th century.",
+      "The delay applied to everyone in the Ottoman Empire, rather than to printing in Arabic script for Muslim readers.",
+      "The ban of 1485 is established fact."
+    ],
+    "assessmentOpportunities": [
+      "Four multiple-choice questions answered by reading the chart; mastery is 3 of 4 on the first attempt.",
+      "Explain in two sentences what the 274-year gap measures and what it does not."
+    ]
   },
-  "chapter": "06-bazaars-scripts-presses"
+  "chapter": "06-bazaars-scripts-presses",
+  "type": "Interactive Chart",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/when-printing-arrived/"
 }

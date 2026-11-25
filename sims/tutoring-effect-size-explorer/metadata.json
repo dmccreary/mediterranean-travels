@@ -2,41 +2,68 @@
   "title": "Tutoring Effect Size Explorer",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for tutoring effect size explorer",
-  "date": "2026-11-24",
+  "description": "A Plotly chart of two normal curves, a fixed conventional class and a program group whose mean sits at effect size d; for five reported results (Bloom 1984, VanLehn 2011, Nickow, Oreopoulos and Quan 2020, and a 2025 World Bank AI tutor pilot) the learner predicts the percentile 100 x Phi(d) before the curve moves, then explores d freely with a slider.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Tutoring Effect Size Explorer",
+    "subjectArea": "Education",
+    "topic": "Effect sizes for tutoring, mastery learning, and AI tutoring, translated into percentiles",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret five reported effect sizes for tutoring and mastery learning, given in standard deviations, as the percentile of a conventional class that the average student in the program outscores, to within 5 percentage points."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Standard deviation",
+      "Effect size",
+      "Percentile",
+      "One-on-one tutoring",
+      "Bloom's 2 sigma problem",
+      "Mastery learning",
+      "AI tutoring"
+    ],
     "standards": []
   },
   "technical": {
-    "framework": "Plotly",
-    "version": "1.0",
+    "framework": "Plotly.js",
+    "version": "2.35.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 564
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Plotly.js 2.35.0"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then observe: five reported effect sizes in fixed order, a typed percentile prediction scored on the first attempt, an animated shift of the program curve with the shaded share, and free exploration afterward",
+    "keyQuestions": [
+      "Where does the average tutored student land in the conventional class?",
+      "Why does the step from d = 0 to 1 add more percentile points than the step from 1 to 2?",
+      "What would you ask before believing a claim that an AI tutor delivers two sigma?"
+    ],
+    "commonMisconceptions": [
+      "\"Two sigma\" means the students learned twice as much.",
+      "An effect of 0.3 standard deviations is too small to matter.",
+      "Bloom's 2.0 is the typical result of tutoring.",
+      "The percentile is the student's percentage score on the test."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on five predictions within 5 points (mastery: 4 of 5).",
+      "Convert a newly reported effect size, such as 0.25, into a percentile and judge its size."
+    ]
   },
-  "chapter": "20-athens-museums-city-today"
+  "chapter": "20-athens-museums-city-today",
+  "type": "Chart",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/tutoring-effect-size-explorer/"
 }

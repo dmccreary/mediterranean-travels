@@ -2,41 +2,71 @@
   "title": "Eleven Centuries of the Oracle",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for eleven centuries of the oracle",
-  "date": "2026-11-24",
+  "description": "Classify fourteen dated events from c. 750 BCE to 391-392 CE as signs of the Oracle of Delphi's strength or of its weakness and decline. Each answered card drops onto a timeline of the oracle's 1,140-year life, and a final question asks when the signs of decline begin to cluster.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Eleven Centuries of the Oracle",
+    "topic": "The rise, peak, decline and end of the Oracle of Delphi",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Distinguish events that show the Oracle of Delphi's strength from events that show a weakness or decline, classifying at least 12 of 14 dated events correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Oracle of Delphi",
+      "Greek colonization",
+      "Croesus of Lydia",
+      "The Temple of Apollo at Delphi",
+      "Bribery of the oracle",
+      "Delphic neutrality",
+      "The Amphictyonic League and the Sacred Wars",
+      "Plutarch",
+      "Decline and closing of the oracle",
+      "The oracle's long lifespan"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 482
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification with immediate feedback, then reveal on a shared timeline and a reflection question about the pattern",
+    "keyQuestions": [
+      "Does this event show the oracle's strength, or a weakness?",
+      "Does damage always mean decline?",
+      "After about what date do the signs of weakness cluster?"
+    ],
+    "commonMisconceptions": [
+      "The oracle declined suddenly when Christianity arrived.",
+      "Damage always means decline (the fire of 548 BCE led to a rebuilding paid for by the whole Greek world).",
+      "Corruption only appears late (the Alcmaeonid bribery happened at the oracle's height).",
+      "A late event must be a sign of decline (the defeat of the Gauls in 279 BCE added to the oracle's prestige)."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on fourteen cards (mastery: 12 of 14, with two of the three trap cards correct).",
+      "Final reflection question on when the signs of weakness cluster (not scored)."
+    ]
   },
-  "chapter": "17-oracle"
+  "chapter": "17-oracle",
+  "type": "Interactive Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/delphi-oracle-strength-timeline/"
 }

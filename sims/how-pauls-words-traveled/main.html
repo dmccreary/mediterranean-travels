@@ -6,15 +6,30 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>How Paul's Words Traveled using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="how-pauls-words-traveled.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>How Paul's Words Traveled</h1>
+        <span id="score">Placed: 0 of 12</span>
+    </header>
+
+    <section id="panel" aria-live="polite"></section>
+
+    <div id="tray" role="group" aria-label="Event cards: drag one onto a strand, or select it and click a strand"></div>
+
+    <div id="timeline"></div>
+
+    <div id="strandkey"></div>
+
+    <div id="toolbar">
+        <button id="check-btn" class="primary" disabled>Check</button>
+        <button id="restart-btn" title="Return every card to the tray">Start over</button>
+        <span id="status"></span>
+    </div>
+</main>
+<script src="how-pauls-words-traveled.js"></script>
 </body>
 </html>

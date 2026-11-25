@@ -2,41 +2,69 @@
   "title": "Can This Answer Lose?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for can this answer lose?",
-  "date": "2026-11-24",
+  "description": "Classify eight answers, ancient and modern, as could be proven wrong, comes true either way, or not a prediction, then test each against two possible outcomes to see whether it could ever lose.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Can This Answer Lose?",
+    "topic": "Hedged oracle answers and testable predictions",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Distinguish answers that could be proven wrong from hedged answers that come true whatever happens and from answers that are not predictions at all, classifying at least 6 of 8 answers correctly on the first attempt, including the Croesus answer and the Chaerephon answer."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Prediction and forecast",
+      "Command",
+      "Hedging",
+      "The Croesus prophecy",
+      "The wooden walls prophecy",
+      "Chaerephon's question",
+      "The Oedipus prophecy",
+      "Xenophon's question"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 534
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Commit-then-test classification: the learner predicts a category, then a two-outcome test reveals the answer's structure",
+    "keyQuestions": [
+      "Could anything that happens prove this answer wrong?",
+      "Which outcomes would make the answer come true?",
+      "Is this answer a prediction at all, or a command?"
+    ],
+    "commonMisconceptions": [
+      "An answer that came true must have been a good prediction.",
+      "Every oracle answer was a prediction, when many were commands.",
+      "A claim about the present cannot be tested.",
+      "A prediction that came true in a story proves the oracle's foresight."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on eight cards (mastery: 6 of 8, with cards 1 and 4 correct).",
+      "Explain why an answer that cannot lose predicts nothing."
+    ]
   },
-  "chapter": "17-oracle"
+  "chapter": "17-oracle",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/oracle-answer-hedging-test/"
 }

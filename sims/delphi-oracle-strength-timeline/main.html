@@ -6,15 +6,36 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Eleven Centuries of the Oracle using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="delphi-oracle-strength-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Eleven Centuries of the Oracle</h1>
+        <span id="score">Correct on first attempt: 0 of 14</span>
+    </header>
+
+    <section id="card" aria-live="polite">
+        <div id="c-head"><span id="c-count"></span><span id="c-date"></span></div>
+        <div id="c-text"></div>
+        <div id="c-q">Does this event show the oracle's strength, or a weakness?</div>
+        <div id="choices"></div>
+        <div id="feedback"></div>
+        <div class="row">
+            <button id="next-btn" class="primary">Next card &rarr;</button>
+            <button id="restart-btn">Try Again</button>
+            <span class="hint" id="hint">Keys 1 and 2 choose; Enter goes on.</span>
+        </div>
+    </section>
+
+    <div id="toolbar">
+        <button id="full-span" title="Show 800 BCE to 450 CE">Full span</button>
+        <button id="close-up" title="Show 750 to 250 BCE">Close-up: 750&ndash;250 BCE</button>
+        <span id="note">Each answered card drops into its row at its date. Click a card to read it again.</span>
+    </div>
+    <div id="timeline"></div>
+</main>
+<script src="delphi-oracle-strength-timeline.js"></script>
 </body>
 </html>

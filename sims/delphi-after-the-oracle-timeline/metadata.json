@@ -2,41 +2,68 @@
   "title": "Delphi After the Oracle",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for delphi after the oracle",
-  "date": "2026-11-24",
+  "description": "Nine dated events in Delphi's history after the oracle closed, from the Theodosian Decrees to the UNESCO listing; the learner predicts each event's stage (silenced, found, dug up, shown) before its description is revealed, and each event drops onto a vis-timeline from 300 to 2000 CE with the empty centuries compressed.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Delphi After the Oracle",
+    "topic": "Delphi after the oracle: Kastri, rediscovery, the French excavation, and how the site is shown today",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify nine events in Delphi's history after the oracle into the four stages silenced, found, dug up, and shown, with at least 8 of 9 correct, predicting each event's stage before its description is revealed."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Theodosian Decrees and the closing of the oracle",
+      "Village of Kastri",
+      "French excavation of Delphi",
+      "Athenian Treasury",
+      "Charioteer of Delphi",
+      "Delphi Archaeological Museum",
+      "Delphic Festivals and the Theater of Delphi"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 590
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict-then-reveal classification on a timeline, one prediction per event in date order, with immediate feedback and a compressed time scale",
+    "keyQuestions": [
+      "The oracle fell silent in 391 CE. How did Delphi come back?",
+      "What is the difference between finding a site and digging it up?",
+      "How much of what visitors see today was shaped after the excavation?"
+    ],
+    "commonMisconceptions": [
+      "The ruins of Delphi were always visible and visited, when they lay under a village for centuries.",
+      "Archaeologists found Delphi by digging, when travelers identified it first from ancient texts.",
+      "The excavation was the end of the story, when rebuilding, museums, and festivals shaped what visitors see today.",
+      "What we see at Delphi is exactly as the excavators found it, when the Athenian Treasury was rebuilt."
+    ],
+    "assessmentOpportunities": [
+      "Prediction score on nine events (mastery: 8 of 9).",
+      "Explain why the rebuilt Athenian Treasury belongs to the Shown stage."
+    ]
   },
-  "chapter": "18-delphi"
+  "chapter": "18-delphi",
+  "type": "Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/delphi-after-the-oracle-timeline/"
 }

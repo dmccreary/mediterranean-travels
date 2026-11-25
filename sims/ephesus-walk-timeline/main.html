@@ -6,15 +6,37 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>One Walk, Seven Centuries using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="ephesus-walk-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>One Walk, Seven Centuries</h1>
+        <span id="score">Correct: 0 of 8</span>
+    </header>
+
+    <section id="panel" aria-live="polite">
+        <div id="step"></div>
+        <div id="question"></div>
+        <div id="choices">
+            <button id="btn-older" title="Begun earlier than the previous monument (key O)">Older <small>(begun earlier)</small></button>
+            <button id="btn-younger" title="Begun later than the previous monument (key Y)">Younger <small>(begun later)</small></button>
+            <button id="btn-next" class="primary" title="Walk on (Enter)">Walk on</button>
+            <button id="btn-again" class="primary">Walk again</button>
+        </div>
+        <div id="feedback"></div>
+    </section>
+
+    <div id="timeline"></div>
+
+    <div id="toolbar">
+        <button id="zoom-in" title="Zoom in">+</button>
+        <button id="zoom-out" title="Zoom out">&minus;</button>
+        <button id="full-span" title="Show 300 BCE to 500 CE">Full span</button>
+        <span id="note">Dates are approximate (c.); most monuments were built over years and repaired for centuries. Drag to pan.</span>
+    </div>
+</main>
+<script src="ephesus-walk-timeline.js"></script>
 </body>
 </html>

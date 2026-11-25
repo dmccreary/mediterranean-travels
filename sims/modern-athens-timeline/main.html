@@ -6,15 +6,37 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Why Athens Looks the Way It Does using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="modern-athens-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Why Athens Looks the Way It Does</h1>
+        <span id="score">0 of 8 correct on the first attempt</span>
+    </header>
+
+    <section id="card" aria-live="polite">
+        <div id="c-head"><span id="c-count"></span><span id="c-note">Typical sights, not specific places</span></div>
+        <div id="c-sight"></div>
+        <div id="c-q">Which event explains this? Click an event on the timeline, or pick it from the list, then press Commit.</div>
+        <div class="row">
+            <select id="pick" aria-label="Choose an event"></select>
+            <button id="commit-btn" class="primary">Commit</button>
+            <button id="next-btn">Next sight &rarr;</button>
+            <button id="restart-btn">Restart</button>
+        </div>
+        <div id="c-event"></div>
+        <div id="feedback"></div>
+    </section>
+
+    <div id="toolbar">
+        <button id="full-span" title="Show 1967 to 2023">Full span: 1967&ndash;2023</button>
+        <button id="close-up" title="Show 2008 to 2019">Close-up: 2008&ndash;2019</button>
+        <span id="note">Gold badges S1&ndash;S8 mark the sights you have matched.</span>
+    </div>
+    <div id="timeline"></div>
+</main>
+<script src="modern-athens-timeline.js"></script>
 </body>
 </html>

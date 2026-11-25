@@ -2,7 +2,7 @@
   "title": "Planning Day 3 Around the Prayer Times",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for planning day 3 around the prayer times",
+  "description": "A drag-and-drop day planner for Friday, November 13, 2026 in Istanbul: place Topkapı Palace, the Blue Mosque, the Süleymaniye, the Rüstem Pasha Mosque and lunch so that every mosque visit avoids the prayer closures, then check the plan against named rules.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,58 @@
     "subjectArea": "Social Studies",
     "topic": "Planning Day 3 Around the Prayer Times",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Solve the Day 3 scheduling problem by placing five activities into a 9:00 AM to 6:00 PM day so that every mosque visit falls inside a window when mosques are open to visitors, producing a valid schedule within three checks."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Daily prayer",
+      "Prayer times",
+      "Friday prayer",
+      "Mosque etiquette",
+      "Locations of Topkapı Palace, the Blue Mosque, the Süleymaniye and the Rüstem Pasha Mosque"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 574
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
+      "hasAltText": true,
       "keyboardNavigable": false
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Constraint-based practice problem with rule-by-rule feedback",
+    "keyQuestions": [
+      "It's Friday. When can we visit the mosques?",
+      "Which mosque windows are long enough for a one-hour visit?",
+      "Where does the walk between Sultanahmet and Süleymaniye fit?"
+    ],
+    "commonMisconceptions": [
+      "Mosques are open all day like museums.",
+      "Friday noon is a good time to visit a famous mosque because everyone will be there.",
+      "Prayer times are the same every day, so last week's times will do.",
+      "Moving between neighborhoods takes no time."
+    ],
+    "assessmentOpportunities": [
+      "A valid schedule within three checks.",
+      "List the long mosque-visiting windows on a Friday.",
+      "Explain why last week's prayer times are not good enough."
+    ]
   },
-  "chapter": "05-ottoman-istanbul"
+  "chapter": "05-ottoman-istanbul",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/day-3-prayer-time-planner/"
 }

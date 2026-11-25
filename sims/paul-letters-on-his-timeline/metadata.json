@@ -2,41 +2,66 @@
   "title": "Where in Paul's Life Was Each Letter Written?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for where in paul's life was each letter written?",
-  "date": "2026-11-24",
+  "description": "Drag the seven undisputed letters of Paul onto a timeline of his life, using one clue from inside each letter.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Where in Paul's Life Was Each Letter Written?",
+    "topic": "Dating Paul's Letters",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Organize the seven undisputed letters onto a timeline of Paul's life, using one clue from inside each letter, placing all seven in an accepted period within two attempts."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The seven undisputed letters",
+      "Paul's missionary journeys",
+      "The Book of Acts",
+      "Timothy and Titus",
+      "Phoebe and Cenchreae",
+      "The Ephesian imprisonment theory"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 600
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Evidence-based ordering: drag cards onto a timeline using internal clues, with two checks and reasoned feedback",
+    "keyQuestions": [
+      "Where was Paul, and who was with him, when he wrote each letter?",
+      "Why do most of the letters fall in the third journey?",
+      "Why is the place of the prison letters still debated?"
+    ],
+    "commonMisconceptions": [
+      "Paul's letters were written in the order they appear in the New Testament, so Romans came first.",
+      "All the prison letters were written in Rome at the end of his life.",
+      "Paul wrote letters throughout his thirty years of travel; the seven come from about ten years, most from the third journey."
+    ],
+    "assessmentOpportunities": [
+      "All seven letters placed in accepted periods within two Checks.",
+      "Explain why 1 Corinthians can be placed in Ephesus with certainty but Philippians cannot."
+    ]
   },
-  "chapter": "09-paul-life-letters"
+  "chapter": "09-paul-life-letters",
+  "type": "Interactive Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/paul-letters-on-his-timeline/"
 }

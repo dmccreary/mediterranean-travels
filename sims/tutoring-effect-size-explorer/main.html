@@ -5,15 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Tutoring Effect Size Explorer using Plotly</title>
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
-    <script src="tutoring-effect-size-explorer.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Tutoring Effect Size Explorer</h1>
+        <span id="score">0 of 5 within 5 points on the first attempt</span>
+    </header>
+
+    <section id="card" aria-live="polite">
+        <div id="c-head"><span id="c-count"></span><span id="c-d"></span></div>
+        <div id="c-study"></div>
+        <div id="c-q">Where does the average tutored student land in the conventional class? Type the percentile you predict.</div>
+        <div class="row">
+            <label for="guess">Your prediction:</label>
+            <input id="guess" type="number" min="0" max="100" step="1" placeholder="0–100" aria-label="Predicted percentile, 0 to 100">
+            <button id="check-btn" class="primary">Check</button>
+            <button id="next-btn">Next result &rarr;</button>
+            <button id="restart-btn">Restart</button>
+        </div>
+        <div id="feedback"></div>
+    </section>
+
+    <div id="plot"></div>
+
+    <div id="explore">
+        <label for="d-slider">Free exploration: <b id="d-val">d = 0.00 SD</b></label>
+        <input id="d-slider" type="range" min="0" max="2" step="0.01" value="0" aria-label="Effect size d in standard deviations">
+        <span id="pct-val">Percentile: 50.0</span>
+    </div>
+</main>
+<script src="tutoring-effect-size-explorer.js"></script>
 </body>
 </html>

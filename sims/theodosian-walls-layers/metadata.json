@@ -2,7 +2,7 @@
   "title": "Layers of the Theodosian Walls",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for layers of the theodosian walls",
+  "description": "Place the five layers of Constantinople's land walls on a schematic cross-section in the order an attacker from the west met them, then answer three questions on why the design worked.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "Layers of the Theodosian Walls",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Identify the five layers of the Theodosian land walls in the order an attacker from the west meets them, with no more than one placement error."
     ],
     "bloomsTaxonomy": "Remember",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Moat",
+      "Terrace",
+      "Tower",
+      "Breach",
+      "Outer wall and inner wall",
+      "Peribolos"
+    ],
     "standards": []
   },
   "technical": {
-    "framework": "html",
+    "framework": "HTML/SVG",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 658
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Retrieval practice: label a diagram, then explain",
+    "keyQuestions": [
+      "What does an army from the west meet first, and what last?",
+      "Why is the inner wall taller than the outer wall?",
+      "Which emperor completed the land walls in 413?",
+      "How did the crusaders get into the city in 1204?"
+    ],
+    "commonMisconceptions": [
+      "The walls were one thick wall.",
+      "The moat was the strongest defense.",
+      "The outer wall was taller than the inner wall.",
+      "The walls were named for Theodosius I.",
+      "The land walls were breached before 1453 (the crusaders entered from the harbor in 1204)."
+    ],
+    "assessmentOpportunities": [
+      "First-submission score on the five positions (mastery: 4 of 5).",
+      "Score on the three Part 2 questions.",
+      "Explain why a breach in the outer wall still left the defenders a chance."
+    ]
   },
-  "chapter": "03-istanbul-two-continents"
+  "chapter": "03-istanbul-two-continents",
+  "type": "Interactive Diagram",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/theodosian-walls-layers/"
 }

@@ -2,41 +2,67 @@
   "title": "Essential or Inherited?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for essential or inherited?",
-  "date": "2026-11-24",
+  "description": "Judge twelve school practices as an essential purpose of schooling or an inherited form that served that purpose under earlier constraints, including a trap pair that separates checking mastery from the same test on the same day.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Essential or Inherited?",
+    "subjectArea": "Education Leadership",
+    "topic": "Essential Versus Inherited Practices in Schools",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge whether each of twelve school practices is an essential purpose of schooling or an inherited form that served that purpose under earlier constraints, judging at least 10 of 12 correctly, including both items of the trap pair."
     ],
     "bloomsTaxonomy": "Evaluate",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Essential versus inherited",
+      "The Council of Jerusalem",
+      "The grammar of schooling",
+      "Seat time and the Carnegie unit",
+      "Direct instruction",
+      "The AI-native school"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 570
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Judgment against a stated criterion: one scored choice per card, immediate reasoned feedback, and a trap pair that separates a purpose from its form",
+    "keyQuestions": [
+      "Is this part of what a school is for, or one way of doing it?",
+      "What problem did this practice solve when it began, and does that problem still exist in the same form?",
+      "Which essential purpose does each inherited form serve?"
+    ],
+    "commonMisconceptions": [
+      "Inherited means worthless or harmful; in fact inherited forms solved real problems and may still be useful.",
+      "Whatever schools have always done must be essential.",
+      "Checking that a student has learned is the same as everyone taking the same test on the same day.",
+      "Explanation by a teacher is inherited; what is inherited is the single pace for the whole room."
+    ],
+    "assessmentOpportunities": [
+      "At least 10 of 12 correct on the first attempt, with cards 5 and 11 both correct.",
+      "Explain why checking mastery is essential while a shared test date is a form, and name another form that keeps the purpose."
+    ]
   },
-  "chapter": "11-paul-ideas-leadership"
+  "chapter": "11-paul-ideas-leadership",
+  "type": "Interactive Judgment Activity",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/essential-or-inherited-school-practices/"
 }

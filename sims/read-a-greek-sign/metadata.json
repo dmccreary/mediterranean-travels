@@ -2,41 +2,69 @@
   "title": "Read a Greek Sign",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for read a greek sign",
+  "description": "Transliterate twelve Greek signs from the route into Latin letters, with a letter key, trap-letter hints after a first miss, and a letter-by-letter breakdown.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
+    "subjectArea": "World Languages",
     "topic": "Read a Greek Sign",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Use the Greek letter table to transliterate twelve Greek signs from the route into Latin letters, with at least 10 of 12 correct within two attempts each."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Alphabet",
+      "The Greek language",
+      "The Greek capital letters and their sign transliterations",
+      "The letter pairs ΟΥ, ΑΙ, ΕΙ and ΟΙ"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 520
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Practice with typed answers, graduated hints and immediate feedback",
+    "keyQuestions": [
+      "Which letters on this sign look like ours but are not?",
+      "Which letter pairs make a single sound?",
+      "Where does the stress fall?"
+    ],
+    "commonMisconceptions": [
+      "Η is the consonant h (it is the vowel i).",
+      "Ρ is p (it is r).",
+      "Χ is x (it is a throaty h, written ch).",
+      "Υ is u (alone it is y, sounding ee).",
+      "Ω is w (it is o).",
+      "Λ is an upside-down v (it is l).",
+      "Greek signs must be read letter by letter for pronunciation (pairs like ΕΙ and ΟΥ make one sound)."
+    ],
+    "assessmentOpportunities": [
+      "Signs read within two tries (mastery: 10 of 12).",
+      "Tally of trap letters in the signs missed at least once.",
+      "Transliterate a new sign (ΛΙΜΑΝΙ)."
+    ]
   },
-  "chapter": "02-traveling-well"
+  "chapter": "02-traveling-well",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/read-a-greek-sign/"
 }

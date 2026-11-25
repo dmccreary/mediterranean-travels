@@ -1,42 +1,70 @@
 {
-  "title": "Where the Empire Withdrew, 1683\u20131923",
+  "title": "Where the Empire Withdrew, 1683–1923",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for where the empire withdrew, 1683\u20131923",
-  "date": "2026-11-24",
+  "description": "Classify fourteen places of the former Ottoman Empire by the era in which they left Ottoman rule, then replay the four eras on a map to see the shape of the retreat.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Where the Empire Withdrew, 1683\u20131923",
+    "topic": "Ottoman Decline",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify fourteen places on a map of the former Ottoman Empire by the era in which they left Ottoman rule, with at least 10 of 14 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Ottoman decline",
+      "Treaty of Karlowitz (1699)",
+      "Treaty of Küçük Kaynarca (1774)",
+      "Nationalism",
+      "Congress of Berlin (1878)",
+      "Balkan Wars",
+      "World War I"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 690
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri Ocean Basemap tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (classification on a map), followed by a cumulative era replay",
+    "keyQuestions": [
+      "Which regions did the empire lose first, and which last?",
+      "Which lost places became independent states, and which passed to another empire?",
+      "Why did the Arab provinces stay Ottoman until World War I?"
+    ],
+    "commonMisconceptions": [
+      "The Greek and Balkan lands were the last to go, because they were closest to Istanbul.",
+      "The Arab provinces broke away early.",
+      "The empire lost its lands in one collapse in 1918.",
+      "Every lost place became an independent nation at once."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on fourteen places (mastery: 10 of 14).",
+      "Compare when Rhodes and Athens left Ottoman rule and when each became Greek."
+    ]
   },
-  "chapter": "07-end-of-empire-modern-turkey"
+  "chapter": "07-end-of-empire-modern-turkey",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/ottoman-retreat-map/"
 }

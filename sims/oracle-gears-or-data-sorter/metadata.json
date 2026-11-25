@@ -2,41 +2,67 @@
   "title": "Oracle, Gears, or Data?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for oracle, gears, or data?",
-  "date": "2026-11-24",
+  "description": "Twelve prediction cards, from Delphi's oracle, the Antikythera mechanism, Babylonian eclipse tablets, a stone peg calendar, and modern phones and apps; the learner drags or assigns each card to one of three bins, Oracle, Cycle model, or Learned model, then checks all twelve with card-level feedback on how each answer was produced.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Oracle, Gears, or Data?",
+    "subjectArea": "History of Science and Computer Science",
+    "topic": "Three ways of predicting: the oracle, the cycle model, and the learned model",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate twelve predictions by how each answer is produced, as an oracle's answer, a cycle model, or a learned model, sorting at least 10 of the 12 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Oracle consultation and the Pythia",
+      "Antikythera mechanism",
+      "Saros cycle",
+      "Four-year games cycle",
+      "Babylonian eclipse records",
+      "Parapegma",
+      "Machine learning and the predictive model"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 656
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Differentiation sorting into three method bins with a single scored first Check, card-level feedback, and unlimited practice re-checks",
+    "keyQuestions": [
+      "How was each answer produced?",
+      "Why do a bronze dial, a clay tablet, and a stone calendar share a bin?",
+      "What can a learned model do that the Antikythera gears could not?"
+    ],
+    "commonMisconceptions": [
+      "Anything ancient is guesswork or religion, so the mechanism and the Babylonian tables belong with the oracle.",
+      "Any machine that predicts must have learned from data, so the mechanism belongs with the learned models.",
+      "The bin depends on the material, clay, stone, bronze or software, rather than on the method that produced the answer."
+    ],
+    "assessmentOpportunities": [
+      "First-Check score on twelve cards (mastery: 10 of 12).",
+      "Classify a new prediction, such as a weather app, and justify the bin by its method."
+    ]
   },
-  "chapter": "20-athens-museums-city-today"
+  "chapter": "20-athens-museums-city-today",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/oracle-gears-or-data-sorter/"
 }

@@ -2,41 +2,67 @@
   "title": "Paul's Journeys and Our Route",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for paul's journeys and our route",
-  "date": "2026-11-24",
+  "description": "Classify twelve places by the journey on which the Book of Acts first brings Paul there, then reveal Paul's three journeys and his voyage to Rome on one map with our own November 2026 route.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Paul's Journeys and Our Route",
+    "topic": "Paul's Missionary Journeys",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve places by the journey on which the Book of Acts first brings Paul there (first, second, or third journey, or the voyage to Rome), correctly placing at least 10 of 12."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Paul's missionary journeys",
+      "The Book of Acts",
+      "Roman roads and the sailing season",
+      "The Roman province of Asia",
+      "Our cruise route (Chapter 2)"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 696
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri Ocean Basemap tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (classification on a map), followed by route exploration",
+    "keyQuestions": [
+      "On which journey does Acts first bring Paul to each place?",
+      "Which journey reached the most places?",
+      "Which places did Paul's travels and our trip share?"
+    ],
+    "commonMisconceptions": [
+      "Paul's main stay in Ephesus was his first visit there; Acts first brings him there briefly at the end of the second journey.",
+      "Paul visited Crete on a missionary journey; Acts brings him there only as a prisoner, on the voyage to Rome.",
+      "Athens was a center of Paul's work; Acts gives it one short visit on the second journey.",
+      "Paul visited every port on our cruise; Acts never brings him to Byzantium, Heraklion, or Delphi."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve places (mastery: 10 of 12).",
+      "Correct a guide's claim that Paul's first visit to Ephesus lasted three years."
+    ]
   },
-  "chapter": "09-paul-life-letters"
+  "chapter": "09-paul-life-letters",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/paul-journeys-and-our-route/"
 }

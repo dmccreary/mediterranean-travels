@@ -2,41 +2,68 @@
   "title": "How Paul's Words Traveled",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for how paul's words traveled",
-  "date": "2026-11-24",
+  "description": "Sort twelve dated events from 386 to 1999 into four strands of Paul's later influence on a timeline, and see Martin Luther land in three of them.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "How Paul's Words Traveled",
+    "topic": "Paul's Later Influence and Contested Legacy",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Organize twelve dated events from 386 CE to 1999 into four strands of Paul's later influence (grace and faith; conscience and equality; contempt and its repudiation; rereading Paul), placing at least 10 of 12 in the correct strand."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Grace and faith",
+      "Individual conscience",
+      "The idea of human equality",
+      "Christian anti-Judaism",
+      "The New Perspective on Paul",
+      "Augustine of Hippo",
+      "The Protestant Reformation"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 652
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Categorize on a timeline: drag fixed-date event cards into four thematic strands, one scored Check with reasoned feedback",
+    "keyQuestions": [
+      "Which of Paul's ideas did each event carry forward, or fight over?",
+      "Why does Martin Luther appear in three different strands?",
+      "When does the contempt strand turn toward repudiation, and what came just before?"
+    ],
+    "commonMisconceptions": [
+      "Paul's influence ran in one direction, either all good or all harmful.",
+      "Each historical figure belongs to one strand; in fact Luther appears in three.",
+      "Scholarly rereading of Paul is a recent fad with no history; it began in the 1960s and 1970s.",
+      "The Reformation was about conscience alone; its starting point was grace."
+    ],
+    "assessmentOpportunities": [
+      "At least 10 of 12 events placed in the correct strand on the first Check.",
+      "Explain, using the timeline, why Paul's legacy is called contested."
+    ]
   },
-  "chapter": "11-paul-ideas-leadership"
+  "chapter": "11-paul-ideas-leadership",
+  "type": "Interactive Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/how-pauls-words-traveled/"
 }

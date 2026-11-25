@@ -6,15 +6,48 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Knossos From Village to Decipherment using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="knossos-village-to-decipherment-timeline.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Knossos From Village to Decipherment</h1>
+        <span id="score">Predictions correct: 0 of 4</span>
+    </header>
+
+    <div id="prompt">Before we fill this in: what came first, the volcano or the fall?</div>
+
+    <div id="timeline"></div>
+
+    <div id="toolbar">
+        <button id="full-span" title="Show 7000 BCE to 2030 CE">Full span</button>
+        <button id="bronze" title="Show 2000 to 1150 BCE">Close-up: Bronze Age</button>
+        <button id="redisc" title="Show 1870 to 2030 CE">Close-up: Rediscovery</button>
+        <button id="pan-left" title="Move the view earlier">&#9664; Earlier</button>
+        <button id="pan-right" title="Move the view later">Later &#9654;</button>
+    </div>
+    <div id="note">Bronze Age dates are approximate and debated; the destruction of Knossos is sometimes dated later than 1375 BCE.</div>
+
+    <div id="lower">
+        <section id="quiz" aria-live="polite">
+            <div id="q-count"></div>
+            <div id="q-text"></div>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <div class="row">
+                <button id="next-btn" class="primary">Next question &rarr;</button>
+                <button id="restart-btn">Start over</button>
+            </div>
+        </section>
+        <section id="details" aria-live="polite">
+            <div class="placeholder">
+                <p>The timeline is to scale from 7000 BCE to 2030 CE. Only the first village is on it so far.</p>
+                <p>Each answer adds events. Click any event to read about it here.</p>
+            </div>
+        </section>
+    </div>
+</main>
+<script src="knossos-village-to-decipherment-timeline.js"></script>
 </body>
 </html>

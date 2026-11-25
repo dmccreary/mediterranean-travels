@@ -5,15 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Reinforcing or Balancing? Loops From Ephesus to the Staff Room using vis-network</title>
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
     <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
-    <script src="loops-ephesus-to-staff-room.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div id="edit-bar" hidden>
+            <span class="edit-tag">Edit mode</span>
+            <button type="button" id="copy-btn" class="btn">Copy JSON</button>
+            <button type="button" id="download-btn" class="btn">Download JSON</button>
+            <button type="button" id="reset-btn" class="btn secondary">Reset Layout</button>
+            <span class="sep"></span>
+            <span class="edge-tools-label">Selected edge:</span>
+            <button type="button" id="flip-btn" class="btn secondary" disabled>Flip Curve</button>
+            <button type="button" id="less-btn" class="btn secondary" disabled>Curve &minus;</button>
+            <button type="button" id="more-btn" class="btn secondary" disabled>Curve +</button>
+            <button type="button" id="straight-btn" class="btn secondary" disabled>Straight</button>
+            <span class="sep"></span>
+            <button type="button" id="prev-edit-btn" class="btn secondary">&larr; Loop</button>
+            <button type="button" id="next-edit-btn" class="btn secondary">Loop &rarr;</button>
+            <span id="edit-status" aria-live="polite"></span>
+        </div>
+        <header>
+            <h1>Reinforcing or Balancing?</h1>
+            <span id="score">First-try correct: 0 of 6</span>
+        </header>
+        <div id="network-wrap">
+            <div id="network" aria-label="A causal loop diagram of one feedback loop, with a plus or minus sign on each arrow"></div>
+            <div id="zoom-bar">
+                <button type="button" id="zoom-in" class="zbtn" title="Zoom in">+</button>
+                <button type="button" id="zoom-out" class="zbtn" title="Zoom out">&minus;</button>
+                <button type="button" id="zoom-reset" class="zbtn wide" title="Fit the loop to the view">Reset view</button>
+            </div>
+            <div id="summary" hidden></div>
+        </div>
+        <div id="rule">
+            <b>Counting rule:</b> count the minus signs <span class="neg">&minus;</span> on the arrows around the whole loop.
+            Even (including zero) is <b>Reinforcing</b>; odd is <b>Balancing</b>.
+        </div>
+        <div id="answer-bar" role="group" aria-label="Choose the loop type">
+            <button type="button" id="r-btn" class="choice" data-type="reinforcing" aria-pressed="false">Reinforcing</button>
+            <button type="button" id="b-btn" class="choice" data-type="balancing" aria-pressed="false">Balancing</button>
+            <button type="button" id="submit-btn" class="primary" disabled>Submit</button>
+            <button type="button" id="next-btn" disabled>Next loop</button>
+            <button type="button" id="again-btn">Try again</button>
+        </div>
+        <section id="details" aria-live="polite"></section>
+    </main>
+    <script src="loops-ephesus-to-staff-room.js"></script>
 </body>
 </html>

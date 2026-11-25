@@ -2,7 +2,7 @@
   "title": "Thoughtful Traveler Choices",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for thoughtful traveler choices",
+  "description": "Judge which of three responses best fits the six thoughtful-traveler principles in eight situations on the route, with the deciding principle named after every choice.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,57 @@
     "subjectArea": "Social Studies",
     "topic": "Thoughtful Traveler Choices",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge which of three responses best fits the six thoughtful-traveler principles in each of eight situations on the route, choosing the best response in at least 7 of 8 situations on the first attempt."
     ],
     "bloomsTaxonomy": "Evaluate",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Thoughtful traveler",
+      "The six principles: curiosity, humility, consent, reciprocity, patience, many stories",
+      "Tourist script",
+      "Empathy, cognitive and emotional"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 590
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Scenario-based judgment with immediate feedback",
+    "keyQuestions": [
+      "Which principle decides this situation?",
+      "Is the tempting answer a polite way of avoiding contact?",
+      "What does this person's day look like from their side?"
+    ],
+    "commonMisconceptions": [
+      "Being polite means avoiding contact, such as keeping conversations brief or refusing tea.",
+      "Photographing someone from a distance is harmless because they do not notice.",
+      "Correcting a local guide with the real story is helpful.",
+      "Off-season limits are poor service rather than a normal part of the season.",
+      "A kind lie such as 'I'll come back later' is kinder than an honest no."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on eight situations (mastery: 7 of 8).",
+      "Explain which principle the tempting Gallipoli response misses."
+    ]
   },
-  "chapter": "02-traveling-well"
+  "chapter": "02-traveling-well",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/thoughtful-traveler-choices/"
 }

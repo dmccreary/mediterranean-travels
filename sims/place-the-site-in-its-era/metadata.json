@@ -2,7 +2,7 @@
   "title": "Place the Site in Its Era",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for place the site in its era",
+  "description": "Sort 15 sites and objects from the trip into eight period bins, from the Bronze Age to the Ottoman period, by the date each was built.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,56 @@
     "subjectArea": "Social Studies",
     "topic": "Place the Site in Its Era",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Apply the chapter's period boundaries to assign each of 15 sites and objects on the trip to the period in which it was built, with at least 12 of 15 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Historical timeline",
+      "BCE and CE dating",
+      "The nine periods and their dates",
+      "A period name tells when, not always who"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 460
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Practice with immediate feedback (sorting)",
+    "keyQuestions": [
+      "When was this built, not restored?",
+      "Which period on the timeline holds that date?",
+      "Does the period name match the builder?"
+    ],
+    "commonMisconceptions": [
+      "A period name always names the builder.",
+      "A rebuilt or reconstructed monument belongs to the date of its reconstruction.",
+      "Everything at Troy is from the time of the Trojan War.",
+      "The Iron Age left nothing to see."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on 15 cards (mastery: 12 of 15).",
+      "Explain the two trap cards: the Palace of the Grand Master and the Stoa of Attalos."
+    ]
   },
-  "chapter": "01-long-timeline"
+  "chapter": "01-long-timeline",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/place-the-site-in-its-era/"
 }

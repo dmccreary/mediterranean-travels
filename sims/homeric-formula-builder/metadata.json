@@ -2,41 +2,64 @@
   "title": "Finish the Line Like a Homeric Singer",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for finish the line like a homeric singer",
-  "date": "2026-11-24",
+  "description": "Complete six Homeric hexameter lines by choosing the name formula for Achilles or Odysseus whose syllables exactly fill the space left at the end of the line.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Finish the Line Like a Homeric Singer",
+    "subjectArea": "Literature",
+    "topic": "Homeric oral-formulaic composition and dactylic hexameter",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Use the size of the metrical space left at the end of a line to choose the Homeric name formula that completes it, for six lines naming Achilles or Odysseus, with at least 5 of 6 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Oral tradition",
+      "Formula",
+      "Dactylic hexameter",
+      "Long and short syllables",
+      "Achilles and Odysseus"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 560
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Practice problems applying Parry's metrical rule, with a to-scale picture of the fit and two attempts per line",
+    "keyQuestions": [
+      "Which name fits the space?",
+      "Why is Achilles 'swift of feet' while he sits in his hut?"
+    ],
+    "commonMisconceptions": [
+      "Homer chose each epithet for its meaning at that moment, so 'swift-footed' means Achilles is running.",
+      "The singers memorized a fixed text word for word.",
+      "Any adjective could fill any gap."
+    ],
+    "assessmentOpportunities": [
+      "Lines composed on the first try (mastery: 5 of 6).",
+      "Closing question on the sitting, swift-footed Achilles (not scored)."
+    ]
   },
-  "chapter": "08-troy-and-gallipoli"
+  "chapter": "08-troy-and-gallipoli",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/homeric-formula-builder/"
 }

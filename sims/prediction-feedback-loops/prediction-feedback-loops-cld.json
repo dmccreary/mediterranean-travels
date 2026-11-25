@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "id": "prediction-feedback-loops-cld",
+    "title": "When a Prediction Feeds Itself",
+    "archetype": "mixed",
+    "description": "Three simplified prediction loops shown one at a time: predictive policing, student risk prediction, and a traffic forecast for the road to Delphi. Each edge carries a link id (L1 to L10) and a polarity; each node's loop field says which loop it belongs to. Directions only, no sizes.",
+    "version": "1.0.0",
+    "created_date": "2026-11-25",
+    "author": "Mediterranean Travels",
+    "tags": [
+      "causal-loop",
+      "self-fulfilling-prophecy",
+      "self-defeating-prophecy",
+      "predictive-policing",
+      "student-risk-prediction"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "l1_predicted_crime",
+      "label": "Predicted crime in a district",
+      "loop": "LOOP1",
+      "position": { "x": 0, "y": -135 },
+      "type": "variable",
+      "description": "The model's forecast of how much crime will happen in a district."
+    },
+    {
+      "id": "l1_patrols",
+      "label": "Patrols sent to that district",
+      "loop": "LOOP1",
+      "position": { "x": 235, "y": 105 },
+      "type": "variable",
+      "description": "How many officers and patrol hours the district gets."
+    },
+    {
+      "id": "l1_recorded",
+      "label": "Crimes recorded in that district",
+      "loop": "LOOP1",
+      "position": { "x": -235, "y": 112 },
+      "type": "variable",
+      "description": "Crimes that were reported or discovered and written into police records. Records are not the same as crime."
+    },
+    {
+      "id": "l1_true_crime",
+      "label": "True crime in the district",
+      "loop": "LOOP1",
+      "position": { "x": -420, "y": -95 },
+      "type": "external",
+      "description": "Outside factor, not part of the loop. Records rise with true crime and with patrols; the model cannot tell which."
+    },
+    {
+      "id": "l2_risk_score",
+      "label": "Student's risk score",
+      "loop": "LOOP2",
+      "position": { "x": 0, "y": -150 },
+      "type": "variable",
+      "description": "An early-warning model's estimate that the student will fail or drop out."
+    },
+    {
+      "id": "l2_lower_course",
+      "label": "Placement in a lower-level course",
+      "loop": "LOOP2",
+      "position": { "x": 265, "y": 4 },
+      "type": "variable",
+      "description": "How likely the student is to be placed in a less demanding course."
+    },
+    {
+      "id": "l2_challenging_work",
+      "label": "Access to challenging coursework",
+      "loop": "LOOP2",
+      "position": { "x": 0, "y": 155 },
+      "type": "variable",
+      "description": "How much demanding material the student is taught."
+    },
+    {
+      "id": "l2_grades",
+      "label": "Grades and test scores",
+      "loop": "LOOP2",
+      "position": { "x": -265, "y": -4 },
+      "type": "variable",
+      "description": "The student's results, which feed the next risk score."
+    },
+    {
+      "id": "l3_predicted_traffic",
+      "label": "Predicted traffic at 9 AM on the Athens–Delphi road",
+      "loop": "LOOP3",
+      "position": { "x": 0, "y": -135 },
+      "type": "variable",
+      "description": "The forecast published for 9 AM on the road to Delphi."
+    },
+    {
+      "id": "l3_drivers_avoid",
+      "label": "Drivers who leave earlier or take another road",
+      "loop": "LOOP3",
+      "position": { "x": 235, "y": 105 },
+      "type": "variable",
+      "description": "Drivers who change their plans because of the forecast."
+    },
+    {
+      "id": "l3_traffic",
+      "label": "Traffic at 9 AM",
+      "loop": "LOOP3",
+      "position": { "x": -235, "y": 112 },
+      "type": "variable",
+      "description": "How heavy the traffic actually is at 9 AM."
+    }
+  ],
+  "edges": [
+    {
+      "id": "L1",
+      "source": "l1_predicted_crime",
+      "target": "l1_patrols",
+      "polarity": "positive",
+      "description": "Police send more patrols where the model predicts more crime."
+    },
+    {
+      "id": "L2",
+      "source": "l1_patrols",
+      "target": "l1_recorded",
+      "polarity": "positive",
+      "description": "More officers on the street discover and record more of the crime that is there."
+    },
+    {
+      "id": "L3",
+      "source": "l1_recorded",
+      "target": "l1_predicted_crime",
+      "polarity": "positive",
+      "description": "The model is retrained on the records, so more records raise the next prediction."
+    },
+    {
+      "id": "X1",
+      "source": "l1_true_crime",
+      "target": "l1_recorded",
+      "polarity": "positive",
+      "outside": true,
+      "description": "Records rise with true crime and with patrols; the model cannot tell which."
+    },
+    {
+      "id": "L4",
+      "source": "l2_risk_score",
+      "target": "l2_lower_course",
+      "polarity": "positive",
+      "description": "A higher score makes a lower-level placement more likely."
+    },
+    {
+      "id": "L5",
+      "source": "l2_lower_course",
+      "target": "l2_challenging_work",
+      "polarity": "negative",
+      "description": "The lower-level course offers less challenging work."
+    },
+    {
+      "id": "L6",
+      "source": "l2_challenging_work",
+      "target": "l2_grades",
+      "polarity": "positive",
+      "description": "Students who are taught more challenging material tend to score higher on it."
+    },
+    {
+      "id": "L7",
+      "source": "l2_grades",
+      "target": "l2_risk_score",
+      "polarity": "negative",
+      "description": "Higher grades lower the risk score."
+    },
+    {
+      "id": "L8",
+      "source": "l3_predicted_traffic",
+      "target": "l3_drivers_avoid",
+      "polarity": "positive",
+      "description": "A forecast of heavy traffic sends more drivers out early or onto other roads."
+    },
+    {
+      "id": "L9",
+      "source": "l3_drivers_avoid",
+      "target": "l3_traffic",
+      "polarity": "negative",
+      "description": "The more drivers avoid 9 AM, the lighter the 9 AM traffic."
+    },
+    {
+      "id": "L10",
+      "source": "l3_traffic",
+      "target": "l3_predicted_traffic",
+      "polarity": "positive",
+      "description": "Next week's forecast is learned from this week's traffic."
+    }
+  ],
+  "loops": [
+    {
+      "id": "LOOP1",
+      "type": "reinforcing",
+      "label": "Loop 1",
+      "description": "No opposite links: a higher prediction brings more patrols, more records, and a still higher prediction, whatever the true crime rate.",
+      "minus_signs": 0,
+      "path": ["l1_predicted_crime", "l1_patrols", "l1_recorded", "l1_predicted_crime"],
+      "start_question": "If the model predicts more crime here, what happens next?",
+      "position": { "x": 0, "y": 30 }
+    },
+    {
+      "id": "LOOP2",
+      "type": "reinforcing",
+      "label": "Loop 2",
+      "description": "Two opposite links cancel: a higher risk score leads, through less challenging work and lower grades, to a still higher risk score.",
+      "minus_signs": 2,
+      "path": ["l2_risk_score", "l2_lower_course", "l2_challenging_work", "l2_grades", "l2_risk_score"],
+      "start_question": "If a student's risk score goes up, what happens next?",
+      "position": { "x": 0, "y": 2 }
+    },
+    {
+      "id": "LOOP3",
+      "type": "balancing",
+      "label": "Loop 3",
+      "description": "One opposite link: a forecast of heavy traffic leads to lighter traffic and a lower forecast next week, so the prediction defeats itself.",
+      "minus_signs": 1,
+      "path": ["l3_predicted_traffic", "l3_drivers_avoid", "l3_traffic", "l3_predicted_traffic"],
+      "start_question": "If the forecast predicts heavy traffic at 9 AM, what happens next?",
+      "position": { "x": 0, "y": 30 }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "loop": "LOOP1",
+      "question": "Which change would weaken Loop 1?",
+      "choices": [
+        "Send more patrols to every district",
+        "Train the model on crimes reported by victims and residents rather than on crimes discovered by patrols",
+        "Retrain the model every week instead of every month"
+      ],
+      "answer": 1,
+      "why": "Records that do not depend on where the patrols went no longer carry L2's effect into L3; more patrols or more frequent retraining only feed the same loop."
+    },
+    {
+      "id": "Q2",
+      "loop": "LOOP2",
+      "question": "Which use of the risk score would turn Loop 2 from harm to help?",
+      "choices": [
+        "Hide the score from the student",
+        "Recompute the score every month",
+        "Keep the student in the challenging course and add tutoring when the score is high"
+      ],
+      "answer": 2,
+      "why": "Adding support instead of lowering the placement replaces link L5's loss of challenging work with more help, so a high score leads to higher grades."
+    },
+    {
+      "id": "Q3",
+      "loop": "LOOP3",
+      "question": "Next Sunday the 9 AM forecast said \"heavy traffic,\" and the road was light. What is the best explanation?",
+      "choices": [
+        "Drivers acted on the forecast, so the jam it predicted did not form",
+        "The model was badly trained",
+        "Traffic is purely random"
+      ],
+      "answer": 0,
+      "why": "In a balancing loop a useful forecast can look wrong, because people change their behavior to avoid what it predicts."
+    }
+  ]
+}

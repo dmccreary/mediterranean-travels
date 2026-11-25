@@ -2,41 +2,70 @@
   "title": "Mind the Gap: How Old Is the Evidence?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for mind the gap: how old is the evidence?",
-  "date": "2026-11-24",
+  "description": "Judge eight stories about Troy and Gallipoli as firm history, a real core with a shaped telling, or late or unsupported, by comparing on a timeline the date of each event with the date and author of its earliest surviving evidence.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Mind the Gap: How Old Is the Evidence?",
+    "topic": "Historicity of Troy and source criticism",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge each of eight stories about Troy and Gallipoli as firm history, a real core with a shaped telling, or late or unsupported, by comparing the date of the event with the date and author of its earliest surviving evidence, with at least 7 of 8 correct."
     ],
     "bloomsTaxonomy": "Evaluate",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "Primary source",
+      "Myth versus history",
+      "Troy VIIa",
+      "Wilusa",
+      "The Iliad and the Odyssey",
+      "The Trojan Horse",
+      "Priam's Treasure",
+      "The Gallipoli naval attack of March 18, 1915",
+      "The Johnnies and Mehmets words"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 716
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Prediction before reveal, then criterion-based judgment (gap and author's stake) with two attempts and feedback",
+    "keyQuestions": [
+      "How long after each event was the story first written down, and by whom?",
+      "Why is an early source not automatically an honest one?",
+      "Does a real place prove the story told about it?"
+    ],
+    "commonMisconceptions": [
+      "A famous story told everywhere must have an early source.",
+      "A source written by an eyewitness, or soon after, is automatically reliable.",
+      "A real place proves the story told about it.",
+      "A story with a late source must be false."
+    ],
+    "assessmentOpportunities": [
+      "Verdicts correct on the first try (mastery: 7 of 8).",
+      "Predicted evidence dates, reported as close or not close (not scored)."
+    ]
   },
-  "chapter": "08-troy-and-gallipoli"
+  "chapter": "08-troy-and-gallipoli",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/troy-gallipoli-evidence-gap/"
 }

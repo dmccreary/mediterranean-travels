@@ -1,0 +1,209 @@
+/* Where in Paul's Life Was Each Letter Written? - styles */
+:root {
+    --ink: #1d2a33;
+    --muted: #5d6d78;
+    --line: #dde4e8;
+    --paper: #fbfaf7;
+    --header: #3E4F7A;
+    --placed: #3E6FA8;
+    --good: #2f7d4a;
+    --bad: #a4282a;
+    --shown: #B07D00;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+}
+main { display: block; width: 100%; }
+
+header {
+    background: var(--header);
+    color: #fff;
+    padding: 8px 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    height: 38px;
+    overflow: hidden;
+}
+header h1 { margin: 0; font-size: 17px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#score { margin-left: auto; font-weight: 600; font-size: 14px; white-space: nowrap; }
+
+button {
+    font: inherit;
+    font-size: 13px;
+    padding: 4px 10px;
+    border: 1px solid #b9c3c9;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+}
+button:hover:not(:disabled) { border-color: var(--header); background: #eef1f8; }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--header); border-color: var(--header); color: #fff; }
+button.primary:hover:not(:disabled) { background: #2f3d61; }
+
+/* ---------- clue panel ---------- */
+#panel {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 7px 14px;
+    height: 132px;
+    overflow: hidden;
+}
+#panel .step { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+#panel .name { font-weight: 700; font-size: 16px; margin: 2px 0 3px; }
+#panel .clue { font-size: 14px; line-height: 1.35; }
+#panel .ref { color: var(--muted); font-size: 13px; }
+#panel .fb { font-size: 13px; line-height: 1.35; margin-top: 4px; }
+#panel .good { color: var(--good); font-weight: 700; }
+#panel .bad { color: var(--bad); font-weight: 700; }
+#panel .shown { color: var(--shown); font-weight: 700; }
+#panel .hint { color: var(--muted); font-style: italic; }
+#panel .q { font-weight: 700; font-size: 16px; margin: 2px 0 4px; }
+
+/* ---------- tray of letter cards ---------- */
+#tray {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--line);
+    touch-action: none;
+}
+@media (max-width: 600px) { #tray { grid-template-columns: repeat(4, 1fr); } }
+.card {
+    font-size: 12px;
+    padding: 4px 3px;
+    border: 1px solid #b9c3c9;
+    border-radius: 5px;
+    background: #fff;
+    cursor: grab;
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.card .n { color: var(--muted); font-weight: 600; margin-right: 3px; }
+.card.sel { border: 2px solid var(--header); padding: 3px 2px; font-weight: 700; background: #eef1f8; }
+.card.placed { background: #e6eef8; border-color: var(--placed); }
+.card.ok { background: #e3f1e7; border-color: var(--good); cursor: pointer; }
+.card.wrong { background: #f8e3e3; border-color: var(--bad); }
+.card.shown { background: #fbf0d4; border-color: var(--shown); cursor: pointer; }
+#ghost {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1000;
+    background: var(--header);
+    color: #fff;
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    display: none;
+}
+
+/* ---------- timeline ---------- */
+#timeline { background: #fff; border-bottom: 1px solid var(--line); cursor: pointer; }
+#timeline.drop { outline: 2px dashed var(--header); outline-offset: -2px; }
+.vis-timeline { border: none !important; font-size: 12px; }
+.vis-labelset .vis-label .vis-inner { min-height: 24px; box-sizing: border-box; font-size: 12px; color: var(--muted); padding: 5px 6px 2px; width: 122px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.vis-labelset .vis-label.g-period .vis-inner { min-height: 34px; padding-top: 10px; font-weight: 600; color: var(--ink); }
+.vis-labelset .vis-label.g-letter .vis-inner { color: var(--ink); }
+.vis-labelset .vis-label.g-letter.sel .vis-inner { font-weight: 700; color: var(--header); background: #eef1f8; }
+.vis-time-axis .vis-text { color: var(--muted); }
+.vis-item .vis-item-content { white-space: nowrap !important; }
+.vis-item .vis-item-overflow { overflow: visible !important; }
+.vis-panel.vis-center, .vis-panel.vis-center .vis-content { overflow: visible; }
+.vis-foreground .vis-group { border-bottom: 1px solid #eef1f3; }
+
+/* Period bands: a label in the top row, and a tint behind every row */
+.vis-item.vis-range.band {
+    border-radius: 3px;
+    border-width: 1px;
+    color: var(--ink);
+    text-align: center;
+    height: 30px;
+    line-height: 12px;
+    font-size: 11px;
+}
+.vis-item.vis-range.band .vis-item-content { padding: 2px 2px !important; width: 100%; white-space: normal !important; }
+.vis-item.vis-range.band b { font-size: 12px; }
+.vis-item.vis-range.band small { font-size: 10px; }
+.vis-item.vis-background.bandbg { opacity: 0.45; }
+.vis-item.bandA { background: #E7DDF0; border-color: #9F86B8; }
+.vis-item.bandB { background: #D6E7F5; border-color: #6F9CC6; }
+.vis-item.bandC { background: #F8E0CC; border-color: #D08C55; }
+.vis-item.bandD { background: #F9EDB8; border-color: #C9A227; }
+.vis-item.bandE { background: #E3E3E3; border-color: #9A9A9A; }
+.vis-item.bandF { background: #F3D3D3; border-color: #C26A6A; }
+
+/* Point and range events */
+.vis-item.vis-range.ev { background: #e9edf0; border: none; border-left: 3px solid #5d6d78; border-right: none; color: var(--ink); font-size: 11px; height: 18px; line-height: 16px; border-radius: 0; }
+.vis-item.vis-range.ev .vis-item-content { padding: 0 4px !important; }
+.vis-item.vis-point.ev { font-size: 11px; color: var(--ink); }
+.vis-item.vis-dot.ev { border-color: #3d4a52; background: #3d4a52; }
+.vis-item.vis-point.ev { background: transparent; border: none; }
+.vis-item.vis-point.ev.label-left .vis-item-content > span { display: inline-block; transform: translateX(calc(-100% - 20px)); }
+.vis-item.vis-range.ev.trad { border-left-style: dashed; border-right-style: dashed; color: var(--muted); font-style: italic; background: #f4f6f7; }
+
+/* Placed letters */
+.vis-item.vis-range.lt {
+    height: 18px;
+    line-height: 14px;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    background: var(--placed);
+    border-color: #2c5486;
+}
+.vis-item.vis-range.lt .vis-item-content { padding: 1px 2px !important; width: 100%; }
+.vis-item.vis-range.lt.ok { background: var(--good); border-color: #1f5a33; }
+.vis-item.vis-range.lt.shown { background: var(--shown); border-color: #7d5900; }
+.vis-item.vis-range.alt { height: 18px; background: transparent; border: 2px dashed var(--good); border-radius: 4px; color: var(--good); font-size: 10px; text-align: center; }
+.vis-item.vis-range.alt .vis-item-content { padding: 0 1px !important; width: 100%; }
+.vis-item.vis-range.lt.vis-selected { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--header); }
+
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: #fff !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    max-width: 280px !important;
+    white-space: normal !important;
+    line-height: 1.35 !important;
+    border: none !important;
+}
+
+/* ---------- band key and toolbar ---------- */
+#bandkey { padding: 4px 10px; font-size: 11.5px; color: var(--muted); line-height: 1.45; border-bottom: 1px solid var(--line); }
+#bandkey span { white-space: nowrap; margin-right: 10px; }
+#bandkey b { color: var(--ink); }
+#bandkey i { color: var(--muted); }
+#toolbar { display: flex; align-items: center; gap: 8px; padding: 6px 10px; min-height: 44px; }
+#toolbar button { white-space: nowrap; flex-shrink: 0; }
+#status { font-size: 12.5px; color: var(--muted); line-height: 1.3; }
+
+/* ---------- narrow screens ---------- */
+@media (max-width: 600px) {
+    header h1 { font-size: 15px; }
+    #score { font-size: 12px; }
+    #panel { height: auto; min-height: 132px; padding: 6px 10px; }
+    #panel .step { font-size: 11px; }
+    #panel .name { font-size: 15px; }
+    #panel .clue { font-size: 13px; }
+    #panel .fb { font-size: 12px; }
+    .vis-labelset .vis-label .vis-inner { width: 82px; font-size: 11px; padding-left: 4px; padding-right: 2px; }
+    .vis-item.vis-range.band small { display: none; }
+    .vis-item.vis-range.ev, .vis-item.vis-point.ev { font-size: 10px; }
+}

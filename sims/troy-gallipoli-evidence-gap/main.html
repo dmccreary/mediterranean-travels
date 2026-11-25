@@ -6,15 +6,41 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Mind the Gap: How Old Is the Evidence? using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="troy-gallipoli-evidence-gap.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Mind the Gap: How Old Is the Evidence?</h1>
+        <span id="score">Verdicts correct on the first try: 0 of 8</span>
+    </header>
+
+    <div id="stories" role="group" aria-label="Story cards"></div>
+
+    <div id="toolbar">
+        <button id="full-span" title="Show 1500 BCE to 2100 CE">Full span</button>
+        <button id="restart-btn" title="Reshuffle the eight stories and start again">Start over</button>
+        <span id="legend">
+            <span class="key key-event"></span> event
+            <span class="key key-guess"></span> your guess
+            <span class="key key-evidence"></span> earliest evidence
+            <span class="key key-gap"></span> gap
+        </span>
+    </div>
+
+    <div id="timeline"></div>
+
+    <div id="lower">
+        <section id="panel" aria-live="polite"></section>
+        <section id="rules">
+            <h2>The three verdicts</h2>
+            <div class="rule"><b>Firm history</b>: evidence within 10 years, no known reason to invent.</div>
+            <div class="rule"><b>Real core, shaped telling</b>: evidence within 10 years, but the author had a reason to shape it, or a detail is known to be invented.</div>
+            <div class="rule"><b>Late or unsupported</b>: earliest evidence more than 10 years after the event.</div>
+        </section>
+    </div>
+</main>
+<script src="troy-gallipoli-evidence-gap.js"></script>
 </body>
 </html>

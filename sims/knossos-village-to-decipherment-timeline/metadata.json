@@ -2,8 +2,8 @@
   "title": "Knossos From Village to Decipherment",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for knossos from village to decipherment",
-  "date": "2026-11-24",
+  "description": "A vis-timeline MicroSim, drawn to scale from 7000 BCE to 2030 CE in two bands (Bronze Age Crete and Rediscovery), that learners fill in with four prediction questions about the order and spacing of events at Knossos, from the first village to the decipherment of Linear B.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
@@ -11,32 +11,61 @@
     "subjectArea": "Social Studies",
     "topic": "Knossos From Village to Decipherment",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret a timeline of Knossos from its first village to the decipherment of Linear B, answering at least 3 of 4 prediction questions about the order and spacing of events correctly before each answer is revealed."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Knossos Palace",
+      "Arthur Evans and the Evans reconstructions",
+      "The palace economy",
+      "The Thera eruption",
+      "The Snake Goddess figurines and the Phaistos Disc",
+      "Linear A, Linear B, and palace scribes",
+      "The Bronze Age collapse (Chapter 8)"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 676
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict-then-reveal: each question is answered once before its events are added to a to-scale timeline, with the relevant gap labeled",
+    "keyQuestions": [
+      "What came first, the volcano or the fall?",
+      "How far apart are the Thera eruption and the destruction of the palaces?",
+      "Did Knossos burn before or after the mainland palaces?",
+      "How long did the tablets wait to be read?"
+    ],
+    "commonMisconceptions": [
+      "The Thera eruption destroyed Minoan Crete at once.",
+      "Knossos and its tablets fell in the same disaster as the mainland palaces.",
+      "Linear B was read soon after the tablets were found.",
+      "The palace we see is all from one moment."
+    ],
+    "assessmentOpportunities": [
+      "First-answer score on four predictions (mastery: 3 of 4).",
+      "Explain why the Thera eruption weakened but did not end Minoan Crete.",
+      "Compare a hand-drawn timeline with the to-scale one in the full view."
+    ]
   },
-  "chapter": "13-knossos-minoans-linear-b"
+  "chapter": "13-knossos-minoans-linear-b",
+  "type": "Interactive Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/knossos-village-to-decipherment-timeline/"
 }

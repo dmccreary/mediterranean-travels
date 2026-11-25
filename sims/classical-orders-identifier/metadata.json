@@ -2,20 +2,27 @@
   "title": "Doric, Ionic, or Corinthian?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for doric, ionic, or corinthian?",
-  "date": "2026-11-24",
+  "description": "Compare one part at a time across the Doric, Ionic, and Corinthian orders, then classify twelve column features and buildings from our route.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Doric, Ionic, or Corinthian?",
+    "subjectArea": "Art and Architecture History",
+    "topic": "The Classical Orders",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve described column features and buildings from our route as Doric, Ionic, or Corinthian, with at least 10 of 12 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Classical orders",
+      "Base, shaft, flutes, and capital",
+      "Volute and acanthus",
+      "Entablature: architrave, frieze, and cornice",
+      "Triglyph and metope",
+      "The Doric, Ionic, and Corinthian orders (Chapter 10, Part Three)"
+    ],
     "standards": []
   },
   "technical": {
@@ -23,20 +30,39 @@
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 582
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "None; reuses the column drawing of the Three Classical Orders poster (docs/posters/column-types/orders-columns.png) by relative path"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Explore-then-classify: compare one part across three labeled columns, then sort twelve feature and building cards with immediate feedback",
+    "keyQuestions": [
+      "What does the top of a column tell you?",
+      "Which parts separate Doric from the other two orders, and which part separates Ionic from Corinthian?",
+      "Why are the buildings of Ionia Ionic?"
+    ],
+    "commonMisconceptions": [
+      "Any capital with scrolls is Corinthian; scrolls without acanthus leaves are Ionic.",
+      "Fluting names the order on its own; Ionic and Corinthian share the same 24-flute pattern.",
+      "All Greek temples are Doric; the Temple of Artemis at Ephesus was one of the first giant Ionic temples.",
+      "Smooth, unfluted shafts belong to one order; they occur in all three."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12).",
+      "On site: name what can and cannot be said about a column that has lost its capital."
+    ]
   },
-  "chapter": "10-ephesus-greco-roman-city"
+  "chapter": "10-ephesus-greco-roman-city",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/classical-orders-identifier/"
 }

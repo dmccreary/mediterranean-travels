@@ -2,41 +2,69 @@
   "title": "Reinforcing or Balancing? Loops From Ephesus to the Staff Room",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for reinforcing or balancing? loops from ephesus to the staff room",
-  "date": "2026-11-24",
+  "description": "Classify six illustrative causal loops, two from Paul's world and four from school change, as reinforcing or balancing by counting the minus signs around each one.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Reinforcing or Balancing? Loops From Ephesus to the Staff Room",
+    "subjectArea": "Education Leadership",
+    "topic": "Systems Thinking: Reinforcing and Balancing Feedback Loops",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate reinforcing from balancing feedback loops by counting the minus signs around each of six causal loops, two from Paul's world and four from school change, classifying at least 5 of 6 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Systems thinking",
+      "Feedback loops",
+      "Reinforcing and balancing loops",
+      "The counting rule",
+      "One body, many parts",
+      "The economics of resistance",
+      "The implementation dip",
+      "Change fatigue"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-network",
-    "version": "1.0",
+    "version": "9.1.9",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 560
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-network 9.1.9 via jsDelivr",
+      "loops-ephesus-to-staff-room-cld.json (CLD JSON schema, one file for all six loops)"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Rule application: classify each causal loop by counting minus signs, one scored attempt plus a hinted retry, with the count revealed after each answer and a summary table at the end",
+    "keyQuestions": [
+      "How many minus signs are there around the whole loop, and is that number even or odd?",
+      "Why can a harmful loop be reinforcing?",
+      "What in the Ephesus loop plays the role that resistance plays in a school rollout?"
+    ],
+    "commonMisconceptions": [
+      "Reinforcing means good and balancing means bad; loops 3 and 6 are harmful reinforcing loops.",
+      "Any loop with a minus sign is balancing; loops 3 and 6 each have two minus signs and are reinforcing.",
+      "The number of variables decides the type."
+    ],
+    "assessmentOpportunities": [
+      "At least 5 of 6 loops classified correctly on the first attempt.",
+      "Identify a real 'more initiatives' loop in a school, classify it, and propose how to weaken it."
+    ]
   },
-  "chapter": "11-paul-ideas-leadership"
+  "chapter": "11-paul-ideas-leadership",
+  "type": "Causal Loop Diagram",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/loops-ephesus-to-staff-room/"
 }

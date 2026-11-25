@@ -1,42 +1,68 @@
 {
-  "title": "What Did the K\u00fclliye Do?",
+  "title": "What Did the Külliye Do?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for what did the k\u00fclliye do?",
+  "description": "Sort twelve buildings of the Süleymaniye mosque complex in Istanbul by the public need each one served: worship, learning, health, food and shelter, income, or remembrance.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "What Did the K\u00fclliye Do?",
+    "topic": "What Did the Külliye Do?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve buildings of the Süleymaniye külliye by the public need each one served (worship, learning, health, food and shelter, income, or remembrance), with at least 10 of 12 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Vakıf",
+      "Vakfiye",
+      "Külliye",
+      "Medrese",
+      "İmaret"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 530
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification practice with immediate feedback (sorting)",
+    "keyQuestions": [
+      "What need did this building serve?",
+      "Who used this building, and who paid for it?",
+      "Which buildings existed only to pay for the rest?"
+    ],
+    "commonMisconceptions": [
+      "A mosque complex is just a mosque with some extra buildings for worship.",
+      "A medical school is a hospital.",
+      "The complex's bath was a free public service.",
+      "Charity buildings paid for themselves without any income-producing property."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12, including the medical school and the bath).",
+      "Count the buildings that spent money and the ones that earned it.",
+      "Explain what would happen to an endowment with no income-producing property."
+    ]
   },
-  "chapter": "05-ottoman-istanbul"
+  "chapter": "05-ottoman-istanbul",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/suleymaniye-kulliye-sorter/"
 }

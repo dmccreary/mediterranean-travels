@@ -2,41 +2,67 @@
   "title": "Who Was Exchanged in 1923?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for who was exchanged in 1923?",
-  "date": "2026-11-24",
+  "description": "Apply five simplified rules of the 1923 Greek–Turkish population exchange convention to ten illustrative households and decide whether each was sent to Greece, sent to Turkey, or not exchanged.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Who Was Exchanged in 1923?",
+    "topic": "Greco-Turkish War and the 1923 population exchange",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Apply the rules of the 1923 population exchange convention to ten household cases, deciding whether each was sent to Greece, sent to Turkey, or not exchanged, with at least 8 of 10 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Greco-Turkish War",
+      "Millet system",
+      "Convention Concerning the Exchange of Greek and Turkish Populations",
+      "Exemptions for Istanbul, Western Thrace, and Imbros and Tenedos",
+      "Rhodes as an Italian possession in 1923"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 630
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Rule application to worked cases with immediate feedback naming the deciding rule",
+    "keyQuestions": [
+      "What did the convention use to decide who was exchanged: language, ethnicity, or religion?",
+      "Which groups were exempt, and why did half the cases stay?",
+      "Why was Rhodes untouched by the exchange?"
+    ],
+    "commonMisconceptions": [
+      "The exchange was decided by language or ethnicity.",
+      "Every Greek in Turkey was exchanged, including in Istanbul.",
+      "The exchange applied to every minority, including Jews.",
+      "The exchange applied to all the Greek islands, including Rhodes.",
+      "Refugees who had already fled in 1922 could go home once the war ended."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on ten cases (mastery: 8 of 10, with cases 3 and 4 correct).",
+      "Explain why a Turkish-speaking Orthodox family and a Greek-speaking Muslim family crossed the Aegean in opposite directions."
+    ]
   },
-  "chapter": "07-end-of-empire-modern-turkey"
+  "chapter": "07-end-of-empire-modern-turkey",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/population-exchange-1923-cases/"
 }

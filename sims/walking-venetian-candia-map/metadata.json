@@ -2,7 +2,7 @@
   "title": "Walking Venetian Candia",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for walking venetian candia",
+  "description": "Locate eight landmarks of Venetian and Ottoman Heraklion on an unlabeled street map of the old town, then see the route of our Day 9 walk.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,62 @@
     "subjectArea": "Social Studies",
     "topic": "Walking Venetian Candia",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Locate eight landmarks of Venetian and Ottoman Heraklion on a street map of the old town, placing at least six of the eight within 150 m of the true position on the first attempt."
     ],
     "bloomsTaxonomy": "Remember",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Candia",
+      "The Morosini Fountain",
+      "The Loggia",
+      "The Church of Agios Titos",
+      "The Venetian arsenal",
+      "Koules Fortress",
+      "The Venetian walls and bastions",
+      "The Martinengo Bastion",
+      "The Pantocrator (Chania) Gate",
+      "The Heraklion Archaeological Museum"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 656
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri World Light Gray Base tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
+      "hasAltText": true,
       "keyboardNavigable": false
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Retrieval practice: locate on a map, then reveal",
+    "keyQuestions": [
+      "Where does Koules Fortress stand relative to the town's shore?",
+      "On which side of the town do the Venetian walls run?",
+      "How far apart are the fountain, the Loggia, and Agios Titos?"
+    ],
+    "commonMisconceptions": [
+      "The Koules stands on the shore of the town rather than out at the end of the harbor breakwater.",
+      "The Venetian walls run along the harbor, when they enclose the town on its landward side.",
+      "The landmarks are spread across the city, when the Venetian civic center lies within about 200 m."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on eight cards (mastery: 6 of 8 within 150 m).",
+      "Describe the walk from the Lions to the Koules: direction and distance."
+    ]
   },
-  "chapter": "14-venetian-heraklion"
+  "chapter": "14-venetian-heraklion",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/walking-venetian-candia-map/"
 }

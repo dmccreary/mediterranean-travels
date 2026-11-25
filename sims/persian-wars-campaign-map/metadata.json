@@ -2,41 +2,72 @@
   "title": "Xerxes' Road to Salamis",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for xerxes' road to salamis",
-  "date": "2026-11-24",
+  "description": "Step through ten places of the Persian Wars on a map, from Sardis and Marathon to Thermopylae, Salamis and Mycale, and infer at five of them why the fighting or the crossing happened there.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Xerxes' Road to Salamis",
+    "topic": "The Persian Wars, 498-479 BCE",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Infer, at five places in the Persian Wars, why the fighting or the crossing happened there, choosing the geographic reason before it is revealed and getting at least 4 of 5 correct."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Persian Wars",
+      "The Ionian Revolt",
+      "Herodotus",
+      "The Battle of Marathon",
+      "Themistocles",
+      "The trireme",
+      "The Battle of Salamis",
+      "The Hellespont"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 744
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri World Ocean Base tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict-then-reveal step-through map",
+    "keyQuestions": [
+      "Why did the Persians land at Marathon?",
+      "Why did Xerxes cross the Hellespont at Abydos?",
+      "Why did the Greeks try to stop the army at Thermopylae?",
+      "Why did the Persians find Athens almost empty?",
+      "Why did Themistocles want to fight in the strait of Salamis?"
+    ],
+    "commonMisconceptions": [
+      "The Greeks won because they had more soldiers or ships.",
+      "The Persian army and fleet traveled separately and did not depend on each other.",
+      "The Athenians defended their city walls in 480 BCE.",
+      "The Persian Wars were one battle at Marathon."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on five prediction questions (mastery: 4 of 5).",
+      "Explain why narrow places favored the smaller Greek forces."
+    ]
   },
-  "chapter": "15-athens-acropolis"
+  "chapter": "15-athens-acropolis",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/persian-wars-campaign-map/"
 }

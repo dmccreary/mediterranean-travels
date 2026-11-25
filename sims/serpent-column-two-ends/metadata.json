@@ -2,41 +2,68 @@
   "title": "Two Ends of the Serpent Column",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for two ends of the serpent column",
-  "date": "2026-11-24",
+  "description": "Ten claim cards about the Serpent Column, the Plataean victory monument that stood at Delphi and now stands in Istanbul's Hippodrome; the learner drags or assigns each card to one of three bins, Check it at Delphi, Check it in Istanbul, or Only in a written source, then checks all ten with card-level feedback.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Two Ends of the Serpent Column",
+    "topic": "The Serpent Column: what Delphi, Istanbul, and the ancient writers each contribute as evidence",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Attribute each of 10 claims about the Serpent Column to the place where its evidence can be checked, at Delphi, in Istanbul, or only in an ancient written source, with at least 8 of 10 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Serpent Column",
+      "Battle of Plataea and the Persian Wars",
+      "Hippodrome of Constantinople",
+      "Third Sacred War",
+      "Herodotus, Thucydides and Pausanias as sources",
+      "Great altar and temple terrace at Delphi",
+      "Polygonal wall"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 568
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Attribution sorting into three evidence bins with a single scored first Check, card-level feedback, and unlimited re-checks",
+    "keyQuestions": [
+      "The bronze is in Istanbul. What can only Delphi tell us?",
+      "Which claims come from ancient writers rather than from the object or the place?",
+      "Why does an object far from home tell only half its story?"
+    ],
+    "commonMisconceptions": [
+      "Everything about the column can be seen in Istanbul, because the bronze is there.",
+      "Delphi has nothing left of the monument.",
+      "Facts in a museum label must come from the object itself, when many come from ancient writers.",
+      "The column was always headless."
+    ],
+    "assessmentOpportunities": [
+      "First-Check score on ten cards (mastery: 8 of 10).",
+      "Explain which parts of the column's story would be lost without Herodotus and Thucydides."
+    ]
   },
-  "chapter": "18-delphi"
+  "chapter": "18-delphi",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/serpent-column-two-ends/"
 }

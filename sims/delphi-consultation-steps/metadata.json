@@ -2,41 +2,73 @@
   "title": "A Day at the Oracle",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for a day at the oracle",
-  "date": "2026-11-24",
+  "description": "Put the eight steps of a consultation at the Oracle of Delphi in a valid order, then walk through the day and predict the outcome at three checkpoints: the goat test, the line for promanteia, and the form of the answer in Plutarch's day.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "A Day at the Oracle",
+    "topic": "How a consultation at the Oracle of Delphi worked",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Explain the sequence of a Delphic consultation, from arrival to the written answer, by placing eight steps in a valid order within two attempts and choosing the correct outcome at at least 2 of 3 checkpoints."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Pythia",
+      "The adyton",
+      "Pelanos (the consultation fee)",
+      "Proxenos (a Delphian sponsor)",
+      "Promanteia (the right to consult first)",
+      "The prophet",
+      "The Castalian Spring",
+      "The goat test",
+      "Oracles in verse and prose"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 590
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Sequencing with rule-based feedback, followed by a step-through walk with predict-then-reveal checkpoints",
+    "keyQuestions": [
+      "What must happen before a consultant hears Apollo's answer?",
+      "What happens if the goat does not tremble?",
+      "Who goes first when a Lydian envoy and an Attic farmer are both waiting?",
+      "In what form did the answers come in Plutarch's day?"
+    ],
+    "commonMisconceptions": [
+      "Anyone could walk in and ask at any time.",
+      "The fee was the only cost of a consultation.",
+      "The oracle answered everyone in the same order.",
+      "The god could always be made to answer.",
+      "The Pythia always answered in verse."
+    ],
+    "assessmentOpportunities": [
+      "A valid order within two Checks.",
+      "First-attempt score on three checkpoints (mastery: 2 of 3).",
+      "Name two gates that could keep a consultant from the god's answer and who controlled each."
+    ]
   },
-  "chapter": "17-oracle"
+  "chapter": "17-oracle",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/delphi-consultation-steps/"
 }

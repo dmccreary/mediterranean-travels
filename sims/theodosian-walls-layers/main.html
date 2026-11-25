@@ -4,16 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Layers of the Theodosian Walls using html</title>
+    <title>Layers of the Theodosian Walls</title>
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #1d2a33; background: aliceblue; }
+        main { display: block; width: 100%; }
+        #header { height: 40px; padding: 6px 12px 0; background: #12304a; color: #fff; display: flex; align-items: baseline; gap: 12px; overflow: hidden; }
+        #header h1 { font-size: 17px; margin: 0; font-weight: bold; white-space: nowrap; }
+        #header span { font-size: 13px; opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #prompt { height: 30px; padding: 6px 12px 0; font-size: 15px; font-weight: bold; background: aliceblue; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        #section { height: 240px; width: 100%; background: aliceblue; }
+        #section svg { width: 100%; height: 100%; display: block; }
+        #section .marker { cursor: pointer; }
+        #section .marker circle { stroke: #fff; stroke-width: 2; }
+        #section .marker.sel circle { stroke: #f2b632; stroke-width: 4; }
+        #slots { height: 62px; padding: 4px 8px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; background: aliceblue; }
+        .slot { position: relative; border: 2px dashed #8aa0b0; border-radius: 6px; background: #fff; font-size: 13px; line-height: 1.2; padding: 3px 4px 3px 22px; text-align: left; color: #1d2a33; cursor: pointer; overflow: hidden; font-family: inherit; }
+        .slot .num { position: absolute; left: 4px; top: 4px; width: 15px; height: 15px; border-radius: 50%; background: #12304a; color: #fff; font-size: 10px; font-weight: bold; line-height: 15px; text-align: center; }
+        .slot.filled { border-style: solid; border-color: #12304a; background: #eef4fa; font-weight: bold; }
+        .slot.target { background: #fff6dd; border-color: #c8963e; }
+        .slot.over { background: #fff0c2; }
+        .slot.right { border: 2px solid #2e7d32; background: #dff2df; font-weight: normal; }
+        .slot.wrong { border: 2px solid #c62828; background: #fbe3e3; font-weight: normal; }
+        .slot.picked { box-shadow: 0 0 0 3px #f2b632; }
+        .slot small { display: block; font-size: 12px; color: #4a5a66; font-weight: normal; }
+        #callout { height: 54px; margin: 0 8px; padding: 5px 10px; background: #fff; border: 1px solid silver; border-radius: 6px; font-size: 13px; line-height: 1.35; overflow: hidden; }
+        #callout b { color: #12304a; }
+        #panel { height: 226px; margin-top: 6px; padding: 8px 12px; background: #fff; border-top: 1px solid silver; display: flex; flex-direction: column; gap: 7px; }
+        #tray { display: flex; flex-wrap: wrap; gap: 8px; min-height: 36px; }
+        .chip { font-size: 14px; padding: 7px 12px; border-radius: 18px; border: 2px solid #12304a; background: #eef4fa; color: #12304a; cursor: grab; font-family: inherit; }
+        .chip.sel { background: #12304a; color: #fff; }
+        .chip:focus-visible, .slot:focus-visible { outline: 3px solid #f2b632; outline-offset: 1px; }
+        #qhead { display: flex; justify-content: space-between; font-size: 13px; color: #4a5a66; }
+        #qhead b { color: #12304a; }
+        #qtext { font-size: 15px; font-weight: bold; line-height: 1.3; }
+        #choices { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+        #choices button { text-align: left; font-size: 13px; line-height: 1.25; padding: 6px 8px; min-height: 32px; border: 1px solid #8aa0b0; border-radius: 6px; background: #f4f8fb; color: #1d2a33; cursor: pointer; font-family: inherit; }
+        #choices button:hover:enabled { background: #e2edf5; border-color: #12304a; }
+        #choices button:disabled { cursor: default; opacity: 0.6; }
+        #choices button.correct { background: #dff2df; border: 2px solid #2e7d32; opacity: 1; }
+        #choices button.wrong { background: #fbe3e3; border: 2px solid #c62828; opacity: 1; }
+        #feedback { font-size: 13px; line-height: 1.35; flex: 1; overflow: hidden; }
+        #feedback .ok { color: #2e7d32; font-weight: bold; }
+        #feedback .no { color: #c62828; font-weight: bold; }
+        #btnrow { display: flex; gap: 8px; align-items: center; margin-top: auto; }
+        #btnrow button { font-size: 13px; padding: 6px 14px; border-radius: 6px; border: 1px solid #12304a; background: #12304a; color: #fff; cursor: pointer; font-family: inherit; }
+        #btnrow button.ghost { background: #fff; color: #12304a; }
+        #btnrow button:disabled { opacity: .35; cursor: default; }
+        #btnrow .hint { font-size: 12px; color: #5d6d78; }
+        .hidden { display: none !important; }
+        @media (max-width: 560px) {
+            #header span { display: none; }
+            #prompt { font-size: 13px; }
+            .slot { font-size: 11px; padding-left: 20px; }
+            #choices { grid-template-columns: 1fr; }
+            #choices button { min-height: 28px; padding: 4px 8px; }
+        }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
-    <script src="theodosian-walls-layers.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div id="header">
+            <h1>Layers of the Theodosian Walls</h1>
+            <span>Schematic cross-section; not to scale</span>
+        </div>
+        <div id="prompt">An army arrives from the west. What does it meet first, and what last?</div>
+        <div id="section" role="img" aria-label="Schematic cross-section of the Theodosian land walls from west (outside) to east (the city), with five numbered layers"></div>
+        <div id="slots"></div>
+        <div id="callout" aria-live="polite"></div>
+        <div id="panel">
+            <div id="part1">
+                <div id="tray" aria-label="Layer names to place"></div>
+            </div>
+            <div id="part2" class="hidden">
+                <div id="qhead"><span id="qnum"></span><span id="score"></span></div>
+                <div id="qtext"></div>
+                <div id="choices"></div>
+            </div>
+            <div id="feedback" aria-live="polite"></div>
+            <div id="btnrow">
+                <button id="submit" disabled>Submit</button>
+                <button id="next" class="hidden" disabled>Next question</button>
+                <button id="restart" class="ghost">Restart</button>
+                <span class="hint" id="hint"></span>
+            </div>
+        </div>
+    </main>
+    <script src="theodosian-walls-layers.js"></script>
 </body>
 </html>

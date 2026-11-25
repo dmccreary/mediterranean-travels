@@ -2,41 +2,69 @@
   "title": "When a Prediction Feeds Itself",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for when a prediction feeds itself",
-  "date": "2026-11-24",
+  "description": "Label every link in three simplified prediction loops (predictive policing, student risk prediction, and a traffic forecast) as same or opposite direction, then classify each loop as reinforcing (self-fulfilling) or balancing (self-defeating).",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "When a Prediction Feeds Itself",
+    "subjectArea": "Computer Science",
+    "topic": "Feedback loops in prediction systems: self-fulfilling and self-defeating predictions",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate reinforcing loops, in which a prediction helps bring itself about, from balancing loops, in which a prediction helps prevent itself, by labeling the direction of every link in three prediction loops and classifying each loop, with at least 9 of 10 links and all 3 loops correct."
     ],
     "bloomsTaxonomy": "Analyze",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "Predictive model",
+      "Data bias (measurement bias)",
+      "Self-fulfilling prophecy",
+      "Self-defeating prophecy",
+      "Student risk prediction",
+      "Predictive policing"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-network",
-    "version": "1.0",
+    "version": "9.1.9",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 610
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-network 9.1.9 via jsDelivr",
+      "prediction-feedback-loops-cld.json (loop data)"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Decompose-then-classify: the learner labels each causal link before classifying the loop, so the loop type is derived from its parts with the counting rule rather than guessed from the story",
+    "keyQuestions": [
+      "If the first factor rises, does the second rise or fall?",
+      "How many opposite links does this loop contain, and is that number even or odd?",
+      "Does this prediction help bring itself about, or help prevent itself?",
+      "Which link would we change to weaken or reverse the loop?"
+    ],
+    "commonMisconceptions": [
+      "A loop with a minus sign in it must be balancing.",
+      "A prediction that comes true proves the model was accurate.",
+      "A forecast that failed was a bad forecast.",
+      "Taking more data from the same source fixes a feedback loop."
+    ],
+    "assessmentOpportunities": [
+      "First-try scores on 10 links, 3 loops and 3 loop questions (mastery: links >= 9, loops = 3, questions >= 2).",
+      "Explain why a light road after a heavy-traffic forecast can mean the forecast worked."
+    ]
   },
-  "chapter": "19-algorithm"
+  "chapter": "19-algorithm",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/prediction-feedback-loops/"
 }

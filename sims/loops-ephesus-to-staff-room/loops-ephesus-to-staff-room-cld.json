@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "id": "loops-ephesus-to-staff-room-cld",
+    "title": "Reinforcing or Balancing?",
+    "archetype": "mixed",
+    "description": "Six illustrative causal loops, two from Paul's world and four from school change, shown one at a time. Count the minus signs around each loop: even (including zero) is reinforcing, odd is balancing. Each loop is drawn around the origin; the sim shows one loop at a time.",
+    "version": "1.0.0",
+    "created_date": "2026-11-25",
+    "author": "Mediterranean Travels",
+    "tags": [
+      "causal-loop",
+      "reinforcing-loop",
+      "balancing-loop",
+      "change-leadership",
+      "paul"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "l1_student_results",
+      "label": "Student results",
+      "loop": "L1",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How well students learn with the new method, for example the share of questions answered correctly."
+    },
+    {
+      "id": "l1_teacher_confidence",
+      "label": "Teacher confidence",
+      "loop": "L1",
+      "position": {
+        "x": 210,
+        "y": 110
+      },
+      "type": "variable",
+      "description": "How sure teachers feel that they can use the new method well."
+    },
+    {
+      "id": "l1_quality_of_use",
+      "label": "Quality of use",
+      "loop": "L1",
+      "position": {
+        "x": -210,
+        "y": 124
+      },
+      "type": "variable",
+      "description": "How skillfully teachers use the new method in class."
+    },
+    {
+      "id": "l2_rollout_speed",
+      "label": "Rollout speed",
+      "loop": "L2",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How fast the new method is pushed into classrooms."
+    },
+    {
+      "id": "l2_teacher_overload",
+      "label": "Teacher overload",
+      "loop": "L2",
+      "position": {
+        "x": 210,
+        "y": 110
+      },
+      "type": "variable",
+      "description": "How much new work teachers carry at once."
+    },
+    {
+      "id": "l2_resistance",
+      "label": "Resistance",
+      "loop": "L2",
+      "position": {
+        "x": -210,
+        "y": 124
+      },
+      "type": "variable",
+      "description": "How much teachers push back against the change."
+    },
+    {
+      "id": "l3_new_initiatives",
+      "label": "New initiatives launched",
+      "loop": "L3",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How many new programs leaders start in a year."
+    },
+    {
+      "id": "l3_change_fatigue",
+      "label": "Change fatigue",
+      "loop": "L3",
+      "position": {
+        "x": 205,
+        "y": 0
+      },
+      "type": "variable",
+      "description": "Weariness and cynicism after one change follows another."
+    },
+    {
+      "id": "l3_effort_each",
+      "label": "Effort on each initiative",
+      "loop": "L3",
+      "position": {
+        "x": 0,
+        "y": 140
+      },
+      "type": "variable",
+      "description": "How much time and care teachers give each program."
+    },
+    {
+      "id": "l3_student_results",
+      "label": "Student results",
+      "loop": "L3",
+      "position": {
+        "x": -205,
+        "y": 8
+      },
+      "type": "variable",
+      "description": "How well students learn."
+    },
+    {
+      "id": "l4_converts",
+      "label": "Converts to Paul's message",
+      "loop": "L4",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How many people in Ephesus join the new movement."
+    },
+    {
+      "id": "l4_shrine_sales",
+      "label": "Sales of silver shrines",
+      "loop": "L4",
+      "position": {
+        "x": 210,
+        "y": 110
+      },
+      "type": "variable",
+      "description": "How many silver shrines of Artemis the silversmiths sell (Acts 19:24)."
+    },
+    {
+      "id": "l4_opposition",
+      "label": "Silversmiths' opposition",
+      "loop": "L4",
+      "position": {
+        "x": -210,
+        "y": 124
+      },
+      "type": "variable",
+      "description": "How strongly Demetrius and the silversmiths oppose Paul, up to the riot in the theater."
+    },
+    {
+      "id": "l5_honor_weak",
+      "label": "Honor given to weaker members",
+      "loop": "L5",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How much the community honors the members who seem weaker or less important (1 Corinthians 12:22-24)."
+    },
+    {
+      "id": "l5_belonging",
+      "label": "Sense of belonging",
+      "loop": "L5",
+      "position": {
+        "x": 210,
+        "y": 110
+      },
+      "type": "variable",
+      "description": "How fully every member feels part of the body."
+    },
+    {
+      "id": "l5_care",
+      "label": "Members' care for one another",
+      "loop": "L5",
+      "position": {
+        "x": -210,
+        "y": 124
+      },
+      "type": "variable",
+      "description": "How much members look after each other: \"if one member suffers, all suffer together with it.\""
+    },
+    {
+      "id": "l6_pressure",
+      "label": "Pressure for quick results",
+      "loop": "L6",
+      "position": {
+        "x": 0,
+        "y": -140
+      },
+      "type": "variable",
+      "description": "How hard leaders and the public push for results in the first months."
+    },
+    {
+      "id": "l6_fear",
+      "label": "Teachers' fear of mistakes",
+      "loop": "L6",
+      "position": {
+        "x": 205,
+        "y": 0
+      },
+      "type": "variable",
+      "description": "How afraid teachers are of being seen to fail with the new method."
+    },
+    {
+      "id": "l6_practice",
+      "label": "Practice with the new method",
+      "loop": "L6",
+      "position": {
+        "x": 0,
+        "y": 140
+      },
+      "type": "variable",
+      "description": "How much teachers actually use and practice the new method."
+    },
+    {
+      "id": "l6_student_results",
+      "label": "Student results",
+      "loop": "L6",
+      "position": {
+        "x": -205,
+        "y": 8
+      },
+      "type": "variable",
+      "description": "How well students learn."
+    }
+  ],
+  "edges": [
+    {
+      "id": "l1_e1",
+      "source": "l1_student_results",
+      "target": "l1_teacher_confidence",
+      "polarity": "positive",
+      "description": "Better results raise confidence."
+    },
+    {
+      "id": "l1_e2",
+      "source": "l1_teacher_confidence",
+      "target": "l1_quality_of_use",
+      "polarity": "positive",
+      "description": "Confident teachers use it better."
+    },
+    {
+      "id": "l1_e3",
+      "source": "l1_quality_of_use",
+      "target": "l1_student_results",
+      "polarity": "positive",
+      "description": "Better use improves results."
+    },
+    {
+      "id": "l2_e1",
+      "source": "l2_rollout_speed",
+      "target": "l2_teacher_overload",
+      "polarity": "positive",
+      "description": "A faster rollout means more work."
+    },
+    {
+      "id": "l2_e2",
+      "source": "l2_teacher_overload",
+      "target": "l2_resistance",
+      "polarity": "positive",
+      "description": "More overload means more resistance."
+    },
+    {
+      "id": "l2_e3",
+      "source": "l2_resistance",
+      "target": "l2_rollout_speed",
+      "polarity": "negative",
+      "description": "More resistance slows the rollout."
+    },
+    {
+      "id": "l3_e1",
+      "source": "l3_new_initiatives",
+      "target": "l3_change_fatigue",
+      "polarity": "positive",
+      "description": "More initiatives, more fatigue."
+    },
+    {
+      "id": "l3_e2",
+      "source": "l3_change_fatigue",
+      "target": "l3_effort_each",
+      "polarity": "negative",
+      "description": "More fatigue, less effort on each."
+    },
+    {
+      "id": "l3_e3",
+      "source": "l3_effort_each",
+      "target": "l3_student_results",
+      "polarity": "positive",
+      "description": "More effort, better results."
+    },
+    {
+      "id": "l3_e4",
+      "source": "l3_student_results",
+      "target": "l3_new_initiatives",
+      "polarity": "negative",
+      "description": "Better results, fewer new initiatives."
+    },
+    {
+      "id": "l4_e1",
+      "source": "l4_converts",
+      "target": "l4_shrine_sales",
+      "polarity": "negative",
+      "description": "More converts, fewer shrines sold."
+    },
+    {
+      "id": "l4_e2",
+      "source": "l4_shrine_sales",
+      "target": "l4_opposition",
+      "polarity": "negative",
+      "description": "Fewer sales, more opposition."
+    },
+    {
+      "id": "l4_e3",
+      "source": "l4_opposition",
+      "target": "l4_converts",
+      "polarity": "negative",
+      "description": "More opposition, fewer converts."
+    },
+    {
+      "id": "l5_e1",
+      "source": "l5_honor_weak",
+      "target": "l5_belonging",
+      "polarity": "positive",
+      "description": "Honoring the weak deepens belonging."
+    },
+    {
+      "id": "l5_e2",
+      "source": "l5_belonging",
+      "target": "l5_care",
+      "polarity": "positive",
+      "description": "Belonging grows care."
+    },
+    {
+      "id": "l5_e3",
+      "source": "l5_care",
+      "target": "l5_honor_weak",
+      "polarity": "positive",
+      "description": "Care gives honor to the weak."
+    },
+    {
+      "id": "l6_e1",
+      "source": "l6_pressure",
+      "target": "l6_fear",
+      "polarity": "positive",
+      "description": "More pressure, more fear."
+    },
+    {
+      "id": "l6_e2",
+      "source": "l6_fear",
+      "target": "l6_practice",
+      "polarity": "negative",
+      "description": "More fear, less practice."
+    },
+    {
+      "id": "l6_e3",
+      "source": "l6_practice",
+      "target": "l6_student_results",
+      "polarity": "positive",
+      "description": "More practice, better results."
+    },
+    {
+      "id": "l6_e4",
+      "source": "l6_student_results",
+      "target": "l6_pressure",
+      "polarity": "negative",
+      "description": "Better results, less pressure."
+    }
+  ],
+  "loops": [
+    {
+      "id": "L1",
+      "type": "reinforcing",
+      "label": "Loop 1: Success in the rollout",
+      "setting": "School",
+      "description": "Zero minus signs is even: success feeds itself.",
+      "minus_signs": 0,
+      "path": [
+        "l1_student_results",
+        "l1_teacher_confidence",
+        "l1_quality_of_use",
+        "l1_student_results"
+      ],
+      "behavior_pattern": "Success compounds; so does failure, if results start to fall.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "L2",
+      "type": "balancing",
+      "label": "Loop 2: Pushback against a fast rollout",
+      "setting": "School",
+      "description": "One minus sign is odd: pushing faster raises resistance that slows the rollout.",
+      "minus_signs": 1,
+      "path": [
+        "l2_rollout_speed",
+        "l2_teacher_overload",
+        "l2_resistance",
+        "l2_rollout_speed"
+      ],
+      "behavior_pattern": "The harder the push, the stronger the pushback; the rollout settles at the speed teachers can carry.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "L3",
+      "type": "reinforcing",
+      "label": "Loop 3: One initiative after another",
+      "setting": "School",
+      "description": "Two minus signs is even: weak results prompt more initiatives, which deepen fatigue and weaken results further.",
+      "minus_signs": 2,
+      "path": [
+        "l3_new_initiatives",
+        "l3_change_fatigue",
+        "l3_effort_each",
+        "l3_student_results",
+        "l3_new_initiatives"
+      ],
+      "behavior_pattern": "A vicious circle: every new fix makes the next one more likely.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "L4",
+      "type": "balancing",
+      "label": "Loop 4: The silversmiths push back",
+      "setting": "Ephesus",
+      "description": "Three minus signs is odd: growth of the movement provokes opposition that holds it back.",
+      "minus_signs": 3,
+      "path": [
+        "l4_converts",
+        "l4_shrine_sales",
+        "l4_opposition",
+        "l4_converts"
+      ],
+      "behavior_pattern": "The movement grows until the people who lose by it push back. Pliny's letter of about 112 CE reports the same pattern in Bithynia.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "L5",
+      "type": "reinforcing",
+      "label": "Loop 5: One body, many parts",
+      "setting": "Corinth",
+      "description": "Zero minus signs is even: Paul's body picture describes care that grows on itself.",
+      "minus_signs": 0,
+      "path": [
+        "l5_honor_weak",
+        "l5_belonging",
+        "l5_care",
+        "l5_honor_weak"
+      ],
+      "behavior_pattern": "A virtuous circle: care and belonging build on each other.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    },
+    {
+      "id": "L6",
+      "type": "reinforcing",
+      "label": "Loop 6: Pressure during the implementation dip",
+      "setting": "School",
+      "description": "Two minus signs is even: during an implementation dip, pressure causes fear, fear cuts practice, and lower results bring more pressure.",
+      "minus_signs": 2,
+      "path": [
+        "l6_pressure",
+        "l6_fear",
+        "l6_practice",
+        "l6_student_results",
+        "l6_pressure"
+      ],
+      "behavior_pattern": "Judging a change too early deepens the dip it is reacting to.",
+      "position": {
+        "x": 0,
+        "y": 8
+      }
+    }
+  ]
+}
