@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A day-by-day travel guide for a November 2026 journey from Istanbul to Athens, exploring the history of civilization, culture, cuisine, and the people who live along the way.">
+        <meta name="description" content="A grid of all 68 interactive MicroSims in Mediterranean Travels - maps, timelines, sorters, and games for the places on our route.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -26,7 +26,7 @@
     
     
       
-        <title>List of MicroSims - Mediterranean Travels</title>
+        <title>MicroSims - Mediterranean Travels</title>
       
     
     
@@ -75,7 +75,9 @@
     
     
     
-  </head>
+    <meta property="og:image" content="https://dmccreary.github.io/mediterranean-travels/sims/viking-cruise-map/viking-cruise-map.png">
+  <meta name="twitter:image" content="https://dmccreary.github.io/mediterranean-travels/sims/viking-cruise-map/viking-cruise-map.png">
+</head>
   
   
     
@@ -127,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              List of MicroSims
+              MicroSims
             
           </span>
         </div>
@@ -211,6 +213,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -1244,6 +1248,14 @@
     Folding the Sheet - Folio, Quarto, Octavo
   </span>
   
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
+  
 
       </a>
     </li>
@@ -1844,6 +1856,14 @@
   <span class="md-ellipsis">
     Read the Ruin - Which Layer?
   </span>
+  
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
   
 
       </a>
@@ -3116,7 +3136,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -3152,34 +3174,354 @@
 <h1 id="microsims">MicroSims<a class="headerlink" href="#microsims" title="Permanent link">&para;</a></h1>
 <p>MicroSims are small interactive tools, such as maps and timelines, that help us
 see where we are going and how the places fit together. Each one can also be
-embedded in a daily chapter.</p>
+embedded in a daily chapter. Click a card to open the MicroSim.</p>
 <p>New MicroSims can be created with the <code>microsim-generator</code> skill, which routes
 to the appropriate library (p5.js, Chart.js, vis-network, Mermaid, Leaflet,
 Plotly, Venn.js).</p>
-<!-- The MicroSim catalog is built up as new sims are added. -->
-
+<div class="grid cards">
 <ul>
-<li><a href="viking-cruise-map/">Viking Cruise Map</a> - an interactive map of the
-  Istanbul-to-Athens cruise and our Delphi day trip, with times, key sights,
-  and the route.</li>
-<li><a href="eastern-med-eras-timeline/">Eras of the Eastern Mediterranean Timeline</a> -
-  the nine periods from the Bronze Age to today drawn to scale, with six
-  questions about how long each era lasted.</li>
-<li><a href="eastern-med-events-timeline/">Events of the Eastern Mediterranean Timeline</a> -
-  the same nine periods with 29 events on our route, each linked to the
-  chapter that covers it.</li>
 <li>
-<p><a href="graph-viewer/">Learning Graph Viewer</a> - an interactive map of the
-  598 concepts in this guide and how they depend on each other, with search
-  and category filters.</p>
+<p><strong><a href="delphi-consultation-steps/">A Day at the Oracle</a></strong></p>
+<p><img alt="A Day at the Oracle" src="delphi-consultation-steps/delphi-consultation-steps.png" /></p>
+<p>Put the eight steps of a consultation at the Oracle of Delphi in order, from arriving on the seventh of the month to carrying the answer home, then walk through the day and predict what happens at three checkpoints - the goat test, the line, and the form of the answer.</p>
 </li>
 <li>
-<p><a href="antikythera-gears/">Antikythera Gears</a> - a simplified p5.js gear model
-  for Sun, Moon, and Mars cycles, with time and speed controls.</p>
+<p><strong><a href="parthenon-marbles-fact-or-position/">Agreed Fact or Position?</a></strong></p>
+<p><img alt="Agreed Fact or Position?" src="parthenon-marbles-fact-or-position/parthenon-marbles-fact-or-position.png" /></p>
+<p>Sort twelve statements about the Parthenon Marbles dispute into agreed facts, the British Museum's position, and the Greek government's position, and see how each side builds its case from the same facts.</p>
+</li>
+<li>
+<p><strong><a href="antikythera-gears/">Antikythera Gears</a></strong></p>
+<p><img alt="Antikythera Gears" src="antikythera-gears/antikythera-gears.png" /></p>
+<p>Explore how gear tooth counts produce simplified Sun, Moon, and Mars cycles.</p>
+</li>
+<li>
+<p><strong><a href="oracle-answer-hedging-test/">Can This Answer Lose?</a></strong></p>
+<p><img alt="Can This Answer Lose?" src="oracle-answer-hedging-test/oracle-answer-hedging-test.png" /></p>
+<p>Sort eight answers, from the Croesus prophecy and the "wooden wall" to a modern weather forecast, into answers that could be proven wrong, answers that come true either way, and answers that are not predictions at all, then test each one against two possible outcomes.</p>
+</li>
+<li>
+<p><strong><a href="crack-linear-b-like-ventris/">Crack Linear B Like Ventris</a></strong></p>
+<p><img alt="Crack Linear B Like Ventris" src="crack-linear-b-like-ventris/crack-linear-b-like-ventris.png" /></p>
+<p>Replay a simplified version of the 1952 decipherment of Linear B, from the sign count and Kober's triplet to the place-name guess, then test the values on the Pylos tripod tablet, whose pictograms confirm the reading.</p>
+</li>
+<li>
+<p><strong><a href="delphi-after-the-oracle-timeline/">Delphi After the Oracle</a></strong></p>
+<p><img alt="Delphi After the Oracle" src="delphi-after-the-oracle-timeline/delphi-after-the-oracle-timeline.png" /></p>
+<p>Predict the stage of nine events in Delphi's history after the oracle closed, from the Theodosian Decrees of 391-392 CE to the UNESCO listing of 1987, as silenced, found, dug up, or shown, and watch each drop onto a timeline that squeezes the empty thousand years between them.</p>
+</li>
+<li>
+<p><strong><a href="agora-democracy-workplaces/">Democracy's Workplaces in the Agora</a></strong></p>
+<p><img alt="Democracy's Workplaces in the Agora" src="agora-democracy-workplaces/agora-democracy-workplaces.png" /></p>
+<p>Match nine jobs of Athenian public life, from posting notices to filing the charge against Socrates, to the building on a schematic plan of the Ancient Agora where each was done, and see the democracy's street of offices emerge along the west side.</p>
+</li>
+<li>
+<p><strong><a href="ephesus-sites-evidence-judge/">Documented, Debated, or Tradition?</a></strong></p>
+<p><img alt="Documented, Debated, or Tradition?" src="ephesus-sites-evidence-judge/ephesus-sites-evidence-judge.png" /></p>
+<p>Rate the evidence for ten claims about the Christian sites of Ephesus and Selçuk as documented, debated, or tradition only, and choose the reason that justifies each rating.</p>
+</li>
+<li>
+<p><strong><a href="classical-orders-identifier/">Doric, Ionic, or Corinthian?</a></strong></p>
+<p><img alt="Doric, Ionic, or Corinthian?" src="classical-orders-identifier/classical-orders-identifier.png" /></p>
+<p>Compare one part at a time across the Doric, Ionic, and Corinthian orders, then classify twelve column features and real buildings from our route, from the Parthenon to the Basilica Stoa of Ephesus.</p>
+</li>
+<li>
+<p><strong><a href="delphi-oracle-strength-timeline/">Eleven Centuries of the Oracle</a></strong></p>
+<p><img alt="Eleven Centuries of the Oracle" src="delphi-oracle-strength-timeline/delphi-oracle-strength-timeline.png" /></p>
+<p>Judge fourteen dated events from c. 750 BCE to 391-392 CE as signs of the Oracle of Delphi's strength or of its weakness and decline, watch each drop onto a timeline of the oracle's 1,140-year life, and find where the signs of decline begin to cluster.</p>
+</li>
+<li>
+<p><strong><a href="eastern-med-eras-timeline/">Eras of the Eastern Mediterranean Timeline</a></strong></p>
+<p><img alt="Eras of the Eastern Mediterranean Timeline" src="eastern-med-eras-timeline/eastern-med-eras-timeline.png" /></p>
+<p>A to-scale timeline of the nine periods of Eastern Mediterranean history, from the Bronze Age to today, with six proportion questions to answer before the band lengths are revealed.</p>
+</li>
+<li>
+<p><strong><a href="essential-or-inherited-school-practices/">Essential or Inherited?</a></strong></p>
+<p><img alt="Essential or Inherited?" src="essential-or-inherited-school-practices/essential-or-inherited-school-practices.png" /></p>
+<p>Judge twelve school practices, from the Carnegie unit to being known by a caring adult, as an essential purpose of schooling or an inherited form that served that purpose under earlier constraints, and separate the trap pair of checking mastery and the same test on the same day.</p>
+</li>
+<li>
+<p><strong><a href="eastern-med-events-timeline/">Events of the Eastern Mediterranean Timeline</a></strong></p>
+<p><img alt="Events of the Eastern Mediterranean Timeline" src="eastern-med-events-timeline/eastern-med-events-timeline.png" /></p>
+<p>A to-scale timeline of the nine periods of Eastern Mediterranean history with 29 key events on the trip route, each linked to the chapter that covers it, and six proportion questions to answer before the events are revealed.</p>
+</li>
+<li>
+<p><strong><a href="homeric-formula-builder/">Finish the Line Like a Homeric Singer</a></strong></p>
+<p><img alt="Finish the Line Like a Homeric Singer" src="homeric-formula-builder/homeric-formula-builder.png" /></p>
+<p>Complete six Homeric hexameter lines by choosing the name formula for Achilles or Odysseus whose syllables exactly fill the space left at the end of the line, and discover Milman Parry's rule that the meter, not the moment, chooses the epithet.</p>
+</li>
+<li>
+<p><strong><a href="folio-quarto-octavo-paper-calculator/">Folding the Sheet: Folio, Quarto, Octavo</a></strong></p>
+<p><img alt="Folding the Sheet: Folio, Quarto, Octavo" src="folio-quarto-octavo-paper-calculator/folio-quarto-octavo-paper-calculator.png" /></p>
+<p>Calculate the pages and sheets of paper in one copy of Virgil printed as a folio with commentary, a plain octavo, and an Aldine-style octavo in compact italic, and see a sheet fold into 2, 4, or 8 leaves.</p>
+</li>
+<li>
+<p><strong><a href="schism-to-sack-timeline/">From the Schism to the Sack, 1054–1261</a></strong></p>
+<p><img alt="From the Schism to the Sack, 1054–1261" src="schism-to-sack-timeline/schism-to-sack-timeline.png" /></p>
+<p>A clickable timeline of seventeen events from the excommunication of 1054 to the recovery of Constantinople in 1261, with four cause questions on how a crusade bound for Egypt ended by sacking Constantinople in 1204.</p>
+</li>
+<li>
+<p><strong><a href="calibration-confidence-game/">How Calibrated Are You?</a></strong></p>
+<p><img alt="How Calibrated Are You?" src="calibration-confidence-game/calibration-confidence-game.png" /></p>
+<p>State the probability that each of twelve statements from this book is true, see your Brier score, reliability table and calibration chart, judge whether you were overconfident, then judge two weather forecasters whose 70 and 90 percent forecasts came true 7 and 6 times in 10.</p>
+</li>
+<li>
+<p><strong><a href="how-pauls-words-traveled/">How Paul's Words Traveled</a></strong></p>
+<p><img alt="How Paul's Words Traveled" src="how-pauls-words-traveled/how-pauls-words-traveled.png" /></p>
+<p>Sort twelve dated events from 386 to 1999 into four strands of Paul's later influence (grace and faith, conscience and equality, contempt and its repudiation, rereading Paul) and see one man, Martin Luther, land in three of them.</p>
+</li>
+<li>
+<p><strong><a href="istanbul-three-shores-map/">Istanbul's Three Shores</a></strong></p>
+<p><img alt="Istanbul's Three Shores" src="istanbul-three-shores-map/istanbul-three-shores-map.png" /></p>
+<p>Classify twelve Istanbul places, from Hagia Sophia to Rumeli Hisarı and Kadıköy, as on the historic peninsula, in Galata, or on the Asian shore, then see each one appear on a satellite map.</p>
+</li>
+<li>
+<p><strong><a href="knossos-village-to-decipherment-timeline/">Knossos From Village to Decipherment</a></strong></p>
+<p><img alt="Knossos From Village to Decipherment" src="knossos-village-to-decipherment-timeline/knossos-village-to-decipherment-timeline.png" /></p>
+<p>A to-scale timeline of Knossos from its first village about 7000 BCE to the reading of Linear B in 1952, filled in one prediction at a time so the long gaps between the volcano, the fires, and the decipherment stand out.</p>
+</li>
+<li>
+<p><strong><a href="knossos-minoan-or-evans/">Knossos: Minoan, Evans, or Copy?</a></strong></p>
+<p><img alt="Knossos: Minoan, Evans, or Copy?" src="knossos-minoan-or-evans/knossos-minoan-or-evans.png" /></p>
+<p>Sort ten features a visitor sees at Knossos, from the gypsum throne to the red columns, into Minoan originals, Arthur Evans's reconstructions, and modern copies of paintings now in the Heraklion museum.</p>
+</li>
+<li>
+<p><strong><a href="theodosian-walls-layers/">Layers of the Theodosian Walls</a></strong></p>
+<p><img alt="Layers of the Theodosian Walls" src="theodosian-walls-layers/theodosian-walls-layers.png" /></p>
+<p>Place the five layers of Constantinople's land walls, from the moat to the inner wall, on a schematic cross-section in the order an attacker from the west met them, then answer three questions on why the design worked.</p>
+</li>
+<li>
+<p><strong><a href="graph-viewer/">Learning Graph Viewer</a></strong></p>
+<p><img alt="Learning Graph Viewer" src="graph-viewer/graph-viewer.png" /></p>
+<p>An interactive viewer for the Mediterranean Travels learning graph of 598 concepts, with search, category filters, and node sizes scaled by each concept's impact.</p>
+</li>
+<li>
+<p><strong><a href="troy-gallipoli-evidence-gap/">Mind the Gap: How Old Is the Evidence?</a></strong></p>
+<p><img alt="Mind the Gap: How Old Is the Evidence?" src="troy-gallipoli-evidence-gap/troy-gallipoli-evidence-gap.png" /></p>
+<p>Judge eight stories about Troy and Gallipoli as firm history, a real core with a shaped telling, or late or unsupported, by predicting and then measuring on a timeline the gap between each event and its earliest surviving evidence, and weighing the author's stake.</p>
+</li>
+<li>
+<p><strong><a href="next-word-temperature-toy/">Next-Word Prediction and Temperature</a></strong></p>
+<p><img alt="Next-Word Prediction and Temperature" src="next-word-temperature-toy/next-word-temperature-toy.png" /></p>
+<p>Predict what the temperature setting does to a language model's choice of the next word, then reveal the adjusted probabilities and a draw of 20 sampled words, for four prompts from "Know <strong><em>" to "On Sundays the Grand Bazaar is </em></strong>."</p>
+</li>
+<li>
+<p><strong><a href="november-weather-at-our-stops/">November Weather at Our Stops</a></strong></p>
+<p><img alt="November Weather at Our Stops" src="november-weather-at-our-stops/november-weather-at-our-stops.png" /></p>
+<p>Predict November temperature and rainfall at six stops on our route before the climate chart reveals the answer, then explore each stop's twelve-month climate.</p>
+</li>
+<li>
+<p><strong><a href="ephesus-walk-timeline/">One Walk, Seven Centuries</a></strong></p>
+<p><img alt="One Walk, Seven Centuries" src="ephesus-walk-timeline/ephesus-walk-timeline.png" /></p>
+<p>Walk downhill through Ephesus monument by monument, predicting whether each one was begun before or after the one just passed, and watch the timeline zigzag across seven centuries.</p>
+</li>
+<li>
+<p><strong><a href="oracle-gears-or-data-sorter/">Oracle, Gears, or Data?</a></strong></p>
+<p><img alt="Oracle, Gears, or Data?" src="oracle-gears-or-data-sorter/oracle-gears-or-data-sorter.png" /></p>
+<p>Sort twelve predictions, from Delphi's oracle, the Antikythera mechanism, Babylonian tablets, a stone peg calendar, and modern phones and apps, by how each answer was produced, as an oracle's answer, a cycle model, or a learned model.</p>
+</li>
+<li>
+<p><strong><a href="paul-journeys-and-our-route/">Paul's Journeys and Our Route</a></strong></p>
+<p><img alt="Paul's Journeys and Our Route" src="paul-journeys-and-our-route/paul-journeys-and-our-route.png" /></p>
+<p>Classify twelve places by the journey on which the Book of Acts first brings Paul there, then reveal Paul's three journeys and his voyage to Rome on one map with our own November 2026 route.</p>
+</li>
+<li>
+<p><strong><a href="areopagus-speech-stoic-ears/">Paul's Speech Through Stoic Ears</a></strong></p>
+<p><img alt="Paul's Speech Through Stoic Ears" src="areopagus-speech-stoic-ears/areopagus-speech-stoic-ears.png" /></p>
+<p>Read ten lines of the speech Acts gives Paul on the Areopagus, predict for each whether a Stoic listener would hear common ground or something new, and see where the speech turns and where Luke says the audience scoffed.</p>
+</li>
+<li>
+<p><strong><a href="place-the-site-in-its-era/">Place the Site in Its Era</a></strong></p>
+<p><img alt="Place the Site in Its Era" src="place-the-site-in-its-era/place-the-site-in-its-era.png" /></p>
+<p>Sort 15 sites and objects from our trip into eight period bins, from the Bronze Age to the Ottoman period, by the date each was built.</p>
+</li>
+<li>
+<p><strong><a href="day-3-prayer-time-planner/">Planning Day 3 Around the Prayer Times</a></strong></p>
+<p><img alt="Planning Day 3 Around the Prayer Times" src="day-3-prayer-time-planner/day-3-prayer-time-planner.png" /></p>
+<p>Drag Topkapı Palace, three mosques and lunch onto a Friday in Istanbul so that every mosque visit misses the prayer closures, then press Check to see each broken rule named.</p>
+</li>
+<li>
+<p><strong><a href="delphi-freedom-record-reader/">Read a Freedom Record on the Polygonal Wall</a></strong></p>
+<p><img alt="Read a Freedom Record on the Polygonal Wall" src="delphi-freedom-record-reader/delphi-freedom-record-reader.png" /></p>
+<p>Take apart a simplified Delphic manumission record, the kind carved by the hundreds on the polygonal wall below the Temple of Apollo, naming each of its eight clauses and judging whether it protects the freed woman, limits her freedom, or records the facts of the sale.</p>
+</li>
+<li>
+<p><strong><a href="read-a-greek-sign/">Read a Greek Sign</a></strong></p>
+<p><img alt="Read a Greek Sign" src="read-a-greek-sign/read-a-greek-sign.png" /></p>
+<p>Type twelve Greek signs from our route, from ΑΘΗΝΑ to ΚΛΕΙΣΤΟ, in Latin letters, with a letter key, trap-letter hints and a letter-by-letter breakdown.</p>
+</li>
+<li>
+<p><strong><a href="read-the-olive-oil-label/">Read the Olive Oil Label</a></strong></p>
+<p><img alt="Read the Olive Oil Label" src="read-the-olive-oil-label/read-the-olive-oil-label.png" /></p>
+<p>Judge whether nine illustrative olive oil labels support the claims on their fronts, using the EU acidity limits, the 27 °C rule for "cold extraction", harvest dates, and origin wording.</p>
+</li>
+<li>
+<p><strong><a href="read-the-ruin-layers/">Read the Ruin: Which Layer?</a></strong></p>
+<p><img alt="Read the Ruin: Which Layer?" src="read-the-ruin-layers/read-the-ruin-layers.png" /></p>
+<p>Place twelve things seen on Day 2 in Istanbul, from the Hippodrome's Egyptian obelisk to the Basilica Cistern's new walkways, into the Roman, Byzantine, Latin, Ottoman or Republic layer in which they arrived.</p>
+</li>
+<li>
+<p><strong><a href="food-history-layers-sorter/">Reading Food in Layers</a></strong></p>
+<p><img alt="Reading Food in Layers" src="food-history-layers-sorter/food-history-layers-sorter.png" /></p>
+<p>Sort fourteen foods found in Istanbul, from olives and yogurt to coffee, tomatoes and tea, into the five historical layers they arrived with, and read a Turkish table like a history book.</p>
+</li>
+<li>
+<p><strong><a href="eastern-med-regions-map/">Regions of the Eastern Mediterranean Map</a></strong></p>
+<p><img alt="Regions of the Eastern Mediterranean Map" src="eastern-med-regions-map/eastern-med-regions-map.png" /></p>
+<p>An atlas-style map of the regions, island groups, seas, and straits named in Chapter 1, with hover infoboxes, a 12-region exploration checklist, a Find the Region challenge, and a live stream of xAPI learning events.</p>
+</li>
+<li>
+<p><strong><a href="loops-ephesus-to-staff-room/">Reinforcing or Balancing? Loops From Ephesus to the Staff Room</a></strong></p>
+<p><img alt="Reinforcing or Balancing? Loops From Ephesus to the Staff Room" src="loops-ephesus-to-staff-room/loops-ephesus-to-staff-room.png" /></p>
+<p>Classify six causal loops, two from Paul's world and four from school change, as reinforcing or balancing by counting the minus signs around each one, and see that harmful loops can be reinforcing and that the Ephesus riot has the same structure as a rollout pushback.</p>
+</li>
+<li>
+<p><strong><a href="rhodes-changes-hands-1912-1948/">Rhodes Changes Hands, 1912–1948</a></strong></p>
+<p><img alt="Rhodes Changes Hands, 1912–1948" src="rhodes-changes-hands-1912-1948/rhodes-changes-hands-1912-1948.png" /></p>
+<p>A two-row timeline of who governed Rhodes from 1910 to 1949, Italy, Germany, Britain and Greece, with thirteen events and five questions on which power was in charge at each turning point.</p>
+</li>
+<li>
+<p><strong><a href="scribe-or-press/">Scribe or Press?</a></strong></p>
+<p><img alt="Scribe or Press?" src="scribe-or-press/scribe-or-press.png" /></p>
+<p>Predict how many copies of a 200-page book it takes before printing becomes cheaper than hand-copying, for an ordinary copyist and a master calligrapher, then move a slider to watch the fixed-cost and per-copy lines cross.</p>
+</li>
+<li>
+<p><strong><a href="sort-the-scripts/">Sort the Scripts</a></strong></p>
+<p><img alt="Sort the Scripts" src="sort-the-scripts/sort-the-scripts.png" /></p>
+<p>Sort twelve writing systems, from Egyptian hieroglyphs and Linear B to Greek and modern Turkish, into logographic, syllabary, abjad and alphabet bins by what one sign stands for.</p>
+</li>
+<li>
+<p><strong><a href="source-myth-or-contested/">Source, Myth, or Contested?</a></strong></p>
+<p><img alt="Source, Myth, or Contested?" src="source-myth-or-contested/source-myth-or-contested.png" /></p>
+<p>Classify ten statements about Byzantine Constantinople, from Procopius's golden chain to the bronze horses of Venice, as a primary source, a myth, contested history or settled history.</p>
+</li>
+<li>
+<p><strong><a href="sevres-versus-lausanne/">Sèvres or Lausanne?</a></strong></p>
+<p><img alt="Sèvres or Lausanne?" src="sevres-versus-lausanne/sevres-versus-lausanne.png" /></p>
+<p>Predict, term by term, which of ten terms of the 1920 Treaty of Sèvres the 1923 Treaty of Lausanne reversed and which it kept, then name the rule behind the pattern, the National Pact.</p>
+</li>
+<li>
+<p><strong><a href="olympian-gods-at-troy/">The Olympian Gods at Troy</a></strong></p>
+<p><img alt="The Olympian Gods at Troy" src="olympian-gods-at-troy/olympian-gods-at-troy.png" /></p>
+<p>Predict, then sort the twelve Olympian gods by the side each took in Homer's Iliad (the Greeks, the Trojans, or outside the fight), and discover that the gods chose sides for human reasons such as pride, old debts, and favorites.</p>
+</li>
+<li>
+<p><strong><a href="parthenon-five-lives-timeline/">The Parthenon's Five Lives</a></strong></p>
+<p><img alt="The Parthenon's Five Lives" src="parthenon-five-lives-timeline/parthenon-five-lives-timeline.png" /></p>
+<p>Classify twelve events from 447 BCE to 2009 CE by which of the Parthenon's five lives it was living, temple, church, mosque, ruin or protected monument, and watch each card drop onto a timeline from 500 BCE to 2030 CE.</p>
+</li>
+<li>
+<p><strong><a href="turkish-phrase-situations/">The Right Words at the Right Moment</a></strong></p>
+<p><img alt="The Right Words at the Right Moment" src="turkish-phrase-situations/turkish-phrase-situations.png" /></p>
+<p>Choose the right Turkish phrase, with its pronunciation guide, in ten everyday Istanbul situations, from breakfast at a café to thanking a home cook, and finish with a phrase sheet for the trip.</p>
+</li>
+<li>
+<p><strong><a href="siege-of-1453-step-through/">The Siege of 1453, Step by Step</a></strong></p>
+<p><img alt="The Siege of 1453, Step by Step" src="siege-of-1453-step-through/siege-of-1453-step-through.png" /></p>
+<p>Step through eight turning points of the 1453 siege of Constantinople on a schematic map, and for each one say which of the city's defenses it defeated, or whether the defenders held.</p>
+</li>
+<li>
+<p><strong><a href="thoughtful-traveler-choices/">Thoughtful Traveler Choices</a></strong></p>
+<p><img alt="Thoughtful Traveler Choices" src="thoughtful-traveler-choices/thoughtful-traveler-choices.png" /></p>
+<p>Judge which of three responses best fits the six thoughtful-traveler principles in eight situations on our route, from a simit seller's photo to a closed Grand Bazaar.</p>
+</li>
+<li>
+<p><strong><a href="eastern-med-trade-routes-map/">Trade Routes of the Eastern Mediterranean</a></strong></p>
+<p><img alt="Trade Routes of the Eastern Mediterranean" src="eastern-med-trade-routes-map/eastern-med-trade-routes-map.png" /></p>
+<p>Predict five route-based outcomes, then watch four simplified trade routes from the Bronze Age to Venetian Crete appear on a map of 16 ports and chokepoints.</p>
+</li>
+<li>
+<p><strong><a href="tutoring-effect-size-explorer/">Tutoring Effect Size Explorer</a></strong></p>
+<p><img alt="Tutoring Effect Size Explorer" src="tutoring-effect-size-explorer/tutoring-effect-size-explorer.png" /></p>
+<p>Predict the percentile that five reported effect sizes for tutoring, mastery learning, and an AI tutor pilot put the average student at, then watch two normal curves separate to check, and explore how effect size in standard deviations turns into percentiles.</p>
+</li>
+<li>
+<p><strong><a href="serpent-column-two-ends/">Two Ends of the Serpent Column</a></strong></p>
+<p><img alt="Two Ends of the Serpent Column" src="serpent-column-two-ends/serpent-column-two-ends.png" /></p>
+<p>Sort ten claims about the Serpent Column, the bronze monument to the Greek victory at Plataea that stood at Delphi and now stands in Istanbul's Hippodrome, by where their evidence can be checked, at Delphi, in Istanbul, or only in an ancient written source.</p>
+</li>
+<li>
+<p><strong><a href="viking-cruise-map/">Viking Cruise Map</a></strong></p>
+<p><img alt="Viking Cruise Map" src="viking-cruise-map/viking-cruise-map.png" /></p>
+<p>An interactive map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens and our day trip to Delphi, with the route, times, key sights, and a tip for each of the seven stops.</p>
+</li>
+<li>
+<p><strong><a href="walking-venetian-candia-map/">Walking Venetian Candia</a></strong></p>
+<p><img alt="Walking Venetian Candia" src="walking-venetian-candia-map/walking-venetian-candia-map.png" /></p>
+<p>Locate eight landmarks of Venetian and Ottoman Heraklion, from the Morosini Fountain and the Loggia to Koules Fortress and the Martinengo Bastion, by clicking an unlabeled street map of the old town.</p>
+</li>
+<li>
+<p><strong><a href="suleymaniye-kulliye-sorter/">What Did the Külliye Do?</a></strong></p>
+<p><img alt="What Did the Külliye Do?" src="suleymaniye-kulliye-sorter/suleymaniye-kulliye-sorter.png" /></p>
+<p>Sort twelve buildings of the Süleymaniye mosque complex by the public need each one served, from worship and learning to health, food, income and remembrance, and see the külliye as a whole system of public services.</p>
+</li>
+<li>
+<p><strong><a href="prediction-feedback-loops/">When a Prediction Feeds Itself</a></strong></p>
+<p><img alt="When a Prediction Feeds Itself" src="prediction-feedback-loops/prediction-feedback-loops.png" /></p>
+<p>Label every link in three prediction loops, from predictive policing and student risk scores to a traffic forecast on the road to Delphi, as same or opposite direction, then classify each loop as reinforcing (self-fulfilling) or balancing (self-defeating).</p>
+</li>
+<li>
+<p><strong><a href="when-printing-arrived/">When Printing Arrived</a></strong></p>
+<p><img alt="When Printing Arrived" src="when-printing-arrived/when-printing-arrived.png" /></p>
+<p>A bar chart of the years from Gutenberg's Bible to the first printing in ten scripts and places, from Mainz to Istanbul, with an infobox for every bar and four questions that show who printed in Istanbul long before Müteferrika's press of 1729.</p>
+</li>
+<li>
+<p><strong><a href="paul-letters-on-his-timeline/">Where in Paul's Life Was Each Letter Written?</a></strong></p>
+<p><img alt="Where in Paul's Life Was Each Letter Written?" src="paul-letters-on-his-timeline/paul-letters-on-his-timeline.png" /></p>
+<p>Drag the seven undisputed letters of Paul onto a timeline of his life, using one clue from inside each letter, and see that most of them come from the years around Ephesus while the prison letters remain debated.</p>
+</li>
+<li>
+<p><strong><a href="ottoman-retreat-map/">Where the Empire Withdrew, 1683–1923</a></strong></p>
+<p><img alt="Where the Empire Withdrew, 1683–1923" src="ottoman-retreat-map/ottoman-retreat-map.png" /></p>
+<p>Classify fourteen places of the former Ottoman Empire, from Buda and Crimea to Mecca and Damascus, by the era in which they left Ottoman rule, then replay the four eras on a map to see the shape of the retreat.</p>
+</li>
+<li>
+<p><strong><a href="rhodes-old-town-layers-sorter/">Who Built What We See in the Old Town?</a></strong></p>
+<p><img alt="Who Built What We See in the Old Town?" src="rhodes-old-town-layers-sorter/rhodes-old-town-layers-sorter.png" /></p>
+<p>Attribute twelve buildings and features of the city of Rhodes, from the Temple of Aphrodite to the Liberty Gate, to the Ancient, Knights, Ottoman or Italian builders who made what stands today.</p>
+</li>
+<li>
+<p><strong><a href="athens-who-could-vote/">Who Could Vote in Athens?</a></strong></p>
+<p><img alt="Who Could Vote in Athens?" src="athens-who-could-vote/athens-who-could-vote.png" /></p>
+<p>Calculate what share of Attica's people could vote around 431 BCE from scholarly estimates for four groups, push the estimates to their limits, and compare a full Assembly of 6,000 with everyone it governed.</p>
+</li>
+<li>
+<p><strong><a href="greek-book-makers-venice-network/">Who Made a Greek Book in Venice?</a></strong></p>
+<p><img alt="Who Made a Greek Book in Venice?" src="greek-book-makers-venice-network/greek-book-makers-venice-network.png" /></p>
+<p>Attribute ten contributions to Greek printing in Venice around 1500 to Aldus Manutius, Marcus Musurus, Francesco Griffo, Zacharias Kallierges, and six others, and watch the network of editors, printers, financiers, and patrons grow one link at a time.</p>
+</li>
+<li>
+<p><strong><a href="who-says-so-paul-sources/">Who Says So? Sorting Claims About Paul</a></strong></p>
+<p><img alt="Who Says So? Sorting Claims About Paul" src="who-says-so-paul-sources/who-says-so-paul-sources.png" /></p>
+<p>Sort fourteen familiar claims about the apostle Paul by their source (Paul's own letters, Acts only, scholars' inference, or later tradition) and see which parts of his story he told himself.</p>
+</li>
+<li>
+<p><strong><a href="population-exchange-1923-cases/">Who Was Exchanged in 1923?</a></strong></p>
+<p><img alt="Who Was Exchanged in 1923?" src="population-exchange-1923-cases/population-exchange-1923-cases.png" /></p>
+<p>Apply five simplified rules of the 1923 Greek–Turkish population exchange convention to ten illustrative households and decide whether each was sent to Greece, sent to Turkey, or not exchanged.</p>
+</li>
+<li>
+<p><strong><a href="modern-athens-timeline/">Why Athens Looks the Way It Does</a></strong></p>
+<p><img alt="Why Athens Looks the Way It Does" src="modern-athens-timeline/modern-athens-timeline.png" /></p>
+<p>Match eight things a visitor sees in Athens today, from the Polytechnic gate to euro prices and a Syrian bakery, to the events in modern Greek history from 1967 to 2023 that explain them, on an interactive timeline.</p>
+</li>
+<li>
+<p><strong><a href="with-or-to-sorter/">With or To?</a></strong></p>
+<p><img alt="With or To?" src="with-or-to-sorter/with-or-to-sorter.png" /></p>
+<p>Judge eight efforts to widen or control learning, six from the trip and two imagined AI projects, as done with the people they affected or done to them, using four questions about who chose, whose language, who was consulted, and who keeps it going.</p>
+</li>
+<li>
+<p><strong><a href="world-literacy-over-time/">World Literacy Over Two Centuries</a></strong></p>
+<p><img alt="World Literacy Over Two Centuries" src="world-literacy-over-time/world-literacy-over-time.png" /></p>
+<p>Predict how many of the world's people could read in 1820, when more than half first could, and what share of adults still cannot, then see each answer on two centuries of literacy data.</p>
+</li>
+<li>
+<p><strong><a href="persian-wars-campaign-map/">Xerxes' Road to Salamis</a></strong></p>
+<p><img alt="Xerxes' Road to Salamis" src="persian-wars-campaign-map/persian-wars-campaign-map.png" /></p>
+<p>Step through ten places of the Persian Wars, from Sardis and Marathon to Thermopylae, Salamis and Mycale, and predict at five of them why the fighting or the crossing happened there.</p>
 </li>
 </ul>
-
-
+</div>
 
 
 
@@ -3188,7 +3530,14 @@ Plotly, Venn.js).</p>
 
 
   
+  
 
+
+
+  
+
+
+  
 
 
 
@@ -3211,6 +3560,8 @@ Plotly, Venn.js).</p>
         <footer class="md-footer">
   
     
+      
+        
       
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
