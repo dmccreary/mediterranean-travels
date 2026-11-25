@@ -6,14 +6,49 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>When Printing Arrived using Chart.js</title>
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; background: white; }
+        main { width: 100%; background: aliceblue; border: 1px solid silver; padding: 8px 12px 10px 12px; }
+        .header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+        .header h1 { font-size: 22px; margin: 0 0 6px 0; }
+        .score { font-size: 16px; white-space: nowrap; }
+        .chart-box { position: relative; height: 336px; background: white; border: 1px solid silver; border-radius: 10px; padding: 4px 8px 2px 4px; }
+        .info { background: #FFFBEA; border: 1px solid #D9C27A; border-radius: 8px; margin-top: 6px; padding: 6px 10px; font-size: 14px; line-height: 1.35; min-height: 68px; }
+        .info .hint { color: dimgray; font-style: italic; }
+        .panel { background: white; border: 1px solid silver; border-radius: 10px; padding: 8px 12px; margin-top: 6px; min-height: 204px; }
+        .prompt { font-size: 14px; font-style: italic; color: dimgray; margin: 0 0 2px 0; }
+        .question { font-size: 17px; font-weight: bold; margin: 0 0 8px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 6px; }
+        .choices button { font-size: 14px; padding: 5px 10px; cursor: pointer; border: 1px solid #999; border-radius: 5px; background: #f4f4f4; text-align: left; }
+        .choices button:disabled { cursor: default; color: #555; }
+        .choices button.correct { background: honeydew; border: 2px solid seagreen; color: black; }
+        .choices button.wrong { background: mistyrose; border: 2px solid firebrick; color: black; }
+        .feedback { font-size: 15px; margin-top: 8px; line-height: 1.35; }
+        .feedback b.ok { color: darkgreen; }
+        .feedback b.no { color: firebrick; }
+        .controls { display: flex; align-items: center; gap: 10px; margin-top: 6px; }
+        .controls button { font-size: 14px; }
+        .status { font-size: 14px; color: dimgray; }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <script src="when-printing-arrived.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div class="header">
+            <h1>When Printing Arrived</h1>
+            <div class="score" id="score">Correct: 0 of 4</div>
+        </div>
+        <div class="chart-box">
+            <canvas id="chart" aria-label="Horizontal bar chart of the years from Gutenberg's Bible, about 1455, to the first printing in ten scripts and places, grouped as Western Europe or Ottoman Empire" role="img"></canvas>
+        </div>
+        <div class="info" id="info"></div>
+        <div class="panel" id="panel"></div>
+        <div class="controls">
+            <button id="nextBtn" disabled>Next question</button>
+            <button id="restartBtn">Restart</button>
+            <span class="status" id="status">Hover over or tap a bar to read about it.</span>
+        </div>
+    </main>
 </body>
 </html>

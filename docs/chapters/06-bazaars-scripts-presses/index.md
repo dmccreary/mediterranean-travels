@@ -363,7 +363,7 @@ A popular version says that Sultan Bayezid II banned Arabic-script printing in 1
 
 #### Diagram: When Printing Arrived
 
-<iframe src="../../sims/when-printing-arrived/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/when-printing-arrived/main.html" height="710px" width="100%" scrolling="no"></iframe>
 
 [Run the When Printing Arrived MicroSim Fullscreen](../../sims/when-printing-arrived/main.html){ .md-button .md-button--primary }
 
