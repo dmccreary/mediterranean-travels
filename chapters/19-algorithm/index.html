@@ -56,6 +56,8 @@
     
       <link rel="stylesheet" href="../../css/mascot.css">
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1566,6 +1568,55 @@
         
       
         
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
       
         
       
@@ -2363,7 +2414,7 @@ This morning we stood where kings waited for a god's answer; tonight half the co
 <li><strong>Collect labeled examples.</strong> We gather 10,000 photos of capitals, and a person labels each one "Doric" or "Ionic." These labeled examples are the training data, the subject of the next sections.</li>
 <li><strong>Hold some back.</strong> We set 2,000 photos aside, unseen, for testing. The program learns from the other 8,000.</li>
 <li><strong>Start with a guess and adjust.</strong> The model begins with random internal numbers, called <strong>parameters</strong>, and guesses a label for each training photo. Every wrong guess nudges the parameters slightly in the direction that would have made the guess less wrong. After many passes through the 8,000 photos, the guesses are mostly right.</li>
-<li><strong>Test on the photos it never saw.</strong> If the model labels 1,900 of the 2,000 held-back photos correctly, its test accuracy is <span class="arithmatex">\( 1{,}900 \div 2{,}000 = 95 \)</span> percent. That number, not its score on the training photos, tells us how well it <strong>generalizes</strong>, that is, how well it handles examples it was not trained on.</li>
+<li><strong>Test on the photos it never saw.</strong> If the model labels 1,900 of the 2,000 held-back photos correctly, its test accuracy is <span class="arithmatex">\( 1{,}900 \div 2{,}000 = 0.95 \)</span>, or 95 percent. That number, not its score on the training photos, tells us how well it <strong>generalizes</strong>, that is, how well it handles examples it was not trained on.</li>
 <li><strong>Use it, and keep checking.</strong> Now we can point a phone at a capital in a museum and get "Ionic, 97 percent." But if we show it a broken Corinthian capital in fog, a style it was never taught, it will still answer "Doric" or "Ionic," because those are the only two answers it knows.</li>
 </ol>
 <p>Notice what the model learned and what it did not. It found patterns of light and shape that separate the two labels in the photos it was given. It does not know what a column is, who carved it, or why. Everything it can do comes from the examples, and everything the examples leave out, it cannot do. The table below sets the two approaches side by side.</p>
@@ -3360,7 +3411,7 @@ Think of every AI question as a visit to Delphi with two stops. At the tripod, w
 <p>"Nothing in excess," the second saying on the temple, is a fair summary of what climate models ask of us: a sense of limits. The models can tell us roughly what each path is likely to bring. They cannot tell us which path to take, which returns us to the porch.</p>
 <h3 id="acting-on-foresight">Acting on Foresight<a class="headerlink" href="#acting-on-foresight" title="Permanent link">&para;</a></h3>
 <p><strong>Acting on foresight</strong> is making a decision now, at a known cost, because of a prediction about the future, before the predicted outcome is certain. The hardest part of foresight is not seeing what may come but acting on it. Chapter 15 gave us the classic case: in 483 BCE, when the silver mines at Laurion struck a rich vein, Themistocles persuaded the Athenians to build 200 warships instead of sharing out the money, and three years later those ships won at Salamis. The citizens gave up ten drachmas each, a sure cost, against an uncertain threat. Had Persia never come, the ships would have looked like a waste.</p>
-<p><strong>Worked example: the umbrella rule.</strong> Let's make the logic exact with a decision we face every morning. Suppose carrying an umbrella costs us a little bother, which we will call 1 unit, and getting soaked on a day out costs us much more, say 4 units. If the chance of rain is <span class="arithmatex">\( p \)</span>, then not carrying the umbrella costs us <span class="arithmatex">\( 4p \)</span> on average, and carrying it costs 1 every time. Carrying it is worth it when <span class="arithmatex">\( 4p &gt; 1 \)</span>, that is, when <span class="arithmatex">\( p &gt; 1 \div 4 = 25 \)</span> percent. So with a 30 percent chance of rain at Delphi, we carry the umbrella; with 20 percent in Athens tomorrow, we leave it. The general rule is to act when the probability is greater than the cost of acting divided by the loss it prevents. The rule explains why sensible people act on predictions that will "probably not" come true: when the loss is large and the precaution cheap, a small probability is enough. It is the reasoning behind flood barriers, vaccines, insurance, and Themistocles' ships, and it is why a calibrated forecast is so valuable, because the rule only works if the probability can be trusted.</p>
+<p><strong>Worked example: the umbrella rule.</strong> Let's make the logic exact with a decision we face every morning. Suppose carrying an umbrella costs us a little bother, which we will call 1 unit, and getting soaked on a day out costs us much more, say 4 units. If the chance of rain is <span class="arithmatex">\( p \)</span>, then not carrying the umbrella costs us <span class="arithmatex">\( 4p \)</span> on average, and carrying it costs 1 every time. Carrying it is worth it when <span class="arithmatex">\( 4p &gt; 1 \)</span>, that is, when <span class="arithmatex">\( p &gt; 1 \div 4 = 0.25 \)</span>, or 25 percent. So with a 30 percent chance of rain at Delphi, we carry the umbrella; with 20 percent in Athens tomorrow, we leave it. The general rule is to act when the probability is greater than the cost of acting divided by the loss it prevents. The rule explains why sensible people act on predictions that will "probably not" come true: when the loss is large and the precaution cheap, a small probability is enough. It is the reasoning behind flood barriers, vaccines, insurance, and Themistocles' ships, and it is why a calibrated forecast is so valuable, because the rule only works if the probability can be trusted.</p>
 <div class="admonition mascot-tip">
 <p class="admonition-title">Divide the Cost by the Loss</p>
 <p><img alt="Glaux giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
@@ -3560,6 +3611,12 @@ You can now explain how a machine learns from examples and where its data can mi
     
     
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
       
     
   </body>

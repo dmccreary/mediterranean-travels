@@ -1,0 +1,116 @@
+{
+  "title": "The Three Classical Orders",
+  "image": "orders-columns.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#9A6B2F", "#1F6F8B", "#5E8C31", "#F5B301"],
+  "zones": [
+    {
+      "id": "doric",
+      "label": "Doric",
+      "color": "#9A6B2F",
+      "x1": 1.0,
+      "y1": 2.0,
+      "x2": 32.3,
+      "y2": 97.0,
+      "tooltip": "Doric: no base and a plain cushion capital. Click for details.",
+      "summary": "The oldest and plainest order: a sturdy column with no base and a cushion-shaped capital.",
+      "facts": [
+        "Base: none. The shaft stands directly on the temple floor (the stylobate).",
+        "Shaft: about 20 flutes that meet in sharp edges.",
+        "Capital: a plain cushion (the echinus) under a square slab (the abacus).",
+        "Frieze: alternating triglyphs (blocks with three vertical bars) and metopes (square panels).",
+        "Proportions: sturdy, about 4 to 6 diameters tall; later columns are slimmer.",
+        "Origins: 7th century BCE, on the Greek mainland and in the Greek colonies of Italy and Sicily.",
+        "On our route: the Parthenon (447–432 BCE) and the temple of Athena at Lindos."
+      ]
+    },
+    {
+      "id": "ionic",
+      "label": "Ionic",
+      "color": "#1F6F8B",
+      "x1": 34.3,
+      "y1": 2.0,
+      "x2": 65.7,
+      "y2": 97.0,
+      "tooltip": "Ionic: a capital with two spiral scrolls (volutes). Click for details.",
+      "summary": "The graceful order of Ionia: a molded base and a capital with two spiral volutes.",
+      "facts": [
+        "Base: a stack of molded rings.",
+        "Shaft: about 24 flutes separated by flat strips (fillets).",
+        "Capital: two spiral scrolls, called volutes, on the front and back.",
+        "Entablature: an architrave of three stepped bands and a continuous frieze, plain or carved.",
+        "Proportions: slender, about 8 to 9 diameters tall.",
+        "Origins: 6th century BCE in Ionia, the Greek coast of Anatolia around Ephesus.",
+        "On our route: the Temple of Artemis at Ephesus, the Erechtheion, and the Temple of Athena Nike."
+      ]
+    },
+    {
+      "id": "corinthian",
+      "label": "Corinthian",
+      "color": "#5E8C31",
+      "x1": 67.7,
+      "y1": 2.0,
+      "x2": 99.0,
+      "y2": 97.0,
+      "tooltip": "Corinthian: a bell-shaped capital of acanthus leaves. Click for details.",
+      "summary": "The most ornate order: a tall bell-shaped capital wrapped in acanthus leaves.",
+      "facts": [
+        "Base and shaft: like the Ionic, with a molded base and about 24 flutes separated by flat strips.",
+        "Capital: a bell wrapped in two rows of acanthus leaves, with small scrolls at the corners.",
+        "Proportions: the most slender, about 9 to 10 diameters tall.",
+        "Origins: the earliest known capital stood inside the temple at Bassae, about 420 BCE.",
+        "Legend: Vitruvius says the sculptor Callimachus copied acanthus growing around a basket on a grave in Corinth.",
+        "The Greeks used it sparingly; the Romans made it their favorite order.",
+        "On our route: the streets of Roman Ephesus and Hadrian's Temple of Olympian Zeus in Athens."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which order's capital carries two spiral scrolls called volutes?",
+      "correct_zone": "ionic",
+      "explanation": "The paired volutes are the signature of the Ionic order. Corinthian capitals have small corner scrolls too, but they sit among acanthus leaves."
+    },
+    {
+      "question": "Which order's capital is a tall bell wrapped in acanthus leaves?",
+      "correct_zone": "corinthian",
+      "explanation": "Two rows of acanthus leaves around a bell-shaped core make a Corinthian capital."
+    },
+    {
+      "question": "Which order has no base, so its shaft stands directly on the temple floor?",
+      "correct_zone": "doric",
+      "explanation": "Greek Doric columns have no base; Ionic and Corinthian columns stand on molded rings."
+    },
+    {
+      "question": "The outer colonnade of the Parthenon in Athens belongs to which order?",
+      "correct_zone": "doric",
+      "explanation": "The Parthenon (447–432 BCE) is the great Doric temple, though it hides four Ionic columns inside its back room."
+    },
+    {
+      "question": "Which order has a frieze of alternating triglyphs and metopes?",
+      "correct_zone": "doric",
+      "explanation": "Triglyphs and metopes belong to the Doric frieze. Ionic and Corinthian friezes are a continuous band."
+    },
+    {
+      "question": "Which order was born in Ionia, the coast around Ephesus, and was used for the Temple of Artemis?",
+      "correct_zone": "ionic",
+      "explanation": "The Ionic order took shape in Ionia in the 6th century BCE, and the archaic Temple of Artemis was one of the first giant Ionic temples."
+    },
+    {
+      "question": "The Erechtheion and the Temple of Athena Nike on the Acropolis use which order?",
+      "correct_zone": "ionic",
+      "explanation": "Athenians built in Ionic when they wanted grace, as in these two buildings, and in Doric when they wanted weight."
+    },
+    {
+      "question": "Which order did the Romans make their favorite, using it for Hadrian's Temple of Olympian Zeus?",
+      "correct_zone": "corinthian",
+      "explanation": "The Greeks used the Corinthian order sparingly; the Romans used it everywhere, from Ephesus to Athens."
+    },
+    {
+      "question": "According to Vitruvius, which order was inspired by acanthus growing around a basket on a grave?",
+      "correct_zone": "corinthian",
+      "explanation": "Vitruvius credits the sculptor Callimachus with the Corinthian capital. It is a lovely story, written down about four centuries after he lived."
+    }
+  ]
+}

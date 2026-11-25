@@ -1,0 +1,65 @@
+{
+  "title": "The Three Classical Orders",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive infographic overlay comparing the Doric, Ionic, and Corinthian orders, with hover tooltips, a click-to-open infobox, and a quiz mode.",
+  "date": "2026-11-24",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Classical orders of architecture",
+    "learningObjectives": [
+      "Identify the Doric, Ionic, and Corinthian orders from their capitals, bases, flutes, and proportions.",
+      "Name a building on the trip route built in each order."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Base, shaft, flutes, and capital",
+      "Architrave, frieze, and cornice"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 826
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration followed by retrieval practice",
+    "keyQuestions": [
+      "Which part of a column names its order most quickly?",
+      "Which features do the Ionic and Corinthian orders share?"
+    ],
+    "commonMisconceptions": [
+      "Any capital with scrolls is Corinthian; in fact paired volutes mark the Ionic order.",
+      "Flutes alone tell the order; Ionic and Corinthian share the same 24-flute pattern.",
+      "All Greek temples are Doric."
+    ],
+    "assessmentOpportunities": [
+      "Nine-question quiz mode identifying the order from features and buildings"
+    ]
+  },
+  "controls": [
+    {"name": "Explore", "type": "button", "description": "Default mode: hover a column for a tooltip, click it for the infobox."},
+    {"name": "Quiz Mode", "type": "button", "description": "Hides the name pills and asks nine questions answered by clicking a column."}
+  ],
+  "chapter": "10-ephesus-greco-roman-city",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
