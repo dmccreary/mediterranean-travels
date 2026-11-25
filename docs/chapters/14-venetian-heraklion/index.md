@@ -204,6 +204,10 @@ The map below lets us place the landmarks of the old town before walking it.
 
 #### Diagram: Walking Venetian Candia
 
+<iframe src="../../sims/walking-venetian-candia-map/main.html" height="660px" width="100%" scrolling="no"></iframe>
+
+[Run the Walking Venetian Candia MicroSim Fullscreen](../../sims/walking-venetian-candia-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Walking Venetian Candia</summary>
 Type: map
@@ -326,6 +330,10 @@ To see why that mattered, we need three words from the printing shop. Early book
 
 #### Diagram: Folding the Sheet: Folio, Quarto, Octavo
 
+<iframe src="../../sims/folio-quarto-octavo-paper-calculator/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Folding the Sheet: Folio, Quarto, Octavo MicroSim Fullscreen](../../sims/folio-quarto-octavo-paper-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Folding the Sheet: Folio, Quarto, Octavo</summary>
 Type: microsim
@@ -401,6 +409,10 @@ The small editions sold well, and success brought copies. Printers in Lyon, in F
 A Greek book in Venice was the work of many hands, not one genius. The interactive diagram below asks us to say who did what.
 
 #### Diagram: Who Made a Greek Book in Venice?
+
+<iframe src="../../sims/greek-book-makers-venice-network/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Who Made a Greek Book in Venice? MicroSim Fullscreen](../../sims/greek-book-makers-venice-network/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Who Made a Greek Book in Venice?</summary>
