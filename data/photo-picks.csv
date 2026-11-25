@@ -60,23 +60,23 @@ chapter,order,file,place,draft_caption,credit,taken_local,orientation,web_path
 11,1,IMG_0831.HEIC,Ephesus,Standing columns in the upper city of Ephesus,Dan McCreary,2026-11-17T08:34+02:00,landscape,docs/chapters/11-paul-ideas-leadership/img/standing-columns-upper-city-ephesus.jpg
 11,2,IMG_0846.HEIC,Ephesus,A lone arch above fallen blocks in the upper city of Ephesus,Dan McCreary,2026-11-17T08:45+02:00,landscape,docs/chapters/11-paul-ideas-leadership/img/lone-arch-above-fallen-blocks.jpg
 11,3,IMG_0932.HEIC,Ephesus,A stone pine above the ruins of Ephesus,Dan McCreary,2026-11-17T09:33+02:00,landscape,docs/chapters/11-paul-ideas-leadership/img/stone-pine-above-ruins-ephesus.jpg
-12,1,IMG_1004.HEIC,Rhodes Old Town,"The Street of the Knights, Rhodes Old Town",Dan McCreary,2026-11-18T08:58+02:00,landscape,
-12,2,IMG_1028.HEIC,Palace of the Grand Master,Courtyard of the Palace of the Grand Master,Dan McCreary,2026-11-18T09:19+02:00,landscape,
-12,3,IMG_1117.HEIC,Palace of the Grand Master,The dry moat and walls of the Old Town,Dan McCreary,2026-11-18T15:10+02:00,landscape,
-12,4,IMG_0967.HEIC,Rhodes Old Town,Medieval windmills on the Mandraki harbor mole,Dan McCreary,2026-11-18T08:00+02:00,landscape,
-12,5,IMG_1109.HEIC,Palace of the Grand Master,Stone siege balls in the moat (verify),Dan McCreary,2026-11-18T15:05+02:00,landscape,
-12,6,IMG_0982.HEIC,Rhodes Old Town,A Gothic arch in the Old Town (verify),Dan McCreary,2026-11-18T08:25+02:00,landscape,
-12,7,IMG_0979.HEIC,Rhodes Old Town,Bronze dolphin sculpture at the harbor,Dan McCreary,2026-11-18T08:22+02:00,landscape,
-12,8,IMG_0976.HEIC,Rhodes Old Town,The harbor walls across the water,Dan McCreary,2026-11-18T08:18+02:00,landscape,
-13,1,IMG_1219.HEIC,Heraklion Archaeological Museum,"Bull's-head rhyton from Knossos, about 1500 BCE",Dan McCreary,2026-11-19T09:51+02:00,landscape,
-13,2,IMG_1175.HEIC,Heraklion Archaeological Museum,"The Malia bee pendant, gold, about 1700 BCE",Dan McCreary,2026-11-19T09:15+02:00,landscape,
-13,3,IMG_1224.HEIC,Heraklion Archaeological Museum,Lioness-head rhyton from Knossos,Dan McCreary,2026-11-19T09:54+02:00,landscape,
-13,4,IMG_1187.HEIC,Heraklion Archaeological Museum,Kamares-ware jug with spiral decoration,Dan McCreary,2026-11-19T09:22+02:00,landscape,
-13,5,IMG_1191.HEIC,Heraklion Archaeological Museum,Scale model of the palace of Knossos,Dan McCreary,2026-11-19T09:26+02:00,landscape,
-13,6,IMG_1231.HEIC,Heraklion Archaeological Museum,Painted Minoan clay coffins (larnakes),Dan McCreary,2026-11-19T09:59+02:00,landscape,
-13,7,IMG_1210.HEIC,Heraklion Archaeological Museum,Minoan storage jars (pithoi),Dan McCreary,2026-11-19T09:40+02:00,landscape,
-13,8,IMG_1239.HEIC,Heraklion Archaeological Museum,A fragmentary Minoan fresco (verify),Dan McCreary,2026-11-19T10:06+02:00,landscape,
-13,9,IMG_1229.HEIC,Heraklion Archaeological Museum,Minoan bead necklaces,Dan McCreary,2026-11-19T09:58+02:00,landscape,
+12,1,IMG_1004.HEIC,Rhodes Old Town,"The Street of the Knights, Rhodes Old Town",Dan McCreary,2026-11-18T08:58+02:00,landscape,docs/chapters/12-rhodes/img/street-knights-rhodes-old-town.jpg
+12,2,IMG_1028.HEIC,Palace of the Grand Master,Courtyard of the Palace of the Grand Master,Dan McCreary,2026-11-18T09:19+02:00,landscape,docs/chapters/12-rhodes/img/courtyard-palace-grand-master.jpg
+12,3,IMG_1117.HEIC,Palace of the Grand Master,The dry moat and walls of the Old Town,Dan McCreary,2026-11-18T15:10+02:00,landscape,docs/chapters/12-rhodes/img/dry-moat-walls-old-town.jpg
+12,4,IMG_0967.HEIC,Rhodes Old Town,Windmills on the mole of Mandraki harbor,Dan McCreary,2026-11-18T08:00+02:00,landscape,docs/chapters/12-rhodes/img/windmills-mole-mandraki-harbor.jpg
+12,5,IMG_1109.HEIC,Palace of the Grand Master,Stone siege balls in the grass of the dry moat,Dan McCreary,2026-11-18T15:05+02:00,landscape,docs/chapters/12-rhodes/img/stone-siege-balls-grass-dry.jpg
+12,6,IMG_0982.HEIC,Rhodes Old Town,A ruined Gothic arch in the Old Town of Rhodes,Dan McCreary,2026-11-18T08:25+02:00,landscape,docs/chapters/12-rhodes/img/ruined-gothic-arch-old-town.jpg
+12,7,IMG_0979.HEIC,Rhodes Old Town,"A dolphin sculpture at the harbor, with the Old Town walls behind",Dan McCreary,2026-11-18T08:22+02:00,landscape,docs/chapters/12-rhodes/img/dolphin-sculpture-harbor-old-town.jpg
+12,8,IMG_0976.HEIC,Rhodes Old Town,The walls of the Old Town across the harbor in the morning,Dan McCreary,2026-11-18T08:18+02:00,landscape,docs/chapters/12-rhodes/img/walls-old-town-across-harbor.jpg
+13,1,IMG_1219.HEIC,Heraklion Archaeological Museum,"Bull's-head rhyton from Knossos, about 1500 BCE",Dan McCreary,2026-11-19T09:51+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/bull-s-head-rhyton-knossos.jpg
+13,2,IMG_1175.HEIC,Heraklion Archaeological Museum,"The Malia bee pendant, gold, about 1700 BCE",Dan McCreary,2026-11-19T09:15+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/malia-bee-pendant-gold-about.jpg
+13,3,IMG_1224.HEIC,Heraklion Archaeological Museum,Lioness-head rhyton from Knossos,Dan McCreary,2026-11-19T09:54+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/lioness-head-rhyton-knossos.jpg
+13,4,IMG_1187.HEIC,Heraklion Archaeological Museum,Kamares-ware jug with spiral decoration,Dan McCreary,2026-11-19T09:22+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/kamares-ware-jug-spiral-decoration.jpg
+13,5,IMG_1191.HEIC,Heraklion Archaeological Museum,Scale model of the palace of Knossos,Dan McCreary,2026-11-19T09:26+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/scale-model-palace-knossos.jpg
+13,6,IMG_1231.HEIC,Heraklion Archaeological Museum,Painted Minoan clay coffins (larnakes),Dan McCreary,2026-11-19T09:59+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/painted-minoan-clay-coffins-larnakes.jpg
+13,7,IMG_1210.HEIC,Heraklion Archaeological Museum,Minoan storage jars (pithoi),Dan McCreary,2026-11-19T09:40+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/minoan-storage-jars-pithoi.jpg
+13,8,IMG_1239.HEIC,Heraklion Archaeological Museum,Fragments of a Minoan wall painting set into a modern plaster panel,Dan McCreary,2026-11-19T10:06+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/fragments-minoan-wall-painting-set.jpg
+13,9,IMG_1229.HEIC,Heraklion Archaeological Museum,Minoan bead necklaces,Dan McCreary,2026-11-19T09:58+02:00,landscape,docs/chapters/13-knossos-minoans-linear-b/img/minoan-bead-necklaces.jpg
 14,1,IMG_1259.HEIC,Heraklion (general),"The Venetian Loggia, Heraklion, 17th century",Dan McCreary,2026-11-19T10:38+02:00,landscape,
 14,2,IMG_1269.HEIC,Koules Fortress,Vaulted interior of the Koules Fortress,Dan McCreary,2026-11-19T11:28+02:00,landscape,
 14,3,IMG_1268.HEIC,Koules Fortress,Koules Fortress and the Venetian harbor,Dan McCreary,2026-11-19T11:26+02:00,landscape,

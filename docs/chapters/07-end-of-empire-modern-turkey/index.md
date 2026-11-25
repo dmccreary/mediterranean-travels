@@ -146,7 +146,7 @@ Two reference places are shown but not scored: Istanbul (41.01, 28.98), "Ottoman
 | 6 | Nicosia, Cyprus (35.17, 33.36) | Placed under British administration in 1878 | Era 2 | Britain took over Cyprus at the Congress of Berlin while it stayed nominally Ottoman. |
 | 7 | Cairo (30.04, 31.24) | Occupied by Britain in 1882 | Era 3 | Egypt had long run its own affairs; British troops made the break final in 1882. |
 | 8 | Heraklion, Crete (35.34, 25.13) | Autonomous Cretan State from 1898; united with Greece in 1913 | Era 3 | Crete left the empire as an autonomous state first and joined Greece fifteen years later. |
-| 9 | Rhodes (36.44, 28.22) | Taken by Italy in 1912 | Era 3 | Rhodes went to Italy, not Greece, in the Italo-Turkish War, and joined Greece only in 1947. |
+| 9 | Rhodes (36.44, 28.22) | Taken by Italy in 1912 | Era 3 | Rhodes went to Italy, not Greece, in the Italo-Turkish War, and was handed to Greece only in 1947, with formal union in 1948. |
 | 10 | Thessaloniki (40.64, 22.94) | Taken by Greece in 1912, in the First Balkan War | Era 3 | Atatürk's birthplace became Greek when he was 31. |
 | 11 | Mecca (21.42, 39.83) | Arab Revolt began in 1916; the Hejaz became independent | Era 4 | The Arab provinces stayed Ottoman until World War I. |
 | 12 | Baghdad (33.31, 44.36) | Taken by Britain in 1917 | Era 4 | Mesopotamia, ruled from Istanbul since 1534, fell only in the war. |
@@ -431,7 +431,7 @@ The two outcomes: Reversed (Lausanne undid the Sèvres term); Kept (Lausanne lef
 | 6 | Capitulations | Restored, with Allied supervision of Ottoman finances | Abolished | Reversed | Full sovereignty was the heart of the national movement. |
 | 7 | The Straits | Under an international commission, demilitarized | Under Turkish sovereignty but still demilitarized and supervised by an international commission | Kept | Lausanne kept the commission and demilitarization; full Turkish control came only with the Montreux Convention of 1936. |
 | 8 | The Arab provinces | Given up | Given up | Kept | The Pact had left them out of its claim. |
-| 9 | Rhodes and the Dodecanese | Given up in favor of Italy | Given up in favor of Italy | Kept | Italy had held them since 1912; they joined Greece only in 1947. |
+| 9 | Rhodes and the Dodecanese | Given up in favor of Italy | Given up in favor of Italy | Kept | Italy had held them since 1912; they were handed to Greece only in 1947, with formal union in 1948. |
 | 10 | Cyprus | British annexation recognized | British annexation recognized | Kept | Cyprus had been under British rule since 1878 and lay outside the Pact. |
 
 The three explanations offered after item 10:

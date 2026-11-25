@@ -672,3 +672,138 @@ Tables: Acts 15 vs Galatians 2; four readings of faith and works; Livy's body vs
 - docs/chapters/11-paul-ideas-leadership/img/ (3 exported JPEGs)
 - data/photo-picks.csv (3 captions, 3 web paths), data/pronunciations.csv (5 rows), docs/appendices/pronunciation-guide.md, docs/audio/{chrysostom,pelagius,menenius-agrippa,agape,nostra-aetate}.mp3
 - logs/ch-11-content-generation.md, this log
+
+# Chapter 12 Session (Day 8: Rhodes)
+
+- **Start:** 2026-11-24 18:40:03
+- **End:** 2026-11-24 18:58:34
+- **Chapter:** docs/chapters/12-rhodes/index.md ("Day 8: Rhodes, From the Colossus to the Knights")
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **Promises from earlier chapters honored:** Chapter 2's November waiter and "port day that is ours" (lunch in the Old Town, afternoon in La Juderia), the short November menu, *efcharistó*, *kaliméra*, *óchi* (tied to Ochi Day); Chapter 4's Metropolis of Rhodes under the Ecumenical Patriarchate and the Fourth Crusade; Chapter 5's siege of 1522 told "from the knights' side" and the Mosque of Suleiman (1808); Chapter 6's Sephardic families and the 1944 tragedy; Chapter 7's Italian rule from 1912 and the 1923 exchange not applying to Rhodes; Chapters 1 and 10 on the Colossus (not retold). Clock change (Greece one hour behind Turkey) in the opening and Practical Notes.
+- **AI-Native Schools chapters opened before citing:** 10 (Student Privacy and Data Governance) and 13 (Social Learning and Human Skills); titles copied exactly, claims match their summaries. Chapter 11 (Mastery Learning, two-sigma) deliberately left for Chapter 20, which owns "Teaching Comes to Learner."
+- **MicroSim reuse search:** available. Layers sorter `generate` (0.339); timeline `generate` (0.364); olive-oil label `generate` (0.556). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 12. Rhodes | 0 / 15 / 16 | 5,670–9,200 | ~11,810 (brief's counter; includes 8 tables, lists, admonitions, Key Takeaways) | ~3,440 | 31/31 |
+
+Tier B (15): Rhodes, Knights Hospitaller, Hospitaller Rhodes, Rhodes Medieval Town, Greek Cuisine, Athena, Olive Oil, Rhodes City Walls, Siege of Rhodes 1522, Mediterranean Diet, Ottoman Rhodes, World War II, Rhodes School of Rhetoric, Italian Rule of Rhodes, Jewish Quarter of Rhodes. Tier C (16): the rest.
+
+About 28% above the top of the budget, after one trimming pass (from ~12,050). Similar to Chapters 10 and 11. The excess comes from the many-layered history (eight rulers), the care given to the 1944 deportation (a Tier C concept by CIS, written at Tier B length on purpose, with sourced ranges), and two Learning for All notes.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 12 | 8 (plus 9 inside specs) | 8 | 10 (welcome 1, thinking 3, tip 2, warning 2, encourage 1, celebration 1) | rhodes-changes-hands-1912-1948 (vis-timeline, Understand/interpret); rhodes-old-town-layers-sorter (p5.js, Analyze/attribute); read-the-olive-oil-label (p5.js, Evaluate/judge) |
+
+Tables: Greek phrases; cruise-fee seasons; Athena's attributes; the knights' headquarters 1099 to today; Athens vs Rhodes in WWII; taverna menu sections; olive oil grades; Roman visitors to Rhodes.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (exit 0).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits).
+- Specification self-check: six header lines, no indented lines, no layout, pixel, color, or Implementation lines; no "for example/such as/etc." in Content; counts match (13 events, 5 questions; 12 cards with summary 2/3/4/3; 9 labels, 3 supporting); Chapter Anchors match the prose.
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, max run 4).
+- No TODO and no "(verify)"; all 31 concepts appear in bold.
+- `scripts/pronunciations.py`: 6 new terms with audio (philoxenia, Mandraki, Hospitaller, Juderia, Kahal Shalom, Selahattin Ülkümen). Buttons: 5 in Chapter 12; Kahal Shalom landed in Chapter 1 (its first running-text use, the "why Spanish was spoken in Rhodes" worked example). The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (`cmp` clean), and `appendix` (98 terms) and `check` (OK; Antikythera has audio and no chapter button) were rerun.
+
+## Caption Changes
+
+- Pick 4 (IMG_0967): "Medieval windmills on the Mandraki harbor mole" -> "Windmills on the mole of Mandraki harbor" (the windmills' date is not certain).
+- Pick 5 (IMG_1109): "Stone siege balls in the moat (verify)" -> "Stone siege balls in the grass of the dry moat". Contact sheet shows round stone balls on grass; taken 15:05, five minutes before the dry-moat photo at the same spot.
+- Pick 6 (IMG_0982): "A Gothic arch in the Old Town (verify)" -> "A ruined Gothic arch in the Old Town of Rhodes". General caption: possibly the ruined church of Our Lady of the Burgh, but not certain from the sheet.
+- Pick 7 (IMG_0979): "Bronze dolphin sculpture at the harbor" -> "A dolphin sculpture at the harbor, with the Old Town walls behind" (material not certain).
+- Pick 8 (IMG_0976): "The harbor walls across the water" -> "The walls of the Old Town across the harbor in the morning" (08:18 Athens time; sunrise about 6:45 AM).
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- Chapters 1 and 7 say the Dodecanese "joined Greece in 1947." The Paris treaty (February 10, 1947) and Greek administration (spring 1947) are 1947, but formal union was March 7, 1948. Chapter 12 explains both dates; the earlier wording is defensible but could say "1947–1948."
+
+## Notes for the Author
+
+- All our Day 8 photos are in the Old Town (08:00–09:19 and 15:05–15:10). The chapter does not say whether we went to Lindos; the Practical Notes treat it as optional. If we did, add a sentence and perhaps a photo.
+- Holocaust figures are given as sourced ranges: deported "more than 1,700" (CDEC) with source estimates from about 1,600 to over 1,700 from Rhodes and 65–100 from Kos; survivors 151 (USHMM) to 179 (CDEC, includes Kos). Dates: July 23, 1944 departure; train from Athens August 3; Auschwitz August 16 (some sources say August 17). Ülkümen: 42 released, about 50 protected; Righteous Among the Nations 1989.
+- The registry list of spring 1944 is from a study of the Italian administration's role in the deportation (cyberleninka.ru article, "The role of the Italian civil administration in the deportation of the Rhodes Jewish community, July 1944"); worth reading before publishing the Learning for All note.
+- From memory, worth checking: Rhodes island size and population (~125,000); Hippodamus attribution; Rome making Delos a free port in 166 BCE; the trireme relief at Lindos (about 180 BCE); Lindian Chronicle found 1904; Cicero in *Brutus* 316 (Molon reining in his style) and Plutarch's *Cicero* 4 (teacher's name uncertain, so not named); Pompey's visits to Posidonius (66 and 62 BCE); the Senate's expulsion of Greek rhetoricians (161 BCE) and the censors' edict (92 BCE); Hospitaller langues (eight by 1462); Margat/Acre after 1187; Malta for a falcon; hospital 1440–1489; Liberty Gate 1924; Church of the Annunciation 1925; Italian imposed in schools under De Vecchi (from about 1937); Greek administration March 31, 1947; German surrender of the Dodecanese May 8, 1945 (signed on Symi); Viking Star capacity 930 guests; Greek cruise fees as announced in 2025 (€1 per passenger at Rhodes November to March; sources disagree on season boundaries); EU olive-oil limits (Reg. (EU) 2022/2104) and the 27 °C cold-extraction rule; PREDIMED's ~30% figure.
+- Listen to the new recordings, especially Juderia (Ladino *j* as *h*) and Selahattin Ülkümen.
+- Eggplant is mentioned briefly (melitzanosalata, with pointers to moussaka, papoutsákia and briám in Chapter 15), per the coverage split.
+
+## Files Created/Updated
+
+- docs/chapters/12-rhodes/index.md
+- docs/chapters/12-rhodes/img/ (8 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (Kahal Shalom pronounce button only)
+- data/photo-picks.csv (5 captions, web paths), data/pronunciations.csv (6 rows), docs/appendices/pronunciation-guide.md, docs/audio/{philoxenia,mandraki,hospitaller,juderia,kahal-shalom,selahattin-ulkumen}.mp3
+- logs/ch-12-content-generation.md, this log
+
+# Chapter 13 Session (Day 9, Part 1: Knossos, the Minoans, and Linear B)
+
+- **Start:** 2026-11-24 18:59:55
+- **End:** 2026-11-24 19:18:29
+- **Chapter:** docs/chapters/13-knossos-minoans-linear-b/index.md ("Day 9, Part 1: Knossos, the Minoans, and Linear B")
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **What we actually did:** the chapter teaches Knossos in full but says in the first person that we took Viking's "The Villages of Crete" excursion (Avli winery, Thrapsano) instead of the Knossos excursion, and spent the morning (photos 09:15–10:06) in the Heraklion Archaeological Museum. All nine photos are from the museum. Pithoi are tied forward to Thrapsano; Chapter 14's excursion material was not taken.
+- **Promises from earlier chapters honored:** Chapter 1's "two layers" of Knossos (extended, not retold) and Linear B basics; Chapter 2's Linear B syllabary, sign-count rule, "few dozen scribes," and route-table story for Crete; Chapter 4's restoration vs reconstruction and myth test (Evans as the case; myth-test tables for Thera/Atlantis and the Minotaur); Chapter 6's Saffron Gatherer (one back-reference) and knowledge gatekeepers; Chapter 8's Bronze Age collapse and promise to explain how the tablets were read; Chapter 10's fresco definition; Chapter 12's closing link.
+- **AI-Native Schools chapters opened before citing:** 21 (Implementing the AI-Native Model Responsibly; "Vendor Lock-In" section) for concentrated AI risk, and 13 (Social Learning and Human Skills; collaboration definition) for credit and teamwork. Chapter 18 (suggested in the course description) was read and judged a weaker fit.
+- **MicroSim reuse search:** available. Sorter `generate` (0.374); grid `generate` (0.477); timeline `generate` (0.454). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 13. Knossos, Minoans, Linear B | 0 / 6 / 18 | 3,660–6,000 | ~9,150 (brief's counter; includes 6 tables, 9 photo captions counted twice, lists, admonitions, Practical Notes, Key Takeaways) | ~3,890 | 24/24 |
+
+Tier B (6): Knossos Palace (11), Palace Economy (5), Linear A (15), Linear B (13), Alice Kober (5), Michael Ventris (4). Tier C (18): the rest.
+
+Above the CIS budget after one trimming pass (from ~9,335). The excess is in the museum section (the part we saw, carrying six of the nine photos), the Learning for All note (seven concepts plus the AI parallel), and worked examples for several Tier C concepts that needed one to be honest (Minotaur myth test, Evans reconstructions). Comparable to Chapters 5 and 6.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 13 | 6 (plus 9 inside specs) | 9 | 8 (welcome 1, thinking 2, tip 2, warning 1, encourage 1, celebration 1) | knossos-minoan-or-evans (p5.js, Analyze/distinguish); knossos-village-to-decipherment-timeline (vis-timeline, Understand/interpret); crack-linear-b-like-ventris (p5.js, Apply/solve) |
+
+Tables: phases of Knossos; Thera claims vs evidence; Minotaur myth-test sources; Cretan scripts compared; Kober triplet; three AI lessons. Lists: Evans's reconstruction stages, Linear B spelling rules, Ventris's four steps.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (exit 0).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits).
+- Specification self-check: six header lines, no indented lines, no layout, pixel, color, or Implementation lines; counts match (10 cards with summary 4/3/3; 16 events, 4 questions; 3 place-name groups, 4 tablet words, 19 signs with Unicode code points verified with Python's unicodedata); Chapter Anchors match the prose.
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, max run 4).
+- No TODO and no "(verify)"; all 24 concepts appear in bold.
+- `scripts/pronunciations.py`: 8 new terms with audio (Phaistos, pithoi, rhyton, Thera, Kamares, larnakes, Thrapsano, labrys). Buttons: 6 in Chapter 13; Phaistos and Thera landed in Chapter 1 (first running-text uses in "The Minoan Civilization"). The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (diff against the saved copy shows only the 8 appended rows), and `appendix` (106 terms) and `check` (OK; Antikythera has audio and no chapter button) were rerun.
+
+## Caption Changes
+
+- Pick 8 (IMG_1239): "A fragmentary Minoan fresco (verify)" -> "Fragments of a Minoan wall painting set into a modern plaster panel". The contact sheet shows fragments mounted on a plaster panel; the scene could not be identified with certainty, so the caption is general (and illustrates the chapter's point about restored frescoes).
+- Other eight captions kept. All photos 09:15–10:06 Athens time; no time-of-day words used.
+
+## Image Suggestions (Wikimedia Commons, not downloaded)
+
+- We have no photos of the Knossos site itself (we did not go). If wanted: the North Entrance with Evans's red columns and the bull-relief copy, the Throne Room, and a Linear B tablet (e.g. the Pylos tripod tablet Ta 641) would each illustrate a section.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- Chapter 8 ("the Linear B tablets were baked hard by the fires that ended the palace world") and Chapter 2's worked example ("when the palaces fell around 1200–1100 BCE ... the script died with the scribes" of Knossos) imply Knossos fell in the general collapse. In the usual dating Knossos burned about 1375 BCE, more than a century earlier (some scholars argue for about 1200). Chapter 13 states the usual date with that caveat.
+- Chapter 14's pick 9 (IMG_1150) is captioned "Sunset over Heraklion harbor" but was taken at 07:08 Athens time; sunrise in Heraklion on November 19 is about 7:00 AM, so it is a sunrise/early-morning photo. Not edited (Chapter 14's picks).
+
+## Notes for the Author
+
+- From memory, worth checking: Knossos central court "roughly 50 m by 25 m"; Neolithic settlement about 7000 BCE; first palace about 1900, rebuilt about 1700, final destruction about 1375 BCE; Kalokairinos 1878; Evans at Knossos from March 1900, Throne Room April 1900; reconstruction phases (wood from about 1905, concrete mainly 1920s; Christian Doll, Piet de Jong, the Gilliérons); Venice Charter (1964) Article 15; Thera about 110 km from Crete; Marinatos 1939; Bull-Leaping Fresco "about 1450–1400 BCE", "less than a meter high", east wing; bull's-head rhyton details (black stone, rock-crystal eye, restored gilded horns); the smaller Snake Goddess found without its head, head and cat restored; Heraklion museum building by Patroklos Karantinos 1937–1940, reopened 2014, frescoes upstairs; about 1,400 Linear A inscriptions, most tablets from Hagia Triada, *ku-ro* = total; Phaistos Disc about 16 cm, 241 signs, 45 kinds, 61 groups, found 1908 by Pernier; KN Gg 702 honey to "the Mistress of the Labyrinth"; Knossos sheep tablets "tens of thousands"; Kober about 180,000 cards, cigarette cartons, papers at UT Austin (PASP), triplet example a-mi-ni-so / a-mi-ni-si-jo / a-mi-ni-si-ja (presented as "of the kind she found"); Ventris at the 1936 Burlington House exhibition, 20 Work Notes, BBC broadcast July 1, 1952, death September 6, 1956; Chadwick as wartime codebreaker; Bennett's Pylos Tablets 1951; Blegen's tripod tablet (found 1952, read 1953); Vesuvius Challenge winners (Farritor, Nader, Schilliger) and Brent Seales; MIT 2019 neural decipherment (Luo, Cao, Barzilay).
+- Practical Notes avoid prices, exact winter hours, and bus numbers ("check on the day"); a combined Knossos-museum ticket is mentioned as "offered in past years."
+- Listen to the new recordings, especially Phaistos (local *feh-STOS*; English speakers often say *FYE-stos* or *FEST-os*), Thrapsano, and Kamares.
+- No Greek food section here (Chapter 14 owns the Cretan diet), so the eggplant thread is not touched in this chapter.
+
+## Files Created/Updated
+
+- docs/chapters/13-knossos-minoans-linear-b/index.md
+- docs/chapters/13-knossos-minoans-linear-b/img/ (9 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (Phaistos and Thera pronounce buttons only)
+- data/photo-picks.csv (1 caption, 9 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{phaistos,pithoi,rhyton,thera,kamares,larnakes,thrapsano,labrys}.mp3
+- logs/ch-13-content-generation.md, this log
