@@ -175,6 +175,10 @@ Taking the middle of every range, 40,000 voters out of 250,000 people is 16 perc
 
 #### Diagram: Who Could Vote in Athens?
 
+<iframe src="../../sims/athens-who-could-vote/main.html" height="584px" width="100%" scrolling="no"></iframe>
+
+[Run the Who Could Vote in Athens? MicroSim Fullscreen](../../sims/athens-who-could-vote/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Who Could Vote in Athens?</summary>
 Type: chart
@@ -258,6 +262,10 @@ The timing explains much. Athens had lost the Peloponnesian War in 404 BCE, and 
 The sim below gathers the democracy's buildings in one place, so we can match each job of government to the building on the square where it was done.
 
 #### Diagram: Democracy's Workplaces in the Agora
+
+<iframe src="../../sims/agora-democracy-workplaces/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Democracy's Workplaces in the Agora MicroSim Fullscreen](../../sims/agora-democracy-workplaces/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Democracy's Workplaces in the Agora</summary>
@@ -429,6 +437,10 @@ The second quotation is from **Aratus** <audio id="audio-aratus" src="../../audi
 The sim below lets us test where each line of the speech stands with a Stoic listener, before Luke tells us how they reacted.
 
 #### Diagram: Paul's Speech Through Stoic Ears
+
+<iframe src="../../sims/areopagus-speech-stoic-ears/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Paul's Speech Through Stoic Ears MicroSim Fullscreen](../../sims/areopagus-speech-stoic-ears/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Paul's Speech Through Stoic Ears</summary>

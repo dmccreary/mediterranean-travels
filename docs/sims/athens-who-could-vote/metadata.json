@@ -2,41 +2,70 @@
   "title": "Who Could Vote in Athens?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for who could vote in athens?",
-  "date": "2026-11-24",
+  "description": "A stacked bar of everyone in Attica around 431 BCE in four estimated groups, with sliders for each estimate and three challenges: calculate the voting share, set the estimates for the largest share the evidence allows, and calculate the share of a full Assembly of 6,000.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Who Could Vote in Athens?",
+    "topic": "Athenian citizenship and who could vote in classical Athens",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Calculate the share of Attica's population that could vote around 431 BCE from estimated ranges for four groups, to within one percentage point, and identify the combination of estimates that gives the largest possible share."
     ],
     "bloomsTaxonomy": "Apply",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Athenian democracy",
+      "The Assembly",
+      "The Pnyx",
+      "Athenian citizenship",
+      "Metics",
+      "Enslaved people",
+      "Estimates given as ranges"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Chart.js",
-    "version": "1.0",
+    "version": "4.4.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 580
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Chart.js 4.4.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Calculator with estimate sliders and three practice challenges, two attempts each, followed by free exploration",
+    "keyQuestions": [
+      "At the default estimates, what percent of everyone in Attica could vote?",
+      "Which combination of estimates gives voters the largest possible share?",
+      "What percent of everyone sat in a full Assembly of 6,000?"
+    ],
+    "commonMisconceptions": [
+      "Most Athenians could vote, because Athens was a democracy.",
+      "'The people' meant all adults.",
+      "A range of estimates means the historians made a mistake, rather than that the evidence is thin.",
+      "A packed Assembly of 6,000 was a large share of the population."
+    ],
+    "assessmentOpportunities": [
+      "Challenge 1: typed voting share within 1.0 of 16.0 percent.",
+      "Challenge 2: estimates set to 50,000 / 70,000 / 20,000 / 60,000 for 25.0 percent.",
+      "Challenge 3: typed Assembly share within 0.2 of 2.4 percent.",
+      "Mastery: 3 of 3, each within two attempts."
+    ]
   },
-  "chapter": "16-athens-agora-democracy"
+  "chapter": "16-athens-agora-democracy",
+  "type": "Interactive Chart",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/athens-who-could-vote/"
 }
