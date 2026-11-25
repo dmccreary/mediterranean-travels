@@ -2,41 +2,70 @@
   "title": "Why Athens Looks the Way It Does",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for why athens looks the way it does",
-  "date": "2026-11-24",
+  "description": "A vis-timeline of fourteen events in modern Greek history from 1967 to 2023 (the junta, the Polytechnic uprising, Cyprus 1974, the euro, the 2004 Olympics, the debt crisis, the 2015 sea crossings, the Athens Declaration), with eight typical sights in Athens today that the learner matches, one at a time, to the event that explains each.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Why Athens Looks the Way It Does",
+    "topic": "Modern Greek history, 1967 to 2023, and the marks it left on Athens",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Infer which event in modern Greek history, from 1967 to 2023, explains each of eight things a visitor can see in Athens today, matching at least 7 of the 8 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Military dictatorship (junta)",
+      "Athens Polytechnic uprising",
+      "Greek debt crisis, rescue loans and austerity",
+      "Migration and refugees today (the 2015 sea crossings)",
+      "The euro",
+      "The 2004 Olympics",
+      "Cyprus 1974",
+      "Greek-Turkish relations and the Athens Declaration",
+      "Greek coffee"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 524
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Cause-from-effect matching on a timeline: eight sights in fixed order, two attempts each, with the first attempt scored and the explanation revealed after each match",
+    "keyQuestions": [
+      "Which event explains this sight?",
+      "How many of the sights point to events after 2000?",
+      "Why is ancient history not enough to read the streets of Athens?"
+    ],
+    "commonMisconceptions": [
+      "Everything a visitor notices in Athens is explained by ancient history.",
+      "Greek coffee is a different drink from Turkish coffee, so its name has nothing to do with politics.",
+      "The debt crisis was a single bad year rather than a decade that still shapes the city.",
+      "The refugees in Athens arrived mainly by air."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on eight sights (mastery: 7 of 8).",
+      "Name another sight in Athens and the dated event that explains it."
+    ]
   },
-  "chapter": "20-athens-museums-city-today"
+  "chapter": "20-athens-museums-city-today",
+  "type": "Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/modern-athens-timeline/"
 }

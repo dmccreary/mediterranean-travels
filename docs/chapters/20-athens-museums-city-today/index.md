@@ -402,7 +402,7 @@ The timeline below gathers the modern events from Parts Three and Five and asks 
 
 #### Diagram: Why Athens Looks the Way It Does
 
-<iframe src="../../sims/modern-athens-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/modern-athens-timeline/main.html" height="528px" width="100%" scrolling="no"></iframe>
 
 [Run the Why Athens Looks the Way It Does MicroSim Fullscreen](../../sims/modern-athens-timeline/main.html){ .md-button .md-button--primary }
 
