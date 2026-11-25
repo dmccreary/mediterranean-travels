@@ -1,0 +1,92 @@
+{
+  "title": "A Trireme at Salamis",
+  "orientation": "landscape",
+  "image": "trireme-at-salamis.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "The Oarsmen",
+      "x": 44,
+      "y": 62,
+      "radius": 5,
+      "color": "#C0392B",
+      "hint": "Rows of bare-armed figures sitting close together, bent at their work, each pulling a long oar.",
+      "description": "About 170 rowers drove each trireme, and Athens's 180 ships at Salamis needed about 30,000 of them, many from the poorest citizens. A hoplite had to buy his own bronze armor and shield, so the old idea was that power belonged to men who could equip themselves to fight. Athens's power after 480 BCE came from a fleet rowed by men who owned nothing but their arms and backs. An anonymous 5th-century critic, the \"Old Oligarch,\" admitted it was just that the people who row the ships hold more power. Ephialtes' cut to the Areopagus council's powers in 462 BCE, and pay for jurors in the 450s, moved power toward them. On our route: Day 11, the Pnyx where the Assembly met, and the Stoa of Attalos museum.",
+      "tip": "The circle widened but never all the way: women, metics, and enslaved people had no share, and enslaved miners dug the silver that built the fleet."
+    },
+    {
+      "id": 2,
+      "label": "Three Levels of Oars",
+      "x": 64,
+      "y": 66,
+      "radius": 4.5,
+      "color": "#E67E22",
+      "hint": "Three staggered rows of oar openings along the side of the hull, with long oars angling down into the water.",
+      "description": "The trireme was the standard warship of the age, rowed on three levels. It was about 37 m long and 5 m wide, with about 170 rowers on the three levels and about 30 officers, deckhands, and marines. The modern replica Olympias, built in the 1980s, is 36.9 m long. Piraeus became Athens's port under Themistocles, who from 493 BCE had its three natural harbors fortified. On our route: Day 10, when the ship docks at Piraeus at about 7:00 AM."
+    },
+    {
+      "id": 3,
+      "label": "Bronze Ram",
+      "x": 87,
+      "y": 77,
+      "radius": 4,
+      "color": "#B7950B",
+      "hint": "A pointed bronze beak at the front of the ship, just at the water's surface.",
+      "description": "A trireme won by ramming, not by boarding. The weapon was a bronze ram at the bow, at the waterline. At Salamis the Greeks attacked once the leading Persian ships were crowded together in the narrows. In the crush the Persian ships could not turn or use their numbers, and the Greek rams found targets. On our route: Day 10. From the ship's deck at Piraeus the long island to the west is Salamis, and the strait lies just beyond it."
+    },
+    {
+      "id": 4,
+      "label": "Officers and Marines",
+      "x": 33,
+      "y": 46,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A few helmeted figures standing on the open deck above the rowers.",
+      "description": "About 30 officers, deckhands, and marines sailed with the rowers on each ship, so a crew was about 200. Before the battle the Athenians had evacuated their families to Salamis, Aegina, and Troezen and put their trust in the fleet. Themistocles, who built that fleet, was a general. Most offices in the democracy were filled by lot, but the ten generals were elected, because war needed skill. On our route: Day 11, the Agora, where the lot machinery is in the Stoa of Attalos museum."
+    },
+    {
+      "id": 5,
+      "label": "Silver Behind the Fleet",
+      "x": 17,
+      "y": 70,
+      "radius": 4,
+      "color": "#1F6F8B",
+      "hint": "The curved wooden planks of the hull near the back of the ship.",
+      "description": "The ships were paid for by silver. In 483 BCE the state mines at Laurion, in southern Attica, struck a rich new vein. Herodotus says the Athenians were about to share it out at ten drachmas a citizen when Themistocles persuaded them to build 200 warships instead, officially for a war with Aegina, though many readers think he had Persia in mind. Enslaved miners dug the ore. Themistocles was ostracized in the 470s, and about 190 apparently ready-made ballots with his name were found in a well on the north slope of the Acropolis. On our route: Day 11, where Chapter 16 tells the ostracism story.",
+      "tip": "Without the Laurion silver there would have been no Greek fleet able to face Persia."
+    },
+    {
+      "id": 6,
+      "label": "The Athenian Fleet",
+      "x": 22,
+      "y": 38,
+      "radius": 4,
+      "color": "#2E86AB",
+      "hint": "A line of small warships at rest in the distance, beyond the near ship, with low hills behind them.",
+      "description": "Herodotus lists the Greek fleet at Salamis as 378 ships and says Athens provided 180 of them, almost half. The Greeks who resisted were a minority, since many Greek cities sided with Persia or stayed out. The Spartan-led allies wanted to fall back to the Isthmus of Corinth, but Themistocles argued that in the narrows the Persians' numbers could not tell. Chapter 17 tells how he also won an argument over an answer from Delphi before the battle. On our route: Day 10, then Day 12 at Delphi."
+    },
+    {
+      "id": 7,
+      "label": "The Narrows",
+      "x": 62,
+      "y": 36,
+      "radius": 4.5,
+      "color": "#16A085",
+      "hint": "A tight crowd of overlapping warships in a narrow channel of water, oars tangled.",
+      "description": "The battle of September 480 BCE was fought in the narrow strait between the island of Salamis and the mainland of Attica. Themistocles sent Sicinnus, an enslaved man who tutored his children, to tell Xerxes the Greeks were about to flee. Xerxes' ships spent the night closing both ends of the strait. At dawn they rowed into the narrows and, in the crush, could not turn. By evening the Persian fleet had withdrawn with heavy losses, and without a navy to supply his army Xerxes went home with much of it. On our route: Day 10.",
+      "tip": "Our main source, Herodotus, was born a subject of the Persian king, in a city that sent ships to fight for Xerxes at Salamis. Ask which shore the writer stood on."
+    },
+    {
+      "id": 8,
+      "label": "Xerxes' Seat",
+      "x": 91,
+      "y": 26,
+      "radius": 4,
+      "color": "#34495E",
+      "hint": "A small canopied seat with a few figures on a mountain slope above the shore.",
+      "description": "Xerxes watched the battle from a seat at the foot of Mount Aigaleo on the mainland. He had taken Athens and burned the Acropolis, but his fleet was beaten at Salamis that September. Eight years later Aeschylus' The Persians, the oldest Greek play that survives, showed Salamis from the Persian court, where the queen mother waits for news. The audience included many men who had rowed in the battle. The Athenians chose to watch their greatest victory as the enemy's tragedy, and gave it first prize. On our route: Day 10, the Theater of Dionysus on the south slope of the Acropolis."
+    }
+  ]
+}

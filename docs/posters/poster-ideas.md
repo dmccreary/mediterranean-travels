@@ -50,6 +50,36 @@ Learning for All.
 | 3 | [Hagia Sophia: One Building, Four Lives](#3-hagia-sophia-one-building-four-lives) | The clearest "city of layers" subject; a strong photo-realistic illustration is easy to describe |
 | 4 | [The Acropolis, Then and Now](#4-the-acropolis-then-and-now) | Nearly everyone on the trip will stand there; orientation is practical |
 
+## Where Each Idea Stands
+
+"Spec ready" means the folder has a `spec.md`, an `image-prompt.md`, and a draft
+`data.json`, and is waiting for you to generate the image. The `image-prompt.md`
+files are not published on the site, so they are named, not linked.
+
+| # | Idea | Engine | Status |
+|---|---|---|---|
+| 1 | The Oracle and the Algorithm, Side by Side | Grid | [Built](oracle-vs-algorithm/index.md) |
+| 2 | Five Classrooms Across Three Thousand Years | Grid | [Built](five-classrooms/index.md) |
+| 3 | Hagia Sophia: One Building, Four Lives | Grid | [Spec ready](hagia-sophia-four-lives/spec.md) |
+| 4 | The Acropolis, Then and Now | Grid | [Spec ready](acropolis-then-and-now/spec.md) |
+| 5 | A Scribe's Page and an Aldine Page | Grid | [Spec ready](scribe-and-aldine-page/spec.md) |
+| 6 | Roman Bath and Turkish Hamam | Grid | [Spec ready](bath-and-hamam/spec.md) |
+| 7 | One Table, Two Names | Grid | [Spec ready](one-table-two-names/spec.md) |
+| 8 | The Colossus: Popular Picture and Likely Truth | Grid | [Spec ready](colossus-myth-and-evidence/spec.md) |
+| 9 | Anatomy of a Mosque | Call-out | [Spec ready](anatomy-of-a-mosque/spec.md) |
+| 10 | Delphi: Climbing the Sacred Way | Call-out | [Spec ready](delphi-sacred-way/spec.md) |
+| 11 | The Library of Celsus Facade | Call-out | [Spec ready](library-of-celsus/spec.md) |
+| 12 | Inside the Hagia Sophia Dome | Call-out | [Spec ready](hagia-sophia-dome/spec.md) |
+| 13 | Walk Down the Hippodrome | Call-out | [Spec ready](hippodrome-walk/spec.md) |
+| 14 | A Trireme at Salamis | Call-out | [Spec ready](trireme-at-salamis/spec.md) |
+| 15 | The Antikythera Mechanism, Opened Up | Call-out | [Spec ready](antikythera-opened/spec.md) |
+
+The seven call-out posters need the call-out library (`diagram.js` and
+`style.css`), which is not yet in `docs/sims/shared-libs/`. It is installed from
+the microsim-generator skill's assets when the first call-out image exists. The
+call-out engine builds its quiz from each marker's hint, so those posters keep
+their drafted quiz questions in `spec.md`.
+
 ## Side-by-Side Comparisons
 
 ### 1. The Oracle and the Algorithm, Side by Side
@@ -59,7 +89,7 @@ Learning for All.
 | **Chapters** | [Chapter 17](../chapters/17-oracle/index.md), [Chapter 18](../chapters/18-delphi/index.md), [Chapter 19](../chapters/19-algorithm/index.md) |
 | **Engine** | Grid, six tiles in a 3 × 2 grid, one zone per matched pair |
 | **The picture** | Six small diptychs. In each, Delphi is on the left and today's algorithm is on the right, drawn from the same camera height. |
-| **Status** | Spec and draft data written: see [the spec](oracle-vs-algorithm/spec.md) and the image prompt (`oracle-vs-algorithm/image-prompt.md`). No image yet. |
+| **Status** | Built: [the poster](oracle-vs-algorithm/index.md) and [its spec](oracle-vs-algorithm/spec.md). |
 
 **Zones** (each zone is one whole tile, so one hover compares the pair):
 
@@ -84,7 +114,7 @@ Related sims: *oracle-gears-or-data-sorter*, *oracle-answer-hedging-test*,
 | **Chapters** | [Chapter 2](../chapters/02-traveling-well/index.md), [Chapter 12](../chapters/12-rhodes/index.md), [Chapter 14](../chapters/14-venetian-heraklion/index.md), [Chapter 16](../chapters/16-athens-agora-democracy/index.md), [Chapter 20](../chapters/20-athens-museums-city-today/index.md) |
 | **Engine** | Grid, five equal-width panels |
 | **The picture** | Five classrooms in a row, drawn from the same camera height, in date order: a philosopher walking with students at the Lyceum, a rhetoric lesson on Rhodes, an Aldine print shop with a bound octavo book, a medrese courtyard beside a mosque, and one adult tutoring one child with a tablet. |
-| **Status** | Spec and draft data written: see [the spec](five-classrooms/spec.md) and the image prompt (`five-classrooms/image-prompt.md`). No image yet. |
+| **Status** | Built: [the poster](five-classrooms/index.md) and [its spec](five-classrooms/spec.md). |
 
 **Each zone follows the book's own four-step pattern** from Chapter 2: locked
 up, opened, resisted, and widened but never all the way. The last step is the

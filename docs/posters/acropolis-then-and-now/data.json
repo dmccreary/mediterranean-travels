@@ -1,0 +1,105 @@
+{
+  "title": "The Acropolis, Then and Now",
+  "image": "acropolis-then-and-now.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#B5532D",
+    "#1F6F8B",
+    "#5E8C31",
+    "#9A7B1C",
+    "#6A3FB5"
+  ],
+  "zones": [
+    {
+      "id": "late-5th-century",
+      "label": "Late 5th Century BCE",
+      "color": "#B5532D",
+      "x1": 1.04,
+      "y1": 1.56,
+      "x2": 49.48,
+      "y2": 98.44,
+      "tooltip": "The rock about 406 BCE: rebuilt by one generation, with the gateway, the small temple, the Parthenon, and the Erechtheion together. Click for details.",
+      "summary": "After thirty years of ruins, the Athenians rebuilt the rock between 447 and about 406 BCE, so the four great buildings stood together for the first time.",
+      "facts": [
+        "Path and gate: the west slope is the one easy way up. The Panathenaic procession climbed it to bring Athena a new woven robe, the peplos, through the Propylaea, built 437 to 432 BCE and left unfinished when the Peloponnesian War began.",
+        "The Temple of Athena Nike: a small Ionic temple of about 427 to 424 BCE on the bastion to the right of the gateway. Pausanias says its statue had no wings, so that Victory could never fly away from Athens.",
+        "The Parthenon: a Doric temple of Pentelic marble, 8 columns across the ends and 17 down the sides, built 447 to 432 BCE. It held Phidias' gold-and-ivory Athena, about 12 m tall, and the city's treasury. Its sculpture was painted.",
+        "The Erechtheion: an Ionic temple of about 421 to 406 BCE, with porches at different levels on uneven ground. It gathered the oldest cults of the rock, including Athena's olive-wood statue, Poseidon's trident marks, and her sacred olive tree.",
+        "Where the picture breaks down: the colors and the bronze Athena Promachos are reconstruction. The chapter says only that the sculpture was painted and that faint traces remain, and that the Promachos survives in descriptions and traces of its base.",
+        "On our route: Day 10. We climb this same west slope, pass the Propylaea with the Athena Nike temple on our right, and walk along the Parthenon's north side to the Erechtheion."
+      ]
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "color": "#1F6F8B",
+      "x1": 50.52,
+      "y1": 1.56,
+      "x2": 98.96,
+      "y2": 98.44,
+      "tooltip": "The rock today: a restored ruin, cleared of its later layers, with its roof gone and visitors on the paths. Click for details.",
+      "summary": "The rock we climb is a restored ruin, and its bare classical look is itself a choice made by the new Greek state in the 19th century.",
+      "facts": [
+        "Path and gate: we climb the same slope past the Roman Odeon of Herodes Atticus (161 CE) and the Beulé Gate, built of reused stones. Restorers reset the Propylaea's marble ceiling beams, and a medieval tower stood on its south wing until 1874.",
+        "The Temple of Athena Nike has been taken apart and rebuilt several times: dismantled by the Ottoman garrison in 1686 for a gun battery, rebuilt from the blocks in the 1830s, and rebuilt again in the 1930s and the early 2000s.",
+        "The Parthenon has lost its roof, the statue, and the middle of both long sides. On September 26, 1687, during a Venetian siege, a shell ignited the gunpowder stored inside. Much of the sculpture is in Athens, London, and elsewhere.",
+        "The Erechtheion's Caryatids on the south porch are copies, in place since 1979. Five originals stand in the Acropolis Museum, and the sixth is in the British Museum in London. An olive tree grows nearby, a modern planting.",
+        "What was erased: from 1835 the new Greek state cleared almost everything built after the 5th century BCE, including the mosque in the Parthenon. Since 1975 restorers have used titanium and plain new marble, so repairs can be told from the old.",
+        "On our route: Day 10. The Acropolis has been a UNESCO World Heritage Site since 1987. We use a timed-entry ticket, and the marble on the paths is slick after rain."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In which panel does a procession climb the west slope to bring Athena a new woven robe?",
+      "correct_zone": "late-5th-century",
+      "explanation": "The Panathenaia was the city's great festival, and its procession brought the peplos up through the Agora and the Propylaea."
+    },
+    {
+      "question": "In which panel was the Parthenon the home of a gold-and-ivory statue of Athena about 12 m tall?",
+      "correct_zone": "late-5th-century",
+      "explanation": "Phidias' Athena Parthenos was dedicated in 438 BCE. Neither of his great statues of Athena survives, only descriptions and small Roman copies."
+    },
+    {
+      "question": "In which panel was the building program defended by the number of people it employed, from stonecutters to sailors?",
+      "correct_zone": "late-5th-century",
+      "explanation": "Plutarch says Pericles argued this way, and fragments of the yearly building accounts, carved in stone, survive to show it was voted and accounted for in public."
+    },
+    {
+      "question": "In which panel is the bronze Athena Promachos in the open, though it is known only from descriptions and traces of its base?",
+      "correct_zone": "late-5th-century",
+      "explanation": "Pausanias says sailors rounding Cape Sounion could see the tip of her spear. The picture's version of her is a reconstruction."
+    },
+    {
+      "question": "In which panel is the Erechtheion a new building, going up during the Peloponnesian War on uneven ground to gather the oldest cults of the rock?",
+      "correct_zone": "late-5th-century",
+      "explanation": "It was built about 421 to 406 BCE, with porches at different levels, around Athena's olive-wood statue, Poseidon's trident marks, and the tomb of Cecrops."
+    },
+    {
+      "question": "In which panel has a shell in 1687 removed the middle of the Parthenon?",
+      "correct_zone": "today",
+      "explanation": "The shell ignited the gunpowder that the Ottoman garrison stored inside, killing about three hundred people and blowing out the center of the temple."
+    },
+    {
+      "question": "In which panel was the rock cleared of almost everything built after the 5th century BCE, as a choice of the new Greek state?",
+      "correct_zone": "today",
+      "explanation": "From 1835 the houses, the mosque in the Parthenon, the medieval tower, and the Christian and Ottoman walls were removed, so the empty spaces are themselves a layer."
+    },
+    {
+      "question": "In which panel have the Caryatids on the Erechtheion's porch been replaced by copies, to save the originals from air pollution?",
+      "correct_zone": "today",
+      "explanation": "The copies were put in place in 1979. Five originals are in the Acropolis Museum and the sixth is in London."
+    },
+    {
+      "question": "In which panel has the little Athena Nike temple been taken down and rebuilt again after the Ottoman garrison dismantled it for a gun battery?",
+      "correct_zone": "today",
+      "explanation": "It was dismantled in 1686, rebuilt in the 1830s, and taken down and rebuilt again in the 1930s and the early 2000s."
+    },
+    {
+      "question": "In which panel are rusting iron clamps being replaced with titanium, and new marble left plain so it can be told from the old?",
+      "correct_zone": "today",
+      "explanation": "Chapter 4 calls this restoration, not reconstruction: it repairs what survives and does not invent what is lost."
+    }
+  ]
+}

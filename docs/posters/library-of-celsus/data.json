@@ -1,0 +1,107 @@
+{
+  "title": "The Library of Celsus Facade",
+  "orientation": "landscape",
+  "image": "library-of-celsus.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Curetes Street and the square",
+      "x": 10,
+      "y": 80,
+      "radius": 5,
+      "color": "#1F6F8B",
+      "hint": "Wide marble paving that slopes down from the left edge into an open square at the foot of the building.",
+      "description": "Curetes Street is the marble-paved main street that runs downhill from the upper city to the Library of Celsus, lined with fountains, statue bases, shops, and monuments. Its ancient name was the Embolos. On the way we pass the Gate of Hercules, the Fountain of Trajan, and the small Temple of Hadrian, dedicated to the emperor before 138 CE. The steep slope made the street a showcase, seen by everyone walking down. Austrian archaeologists, digging here since 1895, rebuilt many façades from their fallen blocks. On our route: Day 7, where we stand in the square below the library and read its front.",
+      "tip": "Polished marble is slippery, especially after rain. If a slab looks shiny, step on the dull stone beside it."
+    },
+    {
+      "id": 2,
+      "label": "Steps and statue bases",
+      "x": 38,
+      "y": 82,
+      "radius": 4,
+      "color": "#B5532D",
+      "hint": "A broad flight of low steps across the whole front, with small blocky stone bases standing on them.",
+      "description": "Statue bases on the steps carry texts in both Greek and Latin naming Celsus and his career, the bilingual voice of a Roman official in a Greek city. Most of the thousands of inscriptions at Ephesus are in Greek, and some official ones are in Latin or both. A statue base usually names who gave the honor, who received it, and why. The inscription on the building records that Aquila left 25,000 denarii to buy books and maintain the library. On our route: Day 7; the statues themselves are gone, and the inscription is all that is left of the citizen the city wanted remembered.",
+      "tip": "Read the first line of any base: \"the council and the people\" opens most honorary inscriptions on our route."
+    },
+    {
+      "id": 3,
+      "label": "Podium and lower columns",
+      "x": 24,
+      "y": 73,
+      "radius": 4,
+      "color": "#5E8C31",
+      "hint": "A raised stone platform under the ground-floor row of paired columns.",
+      "description": "The lower columns stand on a podium. The restorers also found that the columns and spaces near the center of the front are slightly larger than those at the ends. Together these make the building look taller and grander than its modest width. The ground floor has paired columns with richly carved capitals of the Corinthian type, the Roman favorite. On our route: Day 7. Compare the Corinthian columns of the Temple of Hadrian up the street.",
+      "tip": "Read the capital first: a bell of acanthus leaves with small corner scrolls is Corinthian."
+    },
+    {
+      "id": 4,
+      "label": "Niches with statues",
+      "x": 30,
+      "y": 60,
+      "radius": 4,
+      "color": "#C9A227",
+      "hint": "Tall arched recesses between the lower columns, each holding a standing female figure.",
+      "description": "Four niches between the lower columns hold female figures, each labeled in Greek with a virtue: Sophia (Wisdom), Aretē (Excellence), Ennoia (Thought), and Epistēmē (Knowledge). The ones we see are copies, and the originals went to Vienna. These are the statues on the front. Inside, the reading room had its own niches in its walls, for the wooden cupboards that held the scrolls. On our route: Day 7."
+    },
+    {
+      "id": 5,
+      "label": "Upper story and Corinthian capitals",
+      "x": 30,
+      "y": 34,
+      "radius": 4,
+      "color": "#6A3FB5",
+      "hint": "A second row of paired columns stacked directly above the first, with leafy capitals.",
+      "description": "The upper story repeats the paired columns, again with Corinthian-type capitals, stacked above the lower row. The Corinthian capital is a tall bell wrapped in two rows of acanthus leaves with small scrolls curling out at the corners. The Romans made it their favorite, and most of the standing columns in Roman Ephesus are Corinthian. Ephesus itself is the home of the Ionic order, with two spiral scrolls on its capital. On our route: Day 7; the Temple of Olympian Zeus in Athens on Day 13 uses the same order, more than 17 m tall.",
+      "tip": "The Doric, Ionic, or Corinthian? MicroSim practices reading these capitals on real buildings."
+    },
+    {
+      "id": 6,
+      "label": "Reading room doorway",
+      "x": 45,
+      "y": 62,
+      "radius": 4,
+      "color": "#E07B39",
+      "hint": "A dark doorway in the middle of the lower story, giving a glimpse of a tall hall with recesses in its walls.",
+      "description": "Inside, the reading room was a single hall with niches in its walls for wooden cupboards that held the scrolls, on several levels reached by galleries. The library is usually said to have held about 12,000 scrolls. That figure is a modern estimate from the size and number of the niches, not a number from an ancient source. A reader asked a librarian for a scroll, read it on site, and returned it. On our route: Day 7, the example of library as public access: books opened to readers who could never have afforded them. Who was still outside the door?",
+      "tip": "In Roman Ephesus most people probably could not read at all."
+    },
+    {
+      "id": 7,
+      "label": "Burial chamber of Celsus",
+      "x": 46,
+      "y": 93,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A small hidden chamber cut into the ground beneath the front, with a stone coffin lying inside.",
+      "description": "Tiberius Julius Celsus Polemaeanus, a Greek from Sardis, became a Roman consul in 92 CE and later governor of the province of Asia. When he died, his son Tiberius Julius Aquila began this building in his memory, around 110 CE, and left money in his will to finish it and to buy books. His heirs completed it. Celsus was buried in a marble sarcophagus in a chamber beneath the reading room, a rare honor, since Romans did not normally bury the dead inside a city. The building is both a public library and a tomb. On our route: Day 7.",
+      "tip": "Philanthropy for knowledge: a private fortune given to pay for learning the giver would never personally use up."
+    },
+    {
+      "id": 8,
+      "label": "What was reassembled",
+      "x": 68,
+      "y": 24,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "A few slightly paler, plainer blocks mixed into the stone near the upper right corner of the front.",
+      "description": "The building burned in the 3rd century CE, and an earthquake later brought down the façade. Austrian archaeologists re-erected it between 1970 and 1978 from its fallen pieces, one of the great reconstructions of the 20th century. The niche statues we see are copies. A reconstruction can look as old as the original and quietly turn a guess into a fact, so it is worth asking which kind of work produced a crisp surface. On our route: Day 7, and the same question at Hagia Sophia (Day 2).",
+      "tip": "Restoration repairs what survives; reconstruction rebuilds what is lost."
+    },
+    {
+      "id": 9,
+      "label": "Gate of Mazaeus and Mithridates",
+      "x": 86,
+      "y": 55,
+      "radius": 5,
+      "color": "#16A085",
+      "hint": "A separate broad gateway with arches, standing beside the library on the right, with a row of small round holes along its top band.",
+      "description": "The Gate of Mazaeus and Mithridates was built in 4 to 3 BCE by two freed slaves of the imperial family to honor Augustus. Its dedication is in Latin and Greek. The Latin letters were once made of bronze, and the rows of small holes that held them are still there: an example of what has been removed. On our route: Day 7, beside the library, in the same square.",
+      "tip": "Look for the holes along the top band, where bronze letters were once pinned."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "title": "Delphi: Climbing the Sacred Way",
+  "orientation": "landscape",
+  "image": "delphi-sacred-way.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Castalian Spring",
+      "x": 74,
+      "y": 47,
+      "radius": 5,
+      "color": "#1F6F8B",
+      "hint": "A rock-cut basin with niches in the cleft between two tall pale cliffs, beside a thin road, off to the right of the walled precinct.",
+      "description": "The Castalian Spring flows from the gorge between the two Phaedriades cliffs, just east of the Sanctuary of Apollo. Pilgrims, priests, and the Pythia purified themselves here before entering: nobody approached Apollo unwashed, and washing was the second step of a consultation. Two fountain houses survive. The older, from about 600 BCE, lies by the modern road; the later one is cut into the rock with a long basin, steps, and niches for offerings. Rocks fall from the cliffs, so the upper fountain is often fenced off. On our route: Day 12, where our walk begins.",
+      "tip": "If the upper fountain is fenced off, look at it from the path."
+    },
+    {
+      "id": 2,
+      "label": "Sacred Way",
+      "x": 60,
+      "y": 71,
+      "radius": 5,
+      "color": "#B5532D",
+      "hint": "A paved road that zigzags up the slope inside the wall, entering at a gate in the lower right corner, with a paved square and a row of columns outside.",
+      "description": "The Sacred Way is the paved processional road that zigzags up from the main gate at the southeast corner to the great altar before the temple. It runs west along the lowest terrace, turns sharply at the Athenian Treasury, climbs back east along the polygonal wall, and turns once more up to the temple. It was lined so thickly with statues and bases that Pausanias, walking it in the 2nd century CE, described it monument by monument. Rival cities set victory monuments facing each other on the god's road. Before the gate lies the Roman agora, where pilgrims probably bought offerings. On our route: Day 12.",
+      "tip": "The paving is polished by millions of feet and is slippery when wet. Wear shoes with grip."
+    },
+    {
+      "id": 3,
+      "label": "Treasuries",
+      "x": 47,
+      "y": 66,
+      "radius": 4,
+      "color": "#C9A227",
+      "hint": "A row of small temple-shaped buildings along the lowest terrace, some complete, some only foundations.",
+      "description": "Treasuries are the small, temple-shaped buildings that Greek city-states built along the Sacred Way to hold offerings to Apollo and to display their wealth and piety. Archaeologists have found the foundations of more than twenty. A treasury was not a bank: it held gold, silver, and bronze gifts, ritual equipment, and spoils of war, and its real job was to stand in the god's precinct with the city's name on it. The island of Siphnos built its treasury in marble about 525 BCE, with young women, not columns, holding up the porch. On our route: Day 12. Most are now only foundations, so the terraces show how crowded the slope was.",
+      "tip": "Read the terraces: they are the best guide to where the treasuries stood."
+    },
+    {
+      "id": 4,
+      "label": "Athenian Treasury",
+      "x": 30,
+      "y": 58,
+      "radius": 4,
+      "color": "#5E8C31",
+      "hint": "A small, complete pale marble temple front at the first sharp bend of the road, with square carved panels along its top.",
+      "description": "The Athenian Treasury is a small Doric treasury of Parian marble, built by Athens about 500 to 490 BCE at the first bend of the Sacred Way. It is the only treasury at Delphi still standing, because French archaeologists rebuilt it from its original blocks between 1903 and 1906. Its metopes showed the deeds of Heracles and of Theseus; the originals are in the museum and copies are on the building. Pausanias says it was built from the spoils of Marathon, but many archaeologists date its style to a few years before the battle, so the honest verdict is \"possibly.\" On our route: Day 12.",
+      "tip": "Its south wall once carried two hymns to Apollo with musical signs, among the oldest written music that can still be performed."
+    },
+    {
+      "id": 5,
+      "label": "Polygonal Wall",
+      "x": 44,
+      "y": 49,
+      "radius": 4,
+      "color": "#6A3FB5",
+      "hint": "A long retaining wall of many-sided stones fitted tightly together, holding up the terrace above the road.",
+      "description": "The polygonal wall is the long retaining wall that holds up the terrace of the Temple of Apollo, built after the temple burned in 548 BCE. Each limestone block is cut to an irregular many-sided shape and fitted so closely, without mortar, that the blocks lock each other in place. The temple above fell in the earthquake of 373 BCE, but the wall has stood about 2,500 years. Its smooth face became the sanctuary's public archive, covered with hundreds of inscriptions, most of them records of freeing enslaved people. On our route: Day 12.",
+      "tip": "Let low light skim across the stone: worn letters appear where we saw only rough rock."
+    },
+    {
+      "id": 6,
+      "label": "Temple of Apollo and altar",
+      "x": 50,
+      "y": 36,
+      "radius": 6,
+      "color": "#E07B39",
+      "hint": "A large columned temple on a high terrace near the center of the slope, with a ramp and a stone altar at its near end.",
+      "description": "The Doric Temple of Apollo housed the oracle. What we see are the foundations, the ramp, and six re-erected columns of the temple completed around 330 BCE, after the earlier one fell in 373 BCE. A consultant climbed the ramp at the east end past the great altar, where a goat was sacrificed, and in the porch passed the sayings \"Know thyself\" and \"Nothing in excess.\" At the far end lay the adyton, where the Pythia sat on her tripod. Near the altar stand the base of the Serpent Column and a bronze copy of it, and beside the Sacred Way a copy of the omphalos stone, the navel of the world. On our route: Day 12.",
+      "tip": "The original omphalos is lost. The one beside the Sacred Way is a copy."
+    },
+    {
+      "id": 7,
+      "label": "Theater",
+      "x": 42,
+      "y": 26,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A steep half-circle of stone seats cut into the hillside directly above the temple, looking down over its columns.",
+      "description": "The theater stands above the Temple of Apollo at the top of the walled sanctuary, and it is where the musical contests of the Pythian Games were held. Its first form dates from the 4th century BCE; it was rebuilt in stone in the 2nd century BCE with help from King Eumenes II of Pergamon and remodeled under the Romans. Its 35 rows of seats held about 5,000 people, a fifth of the Great Theater of Ephesus. In 1927 and 1930, Angelos Sikelianos and Eva Palmer-Sikelianos staged Delphic Festivals here. On our route: Day 12, with a view from the top rows down over the temple into the Pleistos gorge.",
+      "tip": "The upper rows give the best view over the whole sanctuary short of the stadium."
+    },
+    {
+      "id": 8,
+      "label": "Stadium",
+      "x": 36,
+      "y": 13,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "A long, narrow running track with stone seating along one side on the highest ledge, above and outside the sanctuary wall.",
+      "description": "The stadium is the running track and stone seating at the highest point of the site, above the theater and outside the sanctuary wall, where the athletic contests of the Pythian Games were held. It is one of the best preserved in Greece. The track is about 178 m long, the stone starting and finishing lines survive with grooves for the runners' toes, and a Roman entrance of four pillars stands at its east end. Pausanias credits Herodes Atticus with the stone seats, about 6,500 places, in the 2nd century CE. On our route: Day 12. The sanctuary climbs about 100 m from its entrance to here.",
+      "tip": "The upper paths, including this one, are sometimes closed for rockfall or ice. Ask at the ticket gate which are open."
+    },
+    {
+      "id": 9,
+      "label": "Athena Pronaia and Tholos",
+      "x": 84,
+      "y": 80,
+      "radius": 5,
+      "color": "#E74C3C",
+      "hint": "A round building ringed by columns on a long terrace at the far right, below the road and above the river gorge.",
+      "description": "The Athena Pronaia sanctuary is the lower sanctuary at Delphi, a short walk east of Apollo's and below the modern road. Its name means \"before the temple,\" because it was the first shrine a pilgrim reached on the road from the east. In the middle stands the Tholos, a circular marble building of the early 4th century BCE with 20 Doric columns outside and 10 Corinthian ones inside; three outer columns were re-erected in the 20th century. No ancient writer says what it was for. On our route: Day 12, reached by going down after the climb.",
+      "tip": "Villagers later took its marble, so the site is called the Marmaria, \"the marbles.\""
+    }
+  ]
+}
