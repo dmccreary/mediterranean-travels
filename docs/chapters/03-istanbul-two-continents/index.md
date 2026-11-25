@@ -481,7 +481,7 @@ Because the siege has so many moving parts, the step-through below asks a single
 
 #### Diagram: The Siege of 1453, Step by Step
 
-<iframe src="../../sims/siege-of-1453-step-through/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/siege-of-1453-step-through/main.html" height="544px" width="100%" scrolling="no"></iframe>
 
 [Run the Siege of 1453, Step by Step MicroSim Fullscreen](../../sims/siege-of-1453-step-through/main.html){ .md-button .md-button--primary }
 

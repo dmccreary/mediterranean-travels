@@ -2,7 +2,7 @@
   "title": "The Siege of 1453, Step by Step",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for the siege of 1453, step by step",
+  "description": "Step through eight turning points of the 1453 siege of Constantinople on a schematic map and attribute each to the defense it defeated, or recognize that the defenders held.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "The Siege of 1453, Step by Step",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Attribute each of eight turning points of the 1453 siege to the defense of Constantinople it overcame, or recognize that the defenders held, with at least 6 of 8 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Bosphorus Strait and the Golden Horn",
+      "The Theodosian Walls, moat and breach",
+      "Rumeli Hisarı",
+      "The chain across the Golden Horn",
+      "Janissaries",
+      "Mehmed II, Constantine XI and Giovanni Giustiniani Longo"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 540
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Step-through with prediction before each reveal (attribution)",
+    "keyQuestions": [
+      "Which of the city's defenses does this event defeat?",
+      "Which defenses were already gone before the final assault?",
+      "On which days did the defenders win?"
+    ],
+    "commonMisconceptions": [
+      "The city fell only because of the cannon.",
+      "The ships dragged overland broke into the city from the harbor.",
+      "Everything in the siege went Mehmed's way.",
+      "The West sent help that was defeated.",
+      "The defenders were a large army."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on eight steps (mastery: 6 of 8).",
+      "Explain why the ships hauled overland mattered although they never attacked the sea walls."
+    ]
   },
-  "chapter": "03-istanbul-two-continents"
+  "chapter": "03-istanbul-two-continents",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/siege-of-1453-step-through/"
 }
