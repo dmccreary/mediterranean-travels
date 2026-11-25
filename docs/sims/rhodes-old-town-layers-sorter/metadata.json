@@ -2,8 +2,8 @@
   "title": "Who Built What We See in the Old Town?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for who built what we see in the old town?",
-  "date": "2026-11-24",
+  "description": "A p5.js layer sorter in which learners attribute twelve buildings and features of the city of Rhodes to the Ancient, Knights, Ottoman or Italian builders who made what stands today, with four trap cards that look older than they are.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
@@ -11,32 +11,61 @@
     "subjectArea": "Social Studies",
     "topic": "Who Built What We See in the Old Town?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Attribute twelve buildings and features of the city of Rhodes to the period whose builders made what we see today (Ancient, Knights, Ottoman, or Italian), attributing at least 10 of 12 correctly on the first attempt, including the Palace of the Grand Master and the Liberty Gate."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Rhodes Medieval Town",
+      "The Street of the Knights",
+      "The Palace of the Grand Master",
+      "The Hospital of the Knights",
+      "The Rhodes city walls",
+      "Ottoman Rhodes",
+      "Italian rule of Rhodes",
+      "The Kahal Shalom Synagogue"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 530
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Attribution sorting with one scored attempt per card, immediate feedback, and a growing layer stack",
+    "keyQuestions": [
+      "Who built what we see here?",
+      "Does this building's style tell us its date?",
+      "Which of the most medieval-looking features are 20th-century work?"
+    ],
+    "commonMisconceptions": [
+      "Everything inside the walls is medieval.",
+      "A building's style tells us its date.",
+      "Only Muslims built under Ottoman rule.",
+      "Nothing ancient survives in the city because the Colossus vanished."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12, with the Palace of the Grand Master and the Liberty Gate both correct).",
+      "Explain why the Palace of the Grand Master is filed under Italian rather than Knights.",
+      "On the day, photograph one feature from each layer with a dated plaque as evidence."
+    ]
   },
-  "chapter": "12-rhodes"
+  "chapter": "12-rhodes",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/rhodes-old-town-layers-sorter/"
 }

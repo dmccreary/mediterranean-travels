@@ -476,7 +476,7 @@ The MicroSim below gathers the whole day's layers into one exercise: for each bu
 
 #### Diagram: Who Built What We See in the Old Town?
 
-<iframe src="../../sims/rhodes-old-town-layers-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/rhodes-old-town-layers-sorter/main.html" height="534px" width="100%" scrolling="no"></iframe>
 
 [Run the Who Built What We See in the Old Town? MicroSim Fullscreen](../../sims/rhodes-old-town-layers-sorter/main.html){ .md-button .md-button--primary }
 
