@@ -602,7 +602,7 @@ The sorter below practices that distinction on the Christian sites of Ephesus an
 
 #### Diagram: Documented, Debated, or Tradition?
 
-<iframe src="../../sims/ephesus-sites-evidence-judge/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/ephesus-sites-evidence-judge/main.html" height="601px" width="100%" scrolling="no"></iframe>
 
 [Run the Documented, Debated, or Tradition? MicroSim Fullscreen](../../sims/ephesus-sites-evidence-judge/main.html){ .md-button .md-button--primary }
 

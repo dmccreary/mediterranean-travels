@@ -2,41 +2,68 @@
   "title": "Documented, Debated, or Tradition?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for documented, debated, or tradition?",
-  "date": "2026-11-24",
+  "description": "Rate the evidence for ten claims about the Christian sites of Ephesus and Selçuk as documented, debated, or tradition only, and choose the reason that justifies each rating.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Documented, Debated, or Tradition?",
+    "topic": "Evidence for the Christian Sites of Ephesus",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge the strength of the evidence for ten claims about the Christian sites of Ephesus and Selçuk, rating each as documented, debated, or tradition only, with at least 8 of 10 correct and the reason chosen for each."
     ],
     "bloomsTaxonomy": "Evaluate",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Primary sources and myth versus history (Chapter 4)",
+      "The Book of Acts and Paul in Ephesus (Chapter 9)",
+      "The Church of Mary and the Council of Ephesus",
+      "John the Apostle and the Basilica of St. John",
+      "The House of the Virgin Mary",
+      "St. Paul's Prison Tower",
+      "The riot of the silversmiths"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 597
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Rubric-based evaluation: rate each claim against three stated evidence criteria, then justify the rating by choosing a reason",
+    "keyQuestions": [
+      "How strong is the evidence?",
+      "Who first made this claim, and how long after the events?",
+      "Is the claim about the building, or about the story attached to it?"
+    ],
+    "commonMisconceptions": [
+      "A real ancient building proves the story attached to it.",
+      "Tradition means false; it means the evidence cannot settle the question either way.",
+      "A holy site visited by popes has had its identification proven.",
+      "Everything in Acts is either proven or invented, with nothing in between."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on ten cards with both rating and reason correct (mastery: 8 of 10).",
+      "Rate each part of a guide's sentence about John's tomb and Gospel."
+    ]
   },
-  "chapter": "10-ephesus-greco-roman-city"
+  "chapter": "10-ephesus-greco-roman-city",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/ephesus-sites-evidence-judge/"
 }
