@@ -343,7 +343,7 @@ The MicroSim below lets us trace three loops like these and tell which kind each
 
 #### Diagram: When a Prediction Feeds Itself
 
-<iframe src="../../sims/prediction-feedback-loops/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/prediction-feedback-loops/main.html" height="614px" width="100%" scrolling="no"></iframe>
 
 [Run the When a Prediction Feeds Itself MicroSim Fullscreen](../../sims/prediction-feedback-loops/main.html){ .md-button .md-button--primary }
 
