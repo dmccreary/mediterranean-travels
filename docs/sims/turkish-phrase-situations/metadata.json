@@ -2,41 +2,63 @@
   "title": "The Right Words at the Right Moment",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for the right words at the right moment",
+  "description": "Choose the right Turkish phrase, with its pronunciation guide, in ten everyday Istanbul situations, ending with a phrase sheet for the trip.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
+    "subjectArea": "World Languages",
     "topic": "The Right Words at the Right Moment",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Use the appropriate Turkish phrase in ten everyday situations from our Istanbul days, choosing the best phrase in at least 8 of 10 situations on the first attempt."
     ],
     "bloomsTaxonomy": "Apply",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Basic Turkish phrases and their meanings",
+      "Turkish pronunciation of c, ç, ş, ğ and ı"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 420
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Situational practice with immediate feedback",
+    "keyQuestions": [
+      "What do you say?",
+      "Who says this phrase, and to whom?"
+    ],
+    "commonMisconceptions": [
+      "Ne kadar? is how to ask for the bill.",
+      "Afiyet olsun is what the diner says to the cook.",
+      "Hoş geldiniz is answered with Hoş geldiniz.",
+      "Teşekkür ederim fits every situation, so the others are unnecessary.",
+      "Greeting a working person is an interruption."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on ten situations (mastery: 8 of 10).",
+      "Count how many wrong choices were the other person's phrase."
+    ]
   },
-  "chapter": "03-istanbul-two-continents"
+  "chapter": "03-istanbul-two-continents",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/turkish-phrase-situations/"
 }

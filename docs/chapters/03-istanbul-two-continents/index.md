@@ -768,7 +768,7 @@ The activity below puts the phrases into the situations we will actually meet on
 
 #### Diagram: The Right Words at the Right Moment
 
-<iframe src="../../sims/turkish-phrase-situations/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/turkish-phrase-situations/main.html" height="424px" width="100%" scrolling="no"></iframe>
 
 [Run the Right Words at the Right Moment MicroSim Fullscreen](../../sims/turkish-phrase-situations/main.html){ .md-button .md-button--primary }
 
