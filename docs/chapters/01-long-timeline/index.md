@@ -282,7 +282,7 @@ The timeline below draws these nine periods to scale and nothing else, so the le
 
 #### Diagram: Eras of the Eastern Mediterranean Timeline
 
-<iframe src="../../sims/eastern-med-eras-timeline/main.html" height="440px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/eastern-med-eras-timeline/main.html" height="444px" width="100%" scrolling="no"></iframe>
 
 [Run the Eras of the Eastern Mediterranean Timeline MicroSim Fullscreen](../../sims/eastern-med-eras-timeline/main.html){ .md-button .md-button--primary }
 

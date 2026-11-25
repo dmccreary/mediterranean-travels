@@ -14,7 +14,7 @@ hide:
 
 # Eras of the Eastern Mediterranean Timeline
 
-<iframe src="main.html" height="440px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="444px" width="100%" scrolling="no"></iframe>
 
 [Run the Eras of the Eastern Mediterranean Timeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
@@ -72,7 +72,7 @@ You can add this MicroSim to any web page by adding this to your HTML:
 
 ```html
 <iframe src="https://dmccreary.github.io/mediterranean-travels/sims/eastern-med-eras-timeline/main.html"
-        height="440px"
+        height="444px"
         width="100%"
         scrolling="no"></iframe>
 ```
