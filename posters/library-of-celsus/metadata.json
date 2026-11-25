@@ -1,0 +1,70 @@
+{
+  "title": "The Library of Celsus Facade",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over nine numbered parts of the Library of Celsus at Ephesus, from the steps to the burial chamber under the floor, to learn what is original, what was reassembled, and what the building was for, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "The Library of Celsus at Ephesus",
+    "learningObjectives": [
+      "The learner will read the front of the Library of Celsus part by part: say which parts are original design, which are copies or reconstruction, and what the building was for, a public library built as a son's memorial and a tomb."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Curetes Street, Hadrian, and the classical orders, from [Chapter 10](../../chapters/10-ephesus-greco-roman-city/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/diagram.js",
+      "../../sims/shared-libs/style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration followed by retrieval practice",
+    "keyQuestions": [
+      "What is original, and what was reassembled?",
+      "What was the building for?"
+    ],
+    "commonMisconceptions": [
+      "It is a ruin that has never been touched.",
+      "It was only a library."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: identify each marked part from its description"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a marker or label to read about that part."
+    },
+    {
+      "name": "Quiz",
+      "type": "button",
+      "description": "Hides the labels and asks you to click the marker that matches each description."
+    }
+  ],
+  "chapter": "10-ephesus-greco-roman-city",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}

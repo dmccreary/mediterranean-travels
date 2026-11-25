@@ -1,0 +1,70 @@
+{
+  "title": "The Colossus: Popular Picture and Likely Truth",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over and click six scenes, the popular picture of the Colossus of Rhodes on the left and what the evidence supports on the right, for its pose, its place, and its end, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "The Colossus of Rhodes: myth and evidence",
+    "learningObjectives": [
+      "The learner will separate what most people imagine about the Colossus of Rhodes from what the book's evidence supports, and apply the *myth versus history* test from Chapter 4 to three parts of the story: the pose, the place, and the end."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Myth versus history, from [Chapter 4](../../chapters/04-byzantine-constantinople/index.md), and the Colossus, from [Chapter 12](../../chapters/12-rhodes/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 940
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "What is the earliest source, and how long after the event?",
+      "Which part of the popular picture lacks evidence?"
+    ],
+    "commonMisconceptions": [
+      "The Colossus straddled the harbor entrance.",
+      "The Colossus was carried off by camels."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: click the zone that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a zone for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks 9 questions answered by clicking a zone."
+    }
+  ],
+  "chapter": "12-rhodes",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
