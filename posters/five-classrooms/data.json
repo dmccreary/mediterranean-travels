@@ -1,0 +1,161 @@
+{
+  "title": "Five Classrooms Across Three Thousand Years",
+  "image": "five-classrooms.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#5E8C31",
+    "#1F6F8B",
+    "#B5532D",
+    "#0E8A7D",
+    "#E07B39"
+  ],
+  "zones": [
+    {
+      "id": "lyceum",
+      "label": "The Lyceum",
+      "color": "#5E8C31",
+      "x1": 1.04,
+      "y1": 1.56,
+      "x2": 19.79,
+      "y2": 98.44,
+      "tooltip": "The Lyceum, about 335 BCE: a research school in a public gymnasium. Click for details.",
+      "summary": "Aristotle's school was a research school, run by a foreigner in a public gymnasium.",
+      "facts": [
+        "The room: a public gymnasium and sanctuary of Apollo Lykeios outside the eastern walls of Athens, where Aristotle founded his school in 335 BCE. He was a metic, a free foreigner who could not own land, so he taught there.",
+        "The method: a research school. Members collected books, plant specimens, and animal descriptions, and compiled the constitutions of 158 states. Only the Constitution of the Athenians survives.",
+        "The setback: when Alexander died in 323 BCE, anti-Macedonian feeling turned against his old tutor, and Aristotle left Athens.",
+        "Never all the way: political life in Athens belonged to adult men born into citizen families. Metics and the enslaved had no political rights.",
+        "On our route: the Lyceum site, found in 1996 and opened in 2014, a grid of low foundation walls near the National Garden (Day 13)."
+      ]
+    },
+    {
+      "id": "rhodes",
+      "label": "Rhodes",
+      "color": "#1F6F8B",
+      "x1": 20.83,
+      "y1": 1.56,
+      "x2": 39.58,
+      "y2": 98.44,
+      "tooltip": "Rhodes, first century BCE: a famous school of rhetoric that learners sailed to. Click for details.",
+      "summary": "The old pattern of traveling to the teacher: the master's ear could not be carried home.",
+      "facts": [
+        "Locked up: advanced rhetoric lived with a few teachers in a few cities.",
+        "Opened: rich Romans could sail to those teachers, who built schools that trained many students at once. Cicero studied on Rhodes in 78 to 77 BCE, and by tradition so did Julius Caesar.",
+        "Resisted: many Romans distrusted Greek teachers. The Senate expelled Greek philosophers and teachers of rhetoric from Rome in 161 BCE.",
+        "Never all the way: only families who could pay for a son's voyage, years abroad, and a Greek tutor made the trip, and daughters almost never did.",
+        "What a scroll could not carry: an expert who listened, said exactly what was wrong, and made the student do it again.",
+        "On our route: Rhodes, Day 8."
+      ]
+    },
+    {
+      "id": "aldine-press",
+      "label": "Aldine Press",
+      "color": "#B5532D",
+      "x1": 40.63,
+      "y1": 1.56,
+      "x2": 59.38,
+      "y2": 98.44,
+      "tooltip": "A Venetian print shop, about 1500: the small, plain, portable book. Click for details.",
+      "summary": "Aldus Manutius changed the format of the book, and with it the price of owning one.",
+      "facts": [
+        "Locked up: around 1490, to read Plato in Greek in Western Europe you needed a manuscript collection, money for a scribe, and a teacher of Greek.",
+        "Opened: Aldus printed the Greek authors with the grammars and dictionaries a learner needed. From 1501 his small octavos, in compact italic and without heavy commentary, made classics something a student could own and carry.",
+        "The paper: an octavo sheet makes 16 pages and a folio sheet only 4. In the chapter's illustrative example, an Aldine-style octavo uses about one-eighth of the folio's paper.",
+        "Resisted: some collectors looked down on print. Aldus himself built a gate, with privileges forbidding others to use his type.",
+        "Never all the way: the books spoke Latin and Greek to men who had been to school. Few women learned Greek, and most village Cretans could not read.",
+        "On our route: Heraklion and the Cretan scholars who worked in Venice, Day 9."
+      ]
+    },
+    {
+      "id": "medrese",
+      "label": "Medrese",
+      "color": "#0E8A7D",
+      "x1": 60.42,
+      "y1": 1.56,
+      "x2": 79.17,
+      "y2": 98.44,
+      "tooltip": "An Ottoman medrese, 1550s: free higher education paid for by an endowment. Click for details.",
+      "summary": "An endowment paid for tuition, room, and meals, so a family's poverty did not decide who could study.",
+      "facts": [
+        "The room: a courtyard of small domed student cells around a larger domed classroom, taught by a müderris.",
+        "Locked up: advanced study needed years that poor families could not afford.",
+        "Opened: the endowment of the Süleymaniye külliye (1550 to 1557, four medreses) paid for tuition, a room, meals, and a small stipend. Its primary schools taught children of every neighborhood, often girls as well as boys.",
+        "Resisted: by inertia. The deeds that kept the schools running made them hard to change, so the curriculum stayed as founded while the world moved on to print.",
+        "Never all the way: medreses admitted only boys and men, taught in Arabic, and served Muslim subjects. Christians and Jews ran their own schools.",
+        "On our route: the Süleymaniye külliye in Istanbul, Day 3."
+      ]
+    },
+    {
+      "id": "tutor",
+      "label": "Tutoring",
+      "color": "#E07B39",
+      "x1": 80.21,
+      "y1": 1.56,
+      "x2": 98.96,
+      "y2": 98.44,
+      "tooltip": "A learning room today: one-to-one tutoring within reach of every child, with a person in the room. Click for details.",
+      "summary": "For two thousand years one-to-one attention went to princes. AI tutoring tries to bring it to every child.",
+      "facts": [
+        "Locked up: in 343 BCE Philip II hired Aristotle to teach his thirteen-year-old son Alexander, with a few sons of noble families. For over two thousand years that advantage went to princes.",
+        "The measure: in 1984 Bloom reported that the average student tutored with mastery learning outscored about 98 percent of a conventional class. Tutoring for every child was far too expensive.",
+        "Opened, maybe: a Harvard physics study found a carefully designed AI tutor taught more, in less time, than an active-learning class. A six-week pilot in Edo State, Nigeria, gained about 0.3 standard deviations in English, at very low cost.",
+        "At risk: some AI tutors make math mistakes, students use them less than expected, and a study in Turkey shows an AI helper can harm learning. The evidence is promising and mixed.",
+        "Never all the way: children with no connection, no device, or no tutor in their language are left out first.",
+        "The picture keeps a person in the room: learning with communities, not to them (Chapters 20 and 21)."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which classroom shows the old pattern of traveling to the teacher, because the master's ear could not be carried home?",
+      "correct_zone": "rhodes",
+      "explanation": "Cicero sailed for two years and Caesar risked pirates because the best teachers of rhetoric were in a few Greek cities."
+    },
+    {
+      "question": "In which classroom did the Senate expel Greek teachers of rhetoric from Rome in 161 BCE?",
+      "correct_zone": "rhodes",
+      "explanation": "Many Romans distrusted Greek teachers as foreign and corrupting. That is the resistance step in Rhodes's story."
+    },
+    {
+      "question": "Which classroom was a research school that compiled the constitutions of 158 states?",
+      "correct_zone": "lyceum",
+      "explanation": "Aristotle's school collected books, specimens, and political constitutions. Only the Constitution of the Athenians survives."
+    },
+    {
+      "question": "In which classroom was the founder a metic, a foreigner who could not own land in the city?",
+      "correct_zone": "lyceum",
+      "explanation": "Aristotle could not own land in Athens, so he taught in a public gymnasium."
+    },
+    {
+      "question": "Which classroom cut the cost of owning a classic mainly by changing the format of the book?",
+      "correct_zone": "aldine-press",
+      "explanation": "An octavo sheet makes 16 pages and a folio sheet 4, and paper was among the largest costs of an early printed book."
+    },
+    {
+      "question": "Which classroom's books spoke Latin and Greek to men who had already been to school?",
+      "correct_zone": "aldine-press",
+      "explanation": "Few women were taught Greek, and most village Cretans could not read at all, so the circle widened but never all the way."
+    },
+    {
+      "question": "In which classroom did a charitable endowment pay for tuition, a room, meals, and a stipend?",
+      "correct_zone": "medrese",
+      "explanation": "The income of the Süleymaniye's endowment paid for the students, so a family's poverty did not decide whether a boy could study."
+    },
+    {
+      "question": "Which classroom's curriculum stayed largely as its founders specified, while the outside world moved on to print?",
+      "correct_zone": "medrese",
+      "explanation": "The deeds that kept the schools running also made them hard to change."
+    },
+    {
+      "question": "Which classroom tries to bring Bloom's two-standard-deviation tutoring effect to every child?",
+      "correct_zone": "tutor",
+      "explanation": "Bloom's tutored students outscored about 98 percent of a conventional class. AI tutoring tries to deliver that attention at the cost of software."
+    },
+    {
+      "question": "In which classroom are children with no connection, no device, or no tutor in their language left out first?",
+      "correct_zone": "tutor",
+      "explanation": "Each classroom widened the circle without reaching everyone, and today's gap is access to a connection, a device, and a tutor in the learner's language."
+    }
+  ]
+}
