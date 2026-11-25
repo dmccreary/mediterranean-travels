@@ -711,6 +711,10 @@ The map below lets us test this idea before seeing the routes. Each question ask
 
 #### Diagram: Trade Routes of the Eastern Mediterranean
 
+<iframe src="../../sims/eastern-med-trade-routes-map/main.html" height="710px" width="100%" scrolling="no"></iframe>
+
+[Run the Trade Routes of the Eastern Mediterranean MicroSim Fullscreen](../../sims/eastern-med-trade-routes-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Trade Routes of the Eastern Mediterranean</summary>
 Type: map
@@ -803,6 +807,10 @@ The summary of this chapter promised that afterward we would be able to place an
 The MicroSim below gives us practice with fifteen objects and buildings we will see on the trip. For each one, we read when it was built and choose its period.
 
 #### Diagram: Place the Site in Its Era
+
+<iframe src="../../sims/place-the-site-in-its-era/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Place the Site in Its Era MicroSim Fullscreen](../../sims/place-the-site-in-its-era/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Place the Site in Its Era</summary>

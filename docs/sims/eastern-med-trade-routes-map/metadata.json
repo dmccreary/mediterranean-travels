@@ -2,7 +2,7 @@
   "title": "Trade Routes of the Eastern Mediterranean",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for trade routes of the eastern mediterranean",
+  "description": "Predict five route-based outcomes, then see four simplified Eastern Mediterranean trade routes drawn across 16 ports and chokepoints.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,60 @@
     "subjectArea": "Social Studies",
     "topic": "Trade Routes of the Eastern Mediterranean",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Infer why places on chokepoints and sea lanes became rich or fought over, by predicting the outcome of five route-based questions before each route is revealed, scoring at least 4 of 5."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Trade route",
+      "Chokepoint",
+      "The Bosphorus and the Dardanelles",
+      "The Uluburun shipwreck",
+      "Bronze Age, Classical, Hellenistic, and Byzantine periods"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Leaflet",
-    "version": "1.0",
+    "version": "1.9.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 706
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Leaflet 1.9.4 via unpkg",
+      "Esri Ocean basemap tiles"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal",
+    "keyQuestions": [
+      "Where did most of the Uluburun ship's copper come from?",
+      "Which places must a grain ship from the Black Sea pass to reach Athens?",
+      "Why did Athens surrender after Aegospotami?",
+      "Why did Rhodes go to war with Byzantium in 220 BCE?",
+      "Why did Venice want Crete after 1204?"
+    ],
+    "commonMisconceptions": [
+      "Ancient trade went overland as much as by sea.",
+      "Wars were fought only over land and religion, not over sea passages.",
+      "Athens fed itself from Attica.",
+      "Crete mattered to Venice only for its farmland."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on the five prediction questions (mastery: 4 of 5).",
+      "Name the places that appear on routes from more than one era."
+    ]
   },
-  "chapter": "01-long-timeline"
+  "chapter": "01-long-timeline",
+  "type": "Interactive Map",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/eastern-med-trade-routes-map/"
 }
