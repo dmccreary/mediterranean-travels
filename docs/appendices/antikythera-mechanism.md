@@ -57,6 +57,13 @@ sliding in a slot, so that the Moon pointer sped up and slowed down once a
 month. That matches the lunar theory worked out by the astronomer Hipparchus,
 who did much of his observing on Rhodes.
 
+## Try a Simplified Gear Model
+
+Explore the [Antikythera Gears MicroSim](../sims/antikythera-gears/index.md)
+to see how tooth counts produce different Sun, Moon, and Mars cycle speeds.
+The model uses rounded ratios for teaching; it does not reconstruct the
+ancient mechanism or predict sky positions.
+
 ## One of the Earliest Analog Computers
 
 An **analog computer** calculates by building a physical model whose

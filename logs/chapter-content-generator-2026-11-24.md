@@ -1222,3 +1222,74 @@ Tables: rules vs machine learning; coach-lateness model; three kinds of data bia
 - docs/chapters/19-algorithm/index.md
 - data/pronunciations.csv (2 rows appended), docs/appendices/pronunciation-guide.md, docs/audio/{brier,stochastic}.mp3
 - logs/ch-19-content-generation.md, this log
+
+# Chapter 20 Session (Day 13: Athens, Museums, Tutors, and the City Today)
+
+- **Start:** 2026-11-24 21:31:02
+- **End:** 2026-11-24 21:51:25
+- **Chapter:** docs/chapters/20-athens-museums-city-today/index.md, the last daily chapter (Monday, November 23)
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at 4–41, Tier C at <= 3.
+- **Structure:** opening "The Last Day in Athens" + welcome (with a first-person note that we saw the National Garden, Syntagma, the Panepistimiou "trilogy" and the National Archaeological Museum, about 1:45–2:15 PM, on Day 11); five Parts (the museum and the bronze machine; Hadrian's temple and Aristotle's school; Athens today; an evening in Plaka; Greek-Turkish relations); Practical Notes for Day 13 (museum hours, airport, sunset about 5:10 PM, Chapter 21 for the flight); Learning for All with two notes (Aristotle tutoring Alexander through Bloom, mastery learning, AI tutoring and the teacher coming to the learner; then the Phaedrus, fear of new learning technology, AI over-reliance and guardrails); Key Takeaways; celebration linking to Chapter 21.
+- **Promises honored:** Chapter 19's "ancient bronze machine" (the Antikythera mechanism, introduced as the device between the oracle and the learned model, without re-explaining machine learning or calibration; Chapter 19's "track record" test reused once, to score Socrates' prediction); Chapter 19's pointer to "the Lyceum ... tutoring and the old fear that a new tool will think for us"; Chapter 2's Phaedrus preview, Dipylon jug at the museum, and "Aristotle tutoring the young Alexander"; Chapter 9's "343 BCE ... a story Chapter 20 tells" and Phaedrus row; Chapter 12's "Chapter 20 takes up that side of the story, when the teacher comes to the learner"; Chapter 15's Varvakeion Athena in the museum, Plaka and Monastiraki, and "mostly switched to 'Greek coffee' after 1974, as Chapter 20 tells".
+- **AI-Native Schools chapters opened before citing:** 11 (Mastery Learning and the Case for a Compressed Morning: Bloom's two-sigma problem, the Nickow et al. 0.37 and VanLehn 0.79 estimates, von Hippel's critique, the Harvard, Nigeria and Turkey studies, tutoring costs) and 12 (AI Guardrails: Teaching Thinking Without Over-Reliance: guided vs open AI, hints instead of answers, Socratic questioning). Each linked once.
+- **MicroSim reuse search:** sorter `generate` (0.521, The AI Flywheel); effect-size chart `template` (0.610, Standard Error and Sample Size Explorer, statistics-course; `**Template:**` line added); modern Athens timeline `generate` (0.453, AGI Timeline Claims History). 0 reused, 1 from template, 2 newly specified. The existing built sim `antikythera-gears` is embedded (iframe + fullscreen button) in the mechanism section.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 20. Day 13: Athens, Museums, Tutors, and the City Today | 0 / 5 / 21 | 3,770–6,200 | ~11,030 (brief's counter; includes 6 tables, 7 lists, 9 admonitions, 10 figures' captions, Key Takeaways); ~8,000 in plain paragraphs | ~3,440 | 26/26 |
+
+Over budget, mainly because this last daily chapter carries a full museum visit with four photos, a Learning for All section of nine concepts, and the modern-Athens survey; no concept is padded, but the author may want to trim Rebetiko, Plaka, Migration or Greek-Turkish Relations (each Tier C at 200–450 words). Every Tier B concept has a worked example: the museum route (for the museum), the lost-quarter recovery arithmetic (debt crisis), our Monday on Athenian time (daily life), the arithmetic of attention (one-on-one tutoring), translating effect sizes into percentiles (Bloom), scoring Socrates' prediction (Phaedrus).
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 20 | 6 (plus 6 inside specs) | 10 | 9 (welcome 1, thinking 2, warning 2, tip 1, encourage 1, neutral 1, celebration 1) | oracle-gears-or-data-sorter (p5.js, Analyze/differentiate); modern-athens-timeline (vis-timeline, Understand/infer); tutoring-effect-size-explorer (Plotly chart, Understand/interpret, from template) |
+
+Tables: questions the mechanism answered; the temple's 650-year build; our Monday vs an Athenian's; a century of arrivals and departures; coffee sweetness in Athens and Istanbul; effect sizes as percentiles. Lists: the debt-crisis sequence, signs of Orthodox faith, three places in Plaka, two four-step patterns, fears of new learning technology, Practical Notes, Key Takeaways. Embedded: antikythera-gears.
+
+## Validation
+
+- Frontmatter parses: "Day 13: Athens, Museums, Tutors, and the City Today | 2026-11-24 21:31:02".
+- `validate-chapter-mascots.py`: OK, no violations (9 admonitions for 26 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines, run after the pronounce buttons.
+- Spec self-check (script): six header lines (plus Template on one), all eleven body fields, objectives start "The learner will", no indented lines, no px/Implementation, no "for example"/"such as"/"etc.". Counts: 12 cards, 4 per bin; 14 events and 8 sights (S6 accepts E8 or E9); 5 results. Chapter Anchors match prose (98/84/79/64 percent; 0.3 SD over six weeks; a third to three-quarters of an SD; the timeline dates). The 2004 Olympic rebuilding is anchored by a new sentence in "Daily Life in Athens" and Chapter 15.
+- No run of more than 4 plain paragraphs without a non-text element (script; three sections restructured with a list or table to fix a run of 9). No TODO. All 26 concepts bolded; "Teaching Comes to Learner" appears as "teaching comes to the learner".
+
+## Photos and Caption Changes
+
+All 10 chapter-20 picks placed, each after the paragraph about its subject: Jockey, grave stele, horse relief and Aphrodite group in the museum section; stadium in the Temple of Olympian Zeus section (Panathenaic Stadium paragraph, Day 10 midday); Academy and bearded head in the Lyceum section; Parliament in the debt crisis; National Garden in daily life; National Library in the Phaedrus section. Captions resolved from the contact sheet (enlarged crops of tiles 4, 5, 7 and 9):
+
+- 4: "Marble relief of a horse and groom (verify)" → "Marble relief of a horse and its handler" (a figure holds the horse's head; not identifiable as a known relief).
+- 5: "Marble portrait head of a bearded man (verify)" → "Marble head of a bearded man in the National Archaeological Museum" (unidentified; the text says so).
+- 7: "The National Library of Greece (verify)" → "The National Library of Greece on Panepistimiou Street" (confirmed: Doric portico, curved double stair, statue in front).
+- 9: "The Panathenaic Stadium (verify)" → "The Panathenaic Stadium, seen from the square at its entrance" (confirmed: marble horseshoe stands).
+
+No time-of-day words in captions.
+
+## Pronounce Buttons
+
+5 new terms with audio: Phaedrus (*FEE-drus*, english; button landed in Chapter 2, its first running-text use), Kallimarmaro (*kah-lee-MAR-mah-roh*, Chapter 20), Exarchia (*ek-SAR-khee-ah*, Chapter 20), kafeneio (*kah-feh-NEE-oh*; landed in Chapter 14, first use), rebetiko (*reh-BEH-tee-koh*; landed in Chapter 10, first use). The existing Antikythera row (no duplicate added) got its chapter button in Chapter 20's opening paragraph; the script put it between "Antikythera" and "mechanism", and it was moved by hand after "mechanism" to keep the name together. `check`: OK; appendix rebuilt (151 terms).
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Pronounce buttons were inserted into Chapters 2, 10 and 14 by the script, as the rules require.
+
+## Notes for the Author
+
+- Worth verifying first: the museum building's dates (1866–1889) and "the central hall just past the entrance holds the Mycenaean collection"; the museum's Monday and winter hours (described only as a pattern); the grave-relief law of about 317 BCE (Demetrius of Phalerum, not named); the Jockey's pieces raised in the late 1920s and 1930s; the Aphrodite group's find-spot in the Berytian merchants' clubhouse on Delos; Aristotle's *Politics* naming the Peisistratids' Olympieion beside the pyramids; Sulla's columns ("is said"); Herodes Atticus' stadium about 144 CE; the Lyceum's discovery in 1996 on Rigillis Street and opening in 2014; the Academy (Hansen, 1885) with Plato, Socrates, Athena and Apollo; the National Library moving in 1903 and to the Stavros Niarchos center in 2018; the National Garden planted from 1838 and public from 1923; "at least 24 civilians killed" in 1973 and the gate preserved on campus; the debt figures (deficit "more than twice", 2012 losses "more than half", unemployment about 27 percent in 2013, debt about 1.5 times output, ratings restored from 2023); leaving home around age 30 and a birth rate of about 1.3; the Nativity Fast (November 15 to Christmas Eve); the Little Metropolis "probably 12th century"; more than 850,000 sea arrivals in 2015 and the Pylos wreck of June 2023; the Abu Simbel graffiti of about 591 BCE; the "Greek coffee" renaming after 1974; the 1957 frappé; Greece as the EU's largest producer of farmed bream and bass, and the frozen-fish asterisk; Vamvakaris (Syros), Eskenazi (Istanbul, Sephardic), 1930s censorship, UNESCO 2017; Papandreou and Cem in 1999; the Athens Declaration of December 2023.
+- Plutarch's "lead the Greeks, rule the non-Greeks as a master" comes from his essay *On the Fortune of Alexander*, not the *Life*; the text says only "Plutarch also reports".
+- The Mieza tutoring hours (three hours, five pupils), the daily-life schedule, and the 2 percent / 1 percent recovery arithmetic are illustrative and say so.
+- Photo 5 (bearded head) is unidentified; if the museum label is in another photo, a name would improve it, or the photo could be dropped. Photo 4 may be a catalogued relief the author can name from the museum card.
+- Listen to the five new recordings, especially Kallimarmaro and kafeneio (local stress).
+- No Wikimedia image needed; the Antikythera mechanism itself is not among our picks, and the appendix already links close-up photos.
+
+## Files Created/Updated
+
+- docs/chapters/20-athens-museums-city-today/index.md
+- docs/chapters/20-athens-museums-city-today/img/ (10 exported JPEGs)
+- docs/chapters/02-traveling-well/index.md (Phaedrus pronounce button only), docs/chapters/10-ephesus-greco-roman-city/index.md (rebetiko button only), docs/chapters/14-venetian-heraklion/index.md (kafeneio button only)
+- data/photo-picks.csv (4 captions, 10 web paths), data/pronunciations.csv (5 rows appended), docs/appendices/pronunciation-guide.md, docs/audio/{phaedrus,kallimarmaro,exarchia,kafeneio,rebetiko}.mp3
+- logs/ch-20-content-generation.md, this log

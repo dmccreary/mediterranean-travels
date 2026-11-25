@@ -22,3 +22,6 @@ Plotly, Venn.js).
 - [Learning Graph Viewer](graph-viewer/index.md) - an interactive map of the
   598 concepts in this guide and how they depend on each other, with search
   and category filters.
+
+- [Antikythera Gears](antikythera-gears/index.md) - a simplified p5.js gear model
+  for Sun, Moon, and Mars cycles, with time and speed controls.
