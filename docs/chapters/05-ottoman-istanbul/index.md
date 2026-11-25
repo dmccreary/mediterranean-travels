@@ -76,7 +76,7 @@ The chapter has four parts. Part One is Topkapı Palace, its treasures, and its 
 
 ### Topkapı Palace
 
-**Topkapı Palace** is the palace on the tip of the historic peninsula, at Seraglio Point, that was the residence of the Ottoman sultans and the center of their government from the 1460s until 1856. Mehmed II began building it in 1459, six years after he took the city, on the site of the ancient Greek acropolis of Byzantium. The name means "Cannon Gate Palace" and was given only in the 19th century, after a seaside gate; the Ottomans called it the New Palace. In 1856 Sultan Abdülmecid moved the court to the European-style Dolmabahçe Palace on the Bosphorus, and in 1924 the young Turkish Republic made Topkapı a museum.
+**Topkapı Palace** is the palace on the tip of the historic peninsula, at Seraglio Point, that was the residence of the Ottoman sultans and the center of their government from the 1460s until 1856. Mehmed II began building it in 1459, six years after he took the city, on the site of the ancient Greek acropolis of Byzantium. The name means "Cannon Gate Palace" and was given only in the 19th century, after a seaside gate; the Ottomans called it the New Palace. In 1856 Sultan Abdülmecid moved the court to the European-style Dolmabahçe Palace <audio id="audio-dolmabahce" src="../../audio/dolmabahce.mp3" preload="none"></audio><button onclick="document.getElementById('audio-dolmabahce').play()" class="pronounce-btn">🔊 Pronounce</button> *dol-MAH-bah-cheh* on the Bosphorus, and in 1924 the young Turkish Republic made Topkapı a museum.
 
 Topkapı is not one building but a sequence of courtyards and pavilions, each more private than the last, entered through a series of gates. At its height several thousand people lived and worked here: soldiers, officials, pages, cooks, gardeners, and the sultan's household.
 
@@ -214,7 +214,7 @@ A **minaret** is the tall, slender tower beside a mosque from which the call to 
 
 ### Friday Prayer
 
-**Friday prayer** (Arabic *jumu'ah*, Turkish *cuma namazı*) is the congregational prayer held at midday on Fridays, in place of the ordinary noon prayer. It includes a **sermon** (*hutbe*) given by the imam, and it is required of adult Muslim men and optional for women. On Friday the big mosques fill well before noon, and worshippers who cannot fit inside pray on mats in the courtyard and the street. Friday is not a day off in Turkey, though: since 1935 the official weekend has been Saturday and Sunday, so many people slip out of work for an hour and go back afterward. For visitors, Friday prayer is the longest closure of the week; plan to be in a museum, a bazaar, or a café at midday rather than outside a mosque door.
+**Friday prayer** (Arabic *jumu'ah*, Turkish *cuma namazı*) is the congregational prayer held at midday on Fridays, in place of the ordinary noon prayer. It includes a **sermon** (*hutbe*) given by the imam, and it is required of adult Muslim men and optional for women. On Friday the big mosques fill well before noon, and worshippers who cannot fit inside pray on mats in the courtyard and the street. Friday is not a day off in Turkey, though: a law of 1935 moved the weekly day of rest from Friday to Sunday, so many people slip out of work for an hour and go back afterward. For visitors, Friday prayer is the longest closure of the week; plan to be in a museum, a bazaar, or a café at midday rather than outside a mosque door.
 
 ### Mosque Etiquette
 
