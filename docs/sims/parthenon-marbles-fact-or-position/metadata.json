@@ -2,41 +2,66 @@
   "title": "Agreed Fact or Position?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for agreed fact or position?",
-  "date": "2026-11-24",
+  "description": "Sort twelve statements about the Parthenon Marbles dispute into agreed facts, the British Museum's position, and the Greek government's position, then compare the three bins side by side.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Agreed Fact or Position?",
+    "topic": "The Parthenon Marbles dispute as contested history",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate agreed facts from the British Museum's position and the Greek government's position in twelve statements about the Parthenon Marbles dispute, sorting at least 10 of 12 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Contested history",
+      "The Parthenon sculptures",
+      "Lord Elgin",
+      "The Acropolis Museum",
+      "The Parthenon Marbles dispute"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 475
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Sorting with immediate feedback (concept classifier)",
+    "keyQuestions": [
+      "Would the other side deny this statement?",
+      "Does the statement say what is true, or what should be concluded or done?",
+      "Which facts does each side's position rest on?"
+    ],
+    "commonMisconceptions": [
+      "In a dispute, the facts themselves must be in doubt.",
+      "A fact that helps one side is that side's position.",
+      "The Greek government is asking for a loan.",
+      "The British Museum's case rests only on legality."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12, with cards 6 and 10 correct).",
+      "Explain why the 1963 British Museum Act is an agreed fact rather than a position."
+    ]
   },
-  "chapter": "15-athens-acropolis"
+  "chapter": "15-athens-acropolis",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/parthenon-marbles-fact-or-position/"
 }

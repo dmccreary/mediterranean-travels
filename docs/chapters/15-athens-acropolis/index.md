@@ -510,7 +510,7 @@ The MicroSim below practices the skill this dispute demands: telling an agreed f
 
 #### Diagram: Agreed Fact or Position?
 
-<iframe src="../../sims/parthenon-marbles-fact-or-position/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/parthenon-marbles-fact-or-position/main.html" height="479px" width="100%" scrolling="no"></iframe>
 
 [Run the Agreed Fact or Position? MicroSim Fullscreen](../../sims/parthenon-marbles-fact-or-position/main.html){ .md-button .md-button--primary }
 
