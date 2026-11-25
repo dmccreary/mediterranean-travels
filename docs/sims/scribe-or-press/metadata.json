@@ -2,41 +2,68 @@
   "title": "Scribe or Press?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for scribe or press?",
-  "date": "2026-11-24",
+  "description": "A fixed-cost versus marginal-cost model of copying a 200-page book: predict the number of copies at which a printing press becomes cheaper than an ordinary copyist and than a master calligrapher, then move a slider to watch the cost lines cross.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Scribe or Press?",
+    "topic": "Scribes, the printing press, fixed and marginal cost",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Calculate the number of copies at which printing a 200-page book becomes cheaper than copying it by hand, for an ordinary copyist and for a master calligrapher, predicting each crossover within one copy."
     ],
     "bloomsTaxonomy": "Apply",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Scribe",
+      "Copyist",
+      "Movable type",
+      "Printing press",
+      "Fixed cost",
+      "Marginal cost"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 558
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then check with a parameter slider",
+    "keyQuestions": [
+      "How many copies before the press is cheaper?",
+      "Why is the scribe cheaper for a single copy?",
+      "Why does slower, more beautiful handwriting make the press win sooner?"
+    ],
+    "commonMisconceptions": [
+      "The press was cheaper for every job, even a single copy.",
+      "The press's advantage was only speed, not cost per copy.",
+      "Making books more beautiful by hand always made them better value.",
+      "The cost of a press is mostly in running it, rather than in setting it up."
+    ],
+    "assessmentOpportunities": [
+      "Predict the ordinary copyist's crossover (15 copies) within one copy in at most two tries.",
+      "Predict the master calligrapher's crossover (4 copies) within one copy in at most two tries.",
+      "Compare the three costs at 200 copies."
+    ]
   },
-  "chapter": "06-bazaars-scripts-presses"
+  "chapter": "06-bazaars-scripts-presses",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/scribe-or-press/"
 }

@@ -282,6 +282,10 @@ The key to the press's power is a simple economic fact. A scribe's cost is almos
 
 #### Diagram: Scribe or Press?
 
+<iframe src="../../sims/scribe-or-press/main.html" height="562px" width="100%" scrolling="no"></iframe>
+
+[Run the Scribe or Press? MicroSim Fullscreen](../../sims/scribe-or-press/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Scribe or Press?</summary>
 Type: microsim
@@ -358,6 +362,10 @@ The **Hebrew press of 1493** was the first printing press in the Ottoman Empire,
 A popular version says that Sultan Bayezid II banned Arabic-script printing in 1485 on pain of death. No copy of such a decree survives, and many historians now doubt it was ever issued, which makes this a fine final test for Chapter 4's method. The chart below shows how long the gap was.
 
 #### Diagram: When Printing Arrived
+
+<iframe src="../../sims/when-printing-arrived/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the When Printing Arrived MicroSim Fullscreen](../../sims/when-printing-arrived/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>When Printing Arrived</summary>
