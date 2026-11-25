@@ -408,7 +408,7 @@ The MicroSim below lets us sort the buildings of the Süleymaniye complex by the
 
 #### Diagram: What Did the Külliye Do?
 
-<iframe src="../../sims/suleymaniye-kulliye-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/suleymaniye-kulliye-sorter/main.html" height="534px" width="100%" scrolling="no"></iframe>
 
 [Run the What Did the Külliye Do? MicroSim Fullscreen](../../sims/suleymaniye-kulliye-sorter/main.html){ .md-button .md-button--primary }
 
