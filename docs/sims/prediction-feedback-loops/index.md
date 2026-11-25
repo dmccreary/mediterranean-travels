@@ -1,6 +1,6 @@
 ---
-title: When a Prediction Feeds Itself
-description: Label every link in three prediction loops, from predictive policing and student risk scores to a traffic forecast on the road to Delphi, as same or opposite direction, then classify each loop as reinforcing (self-fulfilling) or balancing (self-defeating).
+title: "When a Prediction Feeds Itself"
+description: "Label every link in three prediction loops, from predictive policing and student risk scores to a traffic forecast on the road to Delphi, as same or opposite direction, then classify each loop as reinforcing (self-fulfilling) or balancing (self-defeating)."
 status: built
 image: /sims/prediction-feedback-loops/prediction-feedback-loops.png
 og:image: /sims/prediction-feedback-loops/prediction-feedback-loops.png

@@ -1,6 +1,6 @@
 ---
-title: Read the Ruin: Which Layer?
-description: Place twelve things seen on Day 2 in Istanbul, from the Hippodrome's Egyptian obelisk to the Basilica Cistern's new walkways, into the Roman, Byzantine, Latin, Ottoman or Republic layer in which they arrived.
+title: "Read the Ruin: Which Layer?"
+description: "Place twelve things seen on Day 2 in Istanbul, from the Hippodrome's Egyptian obelisk to the Basilica Cistern's new walkways, into the Roman, Byzantine, Latin, Ottoman or Republic layer in which they arrived."
 status: built
 image: /sims/read-the-ruin-layers/read-the-ruin-layers.png
 og:image: /sims/read-the-ruin-layers/read-the-ruin-layers.png

@@ -1,6 +1,6 @@
 ---
-title: Knossos From Village to Decipherment
-description: A to-scale timeline of Knossos from its first village about 7000 BCE to the reading of Linear B in 1952, filled in one prediction at a time so the long gaps between the volcano, the fires, and the decipherment stand out.
+title: "Knossos From Village to Decipherment"
+description: "A to-scale timeline of Knossos from its first village about 7000 BCE to the reading of Linear B in 1952, filled in one prediction at a time so the long gaps between the volcano, the fires, and the decipherment stand out."
 status: built
 image: /sims/knossos-village-to-decipherment-timeline/knossos-village-to-decipherment-timeline.png
 og:image: /sims/knossos-village-to-decipherment-timeline/knossos-village-to-decipherment-timeline.png

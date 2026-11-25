@@ -1,6 +1,6 @@
 ---
-title: Essential or Inherited?
-description: Judge twelve school practices, from the Carnegie unit to being known by a caring adult, as an essential purpose of schooling or an inherited form that served that purpose under earlier constraints, and separate the trap pair of checking mastery and the same test on the same day.
+title: "Essential or Inherited?"
+description: "Judge twelve school practices, from the Carnegie unit to being known by a caring adult, as an essential purpose of schooling or an inherited form that served that purpose under earlier constraints, and separate the trap pair of checking mastery and the same test on the same day."
 status: built
 image: /sims/essential-or-inherited-school-practices/essential-or-inherited-school-practices.png
 og:image: /sims/essential-or-inherited-school-practices/essential-or-inherited-school-practices.png

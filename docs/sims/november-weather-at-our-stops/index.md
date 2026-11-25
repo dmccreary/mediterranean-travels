@@ -1,6 +1,6 @@
 ---
-title: November Weather at Our Stops
-description: Predict November temperature and rainfall at six stops on our route before the climate chart reveals the answer, then explore each stop's twelve-month climate.
+title: "November Weather at Our Stops"
+description: "Predict November temperature and rainfall at six stops on our route before the climate chart reveals the answer, then explore each stop's twelve-month climate."
 status: built
 image: /sims/november-weather-at-our-stops/november-weather-at-our-stops.png
 og:image: /sims/november-weather-at-our-stops/november-weather-at-our-stops.png

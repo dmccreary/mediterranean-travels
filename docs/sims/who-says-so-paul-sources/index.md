@@ -1,6 +1,6 @@
 ---
-title: Who Says So? Sorting Claims About Paul
-description: Sort fourteen familiar claims about the apostle Paul by their source (Paul's own letters, Acts only, scholars' inference, or later tradition) and see which parts of his story he told himself.
+title: "Who Says So? Sorting Claims About Paul"
+description: "Sort fourteen familiar claims about the apostle Paul by their source (Paul's own letters, Acts only, scholars' inference, or later tradition) and see which parts of his story he told himself."
 status: built
 image: /sims/who-says-so-paul-sources/who-says-so-paul-sources.png
 og:image: /sims/who-says-so-paul-sources/who-says-so-paul-sources.png

@@ -1,6 +1,6 @@
 ---
-title: Where in Paul's Life Was Each Letter Written?
-description: Drag the seven undisputed letters of Paul onto a timeline of his life, using one clue from inside each letter, and see that most of them come from the years around Ephesus while the prison letters remain debated.
+title: "Where in Paul's Life Was Each Letter Written?"
+description: "Drag the seven undisputed letters of Paul onto a timeline of his life, using one clue from inside each letter, and see that most of them come from the years around Ephesus while the prison letters remain debated."
 status: built
 image: /sims/paul-letters-on-his-timeline/paul-letters-on-his-timeline.png
 og:image: /sims/paul-letters-on-his-timeline/paul-letters-on-his-timeline.png

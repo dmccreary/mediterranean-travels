@@ -1,6 +1,6 @@
 ---
-title: Can This Answer Lose?
-description: Sort eight answers, from the Croesus prophecy and the "wooden wall" to a modern weather forecast, into answers that could be proven wrong, answers that come true either way, and answers that are not predictions at all, then test each one against two possible outcomes.
+title: "Can This Answer Lose?"
+description: 'Sort eight answers, from the Croesus prophecy and the "wooden wall" to a modern weather forecast, into answers that could be proven wrong, answers that come true either way, and answers that are not predictions at all, then test each one against two possible outcomes.'
 status: built
 image: /sims/oracle-answer-hedging-test/oracle-answer-hedging-test.png
 og:image: /sims/oracle-answer-hedging-test/oracle-answer-hedging-test.png

@@ -1,6 +1,6 @@
 ---
-title: Oracle, Gears, or Data?
-description: Sort twelve predictions, from Delphi's oracle, the Antikythera mechanism, Babylonian tablets, a stone peg calendar, and modern phones and apps, by how each answer was produced, as an oracle's answer, a cycle model, or a learned model.
+title: "Oracle, Gears, or Data?"
+description: "Sort twelve predictions, from Delphi's oracle, the Antikythera mechanism, Babylonian tablets, a stone peg calendar, and modern phones and apps, by how each answer was produced, as an oracle's answer, a cycle model, or a learned model."
 status: built
 image: /sims/oracle-gears-or-data-sorter/oracle-gears-or-data-sorter.png
 og:image: /sims/oracle-gears-or-data-sorter/oracle-gears-or-data-sorter.png

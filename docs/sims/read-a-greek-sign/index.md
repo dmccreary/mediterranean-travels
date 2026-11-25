@@ -1,6 +1,6 @@
 ---
-title: Read a Greek Sign
-description: Type twelve Greek signs from our route, from ΑΘΗΝΑ to ΚΛΕΙΣΤΟ, in Latin letters, with a letter key, trap-letter hints and a letter-by-letter breakdown.
+title: "Read a Greek Sign"
+description: "Type twelve Greek signs from our route, from ΑΘΗΝΑ to ΚΛΕΙΣΤΟ, in Latin letters, with a letter key, trap-letter hints and a letter-by-letter breakdown."
 status: built
 image: /sims/read-a-greek-sign/read-a-greek-sign.png
 og:image: /sims/read-a-greek-sign/read-a-greek-sign.png

@@ -1,6 +1,6 @@
 ---
-title: Thoughtful Traveler Choices
-description: Judge which of three responses best fits the six thoughtful-traveler principles in eight situations on our route, from a simit seller's photo to a closed Grand Bazaar.
+title: "Thoughtful Traveler Choices"
+description: "Judge which of three responses best fits the six thoughtful-traveler principles in eight situations on our route, from a simit seller's photo to a closed Grand Bazaar."
 status: built
 image: /sims/thoughtful-traveler-choices/thoughtful-traveler-choices.png
 og:image: /sims/thoughtful-traveler-choices/thoughtful-traveler-choices.png

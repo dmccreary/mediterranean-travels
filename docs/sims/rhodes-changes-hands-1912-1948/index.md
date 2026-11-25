@@ -1,6 +1,6 @@
 ---
-title: Rhodes Changes Hands, 1912–1948
-description: A two-row timeline of who governed Rhodes from 1910 to 1949, Italy, Germany, Britain and Greece, with thirteen events and five questions on which power was in charge at each turning point.
+title: "Rhodes Changes Hands, 1912–1948"
+description: "A two-row timeline of who governed Rhodes from 1910 to 1949, Italy, Germany, Britain and Greece, with thirteen events and five questions on which power was in charge at each turning point."
 status: built
 image: /sims/rhodes-changes-hands-1912-1948/rhodes-changes-hands-1912-1948.png
 og:image: /sims/rhodes-changes-hands-1912-1948/rhodes-changes-hands-1912-1948.png

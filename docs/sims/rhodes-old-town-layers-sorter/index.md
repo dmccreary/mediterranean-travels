@@ -1,6 +1,6 @@
 ---
-title: Who Built What We See in the Old Town?
-description: Attribute twelve buildings and features of the city of Rhodes, from the Temple of Aphrodite to the Liberty Gate, to the Ancient, Knights, Ottoman or Italian builders who made what stands today.
+title: "Who Built What We See in the Old Town?"
+description: "Attribute twelve buildings and features of the city of Rhodes, from the Temple of Aphrodite to the Liberty Gate, to the Ancient, Knights, Ottoman or Italian builders who made what stands today."
 status: built
 image: /sims/rhodes-old-town-layers-sorter/rhodes-old-town-layers-sorter.png
 og:image: /sims/rhodes-old-town-layers-sorter/rhodes-old-town-layers-sorter.png

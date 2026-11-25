@@ -1,6 +1,6 @@
 ---
-title: Crack Linear B Like Ventris
-description: Replay a simplified version of the 1952 decipherment of Linear B, from the sign count and Kober's triplet to the place-name guess, then test the values on the Pylos tripod tablet, whose pictograms confirm the reading.
+title: "Crack Linear B Like Ventris"
+description: "Replay a simplified version of the 1952 decipherment of Linear B, from the sign count and Kober's triplet to the place-name guess, then test the values on the Pylos tripod tablet, whose pictograms confirm the reading."
 status: built
 image: /sims/crack-linear-b-like-ventris/crack-linear-b-like-ventris.png
 og:image: /sims/crack-linear-b-like-ventris/crack-linear-b-like-ventris.png

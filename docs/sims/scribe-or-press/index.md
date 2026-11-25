@@ -1,6 +1,6 @@
 ---
-title: Scribe or Press?
-description: Predict how many copies of a 200-page book it takes before printing becomes cheaper than hand-copying, for an ordinary copyist and a master calligrapher, then move a slider to watch the fixed-cost and per-copy lines cross.
+title: "Scribe or Press?"
+description: "Predict how many copies of a 200-page book it takes before printing becomes cheaper than hand-copying, for an ordinary copyist and a master calligrapher, then move a slider to watch the fixed-cost and per-copy lines cross."
 status: built
 image: /sims/scribe-or-press/scribe-or-press.png
 og:image: /sims/scribe-or-press/scribe-or-press.png

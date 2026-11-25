@@ -1,6 +1,6 @@
 ---
-title: When Printing Arrived
-description: A bar chart of the years from Gutenberg's Bible to the first printing in ten scripts and places, from Mainz to Istanbul, with an infobox for every bar and four questions that show who printed in Istanbul long before Müteferrika's press of 1729.
+title: "When Printing Arrived"
+description: "A bar chart of the years from Gutenberg's Bible to the first printing in ten scripts and places, from Mainz to Istanbul, with an infobox for every bar and four questions that show who printed in Istanbul long before Müteferrika's press of 1729."
 status: built
 image: /sims/when-printing-arrived/when-printing-arrived.png
 og:image: /sims/when-printing-arrived/when-printing-arrived.png

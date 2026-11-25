@@ -1,6 +1,6 @@
 ---
-title: Viking Cruise Map
-description: An interactive map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens and our day trip to Delphi, with the route, times, key sights, and a tip for each of the seven stops.
+title: "Viking Cruise Map"
+description: "An interactive map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens and our day trip to Delphi, with the route, times, key sights, and a tip for each of the seven stops."
 quality_score: 100
 image: /sims/viking-cruise-map/viking-cruise-map.png
 og:image: /sims/viking-cruise-map/viking-cruise-map.png

@@ -1,6 +1,6 @@
 ---
-title: The Siege of 1453, Step by Step
-description: Step through eight turning points of the 1453 siege of Constantinople on a schematic map, and for each one say which of the city's defenses it defeated, or whether the defenders held.
+title: "The Siege of 1453, Step by Step"
+description: "Step through eight turning points of the 1453 siege of Constantinople on a schematic map, and for each one say which of the city's defenses it defeated, or whether the defenders held."
 status: built
 image: /sims/siege-of-1453-step-through/siege-of-1453-step-through.png
 og:image: /sims/siege-of-1453-step-through/siege-of-1453-step-through.png

@@ -1,6 +1,6 @@
 ---
-title: Read a Freedom Record on the Polygonal Wall
-description: Take apart a simplified Delphic manumission record, the kind carved by the hundreds on the polygonal wall below the Temple of Apollo, naming each of its eight clauses and judging whether it protects the freed woman, limits her freedom, or records the facts of the sale.
+title: "Read a Freedom Record on the Polygonal Wall"
+description: "Take apart a simplified Delphic manumission record, the kind carved by the hundreds on the polygonal wall below the Temple of Apollo, naming each of its eight clauses and judging whether it protects the freed woman, limits her freedom, or records the facts of the sale."
 status: built
 image: /sims/delphi-freedom-record-reader/delphi-freedom-record-reader.png
 og:image: /sims/delphi-freedom-record-reader/delphi-freedom-record-reader.png

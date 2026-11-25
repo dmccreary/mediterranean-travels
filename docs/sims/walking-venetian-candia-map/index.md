@@ -1,6 +1,6 @@
 ---
-title: Walking Venetian Candia
-description: Locate eight landmarks of Venetian and Ottoman Heraklion, from the Morosini Fountain and the Loggia to Koules Fortress and the Martinengo Bastion, by clicking an unlabeled street map of the old town.
+title: "Walking Venetian Candia"
+description: "Locate eight landmarks of Venetian and Ottoman Heraklion, from the Morosini Fountain and the Loggia to Koules Fortress and the Martinengo Bastion, by clicking an unlabeled street map of the old town."
 status: built
 image: /sims/walking-venetian-candia-map/walking-venetian-candia-map.png
 og:image: /sims/walking-venetian-candia-map/walking-venetian-candia-map.png

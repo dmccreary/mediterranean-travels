@@ -1,6 +1,6 @@
 ---
-title: Events of the Eastern Mediterranean Timeline
-description: A to-scale timeline of the nine periods of Eastern Mediterranean history with 29 key events on the trip route, each linked to the chapter that covers it, and six proportion questions to answer before the events are revealed.
+title: "Events of the Eastern Mediterranean Timeline"
+description: "A to-scale timeline of the nine periods of Eastern Mediterranean history with 29 key events on the trip route, each linked to the chapter that covers it, and six proportion questions to answer before the events are revealed."
 image: /sims/eastern-med-events-timeline/eastern-med-events-timeline.png
 og:image: /sims/eastern-med-events-timeline/eastern-med-events-timeline.png
 twitter:image: /sims/eastern-med-events-timeline/eastern-med-events-timeline.png

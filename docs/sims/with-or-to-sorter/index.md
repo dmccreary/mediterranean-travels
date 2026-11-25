@@ -1,6 +1,6 @@
 ---
-title: With or To?
-description: Judge eight efforts to widen or control learning, six from the trip and two imagined AI projects, as done with the people they affected or done to them, using four questions about who chose, whose language, who was consulted, and who keeps it going.
+title: "With or To?"
+description: "Judge eight efforts to widen or control learning, six from the trip and two imagined AI projects, as done with the people they affected or done to them, using four questions about who chose, whose language, who was consulted, and who keeps it going."
 status: built
 image: /sims/with-or-to-sorter/with-or-to-sorter.png
 og:image: /sims/with-or-to-sorter/with-or-to-sorter.png

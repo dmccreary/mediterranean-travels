@@ -1,6 +1,6 @@
 ---
-title: What Did the Külliye Do?
-description: Sort twelve buildings of the Süleymaniye mosque complex by the public need each one served, from worship and learning to health, food, income and remembrance, and see the külliye as a whole system of public services.
+title: "What Did the Külliye Do?"
+description: "Sort twelve buildings of the Süleymaniye mosque complex by the public need each one served, from worship and learning to health, food, income and remembrance, and see the külliye as a whole system of public services."
 status: built
 image: /sims/suleymaniye-kulliye-sorter/suleymaniye-kulliye-sorter.png
 og:image: /sims/suleymaniye-kulliye-sorter/suleymaniye-kulliye-sorter.png

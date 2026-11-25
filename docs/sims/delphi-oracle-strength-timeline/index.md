@@ -1,6 +1,6 @@
 ---
-title: Eleven Centuries of the Oracle
-description: Judge fourteen dated events from c. 750 BCE to 391-392 CE as signs of the Oracle of Delphi's strength or of its weakness and decline, watch each drop onto a timeline of the oracle's 1,140-year life, and find where the signs of decline begin to cluster.
+title: "Eleven Centuries of the Oracle"
+description: "Judge fourteen dated events from c. 750 BCE to 391-392 CE as signs of the Oracle of Delphi's strength or of its weakness and decline, watch each drop onto a timeline of the oracle's 1,140-year life, and find where the signs of decline begin to cluster."
 status: built
 image: /sims/delphi-oracle-strength-timeline/delphi-oracle-strength-timeline.png
 og:image: /sims/delphi-oracle-strength-timeline/delphi-oracle-strength-timeline.png

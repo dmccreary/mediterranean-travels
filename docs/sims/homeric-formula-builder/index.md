@@ -1,6 +1,6 @@
 ---
-title: Finish the Line Like a Homeric Singer
-description: Complete six Homeric hexameter lines by choosing the name formula for Achilles or Odysseus whose syllables exactly fill the space left at the end of the line, and discover Milman Parry's rule that the meter, not the moment, chooses the epithet.
+title: "Finish the Line Like a Homeric Singer"
+description: "Complete six Homeric hexameter lines by choosing the name formula for Achilles or Odysseus whose syllables exactly fill the space left at the end of the line, and discover Milman Parry's rule that the meter, not the moment, chooses the epithet."
 status: built
 image: /sims/homeric-formula-builder/homeric-formula-builder.png
 og:image: /sims/homeric-formula-builder/homeric-formula-builder.png

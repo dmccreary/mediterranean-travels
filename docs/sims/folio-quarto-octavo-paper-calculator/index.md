@@ -1,6 +1,6 @@
 ---
-title: Folding the Sheet: Folio, Quarto, Octavo
-description: Calculate the pages and sheets of paper in one copy of Virgil printed as a folio with commentary, a plain octavo, and an Aldine-style octavo in compact italic, and see a sheet fold into 2, 4, or 8 leaves.
+title: "Folding the Sheet: Folio, Quarto, Octavo"
+description: "Calculate the pages and sheets of paper in one copy of Virgil printed as a folio with commentary, a plain octavo, and an Aldine-style octavo in compact italic, and see a sheet fold into 2, 4, or 8 leaves."
 status: built
 image: /sims/folio-quarto-octavo-paper-calculator/folio-quarto-octavo-paper-calculator.png
 og:image: /sims/folio-quarto-octavo-paper-calculator/folio-quarto-octavo-paper-calculator.png

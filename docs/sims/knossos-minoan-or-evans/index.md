@@ -1,6 +1,6 @@
 ---
 title: "Knossos: Minoan, Evans, or Copy?"
-description: Sort ten features a visitor sees at Knossos, from the gypsum throne to the red columns, into Minoan originals, Arthur Evans's reconstructions, and modern copies of paintings now in the Heraklion museum.
+description: "Sort ten features a visitor sees at Knossos, from the gypsum throne to the red columns, into Minoan originals, Arthur Evans's reconstructions, and modern copies of paintings now in the Heraklion museum."
 status: built
 image: /sims/knossos-minoan-or-evans/knossos-minoan-or-evans.png
 og:image: /sims/knossos-minoan-or-evans/knossos-minoan-or-evans.png

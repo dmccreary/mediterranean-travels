@@ -1,6 +1,6 @@
 ---
-title: Two Ends of the Serpent Column
-description: Sort ten claims about the Serpent Column, the bronze monument to the Greek victory at Plataea that stood at Delphi and now stands in Istanbul's Hippodrome, by where their evidence can be checked, at Delphi, in Istanbul, or only in an ancient written source.
+title: "Two Ends of the Serpent Column"
+description: "Sort ten claims about the Serpent Column, the bronze monument to the Greek victory at Plataea that stood at Delphi and now stands in Istanbul's Hippodrome, by where their evidence can be checked, at Delphi, in Istanbul, or only in an ancient written source."
 status: built
 image: /sims/serpent-column-two-ends/serpent-column-two-ends.png
 og:image: /sims/serpent-column-two-ends/serpent-column-two-ends.png

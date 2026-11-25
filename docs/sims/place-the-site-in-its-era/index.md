@@ -1,6 +1,6 @@
 ---
-title: Place the Site in Its Era
-description: Sort 15 sites and objects from our trip into eight period bins, from the Bronze Age to the Ottoman period, by the date each was built.
+title: "Place the Site in Its Era"
+description: "Sort 15 sites and objects from our trip into eight period bins, from the Bronze Age to the Ottoman period, by the date each was built."
 status: built
 image: /sims/place-the-site-in-its-era/place-the-site-in-its-era.png
 og:image: /sims/place-the-site-in-its-era/place-the-site-in-its-era.png

@@ -1,6 +1,6 @@
 ---
-title: Agreed Fact or Position?
-description: Sort twelve statements about the Parthenon Marbles dispute into agreed facts, the British Museum's position, and the Greek government's position, and see how each side builds its case from the same facts.
+title: "Agreed Fact or Position?"
+description: "Sort twelve statements about the Parthenon Marbles dispute into agreed facts, the British Museum's position, and the Greek government's position, and see how each side builds its case from the same facts."
 status: built
 image: /sims/parthenon-marbles-fact-or-position/parthenon-marbles-fact-or-position.png
 og:image: /sims/parthenon-marbles-fact-or-position/parthenon-marbles-fact-or-position.png

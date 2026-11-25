@@ -1,6 +1,6 @@
 ---
-title: Sort the Scripts
-description: Sort twelve writing systems, from Egyptian hieroglyphs and Linear B to Greek and modern Turkish, into logographic, syllabary, abjad and alphabet bins by what one sign stands for.
+title: "Sort the Scripts"
+description: "Sort twelve writing systems, from Egyptian hieroglyphs and Linear B to Greek and modern Turkish, into logographic, syllabary, abjad and alphabet bins by what one sign stands for."
 status: built
 image: /sims/sort-the-scripts/sort-the-scripts.png
 og:image: /sims/sort-the-scripts/sort-the-scripts.png

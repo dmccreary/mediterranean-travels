@@ -1,6 +1,6 @@
 ---
-title: Antikythera Gears
-description: Explore how gear tooth counts produce simplified Sun, Moon, and Mars cycles.
+title: "Antikythera Gears"
+description: "Explore how gear tooth counts produce simplified Sun, Moon, and Mars cycles."
 status: built
 image: /sims/antikythera-gears/antikythera-gears.png
 og:image: /sims/antikythera-gears/antikythera-gears.png

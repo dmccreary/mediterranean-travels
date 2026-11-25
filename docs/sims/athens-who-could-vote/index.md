@@ -1,6 +1,6 @@
 ---
-title: Who Could Vote in Athens?
-description: Calculate what share of Attica's people could vote around 431 BCE from scholarly estimates for four groups, push the estimates to their limits, and compare a full Assembly of 6,000 with everyone it governed.
+title: "Who Could Vote in Athens?"
+description: "Calculate what share of Attica's people could vote around 431 BCE from scholarly estimates for four groups, push the estimates to their limits, and compare a full Assembly of 6,000 with everyone it governed."
 status: built
 image: /sims/athens-who-could-vote/athens-who-could-vote.png
 og:image: /sims/athens-who-could-vote/athens-who-could-vote.png

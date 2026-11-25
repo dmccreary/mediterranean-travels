@@ -1,6 +1,6 @@
 ---
-title: Xerxes' Road to Salamis
-description: Step through ten places of the Persian Wars, from Sardis and Marathon to Thermopylae, Salamis and Mycale, and predict at five of them why the fighting or the crossing happened there.
+title: "Xerxes' Road to Salamis"
+description: "Step through ten places of the Persian Wars, from Sardis and Marathon to Thermopylae, Salamis and Mycale, and predict at five of them why the fighting or the crossing happened there."
 status: built
 image: /sims/persian-wars-campaign-map/persian-wars-campaign-map.png
 og:image: /sims/persian-wars-campaign-map/persian-wars-campaign-map.png

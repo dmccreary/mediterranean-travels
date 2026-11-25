@@ -83,11 +83,12 @@ Related sims: *oracle-gears-or-data-sorter*, *oracle-answer-hedging-test*,
 |---|---|
 | **Chapters** | [Chapter 2](../chapters/02-traveling-well/index.md), [Chapter 12](../chapters/12-rhodes/index.md), [Chapter 14](../chapters/14-venetian-heraklion/index.md), [Chapter 16](../chapters/16-athens-agora-democracy/index.md), [Chapter 20](../chapters/20-athens-museums-city-today/index.md) |
 | **Engine** | Grid, five equal-width panels |
-| **The picture** | Five classrooms in a row, drawn from the same camera height: a rhetoric lesson on Rhodes, a philosopher walking with students at the Lyceum, a medrese courtyard beside a mosque, an Aldine print shop with a bound octavo book, and one adult tutoring one child with a tablet. |
+| **The picture** | Five classrooms in a row, drawn from the same camera height, in date order: a philosopher walking with students at the Lyceum, a rhetoric lesson on Rhodes, an Aldine print shop with a bound octavo book, a medrese courtyard beside a mosque, and one adult tutoring one child with a tablet. |
+| **Status** | Spec and draft data written: see [the spec](five-classrooms/spec.md) and the image prompt (`five-classrooms/image-prompt.md`). No image yet. |
 
-**Each zone answers the same four questions:** who could enter, what was the
-medium, what did it cost, and what widened or narrowed the circle. Panels end
-with "Who was left outside?" because that is the thread's question.
+**Each zone follows the book's own four-step pattern** from Chapter 2: locked
+up, opened, resisted, and widened but never all the way. The last step is the
+thread's question, "who was left outside?"
 
 **Sample quiz question:** "Which classroom made one-to-one attention cheap enough for every child?" (Leads into the tutoring-effect sim.)
 

@@ -1,6 +1,6 @@
 ---
-title: Democracy's Workplaces in the Agora
-description: Match nine jobs of Athenian public life, from posting notices to filing the charge against Socrates, to the building on a schematic plan of the Ancient Agora where each was done, and see the democracy's street of offices emerge along the west side.
+title: "Democracy's Workplaces in the Agora"
+description: "Match nine jobs of Athenian public life, from posting notices to filing the charge against Socrates, to the building on a schematic plan of the Ancient Agora where each was done, and see the democracy's street of offices emerge along the west side."
 status: built
 image: /sims/agora-democracy-workplaces/agora-democracy-workplaces.png
 og:image: /sims/agora-democracy-workplaces/agora-democracy-workplaces.png

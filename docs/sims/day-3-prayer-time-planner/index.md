@@ -1,6 +1,6 @@
 ---
-title: Planning Day 3 Around the Prayer Times
-description: Drag Topkapı Palace, three mosques and lunch onto a Friday in Istanbul so that every mosque visit misses the prayer closures, then press Check to see each broken rule named.
+title: "Planning Day 3 Around the Prayer Times"
+description: "Drag Topkapı Palace, three mosques and lunch onto a Friday in Istanbul so that every mosque visit misses the prayer closures, then press Check to see each broken rule named."
 status: built
 image: /sims/day-3-prayer-time-planner/day-3-prayer-time-planner.png
 og:image: /sims/day-3-prayer-time-planner/day-3-prayer-time-planner.png

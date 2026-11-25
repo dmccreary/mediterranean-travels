@@ -1,6 +1,6 @@
 ---
-title: Source, Myth, or Contested?
-description: Classify ten statements about Byzantine Constantinople, from Procopius's golden chain to the bronze horses of Venice, as a primary source, a myth, contested history or settled history.
+title: "Source, Myth, or Contested?"
+description: "Classify ten statements about Byzantine Constantinople, from Procopius's golden chain to the bronze horses of Venice, as a primary source, a myth, contested history or settled history."
 status: built
 image: /sims/source-myth-or-contested/source-myth-or-contested.png
 og:image: /sims/source-myth-or-contested/source-myth-or-contested.png

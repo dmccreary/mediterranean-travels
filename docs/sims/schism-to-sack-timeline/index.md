@@ -1,6 +1,6 @@
 ---
-title: From the Schism to the Sack, 1054–1261
-description: A clickable timeline of seventeen events from the excommunication of 1054 to the recovery of Constantinople in 1261, with four cause questions on how a crusade bound for Egypt ended by sacking Constantinople in 1204.
+title: "From the Schism to the Sack, 1054–1261"
+description: "A clickable timeline of seventeen events from the excommunication of 1054 to the recovery of Constantinople in 1261, with four cause questions on how a crusade bound for Egypt ended by sacking Constantinople in 1204."
 status: built
 image: /sims/schism-to-sack-timeline/schism-to-sack-timeline.png
 og:image: /sims/schism-to-sack-timeline/schism-to-sack-timeline.png

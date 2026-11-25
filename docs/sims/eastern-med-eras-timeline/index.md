@@ -1,6 +1,6 @@
 ---
-title: Eras of the Eastern Mediterranean Timeline
-description: A to-scale timeline of the nine periods of Eastern Mediterranean history, from the Bronze Age to today, with six proportion questions to answer before the band lengths are revealed.
+title: "Eras of the Eastern Mediterranean Timeline"
+description: "A to-scale timeline of the nine periods of Eastern Mediterranean history, from the Bronze Age to today, with six proportion questions to answer before the band lengths are revealed."
 image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png
 og:image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png
 twitter:image: /sims/eastern-med-eras-timeline/eastern-med-eras-timeline.png

@@ -1,6 +1,6 @@
 ---
-title: Paul's Speech Through Stoic Ears
-description: Read ten lines of the speech Acts gives Paul on the Areopagus, predict for each whether a Stoic listener would hear common ground or something new, and see where the speech turns and where Luke says the audience scoffed.
+title: "Paul's Speech Through Stoic Ears"
+description: "Read ten lines of the speech Acts gives Paul on the Areopagus, predict for each whether a Stoic listener would hear common ground or something new, and see where the speech turns and where Luke says the audience scoffed."
 status: built
 image: /sims/areopagus-speech-stoic-ears/areopagus-speech-stoic-ears.png
 og:image: /sims/areopagus-speech-stoic-ears/areopagus-speech-stoic-ears.png

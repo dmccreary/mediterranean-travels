@@ -1,6 +1,6 @@
 ---
-title: The Right Words at the Right Moment
-description: Choose the right Turkish phrase, with its pronunciation guide, in ten everyday Istanbul situations, from breakfast at a café to thanking a home cook, and finish with a phrase sheet for the trip.
+title: "The Right Words at the Right Moment"
+description: "Choose the right Turkish phrase, with its pronunciation guide, in ten everyday Istanbul situations, from breakfast at a café to thanking a home cook, and finish with a phrase sheet for the trip."
 status: built
 image: /sims/turkish-phrase-situations/turkish-phrase-situations.png
 og:image: /sims/turkish-phrase-situations/turkish-phrase-situations.png

@@ -1,6 +1,6 @@
 ---
-title: Documented, Debated, or Tradition?
-description: Rate the evidence for ten claims about the Christian sites of Ephesus and Selçuk as documented, debated, or tradition only, and choose the reason that justifies each rating.
+title: "Documented, Debated, or Tradition?"
+description: "Rate the evidence for ten claims about the Christian sites of Ephesus and Selçuk as documented, debated, or tradition only, and choose the reason that justifies each rating."
 status: built
 image: /sims/ephesus-sites-evidence-judge/ephesus-sites-evidence-judge.png
 og:image: /sims/ephesus-sites-evidence-judge/ephesus-sites-evidence-judge.png

@@ -1,6 +1,6 @@
 ---
-title: Trade Routes of the Eastern Mediterranean
-description: Predict five route-based outcomes, then watch four simplified trade routes from the Bronze Age to Venetian Crete appear on a map of 16 ports and chokepoints.
+title: "Trade Routes of the Eastern Mediterranean"
+description: "Predict five route-based outcomes, then watch four simplified trade routes from the Bronze Age to Venetian Crete appear on a map of 16 ports and chokepoints."
 status: built
 image: /sims/eastern-med-trade-routes-map/eastern-med-trade-routes-map.png
 og:image: /sims/eastern-med-trade-routes-map/eastern-med-trade-routes-map.png

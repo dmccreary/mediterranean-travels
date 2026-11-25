@@ -1,6 +1,6 @@
 ---
-title: Learning Graph Viewer
-description: An interactive viewer for the Mediterranean Travels learning graph of 598 concepts, with search, category filters, and node sizes scaled by each concept's impact.
+title: "Learning Graph Viewer"
+description: "An interactive viewer for the Mediterranean Travels learning graph of 598 concepts, with search, category filters, and node sizes scaled by each concept's impact."
 status: built
 hide:
   toc

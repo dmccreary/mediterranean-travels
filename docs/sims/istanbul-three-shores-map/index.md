@@ -1,6 +1,6 @@
 ---
-title: Istanbul's Three Shores
-description: Classify twelve Istanbul places, from Hagia Sophia to Rumeli Hisarı and Kadıköy, as on the historic peninsula, in Galata, or on the Asian shore, then see each one appear on a satellite map.
+title: "Istanbul's Three Shores"
+description: "Classify twelve Istanbul places, from Hagia Sophia to Rumeli Hisarı and Kadıköy, as on the historic peninsula, in Galata, or on the Asian shore, then see each one appear on a satellite map."
 status: built
 image: /sims/istanbul-three-shores-map/istanbul-three-shores-map.png
 og:image: /sims/istanbul-three-shores-map/istanbul-three-shores-map.png

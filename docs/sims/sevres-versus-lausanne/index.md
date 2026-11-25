@@ -1,6 +1,6 @@
 ---
-title: Sèvres or Lausanne?
-description: Predict, term by term, which of ten terms of the 1920 Treaty of Sèvres the 1923 Treaty of Lausanne reversed and which it kept, then name the rule behind the pattern, the National Pact.
+title: "Sèvres or Lausanne?"
+description: "Predict, term by term, which of ten terms of the 1920 Treaty of Sèvres the 1923 Treaty of Lausanne reversed and which it kept, then name the rule behind the pattern, the National Pact."
 status: built
 image: /sims/sevres-versus-lausanne/sevres-versus-lausanne.png
 og:image: /sims/sevres-versus-lausanne/sevres-versus-lausanne.png

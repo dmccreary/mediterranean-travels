@@ -1,6 +1,6 @@
 ---
-title: Next-Word Prediction and Temperature
-description: Predict what the temperature setting does to a language model's choice of the next word, then reveal the adjusted probabilities and a draw of 20 sampled words, for four prompts from "Know ___" to "On Sundays the Grand Bazaar is ___."
+title: "Next-Word Prediction and Temperature"
+description: 'Predict what the temperature setting does to a language model''s choice of the next word, then reveal the adjusted probabilities and a draw of 20 sampled words, for four prompts from "Know ___" to "On Sundays the Grand Bazaar is ___."'
 status: built
 image: /sims/next-word-temperature-toy/next-word-temperature-toy.png
 og:image: /sims/next-word-temperature-toy/next-word-temperature-toy.png

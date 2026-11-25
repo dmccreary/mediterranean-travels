@@ -1,6 +1,6 @@
 ---
-title: Reinforcing or Balancing? Loops From Ephesus to the Staff Room
-description: Classify six causal loops, two from Paul's world and four from school change, as reinforcing or balancing by counting the minus signs around each one, and see that harmful loops can be reinforcing and that the Ephesus riot has the same structure as a rollout pushback.
+title: "Reinforcing or Balancing? Loops From Ephesus to the Staff Room"
+description: "Classify six causal loops, two from Paul's world and four from school change, as reinforcing or balancing by counting the minus signs around each one, and see that harmful loops can be reinforcing and that the Ephesus riot has the same structure as a rollout pushback."
 status: built
 image: /sims/loops-ephesus-to-staff-room/loops-ephesus-to-staff-room.png
 og:image: /sims/loops-ephesus-to-staff-room/loops-ephesus-to-staff-room.png

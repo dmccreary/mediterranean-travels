@@ -1,6 +1,6 @@
 ---
-title: Delphi After the Oracle
-description: Predict the stage of nine events in Delphi's history after the oracle closed, from the Theodosian Decrees of 391-392 CE to the UNESCO listing of 1987, as silenced, found, dug up, or shown, and watch each drop onto a timeline that squeezes the empty thousand years between them.
+title: "Delphi After the Oracle"
+description: "Predict the stage of nine events in Delphi's history after the oracle closed, from the Theodosian Decrees of 391-392 CE to the UNESCO listing of 1987, as silenced, found, dug up, or shown, and watch each drop onto a timeline that squeezes the empty thousand years between them."
 status: built
 image: /sims/delphi-after-the-oracle-timeline/delphi-after-the-oracle-timeline.png
 og:image: /sims/delphi-after-the-oracle-timeline/delphi-after-the-oracle-timeline.png

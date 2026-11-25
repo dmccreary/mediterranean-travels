@@ -1,6 +1,6 @@
 ---
-title: Where the Empire Withdrew, 1683–1923
-description: Classify fourteen places of the former Ottoman Empire, from Buda and Crimea to Mecca and Damascus, by the era in which they left Ottoman rule, then replay the four eras on a map to see the shape of the retreat.
+title: "Where the Empire Withdrew, 1683–1923"
+description: "Classify fourteen places of the former Ottoman Empire, from Buda and Crimea to Mecca and Damascus, by the era in which they left Ottoman rule, then replay the four eras on a map to see the shape of the retreat."
 status: built
 image: /sims/ottoman-retreat-map/ottoman-retreat-map.png
 og:image: /sims/ottoman-retreat-map/ottoman-retreat-map.png

@@ -1,6 +1,6 @@
 ---
-title: Who Was Exchanged in 1923?
-description: Apply five simplified rules of the 1923 Greek–Turkish population exchange convention to ten illustrative households and decide whether each was sent to Greece, sent to Turkey, or not exchanged.
+title: "Who Was Exchanged in 1923?"
+description: "Apply five simplified rules of the 1923 Greek–Turkish population exchange convention to ten illustrative households and decide whether each was sent to Greece, sent to Turkey, or not exchanged."
 status: built
 image: /sims/population-exchange-1923-cases/population-exchange-1923-cases.png
 og:image: /sims/population-exchange-1923-cases/population-exchange-1923-cases.png

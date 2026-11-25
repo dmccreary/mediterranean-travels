@@ -1,6 +1,6 @@
 ---
-title: A Day at the Oracle
-description: Put the eight steps of a consultation at the Oracle of Delphi in order, from arriving on the seventh of the month to carrying the answer home, then walk through the day and predict what happens at three checkpoints - the goat test, the line, and the form of the answer.
+title: "A Day at the Oracle"
+description: "Put the eight steps of a consultation at the Oracle of Delphi in order, from arriving on the seventh of the month to carrying the answer home, then walk through the day and predict what happens at three checkpoints - the goat test, the line, and the form of the answer."
 status: built
 image: /sims/delphi-consultation-steps/delphi-consultation-steps.png
 og:image: /sims/delphi-consultation-steps/delphi-consultation-steps.png

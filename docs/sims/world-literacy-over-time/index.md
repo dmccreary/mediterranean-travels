@@ -1,6 +1,6 @@
 ---
-title: World Literacy Over Two Centuries
-description: Predict how many of the world's people could read in 1820, when more than half first could, and what share of adults still cannot, then see each answer on two centuries of literacy data.
+title: "World Literacy Over Two Centuries"
+description: "Predict how many of the world's people could read in 1820, when more than half first could, and what share of adults still cannot, then see each answer on two centuries of literacy data."
 status: built
 image: /sims/world-literacy-over-time/world-literacy-over-time.png
 og:image: /sims/world-literacy-over-time/world-literacy-over-time.png

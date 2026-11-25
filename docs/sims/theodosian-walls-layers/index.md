@@ -1,6 +1,6 @@
 ---
-title: Layers of the Theodosian Walls
-description: Place the five layers of Constantinople's land walls, from the moat to the inner wall, on a schematic cross-section in the order an attacker from the west met them, then answer three questions on why the design worked.
+title: "Layers of the Theodosian Walls"
+description: "Place the five layers of Constantinople's land walls, from the moat to the inner wall, on a schematic cross-section in the order an attacker from the west met them, then answer three questions on why the design worked."
 status: built
 image: /sims/theodosian-walls-layers/theodosian-walls-layers.png
 og:image: /sims/theodosian-walls-layers/theodosian-walls-layers.png

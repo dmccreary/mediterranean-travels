@@ -1,6 +1,6 @@
 ---
-title: Doric, Ionic, or Corinthian?
-description: Compare one part at a time across the Doric, Ionic, and Corinthian orders, then classify twelve column features and real buildings from our route, from the Parthenon to the Basilica Stoa of Ephesus.
+title: "Doric, Ionic, or Corinthian?"
+description: "Compare one part at a time across the Doric, Ionic, and Corinthian orders, then classify twelve column features and real buildings from our route, from the Parthenon to the Basilica Stoa of Ephesus."
 status: built
 image: /sims/classical-orders-identifier/classical-orders-identifier.png
 og:image: /sims/classical-orders-identifier/classical-orders-identifier.png

@@ -1,6 +1,6 @@
 ---
-title: The Parthenon's Five Lives
-description: Classify twelve events from 447 BCE to 2009 CE by which of the Parthenon's five lives it was living, temple, church, mosque, ruin or protected monument, and watch each card drop onto a timeline from 500 BCE to 2030 CE.
+title: "The Parthenon's Five Lives"
+description: "Classify twelve events from 447 BCE to 2009 CE by which of the Parthenon's five lives it was living, temple, church, mosque, ruin or protected monument, and watch each card drop onto a timeline from 500 BCE to 2030 CE."
 status: built
 image: /sims/parthenon-five-lives-timeline/parthenon-five-lives-timeline.png
 og:image: /sims/parthenon-five-lives-timeline/parthenon-five-lives-timeline.png

@@ -1,6 +1,6 @@
 ---
-title: The Olympian Gods at Troy
-description: Predict, then sort the twelve Olympian gods by the side each took in Homer's Iliad (the Greeks, the Trojans, or outside the fight), and discover that the gods chose sides for human reasons such as pride, old debts, and favorites.
+title: "The Olympian Gods at Troy"
+description: "Predict, then sort the twelve Olympian gods by the side each took in Homer's Iliad (the Greeks, the Trojans, or outside the fight), and discover that the gods chose sides for human reasons such as pride, old debts, and favorites."
 status: built
 image: /sims/olympian-gods-at-troy/olympian-gods-at-troy.png
 og:image: /sims/olympian-gods-at-troy/olympian-gods-at-troy.png

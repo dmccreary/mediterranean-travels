@@ -1,6 +1,6 @@
 ---
-title: One Walk, Seven Centuries
-description: Walk downhill through Ephesus monument by monument, predicting whether each one was begun before or after the one just passed, and watch the timeline zigzag across seven centuries.
+title: "One Walk, Seven Centuries"
+description: "Walk downhill through Ephesus monument by monument, predicting whether each one was begun before or after the one just passed, and watch the timeline zigzag across seven centuries."
 status: built
 image: /sims/ephesus-walk-timeline/ephesus-walk-timeline.png
 og:image: /sims/ephesus-walk-timeline/ephesus-walk-timeline.png

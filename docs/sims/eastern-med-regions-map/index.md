@@ -1,6 +1,6 @@
 ---
-title: Regions of the Eastern Mediterranean Map
-description: An atlas-style map of the regions, island groups, seas, and straits named in Chapter 1, with hover infoboxes, a 12-region exploration checklist, a Find the Region challenge, and a live stream of xAPI learning events.
+title: "Regions of the Eastern Mediterranean Map"
+description: "An atlas-style map of the regions, island groups, seas, and straits named in Chapter 1, with hover infoboxes, a 12-region exploration checklist, a Find the Region challenge, and a live stream of xAPI learning events."
 image: /sims/eastern-med-regions-map/eastern-med-regions-map.png
 og:image: /sims/eastern-med-regions-map/eastern-med-regions-map.png
 twitter:image: /sims/eastern-med-regions-map/eastern-med-regions-map.png

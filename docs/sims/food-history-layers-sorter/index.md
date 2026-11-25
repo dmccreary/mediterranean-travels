@@ -1,6 +1,6 @@
 ---
-title: Reading Food in Layers
-description: Sort fourteen foods found in Istanbul, from olives and yogurt to coffee, tomatoes and tea, into the five historical layers they arrived with, and read a Turkish table like a history book.
+title: "Reading Food in Layers"
+description: "Sort fourteen foods found in Istanbul, from olives and yogurt to coffee, tomatoes and tea, into the five historical layers they arrived with, and read a Turkish table like a history book."
 status: built
 image: /sims/food-history-layers-sorter/food-history-layers-sorter.png
 og:image: /sims/food-history-layers-sorter/food-history-layers-sorter.png

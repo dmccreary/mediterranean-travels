@@ -1,6 +1,6 @@
 ---
-title: Tutoring Effect Size Explorer
-description: Predict the percentile that five reported effect sizes for tutoring, mastery learning, and an AI tutor pilot put the average student at, then watch two normal curves separate to check, and explore how effect size in standard deviations turns into percentiles.
+title: "Tutoring Effect Size Explorer"
+description: "Predict the percentile that five reported effect sizes for tutoring, mastery learning, and an AI tutor pilot put the average student at, then watch two normal curves separate to check, and explore how effect size in standard deviations turns into percentiles."
 status: built
 image: /sims/tutoring-effect-size-explorer/tutoring-effect-size-explorer.png
 og:image: /sims/tutoring-effect-size-explorer/tutoring-effect-size-explorer.png

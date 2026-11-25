@@ -1,6 +1,6 @@
 ---
 title: "Mind the Gap: How Old Is the Evidence?"
-description: Judge eight stories about Troy and Gallipoli as firm history, a real core with a shaped telling, or late or unsupported, by predicting and then measuring on a timeline the gap between each event and its earliest surviving evidence, and weighing the author's stake.
+description: "Judge eight stories about Troy and Gallipoli as firm history, a real core with a shaped telling, or late or unsupported, by predicting and then measuring on a timeline the gap between each event and its earliest surviving evidence, and weighing the author's stake."
 status: built
 image: /sims/troy-gallipoli-evidence-gap/troy-gallipoli-evidence-gap.png
 og:image: /sims/troy-gallipoli-evidence-gap/troy-gallipoli-evidence-gap.png

@@ -1,6 +1,6 @@
 ---
-title: Paul's Journeys and Our Route
-description: Classify twelve places by the journey on which the Book of Acts first brings Paul there, then reveal Paul's three journeys and his voyage to Rome on one map with our own November 2026 route.
+title: "Paul's Journeys and Our Route"
+description: "Classify twelve places by the journey on which the Book of Acts first brings Paul there, then reveal Paul's three journeys and his voyage to Rome on one map with our own November 2026 route."
 status: built
 image: /sims/paul-journeys-and-our-route/paul-journeys-and-our-route.png
 og:image: /sims/paul-journeys-and-our-route/paul-journeys-and-our-route.png

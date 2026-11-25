@@ -1,6 +1,6 @@
 ---
-title: How Calibrated Are You?
-description: State the probability that each of twelve statements from this book is true, see your Brier score, reliability table and calibration chart, judge whether you were overconfident, then judge two weather forecasters whose 70 and 90 percent forecasts came true 7 and 6 times in 10.
+title: "How Calibrated Are You?"
+description: "State the probability that each of twelve statements from this book is true, see your Brier score, reliability table and calibration chart, judge whether you were overconfident, then judge two weather forecasters whose 70 and 90 percent forecasts came true 7 and 6 times in 10."
 status: built
 image: /sims/calibration-confidence-game/calibration-confidence-game.png
 og:image: /sims/calibration-confidence-game/calibration-confidence-game.png

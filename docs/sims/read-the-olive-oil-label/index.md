@@ -1,6 +1,6 @@
 ---
-title: Read the Olive Oil Label
-description: Judge whether nine illustrative olive oil labels support the claims on their fronts, using the EU acidity limits, the 27 °C rule for "cold extraction", harvest dates, and origin wording.
+title: "Read the Olive Oil Label"
+description: 'Judge whether nine illustrative olive oil labels support the claims on their fronts, using the EU acidity limits, the 27 °C rule for "cold extraction", harvest dates, and origin wording.'
 status: built
 image: /sims/read-the-olive-oil-label/read-the-olive-oil-label.png
 og:image: /sims/read-the-olive-oil-label/read-the-olive-oil-label.png

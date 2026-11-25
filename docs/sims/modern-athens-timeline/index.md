@@ -1,6 +1,6 @@
 ---
-title: Why Athens Looks the Way It Does
-description: Match eight things a visitor sees in Athens today, from the Polytechnic gate to euro prices and a Syrian bakery, to the events in modern Greek history from 1967 to 2023 that explain them, on an interactive timeline.
+title: "Why Athens Looks the Way It Does"
+description: "Match eight things a visitor sees in Athens today, from the Polytechnic gate to euro prices and a Syrian bakery, to the events in modern Greek history from 1967 to 2023 that explain them, on an interactive timeline."
 status: built
 image: /sims/modern-athens-timeline/modern-athens-timeline.png
 og:image: /sims/modern-athens-timeline/modern-athens-timeline.png

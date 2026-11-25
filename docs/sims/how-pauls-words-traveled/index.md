@@ -1,6 +1,6 @@
 ---
-title: How Paul's Words Traveled
-description: Sort twelve dated events from 386 to 1999 into four strands of Paul's later influence (grace and faith, conscience and equality, contempt and its repudiation, rereading Paul) and see one man, Martin Luther, land in three of them.
+title: "How Paul's Words Traveled"
+description: "Sort twelve dated events from 386 to 1999 into four strands of Paul's later influence (grace and faith, conscience and equality, contempt and its repudiation, rereading Paul) and see one man, Martin Luther, land in three of them."
 status: built
 image: /sims/how-pauls-words-traveled/how-pauls-words-traveled.png
 og:image: /sims/how-pauls-words-traveled/how-pauls-words-traveled.png

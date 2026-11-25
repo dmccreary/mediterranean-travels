@@ -1,6 +1,6 @@
 ---
-title: Who Made a Greek Book in Venice?
-description: Attribute ten contributions to Greek printing in Venice around 1500 to Aldus Manutius, Marcus Musurus, Francesco Griffo, Zacharias Kallierges, and six others, and watch the network of editors, printers, financiers, and patrons grow one link at a time.
+title: "Who Made a Greek Book in Venice?"
+description: "Attribute ten contributions to Greek printing in Venice around 1500 to Aldus Manutius, Marcus Musurus, Francesco Griffo, Zacharias Kallierges, and six others, and watch the network of editors, printers, financiers, and patrons grow one link at a time."
 status: built
 image: /sims/greek-book-makers-venice-network/greek-book-makers-venice-network.png
 og:image: /sims/greek-book-makers-venice-network/greek-book-makers-venice-network.png
