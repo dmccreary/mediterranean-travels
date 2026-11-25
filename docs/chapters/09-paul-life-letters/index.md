@@ -846,7 +846,7 @@ The **New Testament** is the second part of the Christian Bible: 27 writings in 
 
 #### Diagram: Where in Paul's Life Was Each Letter Written?
 
-<iframe src="../../sims/paul-letters-on-his-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/paul-letters-on-his-timeline/main.html" height="604px" width="100%" scrolling="no"></iframe>
 
 [Run the Where in Paul's Life Was Each Letter Written? MicroSim Fullscreen](../../sims/paul-letters-on-his-timeline/main.html){ .md-button .md-button--primary }
 
