@@ -515,7 +515,7 @@ With that background, the table below summarizes the main crusades in order. Num
 
 #### Diagram: From the Schism to the Sack, 1054–1261
 
-<iframe src="../../sims/schism-to-sack-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/schism-to-sack-timeline/main.html" height="710px" width="100%" scrolling="no"></iframe>
 
 [Run the From the Schism to the Sack, 1054–1261 MicroSim Fullscreen](../../sims/schism-to-sack-timeline/main.html){ .md-button .md-button--primary }
 

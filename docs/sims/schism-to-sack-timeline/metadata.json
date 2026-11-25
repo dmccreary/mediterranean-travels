@@ -1,42 +1,69 @@
 {
-  "title": "From the Schism to the Sack, 1054\u20131261",
+  "title": "From the Schism to the Sack, 1054–1261",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for from the schism to the sack, 1054\u20131261",
+  "description": "A clickable vis-timeline of seventeen events in three rows (Church, Crusades, Byzantium and Venice) from 1054 to 1261, with four cause questions on how the Fourth Crusade ended by sacking Constantinople in 1204.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "From the Schism to the Sack, 1054\u20131261",
+    "topic": "From the Schism to the Sack, 1054–1261",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Explain how earlier events from 1054 to 1203 led to the sack of Constantinople in 1204, by choosing the earlier event that best explains each of four later events, with at least 3 of 4 correct."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15 minutes",
+    "prerequisites": [
+      "The Crusades",
+      "The Great Schism of 1054",
+      "The Fourth Crusade",
+      "The Republic of Venice",
+      "The Byzantine Empire",
+      "The Seljuk Turks"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 706
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Step-through timeline exploration followed by cause questions with immediate feedback",
+    "keyQuestions": [
+      "The Fourth Crusade set out for Egypt. How did it end in Constantinople?",
+      "Which earlier event best explains this later one?",
+      "Where do the Church, Crusades, and Byzantium-and-Venice rows converge?"
+    ],
+    "commonMisconceptions": [
+      "The Fourth Crusade set out to attack Constantinople.",
+      "The Great Schism of 1054 was a single clean break that all Christians felt at once.",
+      "The Crusades were a single war.",
+      "Venice and Byzantium were always enemies."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on four cause questions (mastery: 3 of 4).",
+      "Explain in three sentences, citing event numbers, how a crusade bound for Egypt ended in Constantinople.",
+      "Explain why the Schism of 1054 was not the direct cause of the sack of 1204."
+    ]
   },
-  "chapter": "04-byzantine-constantinople"
+  "chapter": "04-byzantine-constantinople",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/schism-to-sack-timeline/"
 }
