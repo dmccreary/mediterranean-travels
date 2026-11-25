@@ -148,16 +148,6 @@ nav:
     - List of Posters: posters/index.md
     - The Three Classical Orders: posters/column-types/index.md
 
-
-
-  - Appendices:
-    - List of Appendices: appendices/index.md
-    - Trip Photo Metrics: appendices/photo-metrics.md
-    - Pronunciation Guide: appendices/pronunciation-guide.md
-    - Timeline of Events: appendices/timeline-of-events.md
-    - Extensions and Excursions: appendices/extensions-and-excursions.md
-    - Who Created the Antikythera Mechanism: appendices/antikythera-mechanism.md
-
   - Stories:
     - Overview: stories/index.md
     - Story Ideas: stories/story-ideas.md
@@ -184,10 +174,18 @@ nav:
     - "20. The Pythia's Busy Day": stories/pythias-busy-day/index.md
     - "21. The Computer at the Bottom of the Sea": stories/computer-at-the-bottom-of-the-sea/index.md
     - "22. The Day the Imam Fainted": stories/day-the-imam-fainted/index.md
+  
+  - Appendices:
+    - List of Appendices: appendices/index.md
+    - Trip Photo Metrics: appendices/photo-metrics.md
+    - Pronunciation Guide: appendices/pronunciation-guide.md
+    - Timeline of Events: appendices/timeline-of-events.md
+    - Extensions and Excursions: appendices/extensions-and-excursions.md
+    - Who Created the Antikythera Mechanism: appendices/antikythera-mechanism.md
+
 
   - FAQ: faq.md
   - Glossary: glossary.md
-
   - License: license.md
   - Contact: contact.md
 
