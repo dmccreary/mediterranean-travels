@@ -78,6 +78,12 @@ nav:
     - Regions of the Eastern Mediterranean Map: sims/eastern-med-regions-map/index.md
     - Viking Cruise Map: sims/viking-cruise-map/index.md
 
+  - Posters:
+    - List of Posters: posters/index.md
+    - The Three Classical Orders: posters/column-types/index.md
+
+
+
   - Appendices:
     - List of Appendices: appendices/index.md
     - Trip Photo Metrics: appendices/photo-metrics.md
@@ -150,8 +156,8 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  # Currency-safe math: inline is \(...\) only, never single $. Run
-  # book-installer feature 5 (KaTeX) to add the renderer.
+  # Currency-safe math: inline is \(...\) only, never single $. Rendered by
+  # KaTeX (see extra_javascript and docs/js/katex.js).
   - pymdownx.arithmatex:
       generic: true
       inline_syntax: ['round']
@@ -161,10 +167,16 @@ markdown_extensions:
 extra_css:
   - css/extra.css
   - css/mascot.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
 
-# Custom JavaScript — uncomment once a corresponding file exists
-# extra_javascript:
-#   - js/extra.js
+# Custom JavaScript
+# KaTeX math rendering (book-installer feature 5). js/katex.js holds the
+# currency-safe auto-render config: inline math is \(...\) only, display math
+# is $$...$$ or \[...\], and a single $ (prices like $20) is never math.
+extra_javascript:
+  - js/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |
