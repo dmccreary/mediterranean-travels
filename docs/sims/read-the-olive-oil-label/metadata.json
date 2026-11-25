@@ -2,41 +2,70 @@
   "title": "Read the Olive Oil Label",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for read the olive oil label",
-  "date": "2026-11-24",
+  "description": "A p5.js judging activity with nine illustrative olive oil labels: learners turn each label to read the back and judge whether it supports the claim on the front, using the EU acidity limits, the 27 °C rule for cold extraction, harvest dates, and origin wording.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
+    "subjectArea": "Health",
     "topic": "Read the Olive Oil Label",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge whether each of nine olive oil labels supports the claim on its front, using the EU grade limits, the cold-extraction rule, harvest dates, and origin wording, judging at least 7 of 9 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Evaluate",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Olive oil",
+      "The four grades and their free-acidity limits",
+      "Malaxation",
+      "Cold extraction below 27 °C",
+      "Harvest date versus best-before date",
+      "Calories per tablespoon"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 532
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Judging claims against evidence with a visible standard, one scored attempt per label, and the deciding detail highlighted in feedback",
+    "keyQuestions": [
+      "Does the bottle live up to its claim?",
+      "Which detail on the back label decides it?",
+      "Is this a marketing phrase with a legal rule behind it, or without one?"
+    ],
+    "commonMisconceptions": [
+      "\"Light\" olive oil has fewer calories.",
+      "Any oil called extra virgin is extra virgin, whatever its acidity.",
+      "\"Cold\" is a vague marketing word with no rule.",
+      "A blend containing virgin oil can be called extra virgin.",
+      "A best-before date in the future means the oil is fresh.",
+      "An oil bottled or sold in Greece is Greek oil."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on nine labels (mastery: 7 of 9).",
+      "Group the six unsupported labels by the kind of detail that decided them.",
+      "Judge the front claims of two real bottles in a shop."
+    ]
   },
-  "chapter": "12-rhodes"
+  "chapter": "12-rhodes",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/read-the-olive-oil-label/"
 }

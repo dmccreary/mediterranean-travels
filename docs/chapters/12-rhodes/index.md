@@ -583,7 +583,7 @@ The MicroSim below gives practice with nine labels like these.
 
 #### Diagram: Read the Olive Oil Label
 
-<iframe src="../../sims/read-the-olive-oil-label/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/read-the-olive-oil-label/main.html" height="536px" width="100%" scrolling="no"></iframe>
 
 [Run the Read the Olive Oil Label MicroSim Fullscreen](../../sims/read-the-olive-oil-label/main.html){ .md-button .md-button--primary }
 
