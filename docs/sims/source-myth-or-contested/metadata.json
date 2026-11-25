@@ -2,7 +2,7 @@
   "title": "Source, Myth, or Contested?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for source, myth, or contested?",
+  "description": "Classify ten statements about Byzantine Constantinople as a primary source, a myth, contested history or settled history, with the reason shown after each answer.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "Source, Myth, or Contested?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify ten statements about Byzantine Constantinople as a primary source, a myth, contested history or settled history, with at least 8 of 10 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Primary source",
+      "Secondary source",
+      "Myth",
+      "History",
+      "Contested history"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 490
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification practice with immediate feedback",
+    "keyQuestions": [
+      "What kind of statement is this?",
+      "Who wrote it, for whom, and why?",
+      "When does this story first appear?",
+      "Who is this past important to now?"
+    ],
+    "commonMisconceptions": [
+      "A primary source is a true source.",
+      "A myth is a lie and has no value.",
+      "Any disagreement means the facts are unknown, when in contested history the facts are agreed and the meaning is disputed.",
+      "A story told by every tour guide must be history."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on ten statements (mastery: 8 of 10).",
+      "Explain why the eyewitness accounts of Procopius and Choniates are primary sources even though each is one-sided.",
+      "Classify a new story heard on site, such as the weeping column, and say how to test it."
+    ]
   },
-  "chapter": "04-byzantine-constantinople"
+  "chapter": "04-byzantine-constantinople",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/source-myth-or-contested/"
 }

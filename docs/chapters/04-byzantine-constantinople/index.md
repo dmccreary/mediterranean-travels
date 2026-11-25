@@ -115,6 +115,10 @@ The MicroSim below gives us practice with those three questions, using statement
 
 #### Diagram: Source, Myth, or Contested?
 
+<iframe src="../../sims/source-myth-or-contested/main.html" height="494px" width="100%" scrolling="no"></iframe>
+
+[Run the Source, Myth, or Contested? MicroSim Fullscreen](../../sims/source-myth-or-contested/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Source, Myth, or Contested?</summary>
 Type: microsim
@@ -251,6 +255,10 @@ We now have the parts, and can put them together. **Reading a ruin** is the prac
     Think of Hagia Sophia as a document with many authors, each writing on the same page in a different ink. Justinian wrote the dome, a 12th-century emperor wrote a mosaic, Mehmed wrote a minaret, and a 19th-century calligrapher wrote the great roundels. Reading a ruin means telling the inks apart.
 
 #### Diagram: Read the Ruin: Which Layer?
+
+<iframe src="../../sims/read-the-ruin-layers/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Read the Ruin: Which Layer? MicroSim Fullscreen](../../sims/read-the-ruin-layers/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Read the Ruin: Which Layer?</summary>
@@ -506,6 +514,10 @@ With that background, the table below summarizes the main crusades in order. Num
     If the Crusades blur together, that is normal; even historians argue about how to number them. For Day 2 we need only three dates: 1095, when Constantinople asked for help; 1099, when Jerusalem fell; and 1204, when the crusaders turned on Constantinople. The timeline below lets us hang everything else on those three.
 
 #### Diagram: From the Schism to the Sack, 1054–1261
+
+<iframe src="../../sims/schism-to-sack-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the From the Schism to the Sack, 1054–1261 MicroSim Fullscreen](../../sims/schism-to-sack-timeline/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>From the Schism to the Sack, 1054–1261</summary>
