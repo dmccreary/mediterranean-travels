@@ -599,7 +599,7 @@ Reading food as history means asking four questions of any dish. *Where did each
 
 #### Diagram: Reading Food in Layers
 
-<iframe src="../../sims/food-history-layers-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/food-history-layers-sorter/main.html" height="564px" width="100%" scrolling="no"></iframe>
 
 [Run the Reading Food in Layers MicroSim Fullscreen](../../sims/food-history-layers-sorter/main.html){ .md-button .md-button--primary }
 
