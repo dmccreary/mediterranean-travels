@@ -408,7 +408,7 @@ The timeline below sets the Parthenon's lives in order and asks us to place twel
 
 #### Diagram: The Parthenon's Five Lives
 
-<iframe src="../../sims/parthenon-five-lives-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/parthenon-five-lives-timeline/main.html" height="548px" width="100%" scrolling="no"></iframe>
 
 [Run the Parthenon's Five Lives MicroSim Fullscreen](../../sims/parthenon-five-lives-timeline/main.html){ .md-button .md-button--primary }
 

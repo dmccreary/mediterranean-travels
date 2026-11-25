@@ -2,41 +2,67 @@
   "title": "The Parthenon's Five Lives",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for the parthenon's five lives",
-  "date": "2026-11-24",
+  "description": "Classify twelve events in the Parthenon's history by which of its five lives the building was living: temple, church, mosque, ruin, or protected monument. Each answered card drops onto a timeline from 500 BCE to 2030 CE, and the five lives appear as bands at the end.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "The Parthenon's Five Lives",
+    "topic": "The Parthenon's history from temple to monument",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve events in the Parthenon's history by which of the building's five lives it was living when each event happened, classifying at least 10 of 12 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "The Parthenon",
+      "The Parthenon sculptures",
+      "The Parthenon as church and mosque",
+      "Lord Elgin",
+      "The Acropolis Museum",
+      "Restoration"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 544
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification with immediate feedback, then reveal on a shared timeline",
+    "keyQuestions": [
+      "What was the building being used for on this date?",
+      "Was the Parthenon whole or ruined when the 1687 explosion happened?",
+      "Was it whole or ruined when Elgin's agents removed the sculptures?"
+    ],
+    "commonMisconceptions": [
+      "The Parthenon was ruined in antiquity, not in 1687.",
+      "The Parthenon went straight from temple to ruin.",
+      "Elgin's removals happened in a working building rather than a ruin.",
+      "The building has been unchanged since the Greek state took it over in the 1830s."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12, with cards 7 and 9 correct).",
+      "Explain when and how the Parthenon became a ruin."
+    ]
   },
-  "chapter": "15-athens-acropolis"
+  "chapter": "15-athens-acropolis",
+  "type": "Interactive Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/parthenon-five-lives-timeline/"
 }
