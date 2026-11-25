@@ -1,0 +1,153 @@
+{
+  "title": "Roman Bath and Turkish Hamam",
+  "image": "bath-and-hamam.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#5E8C31",
+    "#1F6F8B",
+    "#C9A227",
+    "#B5532D",
+    "#6A3FB5"
+  ],
+  "zones": [
+    {
+      "id": "changing",
+      "label": "Changing Room",
+      "color": "#5E8C31",
+      "x1": 1.17,
+      "y1": 1.56,
+      "x2": 20.49,
+      "y2": 98.44,
+      "tooltip": "The changing room: where a Roman bath and a hamam each begin. Click for details.",
+      "summary": "Both baths begin with a place to undress, and the hamam's cool hall is also where bathers rest.",
+      "facts": [
+        "Roman: a bather moved through a sequence of rooms that began with a changing room. The baths, called thermae, were social centers as much as places to get clean, with exercise courts, gardens, libraries, and snack sellers.",
+        "Hamam: the first room is a cool domed hall for changing and resting. Bathers wrap themselves in a thin cotton cloth, the peştemal. Men and women bathe separately, in separate sections or at separate times.",
+        "If we try a hamam: book a time slot the day before, choose the traditional bath with scrub and foam, leave valuables in the locker, and go at least two hours before we need to board the ship.",
+        "Where the parallel breaks: a Roman bath could be a whole leisure complex, with courts, gardens, and a library. The chapter describes a hamam as three main rooms and mentions no such grounds.",
+        "On our route: the ruins of Roman baths at Ephesus (Day 7), and the historic hamams of Istanbul's old city, two of them by Sinan, which are open to visitors (Day 4)."
+      ]
+    },
+    {
+      "id": "cold",
+      "label": "Cold Room",
+      "color": "#1F6F8B",
+      "x1": 20.76,
+      "y1": 1.56,
+      "x2": 40.08,
+      "y2": 98.44,
+      "tooltip": "The cold room: the Roman frigidarium, which the hamam has no separate room for. Click for details.",
+      "summary": "The Roman bath had a cold room of its own; the hamam has a cool hall instead.",
+      "facts": [
+        "Roman: the cold room, the frigidarium, came second in the sequence of rooms, after the changing room and before the warm and hot rooms.",
+        "Hamam: the chapter names three main rooms, not four: a cool domed hall, a warm room, and a hot steam room. The cool hall is the nearest match to both the Roman changing room and the cold room.",
+        "The continuity claim, kept modest: the hamam is descended from the Roman and Byzantine baths but adapted to Islamic ideas of cleanliness, which prefer flowing water to sitting in a shared pool.",
+        "The Byzantine link: Constantinople inherited the custom. The great Baths of Zeuxippus stood beside the Hippodrome, decorated by Constantine with ancient statues, until they burned in the Nika Riots of 532.",
+        "On our route: the Hippodrome, beside which the Baths of Zeuxippus stood (Day 2). After a hamam, leave time to sit with a glass of tea (Day 4)."
+      ]
+    },
+    {
+      "id": "warm",
+      "label": "Warm Room",
+      "color": "#C9A227",
+      "x1": 40.34,
+      "y1": 1.56,
+      "x2": 59.66,
+      "y2": 98.44,
+      "tooltip": "The warm room: the Roman tepidarium and the hamam's warm room, the step between cool and hot. Click for details.",
+      "summary": "Both baths step the bather from cool to hot through a warm room, and both were places to meet.",
+      "facts": [
+        "Roman: the warm room, the tepidarium, sat between the cold room and the hot room in the bather's sequence.",
+        "Hamam: the second of its three main rooms is a warm room, between the cool hall and the hot steam room.",
+        "Neither bath was only for washing. For centuries the hamam was where neighbors met, brides were prepared for weddings, and news was shared, much as the Roman thermae were social centers.",
+        "Bathing could also pay for other things. In the Süleymaniye complex, bathers paid a fee at the public bath, and the income went to the charitable foundation behind the mosque.",
+        "Where the parallel breaks: the Roman warm room is one of four rooms in a sequence and the hamam's is one of three, so the two plans cannot be laid over each other room for room.",
+        "On our route: a Turkish bath of the 16th century stands near the top of Sokratous Street in the Old Town of Rhodes (Day 8)."
+      ]
+    },
+    {
+      "id": "hot",
+      "label": "Hot Room",
+      "color": "#B5532D",
+      "x1": 59.92,
+      "y1": 1.56,
+      "x2": 79.24,
+      "y2": 98.44,
+      "tooltip": "The hot room: the Roman caldarium and the hamam's steam room with its heated marble stone. Click for details.",
+      "summary": "The Roman caldarium and the hamam's steam room are the hot end of each bath, and the hamam's centerpiece is a heated stone.",
+      "facts": [
+        "Roman: the hot room, the caldarium, was heated by hot air from furnaces circulating under raised floors and inside the walls.",
+        "Hamam: at the center of the hot steam room is the göbek taşı, the \"navel stone,\" a heated marble platform where bathers lie to sweat.",
+        "After the sweat, an attendant scrubs the bather with a rough mitt, the kese, and washes them in clouds of soap foam.",
+        "Where the parallel breaks: the chapter describes no Roman counterpart to the göbek taşı, and the hamam favors flowing water over a shared pool.",
+        "On our route: a hamam in Istanbul's old city, if we book one (Day 4), and the ruins of the Roman baths at Ephesus (Day 7)."
+      ]
+    },
+    {
+      "id": "heat",
+      "label": "Heat Source",
+      "color": "#6A3FB5",
+      "x1": 79.51,
+      "y1": 1.56,
+      "x2": 98.83,
+      "y2": 98.44,
+      "tooltip": "The heat source: the Roman hypocaust under the floors, and the hamam's heated stone. Click for details.",
+      "summary": "A Roman bath was warmed by hot air under its floors, and the hamam's most visible heated feature is its marble stone.",
+      "facts": [
+        "Roman: the system was called the hypocaust. Hot air from furnaces circulated under raised floors and inside the walls, so the heat came from the building itself.",
+        "Hamam: the heated feature a bather meets is the göbek taşı, the marble platform at the center of the hot room.",
+        "The continuity claim, kept modest: the hamam is the Ottoman form of the public bath, descended from the Roman and Byzantine baths but adapted to Islamic ideas of cleanliness, not copied from them.",
+        "Where the parallel breaks: the chapter describes a building-wide hypocaust for the Roman bath but names only the heated stone for the hamam, so a hypocaust should not be assumed beneath a hamam.",
+        "On our route: the ruins of the Roman baths at Ephesus (Day 7), and the Süleymaniye complex in Istanbul, which had its own public bath (Day 3)."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which room in a hamam does the same job as the Roman caldarium?",
+      "correct_zone": "hot",
+      "explanation": "The caldarium was the Roman hot room, and the hamam's counterpart is its hot steam room, where the göbek taşı, a heated marble platform, sits at the center."
+    },
+    {
+      "question": "Which part of a Roman bath was the hypocaust, a system of hot air under raised floors and inside the walls?",
+      "correct_zone": "heat",
+      "explanation": "Hot air from furnaces circulated under the floors and inside the walls. The chapter names only a heated stone, not a hypocaust, for the hamam."
+    },
+    {
+      "question": "Where would a visitor wrap in a thin cotton peştemal, leave valuables in a locker, and later sit with a glass of tea?",
+      "correct_zone": "changing",
+      "explanation": "The hamam begins and ends in its cool domed hall, where bathers change and rest. The chapter advises leaving time for tea afterward."
+    },
+    {
+      "question": "The chapter counts four rooms in a Roman bath and three in a hamam. Which Roman room has no separate room of its own in the hamam?",
+      "correct_zone": "cold",
+      "explanation": "The hamam has a cool hall, a warm room, and a hot steam room. The cool hall is the nearest match to both the Roman changing room and the frigidarium."
+    },
+    {
+      "question": "Which room was the Roman tepidarium, between the cold room and the hot room?",
+      "correct_zone": "warm",
+      "explanation": "The tepidarium was the warm room, the middle step from cold to hot. The hamam's second main room is its warm room."
+    },
+    {
+      "question": "Which room of a Roman bath could lead on to exercise courts, gardens, libraries, and snack sellers?",
+      "correct_zone": "changing",
+      "explanation": "Roman thermae were leisure complexes as well as places to wash. The chapter describes a hamam as three main rooms and mentions no such grounds."
+    },
+    {
+      "question": "Where do bathers lie on a heated marble platform before an attendant scrubs them with a rough mitt?",
+      "correct_zone": "hot",
+      "explanation": "The heated platform is the göbek taşı, the \"navel stone,\" in the middle of the hot room. The mitt is the kese, and soap foam follows."
+    },
+    {
+      "question": "Which idea explains why the hamam is described as adapted rather than copied: a preference for flowing water over sitting in a shared pool?",
+      "correct_zone": "cold",
+      "explanation": "The chapter says the hamam descended from Roman and Byzantine baths but was adapted to Islamic ideas of cleanliness, which prefer flowing water to a shared pool."
+    },
+    {
+      "question": "In the chapter's description of both baths, which room is the middle step between cool and hot, and where neighbors met and news was shared?",
+      "correct_zone": "warm",
+      "explanation": "Both baths step from cool to hot through a warm room. For centuries the hamam was where neighbors met, brides were prepared, and news was shared."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Walk Down the Hippodrome",
+  "orientation": "landscape",
+  "image": "hippodrome-walk.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "The Long Square",
+      "x": 30,
+      "y": 92,
+      "radius": 4,
+      "color": "#2E86AB",
+      "hint": "The long, narrow paved ground running the whole length of the scene, with a faint line down its middle.",
+      "description": "The long, narrow shape of Sultanahmet Square is the old racetrack's outline, the only clue left to the Hippodrome. It ran about 450 m by 130 m, begun about 203 CE under Septimius Severus and enlarged by Constantine, with stands that may have held up to 100,000 people. The emperor watched from the kathisma, a box joined to the Great Palace, and the racing teams, the Blues and the Greens, were something like political parties and street gangs at once. In January 532 they united against Justinian in the Nika Riots. Belisarius and Narses trapped the crowd in the Hippodrome and, by Procopius's count, more than 30,000 died. On our route: Day 2 begins here, in an open square that is free to enter.",
+      "tip": "The 30,000 is one near-contemporary writer's count and may be exaggerated. The four bronze horses that stood here, taken to Venice in 1204, are another open case: where they came from is agreed, who should keep them is opinion."
+    },
+    {
+      "id": 2,
+      "label": "German Fountain",
+      "x": 9,
+      "y": 58,
+      "radius": 4,
+      "color": "#E67E22",
+      "hint": "A small eight-sided building with a dome and pillars at the far left end of the square.",
+      "description": "The octagonal domed fountain at the north end of the square is the newest layer in the row. It was a gift of the German Kaiser Wilhelm II to Sultan Abdülhamid II in 1900, so it belongs to the Ottoman era even though it looks European. The square's layers did not stop in antiquity. On our route: Day 2, at the end of the square where we begin.",
+      "tip": "To date a layer, ask when it arrived here, not when its style was invented."
+    },
+    {
+      "id": 3,
+      "label": "Obelisk of Thutmose III",
+      "x": 27,
+      "y": 34,
+      "radius": 4,
+      "color": "#C0392B",
+      "hint": "A tall, slender stone shaft with a pointed top, set on a stepped base.",
+      "description": "An Egyptian obelisk carved for the pharaoh Thutmose III about 1450 BCE, reused in Constantinople. It is not a 1450 BCE layer here: the emperor Theodosius I had it raised in this spot in 390 CE, so in this city it is a Byzantine layer. It is spolia of a grand kind, the borrowed glory of one empire used to decorate the track of another. On our route: Day 2, the first of the three monuments we read on the track line.",
+      "tip": "A common trap is to date a layer by how old the object is. Ask when it arrived."
+    },
+    {
+      "id": 4,
+      "label": "The Emperor's Base",
+      "x": 27,
+      "y": 72,
+      "radius": 3.5,
+      "color": "#8E44AD",
+      "hint": "The carved marble block at the foot of the tall stone shaft, with a figure cut into its side.",
+      "description": "The obelisk stands on a marble base carved with the portrait of Theodosius I, the emperor who raised it. The base shows who did the borrowing: a pharaoh's monument now carries an emperor's face at its foot. Reused monuments often say more about the person who reused them than about the one who made them. On our route: Day 2, at ground level, close enough to study."
+    },
+    {
+      "id": 5,
+      "label": "Serpent Column",
+      "x": 48,
+      "y": 56,
+      "radius": 4,
+      "color": "#B7950B",
+      "hint": "A short bronze column of three twisted snakes, with no heads on top.",
+      "description": "The bronze column of three intertwined snakes was cast at Delphi after the Greek victory over Persia at Plataea in 479 BCE, from a tenth of the spoils. It carried a golden tripod beside Apollo's altar. Its coils name the 31 Greek communities that fought, under the heading \"These fought the war.\" By 330 CE Constantine had moved it here. It is spolia on a grand scale, a Greek victory monument made to decorate a racetrack. On our route: Day 2 here, and Day 12 at Delphi, where its base and a bronze copy stand near the altar.",
+      "tip": "For the evidence at each end, use the Two Ends of the Serpent Column MicroSim."
+    },
+    {
+      "id": 6,
+      "label": "The Pit",
+      "x": 54,
+      "y": 82,
+      "radius": 3.5,
+      "color": "#7F8C8D",
+      "hint": "A sunken, stone-lined hollow cut below the ground, with a short bronze column rising out of it.",
+      "description": "The Serpent Column stands in a pit because the ground has risen several meters since Byzantine times. The bottom of the pit is about the level of the Byzantine track. Looking down into it is a way of seeing the layers of a city literally: the street level of the Byzantine city lies below our feet. The upper jaw of one serpent head survives, but in the Istanbul Archaeology Museums, not here. On our route: Day 2, from the rim of the pit.",
+      "tip": "The ground rises as rubble, rebuilding, and rubbish pile up over centuries."
+    },
+    {
+      "id": 7,
+      "label": "Walled Obelisk",
+      "x": 68,
+      "y": 30,
+      "radius": 4,
+      "color": "#1ABC9C",
+      "hint": "A tall tower of rough, mismatched stone blocks, bare and tapering, with small rectangular holes in its face.",
+      "description": "The rough stone obelisk was restored by the emperor Constantine VII in the 10th century and sheathed in gilded bronze plates. Soldiers of the Fourth Crusade stripped the plates and melted them down in 1204, so its bare stone is a layer of removal. The empty holes where fixings once held metal are the clue. Of the three monuments this is the one defined by what was taken away. On our route: Day 2, the last of the three on the track line.",
+      "tip": "Removal leaves bare stone, empty niches, and holes where fixings once held metal."
+    },
+    {
+      "id": 8,
+      "label": "Blue Mosque",
+      "x": 89,
+      "y": 40,
+      "radius": 4.5,
+      "color": "#3498DB",
+      "hint": "A great cascade of domes with six slender pointed towers rising behind the monuments on the far right of the scene.",
+      "description": "The Blue Mosque, officially the Sultan Ahmed Mosque, was built 1609 to 1616 for Sultan Ahmed I, on part of the site of the Byzantine Great Palace along the east side of the square. It is the only mosque in Istanbul with six minarets. Five eras share this one square, and each layer was added in one of four ways: built over, reused, converted, or removed. On our route: seen from the Hippodrome on Day 2, and visited on Day 3 (Chapter 5).",
+      "tip": "The Blue Mosque is a working mosque. Chapter 5 gives the etiquette for visiting."
+    }
+  ]
+}

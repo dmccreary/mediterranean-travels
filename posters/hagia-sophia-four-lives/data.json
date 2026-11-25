@@ -1,0 +1,161 @@
+{
+  "title": "Hagia Sophia: One Building, Four Lives",
+  "image": "hagia-sophia-four-lives.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#B5532D",
+    "#0E8A7D",
+    "#6A3FB5",
+    "#1F6F8B",
+    "#9A7B1C"
+  ],
+  "zones": [
+    {
+      "id": "cathedral",
+      "label": "Cathedral",
+      "color": "#B5532D",
+      "x1": 1.04,
+      "y1": 1.56,
+      "x2": 38.02,
+      "y2": 49.22,
+      "tooltip": "Life 1, 537 to 1453: the cathedral of Constantinople and the coronation church of emperors. Click for details.",
+      "summary": "For more than nine centuries the building was the seat of the Patriarch of Constantinople and the coronation church of emperors.",
+      "facts": [
+        "Justinian's third church on the site: the first, from 360, burned in a riot in 404, and the second burned in the Nika Riots. A mathematician, Anthemius of Tralles, and a geometer, Isidore of Miletus, designed this one. It was dedicated on December 27, 537.",
+        "The dome fell in May 558 after earthquakes. Isidore the Younger rebuilt it about 6 to 7 m higher, and it was dedicated in 562. That is the dome we see today.",
+        "Justinian's first mosaics had no figures, only crosses and patterns in gold. Nearly all the figures we see were made after 843, when iconoclasm ended. The Virgin and Child in the apse was unveiled in 867.",
+        "Later panels: the Komnenos mosaic of about 1122 in the south gallery, and the Deesis of about 1261, made soon after the Byzantines recovered the city.",
+        "From 1204 to 1261 the building was a Catholic cathedral. Baldwin of Flanders was crowned emperor there on May 16, 1204, and the Venetian leader Dandolo was buried in the gallery in 1205.",
+        "On our route: Day 2. In the galleries, look for the monograms of Justinian and Theodora on the carved capitals."
+      ]
+    },
+    {
+      "id": "mosque",
+      "label": "Mosque",
+      "color": "#0E8A7D",
+      "x1": 39.06,
+      "y1": 1.56,
+      "x2": 76.04,
+      "y2": 49.22,
+      "tooltip": "Life 2, 1453 to 1934: the imperial mosque of the Ottoman sultans. Click for details.",
+      "summary": "Mehmed II made the cathedral a mosque in 1453, and nearly five centuries of Ottoman additions followed.",
+      "facts": [
+        "From 1453 to 1934 it was the imperial mosque of the Ottoman sultans. The signs we can still see are the mihrab, the minbar, the calligraphic roundels, the minarets, and the ablution fountain.",
+        "The eight great roundels, each about 7.5 m across, name God, the Prophet Muhammad, the first four caliphs, and the Prophet's grandsons Hasan and Husayn. Kazasker Mustafa İzzet Efendi painted them about 1850.",
+        "The Ottomans left the figural mosaics visible for a long time and only gradually covered them with plaster, most fully in the 18th century. The plaster protected them.",
+        "Between 1847 and 1849 the Fossati brothers restored the building for Sultan Abdülmecid, straightening columns, repairing the dome, and briefly uncovering some mosaics, which they recorded and covered again.",
+        "Outside, four minarets, each different, were built by different sultans: the earliest soon after 1453, and the two matching ones to the west by Sinan in the 1570s. The domed ablution fountain in the courtyard dates from 1740.",
+        "On our route: Day 2. Chapter 6 reads one of the roundels, the one naming the caliph Uthman, letter by letter."
+      ]
+    },
+    {
+      "id": "museum",
+      "label": "Museum",
+      "color": "#6A3FB5",
+      "x1": 1.04,
+      "y1": 50.78,
+      "x2": 38.02,
+      "y2": 98.44,
+      "tooltip": "Life 3, 1935 to 2020: a museum of the Turkish Republic, when the mosaics were uncovered. Click for details.",
+      "summary": "For 85 years the building was a museum, and the plastered-over Byzantine mosaics were uncovered and restored.",
+      "facts": [
+        "A cabinet decision of the government of Mustafa Kemal Atatürk, dated November 24, 1934, made the building a museum. It opened to visitors in February 1935, which is why the museum life is dated 1935 to 2020.",
+        "The Byzantine Institute of America uncovered the plastered mosaics from the 1930s onward. The Komnenos panel, plastered over after 1453, was uncovered in the 1930s.",
+        "The signs we can still see from this life are the uncovered mosaics and the restoration work.",
+        "Contested history note: the dates are agreed, but what they mean is argued. Many secular Turks saw the 1934 decision as a deliberate gesture of the young republic, and the 2020 decision as its reversal. The Mosque Again zone gives the other readings.",
+        "On our route: Day 2. In the south gallery we look at the Komnenos mosaic of the Virgin and Child with Emperor John II and Empress Irene."
+      ]
+    },
+    {
+      "id": "mosque-today",
+      "label": "Mosque Again",
+      "color": "#1F6F8B",
+      "x1": 39.06,
+      "y1": 50.78,
+      "x2": 76.04,
+      "y2": 98.44,
+      "tooltip": "Life 4, 2020 to today: a working mosque with a visitor route through the galleries. Click for details.",
+      "summary": "Since July 2020 the building has been a mosque again, with the ground floor kept for worshippers and a route for visitors through the galleries.",
+      "facts": [
+        "In July 2020 Turkey's highest administrative court annulled the 1934 decision, and a presidential decree returned the building to use as a mosque. Friday prayers were held there on July 24, 2020.",
+        "Signs of this life: carpets on the ground floor, and curtains or lighting over some images during prayers. UNESCO, which lists the site, asked Turkey to report on how its universal value would be protected.",
+        "Since January 2024, foreign visitors enter by a separate entrance, pay an entry fee, and follow a route through the upper galleries, while the ground floor is kept for worshippers. The best mosaics are in the galleries.",
+        "Dress is that of any mosque in Turkey: women cover their hair, everyone covers shoulders and knees, and shoes come off wherever there are prayer carpets. Visits may be restricted around prayer times.",
+        "Contested history note: the dates are agreed, the meaning is not. For many Turkish Muslims the 2020 decision restored Mehmed's mosque and was a day of joy. For many Orthodox Christians it was a day of mourning for their mother church. Many secular Turks saw it as the reversal of a deliberate gesture of the young republic. Each reading is held sincerely.",
+        "On our route: Day 2. We visit a working mosque, so we dress for it and check the day's hours."
+      ]
+    },
+    {
+      "id": "what-stayed",
+      "label": "What Stayed",
+      "color": "#9A7B1C",
+      "x1": 77.08,
+      "y1": 1.56,
+      "x2": 98.96,
+      "y2": 98.44,
+      "tooltip": "What stayed through all four lives: the dome, the pendentives, and the ring of windows. Click for details.",
+      "summary": "The 562 dome on its four pendentives has been repaired and buttressed through all four lives, but not replaced.",
+      "facts": [
+        "The dome is about 31 m across and rises about 55 m above the floor. It is the 562 design, and it has stood about fifteen centuries of earthquakes because generations of builders kept it standing.",
+        "The problem was geometry: how to set a round dome on a square space. Four great arches rise from four piers, and four pendentives, curved triangles of masonry, fill the corners and make the circle at the top.",
+        "A ring of 40 windows runs around the base of the dome. The light hides the supports, so the dome seems to float, which is what Procopius meant by his golden chain.",
+        "Two half-domes, east and west, extend the space, so the interior feels like one continuous room.",
+        "Stayed does not mean untouched: partial collapses after earthquakes in 989 and 1346 were repaired, and every builder since Justinian, Byzantine and Ottoman, added buttresses to hold the walls against the dome's outward thrust.",
+        "On our route: Day 2. From a bench across the park we can already tell a 6th-century Byzantine church wrapped in Ottoman additions, still in daily use."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which life began with a conquest and gave the building a mihrab and a minbar?",
+      "correct_zone": "mosque",
+      "explanation": "Mehmed II made it a mosque in 1453. The mihrab, minbar, minarets, roundels, and ablution fountain are the signs of that life."
+    },
+    {
+      "question": "In which life were the eight large calligraphic roundels painted, about 7.5 m across?",
+      "correct_zone": "mosque",
+      "explanation": "Kazasker Mustafa İzzet Efendi painted them about 1850, after the Fossati restoration, in the Ottoman mosque years."
+    },
+    {
+      "question": "In which life did a dome collapse and get rebuilt about 6 to 7 m higher?",
+      "correct_zone": "cathedral",
+      "explanation": "The first dome fell in 558 after earthquakes, and Isidore the Younger's taller, steeper dome was dedicated in 562."
+    },
+    {
+      "question": "In which life did the building have no figural mosaics at first, only crosses and patterns in gold?",
+      "correct_zone": "cathedral",
+      "explanation": "Justinian's first mosaics were not figural. Nearly all the figures came after 843, when iconoclasm ended."
+    },
+    {
+      "question": "In which life did a cabinet decision, not a conquest, change what the building was for?",
+      "correct_zone": "museum",
+      "explanation": "The Atatürk government's decision of November 24, 1934 made it a museum, and it opened to visitors in February 1935."
+    },
+    {
+      "question": "Which life is the one in which the Byzantine Institute of America uncovered plastered mosaics?",
+      "correct_zone": "museum",
+      "explanation": "The plaster that had covered the mosaics protected them, and the uncovering began in the 1930s."
+    },
+    {
+      "question": "Which life has a visitor route through the galleries while the ground floor is kept for worshippers?",
+      "correct_zone": "mosque-today",
+      "explanation": "Since January 2024 foreign visitors use a separate entrance and an entry fee and follow the upper galleries."
+    },
+    {
+      "question": "Chapter 4 calls the dates of this building's status agreed but their meaning contested. Which life ends with the most recent of these decisions?",
+      "correct_zone": "mosque-today",
+      "explanation": "The 2020 decision is read as a joyful restoration, as a day of mourning, or as the reversal of a deliberate gesture, depending on who is asked."
+    },
+    {
+      "question": "Which part of the building solved the problem of setting a round dome on a square space?",
+      "correct_zone": "what-stayed",
+      "explanation": "Four pendentives, curved triangles of masonry between four arches, turn the square plan into the circle that carries the dome."
+    },
+    {
+      "question": "Why does the dome seem to float, as Procopius's golden chain suggests?",
+      "correct_zone": "what-stayed",
+      "explanation": "A ring of 40 windows at its base pours light in and hides the supports below."
+    }
+  ]
+}

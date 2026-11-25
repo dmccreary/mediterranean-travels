@@ -1,0 +1,175 @@
+{
+  "title": "The Colossus: Popular Picture and Likely Truth",
+  "image": "colossus-myth-and-evidence.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#B5532D",
+    "#1F6F8B",
+    "#5E8C31",
+    "#C9A227",
+    "#6A3FB5"
+  ],
+  "zones": [
+    {
+      "id": "popular-figure",
+      "label": "Popular: The Figure",
+      "color": "#B5532D",
+      "x1": 1.17,
+      "y1": 1.56,
+      "x2": 49.35,
+      "y2": 32.81,
+      "tooltip": "The popular picture: a bronze giant straddling the harbor with ships passing beneath. Click for details.",
+      "summary": "The famous engravings show a giant with a foot on each side of the harbor entrance, and the book's evidence does not support it.",
+      "facts": [
+        "The picture: the famous engravings show the Colossus astride the harbor entrance, with ships sailing between its legs.",
+        "Chapter 12 gives two reasons against it. A bronze statue of that height could not have stood with its legs that far apart, and the harbor entrance was far too wide.",
+        "Chapter 1 puts it bluntly: the Colossus almost certainly did not straddle the harbor, despite the pictures.",
+        "Chapter 4's test for a myth: find the earliest source for the story and ask how long after the event it was written. The longer the gap, the more room for the story to grow.",
+        "A myth is not worthless. It tells us what later people believed or wanted about a place, though not what happened.",
+        "On our route: Rhodes (Day 8), where the Colossus stood for about 54 years before it fell."
+      ]
+    },
+    {
+      "id": "likely-figure",
+      "label": "Likely: The Figure",
+      "color": "#1F6F8B",
+      "x1": 50.65,
+      "y1": 1.56,
+      "x2": 98.83,
+      "y2": 32.81,
+      "tooltip": "The likely figure: a bronze statue of Helios about 33 m tall by Chares of Lindos. Click for details.",
+      "summary": "The evidence gives the god, the sculptor, the height, and the dates, but not the pose.",
+      "facts": [
+        "What it was: a bronze statue of Helios, the sun god and patron of Rhodes, about 33 m tall.",
+        "Who made it: the sculptor Chares of Lindos, over about twelve years, finishing around 280 BCE.",
+        "How it was paid for: Rhodes survived a year-long siege by Demetrius, nicknamed Poliorcetes, \"the Besieger,\" in 305–304 BCE, and sold the siege machines he left behind.",
+        "Helios appears on the coins of Rhodes with rays around his hair, and a rose, rhodon, on the other side, a pun on the island's name.",
+        "Where the evidence stops: Chapter 12 rules out the straddle but does not describe the pose. The standing figure here is an artist's guess.",
+        "On our route: Chapter 10's Seven Wonders table lists the Colossus at Rhodes (Day 8), built about 280 BCE and fallen about 226 BCE."
+      ]
+    },
+    {
+      "id": "popular-site",
+      "label": "Popular: The Site",
+      "color": "#B5532D",
+      "x1": 1.17,
+      "y1": 34.38,
+      "x2": 49.35,
+      "y2": 65.62,
+      "tooltip": "The popular site: the harbor entrance at Mandraki, with a foot on each side. Click for details.",
+      "summary": "The popular story places the statue's feet at the entrance to Mandraki, the old harbor.",
+      "facts": [
+        "Today two bronze deer on columns mark the entrance to Mandraki, the old harbor, where the popular story places the statue's feet.",
+        "The harbor entrance was far too wide for a statue of that height to stand astride it (Chapter 12).",
+        "The city of Rhodes, founded as a shared capital in 408 BCE, had several harbors. A picture of \"the harbor\" leaves open which one.",
+        "Where the picture breaks: it fixes the statue at one exact spot, but Chapter 12 says no one knows where it stood.",
+        "On our route: the Mandraki harbor front, with its windmills on the mole (Day 8)."
+      ]
+    },
+    {
+      "id": "likely-site",
+      "label": "Likely: The Site",
+      "color": "#1F6F8B",
+      "x1": 50.65,
+      "y1": 34.38,
+      "x2": 98.83,
+      "y2": 65.62,
+      "tooltip": "The likely site: on land near the harbor or in a sanctuary of Helios, but no one knows. Click for details.",
+      "summary": "Scholars think it more likely stood on land, near the harbor or in a sanctuary of Helios higher in the city.",
+      "facts": [
+        "Scholars think it more likely stood on land, either near the harbor or in a sanctuary of Helios higher in the city. No one knows.",
+        "The reasoning: the harbor entrance was far too wide for a giant to straddle, so the harbor mouth cannot be where its feet stood.",
+        "Helios was the patron of Rhodes. The poet Pindar told in 464 BCE how he claimed the island when he saw it rising from the sea.",
+        "The new city of 408 BCE was laid out with several harbors and a grid of straight streets, so \"near the harbor\" still leaves several places to look.",
+        "Where the evidence stops: nothing of the statue survives (Chapter 1), so the question stays open.",
+        "On our route: Rhodes (Day 8), where the site of the Colossus can be argued about but not visited."
+      ]
+    },
+    {
+      "id": "popular-end",
+      "label": "Popular: The End",
+      "color": "#B5532D",
+      "x1": 1.17,
+      "y1": 67.19,
+      "x2": 49.35,
+      "y2": 98.44,
+      "tooltip": "The story: the bronze carried away on hundreds of camels. Click for details.",
+      "summary": "A Byzantine chronicle says the bronze was sold and carried away on hundreds of camels.",
+      "facts": [
+        "The story: a Byzantine chronicle says that Arab forces raiding Rhodes in the 650s CE sold the bronze to a merchant, who carried it away on hundreds of camels.",
+        "The chronicle was written centuries later, and the 650s fall more than eight centuries after the statue came down around 226 BCE.",
+        "Chapter 12 says it may be true, or it may be the kind of story Chapter 4 taught us to enjoy without believing.",
+        "Chapter 4's test: find the earliest source and ask how long after the event it was written.",
+        "Where the story breaks: it has one source in the chapters, written centuries later, and nothing of the bronze survives to check it against.",
+        "On our route: Rhodes (Day 8), a good place to practice Chapter 4's test, because the only account of the bronze's end is a late chronicle."
+      ]
+    },
+    {
+      "id": "likely-end",
+      "label": "Likely: The End",
+      "color": "#1F6F8B",
+      "x1": 50.65,
+      "y1": 67.19,
+      "x2": 98.83,
+      "y2": 98.44,
+      "tooltip": "The likely end: an earthquake around 226 BCE, and fallen pieces that Pliny saw. Click for details.",
+      "summary": "An earthquake brought it down after about 54 years, and a Roman writer saw the fallen pieces.",
+      "facts": [
+        "How it fell: an earthquake brought it down around 226 BCE, after the statue had stood for only about 54 years.",
+        "What survives: nothing. No part of the Colossus survives today (Chapter 1).",
+        "What a witness saw: the Roman writer Pliny the Elder saw the fallen pieces and wrote that few people could wrap their arms around its thumb.",
+        "What became of the bronze: the camel story is the only fate the chapters give, and it comes from a later chronicle.",
+        "Where the evidence stops: the chapters do not say how the statue broke or how long the pieces lay on the ground.",
+        "On our route: three of the Seven Wonders lay within a few days' sail on this coast, the Temple of Artemis at Selçuk (Day 7), the Mausoleum at Bodrum, and the Colossus at Rhodes (Day 8)."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which detail of the popular picture is ruled out by the width of the harbor entrance and the size of the statue?",
+      "correct_zone": "popular-figure",
+      "explanation": "Chapter 12 says a bronze statue of that height could not have stood with its legs that far apart, and the harbor entrance was far too wide. Chapter 1 adds that it almost certainly did not straddle the harbor."
+    },
+    {
+      "question": "Which tile names the sculptor and says how many years he spent on the statue?",
+      "correct_zone": "likely-figure",
+      "explanation": "Chares of Lindos made the Colossus over about twelve years, and it was finished around 280 BCE."
+    },
+    {
+      "question": "Which tile says scholars think the statue more likely stood on land, near the harbor or in a sanctuary of Helios, but that no one knows?",
+      "correct_zone": "likely-site",
+      "explanation": "Chapter 12 gives both possibilities and says no one knows. The popular harbor-mouth site rests on a picture, not on evidence."
+    },
+    {
+      "question": "Where today do two bronze deer on columns mark the spot where the popular story places the statue's feet?",
+      "correct_zone": "popular-site",
+      "explanation": "The deer mark the entrance to Mandraki, the old harbor. The entrance was far too wide for a giant to straddle."
+    },
+    {
+      "question": "Which story rests on a single Byzantine chronicle, written centuries later, and is best enjoyed without believing, in Chapter 4's terms?",
+      "correct_zone": "popular-end",
+      "explanation": "The chronicle says Arab forces sold the bronze in the 650s CE and carried it off on hundreds of camels. Chapter 12 says it may be true, or may be that kind of story."
+    },
+    {
+      "question": "Which tile has a Roman writer who saw the fallen pieces and said that few people could wrap their arms around the thumb?",
+      "correct_zone": "likely-end",
+      "explanation": "Pliny the Elder saw the fallen pieces. An earthquake had brought the statue down around 226 BCE, after about 54 years."
+    },
+    {
+      "question": "How was the Colossus paid for?",
+      "correct_zone": "likely-figure",
+      "explanation": "Rhodes survived a year-long siege by Demetrius in 305–304 BCE and sold the siege machines he left behind to pay for the bronze statue of Helios."
+    },
+    {
+      "question": "Which tile shows why a myth is not worthless, even when it is not supported by evidence from the time?",
+      "correct_zone": "popular-figure",
+      "explanation": "A myth tells us what later people believed or wanted about a place, though not what happened. The straddling giant is that kind of picture."
+    },
+    {
+      "question": "Rhodes had several harbors. Which tile makes the point that a picture of \"the harbor\" leaves open which one?",
+      "correct_zone": "popular-site",
+      "explanation": "The city founded in 408 BCE had several harbors. The popular picture fixes the statue at one entrance, while Chapter 12 says no one knows where it stood."
+    }
+  ]
+}

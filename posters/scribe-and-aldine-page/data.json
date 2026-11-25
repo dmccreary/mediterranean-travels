@@ -1,0 +1,182 @@
+{
+  "title": "A Scribe's Page and an Aldine Page",
+  "image": "scribe-and-aldine-page.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#B5532D",
+    "#1F6F8B",
+    "#5E8C31",
+    "#0E8A7D",
+    "#6A3FB5",
+    "#9A7B1C"
+  ],
+  "zones": [
+    {
+      "id": "writing-surface",
+      "label": "Writing Surface",
+      "color": "#B5532D",
+      "x1": 1.56,
+      "y1": 2.34,
+      "x2": 32.81,
+      "y2": 48.83,
+      "tooltip": "The writing surface: parchment from animal skin, and handmade paper in sheets. Click for details.",
+      "summary": "A Byzantine page was parchment from animal skin, an Aldine page was handmade paper, and paper was still one of the biggest costs of a printed book.",
+      "facts": [
+        "Left: parchment was made from animal skin that was cleaned, stretched, and scraped thin. A large book could take the skins of a whole flock.",
+        "Right: early printed books were printed on large sheets of handmade paper, several pages to a side, and then folded and cut.",
+        "Handmade paper was one of the largest costs of an early printed book, so the number of sheets a book needs is close to a measure of its price.",
+        "In the chapter's illustrative example, one copy of Virgil needs 215 sheets as a big folio but only 27 as an Aldine-style octavo, about one-eighth of the paper.",
+        "Where the pair breaks down: the material was not what Aldus changed. Paper stayed a main cost, and he saved by using fewer sheets, through a small fold and a dense, plain page.",
+        "On our route: Day 4. The Sahaflar book market at the Grand Bazaar's west gate stands on or near the Byzantine Chartoprateia, the paper and book market of Constantinople."
+      ]
+    },
+    {
+      "id": "hand-or-type",
+      "label": "Hand or Type",
+      "color": "#1F6F8B",
+      "x1": 34.38,
+      "y1": 2.34,
+      "x2": 65.63,
+      "y2": 48.83,
+      "tooltip": "The hand or the type: a scribe's joined-up minuscule, and Aldus's italic modeled on a scholar's hand. Click for details.",
+      "summary": "A scribe's hand and Aldus's italic type were both writing, and the type was modeled on the hand.",
+      "facts": [
+        "Left: until about 800, Greek books were written in uncial, separate capitals with no spaces between words. In the 9th century scribes adopted minuscule, a smaller, joined-up lowercase script, faster to write and fitting more text on each page.",
+        "Scholars then copied the old books from uncial into minuscule in the 9th and 10th centuries. Most ancient Greek literature that survives was copied then, and most of what was not copied was lost.",
+        "Right: Aldus's compact italic was modeled on the elegant handwriting of Italian humanist scholars and cut by the punchcutter Francesco Griffo. It fitted more words on each line. The 1501 Virgil was the first book printed entirely in italic.",
+        "Printing began by imitating the scribe: Gutenberg's Bible of about 1455 used about 290 different pieces of type to imitate the look of a handwritten book.",
+        "Where the pair breaks down: a scribe's slip stayed in one copy. A printed mistake appears in every copy, so an editor's good guesses and errors were multiplied alike.",
+        "On our route: Day 9, Heraklion, the island of the Cretan editor Marcus Musurus, who prepared the first printed Plato in Greek, in 1513."
+      ]
+    },
+    {
+      "id": "page-and-size",
+      "label": "Page and Size",
+      "color": "#5E8C31",
+      "x1": 67.19,
+      "y1": 2.34,
+      "x2": 98.44,
+      "y2": 48.83,
+      "tooltip": "Page and size: a hand-copied page of the copyist's own choosing, and a small octavo that fits in a pocket. Click for details.",
+      "summary": "Aldus made a classic small enough for a coat pocket through two choices: a small fold and a dense, plain page.",
+      "facts": [
+        "Left: a manuscript's layout was the copyist's choice, copy by copy, and every manuscript had its own copyists' slips.",
+        "Right: a sheet folded three times makes an octavo, 16 pages. Before 1501 it was used mainly for prayer books. Aldus used it for the classics, small enough to fit in a hand or a coat pocket, and called them portable little books.",
+        "He also left out the thick commentary that surrounded the classics in big teaching editions and used the compact italic, so each page held more lines.",
+        "In the chapter's example, Virgil's 12,900 lines need 860 pages at 15 lines a page, but 430 pages at 30 lines. Those page densities are illustrative, not measured.",
+        "Where the pair breaks down: the chapter compares an Aldine octavo with a big printed folio, not with a manuscript, so the size gap to the scribe's page is not measured.",
+        "On our route: Day 9, Heraklion, where Chapter 14 follows these small Aldine editions from the Cretan scholars to today's affordable course materials."
+      ]
+    },
+    {
+      "id": "who-made-it",
+      "label": "Who Made It",
+      "color": "#0E8A7D",
+      "x1": 1.56,
+      "y1": 51.17,
+      "x2": 32.81,
+      "y2": 97.66,
+      "tooltip": "Who made it: one scribe at a desk, and a Venetian press run by many hands. Click for details.",
+      "summary": "A scribe's book was one skilled hand's work. An Aldine book was the work of many hands, and each depended on the copyists before.",
+      "facts": [
+        "Left: Byzantine scribes, mostly monks, copied religious and classical texts in monastery workshops called scriptoria. Constantinople's greatest copying center was the Stoudios Monastery.",
+        "In the Ottoman world, copyists called the müstensih copied Qurans, law books, poetry, and histories for buyers, and the best of them were calligraphers.",
+        "Right: Aldus chose the list and ran the press. The Cretan Marcus Musurus edited the Plato of 1513, Francesco Griffo cut the type, and Andrea Torresani put in the money.",
+        "Aldus's name stands on the books, but at least seven other people made them possible. For a few decades around 1500, a large share of those who made Greek books in Venice had been born on Crete.",
+        "Where the pair breaks down: the Aldine editors worked from the scribes' manuscripts. Without the Byzantine copyists there would have been nothing to print, and without the Cretan editors no one to prepare it.",
+        "On our route: Day 9. Chapter 14 follows the Cretan scholars who worked in Venice, from Heraklion."
+      ]
+    },
+    {
+      "id": "how-long",
+      "label": "How Long",
+      "color": "#6A3FB5",
+      "x1": 34.38,
+      "y1": 51.17,
+      "x2": 65.63,
+      "y2": 97.66,
+      "tooltip": "How long: one copy takes a scribe as long as the last, but a press pays most of its cost up front. Click for details.",
+      "summary": "For one copy the scribe is cheaper. For a hundred copies the press wins overwhelmingly, because most of its cost is paid before the first page.",
+      "facts": [
+        "Left: a scribe's cost is almost all marginal: each new copy takes as long as the last. Hafız Osman is said to have copied 25 complete Qurans of about 600 pages in about forty years, one every year and a half.",
+        "In the chapter's illustrative model, a 200-page book takes an ordinary copyist at 8 pages a day 25 workdays a copy, and a master calligrapher at 2 pages a day 100 workdays.",
+        "Right: a press has a large fixed cost, casting type, building the press, and setting every page, and then very little for each extra copy. The model uses 350 workdays up front and 0.2 workdays a copy.",
+        "In that model, the press becomes cheaper at 15 copies against an ordinary copyist and at 4 copies against a master calligrapher. Gutenberg's Bible, in about 180 copies, would have taken a scribe years for a single copy.",
+        "Where the pair breaks down: the rates are round numbers chosen to show the shape of the comparison. They are not historical prices, and Chapter 6 labels them an illustrative model.",
+        "On our route: Day 4, the Sahaflar book market beside the Grand Bazaar, where Ottoman copyists sold work that moved at the speed of one hand."
+      ]
+    },
+    {
+      "id": "who-could-own",
+      "label": "Who Could Own",
+      "color": "#9A7B1C",
+      "x1": 67.19,
+      "y1": 51.17,
+      "x2": 98.44,
+      "y2": 97.66,
+      "tooltip": "Who could own one: a collector who paid a scribe, and a student with a pocket classic. Click for details.",
+      "summary": "Aldus widened the circle, but only to men who had been to school, and he built a gate of his own.",
+      "facts": [
+        "Locked up: in 1490, to read Plato in Greek in Western Europe, a person needed access to one of a handful of manuscript collections, money to pay a scribe for a copy, and a teacher of Greek.",
+        "Opened: Aldus printed the grammars and dictionaries a learner needed along with the texts, and from 1501 his small octavos made the classics something a student could own and carry.",
+        "Resisted: some collectors looked down on print as cheap and common. The Florentine dealer Vespasiano da Bisticci praised a duke's library for holding only handwritten books.",
+        "Aldus built a gate too. Privileges from the Venetian government forbade others to use his italic, and he fought the printers in Lyon who copied his books, errors and all.",
+        "Where the pair breaks down, never all the way: the new books spoke Latin and Greek to men who had been to school. Few women were taught Greek, and most Cretans in the villages could not read at all.",
+        "On our route: Day 9. The Erotokritos, printed in Venice only in 1713, lived for centuries in village memories and songs instead."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which feature let a scholar carry a classic in a pocket?",
+      "correct_zone": "page-and-size",
+      "explanation": "Aldus used the octavo, a small fold of 16 pages to the sheet, and a dense, plain italic page. Two choices together, not the fold alone, cut the book to a hand's size."
+    },
+    {
+      "question": "Which feature of the books involved a skin that was cleaned, stretched, and scraped thin, so that a large book could take a whole flock?",
+      "correct_zone": "writing-surface",
+      "explanation": "That is parchment. Aldus's paper was still a main cost, so he saved by using fewer sheets."
+    },
+    {
+      "question": "Around 800 Greek scribes moved from separate capitals to a joined-up lowercase hand. Which feature changed?",
+      "correct_zone": "hand-or-type",
+      "explanation": "Minuscule was faster to write and fitted more text on each costly page. The ancient books copied into it then are mostly the ones that survive."
+    },
+    {
+      "question": "Which feature shows printing copying handwriting, using a type modeled on the writing of Italian humanist scholars?",
+      "correct_zone": "hand-or-type",
+      "explanation": "Francesco Griffo cut Aldus's compact italic, and Gutenberg's first Bible also imitated the look of a handwritten book."
+    },
+    {
+      "question": "Which feature shows that Aldus's name on the book hides at least seven other people who made it possible?",
+      "correct_zone": "who-made-it",
+      "explanation": "Editors such as Musurus, a punchcutter, a financier, and others made the press work. The chapter's network diagram asks who did what."
+    },
+    {
+      "question": "Which feature shows that a printing press could not have worked without the work of the earlier copyists?",
+      "correct_zone": "who-made-it",
+      "explanation": "Without the Byzantine copyists there would have been nothing to print, and without the Cretan editors no one to prepare it."
+    },
+    {
+      "question": "Which feature compares a cost that grows with every copy against a cost paid almost all up front?",
+      "correct_zone": "how-long",
+      "explanation": "A scribe's cost is marginal, while a press has a large fixed cost and a tiny cost per extra copy. For one copy the scribe is cheaper, and for a hundred the press wins."
+    },
+    {
+      "question": "In the chapter's illustrative model, at about how many copies does the press become cheaper than an ordinary copyist?",
+      "correct_zone": "how-long",
+      "explanation": "At 15 copies. Against a master calligrapher it is 4 copies. The rates are round numbers, not historical prices."
+    },
+    {
+      "question": "Which feature includes a privilege that forbade others to use a printer's type, a gate built by the man who opened another?",
+      "correct_zone": "who-could-own",
+      "explanation": "Aldus obtained privileges from the Venetian government and fought the Lyon printers who copied his books. The man who made the classics cheap also wanted to decide who could copy them."
+    },
+    {
+      "question": "Which feature explains why the circle of readers widened but never all the way?",
+      "correct_zone": "who-could-own",
+      "explanation": "The books spoke Latin and Greek to men who had been to school. Few women were taught Greek, and most village Cretans could not read."
+    }
+  ]
+}

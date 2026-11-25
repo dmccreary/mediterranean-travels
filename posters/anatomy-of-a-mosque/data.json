@@ -1,0 +1,108 @@
+{
+  "title": "Anatomy of an Ottoman Mosque",
+  "orientation": "landscape",
+  "image": "anatomy-of-a-mosque.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Courtyard (avlu)",
+      "x": 10,
+      "y": 56,
+      "radius": 5,
+      "color": "#1F6F8B",
+      "hint": "A wide open yard on the far left, ringed by a covered arcade of small domes on slim columns.",
+      "description": "The avlu is the arcaded open court in front of the prayer hall, usually with an ablution fountain in the middle. On Friday the big mosques fill well before noon, and worshippers who cannot fit inside pray on mats in the courtyard and the street. At the Süleymaniye the court sits inside a külliye, a complex of schools, a soup kitchen, a hospital, and a bath run as one endowment. Visit outside prayer times: most mosques close to visitors for about an hour around each prayer, longer at Friday noon. On our route: the Süleymaniye and the Blue Mosque on Day 3.",
+      "tip": "Check a prayer-times app each morning and schedule mosque visits for the windows between prayers."
+    },
+    {
+      "id": 2,
+      "label": "Ablution fountain",
+      "x": 19,
+      "y": 74,
+      "radius": 4,
+      "color": "#0E8A7D",
+      "hint": "A small domed pavilion with taps around its sides, standing in the middle of the yard.",
+      "description": "Ablution (Turkish abdest) is the ritual washing before prayer, done in a fixed order, usually three times each: hands, mouth, nose, face, arms to the elbows, a wet hand over the head, ears, and feet to the ankles. Every mosque has a place for it, often a row of taps on an outside wall or a domed fountain in the courtyard, the şadırvan. Visitors do not perform ablution, and it is polite not to stand in front of the taps photographing people washing. On our route: the domed fountain in the Hagia Sophia courtyard, built for Sultan Mahmud I in 1740 (Day 2).",
+      "tip": "The Hagia Sophia fountain is a small Ottoman building in a Byzantine setting, one more layer to read on the way in."
+    },
+    {
+      "id": 3,
+      "label": "Entrance and shoe racks",
+      "x": 33,
+      "y": 74,
+      "radius": 4,
+      "color": "#B5532D",
+      "hint": "A tall arched doorway in the wall between the yard and the hall, with wooden shelves of shoes just inside.",
+      "description": "Use the visitors' entrance and stay in the visitors' area. Take shoes off before stepping on the carpet: there are racks inside the door, or plastic bags to carry them. Women cover their hair, and everyone covers shoulders and knees. A donation box by the door helps maintain the mosque; giving is welcome, not required. On our route: every mosque on Days 2 and 3, so carry a scarf, wear socks you do not mind showing, and keep a plastic bag for shoes.",
+      "tip": "At Hagia Sophia, foreign visitors use a separate entrance and a route through the upper galleries; the ground floor is kept for worshippers."
+    },
+    {
+      "id": 4,
+      "label": "Prayer hall and visitors' area",
+      "x": 52,
+      "y": 80,
+      "radius": 5,
+      "color": "#5E8C31",
+      "hint": "A broad carpeted floor under the dome with no seats and no altar, where rows of standing figures face the far wall.",
+      "description": "An Ottoman mosque has a wide, nearly square hall where long rows of worshippers stand shoulder to shoulder behind the imam, all facing the qibla wall. A church leads the eye along a long axis toward the altar; a mosque needs width. Men are encouraged to pray in a mosque in congregation, and Friday prayer is required of adult men and optional for women. Speak quietly, keep phones silent, take no photos of people, use no flash, and never walk directly in front of someone who is praying. On our route: the Süleymaniye hall (Day 3).",
+      "tip": "Muslim prayer is made facing the qibla, so every row in the hall points the same way."
+    },
+    {
+      "id": 5,
+      "label": "Dome and semi-domes",
+      "x": 57,
+      "y": 20,
+      "radius": 6,
+      "color": "#6A3FB5",
+      "hint": "A great round roof high over the hall, stepping down through half-domes at each end.",
+      "description": "The Ottomans learned the central dome partly from Hagia Sophia, then changed the space under it into one unified prayer hall. A semi-dome is half a dome that extends the space under the main one; the Süleymaniye returns to Hagia Sophia's plan with two. Its dome is about 26.5 m across and about 53 m high, a little narrower than Hagia Sophia's and almost as high. Piers are slimmed and buttresses hidden in walls and galleries, so the hall reads as one great room. On our route: compare the Süleymaniye with Hagia Sophia (Days 2 and 3).",
+      "tip": "Sinan called the Şehzade Mosque his apprentice work, the Süleymaniye his journeyman work, and the Selimiye in Edirne his masterpiece."
+    },
+    {
+      "id": 6,
+      "label": "Calligraphy and tiles",
+      "x": 45,
+      "y": 52,
+      "radius": 4,
+      "color": "#E07B39",
+      "hint": "Wall bands of looping ornament and flower-patterned ceramic panels in blue, turquoise, and red, with no people or animals.",
+      "description": "Mosques are decorated with calligraphy and patterns rather than pictures, because the Quran's words are sacred and writing them beautifully became one of the highest arts of the Islamic world. Ottoman decoration is calligraphy, painted patterns, and İznik tiles, with no figures. İznik tiles are fritware painted in cobalt blue, turquoise, green, and from about 1557 a raised tomato red, mostly with tulips, carnations, hyacinths, and roses. On our route: the eight great roundels in Hagia Sophia (Day 2) and the more than 20,000 tiles of the Blue Mosque (Day 3).",
+      "tip": "For fine tiles without the crowds, climb to Sinan's small Rüstem Pasha Mosque near the Spice Bazaar."
+    },
+    {
+      "id": 7,
+      "label": "Mihrab and qibla wall",
+      "x": 86,
+      "y": 64,
+      "radius": 5,
+      "color": "#C9A227",
+      "hint": "A tall pointed-arch niche set into the far end wall of the hall, which every row of figures faces.",
+      "description": "The mihrab is a niche in the qibla wall, the wall that faces Mecca, and it marks the direction of prayer. The imam leads standing in front of it. Every Muslim prays toward the Kaaba, which from Istanbul lies south-southeast. In Hagia Sophia the mihrab stands in the old Christian apse but is set slightly off-center, turned a few degrees south: the difference between Justinian's altar, facing east, and the direction of Mecca. On our route: that small angle at Hagia Sophia (Day 2); the mihrabs of the Süleymaniye and the Blue Mosque (Day 3).",
+      "tip": "Find the off-center mihrab in Hagia Sophia: a layer you can read without a guide."
+    },
+    {
+      "id": 8,
+      "label": "Minbar",
+      "x": 78,
+      "y": 70,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A tall, narrow staircase rising to a small platform, standing against the end wall beside the niche.",
+      "description": "The minbar is a tall, narrow staircase pulpit to the right of the mihrab, from which the imam gives the Friday sermon, the hutbe. Out of respect, the preacher stands on a lower step, leaving the top step for the Prophet. Friday prayer replaces the ordinary noon prayer, and it is the longest closure of the week for visitors. On our route: Friday, November 13, Day 3. Plan to be in a museum, a bazaar, or a café at midday rather than outside a mosque door.",
+      "tip": "In Hagia Sophia, the mihrab and minbar are among the signs of its Ottoman life as a mosque."
+    },
+    {
+      "id": 9,
+      "label": "Minaret",
+      "x": 94,
+      "y": 34,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "A tall, slender pencil-shaped tower beside the hall, with ring balconies and a pointed cap.",
+      "description": "A minaret is the tower from which the call to prayer, the ezan, was traditionally sung by a muezzin five times a day. Ottoman minarets are pencil-shaped with a conical cap and one to three balconies, called şerefe. Today the call is usually amplified from loudspeakers on the balconies, but the muezzin still sings it live, inside the mosque. Ordinary neighborhood mosques have one minaret; only a mosque built by a sultan or a member of his family could have more. The Süleymaniye has four with ten balconies, and the Blue Mosque has six. On our route: count minarets on Day 3.",
+      "tip": "Counting minarets is a quick way to spot an imperial foundation."
+    }
+  ]
+}

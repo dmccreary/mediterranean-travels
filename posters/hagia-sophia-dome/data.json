@@ -1,0 +1,97 @@
+{
+  "title": "Inside the Hagia Sophia Dome",
+  "orientation": "landscape",
+  "image": "hagia-sophia-dome.png",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Piers",
+      "x": 30,
+      "y": 66,
+      "radius": 5,
+      "color": "#B5532D",
+      "hint": "Massive solid blocks of masonry standing at the sides of the great central space and rising into great arches.",
+      "description": "Four great arches rise from four piers, and everything above stands on them: the pendentives, the dome, and its weight. Justinian chose two scholars, not a builder, to design the church: Anthemius of Tralles, a mathematician, and Isidore of Miletus, a geometer. It was dedicated on December 27, 537, less than six years after work began. In Hagia Sophia the piers are partly visible inside; at the Süleymaniye, Sinan slimmed them and built them into the side walls. On our route: Day 2 and Day 3.",
+      "tip": "The section cuts through two of the four piers, one on each side."
+    },
+    {
+      "id": 2,
+      "label": "Pendentives",
+      "x": 38,
+      "y": 43,
+      "radius": 5,
+      "color": "#6A3FB5",
+      "hint": "A curved, triangular surface of masonry curling up into the corner between two arches, below the round base of the dome.",
+      "description": "A pendentive is a curved triangle of masonry that fills each corner between two arches and turns a square plan into a circle at the top. It answers a geometric problem: how to set a round dome on a square space. Four great arches rise from four piers, four pendentives curve up and inward between them, and the dome sits on the ring they make. For its time it was a daring piece of engineering. On our route: Day 2.",
+      "tip": "Little Hagia Sophia, a smaller domed church south of the Hippodrome, is often described as a trial run for the great dome."
+    },
+    {
+      "id": 3,
+      "label": "Ring of 40 windows",
+      "x": 50,
+      "y": 32,
+      "radius": 4,
+      "color": "#C9A227",
+      "hint": "A band of many small arched openings running all the way around the base of the great round roof, with light streaming in.",
+      "description": "Around the base of the dome runs a ring of 40 windows. Seen from below, the light pouring through them hides the supports, and the dome seems to float. That is what Procopius meant when he wrote that it seems to hang from heaven by a golden chain. Procopius saw the building new and wrote his praise for the emperor, so we read it with that purpose in mind. An Ottoman mosque such as the Süleymaniye has many more windows and a bright interior; Hagia Sophia's is dim and golden. On our route: Day 2.",
+      "tip": "Procopius is a primary source for the dome, but a flattering one."
+    },
+    {
+      "id": 4,
+      "label": "Central dome",
+      "x": 50,
+      "y": 18,
+      "radius": 6,
+      "color": "#1F6F8B",
+      "hint": "The largest, highest round roof at the top center, with a small finial on its crown.",
+      "description": "The Hagia Sophia dome is about 31 m across and rises about 55 m above the floor, and for its time it was a daring piece of engineering. For nearly a thousand years Hagia Sophia was the largest cathedral in the world, until Seville Cathedral was finished in 1520. Sinan's Süleymaniye dome is about 26.5 m across and about 53 m high: a little narrower, proportionally steeper, and pushing outward less. The gilded cross on the dome was replaced by the Ottoman crescent finial. On our route: the dome from the galleries on Day 2, and Sinan's answer on Day 3.",
+      "tip": "The Fossati brothers restored the dome between 1847 and 1849 for Sultan Abdülmecid."
+    },
+    {
+      "id": 5,
+      "label": "Half-domes",
+      "x": 76,
+      "y": 46,
+      "radius": 4,
+      "color": "#0E8A7D",
+      "hint": "Half-round roofs stepping down from the great dome at each end of the long axis, like a quarter of a sphere.",
+      "description": "To the east and west, two half-domes extend the space under the main dome, so the interior feels like one enormous, continuous room. The Ottomans used Hagia Sophia as their imperial mosque from 1453 and learned the central-dome idea partly from it. Sinan's Şehzade Mosque has a central dome surrounded by four half-domes; the Süleymaniye returns to Hagia Sophia's plan with two. On our route: Day 2 and Day 3.",
+      "tip": "East is on the right in this drawing."
+    },
+    {
+      "id": 6,
+      "label": "Buttresses",
+      "x": 11,
+      "y": 66,
+      "radius": 5,
+      "color": "#E07B39",
+      "hint": "Huge sloping masses of stone leaning against the outside of the walls, thicker at the bottom.",
+      "description": "The massive sloping buttresses, built from the Byzantine period onward, stop the walls from spreading under the dome's weight. Every builder after Justinian, Byzantine and Ottoman, has been holding the walls in against the dome's outward thrust, and Sinan added more in the 1570s. His buttresses worked so well that he learned from this building how to build his own great domes. At the Süleymaniye the buttresses are hidden in the walls and galleries. On our route: from a park bench across from Hagia Sophia on Day 2.",
+      "tip": "Each repair added a layer. The buttresses are part of the dome's story."
+    },
+    {
+      "id": 7,
+      "label": "Collapse and rebuild",
+      "x": 68,
+      "y": 22,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "The right-hand, eastern part of the great dome, where a faint pale outline of a lower, shallower first dome shows inside the higher one.",
+      "description": "The first dome, finished in 537, was shallower than the one we see. Earthquakes in 553 and 557 weakened it, and in May 558 the eastern part collapsed. Isidore the Younger, nephew of Isidore of Miletus, rebuilt it about 6 to 7 m higher, so its curve was steeper and pushed outward less, and the new dome was dedicated in 562. Partial collapses followed after earthquakes in 989 and 1346, and each time it was repaired. On our route: Day 2. This is a 562 design that has stood for about fifteen centuries because generations of builders kept it up.",
+      "tip": "The pale outline of the first dome is a drawing aid. The chapter says only that the first dome was shallower."
+    },
+    {
+      "id": 8,
+      "label": "Ottoman minarets",
+      "x": 94,
+      "y": 38,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "A tall, slender, pointed tower standing outside the building at the far edge, much taller and thinner than anything else in the section.",
+      "description": "Hagia Sophia has four minarets, each different, because they were built by different sultans: the earliest dates from soon after 1453, and the two matching ones to the west were added by Sinan in the 1570s. They are the clearest outside sign of the building's second life, as a mosque from 1453 to 1934. It is a mosque again since 2020, with a visitor route through the galleries while the ground floor is kept for worshippers. Who uses it now, and what it means to them, is where contested history lives. On our route: Day 2.",
+      "tip": "Four minarets and four lives: cathedral, mosque, museum, mosque."
+    }
+  ]
+}

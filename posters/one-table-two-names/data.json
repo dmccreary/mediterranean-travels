@@ -1,0 +1,182 @@
+{
+  "title": "One Table, Two Names",
+  "image": "one-table-two-names.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#5E8C31",
+    "#1F6F8B",
+    "#6A3FB5",
+    "#C9A227",
+    "#B5532D",
+    "#E07B39"
+  ],
+  "zones": [
+    {
+      "id": "vine-leaves",
+      "label": "Vine Leaves",
+      "color": "#5E8C31",
+      "x1": 1.17,
+      "y1": 1.56,
+      "x2": 17.23,
+      "y2": 98.44,
+      "tooltip": "Stuffed vine leaves: Turkish yaprak sarma and Greek dolmades, on one shared table. Click for details.",
+      "summary": "One small plate, two names, on a table both kitchens share.",
+      "facts": [
+        "Names: Turkish yaprak sarma, also called dolma, and Greek dolmades. Dolma is Turkish for \"stuffed.\" Chapter 15 lists them as one pair.",
+        "Meze are small dishes shared at the table, and the word comes from the Persian for \"taste.\" The same tradition runs through Greece as mezedes.",
+        "Why so many pairs: Greeks and Turks lived in one empire for centuries and exchanged populations in 1923. Refugees carried Anatolian cooking to Greece, such as meatballs named for Smyrna, soutzoukakia smyrneika.",
+        "Arguments over who invented stuffed grape leaves are best enjoyed rather than settled, says Chapter 3.",
+        "Where the pair breaks: hardly at all. The chapters give no difference in how the two kitchens make it. The names are what differ.",
+        "On our route: a Turkish meze lunch near the Spice Bazaar (Day 4), and Greek mezedes in a mezedopoleio in Psyrri or Thissio (Day 11)."
+      ]
+    },
+    {
+      "id": "yogurt-dip",
+      "label": "Yogurt Dip",
+      "color": "#1F6F8B",
+      "x1": 17.49,
+      "y1": 1.56,
+      "x2": 33.55,
+      "y2": 98.44,
+      "tooltip": "The yogurt dip: Turkish cacık and Greek tzatziki. Click for details.",
+      "summary": "Cool yogurt with cucumber and garlic, a little thinner on the Turkish table.",
+      "facts": [
+        "Names: Greek tzatziki and Turkish cacık, yogurt with cucumber and garlic. Chapter 15 notes that the Turkish version is often thinner.",
+        "Turkish cold meze also include haydari, a thick yogurt with garlic and dill (Chapter 6).",
+        "Yogurt is a Turkic word. Turkic herders, who moved west into Anatolia after 1071, kept milk from spoiling as yogurt (Chapter 3).",
+        "Tzatziki returns in the usual Greek gyros wrap, with pork or chicken, tomato, onion, and a few French fries (Chapter 15).",
+        "Where the pair breaks: thickness. It is the one difference the chapters give, and they do not rank either version.",
+        "On our route: haydari on the Istanbul meze tray (Day 4), and tzatziki among the starters at a Rhodes taverna (Day 8)."
+      ]
+    },
+    {
+      "id": "eggplant",
+      "label": "Eggplant",
+      "color": "#6A3FB5",
+      "x1": 33.81,
+      "y1": 1.56,
+      "x2": 49.87,
+      "y2": 98.44,
+      "tooltip": "Eggplant: Turkish patlıcan salatası and Greek melitzanosalata. Click for details.",
+      "summary": "A smoky eggplant salad, and a family of cousins, found on both sides of the Aegean.",
+      "facts": [
+        "Names: Greek melitzanosalata and Turkish patlıcan salatası. The Greek version is eggplant roasted until the skin blackens, then mashed with garlic, olive oil, and lemon or vinegar.",
+        "Imam bayıldı, \"the imam fainted,\" is stuffed eggplant cooked in olive oil. Athenian menus may list it as imam baildi, under its Turkish name.",
+        "Karnıyarık, \"split belly,\" is the Turkish cousin of Greek papoutsakia, \"little shoes.\" Papoutsakia are topped with béchamel, and karnıyarık has none.",
+        "Where the pair breaks: moussaka. Its name is Arabic-derived and versions exist across the Ottoman world, but the Greek béchamel topping is usually credited to the chef Nikolaos Tselementes in the early 20th century.",
+        "Echoes of 1923: many Cretan Muslims sent to Turkey settled on the Aegean coast, where Cretan dishes and Greek words survive in their grandchildren's kitchens (Chapter 7).",
+        "On our route: patlıcan salatası on the Day 4 meze tray, melitzanosalata at a Rhodes taverna (Day 8), and an eggplant lunch in Plaka (Day 10)."
+      ]
+    },
+    {
+      "id": "anise-spirit",
+      "label": "Anise Spirit",
+      "color": "#C9A227",
+      "x1": 50.13,
+      "y1": 1.56,
+      "x2": 66.19,
+      "y2": 98.44,
+      "tooltip": "The anise spirit: Turkish rakı and Greek ouzo. Click for details.",
+      "summary": "Two clear aniseed spirits that turn milky white with water and belong to a long meal.",
+      "facts": [
+        "Names: Turkish rakı and Greek ouzo. Rakı is a clear grape brandy flavored with aniseed, about 45 percent alcohol. Ouzo is anise-flavored and bottled at about 40 percent.",
+        "Both turn milky white when water or ice is added, because the oils of the anise come out of solution. Rakı's nickname is \"lion's milk.\"",
+        "Both are sipped slowly with small plates. The toasts are Şerefe, \"to honor,\" and Yamas, \"to our health.\" Many Turks do not drink alcohol, and declining is perfectly polite.",
+        "Where the pair breaks: one word, two drinks. Cretans call their grape spirit raki, but tsikoudia has no anise, so it stays clear when water is added (Chapter 14).",
+        "Ouzo has protected status in the European Union: only spirit made in Greece or Cyprus may be sold as ouzo (Chapter 16).",
+        "On our route: rakı at an evening meze table in Istanbul (Day 4), tsikoudia in a Cretan taverna (Day 9), and ouzo with mezedes in Athens (Day 11)."
+      ]
+    },
+    {
+      "id": "baklava",
+      "label": "Baklava",
+      "color": "#B5532D",
+      "x1": 66.45,
+      "y1": 1.56,
+      "x2": 82.51,
+      "y2": 98.44,
+      "tooltip": "Baklava: the pastry that Turks, Greeks, and Arabs each claim. Click for details.",
+      "summary": "The dish is agreed on, and the argument is over whom it belongs to.",
+      "facts": [
+        "Names: Turkish baklava and Greek baklavas. Thin layers of dough, called yufka or phyllo, are brushed with butter, filled with chopped nuts, baked, and soaked in syrup.",
+        "The Ottoman palace refined it into an art. On the fifteenth day of Ramadan the sultan sent trays of baklava to the Janissaries, one tray for every ten soldiers, in the Baklava Procession.",
+        "Where the pair breaks: the names match, but the claims do not. Where baklava was invented is disputed among Turks, Greeks, and Arabs, a small example of contested history on a plate.",
+        "Chapter 15's honest answer: each dish belongs to everyone who cooked it, and Athens and Istanbul both cook it well.",
+        "Today the most famous baklava comes from Gaziantep in southeastern Turkey, whose pistachio baklava has protected status in the European Union.",
+        "On our route: baklava in Sultanahmet or Eminönü (Day 3), and baklavas on an Athens table (Day 10)."
+      ]
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "color": "#E07B39",
+      "x1": 82.77,
+      "y1": 1.56,
+      "x2": 98.83,
+      "y2": 98.44,
+      "tooltip": "Coffee: Turkish coffee and Greek coffee, one drink under two names. Click for details.",
+      "summary": "The same coffee, made the same way, under a name that changed because a word can carry a wound.",
+      "facts": [
+        "Names: Turkish Türk kahvesi and Greek ellinikós kafés. Finely ground coffee is boiled in a small long-handled pot, the cezve or briki, and poured unfiltered into a small cup, with the grounds settling at the bottom.",
+        "Greek coffee is the same drink as Turkish coffee, made in the same way. Until the 1970s Greeks usually called it Turkish coffee too.",
+        "After the Turkish military intervention in Cyprus in 1974, the old name came to feel wrong to many Greeks, and within a few years \"Greek coffee\" was the usual name. The coffee did not change. The word did.",
+        "Both orders put the sweetness up front, because the sugar boils in the pot: sade or skétos for none, orta or métrios for medium, şekerli or glykós for sweet.",
+        "Where the pair breaks: the drink is the same but the history of its name is not. Greek coffee is Turkish coffee renamed after 1974, and the renaming carries feeling.",
+        "On our route: Turkish coffee in Istanbul (Day 1), and Greek coffee in an Athens kafeneio (Day 13), served with a glass of water."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which pair does the book call contested history on a plate, because the dish is agreed but Turks, Greeks, and Arabs argue over whom it belongs to?",
+      "correct_zone": "baklava",
+      "explanation": "Chapter 5 says where baklava was invented is disputed among Turks, Greeks, and Arabs. Chapter 15 adds that each dish belongs to everyone who cooked it."
+    },
+    {
+      "question": "Which pair is the same drink made the same way, with a Greek name that changed after 1974?",
+      "correct_zone": "coffee",
+      "explanation": "Greeks called it Turkish coffee until the 1970s. After Cyprus in 1974 the name felt wrong to many, and \"Greek coffee\" took over. The coffee did not change."
+    },
+    {
+      "question": "Which pair turns milky white when water is added, and has a Cretan cousin that stays clear?",
+      "correct_zone": "anise-spirit",
+      "explanation": "Rakı and ouzo are flavored with anise, whose oils cloud in water. Cretan tsikoudia, also called raki, has no anise and stays clear."
+    },
+    {
+      "question": "In which pair is the Turkish version often thinner than the Greek one?",
+      "correct_zone": "yogurt-dip",
+      "explanation": "Chapter 15 gives this as the difference between cacık and tzatziki, two versions of yogurt with cucumber and garlic."
+    },
+    {
+      "question": "Which pair includes a dish that Athenian menus sometimes list under its Turkish name, \"the imam fainted\"?",
+      "correct_zone": "eggplant",
+      "explanation": "Imam bayıldı is stuffed eggplant in olive oil. Greek menus may print it as imam baildi, one of many eggplant dishes the two kitchens share."
+    },
+    {
+      "question": "In which pair does the Turkish name include a word that means \"stuffed\"?",
+      "correct_zone": "vine-leaves",
+      "explanation": "Dolma is Turkish for \"stuffed.\" Yaprak sarma and dolma are the Turkish names for what Greeks call dolmades."
+    },
+    {
+      "question": "Which pair is raised with the toasts Şerefe, \"to honor,\" and Yamas, \"to our health\"?",
+      "correct_zone": "anise-spirit",
+      "explanation": "Rakı and ouzo are sipped slowly with small plates. The toast is part of the long meal, and declining to drink is perfectly polite."
+    },
+    {
+      "question": "Which pair is built on a food whose name is a Turkic word, brought west by herders after 1071?",
+      "correct_zone": "yogurt-dip",
+      "explanation": "Yogurt is a Turkic word, and herders on the move kept milk from spoiling by making it. Cacık and tzatziki are both built on it."
+    },
+    {
+      "question": "Which pair has a cousin, moussaka, whose Greek form gained its béchamel topping only in the early 20th century?",
+      "correct_zone": "eggplant",
+      "explanation": "The béchamel on Greek moussaka is usually credited to the chef Nikolaos Tselementes. Papoutsakia, the Greek cousin of karnıyarık, also wears béchamel."
+    },
+    {
+      "question": "Which pair introduces the idea that Greeks and Turks share so many dishes because they lived in one empire and exchanged populations in 1923?",
+      "correct_zone": "vine-leaves",
+      "explanation": "Chapter 15 gives both reasons for the shared dishes, and notes that refugees carried Anatolian cooking to Greece."
+    }
+  ]
+}
