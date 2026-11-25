@@ -2,41 +2,67 @@
   "title": "Next-Word Prediction and Temperature",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for next-word prediction and temperature",
-  "date": "2026-11-24",
+  "description": "Predict what the temperature setting does to a language model's choice of the next word, then reveal the adjusted probabilities and a draw of 20 sampled words, for four illustrative prompts.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "Next-Word Prediction and Temperature",
+    "subjectArea": "Computer Science",
+    "topic": "Next-word prediction, softmax temperature, and sampling in large language models",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Infer how changing the temperature changes which next word a language model chooses and how often, answering at least 4 of 5 prediction questions correctly before the sampled results are revealed."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Large language model",
+      "Token",
+      "Next-word prediction",
+      "Temperature",
+      "Probability"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 572
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict-then-reveal: the learner commits to an answer about the effect of temperature before the adjusted probabilities and a sampled draw of 20 are shown; free exploration follows",
+    "keyQuestions": [
+      "At temperature 0, will the model ever choose a word other than the favorite?",
+      "What does a higher temperature do to the least likely word?",
+      "How many of 20 sampled answers will contain a word with a 30 percent probability?",
+      "Does the temperature change what the model knows, or only how it chooses?"
+    ],
+    "commonMisconceptions": [
+      "A language model always gives the same answer to the same words.",
+      "A higher temperature makes the model more accurate or more creative without cost.",
+      "If the most likely word is correct, the model will never say the wrong one.",
+      "Temperature changes what the model knows, rather than how it chooses."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on five challenge questions (mastery: 4 of 5).",
+      "Explain why the same question can get different answers on different days."
+    ]
   },
-  "chapter": "19-algorithm"
+  "chapter": "19-algorithm",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/next-word-temperature-toy/"
 }

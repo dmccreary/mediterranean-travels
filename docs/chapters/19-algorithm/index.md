@@ -196,6 +196,10 @@ The MicroSim below lets us set the temperature and watch the choices change, pre
 
 #### Diagram: Next-Word Prediction and Temperature
 
+<iframe src="../../sims/next-word-temperature-toy/main.html" height="576px" width="100%" scrolling="no"></iframe>
+
+[Run the Next-Word Prediction and Temperature MicroSim Fullscreen](../../sims/next-word-temperature-toy/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Next-Word Prediction and Temperature</summary>
 Type: microsim
@@ -339,6 +343,10 @@ The MicroSim below lets us trace three loops like these and tell which kind each
 
 #### Diagram: When a Prediction Feeds Itself
 
+<iframe src="../../sims/prediction-feedback-loops/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the When a Prediction Feeds Itself MicroSim Fullscreen](../../sims/prediction-feedback-loops/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>When a Prediction Feeds Itself</summary>
 Type: causal-loop
@@ -459,6 +467,10 @@ B's confident forecasts look impressive on the six rainy days, but they are puni
 The MicroSim below turns this into a game: we give probabilities for twelve statements from this book, and it tells us how calibrated we were.
 
 #### Diagram: How Calibrated Are You?
+
+<iframe src="../../sims/calibration-confidence-game/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the How Calibrated Are You? MicroSim Fullscreen](../../sims/calibration-confidence-game/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>How Calibrated Are You?</summary>
