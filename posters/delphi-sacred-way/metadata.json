@@ -1,0 +1,70 @@
+{
+  "title": "Delphi: Climbing the Sacred Way",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over nine places on the Delphi hillside, in the order a visitor climbs them, to learn what a petitioner or an athlete did at each and what survives today, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "The sanctuary of Apollo at Delphi",
+    "learningObjectives": [
+      "The learner will name nine places on the Delphi hillside in the order a visitor climbs them, say what a petitioner or an athlete did at each, and say what survives to see today."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The sanctuary and the oracle, from [Chapter 17](../../chapters/17-oracle/index.md) and [Chapter 18](../../chapters/18-delphi/index.md)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/diagram.js",
+      "../../sims/shared-libs/style.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration followed by retrieval practice",
+    "keyQuestions": [
+      "What did a petitioner or an athlete do here?",
+      "What survives today?"
+    ],
+    "commonMisconceptions": [
+      "The oracle sat in a cave on the plain.",
+      "The sanctuary is a flat site."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: identify each marked part from its description"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a marker or label to read about that part."
+    },
+    {
+      "name": "Quiz",
+      "type": "button",
+      "description": "Hides the labels and asks you to click the marker that matches each description."
+    }
+  ],
+  "chapter": "18-delphi",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+  <title>The Acropolis, Then and Now — Interactive Infographic</title>
+  <link rel="stylesheet" href="../../sims/shared-libs/grid-overlay.css">
+  <style>
+    /* Titles: outlined pills at the top of each zone, always visible in Explore
+       mode. The image leaves the top of each zone empty for them. In Quiz mode the
+       engine's .zone-dimmed rule hides them so they don't give the answer away. */
+    .zone-chip {
+      opacity: 1;
+      top: 1.4cqw;
+      background: rgba(255, 255, 255, 0.95);
+      color: var(--zone-color, #1389A6);
+      border: 2px solid var(--zone-color, #1389A6);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+      text-shadow: none;
+      letter-spacing: 0.02em;
+    }
+    /* The selected zone's pill fills in with its color */
+    .grid-zone.zone-active .zone-chip {
+      background: var(--zone-color, #1389A6);
+      color: white;
+    }
+    /* Quiz: pills of correctly identified zones come back in green outline */
+    .grid-zone.zone-correct .zone-chip,
+    .grid-zone.zone-revealed .zone-chip {
+      background: white;
+      color: #2D8A4E;
+      border-color: #2D8A4E;
+    }
+
+    /* Hover tooltip (explore mode only) */
+    #tile-tooltip {
+      position: fixed;
+      z-index: 50;
+      pointer-events: none;
+      max-width: 250px;
+      padding: 6px 10px;
+      background: #2A2E3A;
+      color: white;
+      font-size: 13px;
+      line-height: 1.35;
+      border-radius: 6px;
+      border-left: 4px solid var(--tip-color, #1389A6);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      transition: opacity 0.12s;
+    }
+    #tile-tooltip.show { opacity: 1; }
+
+    /* Infobox below the image: sized for the longest entry so the
+       buttons underneath do not jump when a different zone is clicked */
+    #detail-panel { min-height: 460px; border-left-width: 5px; }
+    #panel-facts { line-height: 1.55; }
+    /* Holds the infobox (Explore) or the quiz question (Quiz) in the same
+       space, so the mode buttons below never move when the mode changes */
+    #info-area { min-height: 470px; }
+
+    /* Explanation inside the quiz "Correct!" modal */
+    .correct-explain {
+      max-width: 420px;
+      margin: -8px auto 16px;
+      font-size: 14px;
+      line-height: 1.45;
+      color: #333;
+    }
+
+    /* Shown until the generated image is saved next to this file */
+    #missing-image {
+      aspect-ratio: 3 / 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+      line-height: 1.5;
+      font-size: 15px;
+      color: #7B1010;
+      background: #F5EFE3;
+    }
+    #missing-image code { background: white; padding: 1px 5px; border-radius: 3px; }
+
+    #controls { margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<div id="image-wrapper">
+  <!-- image and zone overlay injected by grid-diagram.js -->
+</div>
+
+<div id="info-area">
+<div id="detail-panel">
+  <div id="panel-prompt">Hover over a panel to see its name. Click a panel to compare the five monuments here.</div>
+  <div id="panel-content">
+    <div id="panel-label"></div>
+    <div id="panel-summary"></div>
+    <ul id="panel-facts"></ul>
+  </div>
+</div>
+
+<div id="quiz-question"></div>
+</div>
+
+<div id="controls">
+  <button class="mode-btn active" id="btn-explore">Explore</button>
+  <button class="mode-btn"        id="btn-quiz">Quiz Mode</button>
+  <span id="quiz-score" style="display:none">
+    Score: <strong id="score-val">0</strong> / <strong id="score-total">0</strong>
+  </span>
+  <span id="edit-badge">EDIT MODE</span>
+</div>
+
+<div id="edit-panel">
+  <h3>Edit Mode — drag corner handles to calibrate zone boundaries</h3>
+  <div id="coord-display">Drag a corner handle to see live coordinates.</div>
+  <textarea id="json-output" readonly spellcheck="false"></textarea>
+  <div id="edit-actions">
+    <button id="copy-json-btn" onclick="sim.copyJSON()">Copy JSON</button>
+    <span id="copy-confirm"></span>
+  </div>
+</div>
+
+<script src="../../sims/shared-libs/grid-diagram.js"></script>
+<script src="acropolis-then-and-now.js"></script>
+<script>
+// Tell the parent page how tall this poster is, so the lesson page can size the
+// iframe (see docs/js/microsim-resize.js). The height only grows while the width
+// stays the same, so the page does not jump when a longer infobox is opened.
+(function () {
+  var maxH = 0, lastW = 0;
+  function post() {
+    var w = window.innerWidth;
+    if (w !== lastW) { lastW = w; maxH = 0; }
+    var c = document.getElementById('controls');
+    if (!c) return;
+    var h = Math.ceil(c.getBoundingClientRect().bottom + window.scrollY) + 24;
+    if (h > maxH) maxH = h;
+    window.parent.postMessage({ type: 'microsim-resize', height: maxH }, '*');
+  }
+  var t;
+  function later() { clearTimeout(t); t = setTimeout(post, 250); }
+  window.addEventListener('load', later);
+  window.addEventListener('resize', later);
+  document.addEventListener('click', later);
+  setTimeout(post, 800);
+})();
+</script>
+</body>
+</html>

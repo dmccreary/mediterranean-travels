@@ -1,0 +1,70 @@
+{
+  "title": "Roman Bath and Turkish Hamam",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over and click two stacked floor plans, a Roman bath above and a Turkish hamam below, to compare five stages of the bath and see where the match breaks, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Roman baths and the Turkish hamam",
+    "learningObjectives": [
+      "The learner will compare the rooms of a Roman bath with the rooms of a Turkish hamam, and for each of five stages state what the two share, where the match breaks, and why the hamam is best described as adapted from the Roman and Byzantine baths, not copied from them."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Chapter 6: Roman Bath Culture and The Turkish Bath"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 940
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "Where does the hamam match the Roman bath, and where does it break?",
+      "Adapted from, or copied from?"
+    ],
+    "commonMisconceptions": [
+      "The hamam is a Roman bath.",
+      "Roman baths and hamams are heated the same way."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: click the zone that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a zone for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks 9 questions answered by clicking a zone."
+    }
+  ],
+  "chapter": "06-bazaars-scripts-presses",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
