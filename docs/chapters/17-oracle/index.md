@@ -470,7 +470,7 @@ The MicroSim below gives us eight answers to test, ancient and modern.
 
 #### Diagram: Can This Answer Lose?
 
-<iframe src="../../sims/oracle-answer-hedging-test/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/oracle-answer-hedging-test/main.html" height="538px" width="100%" scrolling="no"></iframe>
 
 [Run the Can This Answer Lose? MicroSim Fullscreen](../../sims/oracle-answer-hedging-test/main.html){ .md-button .md-button--primary }
 
