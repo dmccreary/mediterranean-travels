@@ -68,6 +68,8 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
       - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - FAQ Quality Report: learning-graph/faq-quality-report.md
+      - FAQ Coverage Gaps: learning-graph/faq-coverage-gaps.md
       - Mascot Test: learning-graph/mascot-test.md
       - Feature Checklist: learning-graph/feature-checklist.md
 
@@ -156,6 +158,34 @@ nav:
     - Extensions and Excursions: appendices/extensions-and-excursions.md
     - Who Created the Antikythera Mechanism: appendices/antikythera-mechanism.md
 
+  - Stories:
+    - Overview: stories/index.md
+    - Story Ideas: stories/story-ideas.md
+    - Characters and House Style: stories/characters.md
+    - "1. Glaux and the Gods Who Moved In": stories/gods-who-moved-in/index.md
+    - "2. Halfdan Was Here": stories/halfdan-was-here/index.md
+    - "3. Ships Over the Hill": stories/ships-over-the-hill/index.md
+    - "4. The Sultan's Sweet Tooth": stories/sultans-sweet-tooth/index.md
+    - "5. The Press That Waited": stories/the-press-that-waited/index.md
+    - "6. The Head Teacher in the Park": stories/head-teacher-in-the-park/index.md
+    - "7. The Horse at the Gates": stories/horse-at-the-gates/index.md
+    - "8. The Soldier Who Carried His Enemy": stories/soldier-who-carried-his-enemy/index.md
+    - "9. Great Is Artemis!": stories/great-is-artemis/index.md
+    - "10. The Library With a Tomb": stories/library-with-a-tomb/index.md
+    - "11. The Giant Who Fell Down": stories/giant-who-fell-down/index.md
+    - "12. The Knights' Last Stand": stories/knights-last-stand/index.md
+    - "13. Into the Labyrinth": stories/into-the-labyrinth/index.md
+    - "14. The Architect Who Cracked the Code": stories/architect-who-cracked-the-code/index.md
+    - "15. Twenty-One Years of Candia": stories/twenty-one-years-of-candia/index.md
+    - "16. The Jar Makers of Thrapsano": stories/jar-makers-of-thrapsano/index.md
+    - "17. Wooden Walls": stories/wooden-walls/index.md
+    - "18. Pericles' Building Site": stories/pericles-building-site/index.md
+    - "19. The Man Who Asked Too Many Questions": stories/man-who-asked-too-many-questions/index.md
+    - "20. The Pythia's Busy Day": stories/pythias-busy-day/index.md
+    - "21. The Computer at the Bottom of the Sea": stories/computer-at-the-bottom-of-the-sea/index.md
+    - "22. The Day the Imam Fainted": stories/day-the-imam-fainted/index.md
+
+  - FAQ: faq.md
   - Glossary: glossary.md
 
   - License: license.md

@@ -1,0 +1,2850 @@
+{
+  "faq_version": "1.0",
+  "generated_date": "2026-11-24",
+  "source_textbook": "Mediterranean Travels",
+  "total_questions": 94,
+  "questions": [
+    {
+      "id": "faq-001",
+      "category": "Getting Started",
+      "question": "What is Mediterranean Travels about?",
+      "answer": "Mediterranean Travels is a day-by-day companion for a thirteen-day journey through Turkey and Greece, from November 11 to November 23, 2026. It covers three days on our own in Istanbul, the Viking Star's seven-night Ancient Mediterranean Treasures cruise from Istanbul to Athens, and three days in Athens with a day trip to Delphi.\n\nEach chapter prepares us for one day's place: what happened there, who built it and why, what to look for when we stand in front of it, what to eat, and who lives there now. The goal is not to tick off sights. It is to notice more, understand more, and meet the people of each place with real empathy.\n\nThree threads run through the whole guide: the long history of civilization along the route, two deep dives (Paul at Ephesus, and the Oracle and the Algorithm), and the Learning for All thread about who got to learn at each stop. The full plan is in the Trip Description.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Ancient Greece",
+        "Civilization",
+        "Athens",
+        "Delphi",
+        "Ephesus",
+        "Oracle of Delphi",
+        "Learning for All",
+        "Viking Star Cruise"
+      ],
+      "keywords": [
+        "ancient greece",
+        "athens",
+        "civilization",
+        "delphi",
+        "ephesus",
+        "oracle of delphi"
+      ],
+      "source_links": [
+        "docs/course-description.md"
+      ],
+      "has_example": false,
+      "word_count": 159
+    },
+    {
+      "id": "faq-002",
+      "category": "Getting Started",
+      "question": "Who is this guide written for?",
+      "answer": "The guide is written for curious adults who love the history of civilization, culture, and food, and who want to understand the people in each place, not just see the monuments. It assumes no professional background in archaeology, classics, theology, or Middle Eastern or Balkan history.\n\nIt is also written with a particular interest in mind: how organizations change, especially schools adapting to AI. One of the travelers works as an evangelist for AI in the democratization of education for every child on Earth. That is why the two deep-dive chapters and the Learning for All notes keep connecting ancient stories to modern questions about learning, leadership, and prediction.\n\nAny reader planning a similar trip, a teacher preparing a unit on the Eastern Mediterranean, or a school leader interested in change can use the guide. See About for how it came to be written.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Civilization",
+        "Eastern Mediterranean",
+        "Archaeology",
+        "Change Leadership",
+        "Prediction",
+        "Food as History",
+        "Learning for All",
+        "Democratization of Education"
+      ],
+      "keywords": [
+        "archaeology",
+        "change leadership",
+        "civilization",
+        "eastern mediterranean",
+        "food as history",
+        "prediction"
+      ],
+      "source_links": [
+        "docs/about.md"
+      ],
+      "has_example": false,
+      "word_count": 144
+    },
+    {
+      "id": "faq-003",
+      "category": "Getting Started",
+      "question": "Why does a travel guide have a learning graph, a glossary, and MicroSims?",
+      "answer": "Mediterranean Travels is built as an intelligent textbook, the same way a course textbook would be. A learning graph lists 598 concepts, from Eastern Mediterranean to graffiti, and records which concepts each one depends on. That graph decided the order of the chapters, so that Chapter 1's timeline comes before any site that needs it, and Paul's life comes before his ideas.\n\nThe Glossary defines 666 terms, places, people, and dishes. The MicroSims are small interactive programs, such as the Viking Cruise Map and the Antikythera Gears, that let us explore an idea instead of reading about it.\n\nThe result is a guide that works like a course without feeling like one. The Learning Graph section shows how the concepts fit together, and the Learning Graph Viewer lets us explore them as a network.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Eastern Mediterranean",
+        "Intelligent Textbook",
+        "Graffiti"
+      ],
+      "keywords": [
+        "eastern mediterranean",
+        "graffiti",
+        "intelligent textbook"
+      ],
+      "source_links": [
+        "docs/glossary.md",
+        "docs/sims/viking-cruise-map/index.md",
+        "docs/sims/antikythera-gears/index.md",
+        "docs/learning-graph/index.md",
+        "docs/sims/graph-viewer/index.md"
+      ],
+      "has_example": false,
+      "word_count": 132
+    },
+    {
+      "id": "faq-004",
+      "category": "Getting Started",
+      "question": "What route and dates does the trip cover?",
+      "answer": "The trip runs thirteen days, Wednesday, November 11 to Monday, November 23, 2026:\n\n- Days 1–5, Istanbul. Three days on our own, then embarkation on the Viking Star on November 14, with the ship in port until 6:00 PM on November 15.\n- Day 6, Çanakkale, for Troy and Gallipoli.\n- Day 7, Kuşadası, for Ephesus.\n- Day 8, Rhodes, our first day in Greece.\n- Day 9, Heraklion, on Crete.\n- Day 10, Piraeus, the port of Athens, with a final night aboard.\n- Days 11–13, Athens, including the day trip by road to Delphi on November 22.\n\nGreece is one hour behind Turkey in November, so clocks go back an hour when the ship enters Greek waters. The Viking Cruise Map shows every port and the road to Delphi, and Chapter 2 explains the shape of the journey.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Athens",
+        "Delphi",
+        "Crete",
+        "Ephesus",
+        "Rhodes",
+        "Viking Star Cruise",
+        "Istanbul",
+        "Troy"
+      ],
+      "keywords": [
+        "athens",
+        "crete",
+        "delphi",
+        "ephesus",
+        "rhodes",
+        "viking star cruise"
+      ],
+      "source_links": [
+        "docs/sims/viking-cruise-map/index.md",
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 125
+    },
+    {
+      "id": "faq-005",
+      "category": "Getting Started",
+      "question": "How should I read this guide?",
+      "answer": "Read one chapter a day, ideally at breakfast or the night before. Each daily chapter matches one day of the itinerary, so the history is fresh when we walk into the place it describes.\n\nThe two \"Before We Go\" chapters are read before departure, Chapter 1 first. The deep-dive chapters are read on quiet evenings aboard or on the road: Paul's life the evening before Ephesus, Paul's ideas the evening after, the Oracle the night before Delphi, and the Algorithm on the drive back. The closing chapter is for the flight home.\n\nEvery daily chapter follows the same pattern where it fits: what we will see, the history behind it, things to notice, food and drink, the people who live there now, etiquette and useful words, practical notes, and a short Learning for All note. Pair the reading with a few lines in a travel journal each evening.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Delphi",
+        "Ephesus",
+        "Food as History",
+        "Oracle of Delphi",
+        "Learning for All",
+        "Paul in Ephesus",
+        "Travel Journal",
+        "Closing of the Oracle"
+      ],
+      "keywords": [
+        "delphi",
+        "ephesus",
+        "food as history",
+        "learning for all",
+        "oracle of delphi",
+        "paul in ephesus"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 147
+    },
+    {
+      "id": "faq-006",
+      "category": "Getting Started",
+      "question": "Why do the two \"Before We Go\" chapters come first?",
+      "answer": "Every later chapter assumes we can place a site on the map and in time. Chapter 1 gives us that map and timeline: the Eastern Mediterranean, Anatolia, the Aegean, and Crete, then the nine periods from the Bronze Age to the Ottoman period, along with Judaism, Christianity, and Islam. Without it, Hagia Sophia, Ephesus, and Knossos blur into one long \"old.\"\n\nChapter 2 covers the practical side: the cruise, November weather and packing, off-season hours, and what it means to be a thoughtful traveler. It also opens the Learning for All thread with writing systems, the alphabet, and literacy, which later chapters build on at Troy, in the Ottoman print shops, and in the 1928 Turkish alphabet reform.\n\nIn the learning graph, concepts like Historical Timeline, Bronze Age, and City-State sit near the root, with hundreds of later concepts depending on them. That is why they come first.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Historical Timeline",
+        "Bronze Age",
+        "Eastern Mediterranean",
+        "City-State",
+        "Judaism",
+        "Christianity",
+        "Anatolia",
+        "Writing Systems"
+      ],
+      "keywords": [
+        "bronze age",
+        "christianity",
+        "city-state",
+        "eastern mediterranean",
+        "historical timeline",
+        "judaism"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md",
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 145
+    },
+    {
+      "id": "faq-007",
+      "category": "Getting Started",
+      "question": "What are the deep-dive chapters, and when should I read them?",
+      "answer": "Four chapters break the one-place-per-day pattern on purpose:\n\n- Paul at Ephesus, Part 1, read the evening of Day 6, sailing from Çanakkale to Kuşadası. It covers Paul's life, his letters, and his two to three years in Ephesus.\n- Paul at Ephesus, Part 2, read the evening of Day 7, after standing in the Great Theater. It covers his ideas, his legacy, and Paul as a case study in leading change.\n- The Oracle and the Algorithm, Part 1, read the night before Delphi. It explains the Pythia, how a consultation worked, and the famous answers.\n- The Oracle and the Algorithm, Part 2, read on the 2½-hour drive back or that evening. It pairs each Delphi story with a question about machine learning and AI.\n\nThe deep dives are longer and slower than the daily chapters. They are written to be read when there is time to think.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Delphi",
+        "Ephesus",
+        "Machine Learning",
+        "Oracle of Delphi",
+        "Paul as Change Case Study",
+        "Pythia",
+        "Paul in Ephesus",
+        "Oracle Consultation"
+      ],
+      "keywords": [
+        "delphi",
+        "ephesus",
+        "machine learning",
+        "oracle of delphi",
+        "paul as change case study",
+        "pythia"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md",
+        "docs/chapters/11-paul-ideas-leadership/index.md",
+        "docs/chapters/17-oracle/index.md",
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": false,
+      "word_count": 144
+    },
+    {
+      "id": "faq-008",
+      "category": "Getting Started",
+      "question": "What is the Learning for All thread?",
+      "answer": "Learning for All is a short note at the end of each daily chapter that tells one story about who got to learn at that stop, who was shut out, and which technology or institution widened the circle. It then draws one parallel to today's effort to use AI to bring a good education to every child on Earth.\n\nThe stories include the Greek alphabet at Troy, the Ottoman vakıf endowments that paid for free schools, the late arrival of Arabic-script printing in Istanbul, the Library of Celsus at Ephesus, the decipherment of Linear B, Aristotle tutoring Alexander, and the 1928 Turkish alphabet reform.\n\nChapter 2 sets out the pattern these stories share: learning starts locked up, a new technology opens it, those who benefited from the old way resist, and the circle widens but never all the way.\n\nExample: at Troy, Homer's songs lived only in the memories of trained singers. The Greek alphabet, whose vowels could record the rhythm of his verse, let the epics be written down and read by anyone who learned its letters. The reciters lost their monopoly, and for centuries only a minority of Greeks could read. Chapter 21 gathers all the notes into one table and draws lessons for doing education with communities rather than to them.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Alphabet",
+        "Aristotle",
+        "Ephesus",
+        "Learning for All",
+        "Istanbul",
+        "Troy",
+        "Ottoman Turkish Script",
+        "Linear A"
+      ],
+      "keywords": [
+        "alphabet",
+        "aristotle",
+        "ephesus",
+        "istanbul",
+        "learning for all",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md",
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": true,
+      "word_count": 211
+    },
+    {
+      "id": "faq-009",
+      "category": "Getting Started",
+      "question": "Who is Glaux, and what do the owl boxes mean?",
+      "answer": "Glaux (pronounced \"glowks,\" the ancient Greek word for owl) is the guide's mascot, a Little Owl (Athene noctua), the owl of Athena and of the ancient Athenian silver coin. Glaux travels with us as a fellow traveler, wearing an Aegean-blue scarf and carrying a satchel with a travel notebook. Glaux's catchphrase is \"Look closer.\"\n\nGlaux appears only in colored boxes, and each pose has one job:\n\n- Welcome opens a chapter and says why the day matters.\n- Thinking marks an idea worth pausing on.\n- Tip offers a shortcut or practical heuristic.\n- Warning heads off a common mistake and says how to avoid it.\n- Encourage appears at a known hard passage.\n- Celebration closes a chapter by naming what we can now do.\n\nIf Glaux is not doing one of those jobs, Glaux is not in the chapter. Chapter 1 has Glaux's self-introduction.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Athena"
+      ],
+      "keywords": [
+        "athena"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md"
+      ],
+      "has_example": false,
+      "word_count": 145
+    },
+    {
+      "id": "faq-010",
+      "category": "Getting Started",
+      "question": "What do I need to know before I start?",
+      "answer": "Nothing beyond general adult knowledge. The guide assumes we have heard of ancient Greece, the Roman Empire, Christianity, Islam, and the Ottoman Empire, and nothing more.\n\nEvery other term is explained where it first appears: spolia in Hagia Sophia, stratigraphy at Troy, the classical orders at Ephesus, the Pythia at Delphi, next-word prediction in the Algorithm chapter. Each is also defined in the Glossary.\n\nThe one real prerequisite is reading in order. A chapter's \"Prerequisites\" line lists the earlier chapters it builds on, and the learning graph was built so that no chapter uses an idea before it has been taught. If a later chapter feels thin, the fix is usually to reread the part of Chapter 1 that places that site in its era.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Ancient Greece",
+        "Roman Empire",
+        "Ottoman Empire",
+        "Christianity",
+        "Delphi",
+        "Islam",
+        "Ephesus",
+        "Prediction"
+      ],
+      "keywords": [
+        "ancient greece",
+        "christianity",
+        "delphi",
+        "islam",
+        "ottoman empire",
+        "roman empire"
+      ],
+      "source_links": [
+        "docs/glossary.md",
+        "docs/chapters/01-long-timeline/index.md"
+      ],
+      "has_example": false,
+      "word_count": 124
+    },
+    {
+      "id": "faq-011",
+      "category": "Getting Started",
+      "question": "What interactive MicroSims, posters, and appendices does the guide include?",
+      "answer": "The guide includes these MicroSims:\n\n- Viking Cruise Map: every port on real map tiles, the ship's route, and the road from Athens to Delphi.\n- Eras of the Eastern Mediterranean Timeline and Events Timeline: the nine periods and the key events on one scale.\n- Regions of the Eastern Mediterranean Map: Anatolia, the Aegean, Crete, and the Greek mainland.\n- Antikythera Gears: how a train of bronze gears turns a hand crank into a model of the sky.\n- Learning Graph Viewer: all 598 concepts and their dependencies.\n\nThe Three Classical Orders poster compares Doric, Ionic, and Corinthian columns. The appendices hold the Pronunciation Guide, a Timeline of Events, Extensions and Excursions, and an essay on Who Created the Antikythera Mechanism. The full list is on the MicroSims page.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Eastern Mediterranean",
+        "Classical Period",
+        "Anatolia",
+        "Athens",
+        "Delphi",
+        "Crete",
+        "Learning for All",
+        "Classical Orders"
+      ],
+      "keywords": [
+        "anatolia",
+        "athens",
+        "classical period",
+        "crete",
+        "delphi",
+        "eastern mediterranean"
+      ],
+      "source_links": [
+        "docs/sims/viking-cruise-map/index.md",
+        "docs/sims/eastern-med-eras-timeline/index.md",
+        "docs/sims/eastern-med-events-timeline/index.md",
+        "docs/sims/eastern-med-regions-map/index.md",
+        "docs/sims/antikythera-gears/index.md",
+        "docs/sims/graph-viewer/index.md",
+        "docs/posters/column-types/index.md",
+        "docs/appendices/pronunciation-guide.md",
+        "docs/appendices/timeline-of-events.md",
+        "docs/appendices/extensions-and-excursions.md",
+        "docs/appendices/antikythera-mechanism.md",
+        "docs/sims/index.md"
+      ],
+      "has_example": false,
+      "word_count": 129
+    },
+    {
+      "id": "faq-012",
+      "category": "Getting Started",
+      "question": "How do the pronounce buttons work?",
+      "answer": "Many names on this route are hard to say from their spelling alone: Ephesus, Knossos, Topkapı, Kuşadası, Süleymaniye, Pythia. Where one of these names first appears in the chapters, a 🔊 Pronounce button plays a short recording of it, and an italic respelling shows the stressed syllable in capitals, for example EF-uh-sus or koo-SHAH-dah-suh.\n\nEach term gets exactly one button in the whole book, at its first use in reading order. Later chapters do not repeat it. To hear a name again, open the Pronunciation Guide, which lists every pronounced term in one place, or look it up in the Glossary.\n\nNames with an established English form, such as Ephesus and Byzantine, use the English pronunciation a guide would use. Turkish and modern Greek names with no English form, such as Kuşadası and Arachova, use the local pronunciation.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Ephesus",
+        "Pythia",
+        "Local Guides",
+        "Arachova"
+      ],
+      "keywords": [
+        "arachova",
+        "ephesus",
+        "local guides",
+        "pythia"
+      ],
+      "source_links": [
+        "docs/appendices/pronunciation-guide.md",
+        "docs/glossary.md"
+      ],
+      "has_example": true,
+      "word_count": 137
+    },
+    {
+      "id": "faq-013",
+      "category": "Getting Started",
+      "question": "How does this guide connect to AI-Native Schools?",
+      "answer": "AI-Native Schools is a companion textbook about moving schools from legacy direct instruction to AI-native learning. Mediterranean Travels links to it wherever a story on the route sheds light on a school-change problem.\n\nThe links cluster in three places. Example: in Chapter 11, each of Paul's leadership lessons, such as building a team, hub-and-spoke diffusion, and respecting the economics of resistance, points to the matching AI-Native Schools chapter. In Chapter 19, the Delphi parallels point to chapters on measuring and forecasting AI and on AI guardrails. And every Learning for All note ends with a link where one fits, such as the vakıf endowments to the chapter on content economics and open educational resources.\n\nThe guide is careful that the history comes first and the parallel second, and each deep dive closes with a section on where its parallel breaks down.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Delphi",
+        "Change Leadership",
+        "Learning for All",
+        "Direct Instruction",
+        "AI-Native School",
+        "Vakif Endowment",
+        "Hub and Spoke Diffusion",
+        "Building a Team"
+      ],
+      "keywords": [
+        "ai-native school",
+        "change leadership",
+        "delphi",
+        "direct instruction",
+        "learning for all",
+        "vakif endowment"
+      ],
+      "source_links": [
+        "https://dmccreary.github.io/ai-native-schools/",
+        "docs/chapters/11-paul-ideas-leadership/index.md",
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 139
+    },
+    {
+      "id": "faq-014",
+      "category": "Getting Started",
+      "question": "Does the guide describe what actually happened on the trip?",
+      "answer": "Mostly, yes. The chapters were written to prepare for each day, then revised after the trip to reflect what we actually did and photographed. The photos in each chapter are our own, chosen from the trip and published without location data.\n\nWhere the day went differently from the plan, the chapter says so. The clearest case is Crete. Chapter 13 still teaches the palace of Knossos in full, because no account of the Minoans can skip it, but on the day we chose Viking's \"The Villages of Crete\" excursion instead. We spent the morning in the Heraklion Archaeological Museum, where nearly everything movable from Knossos now lives, and the afternoon at the Avli winery and the pottery village of Thrapsano. Chapter 14 follows the day in that order.\n\nPersonal touches appear in the first person: the Turkish delight and saffron we bought at the Spice Bazaar, and eggplant as a favorite dish on both sides of the Aegean.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Crete",
+        "Knossos Palace",
+        "Spice Bazaar",
+        "Heraklion Archaeological Museum",
+        "Eggplant",
+        "Turkish Delight",
+        "Saffron"
+      ],
+      "keywords": [
+        "crete",
+        "eggplant",
+        "heraklion archaeological museum",
+        "knossos palace",
+        "spice bazaar",
+        "turkish delight"
+      ],
+      "source_links": [
+        "docs/chapters/13-knossos-minoans-linear-b/index.md",
+        "docs/chapters/14-venetian-heraklion/index.md"
+      ],
+      "has_example": false,
+      "word_count": 156
+    },
+    {
+      "id": "faq-015",
+      "category": "Core Concepts",
+      "question": "What are the main eras of the Eastern Mediterranean, in order?",
+      "answer": "Chapter 1 uses nine periods, and every site on the route belongs to one or more of them:\n\n1. Bronze Age (about 3200–1100 BCE): the Minoans at Knossos, the Mycenaeans, and Troy.\n2. Iron Age: the Bronze Age collapse, iron tools, and the Greek alphabet.\n3. Archaic period: city-states, coins, and the first democracy.\n4. Classical period: Athens at its height and the Parthenon.\n5. Hellenistic period: Alexander's successor kingdoms and Koine Greek.\n6. Roman period: the Roman Empire and the Pax Romana, when Ephesus flourished.\n7. Byzantine period: Constantinople and Hagia Sophia.\n8. Ottoman period: Topkapı, the mosques, and the multi-faith empire.\n9. Modern period: the Republic of Turkey and the modern Greek state.\n\nA worked example in Chapter 1 squeezes 5,225 years into one 24-hour day: the Bronze Age fills the morning, the whole Classical period lasts about 43 minutes, and the Byzantine period fills the evening. Period boundaries are local, and a period name tells when, not always who. The Eras Timeline MicroSim lays them out on one scale.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Roman Empire",
+        "Bronze Age",
+        "Eastern Mediterranean",
+        "Iron Age",
+        "Archaic Period",
+        "Classical Period",
+        "Hellenistic Period",
+        "City-State"
+      ],
+      "keywords": [
+        "archaic period",
+        "bronze age",
+        "classical period",
+        "eastern mediterranean",
+        "iron age",
+        "roman empire"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md",
+        "docs/sims/eastern-med-eras-timeline/index.md"
+      ],
+      "has_example": true,
+      "word_count": 158
+    },
+    {
+      "id": "faq-016",
+      "category": "Core Concepts",
+      "question": "What does \"civilization\" mean in this guide?",
+      "answer": "The guide uses civilization as a description, not a ranking. A civilization is a way of organizing society that includes cities, a food surplus that frees some people from farming, a government, written or other records, and monumental building. Example: Minoan Crete, with its palaces, storerooms, and Linear A accounts, counts. So do Classical Athens, the Roman Empire, and the Ottoman Empire.\n\nThis matters because the word is easily misused to sort peoples into \"civilized\" and \"barbarian,\" as the Greeks themselves did. Calling the Minoans a civilization says how their society was organized. It does not say they were better than the herders or villagers around them.\n\nIn the learning graph, Civilization is one of the most foundational concepts, with hundreds of later concepts depending on it. Chapter 1 introduces it alongside archaeology, the study of the past through the layers people left in the ground.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Civilization",
+        "Roman Empire",
+        "Ottoman Empire",
+        "Athens",
+        "Archaeology",
+        "Crete",
+        "Minoan Civilization",
+        "Empire"
+      ],
+      "keywords": [
+        "archaeology",
+        "athens",
+        "civilization",
+        "crete",
+        "ottoman empire",
+        "roman empire"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md"
+      ],
+      "has_example": true,
+      "word_count": 145
+    },
+    {
+      "id": "faq-017",
+      "category": "Core Concepts",
+      "question": "Why was ancient Greece not a country?",
+      "answer": "Ancient Greece was a shared civilization of more than 1,000 independent city-states, not a single nation. A city-state (polis) was a city and the farmland around it, with its own laws, army, gods, coins, and calendar. Athens, Sparta, Corinth, Rhodes, and Ephesus were all separate states that sometimes allied and often fought each other.\n\nWhat made them all \"Greek\" was language, religion, and shared institutions: the Olympian gods, Homer's epics, the Olympic and Pythian Games, and sanctuaries like Delphi that every city respected. Example: a Greek from Ephesus and a Greek from Athens could understand each other, worship the same gods, and compete at the same games, while their cities stood ready to go to war.\n\nThis explains a surprise on our route: Byzantium and Ephesus were Greek cities, yet both lie in today's Turkey, because Greek city-states spread across the whole Aegean and beyond. Chapter 1 suggests the phrase \"an ancient Greek city in today's Turkey,\" which is accurate and respects both countries. Chapter 1 introduces the idea, and Chapter 16 shows how one city-state, Athens, governed itself.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Ancient Greece",
+        "Civilization",
+        "City-State",
+        "Athens",
+        "Byzantium",
+        "Olympian Gods",
+        "Delphi",
+        "Greek Language"
+      ],
+      "keywords": [
+        "ancient greece",
+        "athens",
+        "byzantium",
+        "city-state",
+        "civilization",
+        "olympian gods"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md",
+        "docs/chapters/16-athens-agora-democracy/index.md"
+      ],
+      "has_example": true,
+      "word_count": 175
+    },
+    {
+      "id": "faq-018",
+      "category": "Core Concepts",
+      "question": "Why did so many empires fight over the Bosphorus and the Dardanelles?",
+      "answer": "The two straits are chokepoints on one of the world's great trade routes. The Bosphorus, about 31 km long and 700 m to 3.7 km wide, is the only sea route from the Black Sea to the Mediterranean. The Dardanelles, about 61 km long and narrowest at Çanakkale, carries the same traffic between the Sea of Marmara and the Aegean. Whoever held their shores could tax, protect, or block the grain, timber, metals, and fish moving between the Black Sea and the wider world.\n\nThat one fact explains a great deal of the route's history. Troy grew rich guarding the mouth of the Dardanelles. Greeks from Megara founded Byzantium on the Bosphorus around 657 BCE. Constantine made it an imperial capital, Mehmed II built the Rumeli Hisarı fortress to close the strait before his siege of 1453, and in 1915 the Allies attacked Gallipoli to force the Dardanelles open.\n\nChapter 3 explains the Bosphorus, and Chapter 8 connects Troy and Gallipoli on opposite shores of the same water.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Trade Routes",
+        "Constantine the Great",
+        "Bosphorus Strait",
+        "Byzantium",
+        "Aegean Sea",
+        "Dardanelles Strait",
+        "Troy",
+        "Empire"
+      ],
+      "keywords": [
+        "aegean sea",
+        "bosphorus strait",
+        "byzantium",
+        "constantine the great",
+        "dardanelles strait",
+        "trade routes"
+      ],
+      "source_links": [
+        "docs/chapters/03-istanbul-two-continents/index.md",
+        "docs/chapters/08-troy-and-gallipoli/index.md"
+      ],
+      "has_example": false,
+      "word_count": 159
+    },
+    {
+      "id": "faq-019",
+      "category": "Core Concepts",
+      "question": "How did Byzantium become Constantinople and then Istanbul?",
+      "answer": "The city has had three main names, each marking a new layer:\n\n- Byzantium was founded by Greeks from Megara around 657 BCE. Its site was so much better than that of Chalcedon, across the water, that the Chalcedonians were called \"the city of the blind.\"\n- Constantinople was refounded by Constantine the Great, who embraced Christianity, and dedicated on May 11, 330 CE. It was the capital of the Byzantine Empire for 1,123 years. Divan Yolu still follows Constantine's main street, and his column still stands.\n- Istanbul became the Ottoman capital after Mehmed the Conqueror took the city on May 29, 1453. The name comes from the Greek for \"to the City.\"\n\nTurks call 1453 the Conquest; Greeks call it the Capture or the Fall. The city was an imperial capital for almost 1,600 years, from 330 to 1922. Chapter 3 tells the whole story in one sitting, on arrival day.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Ottoman Empire",
+        "Christianity",
+        "Constantine the Great",
+        "Byzantium",
+        "Constantinople",
+        "Mehmed the Conqueror",
+        "Fall of Constantinople",
+        "Layers of a City"
+      ],
+      "keywords": [
+        "byzantium",
+        "christianity",
+        "constantine the great",
+        "constantinople",
+        "mehmed the conqueror",
+        "ottoman empire"
+      ],
+      "source_links": [
+        "docs/chapters/03-istanbul-two-continents/index.md"
+      ],
+      "has_example": false,
+      "word_count": 142
+    },
+    {
+      "id": "faq-020",
+      "category": "Core Concepts",
+      "question": "Why did Constantinople's walls hold for a thousand years, and why did they fall in 53 days?",
+      "answer": "The Theodosian Walls, completed in 413 under Theodosius II, defended the city's land side with five layers in turn: a moat about 20 m wide, an open outer terrace, an outer wall, an inner terrace where the defenders gathered, and the main inner wall, about 12 m high with 96 towers. The sea protected the other sides, and a chain could close the Golden Horn. Add Greek fire, skilled diplomacy, and a gold coin that held its value for about seven centuries, and the Byzantine Empire could outlast attacker after attacker.\n\nThree things changed in 1453. Mehmed II built Rumeli Hisarı on the Bosphorus to cut off help by sea. He brought cannon large enough to batter walls designed for an age of rams and ladders. And he had about seventy ships hauled overland into the Golden Horn, around the chain, so the roughly 7,000 defenders had to stretch along the harbor walls too. After a 53-day siege, the city fell on May 29.\n\nThe lesson is about technology and defense. A defense built for one kind of attack can last a thousand years and then fail quickly when the attack changes. Chapter 3 walks the walls and the siege.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Constantinople",
+        "Theodosian Walls",
+        "Fall of Constantinople",
+        "Layers of a City",
+        "Byzantine Empire",
+        "Empire",
+        "Theodosius I",
+        "Golden Horn"
+      ],
+      "keywords": [
+        "byzantine empire",
+        "constantinople",
+        "empire",
+        "fall of constantinople",
+        "layers of a city",
+        "theodosian walls"
+      ],
+      "source_links": [
+        "docs/chapters/03-istanbul-two-continents/index.md"
+      ],
+      "has_example": false,
+      "word_count": 192
+    },
+    {
+      "id": "faq-021",
+      "category": "Core Concepts",
+      "question": "What happened to Hagia Sophia over its history?",
+      "answer": "Hagia Sophia has had more lives than almost any building on Earth:\n\n- 532–537 CE: Justinian built it as a cathedral after the Nika Riots burned the old one. Its dome, about 31 m across on four pendentives, collapsed in 558 and was rebuilt higher in 562.\n- 1054: a papal excommunication laid on its altar became the symbol of the Great Schism between the Eastern and Western churches.\n- 1204: the Fourth Crusade sacked the city and looted the church.\n- 1453: Mehmed II converted it into a mosque, adding minarets, and later sultans added more.\n- 1934: the Republic of Turkey made it a museum, and mosaics were uncovered.\n- 2020: it became a mosque again, with a visitor route through the galleries.\n\nEach change is a layer we can read on the building, from Justinian's dome to Mehmed's minaret to the 19th-century calligraphy roundels. The 2020 decision is also an argument about Atatürk's secular legacy, which is why it is contested history. See Chapter 4 and Chapter 7.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Sultan",
+        "Layers of a City",
+        "Crusades",
+        "Great Schism of 1054",
+        "Fourth Crusade",
+        "Justinian",
+        "Republic of Turkey",
+        "Hagia Sophia"
+      ],
+      "keywords": [
+        "crusades",
+        "fourth crusade",
+        "great schism of 1054",
+        "justinian",
+        "layers of a city",
+        "sultan"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md",
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md"
+      ],
+      "has_example": false,
+      "word_count": 159
+    },
+    {
+      "id": "faq-022",
+      "category": "Core Concepts",
+      "question": "What was the Ottoman Empire, and how did it govern so many faiths?",
+      "answer": "The Ottoman Empire was founded around 1299 by Osman, a Turkish leader in northwest Anatolia. It moved its capital from Söğüt to Bursa to Edirne, took Constantinople in 1453, and at its height under Suleiman the Magnificent (1520–1566) stretched from Hungary to Arabia. It lasted until 1922. Its ruler, the sultan, had to be a member of Osman's family.\n\nThe empire ruled Muslims, Christians, and Jews, and it organized them through the millet system. Each recognized religious community, Greek Orthodox, Armenian, and Jewish, ran its own affairs, including religious courts, schools, and charity, under its own leaders. Example: Sephardic Jews expelled from Spain in 1492 were welcomed by Sultan Bayezid II and rebuilt their lives in Istanbul, Thessaloniki, and Rhodes, speaking Ladino and running their own community institutions.\n\nThe millet system offered real protection, but not equality. Non-Muslims paid a special tax and faced limits on dress, building, and office. Chapter 5 covers the palace and the sultans, and Chapter 6 covers the multi-faith empire.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Ottoman Empire",
+        "Anatolia",
+        "Constantinople",
+        "Sultan",
+        "Rhodes",
+        "Suleiman the Magnificent",
+        "Istanbul",
+        "Empire"
+      ],
+      "keywords": [
+        "anatolia",
+        "constantinople",
+        "ottoman empire",
+        "rhodes",
+        "suleiman the magnificent",
+        "sultan"
+      ],
+      "source_links": [
+        "docs/chapters/05-ottoman-istanbul/index.md",
+        "docs/chapters/06-bazaars-scripts-presses/index.md"
+      ],
+      "has_example": true,
+      "word_count": 158
+    },
+    {
+      "id": "faq-023",
+      "category": "Core Concepts",
+      "question": "What are the Five Pillars of Islam?",
+      "answer": "The Five Pillars of Islam are the five acts every Muslim is expected to perform:\n\n1. Profession of faith (shahada): there is no god but God, and Muhammad is the messenger of God.\n2. Prayer (salat): five daily prayers facing Mecca, 17 obligatory cycles in all, each preceded by ablution, the ritual washing of face, hands, arms, and feet.\n3. Almsgiving (zakat): giving a share of one's wealth to those in need.\n4. Fasting (sawm) from dawn to sunset during the month of Ramadan.\n5. Pilgrimage (hajj) to Mecca once in a lifetime, for those able to make it.\n\nIn Istanbul the pillars are visible every day. The call to prayer sounds from each minaret five times, at times that follow the sun. On Friday, the noon prayer is replaced by congregational prayer with a sermon, which is why Day 3 is planned around Friday prayer. Chapter 5 explains the pillars and how to be a good guest in a mosque.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Islam",
+        "Istanbul",
+        "Five Pillars of Islam",
+        "Daily Prayer",
+        "Prayer Times",
+        "Call to Prayer",
+        "Minaret",
+        "Friday Prayer"
+      ],
+      "keywords": [
+        "call to prayer",
+        "daily prayer",
+        "five pillars of islam",
+        "islam",
+        "istanbul",
+        "prayer times"
+      ],
+      "source_links": [
+        "docs/chapters/05-ottoman-istanbul/index.md"
+      ],
+      "has_example": false,
+      "word_count": 153
+    },
+    {
+      "id": "faq-024",
+      "category": "Core Concepts",
+      "question": "What do we know about Jesus and the early Jesus movement that Paul joined?",
+      "answer": "Jesus of Nazareth was a Jewish teacher from Galilee who was crucified in Jerusalem around 30–33 CE. His followers believed he had risen from the dead, and they formed what the guide calls the early Jesus movement: at first a small renewal movement within Judaism, not a separate religion.\n\nThe movement was tiny, perhaps a few thousand people across the Roman East in Paul's day. Its members met in homes, kept Jewish practice, and argued about whether non-Jews who joined had to become Jews first. That argument shaped Paul's whole career.\n\nExample: Paul never met Jesus during his lifetime, as far as his letters tell us, and he says little about Jesus' life. But his first letter, from around 50 CE, is about twenty years older than the earliest Gospel, Mark, usually dated around 70 CE. So the few things Paul does say about Jesus are the oldest written evidence we have.\n\nThis is why Paul matters so much. In about twenty years he helped turn a small Jewish movement into a network of mixed Jewish and Gentile communities from Anatolia to Rome. Chapter 9 sets the scene, from the Pharisees and Jewish law to Paul's call on the road to Damascus.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Judaism",
+        "Anatolia",
+        "Jesus of Nazareth",
+        "Early Jesus Movement",
+        "Pharisees",
+        "Road to Damascus",
+        "Roman Roads",
+        "Jewish Law"
+      ],
+      "keywords": [
+        "anatolia",
+        "early jesus movement",
+        "jesus of nazareth",
+        "judaism",
+        "pharisees",
+        "road to damascus"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md"
+      ],
+      "has_example": true,
+      "word_count": 198
+    },
+    {
+      "id": "faq-025",
+      "category": "Core Concepts",
+      "question": "Who was Paul of Tarsus?",
+      "answer": "Paul, also called Saul, was a Jewish teacher born in Tarsus, in southern Anatolia, in the early 1st century CE. Tarsus gave him three worlds at once: he was Jewish, educated in Greek, and, according to Acts, a Roman citizen. He trained as a Pharisee, a member of a respected movement devoted to careful keeping of Jewish law.\n\nPaul first persecuted the early followers of Jesus. Then, around 33–36 CE, on the road to Damascus, he had the experience he described as a call, and he became the movement's most energetic traveling teacher. On his missionary journeys (about 46–57 CE) he founded communities of Jews and Gentiles in cities across Anatolia, Macedonia, and Greece, and wrote letters to guide them. He was arrested in Jerusalem, sent to Rome, and, by tradition, executed there.\n\nHis letters, from about 50 CE, are the oldest writings in the New Testament. Chapter 9 tells his life, separating what his own letters say from what Acts and later tradition add.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Anatolia",
+        "Early Jesus Movement",
+        "Tarsus",
+        "Pharisees",
+        "Paul of Tarsus",
+        "Road to Damascus",
+        "Roman Roads",
+        "Paul's Missionary Journeys"
+      ],
+      "keywords": [
+        "anatolia",
+        "early jesus movement",
+        "paul of tarsus",
+        "pharisees",
+        "road to damascus",
+        "tarsus"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md"
+      ],
+      "has_example": false,
+      "word_count": 161
+    },
+    {
+      "id": "faq-026",
+      "category": "Core Concepts",
+      "question": "Why was Ephesus so important to Paul?",
+      "answer": "Ephesus was the capital of the Roman province of Asia, a major port, and a pilgrimage center for the goddess Artemis. Roads and sea lanes ran out of it in every direction, which made it an ideal hub. According to Acts, Paul taught there for two to three years, about 52–55 CE, longer than anywhere else, and \"all the residents of Asia\" heard the message from that base.\n\nHe began in the synagogue, then taught daily for two years in the rented hall of Tyrannus. He worked alongside the tentmakers Priscilla and Aquila, who also coached the gifted teacher Apollos. He wrote at least one letter, 1 Corinthians, from Ephesus around 54 CE. His co-workers carried the message to nearby cities such as Colossae.\n\nHis stay ended after the riot of the silversmiths, when Demetrius, who made shrines of Artemis, led a crowd into the Great Theater, fearing for his trade. Later Paul said farewell to the Ephesian elders at Miletus. See Chapter 9 and Chapter 10.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Roman Roads",
+        "Apollo",
+        "Roman Province of Asia",
+        "Ephesus",
+        "Paul in Ephesus",
+        "Letter to the Romans",
+        "Farewell at Miletus",
+        "Artemis of Ephesus"
+      ],
+      "keywords": [
+        "apollo",
+        "ephesus",
+        "letter to the romans",
+        "paul in ephesus",
+        "roman province of asia",
+        "roman roads"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md",
+        "docs/chapters/10-ephesus-greco-roman-city/index.md"
+      ],
+      "has_example": false,
+      "word_count": 162
+    },
+    {
+      "id": "faq-027",
+      "category": "Core Concepts",
+      "question": "Which letters did Paul actually write?",
+      "answer": "The New Testament contains thirteen letters in Paul's name. Scholars broadly agree that seven are his own, the seven undisputed letters:\n\n- Romans\n- 1 Corinthians and 2 Corinthians\n- Galatians\n- Philippians\n- 1 Thessalonians\n- Philemon\n\nThe other six, including the Letter to the Ephesians, the letters to Timothy, and the Letter to Titus, are disputed. Their vocabulary, style, and concerns differ enough that many scholars think followers wrote them in Paul's name after his death, a common practice in the ancient world.\n\nThis matters for reading Paul fairly. Some of the lines most often quoted about women and slavery come from the disputed letters. The Book of Acts, written around 80–90 CE, a generation later, is our only narrative of his life, and it tells his story from its own point of view. Chapter 9 says which source each claim comes from.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Seven Undisputed Letters",
+        "Letter to the Galatians",
+        "Letter to the Romans",
+        "Timothy and Titus",
+        "Book of Acts",
+        "New Testament",
+        "Letter to the Ephesians"
+      ],
+      "keywords": [
+        "book of acts",
+        "letter to the galatians",
+        "letter to the romans",
+        "new testament",
+        "seven undisputed letters",
+        "timothy and titus"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md"
+      ],
+      "has_example": false,
+      "word_count": 140
+    },
+    {
+      "id": "faq-028",
+      "category": "Core Concepts",
+      "question": "What were Paul's central ideas?",
+      "answer": "Chapter 11 focuses on four:\n\n- Grace and faith. People are put right with God as a gift, received by trust, rather than earned by keeping the law. Lutheran, Catholic, and Orthodox Christians read this differently.\n- \"Neither Jew nor Greek, slave nor free, male and female\" (Galatians 3:28). The old divisions no longer decide who belongs to the community.\n- One body, many parts (1 Corinthians 12). Paul took a familiar Roman image of society as a body and reversed it: the weakest members are the indispensable ones.\n- Love as the greatest virtue (1 Corinthians 13). Often read at weddings, it was written to a quarreling community.\n\nPaul borrowed the language of Greek philosophy, especially the Stoics, to reach Greek listeners. His ideas passed through Augustine and Luther into Western thought, where they became one root of the ideas of individual conscience and human equality. Some of his harsher lines were also later used to justify Christian hostility toward Jews, which the chapter faces directly.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Greek Philosophy",
+        "Greek Language",
+        "Paul and the Stoics",
+        "One Body Many Parts",
+        "Grace and Faith",
+        "Neither Jew Nor Greek",
+        "Love as Greatest Virtue",
+        "Individual Conscience"
+      ],
+      "keywords": [
+        "grace and faith",
+        "greek language",
+        "greek philosophy",
+        "neither jew nor greek",
+        "one body many parts",
+        "paul and the stoics"
+      ],
+      "source_links": [
+        "docs/chapters/11-paul-ideas-leadership/index.md"
+      ],
+      "has_example": false,
+      "word_count": 161
+    },
+    {
+      "id": "faq-029",
+      "category": "Core Concepts",
+      "question": "Who were the Minoans, and what was Knossos?",
+      "answer": "The Minoans were the Bronze Age civilization of Crete, often called Europe's first civilization. The name is modern: Arthur Evans named them after King Minos of Greek myth. We do not know what they called themselves, because their script, Linear A, is still undeciphered.\n\nKnossos was their largest palace, first built around 1900 BCE and rebuilt after an earthquake around 1700 BCE. It was not just a royal home. It was a storehouse, workshop, shrine, and office arranged around a central court, at the heart of a palace economy that collected, recorded, and redistributed goods. Huge storage jars called pithoi held oil, wine, and grain.\n\nThe Thera eruption, around 1600 BCE, weakened Minoan Crete but did not end it. Mycenaean Greeks ruled Knossos after about 1450 BCE, and the palace burned around 1375 BCE. The bull-leaping fresco, the throne room, and the myth of the Minotaur all come from this world. Chapter 13 explains the palace and the museum.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Civilization",
+        "Bronze Age",
+        "Crete",
+        "Minoan Civilization",
+        "Mycenaean Greeks",
+        "Linear A",
+        "Linear B",
+        "Knossos Palace"
+      ],
+      "keywords": [
+        "bronze age",
+        "civilization",
+        "crete",
+        "linear a",
+        "minoan civilization",
+        "mycenaean greeks"
+      ],
+      "source_links": [
+        "docs/chapters/13-knossos-minoans-linear-b/index.md"
+      ],
+      "has_example": false,
+      "word_count": 153
+    },
+    {
+      "id": "faq-030",
+      "category": "Core Concepts",
+      "question": "What were Linear A and Linear B?",
+      "answer": "Linear A and Linear B are two Bronze Age scripts found on clay tablets in Crete and mainland Greece. Linear A is the older script of the Minoans, and it remains undeciphered; scholars can read a few words from context, such as ku-ro, \"total.\" Linear B is a later adaptation used by the Mycenaeans, and it writes an early form of Greek in about 90 sound-signs, each standing for a syllable. In Linear B, Knossos is spelled ko-no-so.\n\nThe tablets were palace accounts, not literature: lists of sheep, oil, chariot wheels, and workers. A few dozen scribes at Knossos kept them on unfired clay, and they survive only because the fires that destroyed the palaces baked them hard.\n\nLinear B was deciphered by Michael Ventris in 1952, building on Alice Kober's careful groundwork. When the palaces fell, writing vanished from Greece for about 400 years, because only a few scribes had known it. Chapter 13 tells the decipherment story.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Bronze Age",
+        "Crete",
+        "Mycenaean Greeks",
+        "Linear A",
+        "Linear B",
+        "Knossos Palace",
+        "Alice Kober",
+        "Michael Ventris"
+      ],
+      "keywords": [
+        "bronze age",
+        "crete",
+        "knossos palace",
+        "linear a",
+        "linear b",
+        "mycenaean greeks"
+      ],
+      "source_links": [
+        "docs/chapters/13-knossos-minoans-linear-b/index.md"
+      ],
+      "has_example": false,
+      "word_count": 155
+    },
+    {
+      "id": "faq-031",
+      "category": "Core Concepts",
+      "question": "How did Athenian democracy work, and who was left out?",
+      "answer": "Athenian democracy (508–322 BCE) was direct, not representative. Every citizen could attend the Assembly, which met on the Pnyx hill and voted on war, peace, and laws. A Council of 500, chosen by lot each year, prepared its business. Jurors were chosen by lot too, and citizens were paid for public service so that poor men could take part. The democracy's power rested on the poor citizens who rowed the fleet.\n\nThe Athenians also invented ostracism: once a year they could vote, by scratching a name on a potsherd, to exile a leading politician for ten years. Example: ready-made ballots found with Themistocles' name on them hint that some voters could not write their own.\n\nBut citizenship belonged only to adult men with two Athenian parents. Women, resident foreigners (metics), and enslaved people had no vote. Chapter 16 estimates that only about one Athenian in six could vote. \"For all\" has never meant all the first time.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Athenian Democracy",
+        "Themistocles",
+        "Athenian Citizenship",
+        "Who Democracy Left Out",
+        "Pnyx",
+        "Ostracism"
+      ],
+      "keywords": [
+        "athenian citizenship",
+        "athenian democracy",
+        "ostracism",
+        "pnyx",
+        "themistocles",
+        "who democracy left out"
+      ],
+      "source_links": [
+        "docs/chapters/16-athens-agora-democracy/index.md"
+      ],
+      "has_example": true,
+      "word_count": 154
+    },
+    {
+      "id": "faq-032",
+      "category": "Core Concepts",
+      "question": "How did Paul adapt his message for the philosophers of Athens?",
+      "answer": "Around 50 CE, Paul argued in the Agora of Athens and was brought to the Areopagus, which was both a rocky hill below the Acropolis and the council that met there. Acts 17:22–31 gives his speech, as its author Luke tells it, and it is a model of meeting people where they are.\n\nThe speech moves in steps. It starts from something the Athenians already honored: an altar \"to an unknown god\" Paul had seen in the city. It builds on common ground with Stoicism, the philosophy founded by Zeno around 300 BCE, which taught that reason runs through nature and that all humans form one community. It quotes their own poets, including Aratus of Soli, a poet from Paul's home region: \"for we too are his offspring.\" Only then does it turn to what was new and hard to accept: judgment and the resurrection of the dead. At that point, Acts says, some listeners scoffed.\n\nThe analysis is in the gap. Paul and the Stoics shared vocabulary and several ideas, but they parted over creation, judgment, and resurrection. He started from his listeners' own altars without leaving them there. A bronze plaque with the speech in Greek stands at the foot of the rock. See Chapter 16.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Athens",
+        "Greek Philosophy",
+        "Acropolis",
+        "Stoicism",
+        "Areopagus",
+        "Paul and the Stoics",
+        "Paul in Athens",
+        "Areopagus Speech"
+      ],
+      "keywords": [
+        "acropolis",
+        "areopagus",
+        "athens",
+        "greek philosophy",
+        "paul and the stoics",
+        "stoicism"
+      ],
+      "source_links": [
+        "docs/chapters/16-athens-agora-democracy/index.md"
+      ],
+      "has_example": false,
+      "word_count": 204
+    },
+    {
+      "id": "faq-033",
+      "category": "Core Concepts",
+      "question": "What was the Oracle of Delphi, and how did a consultation work?",
+      "answer": "The Oracle of Delphi was the sanctuary where Apollo's priestess, the Pythia, answered questions from individuals and cities for more than a thousand years. Greek cities asked it before founding colonies, going to war, or changing their laws.\n\nA consultation followed a set sequence. The visitor purified himself in the Castalian Spring, paid a fee, and offered a sacrifice. Priests sprinkled cold water on a goat; if it shivered, the god was willing to answer that day. Visitors waited in a line, with those holding promanteia, the right to consult first, at the front. The Pythia, a woman of Delphi seated on a bronze tripod in the inner room of the Temple of Apollo, gave the god's answer, and the priests announced and perhaps shaped it, in verse in early times and in prose by Plutarch's day.\n\nExample: when Socrates' friend Chaerephon asked whether anyone was wiser than Socrates, the answer was a plain no, and it sent Socrates out questioning everyone to find out what it meant.\n\nThe scholar Joseph Fontenrose found that most well-recorded answers were plain commands, and that the famous riddles are mostly legend. Chapter 17 walks through all the steps.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Socrates",
+        "Delphi",
+        "Apollo",
+        "Sanctuary of Apollo",
+        "Oracle of Delphi",
+        "Pythia",
+        "Oracle Consultation",
+        "Temple of Apollo at Delphi"
+      ],
+      "keywords": [
+        "apollo",
+        "delphi",
+        "oracle of delphi",
+        "pythia",
+        "sanctuary of apollo",
+        "socrates"
+      ],
+      "source_links": [
+        "docs/chapters/17-oracle/index.md"
+      ],
+      "has_example": true,
+      "word_count": 194
+    },
+    {
+      "id": "faq-034",
+      "category": "Core Concepts",
+      "question": "Why did the Oracle of Delphi last more than a thousand years?",
+      "answer": "The oracle answered questions for roughly 1,140 years, from about 750 BCE until the Theodosian Decrees of 391–392 CE banned pagan worship. That is longer than the Byzantine Empire. Chapter 17 points to several reasons:\n\n- Neutral ground. Delphi belonged to no single powerful city. A league of neighbors, the Amphictyonic League, ran the sanctuary, so rival states could all consult it.\n- Information. Envoys from every Greek city came to Delphi, so its priests heard more news from more places than anyone else in the Greek world.\n- Adaptation. The oracle changed over time, for example by answering in plain prose instead of verse.\n- Answers that could not lose. Hedged and ambiguous answers protected its reputation.\n- Faith. For the Greeks who came, Apollo was real, and consulting him was an act of piety.\n\nIts trust also faded slowly. Bribery scandals, gloomy answers as Persia advanced, and later the rise of Christianity eroded it. Plutarch, a priest at Delphi around 100 CE, wrote essays on why the oracle had declined.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "City-State",
+        "Christianity",
+        "Delphi",
+        "Apollo",
+        "Sanctuary of Apollo",
+        "Byzantine Empire",
+        "Oracle of Delphi",
+        "Empire"
+      ],
+      "keywords": [
+        "apollo",
+        "byzantine empire",
+        "christianity",
+        "city-state",
+        "delphi",
+        "sanctuary of apollo"
+      ],
+      "source_links": [
+        "docs/chapters/17-oracle/index.md"
+      ],
+      "has_example": true,
+      "word_count": 167
+    },
+    {
+      "id": "faq-035",
+      "category": "Core Concepts",
+      "question": "Was Troy a real place?",
+      "answer": "Yes, though the war in Homer's Iliad is a poet's memory rather than a history. The real city stood on the Hisarlık mound near the mouth of the Dardanelles, which it guarded. The mound is a tell, built up by about 3,500 years of rebuilding, and archaeologists count nine main cities in its layers, from about 3000 BCE to about 500 CE.\n\nTroy VI and Troy VIIa are the candidates for Homer's city. Troy VI was damaged by an earthquake around 1300 BCE, and Troy VIIa was destroyed by fire around 1180 BCE, during the Bronze Age collapse. Hittite texts name a kingdom called Wilusa, very probably Troy (Homer's Ilios), and a king named Alaksandu.\n\nHomer composed around 700 BCE, about 480 years after Troy VIIa fell, from songs carried across centuries without writing. So the best answer is: a real, rich city, probably destroyed by violence, remembered and transformed in song. Chapter 8 sets out the evidence.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Bronze Age",
+        "Layers of a City",
+        "Troy",
+        "Bronze Age Collapse",
+        "Hisarlik Mound",
+        "Homer",
+        "Nine Cities of Troy",
+        "Iliad"
+      ],
+      "keywords": [
+        "bronze age",
+        "bronze age collapse",
+        "hisarlik mound",
+        "homer",
+        "layers of a city",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/08-troy-and-gallipoli/index.md"
+      ],
+      "has_example": false,
+      "word_count": 150
+    },
+    {
+      "id": "faq-036",
+      "category": "Core Concepts",
+      "question": "What was the 1923 population exchange between Greece and Turkey?",
+      "answer": "After the Greco-Turkish War of 1919–1922, which ended with the burning of Smyrna, Greece and Turkey agreed in 1923 to a compulsory population exchange. About 1.2 million Orthodox Christians left Turkey for Greece, and about 400,000 Muslims left Greece for Turkey, and none could return.\n\nThe rule that sorted people was religion, not language. Example: Turkish-speaking Orthodox Christians from central Anatolia were sent to Greece, and Greek-speaking Muslims from Crete were sent to Turkey. Families who had lived in one place for centuries lost their homes, churches, mosques, and graves.\n\nThe Asia Minor refugees reshaped Greece. They built new neighborhoods around Athens and Thessaloniki, and they brought music such as rebetiko and dishes from Smyrna. On the Turkish coast, the end of Greek life is visible in empty churches and renamed villages around Ephesus. Chapter 7 and Chapter 10 tell the story, and both countries remember it differently.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Anatolia",
+        "Athens",
+        "Greek Language",
+        "Crete",
+        "Ephesus",
+        "Greco-Turkish War",
+        "Turkish Language",
+        "Population Exchange of 1923"
+      ],
+      "keywords": [
+        "anatolia",
+        "athens",
+        "crete",
+        "ephesus",
+        "greco-turkish war",
+        "greek language"
+      ],
+      "source_links": [
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md",
+        "docs/chapters/10-ephesus-greco-roman-city/index.md"
+      ],
+      "has_example": true,
+      "word_count": 142
+    },
+    {
+      "id": "faq-037",
+      "category": "Core Concepts",
+      "question": "Who was Atatürk, and what did his reforms change?",
+      "answer": "Mustafa Kemal Atatürk (1881–1938), born in Salonica, made his name as an Ottoman commander at Gallipoli in 1915. From 1919 he led the national movement that won the Turkish War of Independence, overturned the Treaty of Sèvres, and secured the Treaty of Lausanne in 1923. He proclaimed the Republic of Turkey on October 29, 1923, and became its first president.\n\nIn about fifteen years his reforms changed law, dress, the calendar, surnames, and the alphabet. The caliphate was abolished in 1924, religious courts closed, and the state adopted laiklik, a secularism in which the state manages religion through the Diyanet. In 1928 Turkish switched from Arabic script to a new Latin alphabet of 29 letters, one per sound, and the Nation's Schools taught adults to read it.\n\nExample: the Ottoman Turkish script wrote the language's eight vowel sounds with only three letters, so a reader often had to know a word already to read it. The new alphabet gives each vowel its own letter, so a schoolchild can sound out any sign.\n\nOn November 10, the anniversary of his death, the whole country stops at 9:05 AM. Chapter 7 covers the reforms, what they gained, and what they cost.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Alphabet",
+        "Mustafa Kemal Ataturk",
+        "Turkish War of Independence",
+        "Turkish Language",
+        "Republic of Turkey",
+        "Ottoman Turkish Script",
+        "Treaty of Lausanne",
+        "Ataturk's Reforms"
+      ],
+      "keywords": [
+        "alphabet",
+        "mustafa kemal ataturk",
+        "ottoman turkish script",
+        "republic of turkey",
+        "turkish language",
+        "turkish war of independence"
+      ],
+      "source_links": [
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md"
+      ],
+      "has_example": true,
+      "word_count": 187
+    },
+    {
+      "id": "faq-038",
+      "category": "Core Concepts",
+      "question": "Why were the Knights Hospitaller on Rhodes?",
+      "answer": "The Knights Hospitaller began as a hospital for pilgrims in Jerusalem in the 11th century and grew into a military religious order during the Crusades. After the crusader states fell, they took Rhodes and ruled it as their own island state from 1310 to 1522.\n\nThe knights were organized by tongues, groups based on language and region, each with its own inn on the Street of the Knights. They built the Palace of the Grand Master, the Hospital of the Knights (1440–1489), and about 4 km of walls rebuilt for the age of cannon after 1480. From Rhodes they raided Ottoman shipping.\n\nIn 1522 Suleiman the Magnificent besieged the city. After six months the knights surrendered on terms and left on January 1, 1523, later settling on Malta. The Rhodes Medieval Town, a UNESCO site since 1988, is their legacy, though much of what we see, including the Palace of the Grand Master, was rebuilt under Italian rule in 1937–1940. Chapter 12 reads each layer.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "City-State",
+        "Layers of a City",
+        "Crusades",
+        "Rhodes",
+        "Suleiman the Magnificent",
+        "Knights Hospitaller",
+        "Hospitaller Rhodes",
+        "Rhodes Medieval Town"
+      ],
+      "keywords": [
+        "city-state",
+        "crusades",
+        "knights hospitaller",
+        "layers of a city",
+        "rhodes",
+        "suleiman the magnificent"
+      ],
+      "source_links": [
+        "docs/chapters/12-rhodes/index.md"
+      ],
+      "has_example": false,
+      "word_count": 154
+    },
+    {
+      "id": "faq-039",
+      "category": "Core Concepts",
+      "question": "What is the Antikythera mechanism?",
+      "answer": "The Antikythera mechanism is a geared bronze device from the 2nd century BCE, found in a shipwreck of about 70–60 BCE off the island of Antikythera. Turning a hand crank moved dozens of interlocking gears that modeled the Sun, the Moon and its phases, the calendar, the cycle of the athletic games, and the eclipse cycles. It is often called the world's oldest known analog computer. Its fragments are in Athens's National Archaeological Museum.\n\nThe guide calls it an ancient prediction machine. It sits between the oracle and the modern learned model. The oracle gave answers no one could check. The mechanism turned regular, observed cycles into predictions anyone could check against the sky. A machine-learning model, by contrast, learns its patterns from examples.\n\nWho built it is uncertain; some scholars link it to Rhodes. Chapter 20 explains it, the Antikythera Gears MicroSim lets us turn the gears, and the appendix Who Created the Antikythera Mechanism weighs the candidates.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Athens",
+        "Prediction",
+        "Machine Learning",
+        "Rhodes",
+        "National Archaeological Museum",
+        "Antikythera Mechanism",
+        "Ancient Prediction Machines"
+      ],
+      "keywords": [
+        "antikythera mechanism",
+        "athens",
+        "machine learning",
+        "national archaeological museum",
+        "prediction",
+        "rhodes"
+      ],
+      "source_links": [
+        "docs/chapters/20-athens-museums-city-today/index.md",
+        "docs/sims/antikythera-gears/index.md",
+        "docs/appendices/antikythera-mechanism.md"
+      ],
+      "has_example": false,
+      "word_count": 157
+    },
+    {
+      "id": "faq-040",
+      "category": "Core Concepts",
+      "question": "How does a predictive model or a large language model actually work?",
+      "answer": "Machine learning finds patterns in examples instead of following rules a person wrote. A predictive model uses those patterns to turn present facts into a probability about an unknown outcome, such as rain tomorrow or whether a loan will be repaid. It assumes the future will resemble the past, so it is only as good as its training data.\n\nExample: a spam filter is not given rules about junk mail. It is shown millions of emails that people marked as junk or not, and it learns the patterns that separate them.\n\nA large language model is a predictive model for text. Its core task is next-word prediction: given the words so far, it assigns a probability to every possible next word, chooses one, adds it, and repeats. Everything a chatbot writes, from a poem to a timetable, is produced this way, one word at a time.\n\nThat has a practical consequence. A language model predicts likely answers; it does not look up facts. Likely is not the same as true, which is why its answers need checking. Whether these models \"understand\" is still an open debate. Chapter 19 explains all three ideas in plain terms, starting from the oracle.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Prediction",
+        "Machine Learning",
+        "Learning for All",
+        "Predictive Model",
+        "Training Data",
+        "Large Language Model",
+        "Next-Word Prediction"
+      ],
+      "keywords": [
+        "large language model",
+        "learning for all",
+        "machine learning",
+        "prediction",
+        "predictive model",
+        "training data"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 198
+    },
+    {
+      "id": "faq-041",
+      "category": "Core Concepts",
+      "question": "What were the Persian Wars, and why do they matter for Athens?",
+      "answer": "The Persian Wars (499–479 BCE) were the Persian Empire's attempts to conquer Greece. They began with the Ionian Revolt, when Greek cities on today's Turkish coast rose against Persian rule with Athenian help.\n\nIn 490 BCE, at the Battle of Marathon, the Athenians and Plataeans defeated a Persian landing. In 480 BCE the Persian king Xerxes invaded with a huge army and burned the Acropolis. Before he came, the Athenians had asked Delphi for advice and were told to trust their \"wooden walls.\" Themistocles argued that this meant ships, and he had already turned the silver of the Laurion mines into a fleet. At the Battle of Salamis, Athens supplied 180 of the 378 Greek ships that won in the narrows. Victories at Plataea and Mycale in 479 BCE ended the invasion.\n\nThe wars matter because the burned Acropolis was rebuilt from 447 BCE under Pericles, giving us the Parthenon. Our main source, Herodotus, wrote an inquiry that names its sources and doubts its own numbers. See Chapter 15.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Athens",
+        "Delphi",
+        "Acropolis",
+        "Empire",
+        "Persian Wars",
+        "Pericles",
+        "Parthenon",
+        "Herodotus"
+      ],
+      "keywords": [
+        "acropolis",
+        "athens",
+        "delphi",
+        "empire",
+        "pericles",
+        "persian wars"
+      ],
+      "source_links": [
+        "docs/chapters/15-athens-acropolis/index.md"
+      ],
+      "has_example": false,
+      "word_count": 161
+    },
+    {
+      "id": "faq-042",
+      "category": "Technical Details",
+      "question": "How do I count the years between a BCE date and a CE date?",
+      "answer": "Add the two numbers and subtract one, because there was no year zero: 1 BCE is followed directly by 1 CE.\n\nBCE means \"Before the Common Era\" and CE means \"Common Era.\" They are the same years as the older labels BC and AD, renamed so that people of every faith can use them. BCE years count down toward the start of the era, so 480 BCE came before 399 BCE. CE years count up.\n\nExample: the Roman period ran from 31 BCE to 330 CE. That is 31 + 330 − 1 = 360 years, not 361. In the same way, from 480 BCE, the year the Persians burned the Acropolis, to 2026 CE is 2,505 years, not 2,506. Within one era, just subtract: from 447 BCE to 432 BCE, when the Parthenon was built, is 15 years.\n\nThe guide writes approximate dates as \"c. 657 BCE\" in tables and \"about 657 BCE\" in sentences. Chapter 1 has a short quiz on these spans.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Roman Period",
+        "Acropolis",
+        "Parthenon"
+      ],
+      "keywords": [
+        "acropolis",
+        "parthenon",
+        "roman period"
+      ],
+      "source_links": [
+        "docs/chapters/01-long-timeline/index.md"
+      ],
+      "has_example": true,
+      "word_count": 141
+    },
+    {
+      "id": "faq-043",
+      "category": "Technical Details",
+      "question": "How do I tell Doric, Ionic, and Corinthian columns apart?",
+      "answer": "Look at the top of the column, the capital, first. The three classical orders are rulebooks for a column and the beam above it:\n\n- Doric: a plain, cushion-shaped capital and no base. The shaft has about 20 sharp-edged flutes. The Parthenon and the Temple of Hephaestus are Doric.\n- Ionic: a capital with two scrolls, called volutes, like a rolled-up page. It has a base, and the column is slimmer. The order was born in Ionia, the coast around Ephesus. The Temple of Athena Nike and the Erechtheion are Ionic.\n- Corinthian: a tall capital wrapped in carved acanthus leaves. It was the Romans' favorite, so it fills Roman Ephesus and Hadrian's Temple of Olympian Zeus in Athens.\n\nExample: at the Library of Celsus, the columns have leafy capitals, so they are Corinthian, which fits a building begun around 110 CE.\n\nThe Three Classical Orders poster compares all three side by side, and Chapter 10 teaches the orders on the walk through Ephesus.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Athens",
+        "Ephesus",
+        "Classical Orders",
+        "Doric Order",
+        "First Corinthians",
+        "Ionic Order",
+        "Athena",
+        "Parthenon"
+      ],
+      "keywords": [
+        "athens",
+        "classical orders",
+        "doric order",
+        "ephesus",
+        "first corinthians",
+        "ionic order"
+      ],
+      "source_links": [
+        "docs/posters/column-types/index.md",
+        "docs/chapters/10-ephesus-greco-roman-city/index.md"
+      ],
+      "has_example": true,
+      "word_count": 161
+    },
+    {
+      "id": "faq-044",
+      "category": "Technical Details",
+      "question": "What are spolia?",
+      "answer": "Spolia (Latin for \"spoils\") are building materials taken from an older structure and reused in a new one: columns, capitals, carved blocks, and inscriptions. Builders in every era on our route used them, because cut stone was expensive and old buildings were close at hand.\n\nExample: the Basilica Cistern in Istanbul, built under Justinian in 532, has 336 columns, many of them collected from older buildings. Two of them rest on carved Medusa heads, one set sideways and one upside down, probably because they were simply the right size for a base.\n\nSpolia are a clue when reading a ruin. Mismatched columns, an inscription upside down in a wall, or a classical relief built into a medieval tower all tell us that a structure was assembled from an older layer. Date a thing by when it arrived in its present place, not by when it was carved. Chapter 4 introduces spolia, and they reappear at Ephesus, Rhodes, and Heraklion.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Reading a Ruin",
+        "Ephesus",
+        "Rhodes",
+        "Istanbul",
+        "Justinian",
+        "Inscription",
+        "Spolia",
+        "Basilica Cistern"
+      ],
+      "keywords": [
+        "ephesus",
+        "inscription",
+        "istanbul",
+        "justinian",
+        "reading a ruin",
+        "rhodes"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": true,
+      "word_count": 156
+    },
+    {
+      "id": "faq-045",
+      "category": "Technical Details",
+      "question": "What is the difference between restoration and reconstruction?",
+      "answer": "Restoration conserves what survives: cleaning, repairing, and stabilizing original material, and sometimes putting fallen original pieces back in place. Reconstruction rebuilds what is lost, using new material to show what a building might once have looked like.\n\nThe difference matters because a reconstruction is an argument, not evidence. It shows what the person who built it believed.\n\nExample: at Knossos, Arthur Evans, who excavated from 1900, rebuilt parts of the palace in reinforced concrete in the 1920s, painted it, and filled it with copies of frescoes. So the site has to be read as three things at once: Minoan remains, Evans's rebuilding, and modern copies. The Palace of the Grand Master on Rhodes is another case: Italy rebuilt it in 1937–1940, so much of what looks medieval is 20th century. The Athenian Treasury at Delphi was rebuilt in 1903–1906 from its original blocks.\n\nChapter 4 defines both terms, and Chapter 13 applies them to Knossos.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Delphi",
+        "Rhodes",
+        "Knossos Palace",
+        "Fresco",
+        "Restoration and Reconstruction",
+        "Arthur Evans",
+        "Minoan Frescoes",
+        "Evans Reconstructions"
+      ],
+      "keywords": [
+        "arthur evans",
+        "delphi",
+        "fresco",
+        "knossos palace",
+        "restoration and reconstruction",
+        "rhodes"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md",
+        "docs/chapters/13-knossos-minoans-linear-b/index.md"
+      ],
+      "has_example": true,
+      "word_count": 150
+    },
+    {
+      "id": "faq-046",
+      "category": "Technical Details",
+      "question": "What is stratigraphy, and how does it help at Troy?",
+      "answer": "Stratigraphy is the method of reading the past from the layers, or strata, that build up in the ground. Each generation builds on the rubble of the last, so deeper layers are generally older. The key rule is that a pit or trench is younger than every layer it cuts through.\n\nAt Troy, the Hisarlık mound is a tell, a hill made almost entirely of the remains of about 3,500 years of rebuilding. Archaeologists divide it into nine main cities, Troy I to Troy IX, from about 3000 BCE to about 500 CE.\n\nExample: Heinrich Schliemann, digging from 1871, cut a huge trench straight through the mound looking for Homer's city. He dug past the layers we now think are the best candidates, Troy VI and VIIa, and identified the much older Troy II as Homer's Troy. His trench, still visible, is younger than every layer it slices, which is how archaeologists read it today. Stratigraphy turned a heap of rubble into a timeline. See Chapter 8.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Layers of a City",
+        "Troy",
+        "Stratigraphy",
+        "Hisarlik Mound",
+        "Homer",
+        "Nine Cities of Troy",
+        "Heinrich Schliemann",
+        "Troy VI and VIIa"
+      ],
+      "keywords": [
+        "hisarlik mound",
+        "homer",
+        "layers of a city",
+        "nine cities of troy",
+        "stratigraphy",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/08-troy-and-gallipoli/index.md"
+      ],
+      "has_example": true,
+      "word_count": 162
+    },
+    {
+      "id": "faq-047",
+      "category": "Technical Details",
+      "question": "What is a primary source, and why does the guide keep asking about them?",
+      "answer": "A primary source comes from the time it describes: a letter, an inscription, a chronicle written by a witness, a tax record. A secondary source is written later, from other sources. The guide keeps asking about sources because many famous stories on the route have weaker evidence than their fame suggests.\n\nThe habit is to ask three questions of any source: who wrote it, for whom, and why?\n\nExample: the historian Procopius praised the emperor Justinian in his book Buildings and attacked him savagely in The Secret History, in the same years. Both are primary sources, and both had a purpose. Similarly, Paul's own letters are primary sources for his life, while the Book of Acts was written a generation later. Every famous answer of the Delphic oracle was written down after the outcome it supposedly predicted.\n\nChapter 4 introduces primary sources, and every later chapter uses the same questions.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Primary Source",
+        "Justinian",
+        "Inscription",
+        "Book of Acts"
+      ],
+      "keywords": [
+        "book of acts",
+        "inscription",
+        "justinian",
+        "primary source"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": true,
+      "word_count": 149
+    },
+    {
+      "id": "faq-048",
+      "category": "Technical Details",
+      "question": "What is the difference between myth, history, and contested history?",
+      "answer": "History is what the evidence shows happened. A myth, in this guide's sense, is a story told as fact without good evidence, often a much later invention. Contested history has agreed facts but disputed meanings, so honest people tell it differently.\n\nTo test a possible myth, find the earliest source for the story. Example: the line Justinian supposedly spoke on entering Hagia Sophia, \"Solomon, I have outdone thee,\" first appears about three hundred years after Justinian. It is a good story and a weak record.\n\nContested history is different. Everyone agrees that Hagia Sophia became a mosque in 1453, a museum in 1934, and a mosque again in 2020. What those dates mean differs between a devout Turkish Muslim, a secular Turk, and a Greek Orthodox Christian. The fall of Constantinople, Gallipoli, and the population exchange of 1923 are contested in the same way.\n\nChapter 4 sets out the three categories, and the guide applies them from Troy to Delphi.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Constantinople",
+        "Delphi",
+        "Fall of Constantinople",
+        "Troy",
+        "Justinian",
+        "Hagia Sophia",
+        "Population Exchange of 1923",
+        "Contested History"
+      ],
+      "keywords": [
+        "constantinople",
+        "delphi",
+        "fall of constantinople",
+        "hagia sophia",
+        "justinian",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": true,
+      "word_count": 155
+    },
+    {
+      "id": "faq-049",
+      "category": "Technical Details",
+      "question": "What are a vakıf and a külliye?",
+      "answer": "A vakıf (Arabic waqf) is a permanent charitable endowment in Islamic law. A founder gave property, such as shops, farmland, or bathhouses, whose income was dedicated to a purpose forever. The deed named the purpose and how the money was to be spent, down to salaries and meals.\n\nA külliye is the complex of buildings that such endowments often paid for, grouped around a mosque. A large one included a medrese (a college), an imaret (a public kitchen that fed students, staff, and the poor), a hospital, a library, baths, and shops whose rents helped pay for it all.\n\nExample: the Süleymaniye complex in Istanbul, built by Mimar Sinan for Suleiman the Magnificent in 1550–1557, had several medreses, a medical school, a hospital, and an imaret. Students who could not otherwise afford it received free education, meals, and a stipend. The Grand Bazaar's rents helped fund Hagia Sophia's endowment.\n\nChapter 5 explains both, and its Learning for All note connects them to sustainable funding for open learning today.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Learning for All",
+        "Suleiman the Magnificent",
+        "Istanbul",
+        "Mimar Sinan",
+        "Hagia Sophia",
+        "AI in Education",
+        "Vakif Endowment",
+        "Suleymaniye Mosque"
+      ],
+      "keywords": [
+        "ai in education",
+        "hagia sophia",
+        "istanbul",
+        "learning for all",
+        "mimar sinan",
+        "suleiman the magnificent"
+      ],
+      "source_links": [
+        "docs/chapters/05-ottoman-istanbul/index.md"
+      ],
+      "has_example": true,
+      "word_count": 166
+    },
+    {
+      "id": "faq-050",
+      "category": "Technical Details",
+      "question": "What are the mihrab and the minbar in a mosque?",
+      "answer": "The mihrab is a niche in the wall of a mosque's prayer hall that marks the direction of Mecca, the direction all Muslims face in prayer. It is often the most richly decorated part of the hall. The wall it stands in is called the qibla wall.\n\nThe minbar is a pulpit, usually a tall staircase topped by a small canopy, placed to the right of the mihrab. The imam climbs it to give the sermon at Friday prayer. Out of respect for the Prophet, the preacher usually does not stand on the top step.\n\nExample: when we enter the Süleymaniye or the Blue Mosque, the mihrab is straight ahead on the far wall, and the minbar's staircase rises beside it. The carpet's rows run parallel to that wall, so that worshippers stand in lines facing Mecca.\n\nOther parts to recognize are the minaret, the tower from which the call to prayer sounds, and the courtyard fountain for ablution. Chapter 5 explains Ottoman mosque architecture, with Sinan's central dome unifying the prayer hall.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Ottoman Mosque Architecture",
+        "Suleymaniye Mosque",
+        "Call to Prayer",
+        "Blue Mosque",
+        "Minaret",
+        "Friday Prayer",
+        "Ablution",
+        "Mihrab and Minbar"
+      ],
+      "keywords": [
+        "blue mosque",
+        "call to prayer",
+        "friday prayer",
+        "minaret",
+        "ottoman mosque architecture",
+        "suleymaniye mosque"
+      ],
+      "source_links": [
+        "docs/chapters/05-ottoman-istanbul/index.md"
+      ],
+      "has_example": true,
+      "word_count": 172
+    },
+    {
+      "id": "faq-051",
+      "category": "Technical Details",
+      "question": "What is Koine Greek, and where does the word \"evangelist\" come from?",
+      "answer": "Koine Greek (koine means \"common\") was the everyday Greek spoken and written across the eastern Mediterranean after Alexander the Great's conquests. It let one set of texts travel from Alexandria to Rome. Papyri found in Egypt, full of ordinary letters and receipts, showed that the Greek of Paul's letters and the New Testament was the normal written language of the time, not a special sacred dialect.\n\nThe word evangelist comes from Koine. Euangelion meant \"good news,\" originally news such as a victory or an emperor's birthday. Paul and the early Christians used it for their message, and through Latin it gave English \"evangelist\" and, by translation, \"gospel\" (Old English god spel, \"good news\").\n\nThe Learning for All thread starts from this word. A shared language spread Paul's letters across the Roman world, and AI translation may one day let every child learn in their mother tongue. Chapter 9 tells the story, and Chapter 2 introduces the thread.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Eastern Mediterranean",
+        "Alexander the Great",
+        "Greek Language",
+        "Koine Greek",
+        "Learning for All",
+        "Letter to the Romans",
+        "Euangelion",
+        "Evangelist"
+      ],
+      "keywords": [
+        "alexander the great",
+        "eastern mediterranean",
+        "greek language",
+        "koine greek",
+        "learning for all",
+        "letter to the romans"
+      ],
+      "source_links": [
+        "docs/chapters/09-paul-life-letters/index.md",
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 155
+    },
+    {
+      "id": "faq-052",
+      "category": "Technical Details",
+      "question": "What are the four main kinds of writing systems?",
+      "answer": "Chapter 2 sorts writing systems into four kinds by what a sign stands for:\n\n- Logographic: most signs stand for whole words, with some sound signs mixed in, as in Egyptian hieroglyphs and Chinese characters. A reader needs hundreds or thousands of signs.\n- Syllabary: each sign stands for a syllable, as in Linear B, which used about 90 signs.\n- Abjad: signs stand for consonants only, and readers supply the vowels, as in Phoenician, Hebrew, and Arabic.\n- Alphabet: separate signs for consonants and vowels, as in Greek, Latin, and modern Turkish.\n\nThe Greek alphabet was made when Greeks borrowed the 22 consonant letters of the Phoenician abjad and turned some of them into vowels. That made reading learnable by almost anyone, and it could record the rhythm of Homer's verse.\n\nA quick test: count the different signs in an unknown script. Under about 40 suggests an alphabet or abjad, about 40 to 100 a syllabary, and hundreds a logographic script. That is how scholars guessed Linear A was a syllabary before anyone could read it.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Writing Systems",
+        "Alphabet",
+        "Linear A",
+        "Linear B",
+        "Homer",
+        "Phoenician Alphabet",
+        "Greek Alphabet"
+      ],
+      "keywords": [
+        "alphabet",
+        "homer",
+        "linear a",
+        "linear b",
+        "phoenician alphabet",
+        "writing systems"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": true,
+      "word_count": 171
+    },
+    {
+      "id": "faq-053",
+      "category": "Technical Details",
+      "question": "What do \"Know thyself\" and \"Nothing in excess\" mean?",
+      "answer": "These two sayings, gnōthi seauton and mēden agan, were carved at the entrance to the Temple of Apollo at Delphi. Every visitor who came to ask the god about the future walked past them first.\n\n\"Know thyself\" reminded visitors that they were mortal, not gods, and that the real question was about them: their limits, their motives, what they truly wanted. Socrates made it the starting point of philosophy. \"Nothing in excess\" warned against overreach, the arrogant pride the Greeks called hubris, which their tragedies showed always ended in ruin.\n\nChapter 17 points out the irony: the most famous fortune-teller in history pointed its visitors back at themselves, and gave that advice to everyone for free.\n\nChapter 19 carries both sayings forward. Prediction can tell us what is likely, but it cannot tell us what we value or who we want to be. And climate and economic models now let us see the long-term cost of today's excess. The hard part, then and now, is acting on what we have been shown.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Greek Philosophy",
+        "Socrates",
+        "Delphi",
+        "Apollo",
+        "Prediction",
+        "Temple of Apollo at Delphi",
+        "Hubris",
+        "Nothing in Excess"
+      ],
+      "keywords": [
+        "apollo",
+        "delphi",
+        "greek philosophy",
+        "prediction",
+        "socrates",
+        "temple of apollo at delphi"
+      ],
+      "source_links": [
+        "docs/chapters/17-oracle/index.md",
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": false,
+      "word_count": 170
+    },
+    {
+      "id": "faq-054",
+      "category": "Technical Details",
+      "question": "What is philoxenia?",
+      "answer": "Philoxenia (Greek \"love of the stranger\") is the Greek duty of hospitality toward guests and travelers. In ancient Greece it was a sacred obligation protected by Zeus himself, called Zeus Xenios. A host fed and sheltered a stranger before even asking his name, and the guest owed respect in return. Much of the Odyssey is a test of who honors this duty and who breaks it.\n\nPhiloxenia is still a living custom. A taverna owner may bring a plate of fruit or a small glass of tsikoudia that we did not order. A village grandmother may press food on visitors.\n\nExample: on Rhodes, a small free dessert at the end of a meal is philoxenia, not a sales trick, and the right response is warm thanks, efcharistó polí. Turkey has its own strong tradition of hospitality, as in the glass of tea a shopkeeper offers.\n\nBeing a good guest means accepting hospitality graciously, returning it with courtesy, and not exploiting it. Chapter 12 introduces philoxenia alongside basic Greek phrases.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Ancient Greece",
+        "Rhodes",
+        "Basic Greek Phrases",
+        "Philoxenia",
+        "Odyssey",
+        "Tsikoudia"
+      ],
+      "keywords": [
+        "ancient greece",
+        "basic greek phrases",
+        "odyssey",
+        "philoxenia",
+        "rhodes",
+        "tsikoudia"
+      ],
+      "source_links": [
+        "docs/chapters/12-rhodes/index.md"
+      ],
+      "has_example": true,
+      "word_count": 168
+    },
+    {
+      "id": "faq-055",
+      "category": "Technical Details",
+      "question": "What is the difference between hubris and hamartia?",
+      "answer": "Hubris is arrogant overreaching: the pride that leads a person to act as if the ordinary limits on mortals do not apply to them. In Greek religion and tragedy, hubris invites punishment from the gods. Xerxes whipping the Hellespont, the strait he planned to cross, is a classic example from Herodotus.\n\nHamartia is Aristotle's word for what brings a tragic hero down. It means an error or mistake, often made in ignorance, not a moral flaw. Oedipus kills his father and marries his mother because he does not know who they are.\n\nA common trap is to treat hubris as the \"tragic flaw\" every hero has. Use hubris for arrogant overreaching and hamartia for the mistake, and Greek plays make more sense. Many heroes fall through hamartia without any hubris at all.\n\nChapter 15 explains both at the Theater of Dionysus, where Greek tragedy was born. The idea returns at Delphi in the saying \"Nothing in excess.\"",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Aristotle",
+        "Delphi",
+        "Greek Theater",
+        "Greek Tragedy",
+        "Hubris",
+        "Nothing in Excess",
+        "Herodotus",
+        "Dionysus at Delphi"
+      ],
+      "keywords": [
+        "aristotle",
+        "delphi",
+        "greek theater",
+        "greek tragedy",
+        "hubris",
+        "nothing in excess"
+      ],
+      "source_links": [
+        "docs/chapters/15-athens-acropolis/index.md"
+      ],
+      "has_example": false,
+      "word_count": 156
+    },
+    {
+      "id": "faq-056",
+      "category": "Technical Details",
+      "question": "What did the Council of Ephesus decide in 431?",
+      "answer": "The Council of Ephesus was a meeting of Christian bishops held in 431 CE in the Church of Mary at Ephesus, whose ruins we can visit. It was the third of the ecumenical councils that defined mainstream Christian belief.\n\nThe council's main decision was that Mary should be called Theotokos, \"God-bearer\" or \"Mother of God.\" The title had been challenged by Nestorius, the bishop of Constantinople, who preferred \"Christ-bearer.\" The argument was really about who Jesus was: whether his divine and human natures were one person. The council condemned Nestorius, and the churches that sided with him, later called the Church of the East, went their own way.\n\nThe choice of Ephesus mattered. The city had been the center of the goddess Artemis, and it later became tied to traditions about Mary and the apostle John. Chapter 10 explains which Ephesian sites are historical, like the Church of Mary and the Basilica of St. John, and which are traditional, like the House of the Virgin Mary.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Constantinople",
+        "Ephesus",
+        "Artemis of Ephesus",
+        "John the Apostle",
+        "Church of Mary at Ephesus",
+        "Basilica of St. John",
+        "House of the Virgin Mary",
+        "Council of Ephesus"
+      ],
+      "keywords": [
+        "artemis of ephesus",
+        "basilica of st. john",
+        "church of mary at ephesus",
+        "constantinople",
+        "ephesus",
+        "john the apostle"
+      ],
+      "source_links": [
+        "docs/chapters/10-ephesus-greco-roman-city/index.md"
+      ],
+      "has_example": false,
+      "word_count": 164
+    },
+    {
+      "id": "faq-057",
+      "category": "Technical Details",
+      "question": "What is the Eastern Orthodox Church, and what was the Great Schism of 1054?",
+      "answer": "The Eastern Orthodox Church is a family of self-governing churches, Greek, Russian, Serbian, and others, that share the faith and worship of the Byzantine Empire. The Ecumenical Patriarch in Istanbul's Fener district is \"first among equals,\" not a pope with authority over the others.\n\nThe Great Schism was the split between the Eastern and Western, or Catholic, churches. Its symbol is 1054, when a papal legate laid an excommunication of the patriarch on the altar of Hagia Sophia. The causes ran deeper: the pope's claim to authority over all churches, a disputed word in the Creed, and centuries of drifting apart in language and custom. The split became popular and lasting in 1204, when Western crusaders sacked Constantinople.\n\nOrthodox icons, images of Christ and the saints, are venerated, not worshipped. In the period of iconoclasm, from about 726 to 843, they were banned, which is why most surviving Byzantine mosaics date from after 843. See Chapter 4.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Constantinople",
+        "Greek Language",
+        "Byzantine Period",
+        "Byzantine Empire",
+        "Eastern Orthodox Church",
+        "Great Schism of 1054",
+        "Istanbul",
+        "Empire"
+      ],
+      "keywords": [
+        "byzantine empire",
+        "byzantine period",
+        "constantinople",
+        "eastern orthodox church",
+        "great schism of 1054",
+        "greek language"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": false,
+      "word_count": 151
+    },
+    {
+      "id": "faq-058",
+      "category": "Technical Details",
+      "question": "What is model calibration, and how does the Brier score measure it?",
+      "answer": "A forecaster is calibrated when their percentages come true at the stated rate: of all the days they say \"70 percent chance of rain,\" it rains on about 70 percent. Calibration is how trust in a prediction can be earned with evidence rather than confident language.\n\nThe Brier score puts a number on it. For each forecast, take the difference between the stated probability and what happened (1 if it rained, 0 if not), square it, and average over all forecasts. Lower is better; 0 is perfect.\n\nExample: Forecaster A says \"70 percent\" on ten days, and it rains on 7. Forecaster B says \"90 percent\" on ten other days, and it rains on 6. A's score is (7 × 0.09 + 3 × 0.49) ÷ 10 = 0.21. B's is (6 × 0.01 + 4 × 0.81) ÷ 10 = 0.33. A was calibrated; B was overconfident, and the score shows it.\n\nThe oracle of Delphi could never be scored this way, because its answers were written down after the outcome. Chapter 19 works the example and explains why a track record needs predictions recorded before the outcome.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Delphi",
+        "Prediction",
+        "Oracle of Delphi",
+        "Model Calibration",
+        "Track Record and Trust"
+      ],
+      "keywords": [
+        "delphi",
+        "model calibration",
+        "oracle of delphi",
+        "prediction",
+        "track record and trust"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 163
+    },
+    {
+      "id": "faq-059",
+      "category": "Technical Details",
+      "question": "What does \"temperature\" do in a large language model?",
+      "answer": "Temperature controls how a language model chooses the next word from its probabilities. At temperature 0, it always takes the single most likely word. At temperature 1, it picks at random in proportion to the probabilities. Above 1, unlikely words are chosen more often; below 1, choices sharpen toward the favorite.\n\nExample: suppose a model completing \"Know \" gives thyself 60 percent, yourself 20, the 10, your 6, and nothing 4. At temperature 0.5, thyself rises to about 87 percent. At temperature 2.0, it falls to about 39 percent, and nothing turns up about one time in ten.\n\nLow temperature makes a model predictable and repetitive; high temperature makes it varied and more likely to wander. Temperature also explains why the same question can get different answers on different days. If a model gives \"closed\" 45 percent and \"open\" 30 percent for \"On Sundays the Grand Bazaar is ,\" about 3 answers in 10 will say \"open,\" which is usually false. The model has not changed its mind; it is sampling. See Chapter 19.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Grand Bazaar",
+        "Know Thyself",
+        "Large Language Model"
+      ],
+      "keywords": [
+        "grand bazaar",
+        "know thyself",
+        "large language model"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 154
+    },
+    {
+      "id": "faq-060",
+      "category": "Technical Details",
+      "question": "What were the Aldine editions, and why does the guide connect them to open textbooks?",
+      "answer": "The Aldine editions were books printed by Aldus Manutius at his press in Venice, especially the small classics he began in 1501. He made three choices that were new for the classics: a small octavo size that fits in a hand or coat pocket, a compact italic type that fitted more words on each line, and plain texts without heavy commentary.\n\nExample: a sheet of handmade paper folded three times makes an octavo of 16 pages. Paper was one of the largest costs of an early book, so an Aldine Virgil needed about one-eighth of the paper of the same text in a large format. That brought the classics within reach of ordinary scholars and students.\n\nGreek scholars from Crete did much of the editing. Marcus Musurus, a Cretan, edited the first printed Plato for Aldus in 1513, part of the Cretan Renaissance that also produced El Greco.\n\nThe Learning for All note in Chapter 14 traces a line from these pocket classics to affordable course materials, open educational resources, which also open the permission to copy and adapt, and intelligent textbooks like this one. Its warning: when copying is free, careful editing matters more.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Plato",
+        "Crete",
+        "Learning for All",
+        "Cretan Renaissance",
+        "Marcus Musurus",
+        "Aldus Manutius",
+        "Aldine Editions",
+        "Affordable Course Materials"
+      ],
+      "keywords": [
+        "aldus manutius",
+        "cretan renaissance",
+        "crete",
+        "learning for all",
+        "marcus musurus",
+        "plato"
+      ],
+      "source_links": [
+        "docs/chapters/14-venetian-heraklion/index.md"
+      ],
+      "has_example": true,
+      "word_count": 191
+    },
+    {
+      "id": "faq-061",
+      "category": "Technical Details",
+      "question": "What is Bloom's 2 sigma problem?",
+      "answer": "In 1984 the educational psychologist Benjamin Bloom reported studies comparing three ways of teaching the same unit: a conventional class, a class using mastery learning, and one-on-one tutoring combined with mastery learning. The average tutored student scored higher than about 98 percent of the conventional class, a gap of two standard deviations, written 2σ. The \"problem\" was practical: tutoring every child was far too expensive, so Bloom asked researchers to find group methods that came close.\n\nThe famous number has not held up at full size. Bloom's studies were small and short. Later reviews of many randomized trials found much smaller average effects, around a third of a standard deviation. Even so, well-run tutoring remains one of the strongest effects known in education.\n\nThe guide ties this to Aristotle tutoring the young Alexander the Great from 343 BCE, a one-on-one education only a prince could have. AI tutoring could, for the first time, bring something like it to every child, if it gives hints rather than answers. Chapter 20 explains the finding and its limits.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Aristotle",
+        "Alexander the Great",
+        "AI in Education",
+        "One-on-One Tutoring",
+        "Bloom's 2 Sigma Problem",
+        "AI Tutoring",
+        "Mastery Learning"
+      ],
+      "keywords": [
+        "ai in education",
+        "ai tutoring",
+        "alexander the great",
+        "aristotle",
+        "bloom's 2 sigma problem",
+        "one-on-one tutoring"
+      ],
+      "source_links": [
+        "docs/chapters/20-athens-museums-city-today/index.md"
+      ],
+      "has_example": false,
+      "word_count": 170
+    },
+    {
+      "id": "faq-062",
+      "category": "Technical Details",
+      "question": "What are the Mediterranean and Cretan diets?",
+      "answer": "The Mediterranean diet is the traditional way of eating around the sea: plenty of vegetables, beans, whole grains, fruit, fish, and olive oil; some cheese, yogurt, and wine; and little red meat. It is linked to lower rates of heart disease.\n\nThe Cretan diet is its best-studied version. It is local, seasonal, and largely plant-based, rich in olive oil, and shaped by poverty and the many fasting days of the Orthodox calendar. Its signatures are horta (boiled wild greens with oil and lemon), dakos (barley rusk topped with tomato, cheese, and oil), and tsikoudia, the grape spirit offered at the end of a meal.\n\nWhen buying olive oil, look for \"extra virgin,\" which means acidity of 0.8 percent or less, and a recent harvest date.\n\nChapter 12 introduces Greek cuisine and the diet, and Chapter 14 covers the Cretan table.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Greek Cuisine",
+        "Olive Oil",
+        "Mediterranean Diet",
+        "Cretan Diet",
+        "Greek Wine",
+        "Dakos",
+        "Horta",
+        "Tsikoudia"
+      ],
+      "keywords": [
+        "cretan diet",
+        "dakos",
+        "greek cuisine",
+        "greek wine",
+        "mediterranean diet",
+        "olive oil"
+      ],
+      "source_links": [
+        "docs/chapters/12-rhodes/index.md",
+        "docs/chapters/14-venetian-heraklion/index.md"
+      ],
+      "has_example": true,
+      "word_count": 137
+    },
+    {
+      "id": "faq-063",
+      "category": "Technical Details",
+      "question": "What Turkish dishes should I know before the trip?",
+      "answer": "Turkish cuisine blends herder, Mediterranean, Persian and Arab, and Ottoman palace traditions. A short list covers most meals:\n\n- Turkish breakfast: cheeses, olives, tomatoes, cucumbers, eggs, honey, and bread, with endless tea.\n- Simit: a sesame-crusted bread ring sold from street carts.\n- Turkish tea (çay), served in small tulip-shaped glasses, and Turkish coffee, thick and unfiltered.\n- Balık ekmek: a grilled fish sandwich sold by the Galata Bridge.\n- Meze: shared small dishes, such as the eggplant dish imam bayıldı, \"the imam fainted.\"\n- Kebab: from spicy Adana to İskender, sliced meat over bread with yogurt and butter.\n- Hünkâr beğendi: lamb on smoked eggplant purée, a palace dish.\n- Baklava and Turkish delight (lokum), made famous by Hacı Bekir from 1777.\n- Rakı: the anise spirit that turns milky white with water.\n\nEggplant is a favorite of ours on both sides of the Aegean. Chapter 3 covers everyday food, and Chapter 6 covers meze, kebab, and sweets.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concepts": [
+        "Turkish Cuisine",
+        "Turkish Breakfast",
+        "Turkish Coffee",
+        "Meze",
+        "Eggplant",
+        "Simit",
+        "Turkish Tea",
+        "Raki"
+      ],
+      "keywords": [
+        "eggplant",
+        "meze",
+        "simit",
+        "turkish breakfast",
+        "turkish coffee",
+        "turkish cuisine"
+      ],
+      "source_links": [
+        "docs/chapters/03-istanbul-two-continents/index.md",
+        "docs/chapters/06-bazaars-scripts-presses/index.md"
+      ],
+      "has_example": false,
+      "word_count": 156
+    },
+    {
+      "id": "faq-064",
+      "category": "Technical Details",
+      "question": "What are the freedom records on Delphi's polygonal wall?",
+      "answer": "The polygonal wall holds up the terrace of the Temple of Apollo. Its stones fit together in curved, many-sided joints, and it has stood for about 2,500 years. Its face is covered with more than a thousand manumission records, inscriptions recording that an enslaved person was set free.\n\nThe form was a sale to the god. The owner \"sold\" the person to Pythian Apollo, but the money was the enslaved person's own savings. Since no one could claim a god's property, the person became free. Each record names the date, a guarantor who would defend the sale, and witnesses.\n\nMany records add a harder condition called paramone, \"remaining\": the freed person had to stay with the former owner and serve, often until the owner's death, before freedom became complete. Many of those freed were women.\n\nThe Learning for All note in Chapter 18 calls this \"freedom carved where everyone could read it\": a public record that protected people with little power, written in a place every visitor passed.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concepts": [
+        "Delphi",
+        "Apollo",
+        "Learning for All",
+        "Temple of Apollo at Delphi",
+        "Inscription",
+        "Polygonal Wall",
+        "Apollos",
+        "Manumission Records"
+      ],
+      "keywords": [
+        "apollo",
+        "delphi",
+        "inscription",
+        "learning for all",
+        "polygonal wall",
+        "temple of apollo at delphi"
+      ],
+      "source_links": [
+        "docs/chapters/18-delphi/index.md"
+      ],
+      "has_example": false,
+      "word_count": 166
+    },
+    {
+      "id": "faq-065",
+      "category": "Common Challenges",
+      "question": "How do I say Turkish names with their special letters?",
+      "answer": "Turkish has used a Latin alphabet of 29 letters since 1928, with one letter per sound, so once we know the few special letters we can sound out any sign:\n\n- ç = \"ch\" (Çanakkale is chah-NAHK-kah-leh)\n- ş = \"sh\" (Kuşadası is koo-SHAH-dah-suh)\n- ı (dotless i) = a short \"uh\" sound (Topkapı ends in \"uh\")\n- ğ is silent and lengthens the vowel before it\n- ö and ü are like German, with rounded lips\n- c = \"j\" (cami, mosque, is JAH-mee)\n\nThe guide keeps Turkish letters in running text, writing Kuşadası, Çanakkale, Selçuk, Topkapı, and Süleymaniye, because dropping them changes the pronunciation and, sometimes, the word.\n\nThe Pronunciation Guide plays recordings of the hardest names. Chapter 3 gives a first handful of Turkish phrases, and Chapter 7 explains how the 1928 alphabet works.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Alphabet",
+        "Suleymaniye Mosque",
+        "Kusadasi and Selcuk"
+      ],
+      "keywords": [
+        "alphabet",
+        "kusadasi and selcuk",
+        "suleymaniye mosque"
+      ],
+      "source_links": [
+        "docs/appendices/pronunciation-guide.md",
+        "docs/chapters/03-istanbul-two-continents/index.md",
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md"
+      ],
+      "has_example": false,
+      "word_count": 128
+    },
+    {
+      "id": "faq-066",
+      "category": "Common Challenges",
+      "question": "Why does the time change between Turkey and Greece matter on a cruise?",
+      "answer": "In November, Greece is one hour behind Turkey. The ship changes its clocks overnight between Kuşadası and Rhodes, so the night of Day 7 is an hour longer.\n\nThat matters because every cruise day is ruled by port times and the all-aboard time. The ship does not wait for late passengers on a private excursion. A phone usually updates itself, but an alarm set the night before, or a watch, may not.\n\nThe rule: always use ship's time, printed in the ship's daily program with the clock change and the all-aboard time, and set the watch back before bed on Day 7. On the first Greek morning, check it again before going ashore.\n\nThe same care applies to opening hours. Port times come from cruise-agency listings and can change, and November hours are shorter, so confirm them the night before. Chapter 2 explains the time zones, and Chapter 6 covers port times on embarkation day.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Rhodes",
+        "Port Times"
+      ],
+      "keywords": [
+        "port times",
+        "rhodes"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md",
+        "docs/chapters/06-bazaars-scripts-presses/index.md"
+      ],
+      "has_example": false,
+      "word_count": 151
+    },
+    {
+      "id": "faq-067",
+      "category": "Common Challenges",
+      "question": "Why does Knossos look so different from other ruins?",
+      "answer": "Because much of what we see at Knossos is not Minoan. Arthur Evans, who excavated the palace from 1900, rebuilt parts of it in reinforced concrete in the 1920s. He restored columns, painted them red with black capitals, added upper floors, and set copies of frescoes on the walls. Most other sites on our route, such as Ephesus and Delphi, have been restored more cautiously, using original blocks where possible.\n\nEvans's work helps visitors imagine a multi-story palace, and some of it protects fragile remains. But it also fixes his interpretations in concrete, including names such as the \"Throne Room\" and the \"Queen's Megaron\" that may not match how the Minoans used those rooms.\n\nHow to read it: at each spot, sort what you see into three groups: Minoan stone, Evans's concrete and paint, and modern copies. The original frescoes are in the Heraklion Archaeological Museum, set as fragments into modern plaster.\n\nChapter 13 walks through Knossos this way.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Delphi",
+        "Ephesus",
+        "Site Museum",
+        "Knossos Palace",
+        "Fresco",
+        "Arthur Evans",
+        "Minoan Frescoes",
+        "Heraklion Archaeological Museum"
+      ],
+      "keywords": [
+        "arthur evans",
+        "delphi",
+        "ephesus",
+        "fresco",
+        "knossos palace",
+        "site museum"
+      ],
+      "source_links": [
+        "docs/chapters/13-knossos-minoans-linear-b/index.md"
+      ],
+      "has_example": false,
+      "word_count": 157
+    },
+    {
+      "id": "faq-068",
+      "category": "Common Challenges",
+      "question": "Which sites at Ephesus are historical, and which are traditional?",
+      "answer": "Ephesus mixes well-documented buildings with sites whose identity rests on later tradition. Chapter 10 sorts them:\n\n- Historical: the Great Theater, the Library of Celsus, Curetes and Marble Streets, the Temple of Hadrian, the terrace houses, the single standing column of the Temple of Artemis, the Church of Mary where the Council of Ephesus met in 431, and the Basilica of St. John built by Justinian.\n- Traditional: the tomb of John inside the basilica; the House of the Virgin Mary, a place of shared Christian and Muslim prayer whose identification rests on 19th-century visions; and St. Paul's Prison, which is really a Hellenistic tower in the city walls.\n\n\"Traditional\" does not mean worthless. These sites matter to the pilgrims who visit them, and a respectful visitor can value them as places of prayer while being honest about the evidence.\n\nThe details of Acts 19, the silversmiths' riot in the theater, fit the city's inscriptions well, so that story has stronger support than many traditions.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Ephesus",
+        "Paul in Ephesus",
+        "Justinian",
+        "Curetes Street",
+        "Temple of Artemis",
+        "Artemis of Ephesus",
+        "Marble Street",
+        "Great Theater of Ephesus"
+      ],
+      "keywords": [
+        "artemis of ephesus",
+        "curetes street",
+        "ephesus",
+        "justinian",
+        "paul in ephesus",
+        "temple of artemis"
+      ],
+      "source_links": [
+        "docs/chapters/10-ephesus-greco-roman-city/index.md"
+      ],
+      "has_example": false,
+      "word_count": 162
+    },
+    {
+      "id": "faq-069",
+      "category": "Common Challenges",
+      "question": "What popular stories does the guide show are myths?",
+      "answer": "Several famous stories on the route turn out to be later inventions or misunderstandings. Examples:\n\n- The Trojan Horse is not in the Iliad; it comes from later poems and the Odyssey. See Chapter 8.\n- The Colossus of Rhodes did not straddle the harbor, and it stood only about 54 years. See Chapter 12.\n- The marathon run, a messenger running from Marathon to Athens and dying, is a late legend. See Chapter 15.\n- The Parthenon and the golden ratio: its proportions are built on 4 to 9, not the golden ratio.\n- \"Solomon, I have outdone thee\" first appears about 300 years after Justinian. See Chapter 4.\n- The Greek \"secret school\" under Ottoman rule is probably a legend. See Chapter 7.\n- The 1485 Ottoman ban on printing is doubtful. See Chapter 6.\n- The oracle's riddles: most well-recorded answers were plain commands. See Chapter 17.\n\nThe test is the same each time: find the earliest source for the story and measure the gap between the event and its evidence.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Athens",
+        "Rhodes",
+        "Justinian",
+        "Parthenon",
+        "Ottoman Rhodes",
+        "Iliad",
+        "Odyssey",
+        "Trojan Horse"
+      ],
+      "keywords": [
+        "athens",
+        "iliad",
+        "justinian",
+        "ottoman rhodes",
+        "parthenon",
+        "rhodes"
+      ],
+      "source_links": [
+        "docs/chapters/08-troy-and-gallipoli/index.md",
+        "docs/chapters/12-rhodes/index.md",
+        "docs/chapters/15-athens-acropolis/index.md",
+        "docs/chapters/04-byzantine-constantinople/index.md",
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md",
+        "docs/chapters/06-bazaars-scripts-presses/index.md",
+        "docs/chapters/17-oracle/index.md"
+      ],
+      "has_example": true,
+      "word_count": 162
+    },
+    {
+      "id": "faq-070",
+      "category": "Common Challenges",
+      "question": "How do I visit a mosque respectfully?",
+      "answer": "Mosques in Istanbul welcome visitors, and a few simple rules make us good guests:\n\n- Time the visit between prayers. Mosques close to tourists during each of the five daily prayers, and for longer at Friday noon prayer. Prayer times follow the sun and shift a few minutes each day, so check them the night before.\n- Dress modestly. Everyone covers shoulders and knees; women cover their hair. Large mosques lend scarves and wraps at the door, but carrying your own is easier.\n- Take off shoes before stepping on the carpet, and carry them in a bag.\n- Keep voices low, and never walk in front of someone praying.\n- Photograph carefully. Never photograph people praying, obey signs that forbid photos, and ask before photographing anyone.\n\nVisitors usually stay in a marked area at the back. A donation box by the door is welcome but not required. The same rules for covering shoulders and knees apply in Orthodox churches and monasteries in Greece.\n\nChapter 5 explains mosque etiquette, Friday prayer, and the call to prayer, and Chapter 4 covers dress at sacred sites.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Istanbul",
+        "Daily Prayer",
+        "Prayer Times",
+        "Dress at Sacred Sites",
+        "Call to Prayer",
+        "Friday Prayer",
+        "Mosque Etiquette"
+      ],
+      "keywords": [
+        "call to prayer",
+        "daily prayer",
+        "dress at sacred sites",
+        "friday prayer",
+        "istanbul",
+        "prayer times"
+      ],
+      "source_links": [
+        "docs/chapters/05-ottoman-istanbul/index.md",
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": false,
+      "word_count": 182
+    },
+    {
+      "id": "faq-071",
+      "category": "Common Challenges",
+      "question": "How do I bargain in the Grand Bazaar, and how do I spot fake saffron?",
+      "answer": "Bargaining is expected for carpets, kilims, jewelry, leather, lamps, ceramics, and souvenirs. It is not expected for food, spices sold by weight, or anything with a printed price tag. The rules are simple:\n\n1. Set your own price before asking theirs, based on what the item is worth to you.\n2. Be friendly. It is a polite game, not a fight.\n3. Never name a price you would not pay, and do not bargain at all if you do not intend to buy.\n4. Paying cash or buying several items usually earns a better price.\n5. Walking away politely is always allowed. Accepting a glass of tea creates no obligation.\n\nSaffron is a common trap. Big, cheap bags labeled \"Turkish saffron\" usually hold safflower petals, a different plant that colors food but has none of saffron's flavor. Real saffron is sold by the gram in small sealed packets; its threads are deep red with lighter, trumpet-shaped tips, and in warm water it releases its color slowly. If the price seems too good, ask to see the threads.\n\nWe bought our saffron and Turkish delight at the Spice Bazaar. Remember that the Grand Bazaar is closed on Sundays. See Chapter 6.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Grand Bazaar",
+        "Spice Bazaar",
+        "Bargaining in Bazaars",
+        "Turkish Tea",
+        "Turkish Delight",
+        "Saffron"
+      ],
+      "keywords": [
+        "bargaining in bazaars",
+        "grand bazaar",
+        "saffron",
+        "spice bazaar",
+        "turkish delight",
+        "turkish tea"
+      ],
+      "source_links": [
+        "docs/chapters/06-bazaars-scripts-presses/index.md"
+      ],
+      "has_example": false,
+      "word_count": 194
+    },
+    {
+      "id": "faq-072",
+      "category": "Common Challenges",
+      "question": "What should I pack for November in Turkey and Greece?",
+      "answer": "The Mediterranean climate has hot, dry summers and mild, wet winters, and November is when the rains return. Expect mild days, cool nights, early sunsets, and some rain.\n\nThe guide's packing list centers on four things:\n\n- Layers: a sweater or fleece over shirts, so we can adjust from a cool morning to a warm afternoon.\n- A hooded rain jacket, because umbrellas are awkward on crowded sites and in wind.\n- Grippy, comfortable shoes for marble paving polished by centuries of feet, as at Ephesus, and steep paths at Lindos and Delphi.\n- Modest clothes that cover shoulders and knees, plus a scarf for mosques.\n\nDelphi needs extra care. The sanctuary sits about 550 to 650 m up on the slopes of Mount Parnassus, so it can be several degrees colder than Athens. Arachova, nearby, is a ski town.\n\nChapter 2 covers weather and packing, and each daily chapter's practical notes flag what to wear.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Athens",
+        "Mount Parnassus",
+        "Delphi",
+        "Ephesus",
+        "Mediterranean Climate",
+        "November Weather",
+        "Packing for November",
+        "Arachova"
+      ],
+      "keywords": [
+        "athens",
+        "delphi",
+        "ephesus",
+        "mediterranean climate",
+        "mount parnassus",
+        "november weather"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 153
+    },
+    {
+      "id": "faq-073",
+      "category": "Common Challenges",
+      "question": "Why are some sites closed or on short hours in November?",
+      "answer": "November is off-season. Tourist numbers drop, so many sites switch to winter hours, often closing in mid or late afternoon, with last entry earlier still. Some smaller sites, museums, and seasonal restaurants close entirely until spring. In exchange, the big sites are far less crowded.\n\nOther closures are weekly or religious. The Grand Bazaar is closed on Sundays, which is why Day 4 is our last chance to visit before sailing on Day 5. Mosques close to visitors during prayers, and for longer at Friday noon. Greek national holidays and strikes can close sites at short notice.\n\nThe habit: check opening hours, last entry, and, in Istanbul, prayer times the night before, using official sources where possible. Each daily chapter's \"Practical Notes\" section flags what to check.\n\nThere is even an ancient precedent. In myth, Apollo left Delphi for the three winter months, and the oracle fell silent while Dionysus ruled the sanctuary. We visited in the oracle's own off-season. See Chapter 2 and Chapter 17.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Delphi",
+        "Apollo",
+        "Sanctuary of Apollo",
+        "Oracle of Delphi",
+        "Istanbul",
+        "Site Museum",
+        "Daily Prayer",
+        "Dionysus at Delphi"
+      ],
+      "keywords": [
+        "apollo",
+        "delphi",
+        "istanbul",
+        "oracle of delphi",
+        "sanctuary of apollo",
+        "site museum"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md",
+        "docs/chapters/17-oracle/index.md"
+      ],
+      "has_example": false,
+      "word_count": 162
+    },
+    {
+      "id": "faq-074",
+      "category": "Common Challenges",
+      "question": "Why did printing in Arabic script come so late to the Ottoman Empire?",
+      "answer": "Istanbul had printing presses early: Sephardic Jewish refugees set up a Hebrew press in 1493, only about forty years after Gutenberg. Armenian and Greek presses followed. But the first Ottoman book printed in Arabic script for Muslim readers came from İbrahim Müteferrika's press, set up in 1727, with its first book in 1729, about 275 years after Gutenberg.\n\nChapter 6 gives several causes, none sufficient alone:\n\n- Calligraphy and the sacred text. Handwriting the Quran was an act of devotion, and many felt a machine-printed Quran would be disrespectful. Printed Qurans were not officially permitted in Istanbul until the 1870s.\n- The script itself. Joined Arabic letters change shape, so they need hundreds of pieces of type, and early European Arabic printing looked crude beside fine calligraphy.\n- The scribes. Copyists, calligraphers, and the book trade lived by handwriting, and their prestige and jobs were at stake.\n- A working system. Manuscript copying met the needs of a small reading public, so demand was weaker than in Europe.\n- Authority. The state and religious scholars controlled what was written and taught, and printing could escape that control.\n\nA common claim is that a sultan banned printing in 1485. The evidence for that ban is doubtful, which is itself a lesson. Chapter 21 adds a caution: printing made copies, not readers. Widening the circle also needs schools and people who can read.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Ottoman Empire",
+        "Sultan",
+        "Istanbul",
+        "Empire",
+        "Gutenberg",
+        "Printing Press",
+        "Sephardic Jewish Refugees",
+        "School as a System"
+      ],
+      "keywords": [
+        "empire",
+        "gutenberg",
+        "istanbul",
+        "ottoman empire",
+        "printing press",
+        "sultan"
+      ],
+      "source_links": [
+        "docs/chapters/06-bazaars-scripts-presses/index.md",
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": false,
+      "word_count": 224
+    },
+    {
+      "id": "faq-075",
+      "category": "Common Challenges",
+      "question": "Why do Turks and Greeks remember the same events differently?",
+      "answer": "Because the same event meant victory to one people and loss to the other, and each nation built its memory around its own experience. The guide calls this cultural memory, and it treats both memories as real.\n\nExamples from our route:\n\n- 1453: for Turks, the Conquest of Istanbul; for Greeks, the Fall or Capture of Constantinople.\n- Gallipoli, 1915: for Turks, a national victory and the rise of Atatürk; for Australians and New Zealanders, a founding sacrifice; for Britain and France, a costly failure.\n- 1922: for Turks, the end of the War of Independence; for Greeks, the Asia Minor Catastrophe and the burning of Smyrna.\n- Hagia Sophia, 2020: for many Turks, a restoration of the mosque; for many Greeks, the loss of the greatest church of Orthodoxy.\n\nThe guide's approach is to separate the agreed facts from the disputed meanings, and to listen to both. A good guest in Turkey or Greece does not need to choose a side, only to understand why the other person feels as they do. Chapter 8 and Chapter 20, on Greek-Turkish relations today, explore this.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Constantinople",
+        "Fall of Constantinople",
+        "Greek War of Independence",
+        "Turkish War of Independence",
+        "Istanbul",
+        "Hagia Sophia",
+        "Burning of Smyrna",
+        "Cultural Memory"
+      ],
+      "keywords": [
+        "constantinople",
+        "fall of constantinople",
+        "greek war of independence",
+        "hagia sophia",
+        "istanbul",
+        "turkish war of independence"
+      ],
+      "source_links": [
+        "docs/chapters/08-troy-and-gallipoli/index.md",
+        "docs/chapters/20-athens-museums-city-today/index.md"
+      ],
+      "has_example": true,
+      "word_count": 178
+    },
+    {
+      "id": "faq-076",
+      "category": "Common Challenges",
+      "question": "Are Atatürk's \"Johnnies and Mehmets\" words real?",
+      "answer": "The words, which say there is \"no difference between the Johnnies and the Mehmets\" lying side by side in Turkish soil, are carved on memorials at Anzac Cove and in Australia and New Zealand. They are attributed to Atatürk in 1934, as a message of comfort to the families of the Allied dead.\n\nThe difficulty is evidence. The earliest record is a 1953 newspaper interview in which the former minister Şükrü Kaya recalled the speech, 19 years after the event, and no record from 1934 has been found. Historians therefore still debate whether the words are Atatürk's, and in what form.\n\nChapter 8 asks us to hold two things at once. As history, the words are doubtful. As memory, they are real and powerful: Turks, Australians, and New Zealanders have built a shared tradition of reconciliation around them, and thousands gather at Gallipoli each April 25.\n\nThis is a good test case for reading any source. Measure the gap between an event and its first record, then ask what the story does for the people who tell it.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Anzac Cove",
+        "Johnnies and Mehmets Words"
+      ],
+      "keywords": [
+        "anzac cove",
+        "johnnies and mehmets words"
+      ],
+      "source_links": [
+        "docs/chapters/08-troy-and-gallipoli/index.md"
+      ],
+      "has_example": false,
+      "word_count": 172
+    },
+    {
+      "id": "faq-077",
+      "category": "Common Challenges",
+      "question": "Why is the \"one Turk in ten could read\" figure uncertain?",
+      "answer": "Before the 1928 alphabet reform, roughly one Turk in ten is often said to have been able to read. Chapter 7 treats this as a good example of a statistic that needs questioning, because the answer depends on three choices:\n\n- What was counted? Reading the Arabic-script Ottoman Turkish of books and newspapers, reading the Quran aloud without understanding it, or signing one's name.\n- Out of whom? Men, women, or everyone; city or village; Muslims only, or also the Greek, Armenian, and Jewish communities, who often had higher literacy.\n- By whom? The 1927 census, the source of the usual figure of about 10.6 percent, asked people to report their own ability, with no test.\n\nThe chapter's worked example takes one illustrative village and gets 9, 13, or 20 percent from the same people, depending on those choices. None of this means the reform failed to raise literacy: the 1935 census found about one person in five, and today well over 95 percent of Turkish adults read. But \"one in ten\" is an estimate built on definitions, not a fact like a date.\n\nThe habit: before trusting any literacy rate, or any statistic about AI and learning, ask what was counted, out of whom, and by whom.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Alphabet",
+        "Literacy",
+        "Ottoman Turkish Script",
+        "Alphabet Reform of 1928",
+        "Greek Alphabet",
+        "Quran"
+      ],
+      "keywords": [
+        "alphabet",
+        "alphabet reform of 1928",
+        "greek alphabet",
+        "literacy",
+        "ottoman turkish script",
+        "quran"
+      ],
+      "source_links": [
+        "docs/chapters/07-end-of-empire-modern-turkey/index.md"
+      ],
+      "has_example": true,
+      "word_count": 199
+    },
+    {
+      "id": "faq-078",
+      "category": "Best Practices",
+      "question": "How do I \"read a ruin\"?",
+      "answer": "Reading a ruin means working out a site's history from the evidence in front of us by asking the same seven questions every time:\n\n1. What is it made of, and is any of it reused? Look for mismatched columns and upside-down inscriptions: spolia.\n2. What was added, and when? Minarets, buttresses, calligraphy, new floors.\n3. What was taken away? Bare stone, empty niches, holes for metal fixings, plaster over images.\n4. Who described it at the time? Find the primary sources, and remember why each author wrote.\n5. Which stories about it are myths? Ask when each story first appears.\n6. Who restored or rebuilt it, and what did they choose to show?\n7. Who uses it now, and what does it mean to them?\n\nExample: from a park bench, Hagia Sophia's exterior answers in five minutes. Byzantine brick and the great dome; four different minarets added by different sultans; the gilded cross on the dome replaced by a crescent; Procopius as a witness; the Solomon line as a myth; the Fossati brothers' restoration of 1847–1849; and daily use as a mosque. The result: a 6th-century church wrapped in Ottoman additions, still in use.\n\nThe method works at every stop from Troy to Delphi. Chapter 4 teaches it.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Sultan",
+        "Delphi",
+        "Reading a Ruin",
+        "Primary Source",
+        "Troy",
+        "Hagia Sophia",
+        "Hagia Sophia Dome",
+        "Inscription"
+      ],
+      "keywords": [
+        "delphi",
+        "hagia sophia",
+        "primary source",
+        "reading a ruin",
+        "sultan",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/04-byzantine-constantinople/index.md"
+      ],
+      "has_example": true,
+      "word_count": 200
+    },
+    {
+      "id": "faq-079",
+      "category": "Best Practices",
+      "question": "How can I be a thoughtful traveler?",
+      "answer": "A thoughtful traveler visits to understand a place and its people, not just to see its monuments. Chapter 2 gives six principles:\n\n1. Curiosity. Ask questions and look closer; the interesting thing is usually the one most visitors walk past.\n2. Humility. We are guests, and our way is one way among many.\n3. Consent. People and sacred places are not scenery. Ask before photographing a person, and step back when a place is in use for prayer.\n4. Reciprocity. Spend money with local people, pay a fair price, and keep promises.\n5. Patience. A short menu or a closed gate in the off-season is information, not an insult.\n6. Many stories. Every place is remembered differently by different people. Look for more than one account and listen before judging.\n\nEmpathy in travel ties them together: imagine the day from the other person's side, especially the people working around us. A simple way to practice it in Turkey is kolay gelsin, \"may it come easy,\" said to anyone at work, such as a shopkeeper, a cleaner, or the man grilling fish by the Galata Bridge. It recognizes that the person in front of us has a whole life our visit touches for a few minutes.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Thoughtful Traveler",
+        "Empathy in Travel",
+        "Off-Season Travel"
+      ],
+      "keywords": [
+        "empathy in travel",
+        "off-season travel",
+        "thoughtful traveler"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": false,
+      "word_count": 198
+    },
+    {
+      "id": "faq-080",
+      "category": "Best Practices",
+      "question": "How do I keep a useful travel journal?",
+      "answer": "A travel journal is a short daily record of what we noticed, ate, and learned from the people we met. It does not need to be long or literary. Its job is to slow us down at the end of the day and turn a blur of impressions into a few things we chose to remember. Writing the same day, in our own words, is one of the most reliable ways to remember an experience.\n\nUse the same three prompts every evening, so it takes five minutes:\n\n- I noticed: one detail most visitors walk past.\n- I ate: one dish or drink, and where.\n- I learned from: one person we spoke with, and what they told us.\n\nExample: after Hagia Sophia, an entry might read: I noticed the worn hollows in the stone ramp to the upper gallery, made by fifteen centuries of feet. I ate a simit and a glass of tea in Sultanahmet Park. I learned from the tea seller, whose grandfather sold tea at the same spot, and who said tourists ask about the building but never about his family.\n\nThe journal is the trip's \"Create\" outcome. By the end it becomes our own story of the journey, not a copy of the guidebook. See Chapter 2.",
+      "bloom_level": "Create",
+      "difficulty": "hard",
+      "concepts": [
+        "Hagia Sophia",
+        "Travel Journal",
+        "Simit"
+      ],
+      "keywords": [
+        "hagia sophia",
+        "simit",
+        "travel journal"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md"
+      ],
+      "has_example": true,
+      "word_count": 211
+    },
+    {
+      "id": "faq-081",
+      "category": "Best Practices",
+      "question": "How do I order a meal in Greek with only a few words?",
+      "answer": "Chapter 12 runs a whole lunch on five phrases:\n\n Greek  Meaning  When \n---------\n Kaliméra  Good morning  Before noon \n Yiá sas  Hello, goodbye  Any time \n Parakaló  Please; you're welcome  Pointing at each dish, and as a reply \n Efcharistó  Thank you  When the plates arrive \n Ton logariasmó, parakaló  The bill, please  At the end \n\nExample: walk in with kaliméra or yiá sas, point at each dish on the short November menu and say parakaló, say efcharistó when the plates arrive, raise a glass with yiá mas (\"to our health\"), ask for ton logariasmó, parakaló, and leave with efcharistó polí, yiá sas.\n\nOne trap: Greek nai means yes, and óchi means no. Almost everyone who works with visitors speaks good English, but a greeting in Greek changes the tone, because it shows we know whose country we are in. Greek hospitality, philoxenia, often answers with a free dessert. The Turkish equivalents, merhaba and teşekkür ederim, are in Chapter 3.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Turkish Hospitality",
+        "Philoxenia"
+      ],
+      "keywords": [
+        "philoxenia",
+        "turkish hospitality"
+      ],
+      "source_links": [
+        "docs/chapters/12-rhodes/index.md",
+        "docs/chapters/03-istanbul-two-continents/index.md"
+      ],
+      "has_example": true,
+      "word_count": 154
+    },
+    {
+      "id": "faq-082",
+      "category": "Best Practices",
+      "question": "How can a school leader use Paul's leadership lessons?",
+      "answer": "Chapter 11 treats Paul as a case study in change leadership, because his letters record the work of change as it happened. Each lesson pairs a story from his life with a step in moving a school from direct instruction toward AI-native learning:\n\n- The insider who changes sides. Paul was a trained defender of the old system. Veteran teachers who mastered direct instruction are often the most credible champions.\n- Deciding what is essential. The Council of Jerusalem decided Gentiles need not follow every inherited rule. Separate a school's purposes from its inherited forms.\n- A hub and its spokes. From Ephesus, co-workers carried the message to nearby cities. Start with a pilot school that becomes a hub.\n- Letters as a teaching technology. Durable texts carried by people who explain them, the ancestor of intelligent textbooks.\n- Building a team. Priscilla, Aquila, Timothy, Titus, and Phoebe led alongside Paul. Build a guiding coalition, skeptics included.\n- Planning for succession. At Miletus Paul handed leadership to local elders.\n\nExample: a principal's next step might be one pilot classroom led by a respected veteran teacher, with a written plan for who leads it if that teacher leaves. Each lesson links to the matching chapter of AI-Native Schools.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Change Leadership",
+        "Ephesus",
+        "Paul as Change Case Study",
+        "Paul in Ephesus",
+        "Direct Instruction",
+        "AI-Native School",
+        "Gentiles",
+        "School as a System"
+      ],
+      "keywords": [
+        "ai-native school",
+        "change leadership",
+        "direct instruction",
+        "ephesus",
+        "paul as change case study",
+        "paul in ephesus"
+      ],
+      "source_links": [
+        "docs/chapters/11-paul-ideas-leadership/index.md",
+        "https://dmccreary.github.io/ai-native-schools/"
+      ],
+      "has_example": true,
+      "word_count": 206
+    },
+    {
+      "id": "faq-083",
+      "category": "Best Practices",
+      "question": "How do I tell what is essential in a school from what is merely inherited?",
+      "answer": "This is the core of school redesign, and Paul's Council of Jerusalem is the guide's model. The early movement had to decide which inherited rules, such as circumcision and the food laws, were essential to belonging, and which could be set aside for Gentile believers.\n\nIn a school, the essential things are its purposes: mastery, character, and community. The inherited things are the forms that grew up around those purposes, which researchers call the grammar of schooling: grade levels by age, fixed bell schedules, seat time as the measure of learning, and the Carnegie unit, which counts credits by hours in a classroom rather than by what a student can do.\n\nThe test: for each practice, ask \"what purpose does this serve, and is there a better way to serve it now?\" If no one can name the purpose, the practice is probably inherited.\n\nExample: a 50-minute period is not a purpose. It is one way to organize time for learning. An AI-native school might keep the purpose, mastery of algebra, while replacing the form with a self-paced morning and a social afternoon. See Chapter 11.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "AI-Native School",
+        "Gentiles",
+        "Council of Jerusalem",
+        "Grammar of Schooling",
+        "Seat Time and Carnegie Unit",
+        "Mastery Learning"
+      ],
+      "keywords": [
+        "ai-native school",
+        "council of jerusalem",
+        "gentiles",
+        "grammar of schooling",
+        "mastery learning",
+        "seat time and carnegie unit"
+      ],
+      "source_links": [
+        "docs/chapters/11-paul-ideas-leadership/index.md"
+      ],
+      "has_example": true,
+      "word_count": 185
+    },
+    {
+      "id": "faq-084",
+      "category": "Best Practices",
+      "question": "What questions from Delphi should I ask of an AI prediction?",
+      "answer": "Chapter 19 turns each Delphi story into a question to ask of any prediction we meet, from a weather app to a hiring algorithm:\n\n- Who gathered the data? Delphi heard from the whole Greek world, but mostly from those who could afford the trip. A model knows only what its training data includes.\n- Who pays? Croesus' gold and the bribes recorded by Herodotus bent some answers. Ask who builds, funds, and profits from a model.\n- Is it calibrated? Has the source's track record been checked against what actually happened, with predictions recorded beforehand?\n- What is the horizon? Apollo went silent in winter. Every model has a point beyond which its forecasts are guesses.\n- Am I hearing what I want to hear? Croesus heard \"a great empire will fall\" and assumed it meant Persia. That is confirmation bias.\n- Who decides? The Athenian Assembly debated the \"wooden walls.\" Keep a human in the loop who owns the decision.\n\nExample: a navigation app predicting a 2½-hour drive to Delphi passes most tests: its data is broad, its track record is checkable daily, and its horizon is a few hours. A model predicting which students will fail needs much harder questions.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concepts": [
+        "Delphi",
+        "Apollo",
+        "Prediction",
+        "Empire",
+        "Training Data",
+        "Data Bias",
+        "Herodotus",
+        "Prediction Horizon"
+      ],
+      "keywords": [
+        "apollo",
+        "data bias",
+        "delphi",
+        "empire",
+        "prediction",
+        "training data"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 202
+    },
+    {
+      "id": "faq-085",
+      "category": "Best Practices",
+      "question": "How should a leader respond to resistance to change?",
+      "answer": "Take it seriously, because resistance is usually rational. Chapter 11 calls this the economics of resistance. In the riot of the silversmiths, Demetrius was defending his livelihood as much as his goddess: if people stopped worshipping Artemis, no one would buy his silver shrines. Around 112 CE, the Roman governor Pliny the Younger confirmed the pattern from Anatolia. After he suppressed the Christians, he reported, the deserted temples filled again and sacrificial meat was selling once more.\n\nIn schools, resistance from teachers, unions, and vendors often comes from legitimate fears about jobs, skills, and workload. A leader should:\n\n- Ask who is hurt by the change, not only who benefits.\n- Listen first. Resisters know where the plan will fail.\n- Include skeptics in the guiding coalition.\n- Plan for the implementation dip, the temporary drop in performance while people learn new skills, so early trouble is not mistaken for failure.\n- Watch for change fatigue when too many changes arrive at once.\n\nChapter 21 adds that resisters, from Homer's reciters to the Ottoman scribes, are owed a hearing, because their resistance tells us who stands to lose.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Anatolia",
+        "Temple of Artemis",
+        "Homer",
+        "Riot of the Silversmiths",
+        "Who Is Hurt by Change",
+        "Economics of Resistance",
+        "Implementation Dip",
+        "Demetrius the Silversmith"
+      ],
+      "keywords": [
+        "anatolia",
+        "economics of resistance",
+        "homer",
+        "riot of the silversmiths",
+        "temple of artemis",
+        "who is hurt by change"
+      ],
+      "source_links": [
+        "docs/chapters/11-paul-ideas-leadership/index.md",
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": false,
+      "word_count": 185
+    },
+    {
+      "id": "faq-086",
+      "category": "Best Practices",
+      "question": "How can AI tutoring help students without making them over-reliant?",
+      "answer": "The guide's answer is AI guardrails, above all giving hints instead of answers. A tutor that does the student's work produces the look of learning without the substance. A tutor that asks a question, offers a hint, and waits makes the student do the thinking.\n\nThe worry is old. In Plato's Phaedrus, Socrates warns that writing will make people forgetful and give them the look of wisdom without the substance. The same fear returned with printing, calculators, and search engines, and it has returned with AI. Chapter 20 takes it seriously: AI over-reliance is real, and whether a tutor helps or harms depends on how it is designed.\n\nGood practices include:\n\n- The tutor gives hints and asks questions before it gives answers.\n- Students show their reasoning, not just the result.\n- Mastery learning holds the goal fixed and lets time vary.\n- Teachers stay in the loop, especially for social and human skills.\n\nAt Troy, Chapter 8 makes the same point: AI may be the next simpler interface to knowledge, if it helps learners practice rather than doing the practice for them.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Socrates",
+        "Plato",
+        "Learning for All",
+        "Troy",
+        "Phaedrus on Writing",
+        "AI Tutoring",
+        "AI Over-Reliance",
+        "Human in the Loop"
+      ],
+      "keywords": [
+        "ai tutoring",
+        "learning for all",
+        "phaedrus on writing",
+        "plato",
+        "socrates",
+        "troy"
+      ],
+      "source_links": [
+        "docs/chapters/20-athens-museums-city-today/index.md",
+        "docs/chapters/08-troy-and-gallipoli/index.md"
+      ],
+      "has_example": false,
+      "word_count": 182
+    },
+    {
+      "id": "faq-087",
+      "category": "Advanced Topics",
+      "question": "Where does the comparison between Paul and school change break down?",
+      "answer": "Chapter 11 ends by naming the limits of its own parallel, and they matter as much as the lessons:\n\n- Paul was founding a faith, not running a reform program. Treating his mission as a management technique flattens what it meant to him and to the people who believe it today. The guide writes with respect for Christian, Jewish, and Muslim readers alike.\n- His success was visible mostly after his death, and the movement he started later built its own hierarchy and rules. Every new model risks becoming the next legacy system, AI-native schools included.\n- His break with his own tradition caused lasting harm. Later readings of his harshest lines fed centuries of Christian hostility toward Jews, until churches began repudiating it after the Holocaust.\n\nThe practical lesson is to ask who is hurt by the change, not only who benefits, and to admit what the comparison cannot carry.\n\nAn evaluation exercise: pick one of the twelve leadership lessons and judge it on two counts. Does the historical story actually support the lesson, or is it being stretched? And would applying the lesson in a real school help the people the change is meant to serve? The chapter ends with a personal leadership reflection built on that kind of judgment.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Change Leadership",
+        "AI-Native School",
+        "School as a System",
+        "Who Is Hurt by Change",
+        "Limits of the Paul Parallel",
+        "Leadership Reflection"
+      ],
+      "keywords": [
+        "ai-native school",
+        "change leadership",
+        "leadership reflection",
+        "limits of the paul parallel",
+        "school as a system",
+        "who is hurt by change"
+      ],
+      "source_links": [
+        "docs/chapters/11-paul-ideas-leadership/index.md"
+      ],
+      "has_example": true,
+      "word_count": 211
+    },
+    {
+      "id": "faq-088",
+      "category": "Advanced Topics",
+      "question": "Where does the comparison between the oracle and AI break down?",
+      "answer": "Chapter 19 names three limits:\n\n- The oracle was a living faith. For the Greeks who consulted it, Apollo was real. Treating Delphi as an early, failed version of data science disrespects the people who believed.\n- Models can be tested; the oracle could not. Machine-learning models find patterns in data and can be scored against what actually happens. The oracle's answers were recorded after the fact, and its ambiguity often protected it from ever being wrong. We now have the power to keep score.\n- Scale and consent. The oracle gave one answer to one visitor who chose to ask. Modern models make millions of predictions about people who never asked, in lending, hiring, policing, and schools. This consent in mass prediction is a question Delphi never faced.\n\nThe parallel still earns its place. The human needs behind it, to see before we act and to trust someone who can, are the same. So are the failures: confirmation bias, answers bent by money, and predictions that change the future they describe.\n\nAn evaluation exercise: for any AI system you use, decide which of the three limits matters most. Is it the respect owed to the people affected, the ability to check the model's track record, or the fact that it predicts people who never asked?",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Delphi",
+        "Apollo",
+        "Prediction",
+        "Machine Learning",
+        "Oracle of Delphi",
+        "Data Bias",
+        "School as a System",
+        "Oracle as Living Faith"
+      ],
+      "keywords": [
+        "apollo",
+        "data bias",
+        "delphi",
+        "machine learning",
+        "oracle of delphi",
+        "prediction"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 215
+    },
+    {
+      "id": "faq-089",
+      "category": "Advanced Topics",
+      "question": "How should we weigh the Parthenon Marbles dispute?",
+      "answer": "The Parthenon Marbles are sculptures from the Parthenon now in the British Museum. Chapter 15 treats the dispute as contested history: the facts are largely agreed, and the argument is over what they mean.\n\nAgreed facts: between 1801 and 1812, agents of Lord Elgin, the British ambassador in Constantinople, removed about half of the sculpture then surviving on the Parthenon, including 15 metopes, 17 pediment figures, and about 75 m of the frieze, while Athens was part of the Ottoman Empire. Elgin said he had Ottoman permission; the original document has never been found, and only an Italian translation survives. In 1816 the British government bought the collection and gave it to the British Museum, and a 1963 law restricts the Museum's trustees from permanently giving objects away.\n\nThe two positions:\n\n- The British Museum: the sculptures were acquired legally and belong in a world museum, seen free of charge beside the cultures of the whole world. It has said it would consider lending them, as owner.\n- Greece: they were removed under foreign occupation, the permission did not cover sawing sculpture off the building, and they should be reunited within sight of the monument. Greece will not borrow what it considers its own.\n\nTo evaluate the dispute, ask what each side counts as evidence and what the sculptures mean to the people on each side. Standing in the Acropolis Museum, the white casts make one argument visible. Standing in London makes another.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Ottoman Empire",
+        "Athens",
+        "Constantinople",
+        "Acropolis",
+        "Empire",
+        "Contested History",
+        "Parthenon",
+        "Parthenon Sculptures"
+      ],
+      "keywords": [
+        "acropolis",
+        "athens",
+        "constantinople",
+        "contested history",
+        "empire",
+        "ottoman empire"
+      ],
+      "source_links": [
+        "docs/chapters/15-athens-acropolis/index.md"
+      ],
+      "has_example": false,
+      "word_count": 235
+    },
+    {
+      "id": "faq-090",
+      "category": "Advanced Topics",
+      "question": "How can an AI prediction become a self-fulfilling prophecy?",
+      "answer": "A self-fulfilling prophecy comes true because it was made. In the myth of Oedipus, every attempt to escape the oracle's prophecy is what fulfills it. Oedipus leaves the people he thinks are his parents to avoid killing his father, and on the road he kills a stranger who is his real father.\n\nPrediction machines can do the same through feedback loops. Chapter 19 gives two examples:\n\n- Student risk prediction. A model flags a student as likely to fail. If teachers then expect less, assign easier work, or move the student to a lower track, the student falls further behind, and the model looks accurate.\n- Predictive policing. A model sends more patrols to neighborhoods with more recorded crime. More patrols record more crime there, which the model learns from, so it sends still more patrols.\n\nThe analysis question is: does the prediction change the behavior of the people who act on it, and does that change feed back into the next round of data? If so, the model's accuracy can measure its own influence rather than the world.\n\nThe remedy is to use a prediction to help, not to sort: a student flagged at risk should get more support, not lower expectations.",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concepts": [
+        "Prediction",
+        "Predictive Model",
+        "Oedipus Prophecy",
+        "Self-Fulfilling Prophecy",
+        "Student Risk Prediction",
+        "Predictive Policing"
+      ],
+      "keywords": [
+        "oedipus prophecy",
+        "prediction",
+        "predictive model",
+        "predictive policing",
+        "self-fulfilling prophecy",
+        "student risk prediction"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": true,
+      "word_count": 202
+    },
+    {
+      "id": "faq-091",
+      "category": "Advanced Topics",
+      "question": "What does \"education with communities, not to them\" mean in practice?",
+      "answer": "It means a change in education is designed, run, and judged together with the people it serves, in their languages and on their terms. Chapter 21 draws this conclusion from every stop on the route.\n\nThe guide's cautionary cases are top-down reforms. The 1928 Turkish alphabet reform raised literacy fast, but it also cut a generation off from its own written past, partly by choices of method. The 1923 population exchange was decided by governments, not by the people moved. Paul, by contrast, adapted his message to each audience and built local leaders who could carry on without him.\n\nThe chapter also names evangelism's shadow: good news turns harmful when it is imposed or its hearers are despised. Three questions test any education project:\n\n1. Who chose? Did the community take part in deciding?\n2. What is treated as the obstacle? The community's own language and customs, or the barriers in their way?\n3. What happens to those who say no?\n\nMother-tongue learning is the clearest application. UNESCO has long held that children learn best first in their own language, and AI translation could make that affordable in small languages, if fluent speakers check its work. Those left out at the end are usually those absent at the start.",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concepts": [
+        "Alphabet",
+        "Literacy",
+        "Turkish Language",
+        "AI in Education",
+        "Population Exchange of 1923",
+        "Alphabet Reform of 1928",
+        "Education Evangelism",
+        "Evangelism's Shadow"
+      ],
+      "keywords": [
+        "ai in education",
+        "alphabet",
+        "alphabet reform of 1928",
+        "literacy",
+        "population exchange of 1923",
+        "turkish language"
+      ],
+      "source_links": [
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": false,
+      "word_count": 203
+    },
+    {
+      "id": "faq-092",
+      "category": "Advanced Topics",
+      "question": "How do I write my own \"good news\" message about AI and education?",
+      "answer": "Chapter 21 ends with this exercise, which is the Create outcome for the Learning for All thread. A good good news message has three parts:\n\n1. It starts from a story we actually saw on the route, not one we read about.\n2. It is honest about the cost. Every widening of the circle on our route left someone outside it.\n3. It names who it is with, the community it is meant for, and how they will take part.\n\nExample: \"At Ephesus we stood in front of the Library of Celsus, a son's gift of perhaps 12,000 scrolls to his city. Most people in that city could not read them. A free AI tutor is a gift of the same kind, and it will reach only the children who have a device, a connection, and a language it speaks well. So we will start with one village school, in its own language, with its teachers choosing what the tutor does.\"\n\nKeep the message short, a paragraph or two. Then test it with the three questions from evangelism's shadow: who chose, what is treated as the obstacle, and what happens to those who say no? A message that passes all three is ready to share.",
+      "bloom_level": "Create",
+      "difficulty": "hard",
+      "concepts": [
+        "Ephesus",
+        "Learning for All",
+        "AI in Education",
+        "Library of Celsus",
+        "Education Evangelism",
+        "Widening the Circle",
+        "Evangelism's Shadow",
+        "Good News Message"
+      ],
+      "keywords": [
+        "ai in education",
+        "education evangelism",
+        "ephesus",
+        "learning for all",
+        "library of celsus",
+        "widening the circle"
+      ],
+      "source_links": [
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": true,
+      "word_count": 200
+    },
+    {
+      "id": "faq-093",
+      "category": "Advanced Topics",
+      "question": "How could I write a Learning for All note for a place not in this guide?",
+      "answer": "Use the four-step pattern from Chapter 2 as a template, then apply the writing rules the guide follows:\n\n1. Locked up. Where was learning confined: a palace, a temple, a guild, a royal household?\n2. Opened by a new technology or institution. An alphabet, a press, a library, an endowment, a school?\n3. Resisted. Who benefited from the old way and pushed back?\n4. Widened, but never all the way. Who was still left out?\n\nThen write one story, one parallel, and one link. Tell the history accurately first and make the parallel second. Where a number is uncertain, such as a literacy rate, say so. Include the costs alongside the gains.\n\nExample (a sketch to research, not a finished note): at a medieval monastery library, learning was locked in Latin manuscripts copied by monks. Universities and then printing opened it to students and merchants. Some resisted: in 1492 the abbot Trithemius wrote In Praise of Scribes, urging monks to keep copying by hand, and then had it printed. Women and the poor were still mostly shut out for centuries. The parallel might be the price of today's academic journals, and how open-access publishing and AI summaries could widen who reads research.\n\nChapter 21 lines up fifteen notes from our route on this pattern, a good model to compare against.",
+      "bloom_level": "Create",
+      "difficulty": "hard",
+      "concepts": [
+        "Alphabet",
+        "Literacy",
+        "Learning for All",
+        "Printing Press",
+        "Palace Scribes"
+      ],
+      "keywords": [
+        "alphabet",
+        "learning for all",
+        "literacy",
+        "palace scribes",
+        "printing press"
+      ],
+      "source_links": [
+        "docs/chapters/02-traveling-well/index.md",
+        "docs/chapters/21-going-home/index.md"
+      ],
+      "has_example": true,
+      "word_count": 213
+    },
+    {
+      "id": "faq-094",
+      "category": "Advanced Topics",
+      "question": "What would it take for AI prediction to earn the kind of trust Delphi held for twelve centuries?",
+      "answer": "The oracle's authority rested on a long record and a reputation for neutrality, and it faded as that trust eroded through bribery, hedging, and politics. Chapter 19 argues that trust in AI should be earned in a way Delphi's never could be: by evidence.\n\nA design for trustworthy prediction would include:\n\n- Testability. Each prediction is a clear, dated claim, recorded before the outcome, that the outcome could prove wrong.\n- Calibration. Its stated probabilities come true at the stated rate, measured with tools like the Brier score.\n- A public track record, kept by someone other than the model's owner.\n- An honest horizon. It says how far ahead it can see, as METR's task-horizon measurements of AI capability try to do.\n- Transparency about funding and data: who paid, and whose lives the data includes.\n- Humans in the loop who own the decisions.\n- Consent from the people being predicted, where possible.\n\nAnd the reverse: what would make us stop trusting? A model that hides its errors, flatters its funders, or speaks with more confidence than its record supports would repeat Delphi's decline faster, because today we can keep score. The chapter's reflection questions invite us to apply this to our own decisions.",
+      "bloom_level": "Create",
+      "difficulty": "hard",
+      "concepts": [
+        "Delphi",
+        "Prediction",
+        "Oracle of Delphi",
+        "Model Calibration",
+        "Decline of the Oracle",
+        "Testability of Predictions",
+        "Prediction Horizon",
+        "Bribery of the Oracle"
+      ],
+      "keywords": [
+        "decline of the oracle",
+        "delphi",
+        "model calibration",
+        "oracle of delphi",
+        "prediction",
+        "testability of predictions"
+      ],
+      "source_links": [
+        "docs/chapters/19-algorithm/index.md"
+      ],
+      "has_example": false,
+      "word_count": 205
+    }
+  ]
+}
