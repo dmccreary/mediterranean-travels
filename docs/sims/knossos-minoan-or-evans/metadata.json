@@ -2,8 +2,8 @@
   "title": "Knossos: Minoan, Evans, or Copy?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for knossos: minoan, evans, or copy?",
-  "date": "2026-11-24",
+  "description": "A p5.js sorting activity in which learners place ten features of the palace of Knossos into three bins: Minoan originals still at the site, Arthur Evans's reconstructions of about 1905 to 1930, and modern copies of paintings whose originals are in the Heraklion Archaeological Museum.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
@@ -11,32 +11,59 @@
     "subjectArea": "Social Studies",
     "topic": "Knossos: Minoan, Evans, or Copy?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Distinguish surviving Minoan remains at Knossos from Arthur Evans's reconstructions and from modern copies of originals now in the Heraklion Archaeological Museum, sorting at least 8 of 10 features correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Restoration and reconstruction (Chapter 4)",
+      "The Knossos Palace",
+      "Arthur Evans",
+      "The Evans reconstructions",
+      "The Throne Room at Knossos",
+      "Storage pithoi"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 580
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Three-bin sorting with one scored attempt per card, immediate reasoned feedback, an optional material clue, and an unscored practice round",
+    "keyQuestions": [
+      "Who made this: the Minoans, Evans, or a modern copyist?",
+      "What is this feature made of?",
+      "Where is the original of this painting today?"
+    ],
+    "commonMisconceptions": [
+      "Everything at Knossos that looks old is Minoan.",
+      "The bright red columns are original Minoan columns.",
+      "The wall paintings outdoors are the original frescoes.",
+      "Nothing at the site is original, so it is all fake."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on ten cards (mastery: 8 of 10).",
+      "Explain why the red columns at the North Entrance are filed under Evans reconstruction.",
+      "On the day, photograph one feature from each bin with its label as evidence."
+    ]
   },
-  "chapter": "13-knossos-minoans-linear-b"
+  "chapter": "13-knossos-minoans-linear-b",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/knossos-minoan-or-evans/"
 }

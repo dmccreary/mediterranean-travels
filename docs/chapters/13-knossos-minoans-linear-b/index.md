@@ -118,6 +118,10 @@ The MicroSim below practices that test on ten things a visitor sees at Knossos.
 
 #### Diagram: Knossos: Minoan, Evans, or Copy?
 
+<iframe src="../../sims/knossos-minoan-or-evans/main.html" height="584px" width="100%" scrolling="no"></iframe>
+
+[Run the Knossos: Minoan, Evans, or Copy? MicroSim Fullscreen](../../sims/knossos-minoan-or-evans/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Knossos: Minoan, Evans, or Copy?</summary>
 Type: microsim
@@ -364,6 +368,10 @@ The timeline below sets the whole story of Knossos, from village to decipherment
 
 #### Diagram: Knossos From Village to Decipherment
 
+<iframe src="../../sims/knossos-village-to-decipherment-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Knossos From Village to Decipherment MicroSim Fullscreen](../../sims/knossos-village-to-decipherment-timeline/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Knossos From Village to Decipherment</summary>
 Type: timeline
@@ -491,6 +499,10 @@ Many scholars doubted the decipherment at first. The test came from the ground. 
     If the grid sounds like a puzzle that only a genius could solve, remember that it took two people fifteen years of evenings, plus a whole circle of colleagues. We already have the key pieces: we know a syllabary has about 90 signs, and we spelled *ko-no-so* ourselves in Part Four. Try the MicroSim below one step at a time, and the logic will click.
 
 #### Diagram: Crack Linear B Like Ventris
+
+<iframe src="../../sims/crack-linear-b-like-ventris/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Crack Linear B Like Ventris MicroSim Fullscreen](../../sims/crack-linear-b-like-ventris/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Crack Linear B Like Ventris</summary>
