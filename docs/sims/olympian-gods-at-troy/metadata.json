@@ -2,41 +2,66 @@
   "title": "The Olympian Gods at Troy",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for the olympian gods at troy",
-  "date": "2026-11-24",
+  "description": "Predict, then sort the twelve Olympian gods by the side each took in Homer's Iliad: helped the Greeks, helped the Trojans, or stayed above or outside the fight.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "The Olympian Gods at Troy",
+    "topic": "The Olympian gods and the Trojan War in Homer's Iliad",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify each of the twelve Olympian gods by the side they take in Homer's Iliad (helped the Greeks, helped the Trojans, or stayed above or outside the fight), using each god's domain and story, with at least 10 of 12 correct on the first check."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Olympian gods",
+      "Mount Olympus",
+      "The Iliad",
+      "The Judgment of Paris",
+      "The Trojan War"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 620
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Prediction followed by a drag-and-drop classification with staged feedback (mark, hint, then reason)",
+    "keyQuestions": [
+      "When the gods went down to the plain of Troy, whose side was each one on?",
+      "Which three sides follow from the Judgment of Paris?",
+      "Why did the god of war fight for the losing side?"
+    ],
+    "commonMisconceptions": [
+      "The gods acted as impartial judges of right and wrong.",
+      "The god of war must have been on the winning side.",
+      "Every Olympian fought at Troy.",
+      "Zeus was simply a Trojan partisan."
+    ],
+    "assessmentOpportunities": [
+      "First-check score on twelve cards (mastery: 10 of 12).",
+      "Compare the committed prediction of the three totals with the true totals 5, 4, 3."
+    ]
   },
-  "chapter": "08-troy-and-gallipoli"
+  "chapter": "08-troy-and-gallipoli",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/olympian-gods-at-troy/"
 }

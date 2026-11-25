@@ -262,6 +262,10 @@ The MicroSim below asks us to sort all twelve by the side they took, using each 
 
 #### Diagram: The Olympian Gods at Troy
 
+<iframe src="../../sims/olympian-gods-at-troy/main.html" height="624px" width="100%" scrolling="no"></iframe>
+
+[Run The Olympian Gods at Troy MicroSim Fullscreen](../../sims/olympian-gods-at-troy/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>The Olympian Gods at Troy</summary>
 Type: microsim
@@ -358,6 +362,10 @@ To test the idea, Parry and his student Albert Lord went in 1933 to 1935 to Yugo
 **Worked example: composing a line like a bard.** Let's try it. A singer reaching the end of a line about Achilles has a space left: say seven syllables with the pattern short-short-long-short-short-long-long. He does not stop to choose an adjective. Only one formula for Achilles fits that space, *podas ōkus Achilleus*, "swift of feet, Achilles," and out it comes: "And answering him spoke swift-footed Achilles," a line that recurs again and again in the *Iliad*. If the space is eight syllables, out comes *podarkēs dios Achilleus*, "swift-footed, brilliant Achilles." If it is five, *dios Achilleus*. The system is economical: for each hero and each space there is usually just one formula. That is what lets a singer compose at the speed of performance. The MicroSim below gives us six lines to finish the same way.
 
 #### Diagram: Finish the Line Like a Homeric Singer
+
+<iframe src="../../sims/homeric-formula-builder/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Finish the Line Like a Homeric Singer MicroSim Fullscreen](../../sims/homeric-formula-builder/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Finish the Line Like a Homeric Singer</summary>
@@ -464,6 +472,10 @@ The **historicity of Troy** is the question of how much of the Troy legend refle
 That is Chapter 4's myth-versus-history test at full stretch, and we can make it a habit with a simple rule based on the gap between an event and the earliest surviving evidence for it. If the evidence was made at the time or within about ten years, by someone with no known reason to invent it, we can call the story **firm history**. If the evidence is that early but its author had a reason to shape it, or one detail is known to be invented, we have a **real core with a shaped telling**. If the earliest evidence comes more than ten years later, we have a **late or unsupported** story, which may be true but cannot be shown to be. The MicroSim below applies the rule to eight stories from today's two sites, including one from Gallipoli that we meet in Part Four.
 
 #### Diagram: Mind the Gap: How Old Is the Evidence?
+
+<iframe src="../../sims/troy-gallipoli-evidence-gap/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Mind the Gap: How Old Is the Evidence? MicroSim Fullscreen](../../sims/troy-gallipoli-evidence-gap/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Mind the Gap: How Old Is the Evidence?</summary>
