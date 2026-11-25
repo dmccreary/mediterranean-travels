@@ -547,7 +547,7 @@ The activity below gives practice with twelve signs we are likely to see in Gree
 
 #### Diagram: Read a Greek Sign
 
-<iframe src="../../sims/read-a-greek-sign/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/read-a-greek-sign/main.html" height="524px" width="100%" scrolling="no"></iframe>
 
 [Run the Read a Greek Sign MicroSim Fullscreen](../../sims/read-a-greek-sign/main.html){ .md-button .md-button--primary }
 
