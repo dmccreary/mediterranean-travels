@@ -246,7 +246,7 @@ The chart below lets us compare our stops month by month and predict what Novemb
 
 #### Diagram: November Weather at Our Stops
 
-<iframe src="../../sims/november-weather-at-our-stops/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/november-weather-at-our-stops/main.html" height="616px" width="100%" scrolling="no"></iframe>
 
 [Run the November Weather at Our Stops MicroSim Fullscreen](../../sims/november-weather-at-our-stops/main.html){ .md-button .md-button--primary }
 

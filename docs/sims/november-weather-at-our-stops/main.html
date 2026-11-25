@@ -6,14 +6,52 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>November Weather at Our Stops using Chart.js</title>
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; background: white; }
+        main { width: 100%; background: aliceblue; border: 1px solid silver; padding: 8px 12px 10px 12px; }
+        .header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+        .header h1 { font-size: 22px; margin: 0 0 6px 0; }
+        .score { font-size: 16px; white-space: nowrap; }
+        .panel { background: white; border: 1px solid silver; border-radius: 10px; padding: 8px 12px; min-height: 198px; }
+        .prompt { font-size: 14px; font-style: italic; color: dimgray; margin: 0 0 2px 0; }
+        .question { font-size: 17px; font-weight: bold; margin: 0 0 8px 0; }
+        .choices { display: flex; flex-wrap: wrap; gap: 6px; }
+        .choices button { font-size: 15px; padding: 5px 10px; cursor: pointer; border: 1px solid #999; border-radius: 5px; background: #f4f4f4; }
+        .choices button:disabled { cursor: default; color: #555; }
+        .choices button.correct { background: honeydew; border: 2px solid seagreen; color: black; }
+        .choices button.wrong { background: mistyrose; border: 2px solid firebrick; color: black; }
+        .feedback { font-size: 15px; margin-top: 8px; line-height: 1.35; }
+        .feedback b.ok { color: darkgreen; }
+        .feedback b.no { color: firebrick; }
+        .explore-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 16px; }
+        .explore-row select { font-size: 15px; padding: 3px; }
+        .chart-box { position: relative; height: 290px; background: white; border: 1px solid silver; border-radius: 10px; margin-top: 8px; padding: 4px 6px; }
+        .placeholder { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; color: dimgray; font-size: 16px; font-style: italic; padding: 20px; }
+        .source { font-size: 13px; color: #444; margin-top: 4px; min-height: 34px; line-height: 1.3; }
+        .controls { display: flex; align-items: center; gap: 10px; margin-top: 4px; }
+        .controls button { font-size: 14px; }
+        .status { font-size: 14px; color: dimgray; }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <script src="november-weather-at-our-stops.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div class="header">
+            <h1>November Weather at Our Stops</h1>
+            <div class="score" id="score">Predictions correct: 0 of 4</div>
+        </div>
+        <div class="panel" id="panel"></div>
+        <div class="chart-box">
+            <canvas id="chart" aria-label="Climate chart for the stops on our route" role="img"></canvas>
+            <div class="placeholder" id="placeholder">The chart appears after you lock in an answer.</div>
+        </div>
+        <div class="source" id="source"></div>
+        <div class="controls">
+            <button id="nextBtn" disabled>Next question</button>
+            <button id="restartBtn">Restart</button>
+            <span class="status" id="status">Choose an answer to reveal the chart.</span>
+        </div>
+    </main>
 </body>
 </html>

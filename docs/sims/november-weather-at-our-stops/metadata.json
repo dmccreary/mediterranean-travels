@@ -2,41 +2,104 @@
   "title": "November Weather at Our Stops",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for november weather at our stops",
+  "description": "Predict November temperature and rainfall at six stops on the route before each climate chart is revealed, then explore each stop's twelve-month climate.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
+    "subjectArea": "Geography",
     "topic": "November Weather at Our Stops",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret monthly temperature and rainfall charts for six stops on the route to predict November conditions, answering at least 3 of 4 prediction questions correctly before the answer is revealed."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Climate",
+      "Mediterranean climate: hot, dry summers and mild, wet winters",
+      "November as the start of the wet season",
+      "Mean daily high and low temperature"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "Chart.js",
-    "version": "1.0",
+    "version": "4.4.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 612
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "Chart.js 4.4.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (prediction questions with data feedback), followed by free exploration",
+    "keyQuestions": [
+      "Which stops will be coolest in November, and why?",
+      "When does the Mediterranean get its rain?",
+      "Why is the hottest month later than the longest day?"
+    ],
+    "commonMisconceptions": [
+      "The Mediterranean is warm and sunny all year.",
+      "Istanbul has the same weather as Athens because both are 'Mediterranean.'",
+      "Winter rain means it rains every day.",
+      "Summer is the wet season, as in many northern climates."
+    ],
+    "assessmentOpportunities": [
+      "Score on four locked-in predictions (mastery: 3 of 4).",
+      "Compare November rainfall at Rhodes and Heraklion from the exploration view."
+    ]
   },
-  "chapter": "02-traveling-well"
+  "dataSources": [
+    {
+      "stop": "Istanbul",
+      "station": "Kireçburnu",
+      "period": "1991-2020",
+      "url": "https://en.wikipedia.org/wiki/Istanbul"
+    },
+    {
+      "stop": "Çanakkale",
+      "station": "Çanakkale",
+      "period": "1991-2020",
+      "url": "https://en.wikipedia.org/wiki/%C3%87anakkale"
+    },
+    {
+      "stop": "İzmir",
+      "station": "İzmir",
+      "period": "1991-2020",
+      "url": "https://en.wikipedia.org/wiki/%C4%B0zmir"
+    },
+    {
+      "stop": "Rhodes",
+      "station": "Rhodes International Airport, Paradeisi",
+      "period": "1996-09 to 2026-08",
+      "url": "https://en.wikipedia.org/wiki/Rhodes"
+    },
+    {
+      "stop": "Heraklion",
+      "station": "Nikos Kazantzakis Airport",
+      "period": "1991-2020",
+      "url": "https://en.wikipedia.org/wiki/Heraklion"
+    },
+    {
+      "stop": "Athens",
+      "station": "downtown Athens",
+      "period": "1991-2020",
+      "url": "https://en.wikipedia.org/wiki/Athens"
+    }
+  ],
+  "dataRetrieved": "2026-11-24",
+  "chapter": "02-traveling-well",
+  "type": "Interactive Chart",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/november-weather-at-our-stops/"
 }
