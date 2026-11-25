@@ -2,41 +2,68 @@
   "title": "Read a Freedom Record on the Polygonal Wall",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for read a freedom record on the polygonal wall",
-  "date": "2026-11-24",
+  "description": "A simplified composite Delphic manumission record in eight clauses; the learner names each clause and judges whether it protects the freed woman, limits her freedom, or records the facts of the sale, then checks all eight with clause-by-clause feedback.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Read a Freedom Record on the Polygonal Wall",
+    "topic": "Delphic manumission records on the polygonal wall: the sale to Apollo, guarantor, witnesses, and paramone",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Deconstruct a simplified Delphic manumission record into its eight clauses, naming each clause and judging whether it protects the freed person, limits the freed person's freedom, or records the facts of the sale, with at least 7 of the 8 judgments correct."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Manumission",
+      "Manumission records",
+      "Archon",
+      "Guarantor",
+      "Witnesses",
+      "Paramone",
+      "Sale to the god",
+      "Inscription",
+      "Polygonal wall"
+    ],
     "standards": []
   },
   "technical": {
-    "framework": "html",
+    "framework": "HTML",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 730
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Document deconstruction: name and judge the effect of each clause, then check all at once with clause-level feedback and unlimited re-checks",
+    "keyQuestions": [
+      "Which words set her free, and which words keep her bound?",
+      "Why did the record make a god the buyer?",
+      "Who could defend the freedom if someone later challenged it?"
+    ],
+    "commonMisconceptions": [
+      "Freedom at Delphi was a gift from the owner, when the price was usually the enslaved person's own savings.",
+      "A freed person was immediately and completely free, when many records include a paramone clause.",
+      "The god's role was decorative, when the sale to the god was the legal mechanism that made re-enslavement impossible.",
+      "The witnesses and guarantor were formalities, when they were the people who could defend the freedom later."
+    ],
+    "assessmentOpportunities": [
+      "First-Check score on eight clauses, each needing both the name and the effect (mastery: 7 of 8).",
+      "Explain how one document both guaranteed and limited freedom."
+    ]
   },
-  "chapter": "18-delphi"
+  "chapter": "18-delphi",
+  "type": "Document Deconstruction",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/delphi-freedom-record-reader/"
 }

@@ -4,16 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Read a Freedom Record on the Polygonal Wall using html</title>
+    <title>Read a Freedom Record on the Polygonal Wall</title>
     <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
+        * { box-sizing: border-box; }
+        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #1d2a33; background: white; }
+        main { display: block; width: 100%; background: aliceblue; border: 1px solid silver; padding: 8px 12px 10px 12px; }
+        .header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+        .header h1 { font-size: 20px; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .score { font-size: 14px; white-space: nowrap; font-weight: bold; }
+        .question { font-size: 15px; font-style: italic; color: #4a3b10; margin: 3px 0 3px 0; }
+        .note { font-size: 12.5px; color: #4a5a66; margin: 0 0 4px 0; line-height: 1.3; }
+        .gloss { font-size: 12.5px; color: #4a5a66; margin: 0 0 5px 0; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+        .term { position: relative; color: #1d2a33; border-bottom: 1px dotted #6b5a2a; cursor: help; outline: none; }
+        .term:hover::after, .term:focus::after {
+            content: attr(data-def); position: absolute; left: 0; top: 18px; z-index: 5; width: 260px;
+            background: #2c3e50; color: white; font-size: 12px; line-height: 1.35; padding: 6px 9px; border-radius: 6px;
+            font-style: normal; font-weight: normal;
+        }
+        .term.right:hover::after, .term.right:focus::after { left: auto; right: 0; }
+        /* the record, carved on stone */
+        .record { background: #efe8da; border: 1px solid #b5a582; border-radius: 8px; padding: 4px 6px; }
+        .clause { display: grid; grid-template-columns: 26px 1fr 178px; gap: 8px; align-items: center;
+                  padding: 2px 4px; border-radius: 6px; border: 2px solid transparent; cursor: pointer; outline: none; }
+        .clause + .clause { border-top: 1px dashed #cdbf9f; }
+        .clause:hover { background: #f7f1e4; }
+        .clause:focus-visible { border-color: #8b7a55; }
+        .clause.sel { background: #fff6d6; border: 2px solid #c99a16; }
+        .num { width: 22px; height: 22px; border-radius: 11px; background: #8b7a55; color: white; font-size: 12px; font-weight: bold;
+               display: flex; align-items: center; justify-content: center; }
+        .clause.ok .num { background: #2e7d32; }
+        .clause.no .num { background: #c62828; }
+        .ctext { font-family: Georgia, 'Times New Roman', serif; font-size: 14.5px; line-height: 1.3; color: #2a241a; }
+        .ctext .term { font-family: inherit; }
+        .tags { display: flex; flex-direction: column; gap: 2px; font-size: 12px; line-height: 1.15; }
+        .tag { display: block; padding: 0px 6px; border-radius: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .tag.empty { color: #6e6655; font-style: italic; }
+        .tag.name { background: white; border: 1px solid #b5a582; }
+        .tag.eff { color: white; }
+        .tag.wrongpart { text-decoration: line-through; text-decoration-color: #c62828; text-decoration-thickness: 2px; }
+        .eff-protect { background: #2e7d32; border-color: #2e7d32; }
+        .eff-limit { background: #b3261e; border-color: #b3261e; }
+        .eff-record { background: #3f5f8a; border-color: #3f5f8a; }
+        /* the answer panel */
+        .panel { background: white; border: 1px solid silver; border-radius: 10px; padding: 6px 12px 7px 12px; margin-top: 6px; }
+        .phead { font-size: 13px; font-weight: bold; color: #4a5a66; margin-bottom: 4px; }
+        .grid { display: grid; gap: 4px; margin-bottom: 4px; }
+        .grid.names { grid-template-columns: repeat(4, 1fr); }
+        .grid.effs { grid-template-columns: repeat(3, 1fr); }
+        .grid button { font-size: 13px; padding: 4px 4px; cursor: pointer; border-radius: 5px; border: 1px solid #9aa7b0; background: #f7f9fa; color: #1d2a33; }
+        .grid button:hover:not(:disabled) { background: #fff1c2; }
+        .grid button.on { background: #c99a16; border-color: #8b6a0a; color: white; font-weight: bold; }
+        .grid.effs button { border-left-width: 6px; line-height: 1.2; }
+        .grid.effs button.on { font-weight: normal; }
+        .grid.effs button.on.eff-protect { background: #2e7d32; border-color: #1f5a23; color: white; }
+        .grid.effs button.on.eff-limit { background: #b3261e; border-color: #7f1a15; color: white; }
+        .grid.effs button.on.eff-record { background: #3f5f8a; border-color: #2c4463; color: white; }
+        .grid.effs button.b-protect { border-left-color: #2e7d32; }
+        .grid.effs button.b-limit { border-left-color: #b3261e; }
+        .grid.effs button.b-record { border-left-color: #3f5f8a; }
+        .grid button:disabled { cursor: default; opacity: 0.55; }
+        .grid button.on:disabled { opacity: 0.9; }
+        .feedback { font-size: 13.5px; line-height: 1.35; min-height: 37px; }
+        .feedback b.ok { color: darkgreen; }
+        .feedback b.no { color: firebrick; }
+        .feedback .hint { color: dimgray; font-style: italic; }
+        .controls { display: flex; align-items: center; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+        .controls button { font-size: 14px; padding: 4px 12px; cursor: pointer; }
+        .controls button:disabled { cursor: default; }
+        .status { font-size: 13px; color: dimgray; }
+        .summary { margin-top: 6px; padding: 4px 10px; border-radius: 8px; background: #f4f6f8; border: 1px solid #d5dbe0; font-size: 13.5px; color: #4a5a66; min-height: 27px; line-height: 1.35; }
+        .summary.done { background: #FFFBEA; border-color: #D9C27A; color: #1d2a33; font-weight: bold; }
+        @media (max-width: 600px) {
+            .header h1 { font-size: 16px; }
+            .clause { grid-template-columns: 24px 1fr; }
+            .tags { grid-column: 2; flex-direction: row; flex-wrap: wrap; }
+            .grid.names { grid-template-columns: repeat(2, 1fr); }
+            .grid.effs { grid-template-columns: 1fr; }
+        }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
-    <script src="delphi-freedom-record-reader.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+    <main>
+        <div class="header">
+            <h1>Read a Freedom Record on the Polygonal Wall</h1>
+            <div class="score" id="score">Clauses correct: &ndash; of 8</div>
+        </div>
+        <div class="question">Which words set her free, and which words keep her bound?</div>
+        <div class="note">A simplified record in the standard Delphic form. Bracketed words stand for the names that a real record gives. This is a composite, not a translation of one inscription.</div>
+        <div class="gloss" id="gloss"></div>
+        <div class="record" id="record" role="list" aria-label="The eight clauses of the record"></div>
+        <div class="panel" id="panel">
+            <div class="phead" id="phead">Clause 1</div>
+            <div class="grid names" id="names" role="group" aria-label="Clause name"></div>
+            <div class="grid effs" id="effs" role="group" aria-label="Effect of the clause"></div>
+            <div class="feedback" id="feedback" aria-live="polite"></div>
+        </div>
+        <div class="controls">
+            <button id="checkBtn" disabled>Check</button>
+            <button id="showBtn" disabled>Show Answers</button>
+            <button id="restartBtn">Start Over</button>
+        </div>
+        <div class="summary" id="summary" aria-live="polite"></div>
+    </main>
+    <script src="delphi-freedom-record-reader.js"></script>
 </body>
 </html>

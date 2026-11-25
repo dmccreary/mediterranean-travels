@@ -170,6 +170,10 @@ The record did two things at once. It gave a person freedom that no one could la
 
 #### Diagram: Read a Freedom Record on the Polygonal Wall
 
+<iframe src="../../sims/delphi-freedom-record-reader/main.html" height="734px" width="100%" scrolling="no"></iframe>
+
+[Run the Read a Freedom Record on the Polygonal Wall MicroSim Fullscreen](../../sims/delphi-freedom-record-reader/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Read a Freedom Record on the Polygonal Wall</summary>
 Type: infographic
@@ -272,6 +276,10 @@ The column's life runs across this whole book. It was cast in 479 BCE, the year 
 The sorting activity below asks which evidence can be checked at which end of the column's journey.
 
 #### Diagram: Two Ends of the Serpent Column
+
+<iframe src="../../sims/serpent-column-two-ends/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Two Ends of the Serpent Column MicroSim Fullscreen](../../sims/serpent-column-two-ends/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Two Ends of the Serpent Column</summary>
@@ -439,6 +447,10 @@ For the people of Kastri, the excavation meant losing their homes, their fields,
 Delphi's story after the oracle falls into four stages, and naming them makes the dates easier to hold. First the site was **silenced**: the oracle closed and the sanctuary was built over. Then it was **found**: travelers identified it from their reading. Then it was **dug up**: the excavation revealed and recovered it. Finally it was **shown**: museums, rebuilding, festivals, and world recognition presented it to visitors. The timeline below places the key dates in those stages.
 
 #### Diagram: Delphi After the Oracle
+
+<iframe src="../../sims/delphi-after-the-oracle-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Delphi After the Oracle MicroSim Fullscreen](../../sims/delphi-after-the-oracle-timeline/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Delphi After the Oracle</summary>
