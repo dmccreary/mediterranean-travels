@@ -2,41 +2,71 @@
   "title": "Democracy's Workplaces in the Agora",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for democracy's workplaces in the agora",
-  "date": "2026-11-24",
+  "description": "A schematic plan of the Ancient Agora of Athens with ten clickable places and nine job cards of Athenian public life; the learner selects where each job was done, and a numbered badge is pinned beside the correct building.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Democracy's Workplaces in the Agora",
+    "topic": "The buildings of the Ancient Agora of Athens and the work of Athenian democracy",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify nine jobs of Athenian public life by the Agora building or monument where each was done, choosing correctly for at least 7 of 9 on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Ancient Agora of Athens",
+      "Stoa",
+      "Royal Stoa",
+      "Metroon",
+      "Bouleuterion",
+      "Tholos",
+      "Monument of the Eponymous Heroes",
+      "Stoa Poikile",
+      "Stoa of Attalos",
+      "Temple of Hephaestus",
+      "Council of 500",
+      "Trial of Socrates"
+    ],
     "standards": []
   },
   "technical": {
-    "framework": "html",
+    "framework": "HTML",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 622
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification on a schematic plan with one scored attempt per card, immediate feedback, and pinned badges",
+    "keyQuestions": [
+      "Where in the Agora would you go to do this job?",
+      "Why did a charge of impiety start at a stoa rather than a court?",
+      "Which side of the square held most of the democracy's offices?"
+    ],
+    "commonMisconceptions": [
+      "The Agora was only a market.",
+      "Trials started in a courtroom, when charges of impiety were filed with the King Archon at the Royal Stoa.",
+      "Philosophy was taught in schools with buildings, when the Stoics met in a public stoa.",
+      "The Stoa of Attalos dates from Socrates' time, when it was built about 250 years later."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on nine job cards (mastery: 7 of 9, with card 5 correct).",
+      "Explain why the charge against Socrates was filed at the Royal Stoa."
+    ]
   },
-  "chapter": "16-athens-agora-democracy"
+  "chapter": "16-athens-agora-democracy",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/agora-democracy-workplaces/"
 }

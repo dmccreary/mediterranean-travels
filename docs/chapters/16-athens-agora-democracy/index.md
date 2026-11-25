@@ -263,7 +263,7 @@ The sim below gathers the democracy's buildings in one place, so we can match ea
 
 #### Diagram: Democracy's Workplaces in the Agora
 
-<iframe src="../../sims/agora-democracy-workplaces/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/agora-democracy-workplaces/main.html" height="626px" width="100%" scrolling="no"></iframe>
 
 [Run the Democracy's Workplaces in the Agora MicroSim Fullscreen](../../sims/agora-democracy-workplaces/main.html){ .md-button .md-button--primary }
 
