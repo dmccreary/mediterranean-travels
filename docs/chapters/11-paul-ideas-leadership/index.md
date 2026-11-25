@@ -469,7 +469,7 @@ The **grammar of schooling** is the historians David Tyack and William Tobin's p
 
 #### Diagram: Essential or Inherited?
 
-<iframe src="../../sims/essential-or-inherited-school-practices/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/essential-or-inherited-school-practices/main.html" height="574px" width="100%" scrolling="no"></iframe>
 
 [Run the Essential or Inherited? MicroSim Fullscreen](../../sims/essential-or-inherited-school-practices/main.html){ .md-button .md-button--primary }
 
