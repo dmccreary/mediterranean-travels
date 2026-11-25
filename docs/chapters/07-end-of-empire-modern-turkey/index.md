@@ -407,7 +407,7 @@ The movement's aims were set out in the **National Pact** (*Misak-ı Millî*) of
 
 #### Diagram: Sèvres or Lausanne?
 
-<iframe src="../../sims/sevres-versus-lausanne/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/sevres-versus-lausanne/main.html" height="706px" width="100%" scrolling="no"></iframe>
 
 [Run the Sèvres or Lausanne? MicroSim Fullscreen](../../sims/sevres-versus-lausanne/main.html){ .md-button .md-button--primary }
 

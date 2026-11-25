@@ -1,42 +1,67 @@
 {
-  "title": "S\u00e8vres or Lausanne?",
+  "title": "Sèvres or Lausanne?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for s\u00e8vres or lausanne?",
-  "date": "2026-11-24",
+  "description": "Predict, term by term, which of ten terms of the 1920 Treaty of Sèvres the 1923 Treaty of Lausanne reversed and which it kept, then name the rule behind the pattern, the National Pact.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "S\u00e8vres or Lausanne?",
+    "topic": "Turkish War of Independence and the Treaty of Lausanne",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate the terms of the 1920 Treaty of Sèvres that the 1923 Treaty of Lausanne reversed from those it kept, predicting at least 8 of 10 correctly and explaining the pattern by the National Pact."
     ],
     "bloomsTaxonomy": "Analyze",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Treaty of Sèvres",
+      "Treaty of Lausanne",
+      "National Pact",
+      "Grand National Assembly",
+      "Greco-Turkish War",
+      "Dardanelles Strait",
+      "Capitulations"
+    ],
     "standards": []
   },
   "technical": {
-    "framework": "html",
+    "framework": "HTML",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 702
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal (term-by-term comparison table), followed by choosing the principle that explains the pattern",
+    "keyQuestions": [
+      "Which terms of Sèvres did Lausanne reverse, and which did it keep?",
+      "What single rule predicts which terms survived?",
+      "Did Lausanne give Turkey full control of the Straits?"
+    ],
+    "commonMisconceptions": [
+      "Lausanne simply cancelled Sèvres, reversing every term.",
+      "Turkey regained the Arab provinces.",
+      "Lausanne gave Turkey full control of the Straits at once, when that came only with the Montreux Convention of 1936.",
+      "Rhodes became Greek at Lausanne."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt predictions on ten terms (mastery: 8 of 10) and the choice of explanation A.",
+      "Explain why the Straits regime counts as kept rather than reversed."
+    ]
   },
-  "chapter": "07-end-of-empire-modern-turkey"
+  "chapter": "07-end-of-empire-modern-turkey",
+  "type": "Interactive Comparison Table",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/sevres-versus-lausanne/"
 }
