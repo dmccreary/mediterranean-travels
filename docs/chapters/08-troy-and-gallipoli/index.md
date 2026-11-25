@@ -473,7 +473,7 @@ That is Chapter 4's myth-versus-history test at full stretch, and we can make it
 
 #### Diagram: Mind the Gap: How Old Is the Evidence?
 
-<iframe src="../../sims/troy-gallipoli-evidence-gap/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/troy-gallipoli-evidence-gap/main.html" height="720px" width="100%" scrolling="no"></iframe>
 
 [Run the Mind the Gap: How Old Is the Evidence? MicroSim Fullscreen](../../sims/troy-gallipoli-evidence-gap/main.html){ .md-button .md-button--primary }
 
