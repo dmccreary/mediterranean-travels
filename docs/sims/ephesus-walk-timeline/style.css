@@ -1,0 +1,154 @@
+/* One Walk, Seven Centuries - styles */
+:root {
+    --ink: #1d2a33;
+    --muted: #5d6d78;
+    --line: #dde4e8;
+    --paper: #fbfaf7;
+    --header: #5a4632;
+    --bar: #2F6E8E;
+    --prev: #C9A227;
+    --good: #2f7d4a;
+    --bad: #a4282a;
+    --ref: #7a4b8c;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+}
+
+header {
+    background: var(--header);
+    color: #fff;
+    height: 38px;
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header h1 { margin: 0; font-size: 18px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#score { margin-left: auto; font-weight: 600; font-size: 14px; white-space: nowrap; }
+
+button {
+    font: inherit;
+    font-size: 13px;
+    padding: 5px 12px;
+    border: 1px solid #b9c3c9;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+}
+button:hover:not(:disabled) { border-color: var(--header); background: #f6f1ea; }
+button:disabled { opacity: 0.45; cursor: default; }
+button.primary { background: var(--header); border-color: var(--header); color: #fff; }
+button.primary:hover:not(:disabled) { background: #46361f; }
+button small { font-size: 11.5px; opacity: .8; }
+
+/* ---------- prediction panel ---------- */
+#panel {
+    padding: 7px 14px 6px;
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+    height: 150px;
+    overflow: hidden;
+}
+#step { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+#question { font-size: 15px; font-weight: 600; line-height: 1.3; margin: 3px 0 6px; }
+#question .walk { font-weight: 400; color: var(--muted); }
+#choices { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+#choices button.chosen-ok { background: #e3f1e7; border-color: var(--good); color: var(--good); font-weight: 600; opacity: 1; }
+#choices button.chosen-bad { background: #f8e3e3; border-color: var(--bad); color: var(--bad); font-weight: 600; opacity: 1; }
+#feedback { margin-top: 6px; line-height: 1.35; font-size: 13.5px; }
+#feedback .good { color: var(--good); font-weight: 700; }
+#feedback .bad { color: var(--bad); font-weight: 700; }
+
+/* ---------- timeline ---------- */
+#timeline { background: #fff; border-bottom: 1px solid var(--line); }
+.vis-timeline { border: none !important; font-size: 12px; }
+.vis-labelset .vis-label .vis-inner {
+    box-sizing: border-box;
+    font-size: 12.5px;
+    color: #85919a;
+    padding: 4px 8px 2px;
+    width: 206px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.vis-labelset .vis-label.seen .vis-inner { color: var(--ink); }
+.vis-labelset .vis-label.current .vis-inner { color: var(--ink); font-weight: 700; background: #fff4d6; }
+.vis-labelset .vis-label.prev .vis-inner { color: #7a600c; font-weight: 600; }
+.vis-labelset .vis-label.ref .vis-inner { color: var(--ref); font-style: italic; }
+.vis-label .ok { color: var(--good); font-weight: 700; }
+.vis-label .no { color: var(--bad); font-weight: 700; }
+.vis-time-axis .vis-text { color: var(--muted); }
+.vis-time-axis .vis-grid.vis-minor { border-color: #eef1f3; }
+.vis-foreground .vis-group { border-bottom: 1px solid #f0f2f4; }
+.vis-panel.vis-center, .vis-panel.vis-center .vis-content { overflow: visible; }
+.vis-item .vis-item-overflow { overflow: visible !important; }
+.vis-item .vis-item-content { white-space: nowrap !important; }
+
+/* Monument bars; the label sits just right of the bar (or left, near the right edge) */
+.vis-item.vis-range.bar {
+    background: var(--bar);
+    border-color: var(--bar);
+    height: 12px;
+    border-radius: 3px;
+    min-width: 4px;
+}
+.vis-item.vis-range.bar .vis-item-overflow { position: relative; }
+.vis-item.vis-range.bar .vis-item-content {
+    padding: 0 !important;
+    position: static !important;
+    transform: none !important;   /* a transform would become the label's containing block */
+}
+.vis-item.vis-range.bar .vis-item-content > span {
+    position: absolute;
+    left: calc(100% + 6px);
+    top: -2px;
+    color: var(--bar);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+.vis-item.vis-range.bar.label-left .vis-item-content > span { left: auto; right: calc(100% + 6px); }
+.vis-item.vis-range.bar.prevbar { background: var(--prev); border-color: #a5841a; }
+.vis-item.vis-range.bar.prevbar .vis-item-content > span { color: #7a600c; }
+.vis-item.vis-range.bar.curbar { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f2b632; }
+.vis-item.vis-range.bar.ref { background: var(--ref); border-color: var(--ref); }
+.vis-item.vis-range.bar.ref .vis-item-content > span { color: var(--ref); }
+.vis-item.vis-point.riot { color: var(--ref); font-weight: 600; font-size: 12px; }
+.vis-item.vis-dot.riot { border-color: var(--ref); background: var(--ref); border-width: 4px; border-radius: 4px; }
+
+.vis-tooltip {
+    background: #2c3e50 !important;
+    color: #fff !important;
+    padding: 6px 10px !important;
+    border-radius: 6px !important;
+    font-size: 12px !important;
+    max-width: 260px !important;
+    white-space: normal !important;
+    line-height: 1.35 !important;
+    border: none !important;
+}
+
+/* ---------- toolbar ---------- */
+#toolbar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+}
+#toolbar button { padding: 3px 10px; white-space: nowrap; }
+#note { font-size: 12px; color: var(--muted); line-height: 1.3; margin-left: 6px; }
+
+@media (max-width: 560px) {
+    header h1 { font-size: 15px; }
+    #panel { height: 196px; }
+    .vis-labelset .vis-label .vis-inner { width: 112px; }
+    #note { font-size: 11px; }
+}

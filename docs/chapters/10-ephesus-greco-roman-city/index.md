@@ -474,7 +474,7 @@ The timeline below sets the monuments of our walk in order of date, rather than 
 
 #### Diagram: One Walk, Seven Centuries
 
-<iframe src="../../sims/ephesus-walk-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/ephesus-walk-timeline/main.html" height="510px" width="100%" scrolling="no"></iframe>
 
 [Run the One Walk, Seven Centuries MicroSim Fullscreen](../../sims/ephesus-walk-timeline/main.html){ .md-button .md-button--primary }
 

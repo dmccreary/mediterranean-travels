@@ -2,41 +2,66 @@
   "title": "One Walk, Seven Centuries",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for one walk, seven centuries",
-  "date": "2026-11-24",
+  "description": "Walk downhill through Ephesus monument by monument, predicting whether each was begun before or after the one just passed, and watch the timeline zigzag across seven centuries.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "One Walk, Seven Centuries",
+    "topic": "The Monuments of Ephesus in Time",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Compare the construction dates of nine monuments passed on the downhill walk through Ephesus, predicting for each one whether it was begun before or after the monument passed just before it, with at least 6 of 8 predictions correct."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Reading a ruin and spolia (Chapter 4)",
+      "The Memmius Monument and Curetes Street",
+      "The Gate of Hercules and the Fountain of Trajan",
+      "The Temple of Hadrian and the terrace houses",
+      "The Library of Celsus and the Gate of Mazaeus and Mithridates",
+      "The Great Theater and the Harbor Street"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 506
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict-then-reveal comparison: commit to older or younger before each date appears, then read the finished timeline as layers",
+    "keyQuestions": [
+      "Walking downhill, is the next monument older or younger?",
+      "Does the walk run steadily from older to newer?",
+      "Which monuments already stood when Paul was in Ephesus?"
+    ],
+    "commonMisconceptions": [
+      "A site is built in one period, so neighboring monuments are about the same age.",
+      "The downhill walk runs steadily from older to newer, or the reverse.",
+      "A monument's construction date is the date of everything in it; the Gate of Hercules reuses older carved blocks, and the theater was rebuilt over several centuries."
+    ],
+    "assessmentOpportunities": [
+      "Correct predictions out of eight (mastery: 6 of 8).",
+      "Correct a guide's claim that everything on Curetes Street is 2nd-century Roman, using three monuments."
+    ]
   },
-  "chapter": "10-ephesus-greco-roman-city"
+  "chapter": "10-ephesus-greco-roman-city",
+  "type": "Timeline",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/ephesus-walk-timeline/"
 }
