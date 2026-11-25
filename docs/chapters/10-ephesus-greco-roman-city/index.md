@@ -241,6 +241,10 @@ The interactive diagram below lets us practice naming the orders, first by their
 
 #### Diagram: Doric, Ionic, or Corinthian?
 
+<iframe src="../../sims/classical-orders-identifier/main.html" height="586px" width="100%" scrolling="no"></iframe>
+
+[Run the Doric, Ionic, or Corinthian? MicroSim Fullscreen](../../sims/classical-orders-identifier/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Doric, Ionic, or Corinthian?</summary>
 Type: infographic
@@ -470,6 +474,10 @@ The timeline below sets the monuments of our walk in order of date, rather than 
 
 #### Diagram: One Walk, Seven Centuries
 
+<iframe src="../../sims/ephesus-walk-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the One Walk, Seven Centuries MicroSim Fullscreen](../../sims/ephesus-walk-timeline/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>One Walk, Seven Centuries</summary>
 Type: timeline
@@ -593,6 +601,10 @@ This is the place where Chapter 4's tools need the most tact. By the historian's
 The sorter below practices that distinction on the Christian sites of Ephesus and Selçuk.
 
 #### Diagram: Documented, Debated, or Tradition?
+
+<iframe src="../../sims/ephesus-sites-evidence-judge/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Documented, Debated, or Tradition? MicroSim Fullscreen](../../sims/ephesus-sites-evidence-judge/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Documented, Debated, or Tradition?</summary>
