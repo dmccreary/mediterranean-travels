@@ -334,7 +334,7 @@ The interactive cross-section below lets us take the attacker's route through th
 
 #### Diagram: Layers of the Theodosian Walls
 
-<iframe src="../../sims/theodosian-walls-layers/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/theodosian-walls-layers/main.html" height="662px" width="100%" scrolling="no"></iframe>
 
 [Run the Layers of the Theodosian Walls MicroSim Fullscreen](../../sims/theodosian-walls-layers/main.html){ .md-button .md-button--primary }
 
