@@ -277,7 +277,7 @@ The sorting activity below asks which evidence can be checked at which end of th
 
 #### Diagram: Two Ends of the Serpent Column
 
-<iframe src="../../sims/serpent-column-two-ends/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/serpent-column-two-ends/main.html" height="572px" width="100%" scrolling="no"></iframe>
 
 [Run the Two Ends of the Serpent Column MicroSim Fullscreen](../../sims/serpent-column-two-ends/main.html){ .md-button .md-button--primary }
 
