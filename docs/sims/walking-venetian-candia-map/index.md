@@ -7,7 +7,7 @@ og:image: /sims/walking-venetian-candia-map/walking-venetian-candia-map.png
 twitter:image: /sims/walking-venetian-candia-map/walking-venetian-candia-map.png
 social:
    cards: false
-quality_score: 0
+quality_score: 100
 ---
 
 # Walking Venetian Candia
