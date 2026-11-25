@@ -149,6 +149,10 @@ The sorter below asks us to tell the three ways of predicting apart by how each 
 
 #### Diagram: Oracle, Gears, or Data?
 
+<iframe src="../../sims/oracle-gears-or-data-sorter/main.html" height="660px" width="100%" scrolling="no"></iframe>
+
+[Run the Oracle, Gears, or Data? MicroSim Fullscreen](../../sims/oracle-gears-or-data-sorter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Oracle, Gears, or Data?</summary>
 Type: microsim
@@ -398,6 +402,10 @@ The timeline below gathers the modern events from Parts Three and Five and asks 
 
 #### Diagram: Why Athens Looks the Way It Does
 
+<iframe src="../../sims/modern-athens-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Why Athens Looks the Way It Does MicroSim Fullscreen](../../sims/modern-athens-timeline/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Why Athens Looks the Way It Does</summary>
 Type: timeline
@@ -520,6 +528,10 @@ The famous number has not held up at full size. Bloom's studies were small, last
 The explorer below lets us turn each of these effect sizes into the percentile it means, and test our sense of how big "big" is.
 
 #### Diagram: Tutoring Effect Size Explorer
+
+<iframe src="../../sims/tutoring-effect-size-explorer/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Tutoring Effect Size Explorer MicroSim Fullscreen](../../sims/tutoring-effect-size-explorer/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Tutoring Effect Size Explorer</summary>
