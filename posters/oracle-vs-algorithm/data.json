@@ -1,0 +1,170 @@
+{
+  "title": "The Oracle and the Algorithm, Side by Side",
+  "image": "oracle-vs-algorithm.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#B5532D",
+    "#1F6F8B",
+    "#5E8C31",
+    "#C9A227",
+    "#6A3FB5"
+  ],
+  "zones": [
+    {
+      "id": "who-asks",
+      "label": "Who Asks",
+      "color": "#B5532D",
+      "x1": 1.04,
+      "y1": 1.37,
+      "x2": 32.36,
+      "y2": 48.54,
+      "tooltip": "Who asks: only those who climbed to Delphi, versus predictions made about people who never asked. Click for details.",
+      "summary": "At Delphi only those who chose to come were answered. A model can make a prediction about us without our ever asking.",
+      "facts": [
+        "Delphi: a consultant paid a fee, the pelanos, and brought an animal for the preliminary sacrifice. The journey itself was usually the largest cost.",
+        "A city paid more than a private person: an inscription from Phaselis sets a much higher fee for an envoy sent by the city.",
+        "Today: we type a prompt, but loan, hiring, school-risk, and policing models also score people who never asked.",
+        "Where the parallel breaks: the oracle answered a few people a day, nine months a year, and models answer millions a day (Chapter 19, Limits of the Oracle Parallel).",
+        "On our route: the Sacred Way and the Temple of Apollo at Delphi (Day 12)."
+      ]
+    },
+    {
+      "id": "data-hub",
+      "label": "Knowledge Source",
+      "color": "#1F6F8B",
+      "x1": 34.24,
+      "y1": 1.37,
+      "x2": 65.76,
+      "y2": 48.54,
+      "tooltip": "Where knowledge comes from: envoys at the sanctuary, and training data in the model. Click for details.",
+      "summary": "Both a sanctuary and a model gather many voices, and both know the most about those who can reach them.",
+      "facts": [
+        "Delphi: envoys came from colonies in Sicily and on the Black Sea, and from Sparta, Athens, and Lydia, each bringing news along with a question.",
+        "Some historians suggest this flow of information helps explain why many practical answers were sensible. It is a reasonable idea, not a proven one: no archive of Delphi's questions survives.",
+        "Today: a language model is trained on a vast collection of text, a hub where many voices are gathered and compressed.",
+        "Both are uneven. Croesus' Lydians went to the front of the line at Delphi, and the text that reaches a model comes mostly from people and languages that write a great deal online.",
+        "Ask of any prediction: whose experience was in the data, and is mine like theirs?"
+      ]
+    },
+    {
+      "id": "answer-form",
+      "label": "The Form of the Answer",
+      "color": "#5E8C31",
+      "x1": 67.58,
+      "y1": 1.37,
+      "x2": 98.89,
+      "y2": 48.54,
+      "tooltip": "The form of the answer: a hedged verse versus a fluent, hedged paragraph. Click for details.",
+      "summary": "An answer that cannot lose predicts nothing. Oracles hedged, and so do chatbots.",
+      "facts": [
+        "Delphi: the Pythia sat on a bronze tripod in the temple's inner chamber and the god's words were announced to the consultant by a prophet. The answers often came in verse.",
+        "The Croesus prophecy, 'you will destroy a great empire,' comes true whether Croesus wins or loses. The Pythia later said he should have asked which empire.",
+        "Today: a model produces the kind of answer that usually fits a question, and usual answers are hedged: 'Conditions on mountain roads can change quickly.'",
+        "Test any answer: list the possible outcomes and ask which would make it come true. If every outcome does, it cannot lose.",
+        "Where the parallel breaks: by Fontenrose's count, the oracle's typical answer was a command or an approval. A model's is a probability or generated text."
+      ]
+    },
+    {
+      "id": "interpreter",
+      "label": "Who Interprets",
+      "color": "#C9A227",
+      "x1": 1.04,
+      "y1": 51.37,
+      "x2": 32.36,
+      "y2": 98.54,
+      "tooltip": "Who interprets: the Athenian Assembly, and the human in the loop. Click for details.",
+      "summary": "The answer decided nothing. The interpreting did.",
+      "facts": [
+        "Delphi: in 481 or 480 BCE the oracle told Athens that a 'wooden wall' would not fall. Some said it meant the thorn hedge on the Acropolis, others the fleet.",
+        "The professional interpreters read 'divine Salamis' as a warning. Themistocles read it as a promise, and the Assembly voted with him.",
+        "Today: a human in the loop reviews and takes responsibility for what an automated system recommends.",
+        "It only works if the person can disagree. People tend to accept a machine's recommendation even when they doubt it, called automation bias.",
+        "A meaningful loop needs time to think, information the machine lacks, and freedom to say no."
+      ]
+    },
+    {
+      "id": "mishearing",
+      "label": "How We Mishear",
+      "color": "#6A3FB5",
+      "x1": 34.24,
+      "y1": 51.37,
+      "x2": 65.76,
+      "y2": 98.54,
+      "tooltip": "How we mishear: Croesus hears the reading he wanted, and the leading question gets the agreeable answer. Click for details.",
+      "summary": "We hear what we already think, and today's models tend to follow our framing.",
+      "facts": [
+        "Delphi: told that if he made war on Persia he would destroy a great empire, Croesus heard victory. The empire he destroyed was his own.",
+        "Xenophon showed the same habit in the question itself. Already decided to go, he asked only how to succeed.",
+        "Today: a model asked 'Why is Delphi better than the beach?' will often supply the reasons we wanted.",
+        "Fix it by asking the question both ways, or by asking for the strongest case against our plan, and comparing the answers.",
+        "Ask of any vague answer: what would have to be true for this to be wrong, and how would I check?"
+      ]
+    },
+    {
+      "id": "feedback",
+      "label": "Feedback Loop",
+      "color": "#C7164E",
+      "x1": 67.58,
+      "y1": 51.37,
+      "x2": 98.89,
+      "y2": 98.54,
+      "tooltip": "When the answer changes the future: Oedipus at the crossroads, and predictions that feed themselves. Click for details.",
+      "summary": "A prediction about people is also an action, and it changes the data the next prediction is learned from.",
+      "facts": [
+        "Delphi: in the myth, each step Laius and Oedipus took to escape the prophecy became a link in the chain that fulfilled it.",
+        "Sophocles places the crossroads in Phocis, where the road from Delphi meets the road from Daulis. Our own road on Day 12 passes through the same country.",
+        "A self-fulfilling prophecy comes true partly because it was made. The sociologist Robert K. Merton named it in 1948.",
+        "A self-defeating prophecy fails because it was made. A forecast of a traffic jam at 9 AM sends drivers out early, and the jam never forms.",
+        "Today: a 'high-risk' label for a student can lead to lower expectations, a less demanding class, and a higher risk score, which confirms the label."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which tile shows a difference in consent: the oracle answered only those who came, but a model can predict people who never asked?",
+      "correct_zone": "who-asks",
+      "explanation": "Delphi answered those who climbed the mountain and paid. Loan, hiring, school-risk, and policing models also score people who never asked."
+    },
+    {
+      "question": "Which tile involves paying a fee, the pelanos, and bringing an animal to put a question?",
+      "correct_zone": "who-asks",
+      "explanation": "The fee and the preliminary sacrifice were part of approaching the god, and a city's envoy paid more than a private person."
+    },
+    {
+      "question": "Which tile is about a hub that knows the most about the people who can reach it?",
+      "correct_zone": "data-hub",
+      "explanation": "Envoys from rich cities reached Delphi, and text from people who write a lot online reaches a model. Those who never make the trip are missing from both."
+    },
+    {
+      "question": "Which tile shows an answer that would have come true whichever way the war went?",
+      "correct_zone": "answer-form",
+      "explanation": "'You will destroy a great empire' fits Croesus winning and Croesus losing. An answer that cannot lose predicts nothing."
+    },
+    {
+      "question": "Which tile shows the Athenian Assembly choosing Themistocles' reading of the wooden wall?",
+      "correct_zone": "interpreter",
+      "explanation": "The god's answer decided nothing. The Assembly argued over its meaning and voted, and the choice was theirs."
+    },
+    {
+      "question": "Which tile is about automation bias, accepting a recommendation without really being free to disagree?",
+      "correct_zone": "interpreter",
+      "explanation": "A human in the loop only helps if the person has time, information, and the freedom to say no."
+    },
+    {
+      "question": "Which tile shows someone hearing only the reading he wanted?",
+      "correct_zone": "mishearing",
+      "explanation": "Croesus heard victory, and never asked which empire. Leading questions put to a model get the same kind of agreeable answer."
+    },
+    {
+      "question": "In which tile does a prediction help bring about its own result, as the Oedipus prophecy did in the myth?",
+      "correct_zone": "feedback",
+      "explanation": "Each attempt to escape the prophecy became a link in the chain that fulfilled it. A high-risk label for a student can work the same way."
+    },
+    {
+      "question": "Which tile includes a forecast that fails because people believed it?",
+      "correct_zone": "feedback",
+      "explanation": "A forecast of heavy 9 AM traffic sends drivers out early, so the jam never forms. That is a self-defeating prophecy."
+    }
+  ]
+}

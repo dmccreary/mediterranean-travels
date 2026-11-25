@@ -1,0 +1,74 @@
+{
+  "title": "The Oracle and the Algorithm, Side by Side",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Interactive infographic overlay that compares the Delphic oracle and a modern predictive model across six matched stages, with hover tooltips, a click-to-open infobox, and a quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "Oracles and predictive models",
+    "learningObjectives": [
+      "Compare how the Delphic oracle and a modern predictive model answer questions across six matched stages.",
+      "Name, for each stage, one way the two are alike and one way the parallel breaks."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Chapter 17: how the oracle worked",
+      "Chapter 19: machine learning, training data, and language models"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 830
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "Whose experience was in the data, and is mine like theirs?",
+      "Can this answer lose?",
+      "Who is free to disagree with the answer?"
+    ],
+    "commonMisconceptions": [
+      "The oracle was an early algorithm, so it was just a data center.",
+      "A prediction that comes true proves the model was accurate.",
+      "A human in the loop is a safeguard even when the human cannot disagree."
+    ],
+    "assessmentOpportunities": [
+      "Nine-question quiz mode: click the tile that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a tile for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks nine questions answered by clicking a tile."
+    }
+  ],
+  "chapter": "19-algorithm",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
