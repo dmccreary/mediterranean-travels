@@ -1,7 +1,7 @@
 ---
 title: The Three Classical Orders
 description: Hover over and click three illustrated columns to compare the Doric, Ionic, and Corinthian orders, then test yourself in Quiz mode.
-status: built
+status: approved
 image: /posters/column-types/column-types.png
 og:image: /posters/column-types/column-types.png
 twitter:image: /posters/column-types/column-types.png
