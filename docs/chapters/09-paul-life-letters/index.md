@@ -633,7 +633,7 @@ The sorter below gives us practice with exactly that, using claims we will hear 
 
 #### Diagram: Who Says So? Sorting Claims About Paul
 
-<iframe src="../../sims/who-says-so-paul-sources/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/who-says-so-paul-sources/main.html" height="524px" width="100%" scrolling="no"></iframe>
 
 [Run the Who Says So? Sorting Claims About Paul MicroSim Fullscreen](../../sims/who-says-so-paul-sources/main.html){ .md-button .md-button--primary }
 

@@ -2,41 +2,68 @@
   "title": "Who Says So? Sorting Claims About Paul",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for who says so? sorting claims about paul",
-  "date": "2026-11-24",
+  "description": "Sort fourteen familiar claims about the apostle Paul by their source: Paul's own letters, Acts only, scholars' inference, or later tradition.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Who Says So? Sorting Claims About Paul",
+    "topic": "Sources for the Life of Paul",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate claims about Paul by their source, sorting fourteen statements into Paul's own letters, Acts only, scholars' inference, or later tradition, with at least 11 of 14 correct."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Primary sources and myth versus history (Chapter 4)",
+      "The Book of Acts",
+      "The Pauline letters as Paul's own words",
+      "Paul as persecutor and the road to Damascus",
+      "Timothy and Titus",
+      "Roman citizenship",
+      "Tarsus"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 520
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Concept classifier: sort statements into source categories with immediate, cited feedback",
+    "keyQuestions": [
+      "Where does this claim about Paul first appear?",
+      "Which parts of the familiar story does Paul tell himself?",
+      "What do scholars reconstruct that no source states?"
+    ],
+    "commonMisconceptions": [
+      "Everything familiar about Paul comes from his letters; his birthplace, citizenship, the name Saul, and the light on the road come only from Acts.",
+      "If Acts and the letters both say something, it belongs to Acts; Paul's own words come first.",
+      "Dates such as the year of Paul's call are stated in a source; they are reconstructed by scholars.",
+      "Paul's death by beheading is in the Bible; it is later tradition."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on fourteen statements (mastery: 11 of 14).",
+      "Sort each part of a guide's one-sentence summary of Paul's conversion."
+    ]
   },
-  "chapter": "09-paul-life-letters"
+  "chapter": "09-paul-life-letters",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/who-says-so-paul-sources/"
 }
