@@ -422,7 +422,7 @@ The sorting activity below puts the four kinds to work on twelve scripts, most o
 
 #### Diagram: Sort the Scripts
 
-<iframe src="../../sims/sort-the-scripts/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/sort-the-scripts/main.html" height="564px" width="100%" scrolling="no"></iframe>
 
 [Run the Sort the Scripts MicroSim Fullscreen](../../sims/sort-the-scripts/main.html){ .md-button .md-button--primary }
 

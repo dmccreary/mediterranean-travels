@@ -2,41 +2,65 @@
   "title": "Sort the Scripts",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for sort the scripts",
+  "description": "Sort twelve writing systems into logographic, syllabary, abjad and alphabet bins by what one sign stands for and how many signs each script uses.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
+    "subjectArea": "Language Arts",
     "topic": "Sort the Scripts",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Classify twelve writing systems as logographic, syllabary, abjad, or alphabet from what one basic sign stands for and how many signs the script uses, with at least 10 of 12 correct on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Writing system",
+      "Logographic script, syllabary, abjad and alphabet",
+      "The sign-count rule of thumb",
+      "Linear A and Linear B"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 560
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Classification practice with immediate feedback (sorting)",
+    "keyQuestions": [
+      "What does one sign stand for in this script?",
+      "How many signs does it use?",
+      "Can a script nobody can read still be classified?"
+    ],
+    "commonMisconceptions": [
+      "Egyptian hieroglyphs are an alphabet because some signs stand for single sounds.",
+      "Hebrew and Arabic are alphabets in the same sense as Greek.",
+      "A script nobody can read cannot be classified.",
+      "Alphabets are always older than syllabaries."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on twelve cards (mastery: 10 of 12).",
+      "Classify a new script (katakana) from its description."
+    ]
   },
-  "chapter": "02-traveling-well"
+  "chapter": "02-traveling-well",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/sort-the-scripts/"
 }
