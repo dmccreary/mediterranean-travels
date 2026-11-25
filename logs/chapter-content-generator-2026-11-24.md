@@ -509,3 +509,166 @@ Lists: the Socratic method's four steps, ethos/pathos/logos in Philemon, Koine's
 - docs/chapters/02-traveling-well/index.md (pronounce button for euangelion only)
 - data/photo-picks.csv (2 captions, 3 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{koine,euangelion,miletus,gamaliel,tyrannus,aquila,apollos,cenchreae}.mp3
 - logs/ch-09-content-generation.md, this log
+
+# Chapter 10 Session: 10-ephesus-greco-roman-city
+
+**Skill Version:** 1.11
+**Execution Mode:** Single chapter (daily)
+
+## Timing
+
+| Metric | Value |
+|--------|-------|
+| Start Time | 2026-11-24 17:56:57 |
+| End Time | 2026-11-24 18:19:10 |
+
+## Setup Checks
+
+- **Edge direction and chapter order:** concepts follow their learning-graph prerequisites within the chapter: Ephesus Harbor Silting after Kuşadası and Selçuk; Seven Wonders before Temple of Artemis before Artemis of Ephesus; Classical Orders before Ionic, Doric, Corinthian; Inscription; Curetes Street before Hadrian, Temple of Hadrian (also after Corinthian), the latrines, Fresco, and Terrace Houses; Library of Celsus and Marble Street; Greek Theater before Great Theater before Riot of the Silversmiths (also after Artemis of Ephesus) and Demetrius; St. Paul's Prison Tower; Church of Mary before Council of Ephesus; Ephesus Museum after Artemis of Ephesus; John the Apostle before Basilica of St. John and House of the Virgin Mary; Burning of Smyrna, Treaty of Lausanne, Population Exchange, Asia Minor Refugees; Library as Public Access before Philanthropy for Knowledge. The Temple of Artemis is told at the Magnesian Gate (where its processions entered the city) so that it precedes the riot, with the site visit itself in the afternoon.
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **MicroSim reuse search:** available. All three queries returned `generate` (WHAT scores 0.506, 0.450, 0.395), so 0 reused, 0 from template, 3 newly specified.
+- **Photos:** 8 picks; all 8 placed. Chapter 9's three Ephesus photos (Odeon seats, Nike relief, lone column) are not reused.
+- **Coverage split honored:** Paul's Ephesian years, Tyrannus, Priscilla and Aquila, Apollos, and Miletus are not retold (pointers to Chapter 9 only); the riot is told here at the theater; its leadership reading ("economics of resistance") is left to Chapter 11 with a pointer. The burning of Smyrna, Lausanne, and the exchange are told only through this coast (Şirince, Kuşadası, Samos, the two September commemorations), referring back to Chapter 7 for the general account.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 10. Ephesus, a Greco-Roman City | 0 / 17 / 19 | 6,530–10,600 | ~13,340 (brief's counter; includes the stub sections, 8 tables, 6 lists, admonitions, Practical Notes, Learning for All, and Key Takeaways) | ~3,400 | 36/36 |
+
+Tier B (17): Classical Orders, Doric Order, Greek Theater, Treaty of Lausanne, Ionic Order, Population Exchange of 1923, Seven Wonders of the World, Curetes Street, Temple of Artemis, Artemis of Ephesus, Marble Street, Great Theater of Ephesus, Library of Celsus, Fresco, Riot of the Silversmiths, Burning of Smyrna, Library as Public Access. Tier C (19): the rest.
+
+The chapter runs above its concept budget, comparable to Chapter 8 (37 concepts, ~12,240). Reasons: a walking-order daily chapter needs connective prose between stops (the upper city, Part Two's gate framing, Part Eight's introduction), and several Tier C concepts carry the chapter's history-versus-tradition work (John the Apostle, House of the Virgin Mary, St. Paul's Prison Tower) and run near 200–300 words. One trimming pass removed about 300 words of restatement.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 10 | 8 (plus 3 inside specs) | 8 | 11 (welcome 1, thinking 4, tip 2, warning 2, encourage 1, celebration 1) | classical-orders-identifier (html infographic, Understand/classify); ephesus-walk-timeline (vis-timeline, Understand/compare); ephesus-sites-evidence-judge (p5.js, Evaluate/judge) |
+
+Tables: Seven Wonders; Temple of Artemis from shrine to marsh; the three orders compared; Greek versus Roman theater; Acts 19 details against Ephesian evidence; claims about John and their earliest sources; the two September commemorations; Aquila's library versus Carnegie libraries. Lists: the three sites of Ephesus, the four steps of a fresco, the people in the riot story, the Ephesus Museum's highlights, Practical Notes, Key Takeaways.
+
+## Validation
+
+- Frontmatter parses; `date` is a string.
+- `validate-chapter-mascots.py`: OK, no violations.
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits, including the Chapter 1 button move).
+- Specification self-check: six header lines present, no indented lines, no layout, pixel, color, or Implementation lines; counts match Content (12 cards; 9 monuments and 8 predictions with comparison years listed; 10 cards, 5/2/3) and Chapter Anchors match the prose.
+- No more than 4 consecutive prose paragraphs without a non-text element (checked by script; one run of 5 fixed by merging paragraphs).
+- No TODO and no "(verify)" left; all 36 concepts appear in bold ("Kusadasi and Selcuk" appears as **Kuşadası** and **Selçuk**, per the guide's Turkish-letters rule).
+- `scripts/pronunciations.py`: 6 new terms with audio (Curetes, Vitruvius, Prytaneion, Theotokos, Şirince, Ayasuluk); check OK. Buttons: Curetes in Chapter 1 (its first running-text use; the script put it between "Curetes" and "Street", so I moved it after "Curetes Street"); the other five in Chapter 10. The insert step was run with the uncommitted "Antikythera" row temporarily removed, because the script would have put its button in Chapter 20's Summary (a stub); the row was restored and the appendix rebuilt with it (87 terms). `check` reports Antikythera with audio and no chapter button.
+
+## Caption Changes
+
+- Pick 1: "Hadrian's Temple on Curetes Street, 2nd century CE" -> "The arch of the Temple of Hadrian on Curetes Street, 2nd century CE".
+- Pick 2: "Fountain ruins on Curetes Street (verify)" -> "The Fountain of Trajan on Curetes Street, early 2nd century CE". Identified from the contact sheet (raised pediment above composite/Corinthian capitals, the restored Nymphaeum Traiani), the time (between the Nike relief and Hadrian's temple), and the sidecar GPS (37.93798, 27.34254, about 70 m uphill of the Hadrian photo).
+- Pick 3: "The Memmius Monument (verify)" -> "The Memmius Monument, 1st century BCE, Ephesus". The contact sheet shows the reconstructed monument with standing relief figures; the time and GPS place it at Domitian Square.
+- Pick 4: "Corinthian columns along a colonnaded street" -> "..., Ephesus" (acanthus capitals confirmed on the contact sheet).
+- Pick 5: "A marble-paved street of Ephesus" -> "A walkway past a row of columns and fields of fallen marble, Ephesus". The contact sheet shows a plank boardwalk, not marble paving.
+- Pick 6: "Fallen column drums" -> "Fallen column drums, Ephesus".
+- Pick 7: "Ruined walls and an arch (verify)" -> "Stone walls and a ruined arch in the upper city of Ephesus" (general; the arch may be the Pollio Fountain's, unconfirmed).
+- Pick 8: "The Byzantine castle on Pigeon Island, Kuşadası" -> "The floodlit fortress on Pigeon Island, Kuşadası, at dawn". Taken 7:41 AM Turkish time, before sunrise (about 7:55 AM); "Byzantine" dropped because the fortress's present walls are largely Ottoman-era rebuilding and its origin is uncertain to me.
+
+## Image Suggestions (Wikimedia Commons, not downloaded)
+
+- The Library of Celsus façade and the Great Theater: we have no clear photo of either (the Ch 9 "rows of seats" photo is the Odeon). Both are the chapter's centerpieces; a Commons image of each would help.
+- Optional: the "Great Artemis" or "Beautiful Artemis" statue in the Ephesus Museum, and the single column of the Temple of Artemis.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- Chapter 2's Learning for All route table says the library was "a son's gift of 12,000 scrolls." The 12,000 figure is a modern estimate from the niches, not an ancient number, and the gift was the building plus an endowment for books. This chapter says so; the Chapter 2 wording could add "about" or "room for."
+
+## Notes for the Author
+
+- Fountain of Trajan and Memmius Monument identifications (picks 2 and 3) are confident but worth a glance at the full photos.
+- The Doric colonnade along the west side of Marble Street (Neronian stoa) is from memory; it is used in the Doric section and Marble Street.
+- The Basilica Stoa's Ionic capitals with bulls' heads, the Salutaris details (104 CE, about thirty statues, more than 500 lines, procession "about every two weeks" per G. M. Rogers), and the inscription naming a Demetrius among the temple officials are from memory.
+- The Socrates fresco in the terrace houses (labeled in Greek) is from memory; the chapter does not say where it is displayed now.
+- Şirince: the Greek name Kirkintze, the 1926 renaming to Şirince, the refugee village of Nea Efesos in Pieria, and the resettlement by Muslims from northern Greece are from memory. The "ugly name to keep outsiders away" story is presented as a legend.
+- Greece's September 14 remembrance day (law of 1998) and İzmir's September 9 liberation day are from memory.
+- Lausanne Article 12 (three-mile rule for islands near the Asian coast) and Samos's status (autonomous principality from the 1830s, union with Greece 1912) are from memory.
+- Carnegie figures (more than 2,500 libraries, about 1,700 in the United States, 1883–1929, upkeep pledge of about a tenth of the gift a year) and Aquila's 25,000 denarii are standard figures, not re-verified this session.
+- Viking's included Ephesus tour route (upper gate down to the lower gate) is stated as "usually"; check the shore-excursion description.
+- The Ephesus Museum highlights list (Eros on a dolphin, gladiator room) reflects the museum as I know it; the displays may have changed.
+
+## Files Created/Updated
+
+- docs/chapters/10-ephesus-greco-roman-city/index.md
+- docs/chapters/10-ephesus-greco-roman-city/img/ (8 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (pronounce button for Curetes only)
+- data/photo-picks.csv (8 captions, 8 web paths), data/pronunciations.csv (6 rows), docs/appendices/pronunciation-guide.md, docs/audio/{curetes,vitruvius,prytaneion,theotokos,sirince,ayasuluk}.mp3
+- logs/ch-10-content-generation.md, this log
+
+# Chapter 11 Session: 11-paul-ideas-leadership
+
+**Skill Version:** 1.11
+**Execution Mode:** Single chapter (deep dive)
+
+## Timing
+
+| Metric | Value |
+|--------|-------|
+| Start Time | 2026-11-24 18:19:53 |
+| End Time | 2026-11-24 18:39:30 |
+
+## Setup Checks
+
+- **Edge direction and chapter order:** every concept follows its in-chapter prerequisites: Council of Jerusalem before Essential Versus Inherited; Grace and Faith before Augustine before Protestant Reformation before Individual Conscience; Neither Jew Nor Greek before Idea of Human Equality and Compelling Inclusive Vision; One Body Many Parts before Systems Thinking; Paul's Contested Legacy before Christian Anti-Judaism before Who Is Hurt by Change; Change Leadership before Legacy Institution before Direct Instruction before AI-Native School; Paul as Change Case Study before all its dependents; Insider Change Leader before Veteran Teacher Champions; Essential Versus Inherited before Grammar of Schooling before Seat Time and Carnegie Unit; Lecture to Dialogue before Teacher as Coach; Diffusion of Innovation and Hub and Spoke Diffusion before Pilot School as Hub; Building a Team before Guiding Coalition; Tentmaking before Sustainable Funding; Systems Thinking before School as a System before Anchoring; Implementation Dip before Change Fatigue; Succession Planning before Anchoring Change in Culture before New Model Becomes Legacy before Limits of the Paul Parallel before Leadership Reflection.
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **AI-Native Schools chapters opened before citing:** 01, 03, 11, 15, 16, 17, 18, 19, 20 (titles copied exactly; claims checked against their text: Rogers' categories and percentages, opinion leaders, beachhead; Fullan's implementation dip with the 70/63/78 illustrative series; Kotter's guiding coalition and anchoring, Senge's shared vision, Bridges' endings and losses; Tyack and Tobin's grammar of schooling, change fatigue, the two rollout loops; teacher champions, pilot classrooms, fear of job loss; the AI-native school and teacher as coach; the 250-to-150-minute compressed morning; the 13-of-28 class; the Carnegie unit). "Succession planning" and "sustainable funding" are not attributed to that book, since it does not treat them.
+- **MicroSim reuse search:** available. Timeline `generate` (0.427); sorter `generate` (0.545); causal-loop `template` (0.616, systems-thinking/cld-creation-workflow, recorded as a Template line). 0 reused, 1 from template, 2 newly specified. Note: *AI-Native Schools* Chapter 18 has a local sim `reinforcing-or-balancing` with the same counting-rule design; this chapter's loop spec reuses its two rollout loops (credited in Provenance) and adds four loops from Paul's world and change fatigue.
+- **Coverage split honored:** Paul's life, letters, team, hub worked example, and Miletus (Chapter 9) and the riot narrative (Chapter 10) are referenced, not retold. Promises kept from Chapter 9 (the Jerusalem meeting, tentmaking, anti-Judaism, one body and love, faith not works) and Chapter 10 (the riot as economics of resistance).
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 11. Paul at Ephesus, Part 2 | 1 / 16 / 26 | 7,620–12,350 | ~13,080 (brief's counter; includes tables, lists, admonitions, Key Takeaways) | ~3,430 | 43/43 |
+
+Tier A (1): Change Leadership. Tier B (16): Paul as Change Case Study, Legacy Institution, Direct Instruction, Paul's Contested Legacy, AI-Native School, One Body Many Parts, Systems Thinking, Grace and Faith, Diffusion of Innovation, School as a System, Succession Planning, Christian Anti-Judaism, Anchoring Change in Culture, Council of Jerusalem, New Model Becomes Legacy, Who Is Hurt by Change. Tier C (26): the rest.
+
+About 6% above the top of the budget, in line with Chapters 9 (~19,040) and 10 (~13,340). The excess is mostly tables and short lists added to keep runs of prose to four paragraphs or fewer, and the two-subject structure (theology, then leadership) needs bridging prose.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 11 | 17 (plus 3 inside specs) | 3 | 12 (welcome 1, thinking 3, tip 2, warning 3, encourage 2, celebration 1) | how-pauls-words-traveled (vis-timeline, Analyze/organize); essential-or-inherited-school-practices (p5.js, Evaluate/judge); loops-ephesus-to-staff-room (vis-network causal-loop, Analyze/differentiate) |
+
+Tables: Acts 15 vs Galatians 2; four readings of faith and works; Livy's body vs Paul's; the chain of readers of Romans; six contested lines; the teaching of contempt; three changes on our route; two legacy institutions; the compressed-morning minutes; Paul-to-school map with AI-Native Schools chapters; adopter groups for 60 teachers; two rollout loops; one change through six parts of a school; single-point-of-failure test; Paul's anchors; three generations of school reform; "who is hurt" inventory. Lists include Paul's Abraham argument, Pelagius vs Augustine, Paul's uses of conscience, Galatians 3:28's three divisions, champion needs, pilot elements, letter strengths and limits, Paul's team, funding sources, teacher roles, limits of the parallel, and the three reflection questions.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (exit 0).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits).
+- Specification self-check: six header lines (plus one Template line), no indented lines, no layout, pixel, color, or Implementation lines; counts match Content (12 events, 4/2/3/3; 12 cards, 6/6 with trap pair 5 and 11; 6 loops, 4 reinforcing and 2 balancing) and Chapter Anchors match the prose. The loop spec sits after the Change Fatigue section so every term it uses is defined above it.
+- No more than 4 consecutive prose paragraphs without a non-text element (checked by script; five runs of 5 fixed with lists or merges).
+- No TODO and no "(verify)"; all 43 concepts appear in bold (three with small wording variants: "love as the greatest virtue," "Paul as a change case study," and "seat time" plus "Carnegie unit" bolded separately).
+- `scripts/pronunciations.py`: 5 new terms with audio (Chrysostom, Pelagius, Menenius Agrippa, agapē, Nostra Aetate); all 5 buttons landed in Chapter 11; check OK. The uncommitted Antikythera row was temporarily removed for `all` (the script would have put its button in Chapter 20's Summary, a stub), then restored byte-for-byte in place, and `appendix` and `check` rerun with it (92 terms; Antikythera has audio and no chapter button).
+
+## Caption Changes
+
+- Pick 1 (IMG_0831): "Standing columns at Ephesus (verify)" -> "Standing columns in the upper city of Ephesus". General caption: the contact sheet is too small to name the building or confirm the order; the time (08:34 Athens, before the Memmius Monument photo) puts it in the upper city.
+- Pick 2 (IMG_0846): "A ruined arch at Ephesus (verify)" -> "A lone arch above fallen blocks in the upper city of Ephesus". It is the same arch as Chapter 10's pick 7 (IMG_0845) from a closer angle, so the caption stays general and the photo is used for a different passage (legacy institutions).
+- Pick 3 (IMG_0932): "A stone pine above the ruins" -> "A stone pine above the ruins of Ephesus".
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Chapter 9's and Chapter 10's forward references to Chapter 11 are all honored.
+
+## Notes for the Author
+
+- Listen to the new recordings, especially agapē (TTS may read it as English "agape," mouth open), Chrysostom, and Nostra Aetate; regenerate with the phonetic fallback if needed.
+- From memory, worth checking: Jefferson's 1820 letter calling Paul the first corrupter of Jesus' teaching; the 1807 *Slave Bible* omitting Galatians 3:28 (as widely reported in 2018); Ignatius naming Onesimus as bishop of Ephesus about 110 CE; Pliny's letter 10.96 (about 112 CE) on temples and sacrificial meat; the Kairos Document (1985) on Romans 13; the councils of 416 and 418 against Pelagius; the ELCA's 1994 repudiation of Luther's anti-Jewish writings; Methodists joining the Joint Declaration (2006); Quincy Grammar School (1848) as the first age-graded school; US public schools at about 50 million students and more than 3 million teachers.
+- Augustine's "witness" doctrine is dated "early 5th century"; it appears in several works, notably *City of God* Book 18.
+- Acts 21:1 (Miletus to Cos, Rhodes, Patara) is paraphrased, not quoted.
+- Scripture quotations follow the NRSV wording and are kept under 15 words each; Galatians 3:28 is quoted in part and paraphrased.
+- The causal loops for the Ephesus silversmiths and for Corinth are illustrative simplifications, labeled so in the spec.
+
+## Files Created/Updated
+
+- docs/chapters/11-paul-ideas-leadership/index.md
+- docs/chapters/11-paul-ideas-leadership/img/ (3 exported JPEGs)
+- data/photo-picks.csv (3 captions, 3 web paths), data/pronunciations.csv (5 rows), docs/appendices/pronunciation-guide.md, docs/audio/{chrysostom,pelagius,menenius-agrippa,agape,nostra-aetate}.mp3
+- logs/ch-11-content-generation.md, this log

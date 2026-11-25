@@ -685,7 +685,7 @@ The table below previews where each Learning for All story falls on our route. E
 |---|---|---|
 | 3–5 | Istanbul | Endowed mosque schools, the late arrival of printing, and the 1928 alphabet reform |
 | 6 | Troy | Homer memorized for generations, then written in the new alphabet |
-| 7 | Ephesus | The Library of Celsus, a son's gift of 12,000 scrolls to his city |
+| 7 | Ephesus | The Library of Celsus, a son's gift to his city of a library often said to have held about 12,000 scrolls |
 | 8 | Rhodes | A famous school of rhetoric, and the deported Jewish children of 1944 |
 | 9 | Crete | Linear B lost with the palaces, deciphered by an outsider; Cretan scholars and cheap printed classics |
 | 10–11 | Athens | Socrates teaching free in the Agora; a democracy that left most people out |
