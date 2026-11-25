@@ -1,7 +1,7 @@
 ---
 title: The Oracle and the Algorithm, Side by Side
 description: Hover over and click six paired scenes to compare how the Delphic oracle and a modern predictive model answer questions, then test yourself in Quiz mode.
-status: built
+status: approved
 image: /posters/oracle-vs-algorithm/oracle-vs-algorithm-card.png
 og:image: /posters/oracle-vs-algorithm/oracle-vs-algorithm-card.png
 twitter:image: /posters/oracle-vs-algorithm/oracle-vs-algorithm-card.png

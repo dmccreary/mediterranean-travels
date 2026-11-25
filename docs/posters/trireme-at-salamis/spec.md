@@ -135,7 +135,7 @@ rowers and about 30 others, so those stay.
 | `data.json` | Draft: 8 call-outs, estimated positions from the prompt. Calibrate with `?edit=true` after the image exists. |
 | `trireme-at-salamis.png` | Not generated. |
 | `main.html`, `index.md`, `metadata.json` | Not created. |
-| Call-out library | `diagram.js` and `style.css` are **not yet in** `docs/sims/shared-libs/`. At build time install them from `~/.claude/skills/microsim-generator/assets/infographic-overlay/shared-libs`. |
+| Call-out library | Installed: `diagram.js` and `style.css` are in `docs/sims/shared-libs/`. The page loads them from `../../sims/shared-libs/`. |
 
 ## Next Steps
 

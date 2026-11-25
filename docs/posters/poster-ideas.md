@@ -74,11 +74,11 @@ files are not published on the site, so they are named, not linked.
 | 14 | A Trireme at Salamis | Call-out | [Spec ready](trireme-at-salamis/spec.md) |
 | 15 | The Antikythera Mechanism, Opened Up | Call-out | [Spec ready](antikythera-opened/spec.md) |
 
-The seven call-out posters need the call-out library (`diagram.js` and
-`style.css`), which is not yet in `docs/sims/shared-libs/`. It is installed from
-the microsim-generator skill's assets when the first call-out image exists. The
-call-out engine builds its quiz from each marker's hint, so those posters keep
-their drafted quiz questions in `spec.md`.
+The seven call-out posters use the call-out library (`diagram.js` and
+`style.css`), which is installed in `docs/sims/shared-libs/` beside the grid
+library. A poster page loads it from `../../sims/shared-libs/`. The call-out
+engine builds its quiz from each marker's hint, so those posters keep their
+drafted quiz questions in `spec.md`.
 
 ## Side-by-Side Comparisons
 

@@ -133,7 +133,7 @@ the author's review and for any companion page.
 | `image-prompt.md` | Drafted. Ready for author review before any image is generated. |
 | `data.json` | Drafted. Nine markers, estimated positions, to be calibrated with `?edit=true`. |
 | `library-of-celsus.png` | Not generated. |
-| `main.html`, `index.md`, `metadata.json` | Not created. At build time, install the call-out library (`diagram.js`, `style.css`) into `docs/sims/shared-libs/` from `~/.claude/skills/microsim-generator/assets/infographic-overlay/shared-libs`; it is not there yet. |
+| `main.html`, `index.md`, `metadata.json` | Not created. The call-out library (`diagram.js`, `style.css`) is already installed in `docs/sims/shared-libs/`; the page loads it from `../../sims/shared-libs/`. |
 
 ## Next Steps
 
