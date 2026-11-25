@@ -52,7 +52,7 @@ Learning for All.
 
 ## Where Each Idea Stands
 
-"Built" means the poster page is live. Every poster also has a `spec.md`, an
+"Built" means the poster page is live. "Idea only" means the entry below is written but there is no spec yet. Every built poster also has a `spec.md`, an
 `image-prompt.md`, and a `data.json` in its folder. The `image-prompt.md` files
 are not published on the site.
 
@@ -73,6 +73,10 @@ are not published on the site.
 | 13 | Walk Down the Hippodrome | Call-out | [Built](hippodrome-walk/index.md) |
 | 14 | A Trireme at Salamis | Call-out | [Built](trireme-at-salamis/index.md) |
 | 15 | The Antikythera Mechanism, Opened Up | Call-out | [Built](antikythera-opened/index.md) |
+| 16 | Topkapı Palace: Four Courts, Four Gates | Call-out | Idea only |
+| 17 | The Ancient Agora of Athens, in One View | Call-out | Idea only |
+| 18 | Venetian Candia from Above | Call-out | Idea only |
+| 19 | Knossos: What Survives and What Evans Rebuilt | Grid | Idea only |
 
 The seven call-out posters use the call-out library (`diagram.js` and
 `style.css`), which is installed in `docs/sims/shared-libs/` beside the grid
@@ -366,17 +370,99 @@ idea 1. The *antikythera-gears* sim already covers the gears. The poster's
 job is orientation: what the object looked like and which parts are certain.
 Verify the number of fragments, the date range, and the dials.
 
-## Other Candidates (Not Yet Developed)
+### 16. Topkapı Palace: Four Courts, Four Gates
 
-- **Topkapı Palace plan**: the four courtyards as an annotated plan, in the
-  order we walk them.
-- **Agora of Athens**: the stoa, the temple of Hephaestus, the council house,
-  and the Areopagus hill, as one oblique view.
-- **Venetian Candia**: a bird's-eye view of the walls and bastions, with the
-  Morosini fountain and the Koules fortress.
-- **Knossos: What Survives and What Evans Rebuilt**: the throne room, drawn
-  twice. This overlaps the *knossos-minoan-or-evans* sim, so build it only if
-  the sim's quiz does not already cover the idea well.
+| | |
+|---|---|
+| **Chapter** | [Chapter 5](../chapters/05-ottoman-istanbul/index.md) |
+| **Engine** | Call-out on an oblique cutaway plan |
+| **The picture** | The palace seen from above and a little to one side, with its roofs lifted, as a sequence of four courtyards stepping up from the Imperial Gate to the garden pavilions over the water. |
+
+**Call-outs**, in the order we walk them: the Imperial Gate (1478), the First
+Court, the Gate of Salutation, the Second Court with the Council Hall and the
+kitchens, the Harem entrance, the Gate of Felicity, the Third Court with the
+Audience Chamber, the Treasury and the Sacred Relics, and the Fourth Court.
+Each gate says who may pass it, which is the idea the chapter builds its
+walking tour on.
+
+**Sample quiz question:** "Which gate admitted officials on business, on foot?"
+
+**Watch-outs.** The chapter gives the order of the courts and what each holds,
+not distances or a plan, so the geometry is illustrative and the spec must say
+so. Photography is not allowed in some rooms, and the Relics Chamber is
+devotional, so keep the zone text respectful and practical. Ties to Chapter 6's
+"five gates on one book" in the Learning for All thread: who held each gate.
+
+### 17. The Ancient Agora of Athens, in One View
+
+| | |
+|---|---|
+| **Chapter** | [Chapter 16](../chapters/16-athens-agora-democracy/index.md) |
+| **Engine** | Call-out on an oblique view |
+| **The picture** | The open square northwest of the Acropolis, drawn once as it looks today: a few standing buildings among many low foundations, with the Acropolis behind and the Areopagus rock beside it. |
+
+**Call-outs:** the Stoa of Attalos (a king's gift, rebuilt by Americans), the
+Temple of Hephaestus, the line of foundations on the west side where the
+democracy kept its offices, the Painted Stoa where the Stoics met, the
+Areopagus rock, and the Acropolis above. Each says what is ancient, what was
+rebuilt, and what is only a foundation.
+
+**Sample quiz question:** "Which building has three dates in its story: a king's
+gift, a ruin, and a modern reconstruction?"
+
+**Watch-outs.** Most of what stands in the Agora is foundation, which a picture
+tends to make too tidy, so the image must keep the gaps. The chapters do not
+describe a council house or the position of the Painted Stoa in detail, so
+those call-outs need a check before any text is written. Overlaps in subject
+with the *athens-who-could-vote* sim, but this poster is about place, not
+citizenship.
+
+### 18. Venetian Candia from Above
+
+| | |
+|---|---|
+| **Chapter** | [Chapter 14](../chapters/14-venetian-heraklion/index.md) |
+| **Engine** | Call-out on a bird's-eye view |
+| **The picture** | The old town of Heraklion from above, with the sea wall, the harbor and its fortress, the circuit of Venetian walls and bastions, and the old square, drawn with the clarity of a map and the warmth of an illustration. |
+
+**Call-outs:** the Koules fortress at the harbor, the Venetian walls and a
+bastion, Lions Square and the Morosini Fountain (1628), the Church of Agios
+Titos, the Loggia, and the harbor. The chapter's own habit of reading the town
+as layers gives the thread: Arabs, then Venetians (1211 to 1669), then
+Ottomans, with the walls following a line first set by the Arab-dug moat.
+
+**Sample quiz question:** "Which feature follows a line set before the Venetians
+arrived?"
+
+**Watch-outs.** The existing *walking-venetian-candia-map* sim already asks the
+reader to find eight landmarks on an unlabeled street map. This poster should
+add what the sim cannot: the walls as a layered whole, in a view a visitor can
+hold in their head. Check whether the chapter places the Martinengo Bastion and
+the Kazantzakis tomb before adding them.
+
+### 19. Knossos: What Survives and What Evans Rebuilt
+
+| | |
+|---|---|
+| **Chapter** | [Chapter 13](../chapters/13-knossos-minoans-linear-b/index.md) |
+| **Engine** | Grid, two panels |
+| **The picture** | The throne room and its surroundings drawn twice: on the left, only what the chapter says is ancient, and on the right, as a visitor sees it today, with Evans's reconstructions and the copied paintings. |
+
+**Zones:** one per panel, each listing the features it shows. The right zone
+carries the chapter's caution that Arthur Evans (1851 to 1941), who excavated
+from 1900, rebuilt much of what we see, and that the reconstructions are
+debated.
+
+**Sample quiz question:** "Which panel shows the red columns?"
+
+**Watch-outs.** Lowest priority of the four. The *knossos-minoan-or-evans* sim
+already sorts ten features into Minoan originals, Evans's reconstructions, and
+modern copies, so a poster should be built only if the author wants the
+comparison as a picture. The chapters do not describe the site as found in
+1900, so the left panel would rest on the chapter's list of what is ancient and
+must be marked as a reconstruction of the evidence, not a photograph of the
+dig. Keep Evans's work neutral: the point is to read the layers, not to judge
+him.
 
 ## Suggested Build Order
 
