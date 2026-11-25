@@ -194,6 +194,10 @@ The map below follows the war from Sardis to Mycale and asks us to predict, at f
 
 #### Diagram: Xerxes' Road to Salamis
 
+<iframe src="../../sims/persian-wars-campaign-map/main.html" height="748px" width="100%" scrolling="no"></iframe>
+
+[Run the Xerxes' Road to Salamis MicroSim Fullscreen](../../sims/persian-wars-campaign-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Xerxes' Road to Salamis</summary>
 Type: map
@@ -404,6 +408,10 @@ The timeline below sets the Parthenon's lives in order and asks us to place twel
 
 #### Diagram: The Parthenon's Five Lives
 
+<iframe src="../../sims/parthenon-five-lives-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Parthenon's Five Lives MicroSim Fullscreen](../../sims/parthenon-five-lives-timeline/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>The Parthenon's Five Lives</summary>
 Type: timeline
@@ -501,6 +509,10 @@ The positions have moved over time. Greece's campaign for return was launched by
 The MicroSim below practices the skill this dispute demands: telling an agreed fact from a position.
 
 #### Diagram: Agreed Fact or Position?
+
+<iframe src="../../sims/parthenon-marbles-fact-or-position/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Agreed Fact or Position? MicroSim Fullscreen](../../sims/parthenon-marbles-fact-or-position/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Agreed Fact or Position?</summary>
