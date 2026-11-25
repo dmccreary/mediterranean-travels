@@ -387,6 +387,10 @@ The timeline below lets us practice reading these overlapping rulers, because th
 
 #### Diagram: Rhodes Changes Hands, 1912–1948
 
+<iframe src="../../sims/rhodes-changes-hands-1912-1948/main.html" height="772px" width="100%" scrolling="no"></iframe>
+
+[Run the Rhodes Changes Hands, 1912–1948 MicroSim Fullscreen](../../sims/rhodes-changes-hands-1912-1948/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Rhodes Changes Hands, 1912–1948</summary>
 Type: timeline
@@ -471,6 +475,10 @@ Questions, in this fixed order:
 The MicroSim below gathers the whole day's layers into one exercise: for each building, decide which power built what we actually see.
 
 #### Diagram: Who Built What We See in the Old Town?
+
+<iframe src="../../sims/rhodes-old-town-layers-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Who Built What We See in the Old Town? MicroSim Fullscreen](../../sims/rhodes-old-town-layers-sorter/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Who Built What We See in the Old Town?</summary>
@@ -574,6 +582,10 @@ The European Union sets the grades, by laboratory tests and by a trained tasting
 The MicroSim below gives practice with nine labels like these.
 
 #### Diagram: Read the Olive Oil Label
+
+<iframe src="../../sims/read-the-olive-oil-label/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Read the Olive Oil Label MicroSim Fullscreen](../../sims/read-the-olive-oil-label/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Read the Olive Oil Label</summary>

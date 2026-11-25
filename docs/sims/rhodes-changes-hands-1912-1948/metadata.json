@@ -1,42 +1,70 @@
 {
-  "title": "Rhodes Changes Hands, 1912\u20131948",
+  "title": "Rhodes Changes Hands, 1912–1948",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for rhodes changes hands, 1912\u20131948",
-  "date": "2026-11-24",
+  "description": "A two-row vis-timeline of the powers that governed Rhodes from 1910 to 1949 (Ottoman Empire, Italy, Germany, Britain, Greece) and thirteen events, with five questions on which power governed the island at each turning point.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Rhodes Changes Hands, 1912\u20131948",
+    "topic": "Rhodes Changes Hands, 1912–1948",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Interpret a timeline of the powers that governed Rhodes from 1912 to 1948 to answer which power governed the island at a given date and what followed from it, answering at least 4 of 5 questions correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Understand",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Ottoman Rhodes",
+      "Italian rule of Rhodes",
+      "World War II",
+      "The Rhodes deportation of 1944",
+      "Dodecanese union with Greece",
+      "The 1923 population exchange (Chapter 7)"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-timeline",
-    "version": "1.0",
+    "version": "7.7.3",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 768
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-timeline 7.7.3 via jsDelivr"
+    ],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Timeline exploration of rule spans and events, followed by five locked-in questions with immediate feedback and highlighting",
+    "keyQuestions": [
+      "Rhodes changed rulers four times in 35 years. Who was in charge when it mattered?",
+      "Which power governed Rhodes on a given date?",
+      "Why were Athens and Rhodes on opposite sides of the war until 1945?"
+    ],
+    "commonMisconceptions": [
+      "Rhodes became Greek when Greece became independent, or after World War I.",
+      "Rhodes was occupied by the Axis like Athens, rather than being Axis territory itself.",
+      "The deportation of the Jews of Rhodes happened under Italian rule.",
+      "Rhodes passed straight from Germany to Greece.",
+      "Rhodes was Greek long before World War II."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt score on five questions (mastery: 4 of 5).",
+      "Explain, using events 6, 7, 8 and 10, why October 1944 meant liberation in Athens but not on Rhodes.",
+      "Explain why the 1923 population exchange did not apply to the Muslims of Rhodes."
+    ]
   },
-  "chapter": "12-rhodes"
+  "chapter": "12-rhodes",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/rhodes-changes-hands-1912-1948/"
 }

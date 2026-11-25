@@ -6,15 +6,49 @@
     <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Rhodes Changes Hands, 1912–1948 using vis-timeline</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css">
-    <style>
-        body { margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
-    <script src="rhodes-changes-hands-1912-1948.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Lesson Plan</a>
+<main>
+    <header>
+        <h1>Rhodes Changes Hands, 1912–1948</h1>
+        <span id="score">Correct: 0 of 5</span>
+    </header>
+
+    <div id="prompt">Rhodes changed rulers four times in 35 years. Who was in charge when it mattered?</div>
+
+    <div id="toolbar">
+        <button id="prev-btn" title="Previous event in date order">← Previous event</button>
+        <button id="next-ev-btn" title="Next event in date order">Next event →</button>
+        <button id="full-span" title="Show 1910 to 1949">Full span</button>
+        <button id="close-up" title="Show 1936 to 1949">Close-up: 1936–1949</button>
+        <button id="pan-left" title="Move the view earlier">◀ Earlier</button>
+        <button id="pan-right" title="Move the view later">Later ▶</button>
+    </div>
+
+    <div id="timeline"></div>
+    <div id="legend"></div>
+
+    <div id="lower">
+        <section id="details">
+            <div class="placeholder">
+                <p>The top row shows who governed Rhodes; the bottom row shows thirteen numbered events. Each event’s number is colored by the power that governed Rhodes at that date.</p>
+                <p>Click any event, or press <b>Next event</b> to read them in date order. Events marked with a hollow number happened on the Greek mainland, not on Rhodes.</p>
+            </div>
+        </section>
+        <section id="quiz">
+            <div id="q-count"></div>
+            <div id="q-text"></div>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <div class="row">
+                <button id="next-btn" class="primary">Next question →</button>
+                <button id="restart-btn">Try Again</button>
+            </div>
+        </section>
+    </div>
+</main>
+<script src="rhodes-changes-hands-1912-1948.js"></script>
 </body>
 </html>
