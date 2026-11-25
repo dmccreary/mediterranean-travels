@@ -2,7 +2,7 @@
   "title": "Who Made a Greek Book in Venice?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for who made a greek book in venice?",
+  "description": "Attribute ten contributions to Greek printing in Venice around 1500 to the people who made them, and watch the network of editors, printers, financiers, teachers, and patrons grow.",
   "date": "2026-11-24",
   "educational": {
     "gradeLevel": [
@@ -11,32 +11,64 @@
     "subjectArea": "Social Studies",
     "topic": "Who Made a Greek Book in Venice?",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Attribute ten contributions to Greek and humanist printing in Venice around 1500 to the people who made them, attributing at least 8 of 10 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Aldus Manutius",
+      "Marcus Musurus",
+      "Janus Lascaris",
+      "Andrea Torresani",
+      "Francesco Griffo",
+      "Zacharias Kallierges",
+      "Nikolaos Vlastos",
+      "Erasmus",
+      "Pietro Bembo",
+      "Pope Leo X",
+      "Aldine editions",
+      "Collation and emendation"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "vis-network",
-    "version": "1.0",
+    "version": "9.1.9",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 626
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "vis-network 9.1.9 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Attribution quiz on a growing network (one confirmed link at a time)",
+    "keyQuestions": [
+      "Which jobs did it take to make a printed Greek book?",
+      "Which of those jobs did Aldus himself do?",
+      "Where do the Cretans appear in the network?"
+    ],
+    "commonMisconceptions": [
+      "Aldus did all the work himself, so every contribution belongs to him.",
+      "The editor and the printer were the same person.",
+      "Venice's Greek printing was Italian work, with no Greek or Cretan makers.",
+      "A rival press was an enemy of learning rather than another route to it."
+    ],
+    "assessmentOpportunities": [
+      "First-choice score on ten cards (mastery: 8 of 10).",
+      "How many of the ten were born on Crete (3)."
+    ]
   },
-  "chapter": "14-venetian-heraklion"
+  "chapter": "14-venetian-heraklion",
+  "type": "Interactive Network",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/greek-book-makers-venice-network/"
 }

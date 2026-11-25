@@ -410,7 +410,7 @@ A Greek book in Venice was the work of many hands, not one genius. The interacti
 
 #### Diagram: Who Made a Greek Book in Venice?
 
-<iframe src="../../sims/greek-book-makers-venice-network/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/greek-book-makers-venice-network/main.html" height="630px" width="100%" scrolling="no"></iframe>
 
 [Run the Who Made a Greek Book in Venice? MicroSim Fullscreen](../../sims/greek-book-makers-venice-network/main.html){ .md-button .md-button--primary }
 
