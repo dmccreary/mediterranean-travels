@@ -235,6 +235,10 @@ The MicroSim below lets us practice exactly that: fitting Day 3's visits into th
 
 #### Diagram: Planning Day 3 Around the Prayer Times
 
+<iframe src="../../sims/day-3-prayer-time-planner/main.html" height="578px" width="100%" scrolling="no"></iframe>
+
+[Run the Planning Day 3 Around the Prayer Times MicroSim Fullscreen](../../sims/day-3-prayer-time-planner/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Planning Day 3 Around the Prayer Times</summary>
 Type: microsim
@@ -403,6 +407,10 @@ A **külliye** <audio id="audio-kulliye" src="../../audio/kulliye.mp3" preload="
 The MicroSim below lets us sort the buildings of the Süleymaniye complex by the need each one served.
 
 #### Diagram: What Did the Külliye Do?
+
+<iframe src="../../sims/suleymaniye-kulliye-sorter/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the What Did the Külliye Do? MicroSim Fullscreen](../../sims/suleymaniye-kulliye-sorter/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>What Did the Külliye Do?</summary>
