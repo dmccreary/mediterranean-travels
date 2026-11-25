@@ -7,7 +7,7 @@ og:image: /sims/paul-journeys-and-our-route/paul-journeys-and-our-route.png
 twitter:image: /sims/paul-journeys-and-our-route/paul-journeys-and-our-route.png
 social:
    cards: false
-quality_score: 0
+quality_score: 100
 ---
 
 # Paul's Journeys and Our Route
