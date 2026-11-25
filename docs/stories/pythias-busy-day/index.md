@@ -87,7 +87,7 @@ Keep every character and place consistent with the other images in this story. G
 A farmer from Attica has walked for a week to reach this slope, and now he stands looking up at the temple he has heard about all his life. He carries a purse of small silver coins and exactly one question. The Greeks believed that on the right day, in the right place, a god might answer a human being, and this is that place. Nothing about the climb is certain except the weather.
 
 ## Panel 2: The God's Calendar
-<!-- ![The farmer talks with a Delphian host in a village courtyard while snow still lies on the peaks above and ivy-wreathed torches are stacked in a corner](./panel-02.png) -->
+![The farmer talks with a Delphian host in a village courtyard while snow still lies on the peaks above and ivy-wreathed torches are stacked in a corner](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -100,7 +100,7 @@ Apollo does not answer every day. In the early centuries the god spoke only once
 > **Myth or Evidence?** The belief that Apollo spent the winter with the Hyperboreans, a happy people "beyond the north wind," while Dionysus held the sanctuary, is reported by Plutarch, who served as a priest at Delphi. Ancient writers did say the oracle gave no answers in the winter months, but Greek months were lunar and varied from city to city, so no one can convert a modern date exactly. A visitor on a November day would very probably have found the god away and the Pythia silent.
 
 ## Panel 3: Cold Water at the Castalian Spring
-<!-- ![The farmer splashes cold spring water on his face and hair at a stone fountain house beneath two gleaming cliffs](./panel-03.png) -->
+![The farmer splashes cold spring water on his face and hair at a stone fountain house beneath two gleaming cliffs](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -111,7 +111,7 @@ Keep every character and place consistent with the other images in this story. G
 Nobody approaches Apollo unwashed. The farmer's first stop is the Castalian Spring, where cold water pours from the gorge between two great cliffs. A splash on the hands and hair is the first step of every visit, whether the visitor is a farmer or a king's envoy. Today the water is cold enough to make him gasp, and the line behind him does not mind.
 
 ## Panel 4: The Pythia's Morning
-<!-- ![The Pythia purifies herself at dawn beside the spring while a bowl of laurel leaves smokes beside her](./panel-04.png) -->
+![The Pythia purifies herself at dawn beside the spring while a bowl of laurel leaves smokes beside her](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -203,7 +203,7 @@ Keep every character and place consistent with the other images in this story. G
 Croesus takes the answer as a promise of victory. He gathers an army, crosses the Halys River into Persian territory, and fights an indecisive battle. Then he goes home, and the Persian king Cyrus follows him. The god's words said that he would destroy a great empire. They did not say which one.
 
 ## Panel 12: The Empire That Fell
-<!-- ![Croesus stands alone, seen from behind, on a ruined rampart as smoke rises from Sardis and Persian banners fill the plain below](./panel-12.png) -->
+![Croesus stands alone, seen from behind, on a ruined rampart as smoke rises from Sardis and Persian banners fill the plain below](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -227,7 +227,7 @@ Keep every character and place consistent with the other images in this story. G
 Ancient writers say something rose from the ground at Delphi. The geographer Strabo describes a cave under the temple, from which a breath rose that filled the Pythia with the god. Plutarch, who served there, mentions a sweet smell like perfume that sometimes filled the room where consultants waited, and wondered whether the oracle's decline came from the vapor growing weaker. French archaeologists who cleared the temple in the 1890s found no chasm beneath the inner chamber, and for most of the twentieth century scholars treated the vapor as a myth.
 
 ## Panel 14: Two Faults Under the Temple
-<!-- ![Two scientists in field clothes, seen from behind, crouch at a fractured rock face below the ruined Temple of Apollo with notebooks and sample bottles](./panel-14.png) -->
+![Two scientists in field clothes, seen from behind, crouch at a fractured rock face below the ruined Temple of Apollo with notebooks and sample bottles](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -240,7 +240,7 @@ Then, in the 1990s, a geologist and an archaeologist went back and looked at the
 > **Myth or Evidence?** Three things are sorted by how firm they are. Ancient writers did report a vapor: certain, because they reported it. The faults are real: widely accepted. Whether a trance-causing gas escaped there: debated. The theory has been widely reported and seriously criticized, and the oracle's practical answers, recorded in inscriptions, do not need a drug to explain them. This one is still open.
 
 ## Panel 15: The Question on the Table
-<!-- ![On a cafe terrace in modern Delphi village, a person seen from behind types a question into a tablet beside a cup of coffee, with the olive plain below](./panel-15.png) -->
+![On a cafe terrace in modern Delphi village, a person seen from behind types a question into a tablet beside a cup of coffee, with the olive plain below](./panel-15.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 15. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -251,7 +251,7 @@ Keep every character and place consistent with the other images in this story. G
 Today the people who climb to Delphi carry their questions in their pockets. A traveler on a cafe terrace asks a chatbot whether to go on to the next town or turn back before dark, and receives a fluent, confident answer. Like the Pythia's answers, it may be hedged, built from many voices, and silent about how it could be wrong. The old habits still apply: ask the question you really mean, ask how the answer could fail, bring in other evidence, and own the decision yourself.
 
 ## Panel 16: Then and Now: The Sacred Way Today
-<!-- ![Two travelers seen from behind stand on the Sacred Way looking up to the ruined Temple of Apollo and the cliffs of Parnassus](./panel-16.png) -->
+![Two travelers seen from behind stand on the Sacred Way looking up to the ruined Temple of Apollo and the cliffs of Parnassus](./panel-16.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 16. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

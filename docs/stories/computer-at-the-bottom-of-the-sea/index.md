@@ -317,7 +317,7 @@ Nobody signed the mechanism, and no ancient writer mentions this particular mach
 > **Myth or Evidence?** Documented: Cicero describes geared models of the heavens made by Archimedes and by Posidonius, so the tradition is real, and Hipparchus observed on Rhodes. Inference: a Rhodian workshop fits the lunar theory, the latitude and the cargo, but no inscription names the maker. Open: the Metonic dial uses month names from a different region, which is why researchers still debate where it was built and for whom.
 
 ## Panel 14: Look Closer
-<!-- ![Two travelers seen from behind standing before a lit glass case holding the corroded fragments in a museum gallery](./panel-14.png) -->
+![Two travelers seen from behind standing before a lit glass case holding the corroded fragments in a museum gallery](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

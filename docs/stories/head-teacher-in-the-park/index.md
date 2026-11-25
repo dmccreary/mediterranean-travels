@@ -122,7 +122,7 @@ Keep every character and place consistent with the other images in this story. G
 On the evening of August 9, 1928, there is a party in Gülhane Park, at Sarayburnu below the walls of Topkapı. Mustafa Kemal, the founder and president of the new Republic, stands up and announces that the Turkish nation will write with new letters. A commission of scholars and writers has been preparing the alphabet over the summer, and now it goes public. The guests do not yet know they are about to become students.
 
 ## Panel 4: Chalk in the Park
-<!-- ![A man in a dark suit chalks letters on a portable blackboard before a crowd on the lawn](./panel-04.png) -->
+![A man in a dark suit chalks letters on a portable blackboard before a crowd on the lawn](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -135,7 +135,7 @@ Keep every character and place consistent with the other images in this story. G
 In the tellings and photographs that survive, a blackboard appears, and Mustafa Kemal picks up the chalk. He writes the new letters one by one and explains them like a teacher at a school desk rather than a head of state at a podium. The alphabet has 29 letters, one letter for each sound, and every letter is always pronounced the same way. That is why it can be learned in weeks, not years.
 
 ## Panel 5: Head Teacher on Tour
-<!-- ![A man in a dark suit teaches letters at a blackboard in a provincial town square](./panel-05.png) -->
+![A man in a dark suit teaches letters at a blackboard in a provincial town square](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

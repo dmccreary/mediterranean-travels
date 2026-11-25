@@ -10,7 +10,7 @@ social:
 
 # The Sultan's Sweet Tooth
 
-<!-- ![A brass scale, a box of Turkish delight and a twist of saffron on a spice-bazaar counter, with the vaulted hall behind](./cover.png) -->
+![A brass scale, a box of Turkish delight and a twist of saffron on a spice-bazaar counter, with the vaulted hall behind](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -69,7 +69,7 @@ Every traveler who walks the Spice Bazaar leaves with something small in a paper
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: A Market Built for a Mosque
-<!-- ![A stone market with scaffolding rising beside the New Mosque on the Golden Horn in the 1660s](./panel-01.png) -->
+![A stone market with scaffolding rising beside the New Mosque on the Golden Horn in the 1660s](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -83,7 +83,7 @@ Keep every character and place consistent with the other images in this story. G
 In the 1660s Eminönü is a building site. A new mosque is rising by the Golden Horn, and beside it workers raise a long L-shaped market hall. The market is no accident: the rent from its shops will help pay for the mosque's upkeep and charities, a common Ottoman way of funding a public building. Today the market is the Spice Bazaar.
 
 ## Panel 2: The Vaulted Hall Opens
-<!-- ![A spice merchant arranges cones of spices under the domed vault of the new bazaar](./panel-02.png) -->
+![A spice merchant arranges cones of spices under the domed vault of the new bazaar](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -96,7 +96,7 @@ Keep every character and place consistent with the other images in this story. G
 The new hall smells of cumin, mint and cinnamon. Merchants arrange spices in cones, dried fruit in baskets and brass scales on boards, and the first customers wander in. The Turks call this market *Mısır Çarşısı*, "Egyptian Bazaar." The usual explanation links the name to Egypt, either through goods arriving by ship from Cairo or through Egyptian taxes that helped pay for the building, and nobody can say for certain which.
 
 ## Panel 3: Sacks from the Nile
-<!-- ![Porters carry sacks from a merchant ship at the Golden Horn quay toward the bazaar door](./panel-03.png) -->
+![Porters carry sacks from a merchant ship at the Golden Horn quay toward the bazaar door](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -109,7 +109,7 @@ Keep every character and place consistent with the other images in this story. G
 Ships tie up at the quay below the bazaar and porters carry sacks up the slope to its doors. The Ottoman capital sits where spice routes from Egypt, Arabia and farther east meet the markets of Europe, and a hall like this one gathers the goods in one place. Pepper, ginger, cinnamon and dried fruit change hands all day. The bazaar earns its living from keeping goods moving.
 
 ## Panel 4: Green Beans in the Pan
-<!-- ![A coffee seller roasts green beans over charcoal on a lane in sixteenth-century Istanbul](./panel-04.png) -->
+![A coffee seller roasts green beans over charcoal on a lane in sixteenth-century Istanbul](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -122,7 +122,7 @@ Keep every character and place consistent with the other images in this story. G
 Coffee comes to Istanbul in the middle of the 1500s, carried from Arabia as green beans. The traditional account dates the first coffeehouses in the city to the 1550s. A seller roasts the beans in a pan, grinds them in a brass mill and boils the powder in a long-handled copper pot. The smell alone pulls a crowd.
 
 ## Panel 5: The Coffeehouse Talks
-<!-- ![Men on low benches play backgammon and listen to a storyteller in an Ottoman coffeehouse](./panel-05.png) -->
+![Men on low benches play backgammon and listen to a storyteller in an Ottoman coffeehouse](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -135,7 +135,7 @@ Keep every character and place consistent with the other images in this story. G
 Within a generation the coffeehouse is the city's favorite place to talk. Men play backgammon, hear a storyteller, swap news and argue about the government over cups the size of an egg. Because most people cannot read, a room where news and stories pass by word of mouth is, in effect, a public classroom. Rulers notice that people who talk freely about the day's news may also criticize those in power.
 
 ## Panel 6: The Shutters Come Down
-<!-- ![A lane of shuttered coffeehouses while a window upstairs shows a cup steaming](./panel-06.png) -->
+![A lane of shuttered coffeehouses while a window upstairs shows a cup steaming](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -148,7 +148,7 @@ Keep every character and place consistent with the other images in this story. G
 Sultan Murad IV, who rules from 1623 to 1640, sees coffeehouses as places where people plot, and he orders them closed. The shutters go down, but the habit does not: people brew coffee at home, and after his reign the coffeehouses reopen. Coffee wins. A Turkish proverb says that a single cup of coffee commits you to forty years of friendship, and the story of the bans suggests why the cup was so hard to ban.
 
 ## Panel 7: A Shop by the Waterfront
-<!-- ![A confectioner opens his shutters on a shop with trays of sweets near the Golden Horn in 1777](./panel-07.png) -->
+![A confectioner opens his shutters on a shop with trays of sweets near the Golden Horn in 1777](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -161,7 +161,7 @@ Keep every character and place consistent with the other images in this story. G
 In 1777 a confectioner remembered as Hacı Bekir opens a shop in Eminönü, near the waterfront and the Spice Bazaar. He is closely linked with Turkish delight, *lokum*, and is often said to have invented it. Sweets of this kind are older, so it is safer to say he made lokum famous. His family's shop still trades near the bazaar.
 
 ## Panel 8: The Copper Cauldron
-<!-- ![A confectioner stirs a huge copper cauldron of sugar and starch while an apprentice adds rosewater](./panel-08.png) -->
+![A confectioner stirs a huge copper cauldron of sugar and starch while an apprentice adds rosewater](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -174,7 +174,7 @@ Keep every character and place consistent with the other images in this story. G
 The workshop behind the shop is hot and sweet. In a great copper cauldron Hacı Bekir stirs sugar and starch for a long time over a low fire, while his apprentice adds rosewater and nuts go in. The thick mixture is poured out to set. The Turkish word *lokum* comes from the Arabic for "morsels," and the name describes the result: a soft, chewy bite.
 
 ## Panel 9: Cubes in Powdered Sugar
-<!-- ![A counter where cubes of Turkish delight are rolled in powdered sugar and boxed](./panel-09.png) -->
+![A counter where cubes of Turkish delight are rolled in powdered sugar and boxed](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -187,7 +187,7 @@ Keep every character and place consistent with the other images in this story. G
 Once the slab has set, it is cut into cubes and rolled in powdered sugar so the pieces do not stick. Pistachio and rose, hazelnut and lemon go into round wooden boxes tied with string. Visitors taste before they buy, as they still do. A confectioner who can make a soft sweet that travels well has a product that does not need to be explained.
 
 ## Panel 10: Where Saffron Grows
-<!-- ![A woman picks purple autumn crocus flowers at dawn near the old timber houses of Safranbolu](./panel-10.png) -->
+![A woman picks purple autumn crocus flowers at dawn near the old timber houses of Safranbolu](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -200,7 +200,7 @@ Keep every character and place consistent with the other images in this story. G
 Saffron begins as a purple crocus that flowers in autumn. Each flower has only three red threads, called stigmas, and every one is picked by hand, so a single kilogram takes about 150,000 flowers. The Turkish town of Safranbolu is named after the spice, and the name is said to join *safran* with a Greek word for city. A few villages near the town are said to still grow the crop.
 
 ## Panel 11: Worth Its Weight
-<!-- ![A merchant weighs a few saffron threads on a tiny brass scale beside a mountain of cumin](./panel-11.png) -->
+![A merchant weighs a few saffron threads on a tiny brass scale beside a mountain of cumin](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -213,7 +213,7 @@ Keep every character and place consistent with the other images in this story. G
 Back in the bazaar a merchant weighs a few threads on a brass scale no bigger than a hand. Per weight, saffron costs more than almost anything else on the stall, because of those 150,000 flowers per kilogram. A buyer tests the thread in warm water, where real saffron releases its color slowly. Real threads are deep red with lighter tips and shaped like tiny trumpets; big cheap bags are usually safflower petals instead.
 
 ## Panel 12: Then and Now: Leaving the Bazaar
-<!-- ![Two travelers leave the Spice Bazaar beside the New Mosque holding a small box and a twist of saffron](./panel-12.png) -->
+![Two travelers leave the Spice Bazaar beside the New Mosque holding a small box and a twist of saffron](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

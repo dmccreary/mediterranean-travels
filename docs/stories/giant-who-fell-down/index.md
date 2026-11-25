@@ -123,7 +123,7 @@ The city decides to sell the abandoned machines and spend the money on a thank-o
 
 ## Panel 5: Chares of Lindos
 
-<!-- ![The sculptor Chares among clay models of a giant head and hand](./panel-05.png) -->
+![The sculptor Chares among clay models of a giant head and hand](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -147,7 +147,7 @@ Tradition says the builders raised the statue as they went, piling earth into a 
 
 ## Panel 7: The Wonder Is Finished
 
-<!-- ![Citizens look up at the finished gleaming bronze statue of Helios above the white city](./panel-07.png) -->
+![Citizens look up at the finished gleaming bronze statue of Helios above the white city](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

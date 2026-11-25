@@ -10,7 +10,7 @@ social:
 
 # Twenty-One Years of Candia
 
-<!-- ![The bastioned walls of Candia at golden hour with a Venetian commander on the bastion and the harbor behind](./cover.png) -->
+![The bastioned walls of Candia at golden hour with a Venetian commander on the bastion and the harbor behind](./cover.png)
 
 <details>
 <summary>Cover Image Prompt</summary>
@@ -78,7 +78,7 @@ For twenty-one years, from 1648 to 1669, the walled Venetian city of Candia held
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: Venice's Kingdom of Candia
-<!-- ![The walled port of Candia seen from the sea, with the sea fortress and the banner of the winged lion](./panel-01.png) -->
+![The walled port of Candia seen from the sea, with the sea fortress and the banner of the winged lion](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -90,7 +90,7 @@ Keep every character and place consistent with the other images in this story. G
 From 1211 to 1669 the Republic of Venice rules Crete as an overseas colony, the Kingdom of Candia, and the capital, Candia, gives its name to the whole island. Its harbor is guarded by a sea fortress, the Rocca a Mare, built between 1523 and 1540, and its landward side by a ring of low, thick walls with seven arrowhead bastions. Everything in the picture was designed so that no attacker could find a blind spot. In 1645 an Ottoman army lands in the west of the island, and the city's long test begins.
 
 ## Panel 2: The Lions of Lions Square
-<!-- ![Townsfolk gather at a fountain of four stone lions in Candia while a tiny owl watches from the basin](./panel-02.png) -->
+![Townsfolk gather at a fountain of four stone lions in Candia while a tiny owl watches from the basin](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -101,7 +101,7 @@ Keep every character and place consistent with the other images in this story. G
 In Lions Square the city's water comes out of four stone lions. The fountain was built in 1628 by an earlier governor, also named Francesco Morosini, to bring fresh water from Mount Juktas to the city. He is a different man from the commander of 1669, but the two names will cause mix-ups for as long as anyone tells this story. Around the fountain, Greek townspeople and Venetian officials share the same square.
 
 ## Panel 3: A Boy From Candia
-<!-- ![A young painter works on gold-ground icons in a Candia workshop about 1563](./panel-03.png) -->
+![A young painter works on gold-ground icons in a Candia workshop about 1563](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -112,7 +112,7 @@ Keep every character and place consistent with the other images in this story. G
 A century before the siege, a young painter grows up in this city. Domenikos Theotokopoulos, born in Candia in 1541, trains in the Cretan icon workshops, which paint in both a Byzantine and an Italian manner, and is already a master painter at home by 1563. About 1567 he leaves for Venice, and later Rome and Toledo in Spain, where the world will call him El Greco, 'the Greek'. Candia is a city of painters and scholars, and the siege will end that world.
 
 ## Panel 4: The Army Digs In
-<!-- ![Venetian sentries on a bastion look out over Ottoman tents and trench lines](./panel-04.png) -->
+![Venetian sentries on a bastion look out over Ottoman tents and trench lines](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -123,7 +123,7 @@ Keep every character and place consistent with the other images in this story. G
 The war begins in 1645, when an Ottoman army lands in western Crete. Chania falls that year and Rethymno in 1646, and in 1648 the Ottomans dig in before Candia. Within days the plain below the walls is a city of tents and trenches, and it will stay that way for years. The defenders on the bastions look out at it and realize that this will not be a quick war.
 
 ## Panel 5: A War Underground
-<!-- ![Venetian sappers listen at an earth wall in a torchlit countermine tunnel](./panel-05.png) -->
+![Venetian sappers listen at an earth wall in a torchlit countermine tunnel](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -134,7 +134,7 @@ Keep every character and place consistent with the other images in this story. G
 The fighting at the walls is mostly a war of tunnels. Ottoman miners dig under the bastions to blow them up, and Venetian counter-miners dig out to meet them underground, listening through the earth for the sound of a pick. This is why the arrowhead bastions were designed as they were: attackers could not simply walk up, so they spent twenty-one years digging.
 
 ## Panel 6: The Lifeline by Sea
-<!-- ![Supply galleys slip into the harbor of Candia at night beneath the sea fortress](./panel-06.png) -->
+![Supply galleys slip into the harbor of Candia at night beneath the sea fortress](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -145,7 +145,7 @@ Keep every character and place consistent with the other images in this story. G
 For more than twenty years the city holds out because it can be supplied from the sea. Venetian galleys slip in at night with grain, powder and men, while Venetian fleets fight the Ottomans as far away as the Dardanelles to keep the lifeline open. As long as the harbor stays open, the walls can stand.
 
 ## Panel 7: Volunteers From Across Europe
-<!-- ![Volunteer soldiers in plumed hats step off boats onto the quay of Candia](./panel-07.png) -->
+![Volunteer soldiers in plumed hats step off boats onto the quay of Candia](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -156,7 +156,7 @@ Keep every character and place consistent with the other images in this story. G
 Volunteers come from across Christian Europe to help Venice hold the walls, and some stay for months, some for a season, and some for a single bad week. In 1669 a French expedition arrives, and its commander is killed in a failed sortie. Candia becomes a cause as well as a city: a Christian fortress on an island that the Ottomans want.
 
 ## Panel 8: The Vizier Takes Command
-<!-- ![An Ottoman grand vizier stands before a vast crimson tent in the siege camp, with the walls beyond](./panel-08.png) -->
+![An Ottoman grand vizier stands before a vast crimson tent in the siege camp, with the walls beyond](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -167,7 +167,7 @@ Keep every character and place consistent with the other images in this story. G
 In 1667 the grand vizier Köprülü Fazıl Ahmed Pasha takes personal command and presses the siege harder than ever. The years of trenches and tunnels turn into a final, relentless push. By the late summer of 1669 the city is in ruins, and everyone in the camp and in the city knows that the end is near.
 
 ## Panel 9: September 1669: The Commander Decides
-<!-- ![Francesco Morosini sits alone at a table by a window overlooking the ruined city](./panel-09.png) -->
+![Francesco Morosini sits alone at a table by a window overlooking the ruined city](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -178,7 +178,7 @@ Keep every character and place consistent with the other images in this story. G
 Francesco Morosini, the Venetian commander, has held the city for the last years of the siege. In September 1669 he negotiates a surrender. The terms are generous: the garrison and any inhabitants who wish to leave can do so with their property, and Venice keeps three small island fortresses off Crete at Souda, Gramvousa and Spinalonga, the last of them until 1715. Tens of thousands have died on each side.
 
 ## Panel 10: Leaving With Honor
-<!-- ![Morosini stands at the stern of a galley as it sails out of the harbor past the sea fortress](./panel-10.png) -->
+![Morosini stands at the stern of a galley as it sails out of the harbor past the sea fortress](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -189,7 +189,7 @@ Keep every character and place consistent with the other images in this story. G
 The garrison and the people who choose to go sail out with their goods, and with them go the city's relics, among them the skull of Saint Titus, which will remain in Venice until it is returned to Heraklion in 1966. Candia becomes Kandiye, an Ottoman provincial capital, and Ottoman Crete begins, lasting until 1898. Morosini goes home to Venice, and his name will come back to the Aegean.
 
 ## Panel 11: Eighteen Years Later: A Teaser
-<!-- ![Morosini looks through a telescope from a hill across Athens toward the Acropolis at dusk](./panel-11.png) -->
+![Morosini looks through a telescope from a hill across Athens toward the Acropolis at dusk](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -200,7 +200,7 @@ Keep every character and place consistent with the other images in this story. G
 Eighteen years later the same man is in Athens, in command of the Venetian army that in 1687 attacks the city. Here the picture stops: his guns are on the hill, the Parthenon is across the valley, and the next shot is another story, told in another story of this series and in the Athens chapters of this book. Nobody in 1669 could have guessed where this commander would turn up.
 
 ## Panel 12: Then and Now: The Bastion and the Grave
-<!-- ![Two travelers seen from behind on the Martinengo Bastion with a plain wooden cross and a view of Heraklion](./panel-12.png) -->
+![Two travelers seen from behind on the Martinengo Bastion with a plain wooden cross and a view of Heraklion](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

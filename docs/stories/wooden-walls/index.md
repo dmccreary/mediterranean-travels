@@ -10,7 +10,7 @@ social:
 
 # Wooden Walls
 
-<!-- ![A great fleet of Greek triremes rowing through the narrows of Salamis at sunset, with the burning Acropolis glowing on the horizon and a tiny owl on a stern post](./cover.png) -->
+![A great fleet of Greek triremes rowing through the narrows of Salamis at sunset, with the burning Acropolis glowing on the horizon and a tiny owl on a stern post](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -74,7 +74,7 @@ In 480 BCE an enormous Persian army is marching on Athens, and the city has aske
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: Marathon, 490 BCE
-<!-- ![Athenian hoplites running across the plain of Marathon toward a distant bay of dark ships](./panel-01.png) -->
+![Athenian hoplites running across the plain of Marathon toward a distant bay of dark ships](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -86,7 +86,7 @@ Please generate a 16:9 image in the style above depicting panel 1 of 16. Setting
 In 490 BCE a Persian fleet sent by King Darius lands on the plain of Marathon, about 40 km northeast of Athens. About 10,000 Athenian citizen soldiers march out to meet it, joined by about 1,000 men from the little town of Plataea; the Spartans cannot come in time. Herodotus says the Athenians attack at a run, and they win. Marathon is where the Persians first learn that Athens will fight.
 
 ## Panel 2: The Mound
-<!-- ![Athenians seen from behind building a burial mound on the plain of Marathon, the Persian fleet leaving on the horizon](./panel-02.png) -->
+![Athenians seen from behind building a burial mound on the plain of Marathon, the Persian fleet leaving on the horizon](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -97,7 +97,7 @@ Please generate a 16:9 image in the style above depicting panel 2 of 16. Setting
 By evening the Persian ships are rowing away. Herodotus counts 192 Athenian dead, and they are buried together under a mound that still stands on the plain, the Soros. Athens learns that it can win, and that the next invasion will be bigger.
 
 ## Panel 3: The Runner
-<!-- ![An exhausted runner reaching the steps below the Acropolis as a crowd looks on, painted with a faintly dreamlike glow](./panel-03.png) -->
+![An exhausted runner reaching the steps below the Acropolis as a crowd looks on, painted with a faintly dreamlike glow](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -108,7 +108,7 @@ Please generate a 16:9 image in the style above depicting panel 3 of 16. Setting
 > **Myth or Evidence?** The documented feat is the one few people know: Herodotus says a runner named Pheidippides ran from Athens to Sparta to ask for help, about 240 km in two days. The runner who raced from Marathon to Athens with news of victory and then died appears centuries later, in Plutarch and Lucian, and Herodotus never mentions it. It is a legend. The modern marathon race honors it.
 
 ## Panel 4: The Bridge of Boats
-<!-- ![Xerxes seated on a throne on a hillside watching a long bridge of boats stretching across the Hellespont](./panel-04.png) -->
+![Xerxes seated on a throne on a hillside watching a long bridge of boats stretching across the Hellespont](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -119,7 +119,7 @@ Please generate a 16:9 image in the style above depicting panel 4 of 16. Setting
 Ten years after Marathon, Darius's son Xerxes comes himself. His army crosses the Hellespont, the narrow strait near modern Çanakkale, on two bridges of boats. Herodotus puts the army at 1.7 million infantry; modern historians, counting what roads, water and food could support, usually estimate far fewer, often 100,000 to 300,000 fighting men, though estimates vary widely. Whatever the number, it is far larger than Athens can match on land.
 
 ## Panel 5: The First Answer
-<!-- ![Two Athenian envoys outside the Temple of Apollo at Delphi, stunned, with an older Delphian speaking to them quietly](./panel-05.png) -->
+![Two Athenian envoys outside the Temple of Apollo at Delphi, stunned, with an older Delphian speaking to them quietly](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -130,7 +130,7 @@ Please generate a 16:9 image in the style above depicting panel 5 of 16. Setting
 Herodotus tells the story in two acts. Athenian envoys ask the Pythia, Apollo's priestess, what to do about Xerxes. The first answer is terrifying: flee to the ends of the earth, for fire and war will destroy the city. A respected Delphian named Timon, Herodotus says, advises them to go back, carrying olive branches as suppliants, and ask again. The date is 481 or 480 BCE.
 
 ## Panel 6: The Second Answer
-<!-- ![The Pythia on a bronze tripod in the dim temple interior, laurel smoke curling up, envoys kneeling with olive branches](./panel-06.png) -->
+![The Pythia on a bronze tripod in the dim temple interior, laurel smoke curling up, envoys kneeling with olive branches](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -141,7 +141,7 @@ Please generate a 16:9 image in the style above depicting panel 6 of 16. Setting
 The second answer is hardly cheerful, but it leaves a door open. Zeus, the Pythia says, will grant Athena a wooden wall that alone will not be taken, and the answer ends: "Divine Salamis, you will destroy the children of women," at the time of sowing or of harvest. It names no side. Whichever fleet sinks, the line comes true.
 
 ## Panel 7: The Argument on the Hill
-<!-- ![Themistocles speaking to the Athenian Assembly on the Pnyx, hands raised in the crowd, the Acropolis behind](./panel-07.png) -->
+![Themistocles speaking to the Athenian Assembly on the Pnyx, hands raised in the crowd, the Acropolis behind](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -154,7 +154,7 @@ Back in Athens the Assembly argues. Some older men say the wooden wall means the
 > **Myth or Evidence?** Everything here comes from Herodotus, who wrote about fifty years later. Some historians suspect the second answer was polished afterward, or that Themistocles had friends at Delphi. What no one doubts is where the decision was made: in the Assembly, by citizens arguing over two words.
 
 ## Panel 8: The Silver Fleet
-<!-- ![Triremes under construction on slipways at Piraeus, Themistocles pointing, a heap of silver owl coins in the foreground and a tiny owl on a stern post](./panel-08.png) -->
+![Triremes under construction on slipways at Piraeus, Themistocles pointing, a heap of silver owl coins in the foreground and a tiny owl on a stern post](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -165,7 +165,7 @@ Please generate a 16:9 image in the style above depicting panel 8 of 16. Setting
 The "wooden wall" already exists, or nearly. In 483 BCE the state silver mines at Laurion strike a rich new vein. Herodotus says the Athenians are about to hand out the windfall, ten drachmas a citizen, when Themistocles persuades them to build 200 warships instead. Without that silver there would be no Greek fleet able to face Persia.
 
 ## Panel 9: Leaving the City
-<!-- ![Athenian families boarding small boats at the shore with bundles and donkeys, the Acropolis distant behind them](./panel-09.png) -->
+![Athenian families boarding small boats at the shore with bundles and donkeys, the Acropolis distant behind them](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -176,7 +176,7 @@ Please generate a 16:9 image in the style above depicting panel 9 of 16. Setting
 The Athenians do not defend their walls. Herodotus says they move their families to Salamis, Aegina and Troezen, and put their trust in the fleet. A few defenders barricade the Acropolis with timber, taking the oracle's wooden wall literally. The city is almost empty when the Persians arrive.
 
 ## Panel 10: Smoke on the Rock
-<!-- ![The burned Acropolis with smoke rising over blackened broken columns, a tiny green shoot at the foot of a charred olive stump](./panel-10.png) -->
+![The burned Acropolis with smoke rising over blackened broken columns, a tiny green shoot at the foot of a charred olive stump](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -187,7 +187,7 @@ Please generate a 16:9 image in the style above depicting panel 10 of 16. Settin
 The Persians reach Athens and find it nearly empty. They burn the temples on the Acropolis and Athena's sacred olive tree. Herodotus says that on the very next day the Athenians who return to look find a new shoot already about half a meter long. The thirty years of ruins that follow will become Pericles' building site.
 
 ## Panel 11: The Trap in the Narrows
-<!-- ![Dawn over the strait of Salamis, Greek triremes at the Greek shore, Persian ships crowding into the narrow channel](./panel-11.png) -->
+![Dawn over the strait of Salamis, Greek triremes at the Greek shore, Persian ships crowding into the narrow channel](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -198,7 +198,7 @@ Please generate a 16:9 image in the style above depicting panel 11 of 16. Settin
 Themistocles argues that in open water Persia's numbers would tell, but in the narrows they cannot. Herodotus says he sends a trusted man, an enslaved tutor named Sicinnus, to tell Xerxes the Greeks are about to flee. Xerxes believes it, and his ships spend the night closing both ends of the strait. At dawn the Persian fleet rows into the narrows.
 
 ## Panel 12: A Throne on the Shore
-<!-- ![Xerxes on his throne at the foot of Mount Aigaleo watching the crowded narrows in the distance](./panel-12.png) -->
+![Xerxes on his throne at the foot of Mount Aigaleo watching the crowded narrows in the distance](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -209,7 +209,7 @@ Please generate a 16:9 image in the style above depicting panel 12 of 16. Settin
 Xerxes watches from a seat at the foot of Mount Aigaleo. In the crush, Herodotus says, the Persian ships cannot turn or use their numbers, and the Greek rams find targets. One of the king's commanders that day is Artemisia, queen of Herodotus' own city of Halicarnassus, who had advised him not to fight in the narrows at all.
 
 ## Panel 13: Sunset in the Narrows
-<!-- ![Greek triremes rowing home at sunset through a strait scattered with broken oars and planks](./panel-13.png) -->
+![Greek triremes rowing home at sunset through a strait scattered with broken oars and planks](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -220,7 +220,7 @@ Please generate a 16:9 image in the style above depicting panel 13 of 16. Settin
 By evening the Persian fleet has withdrawn with heavy losses. Herodotus lists 378 Greek ships, 180 of them Athenian. With about 170 rowers a ship, Athens needed some 30,000 oarsmen, many of them from the poorest citizens, a fact whose consequences for Athenian democracy Chapter 16 follows. Without a navy to supply his army, Xerxes goes home with much of it.
 
 ## Panel 14: Bronze for the God
-<!-- ![A foundry yard where molten bronze is poured into a clay mold shaped like coiled serpents](./panel-14.png) -->
+![A foundry yard where molten bronze is poured into a clay mold shaped like coiled serpents](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -231,7 +231,7 @@ Please generate a 16:9 image in the style above depicting panel 14 of 16. Settin
 In 479 BCE the Greeks win at Plataea and Mycale, ending the invasion. They dedicate a tenth of the spoils to the god at Delphi, as Herodotus says: a bronze column of three intertwined snakes, probably cast near the sanctuary, to hold a golden tripod. The Greeks had won by standing together, and the monument will say so.
 
 ## Panel 15: These Fought the War
-<!-- ![The new Serpent Column with a golden bowl on top, standing beside Apollo's altar at Delphi, with delegates in the foreground](./panel-15.png) -->
+![The new Serpent Column with a golden bowl on top, standing beside Apollo's altar at Delphi, with delegates in the foreground](./panel-15.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 15. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -242,7 +242,7 @@ Please generate a 16:9 image in the style above depicting panel 15 of 16. Settin
 The column carries the names of the 31 Greek communities that fought, under a heading that means "These fought the war." The Spartan commander Pausanias first has his own name carved on it, and the Spartans erase his boast. The golden tripod does not last: the travel writer Pausanias says the gold was carried off in the Third Sacred War of 356 to 346 BCE, while the bronze serpents stood on.
 
 ## Panel 16: Then and Now
-<!-- ![The weathered bronze Serpent Column in its pit in Istanbul's Hippodrome, the Blue Mosque rising behind, two travelers from behind](./panel-16.png) -->
+![The weathered bronze Serpent Column in its pit in Istanbul's Hippodrome, the Blue Mosque rising behind, two travelers from behind](./panel-16.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 16. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

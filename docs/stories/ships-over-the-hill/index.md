@@ -10,7 +10,7 @@ social:
 
 # Ships Over the Hill
 
-<!-- ![Ottoman galleys on wooden rollers sliding down a hillside at night toward the Golden Horn, with the dome of Hagia Sophia glowing across the water](./cover.png) -->
+![Ottoman galleys on wooden rollers sliding down a hillside at night toward the Golden Horn, with the dome of Hagia Sophia glowing across the water](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -55,7 +55,7 @@ In the spring of 1453 Constantinople is still the capital of an empire, though a
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The City on Its Hill
-<!-- ![Dawn over the Golden Horn seen from Galata, with the chain across the water and the dome of Hagia Sophia beyond](./panel-01.png) -->
+![Dawn over the Golden Horn seen from Galata, with the chain across the water and the dome of Hagia Sophia beyond](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -69,7 +69,7 @@ Keep every character and place consistent with the other images in this story. G
 April 1453, dawn. Looking across the Golden Horn from the hill of Galata, we see a city that seems to float: golden-stone walls, roofs of red tile, and above them the vast shallow dome of Hagia Sophia. Across the mouth of the harbor, a heavy chain of iron links and wooden floats bars the entrance to enemy ships. It is the best-protected harbor in the Mediterranean, and everyone in the city knows it.
 
 ## Panel 2: The Walls of Theodosius
-<!-- ![The huge Theodosian land walls with moat, outer wall, inner wall and towers glowing in morning sun](./panel-02.png) -->
+![The huge Theodosian land walls with moat, outer wall, inner wall and towers glowing in morning sun](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -80,7 +80,7 @@ Keep every character and place consistent with the other images in this story. G
 On the landward side, the Theodosian Walls stretch about 5.7 kilometers from the Sea of Marmara to the Golden Horn. They were finished in 413 under Theodosius II, and they are not one wall but five layers in about 60 meters: moat, outer terrace, outer wall, inner terrace and a towering inner wall with 96 towers. They have turned back Avars, Arabs and Bulgars for a thousand years. The defenders know the numbers.
 
 ## Panel 3: Too Few Men
-<!-- ![Constantine XI on the walls looking along a thin line of defenders](./panel-03.png) -->
+![Constantine XI on the walls looking along a thin line of defenders](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -92,7 +92,7 @@ Keep every character and place consistent with the other images in this story. G
 Emperor Constantine XI walks the walls. He has about 7,000 men to hold 5.7 kilometers of wall, including Greeks, Genoese, Venetians and volunteers. Against them Mehmed brings tens of thousands, though the numbers are uncertain and probably exaggerated by the chroniclers. The emperor stops at a tower, looks along the thin line, and understands the arithmetic.
 
 ## Panel 4: The Founder Who Was Turned Away
-<!-- ![Orban, a cannon-founder with rolled drawings, at the edge of the emperor's hall](./panel-04.png) -->
+![Orban, a cannon-founder with rolled drawings, at the edge of the emperor's hall](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -106,7 +106,7 @@ A Hungarian cannon-founder named Orban arrives in Constantinople with a bold off
 > **Myth or Evidence?** Part chronicle, part tradition. Later writers report that Orban first offered his guns to Constantine and was turned away because the empire had no money. The details are told with some embroidery, and we should read the tale as plausible but not guaranteed. What is documented is that Mehmed's army used very large bronze guns in 1453.
 
 ## Panel 5: Casting the Great Gun
-<!-- ![Orban at a foundry in Edirne pouring glowing bronze into a long mold in a pit](./panel-05.png) -->
+![Orban at a foundry in Edirne pouring glowing bronze into a long mold in a pit](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -118,7 +118,7 @@ Keep every character and place consistent with the other images in this story. G
 In Edirne, Mehmed's capital, Orban finds his patron. In a foundry pit the bronze glows like a sunrise as workers pour it into a mold taller than a man. The gun that comes out is among the largest ever cast, and later accounts say it takes dozens of oxen and hundreds of men to drag it to the walls of Constantinople. Orban's drawings have become something very large.
 
 ## Panel 6: Smoke on the Walls
-<!-- ![Smoke and dust drifting from the land walls at dusk as defenders pile timber and barrels into a damaged section](./panel-06.png) -->
+![Smoke and dust drifting from the land walls at dusk as defenders pile timber and barrels into a damaged section](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -129,7 +129,7 @@ Keep every character and place consistent with the other images in this story. G
 The great gun fires only a few times a day, but each shot is felt across the city. When the dust clears, a tower is cracked and a section of wall is battered. Each night the defenders pile barrels, timber and earth into the gap, and each morning the Ottomans are surprised to find it patched. The siege is not a single dramatic blow but a month of dust, repair and exhaustion.
 
 ## Panel 7: The Chain Holds
-<!-- ![The Golden Horn chain with a small convoy of ships slipping inside and the Ottoman fleet outside](./panel-07.png) -->
+![The Golden Horn chain with a small convoy of ships slipping inside and the Ottoman fleet outside](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -140,7 +140,7 @@ Keep every character and place consistent with the other images in this story. G
 At the Golden Horn the Ottoman fleet cannot break through the chain. On April 20 four ships carrying relief for the city fight their way past the blockade and slip inside, a rare moment of hope. Mehmed, watching from the shore, sees that the chain cannot be broken from the sea. He needs another way into the harbor.
 
 ## Panel 8: A Plan Over the Hill
-<!-- ![Mehmed II studying a map and pointing across a ridge toward the water at dusk](./panel-08.png) -->
+![Mehmed II studying a map and pointing across a ridge toward the water at dusk](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -152,7 +152,7 @@ Keep every character and place consistent with the other images in this story. G
 Mehmed has an idea that sounds like madness. If ships cannot go through the chain, they can go over the land. On a ridge behind Galata he studies the slope, the woods, the long drop to the water on the other side. Historians reconstruct the route in different ways, but all agree on the plan: build a road of timber, grease it, and haul the ships over the hill.
 
 ## Panel 9: The Night Road
-<!-- ![Galleys on greased log rollers being hauled over the hill at night by oxen and crowds of men](./panel-09.png) -->
+![Galleys on greased log rollers being hauled over the hill at night by oxen and crowds of men](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -166,7 +166,7 @@ That night the impossible begins. Teams of oxen and crowds of men haul a line of
 > **Myth or Evidence?** Documented, with details in doubt. Ottoman ships really did appear in the Golden Horn on April 22, 1453, and the sources agree they were moved overland. The number of ships, the exact route, and the story that sails were raised and drums beaten on the way are reported in different ways, so treat those details as tradition.
 
 ## Panel 10: Dawn in the Harbor
-<!-- ![Defenders on the sea wall gazing at an Ottoman fleet floating inside the Golden Horn at dawn](./panel-10.png) -->
+![Defenders on the sea wall gazing at an Ottoman fleet floating inside the Golden Horn at dawn](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -179,7 +179,7 @@ Keep every character and place consistent with the other images in this story. G
 At dawn the defenders look from the sea wall and cannot believe their eyes. Ottoman ships are floating inside the harbor, behind the chain, as if they had sailed over the sky. The ships never attack the sea walls in force, but they force the city to move men from the land walls to guard the harbor front. A garrison of about 7,000 cannot afford that.
 
 ## Panel 11: The Last Night
-<!-- ![Worshippers kneeling in candlelit Hagia Sophia on the eve of the final assault](./panel-11.png) -->
+![Worshippers kneeling in candlelit Hagia Sophia on the eve of the final assault](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -192,7 +192,7 @@ Keep every character and place consistent with the other images in this story. G
 On the night of May 28, the people of Constantinople gather in Hagia Sophia, the great church beneath the dome. Later accounts say they pray together, Greeks and Italians, priests and soldiers, under the lights of countless candles. Outside, the Ottoman camp blazes with torches. By morning everything will be different.
 
 ## Panel 12: Before Dawn, May 29
-<!-- ![A long dark wall, torches and ladders at a distance, with dust and smoke before dawn](./panel-12.png) -->
+![A long dark wall, torches and ladders at a distance, with dust and smoke before dawn](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -203,7 +203,7 @@ Keep every character and place consistent with the other images in this story. G
 Before dawn on May 29 the cannon thunder again and the Ottoman lines move forward. The attack comes in waves along the land walls, and the defenders hold the first two. At a distance it looks like a field of torches and dark moving shapes, and then the walls disappear in smoke. The garrison is stretched too thin, and it has no more to give.
 
 ## Panel 13: Banners on the Tower
-<!-- ![A crimson Ottoman banner on a tower at first light, with smoke over the city behind](./panel-13.png) -->
+![A crimson Ottoman banner on a tower at first light, with smoke over the city behind](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -214,7 +214,7 @@ Keep every character and place consistent with the other images in this story. G
 As the sun rises, the situation turns. Giovanni Giustiniani, the Genoese commander of the land walls, is wounded and leaves his post, and within hours Ottoman soldiers are inside the walls. A crimson banner now flies from a tower where the imperial eagle once did. The city that held for a thousand years has held for the last time.
 
 ## Panel 14: The Empty Field
-<!-- ![A quiet field below the breach with a dropped imperial banner and drifting smoke](./panel-14.png) -->
+![A quiet field below the breach with a dropped imperial banner and drifting smoke](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -227,7 +227,7 @@ Where is the emperor? Constantine XI stayed on the walls rather than flee, and i
 > **Myth or Evidence?** Legend over evidence. It is documented that Constantine XI died in the fighting on May 29, 1453, but chroniclers disagree about where and how, and his body was never certainly identified. The popular tale that the emperor was turned to marble by an angel and waits in a cave to return is a later legend.
 
 ## Panel 15: The Sultan Rides to the Church
-<!-- ![Mehmed II on horseback at the doors of Hagia Sophia with banners and a quiet crowd](./panel-15.png) -->
+![Mehmed II on horseback at the doors of Hagia Sophia with banners and a quiet crowd](./panel-15.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 15. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -241,7 +241,7 @@ Keep every character and place consistent with the other images in this story. G
 In the afternoon Mehmed rides into the city and straight to Hagia Sophia, the great symbol of Constantinople. He dismounts at the doors. According to the book's chapter, he makes it a mosque in 1453, and in time the city becomes the capital of an empire that lasts nearly five centuries. The old city and the new one share the same dome.
 
 ## Panel 16: From Galata Today
-<!-- ![Two travelers seen from behind on the Galata hillside looking across the Golden Horn at the skyline of Istanbul today](./panel-16.png) -->
+![Two travelers seen from behind on the Galata hillside looking across the Golden Horn at the skyline of Istanbul today](./panel-16.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 16. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
