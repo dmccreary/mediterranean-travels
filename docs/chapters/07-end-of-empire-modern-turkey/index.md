@@ -331,7 +331,7 @@ The MicroSim below lets us apply the convention's rules to ten cases, as officia
 
 #### Diagram: Who Was Exchanged in 1923?
 
-<iframe src="../../sims/population-exchange-1923-cases/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/population-exchange-1923-cases/main.html" height="634px" width="100%" scrolling="no"></iframe>
 
 [Run the Who Was Exchanged in 1923? MicroSim Fullscreen](../../sims/population-exchange-1923-cases/main.html){ .md-button .md-button--primary }
 
