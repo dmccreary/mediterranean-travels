@@ -529,7 +529,7 @@ The explorer below lets us turn each of these effect sizes into the percentile i
 
 #### Diagram: Tutoring Effect Size Explorer
 
-<iframe src="../../sims/tutoring-effect-size-explorer/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/tutoring-effect-size-explorer/main.html" height="568px" width="100%" scrolling="no"></iframe>
 
 [Run the Tutoring Effect Size Explorer MicroSim Fullscreen](../../sims/tutoring-effect-size-explorer/main.html){ .md-button .md-button--primary }
 
