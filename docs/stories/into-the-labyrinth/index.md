@@ -10,7 +10,7 @@ social:
 
 # Into the Labyrinth
 
-<!-- ![A split view of a torchlit maze corridor with a red thread and a bull-headed shadow, beside red concrete columns at Knossos in daylight](./cover.png) -->
+![A split view of a torchlit maze corridor with a red thread and a bull-headed shadow, beside red concrete columns at Knossos in daylight](./cover.png)
 
 <details>
 <summary>Cover Image Prompt</summary>
@@ -96,7 +96,7 @@ The legend says that beneath the palace at Knossos lay a maze so confusing that 
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Palace of King Minos
-<!-- ![A bird's-eye view of the legendary palace of Knossos with King Minos on a terrace and the god Zeus faint in storm clouds](./panel-01.png) -->
+![A bird's-eye view of the legendary palace of Knossos with King Minos on a terrace and the god Zeus faint in storm clouds](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -108,7 +108,7 @@ Keep every character and place consistent with the other images in this story. G
 In the Greek legend, King Minos rules Crete from a palace at Knossos, and tradition makes him a son of the god Zeus. Ships from across the Aegean owe him tribute, and his craftsmen are the finest anywhere. The real palace stood on this hill for more than a thousand years, and Arthur Evans will later name its people the Minoans after this king. In the legend, though, something troubling is growing in the palace cellars.
 
 ## Panel 2: Daedalus Builds the Maze
-<!-- ![Daedalus the inventor studies a clay model of a maze by lamplight](./panel-02.png) -->
+![Daedalus the inventor studies a clay model of a maze by lamplight](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -119,7 +119,7 @@ Keep every character and place consistent with the other images in this story. G
 Minos calls on his master craftsman, Daedalus, to build a prison for a monster. The legend says the creature is the Minotaur, 'the bull of Minos', born after Poseidon sent the king a white bull and the king would not sacrifice it. Daedalus designs the Labyrinth so cleverly that no one who enters can find the way out, and Athens is made to send seven young men and seven young women into it as tribute. Whatever the Minotaur is, it is the poets' work: the Labyrinth is a story about a building that confuses.
 
 ## Panel 3: Fourteen From Athens
-<!-- ![A ship from Athens lands fourteen young people and Theseus on the quay at Amnisos](./panel-03.png) -->
+![A ship from Athens lands fourteen young people and Theseus on the quay at Amnisos](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -130,7 +130,7 @@ Keep every character and place consistent with the other images in this story. G
 A ship with black sails comes in to Amnisos, the harbor town of Knossos. On board are the fourteen young Athenians who must enter the maze, and with them, tradition says, a prince named Theseus who has volunteered to go. The details come from writers of the Roman era such as Plutarch, long after the palace fell. The Cretan guards walk them up the hill toward the palace.
 
 ## Panel 4: Ariadne's Thread
-<!-- ![Ariadne gives Theseus a ball of red thread at the entrance to the Labyrinth](./panel-04.png) -->
+![Ariadne gives Theseus a ball of red thread at the entrance to the Labyrinth](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -143,7 +143,7 @@ Ariadne, the daughter of Minos, falls for the young prince and slips him a ball 
 > **Myth or Evidence?** Legend. The earliest scenes of Theseus and the Minotaur are on Greek pottery from the 7th century BCE, some 600 or 700 years after the palace fell, and the tribute and the thread are written down more than a thousand years after that.
 
 ## Panel 5: The Shadow on the Wall
-<!-- ![Theseus walks down a torchlit corridor unspooling red thread toward a huge bull-headed shadow on the wall](./panel-05.png) -->
+![Theseus walks down a torchlit corridor unspooling red thread toward a huge bull-headed shadow on the wall](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -156,7 +156,7 @@ Theseus walks into the dark with the thread running out behind him. Ahead, on th
 > **Myth or Evidence?** Legend. Bulls really are everywhere in Minoan art, in paintings, on seals and in the stone 'horns' on rooftops, so a Cretan monster with a bull's head is a natural thing for later Greeks to imagine. No bones, monster or maze have ever been found.
 
 ## Panel 6: Out Into the Light
-<!-- ![Theseus and the young Athenians emerge from the Labyrinth at dawn, with Ariadne waiting](./panel-06.png) -->
+![Theseus and the young Athenians emerge from the Labyrinth at dawn, with Ariadne waiting](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -167,7 +167,7 @@ Keep every character and place consistent with the other images in this story. G
 The thread leads Theseus and the fourteen young Athenians back to the doorway at dawn, and Ariadne is there. The legend ends with the pair sailing away, and with Daedalus escaping Crete on wings of feathers and wax. The story that survives is really a memory of a place: a vast palace with a confusing plan, a powerful ruler, and bulls at the center of ritual and sport.
 
 ## Panel 7: The House of the Double Axe
-<!-- ![A carved double axe on a palace stone block, with a tiny owl perched above it](./panel-07.png) -->
+![A carved double axe on a palace stone block, with a tiny owl perched above it](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -180,7 +180,7 @@ This is the labrys, the double-headed axe, carved on blocks all over the palace 
 > **Myth or Evidence?** Documented, with a disputed word origin. The double axe is real, and a Linear B tablet from Knossos records an offering of honey to 'the Mistress of the Labyrinth', so a place or shrine of that name existed. But linguists are divided on whether the word really comes from labrys.
 
 ## Panel 8: March 1900: The Digger Arrives
-<!-- ![Arthur Evans directs Cretan workmen digging trenches on the hill of Kephala in March 1900](./panel-08.png) -->
+![Arthur Evans directs Cretan workmen digging trenches on the hill of Kephala in March 1900](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -191,7 +191,7 @@ Keep every character and place consistent with the other images in this story. G
 Arthur Evans first came to Crete in 1894 looking for early writing, after seeing tiny signs engraved on seal stones that Cretan women wore as charms. In 1878 a Heraklion merchant, Minos Kalokairinos, had dug trenches on this hill and found giant storage jars, but the Ottoman authorities, who still governed Crete, stopped him. Once Crete became autonomous, Evans bought the land and began digging in March 1900, with the Scottish archaeologist Duncan Mackenzie keeping the daily records and a large crew of Cretan workers. Within weeks they find the Throne Room and the first clay tablets.
 
 ## Panel 9: The Throne Room
-<!-- ![Arthur Evans kneels beside a gypsum throne emerging from the soil as workmen look on](./panel-09.png) -->
+![Arthur Evans kneels beside a gypsum throne emerging from the soil as workmen look on](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -204,7 +204,7 @@ In April 1900 the team uncovers a small room with a high-backed gypsum seat stil
 > **Myth or Evidence?** The throne is documented. The name is Evans's. The room in its present form dates from the last phase of the palace, after about 1450 BCE, and who sat there is unknown; some scholars think it was a priestess, not a king.
 
 ## Panel 10: A Puzzle of Painted Plaster
-<!-- ![A painter-restorer sets small fresco fragments into plaster while Arthur Evans looks on](./panel-10.png) -->
+![A painter-restorer sets small fresco fragments into plaster while Arthur Evans looks on](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -215,7 +215,7 @@ Keep every character and place consistent with the other images in this story. G
 The palace's wall paintings did not survive on the walls. They fell when the palace burned and came out of the ground as heaps of fragments, often a few centimeters across. Evans hired artists, including a father-and-son team of Swiss painters both named Émile Gilliéron, to fit the pieces together and paint in the gaps. The results are lovely and partly guesswork: one figure, restored as a boy gathering crocuses, later turned out to be a blue monkey.
 
 ## Panel 11: Concrete Columns, Painted Red
-<!-- ![Workmen pour concrete and paint columns red in the 1920s at Knossos](./panel-11.png) -->
+![Workmen pour concrete and paint columns red in the 1920s at Knossos](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -226,7 +226,7 @@ Keep every character and place consistent with the other images in this story. G
 Wooden columns and beams had burned or rotted away, and the soft gypsum stone was dissolving in the rain, so from about 1905 Evans rebuilt, first in wood and stone and mainly from the 1920s in reinforced concrete. His architects, Christian Doll and later Piet de Jong, rebuilt the Grand Staircase, the North Entrance and an upper floor over the Throne Room, and painted concrete columns red in the Minoan shape, wider at the top than the bottom. The result is the only Bronze Age palace where visitors can feel a room's height, and also a palace partly designed in the 1920s.
 
 ## Panel 12: Fragments and Fresco, Side by Side
-<!-- ![In a museum gallery, a tray of dark real fragments beside the bright restored bull-leaping fresco](./panel-12.png) -->
+![In a museum gallery, a tray of dark real fragments beside the bright restored bull-leaping fresco](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -237,7 +237,7 @@ Keep every character and place consistent with the other images in this story. G
 Here, in the museum, the two layers sit next to each other. The darker, rougher, slightly raised patches are real Bronze Age plaster, about 3,500 years old; the smooth bright areas around them are a restorer's work. The Bull-Leaping Fresco, made about 1450 to 1400 BCE, shows a charging bull and three young athletes, and it is a good example of how much of a famous image can be painted in later. Before admiring a whole figure, find the edges of the real pieces.
 
 ## Panel 13: Minoan, Evans, or Copy?
-<!-- ![A detail at Knossos where rough ancient stone meets smooth red-painted concrete](./panel-13.png) -->
+![A detail at Knossos where rough ancient stone meets smooth red-painted concrete](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -248,7 +248,7 @@ Keep every character and place consistent with the other images in this story. G
 A simple test works at almost any wall in Knossos: look at the material before the color. Rough rubble, worn limestone and pitted gypsum are almost always Minoan; smooth gray concrete and anything bright red or black above head height is almost always Evans; and a painting on an outdoor wall is a copy, because the originals are in the museum. Later conservation rules turned against rebuilding; the Venice Charter of 1964 says reconstruction should be ruled out on archaeological sites, and the iron inside Evans's concrete is now rusting. The concrete has itself become part of the site's history.
 
 ## Panel 14: Then and Now: The Palace in Miniature
-<!-- ![Two travelers seen from behind look down at the scale model of Knossos in the museum](./panel-14.png) -->
+![Two travelers seen from behind look down at the scale model of Knossos in the museum](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

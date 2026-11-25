@@ -10,7 +10,7 @@ social:
 
 # The Architect Who Cracked the Code
 
-<!-- ![A young architect at a lamp-lit desk with a grid of signs and a clay tablet, with a palace outline glowing behind](./cover.png) -->
+![A young architect at a lamp-lit desk with a grid of signs and a clay tablet, with a palace outline glowing behind](./cover.png)
 
 <details>
 <summary>Cover Image Prompt</summary>
@@ -74,7 +74,7 @@ The fire that destroyed the palace of Knossos baked its clay records hard, and f
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Scribe Counts the Sheep
-<!-- ![A palace scribe presses signs into a clay tablet in a lamp-lit archive room at Knossos](./panel-01.png) -->
+![A palace scribe presses signs into a clay tablet in a lamp-lit archive room at Knossos](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -86,7 +86,7 @@ Keep every character and place consistent with the other images in this story. G
 About 1400 BCE, a scribe at the Palace of Knossos presses a pointed stylus into damp clay. He is one of only a few dozen palace scribes, and he is not writing poetry: he is counting sheep, oil and wool for the palace. The tablets are working records for the current year, kept in baskets and boxes, and meant to be smoothed over and reused.
 
 ## Panel 2: The Fire That Saved the Records
-<!-- ![A glowing archive room with an empty stool and baskets of clay tablets as fire reddens the doorway](./panel-02.png) -->
+![A glowing archive room with an empty stool and baskets of clay tablets as fire reddens the doorway](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -97,7 +97,7 @@ Keep every character and place consistent with the other images in this story. G
 Then the palace burns, most likely about 1375 BCE, though some scholars argue for a later date. The scribes do not survive, and neither does their script. But the fire bakes the clay tablets as hard as pottery, and they lie under the rubble for more than three thousand years. We have them only because of disaster.
 
 ## Panel 3: A Basket Full of Clay
-<!-- ![Arthur Evans and Cretan workmen uncover a basket of clay tablets in a trench at Knossos in 1900](./panel-03.png) -->
+![Arthur Evans and Cretan workmen uncover a basket of clay tablets in a trench at Knossos in 1900](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -108,7 +108,7 @@ Keep every character and place consistent with the other images in this story. G
 Evans began digging in March 1900, and within weeks the trenches yielded the Throne Room and the first clay tablets. He had come to Crete looking for early writing, and now he had thousands of tablets and fragments, more than at any other site. Nobody alive could read a word of them. The tablets were lists of people, flocks and goods, though no one knew it yet.
 
 ## Panel 4: Linear B, and Locked Drawers
-<!-- ![Arthur Evans at a worktable of sorted tablets with a closed cabinet behind him](./panel-04.png) -->
+![Arthur Evans at a worktable of sorted tablets with a closed cabinet behind him](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -119,7 +119,7 @@ Keep every character and place consistent with the other images in this story. G
 Evans sorts the tablets and gives the two scripts he finds their names. The signs are drawn with lines rather than pictures, so he calls them Linear A and Linear B. He spends the rest of his life on Knossos, and he never reads the tablets. He also publishes only a small part of them in his lifetime, so for decades almost nobody else can try.
 
 ## Panel 5: A Boy in the Audience
-<!-- ![A fourteen-year-old boy listens to a distant lecture at a London exhibition in 1936](./panel-05.png) -->
+![A fourteen-year-old boy listens to a distant lecture at a London exhibition in 1936](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -130,7 +130,7 @@ Keep every character and place consistent with the other images in this story. G
 In 1936, the story goes, a fourteen-year-old schoolboy named Michael Ventris goes to an exhibition in London and hears Arthur Evans speak about the Knossos tablets. He learns that nobody can read them, and he resolves to be the one who does. We cannot know exactly what was said, so this is a tradition about Ventris, not a documented scene.
 
 ## Panel 6: A Boy With a Notebook
-<!-- ![A schoolboy copies strange signs at a desk by lamplight in his bedroom](./panel-06.png) -->
+![A schoolboy copies strange signs at a desk by lamplight in his bedroom](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -141,7 +141,7 @@ Keep every character and place consistent with the other images in this story. G
 He has a gift for languages and a stubborn streak. Over the next years the boy studies what he can find about the signs, filling notebooks with copied rows and guesses. Nothing about him suggests a classicist, and in fact he will never take a degree in classics. He is learning to look for patterns.
 
 ## Panel 7: An Architect by Day
-<!-- ![Michael Ventris at an architect's drafting table with a drawer of sign cards beside him](./panel-07.png) -->
+![Michael Ventris at an architect's drafting table with a drawer of sign cards beside him](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -152,7 +152,7 @@ Keep every character and place consistent with the other images in this story. G
 Ventris trains as an architect, serves as a navigator in the Royal Air Force during the Second World War, and then works on the script in his spare time. He has no classics degree, a gift for languages, and an architect's eye for visual pattern. The wartime navigator and the schoolboy are the same man: someone who can follow a route with nothing but a chart and patience.
 
 ## Panel 8: Kober's Cartons
-<!-- ![Alice Kober sorts index cards at a kitchen table in Brooklyn at night](./panel-08.png) -->
+![Alice Kober sorts index cards at a kitchen table in Brooklyn at night](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -163,7 +163,7 @@ Keep every character and place consistent with the other images in this story. G
 In Brooklyn, a classics teacher called Alice Kober spends her evenings on the same puzzle. She teaches at Brooklyn College, carries a heavy teaching load, and works on Linear B in her spare time. With paper scarce in the war, she cuts scrap card by hand and builds a database of about 180,000 index cards in cigarette cartons, in a world with no computers. She refuses to guess what language the tablets were written in.
 
 ## Panel 9: The Triplet and the Empty Chair
-<!-- ![Rows of index cards on a table beside an empty chair with a cardigan over its back](./panel-09.png) -->
+![Rows of index cards on a table beside an empty chair with a cardigan over its back](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -174,7 +174,7 @@ Keep every character and place consistent with the other images in this story. G
 Kober found a pattern. Some words came in three forms with the same beginning and different endings, so the language was inflected, like Latin or Greek, and the sign before the ending shared its consonant with its partners. From pairs like that she started a grid of signs, without assigning a single sound. She died after an illness in May 1950, at 43, two years before the decipherment she had made possible. The chair is empty; the cartons remain.
 
 ## Panel 10: A Wrong Guess
-<!-- ![Michael Ventris at a dining table with typed notes and a large grid, with an Etruscan mirror on the shelf](./panel-10.png) -->
+![Michael Ventris at a dining table with typed notes and a large grid, with an Etruscan mirror on the shelf](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -185,7 +185,7 @@ Keep every character and place consistent with the other images in this story. G
 By 1951 Ventris is typing up his results as a series of 20 'Work Notes', sent to a small circle of scholars for criticism, and each version of his grid extends Kober's idea. He is sure the language will turn out to be Etruscan, and nobody would have bet on any other answer. He keeps following the grid, not his hunch.
 
 ## Panel 11: The Grid Speaks
-<!-- ![A pencil points to a filled-in grid on a sheet as the sign groups resolve into Cretan place names](./panel-11.png) -->
+![A pencil points to a filled-in grid on a sheet as the sign groups resolve into Cretan place names](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -196,7 +196,7 @@ Keep every character and place consistent with the other images in this story. G
 Then he tries a guess about place names. Some words appear only on the Knossos tablets, never on those from Pylos, so they might be Cretan towns. If one is ko-no-so, Knossos, and another a-mi-ni-so, Amnisos, then a handful of signs get sound values, and every sign in the same row or column gets a partial value too. The words come out as Greek: ko-wo, 'boy', ko-wa, 'girl', po-me, 'shepherd'. The guess was the key, but the grid was the lock that let one guess open everything.
 
 ## Panel 12: A Voice on the Radio
-<!-- ![Michael Ventris reads from a sheet in front of a vintage microphone in a radio studio](./panel-12.png) -->
+![Michael Ventris reads from a sheet in front of a vintage microphone in a radio studio](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -207,7 +207,7 @@ Keep every character and place consistent with the other images in this story. G
 On July 1, 1952, Ventris goes on BBC radio and announces that Linear B is Greek. He says it is a difficult and archaic Greek, older than Homer by some centuries. After the talk, John Chadwick, a Cambridge scholar of early Greek who had been a codebreaker in the Second World War, writes to offer help, and supplies what Ventris lacks: how Greek changed over time.
 
 ## Panel 13: The Tripod Tablet
-<!-- ![A clay tablet shows drawings of a tripod and cups beside rows of signs, with a tiny owl on the shelf](./panel-13.png) -->
+![A clay tablet shows drawings of a tripod and cups beside rows of signs, with a tiny owl on the shelf](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -218,7 +218,7 @@ Keep every character and place consistent with the other images in this story. G
 The test comes from the ground. In 1952 the American archaeologist Carl Blegen finds a new tablet at Pylos, and when it is read with Ventris's values in 1953 it describes tripods and cups, with a little drawing beside each word: ti-ri-po-de, 'tripods', next to a three-legged cauldron; qe-to-ro-we, 'four-handled', drawn with four handles; a-no-we, 'without handles', drawn with none. No one could have arranged the match in advance. The secret that the Mycenaeans left was not poetry or prophecy but sheep, wheat and chariot wheels. Glaux approves: most of history is bookkeeping.
 
 ## Panel 14: Then and Now: The Tablets Today
-<!-- ![Two travelers seen from behind look at a case of clay tablets in the Heraklion museum](./panel-14.png) -->
+![Two travelers seen from behind look at a case of clay tablets in the Heraklion museum](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

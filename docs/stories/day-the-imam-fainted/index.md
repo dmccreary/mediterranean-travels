@@ -10,7 +10,7 @@ social:
 
 # The Day the Imam Fainted
 
-<!-- ![A dignified imam swooning gently backward onto cushions beside a table with a glossy stuffed eggplant, his wife laughing, with the title in bold hand-lettering](./cover.png) -->
+![A dignified imam swooning gently backward onto cushions beside a table with a glossy stuffed eggplant, his wife laughing, with the title in bold hand-lettering](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -110,7 +110,7 @@ An eggplant is not an obvious hero. It came from South or Southeast Asia, reache
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Imam at the Table
-<!-- ![A dignified imam leaning back onto cushions at a low copper table with a glossy stuffed eggplant, his new wife laughing](./panel-01.png) -->
+![A dignified imam leaning back onto cushions at a low copper table with a glossy stuffed eggplant, his new wife laughing](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -133,7 +133,7 @@ The imam sits cross-legged on a cushion at the tray, his eyes closed and his hea
 > **Myth or Evidence?** Documented: the dish, the name and the Turkish table it belongs to. Tradition: both stories about the fainting. Chapter 6 says that neither is history, "but both are true to the dish." No date, village or imam is named in any telling.
 
 ## Panel 2: The Empty Jars
-<!-- ![An imam standing aghast in a pantry before rows of empty oil jars, his wife holding an empty jug](./panel-02.png) -->
+![An imam standing aghast in a pantry before rows of empty oil jars, his wife holding an empty jug](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -152,7 +152,7 @@ The second story is about money, not manners. In this telling, the imam is not o
 > **Myth or Evidence?** Both stories are legends. They explain a name, but no source names the imam, his wife, or the year. The Turkish name for the dish, "the imam fainted," is real and appears on menus today; the dish itself is documented by taste, by cookbooks and by generations of cooks.
 
 ## Panel 3: A Dish in Layers
-<!-- ![A shallow tin tray of golden eggplants cooling on a stone windowsill with a cook's hands beside it](./panel-03.png) -->
+![A shallow tin tray of golden eggplants cooling on a stone windowsill with a cook's hands beside it](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -169,7 +169,7 @@ In the center a deep copper tray holds a row of six eggplants like this, packed 
 The dish itself is simple and slow: a whole eggplant is split, stuffed with onions, tomatoes and garlic, cooked gently in olive oil and served cold. It is also a layer cake of history. Olive oil and garlic are ancient Mediterranean ingredients. The eggplant came in with Persian and Arab cooks in the early Middle Ages. The tomatoes are American, and reached the Mediterranean only after 1492; a recipe with tomatoes in it cannot be older than the voyages of Columbus. The Reading Food in Layers MicroSim lets us place other foods in their layers.
 
 ## Panel 4: Split Belly
-<!-- ![A home cook slitting the bellies of purple eggplants on a wooden board, a deep baking tin beside her](./panel-04.png) -->
+![A home cook slitting the bellies of purple eggplants on a wooden board, a deep baking tin beside her](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -186,7 +186,7 @@ The cook stands at the table, using a small knife to slit the belly of a long pu
 The second dish takes its name from what the cook does to it. *Karnıyarık*, "split belly," is an eggplant slit along its belly and filled with spiced minced meat, onion and tomato, then baked, often with a long green pepper on top. Unlike *imam bayıldı*, it is served hot and has meat in it. Its Greek cousin, *papoutsakia*, "little shoes," takes the same idea and adds a coat of béchamel.
 
 ## Panel 5: The Sultan Liked It
-<!-- ![The huge domed palace kitchens of Topkapı with a cook ladling lamb over eggplant purée, a small owl hidden among the copper pots](./panel-05.png) -->
+![The huge domed palace kitchens of Topkapı with a cook ladling lamb over eggplant purée, a small owl hidden among the copper pots](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -205,7 +205,7 @@ Glaux the Little Owl: a true little owl (Athene noctua), small, round and compac
 The palace kitchens of Topkapı cook for several thousand people a day, and from them comes the empire's high cuisine. One of their dishes is *hünkâr beğendi*, "the sultan liked it": a stew of lamb spooned onto a smooth purée of eggplant roasted over a flame, then whipped with butter, flour, milk and cheese. It shows what the same vegetable looks like when it is dressed for a palace instead of a family table. The smoke you taste is the point.
 
 ## Panel 6: A Banquet for an Empress
-<!-- ![A European noblewoman in a wide silk gown seen from behind at a palace banquet table as a cook presents a dish of lamb on eggplant purée](./panel-06.png) -->
+![A European noblewoman in a wide silk gown seen from behind at a palace banquet table as a cook presents a dish of lamb on eggplant purée](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -224,7 +224,7 @@ The story says that hünkâr beğendi was created for the French Empress Eugéni
 > **Myth or Evidence?** Documented: the dish "the sultan liked it," its smoked eggplant purée, and Eugénie's 1869 visit. Legend: that the dish was invented for that dinner. Chapter 5 calls the story "late and unproven," and no early source ties the recipe to that banquet.
 
 ## Panel 7: Across the Sea, the Same Eggplant
-<!-- ![A Greek cook in a whitewashed kitchen mashing charred eggplant in a bowl beside the open flame](./panel-07.png) -->
+![A Greek cook in a whitewashed kitchen mashing charred eggplant in a bowl beside the open flame](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -241,7 +241,7 @@ The cook stands at a wooden table peeling the blackened skin from eggplants that
 On the Greek side of the Aegean, the same vegetable meets the same fire. *Melitzanosalata* is eggplant roasted until the skin blackens, then mashed with garlic, olive oil and lemon or vinegar, and sometimes walnuts. It is the Greek cousin of the Turkish *patlıcan salatası*, and a visitor who has eaten one in Istanbul will recognize the other at once. The names change at the border, but the smoke does not.
 
 ## Panel 8: Whose Dish Is It?
-<!-- ![A taverna table with a plate of stuffed eggplant, two older men gesturing in friendly debate while a cook serves another plate](./panel-08.png) -->
+![A taverna table with a plate of stuffed eggplant, two older men gesturing in friendly debate while a cook serves another plate](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -258,7 +258,7 @@ In the foreground, the cook sets a white plate of the stuffed eggplant on a wood
 In Greece the stuffed eggplant appears as *imam baildi*, and Athenian menus still list it under a Turkish name. Greeks and Turks both cook it, both name it, and both ask whose it is. Chapter 15 says it plainly: the dishes are agreed, and the argument is over whom they belong to. The honest answer is that each dish belongs to everyone who cooked it.
 
 ## Panel 9: The Chef and the Béchamel
-<!-- ![A European-trained Greek chef in a tall toque whisking white sauce over a tray of layered eggplant in a hotel kitchen](./panel-09.png) -->
+![A European-trained Greek chef in a tall toque whisking white sauce over a tray of layered eggplant in a hotel kitchen](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -277,7 +277,7 @@ Moussaka has an Arabic-derived name, *musaqqa'a*, usually explained as "chilled,
 > **Myth or Evidence?** Documented: Tselementes was a real chef and cookbook author, and the béchamel-topped version is the modern Greek form. Tradition: that he alone invented it. Chapter 15 says only that the topping is "usually credited" to him; earlier eggplant-and-meat dishes existed across the Ottoman world.
 
 ## Panel 10: Two Ships on the Same Sea
-<!-- ![Families with bundles seen from behind on a quay at dawn watching two steamers pass, a woman carrying a cooking pot](./panel-10.png) -->
+![Families with bundles seen from behind on a quay at dawn watching two steamers pass, a woman carrying a cooking pot](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -292,7 +292,7 @@ The family stands small in the lower left foreground, seen from behind, looking 
 On 30 January 1923 at Lausanne, the governments of Greece and Turkey signed a convention for a compulsory exchange of populations. About 1.2 million Orthodox Christians, most of whom had already fled in 1922, and about 400,000 Muslims were made to leave homes their families had lived in for centuries, and none could return. The rule that sorted them was religion, not language: Turkish-speaking Orthodox Christians from Cappadocia went to Greece, and Greek-speaking Muslims from Crete went to Turkey. People carried what they could, and a cooking pot was among the things a family might take.
 
 ## Panel 11: Two Kitchens, One Recipe Box
-<!-- ![A split-screen of two kitchens across a sea, a refugee cook in Greece and the descendant of a Cretan Muslim family in Turkey, both stirring pots by a window](./panel-11.png) -->
+![A split-screen of two kitchens across a sea, a refugee cook in Greece and the descendant of a Cretan Muslim family in Turkey, both stirring pots by a window](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -307,7 +307,7 @@ In the left kitchen, the woman of the family from the quay, now seen from behind
 Greece takes in about 1.2 million refugees, in a country of about five million, and whole new neighborhoods go up around Athens and Piraeus named for the places the refugees lost: Nea Smyrni, "New Smyrna," among them. The refugees carry Anatolian cooking with them; *soutzoukakia smyrneika*, meatballs in tomato sauce with cumin, are named for Smyrna. On the other shore, many Muslim families from Crete settle on the Turkish Aegean coast, where Cretan dishes and Greek words survive in their grandchildren's kitchens. Recipes cross the sea in both directions, and so do the grief and the resilience that cooked them.
 
 ## Panel 12: One Table, Two Languages
-<!-- ![A taverna table set with a stuffed eggplant and a slice of moussaka, two travelers seen from behind sitting at it](./panel-12.png) -->
+![A taverna table set with a stuffed eggplant and a slice of moussaka, two travelers seen from behind sitting at it](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

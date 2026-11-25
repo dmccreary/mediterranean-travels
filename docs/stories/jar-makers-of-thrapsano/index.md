@@ -10,7 +10,7 @@ social:
 
 # The Jar Makers of Thrapsano
 
-<!-- ![A Minoan storeroom of giant jars on the left and a Cretan potter's workshop with new jars on the right, joined by one golden line of light](./cover.png) -->
+![A Minoan storeroom of giant jars on the left and a Cretan potter's workshop with new jars on the right, joined by one golden line of light](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -71,7 +71,7 @@ In the long storerooms of Knossos, behind the Throne Room, clay jars taller than
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Long Storeroom
-<!-- ![A long, dim Minoan storeroom lined with human-tall clay jars, a storekeeper walking down the aisle with a lamp](./panel-01.png) -->
+![A long, dim Minoan storeroom lined with human-tall clay jars, a storekeeper walking down the aisle with a lamp](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -83,7 +83,7 @@ Please generate a 16:9 image in the style above depicting panel 1 of 10. Setting
 About 1450 BCE, on the west side of the palace at Knossos, a long, narrow storeroom runs away into shadow. Along both walls stand *pithoi* (PITH-oy; one jar is a *pithos*), clay jars taller than the people who tend them. A storekeeper walks the aisle with a small lamp, counting. The air is cool, and it smells of oil and clay.
 
 ## Panel 2: Filling the Jar
-<!-- ![Porters pouring oil from pointed jars through a funnel into a giant pithos, with a tiny owl on the rim of a far jar](./panel-02.png) -->
+![Porters pouring oil from pointed jars through a funnel into a giant pithos, with a tiny owl on the rim of a far jar](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -96,7 +96,7 @@ Porters bring the harvest in smaller, pointed jars and pour it through a funnel 
 > **Myth or Evidence?** The raised bands and handles are documented on the jars themselves. That the bands imitate the ropes used to move the jars is a reasonable suggestion, not a certainty.
 
 ## Panel 3: The Tally
-<!-- ![A scribe pressing marks into a clay tablet beside a giant jar, with porters carrying baskets in the background](./panel-03.png) -->
+![A scribe pressing marks into a clay tablet beside a giant jar, with porters carrying baskets in the background](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -107,7 +107,7 @@ Please generate a 16:9 image in the style above depicting panel 3 of 10. Setting
 A jar of oil is wealth only if someone writes it down. The storekeeper presses a few signs and numbers into a damp clay tablet: the product, the amount, the place it came from. This is the palace economy, in which goods flow into a center and out again as rations, wages, gifts and offerings. The tablets we can read, written in Linear B, date from about 1450 BCE onward; they are bookkeeping, not literature.
 
 ## Panel 4: The Traveling Workshop
-<!-- ![A team of potters leading mules up a dirt track into a Cretan village, past a clay bank and olive trees](./panel-04.png) -->
+![A team of potters leading mules up a dirt track into a Cretan village, past a clay bank and olive trees](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -118,7 +118,7 @@ Please generate a 16:9 image in the style above depicting panel 4 of 10. Setting
 In the past, teams of Thrapsano potters traveled the island through the summer. They set up temporary workshops wherever they found good clay and firewood, and they made jars for the villages around them. A village that needs a dozen big jars does not have to haul them up the mountain; the potters bring the workshop instead.
 
 ## Panel 5: One Band at a Time
-<!-- ![A potter adding a thick band of wet clay to a half-built jar while the apprentice looks on](./panel-05.png) -->
+![A potter adding a thick band of wet clay to a half-built jar while the apprentice looks on](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -129,7 +129,7 @@ Please generate a 16:9 image in the style above depicting panel 5 of 10. Setting
 A very large jar cannot be made in one piece. The potter adds a band of clay, lets it stiffen, then adds the next, and the wall of the jar climbs a hand-width at a time. The Minoan potters worked in stages too, in coils or sections. In the workshop, the old rule is the same: patience first, height second.
 
 ## Panel 6: The Turning Wheel
-<!-- ![The apprentice turning a low wheel while the potter shapes the tall jar wall with wet hands](./panel-06.png) -->
+![The apprentice turning a low wheel while the potter shapes the tall jar wall with wet hands](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -140,7 +140,7 @@ Please generate a 16:9 image in the style above depicting panel 6 of 10. Setting
 In the traditional way of working, one person turns the wheel while the other shapes the wall, and the two have to trust each other. The apprentice's job is to keep the rhythm; the potter's job is to read the clay. Nobody writes the method down. It lives in the hands of whoever has done it a thousand times.
 
 ## Panel 7: Gray Pots in the Shade
-<!-- ![Rows of freshly made gray pots and jars drying in the shade, with the potter and apprentice lifting one onto a shelf](./panel-07.png) -->
+![Rows of freshly made gray pots and jars drying in the shade, with the potter and apprentice lifting one onto a shelf](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -151,7 +151,7 @@ Please generate a 16:9 image in the style above depicting panel 7 of 10. Setting
 Rows of freshly made pots stand drying in the shade, still gray, waiting for the kiln that will turn them the orange of terracotta. This is what we saw on the day. The pots look finished and are not: a jar that dries too fast, or sits in a draft, can crack before it ever meets fire.
 
 ## Panel 8: Fire
-<!-- ![A brick kiln glowing orange at dusk, flames at its stoking mouth, the potter and apprentice standing back at a respectful distance](./panel-08.png) -->
+![A brick kiln glowing orange at dusk, flames at its stoking mouth, the potter and apprentice standing back at a respectful distance](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -162,7 +162,7 @@ Please generate a 16:9 image in the style above depicting panel 8 of 10. Setting
 Fire turns clay into pottery, and at this size it takes real skill: the kiln must climb to a high heat slowly and hold it, and then cool slowly too. We saw pots waiting for the kiln, not a firing, so this panel shows the step we did not witness. Overnight the gray jars become terracotta orange, and by morning the potter knows which ones survived.
 
 ## Panel 9: The Wine and the Jar
-<!-- ![A winery tasting room with oak barrels, a host pouring wine for two travelers seen from behind](./panel-09.png) -->
+![A winery tasting room with oak barrels, a host pouring wine for two travelers seen from behind](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -173,7 +173,7 @@ Please generate a 16:9 image in the style above depicting panel 9 of 10. Setting
 Before the potters, there is a glass of Cretan wine. Crete grows wine grapes found almost nowhere else, and the Minoans made wine here too: a Minoan country house at Vathypetro still has its stone wine press. Sitting with a glass a few hours after standing beside the palace jars, the morning's word "redistribution" suddenly makes sense. The wine was the wealth, and the jar was the bank.
 
 ## Panel 10: Then and Now
-<!-- ![A split view: Minoan storeroom of giant jars on the left, a modern Cretan pottery workshop with a new jar of the same shape on the right](./panel-10.png) -->
+![A split view: Minoan storeroom of giant jars on the left, a modern Cretan pottery workshop with a new jar of the same shape on the right](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

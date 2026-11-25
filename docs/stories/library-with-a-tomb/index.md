@@ -10,7 +10,7 @@ social:
 
 # The Library With a Tomb in the Basement
 
-<!-- ![The marble façade of the Library of Celsus glowing at sunset, with the title in bold hand-lettering](./cover.png) -->
+![The marble façade of the Library of Celsus glowing at sunset, with the title in bold hand-lettering](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -68,7 +68,7 @@ Most families remember their dead with a statue or a carved stone. In about 110 
 
 ## Panel 1: A Funeral at the Foot of the Hill
 
-<!-- ![A funeral procession crosses the marble square at the foot of Curetes Street while a green hillside waits, empty](./panel-01.png) -->
+![A funeral procession crosses the marble square at the foot of Curetes Street while a green hillside waits, empty](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -81,7 +81,7 @@ About 110 CE, a funeral crosses the marble square at the foot of Curetes Street 
 
 ## Panel 2: The Empty Chair
 
-<!-- ![Aquila stands beside his father's empty chair in a lamp-lit study](./panel-02.png) -->
+![Aquila stands beside his father's empty chair in a lamp-lit study](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -93,7 +93,7 @@ After the mourners leave, the study is quiet, and the chair at the desk is empty
 
 ## Panel 3: The Will
 
-<!-- ![Aquila and an architect study a plan of a two-story façade beside a sealed will and stacks of silver coins](./panel-03.png) -->
+![Aquila and an architect study a plan of a two-story façade beside a sealed will and stacks of silver coins](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -105,7 +105,7 @@ Aquila begins the building around 110 CE and, the chapter tells us, leaves money
 
 ## Panel 4: The Façade Rises
 
-<!-- ![Masons and a treadwheel crane raise the half-built façade of the library](./panel-04.png) -->
+![Masons and a treadwheel crane raise the half-built façade of the library](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -117,7 +117,7 @@ The library goes up in marble: two stories of paired columns topped with richly 
 
 ## Panel 5: Wisdom, Excellence, Thought, Knowledge
 
-<!-- ![The finished façade with four statues in its niches and a crowd climbing the steps](./panel-05.png) -->
+![The finished façade with four statues in its niches and a crowd climbing the steps](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -129,7 +129,7 @@ Four statues stand in the niches of the lower story, each labeled in Greek with 
 
 ## Panel 6: Twelve Thousand Scrolls
 
-<!-- ![Readers and a librarian in the tall reading room lined with scroll cupboards](./panel-06.png) -->
+![Readers and a librarian in the tall reading room lined with scroll cupboards](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -143,7 +143,7 @@ Inside, the reading room is a single hall with niches in its walls for wooden cu
 
 ## Panel 7: The Chamber Below
 
-<!-- ![Aquila stands before a marble sarcophagus in a quiet vaulted chamber](./panel-07.png) -->
+![Aquila stands before a marble sarcophagus in a quiet vaulted chamber](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -155,7 +155,7 @@ Below the reading room, in a chamber of its own, lies the reason for the whole b
 
 ## Panel 8: Shoulder to Shoulder
 
-<!-- ![Clothed citizens chat on marble benches around a sunny courtyard in the public latrines](./panel-08.png) -->
+![Clothed citizens chat on marble benches around a sunny courtyard in the public latrines](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -169,7 +169,7 @@ A few steps from the library, the city's other kind of public space does a diffe
 
 ## Panel 9: Socrates on the Wall
 
-<!-- ![A host and guests dine beneath a painted portrait of a bald, bearded philosopher](./panel-09.png) -->
+![A host and guests dine beneath a painted portrait of a bald, bearded philosopher](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -181,7 +181,7 @@ Up the street, wealthy families live in the terrace houses, and their walls tell
 
 ## Panel 10: The Sea Walks Away
 
-<!-- ![A harbor clouded with river silt, with dredging crews and a stranded ship](./panel-10.png) -->
+![A harbor clouded with river silt, with dredging crews and a stranded ship](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -193,7 +193,7 @@ The trouble with the harbor is already old when Aquila builds. The river we now 
 
 ## Panel 11: Fire, Earthquake, Grass
 
-<!-- ![The ruined library square with fallen columns, grass, a shepherd and a distant marsh](./panel-11.png) -->
+![The ruined library square with fallen columns, grass, a shepherd and a distant marsh](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -205,7 +205,7 @@ The library burns in the 3rd century CE, and an earthquake later brings down the
 
 ## Panel 12: Put Back Together
 
-<!-- ![Two travelers look up at the rebuilt library façade in the same square](./panel-12.png) -->
+![Two travelers look up at the rebuilt library façade in the same square](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

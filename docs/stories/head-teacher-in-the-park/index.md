@@ -10,7 +10,7 @@ social:
 
 # The Head Teacher in the Park
 
-<!-- ![A man in a dark suit chalks letters on a portable blackboard before a crowd in an Istanbul park, with the sea behind](./cover.png) -->
+![A man in a dark suit chalks letters on a portable blackboard before a crowd in an Istanbul park, with the sea behind](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -82,7 +82,7 @@ In the summer of 1928 a head of state stands at a blackboard in a public park. H
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: Letters for Hire
-<!-- ![A street letter-writer in a flat cap writes at a folding table while a village woman dictates](./panel-01.png) -->
+![A street letter-writer in a flat cap writes at a folding table while a village woman dictates](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -96,7 +96,7 @@ Keep every character and place consistent with the other images in this story. G
 In 1927 the corner by the mosque wall is an office. A letter-writer sits at a folding table, and for a few coins he writes for people who cannot write for themselves. Ottoman Turkish is written in the Arabic script, which takes years of schooling to learn, and most people never had those years. By the census of 1927 only about one person in ten could read, far fewer among women and in villages, though the exact figure depends on what was counted.
 
 ## Panel 2: Eight Vowels, Three Letters
-<!-- ![A schoolboy frowns at a page while five small ink pictures fan out above it](./panel-02.png) -->
+![A schoolboy frowns at a page while five small ink pictures fan out above it](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -109,7 +109,7 @@ Keep every character and place consistent with the other images in this story. G
 The old script has a deeper problem than difficulty. Turkish has eight vowels, but the Arabic script has only three letters that can stand for vowels, and it normally leaves short vowels unwritten. Five common words, *kol* (arm), *kul* (servant), *kör* (blind), *gör* (see) and *gür* (abundant), end up squeezed into only two spellings, so the reader has to guess from context. A script that makes the reader guess is a script that few people master.
 
 ## Panel 3: A Summer Evening at Sarayburnu
-<!-- ![Guests gather at long tables under lanterns in Gülhane Park above the Bosphorus at dusk](./panel-03.png) -->
+![Guests gather at long tables under lanterns in Gülhane Park above the Bosphorus at dusk](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -148,7 +148,7 @@ Keep every character and place consistent with the other images in this story. G
 After Gülhane, Mustafa Kemal tours the provinces with a portable blackboard, and photographs show him chalking letters in front of crowds. On November 24, 1928, he is named Head Teacher, *Başöğretmen*, of the Nation's Schools. Turkey still celebrates that date as Teachers' Day. The name attaches to a man who is also a one-party head of state, a combination we should keep in mind.
 
 ## Panel 6: A Law and a Printing Shop
-<!-- ![Compositors replace old type cases with new Latin-letter cases in a newspaper print shop](./panel-06.png) -->
+![Compositors replace old type cases with new Latin-letter cases in a newspaper print shop](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -161,7 +161,7 @@ Keep every character and place consistent with the other images in this story. G
 The Grand National Assembly passes the alphabet law on November 1, 1928, and the old script is banned from public use. Newspapers switch to the new letters from December 1, government offices follow in the following months, and printing books in the Arabic script ends. Overnight, a trade built on one script must learn another. Behind every print shop, schools and teachers will be needed to teach the people who read what it prints.
 
 ## Panel 7: School in a Coffeehouse
-<!-- ![Adults sit on coffeehouse benches with slates while a young teacher chalks at a blackboard](./panel-07.png) -->
+![Adults sit on coffeehouse benches with slates while a young teacher chalks at a blackboard](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -174,7 +174,7 @@ Keep every character and place consistent with the other images in this story. G
 On January 1, 1929, the Nation's Schools open: free adult literacy classes, held in the evenings in school buildings, coffeehouses and village rooms. Adults roughly between 16 and 45 who cannot read are expected to attend a few months of classes and earn a certificate when they pass. Even soldiers learn in the army. Beside the backgammon boards of the old coffeehouses, a new kind of conversation begins.
 
 ## Panel 8: A Lamp in the Village Room
-<!-- ![A teacher leads a lamplit village room of adults with slates, with men in front and women behind](./panel-08.png) -->
+![A teacher leads a lamplit village room of adults with slates, with men in front and women behind](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -187,7 +187,7 @@ Keep every character and place consistent with the other images in this story. G
 By the government's own count, more than a million adults earn certificates in the schools' first years. The count does not tell the whole story. The classes reach towns faster than villages and men faster than women, and many adults who pass lose the skill because they have no books to practice on. Learning for All meets its limits in a village room with one lamp, one teacher and not enough hours.
 
 ## Panel 9: The Sign Read Aloud
-<!-- ![An imagined grandmother points up at a street sign while her granddaughter looks up with her](./panel-09.png) -->
+![An imagined grandmother points up at a street sign while her granddaughter looks up with her](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -200,7 +200,7 @@ Keep every character and place consistent with the other images in this story. G
 Decades later, an imagined grandmother who learned to read in 1929 stands at the same corner, reading a street sign aloud to her granddaughter. For her that moment was once impossible. The cost is on the other side of the ledger: the girl's generation can no longer read the letters her great-grandparents wrote, or the inscriptions on old fountains and gravestones. This scene is invented, but the pride and the loss it shows were real for many families.
 
 ## Panel 10: Then and Now: Sounding It Out
-<!-- ![Two travelers sound out a street sign on a corner beside an Istanbul mosque wall](./panel-10.png) -->
+![Two travelers sound out a street sign on a corner beside an Istanbul mosque wall](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

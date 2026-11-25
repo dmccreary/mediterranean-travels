@@ -10,7 +10,7 @@ social:
 
 # Halfdan Was Here
 
-<!-- ![A Norse guard's hand scratching runes into a marble railing beneath the huge golden dome of Hagia Sophia, with Glaux on a nearby capital](./cover.png) -->
+![A Norse guard's hand scratching runes into a marble railing beneath the huge golden dome of Hagia Sophia, with Glaux on a nearby capital](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -66,7 +66,7 @@ In January 532 CE the center of Constantinople is on fire, and the emperor Justi
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Ashes of Nika
-<!-- ![Smoke over the burned center of Constantinople and the blackened shell of the old church of Hagia Sophia](./panel-01.png) -->
+![Smoke over the burned center of Constantinople and the blackened shell of the old church of Hagia Sophia](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -79,7 +79,7 @@ Keep every character and place consistent with the other images in this story. G
 In January 532 CE the Nika riots, whose rallying cry means "Conquer!", burn the center of Constantinople for a week. The Hagia Sophia of the day, the city's cathedral, is a blackened shell. Citizens pick through the ashes in silence beneath a gray sky. Justinian has survived the uprising, but the city he rules is in ruins.
 
 ## Panel 2: An Emperor Decides
-<!-- ![Justinian on a palace terrace at dusk with two scholars, looking over the burned ruins](./panel-02.png) -->
+![Justinian on a palace terrace at dusk with two scholars, looking over the burned ruins](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -93,7 +93,7 @@ Keep every character and place consistent with the other images in this story. G
 Justinian stands on a palace terrace and looks at the ashes. Instead of choosing a master builder, he sends for two scholars: Anthemius of Tralles, a mathematician, and Isidore of Miletus, a geometer. He asks for a church unlike any in the world. According to the book's chapter, work begins on February 23, 532, only five weeks after the fires.
 
 ## Panel 3: Drawing a Dome
-<!-- ![Close view of Anthemius and Isidore drawing circles and curved triangles beside a small wooden dome model](./panel-03.png) -->
+![Close view of Anthemius and Isidore drawing circles and curved triangles beside a small wooden dome model](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -106,7 +106,7 @@ Keep every character and place consistent with the other images in this story. G
 The two scholars face a geometry problem: how to set a round dome on a square room. Their answer is the pendentive, a curved triangle of masonry that fills each corner between two arches. On a table, Anthemius draws circles and Isidore turns a small wooden model so the light falls from the right side. The dome they plan is shallower than the one we see today.
 
 ## Panel 4: Six Years of Stone
-<!-- ![A vast building site with scaffolding, workers, ox-carts and great arches rising](./panel-04.png) -->
+![A vast building site with scaffolding, workers, ox-carts and great arches rising](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -120,7 +120,7 @@ Keep every character and place consistent with the other images in this story. G
 Thousands of workers pour onto the site. Ox-carts bring marble and brick from across the empire, masons set great piers, and carpenters raise timber scaffolding taller than a ship's mast. The church goes up fast, in less than six years, and the whole city can watch it grow. Somewhere in the crowd, a small figure of the emperor appears to inspect the work.
 
 ## Panel 5: The Ring of Light
-<!-- ![Masons on scaffolding close the dome while light pours through a ring of forty windows](./panel-05.png) -->
+![Masons on scaffolding close the dome while light pours through a ring of forty windows](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -134,7 +134,7 @@ Keep every character and place consistent with the other images in this story. G
 At last the dome closes. Masons on scaffolding lay the final courses, and below them forty arched windows open around the base, letting daylight pour in. Seen from the floor, the light hides the supports, so the dome seems to float. Isidore of Miletus watches from below with his plan in hand.
 
 ## Panel 6: The Dedication
-<!-- ![Justinian entering the finished church beneath the glowing dome in candlelit procession](./panel-06.png) -->
+![Justinian entering the finished church beneath the glowing dome in candlelit procession](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -150,7 +150,7 @@ On December 27, 537, Justinian enters the finished church in procession, candles
 > **Myth or Evidence?** Legend. The line "Solomon, I have outdone thee" first appears in an anonymous text called the Diegesis, written about three hundred years after Justinian. Procopius, who wrote in the 550s, and Paul the Silentiary, who wrote in 563, do not mention it. The dedication on December 27, 537 is documented.
 
 ## Panel 7: A Golden Chain from Heaven
-<!-- ![The historian Procopius looking up at the glowing dome while holding a blank scroll](./panel-07.png) -->
+![The historian Procopius looking up at the glowing dome while holding a blank scroll](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -164,7 +164,7 @@ Keep every character and place consistent with the other images in this story. G
 A historian named Procopius stands in the nave and looks up. He will write that the dome seems not to rest on stone at all but to hang from heaven by a golden chain. He is writing for the emperor, so we read his praise with that in mind, but the sensation he describes is what visitors still feel.
 
 ## Panel 8: The Dome Falls
-<!-- ![Rubble and a shaft of daylight in the nave after the eastern part of the dome collapses, with Isidore the Younger studying a plan](./panel-08.png) -->
+![Rubble and a shaft of daylight in the nave after the eastern part of the dome collapses, with Isidore the Younger studying a plan](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -178,7 +178,7 @@ Keep every character and place consistent with the other images in this story. G
 Earthquakes weaken the shallow dome, and in May 558 its eastern part comes down. Isidore the Younger, nephew of the original designer, raises the new dome about six or seven meters higher, so that its steeper curve pushes outward less. The rebuilt dome is dedicated in 562.
 
 ## Panel 9: Men from the North
-<!-- ![Norse guards of the Varangian Guard in blue tunics stand with axes before Hagia Sophia, with Halfdan in front](./panel-09.png) -->
+![Norse guards of the Varangian Guard in blue tunics stand with axes before Hagia Sophia, with Halfdan in front](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -192,7 +192,7 @@ Keep every character and place consistent with the other images in this story. G
 Centuries pass. By about the year 1000 the emperors keep a bodyguard of tall foreign soldiers, many of them from Scandinavia and Rus, called the Varangian Guard. On a feast day a line of them in blue tunics and polished helmets stands before the great church. One of them, whom we will call Halfdan, studies the dome overhead with the attention of a man who has seen a lot of ceilings.
 
 ## Panel 10: The Long Service
-<!-- ![Halfdan standing at a marble balustrade in the upper gallery while candles glow in the nave below, with Glaux on a column capital](./panel-10.png) -->
+![Halfdan standing at a marble balustrade in the upper gallery while candles glow in the nave below, with Glaux on a column capital](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -207,7 +207,7 @@ Keep every character and place consistent with the other images in this story. G
 Inside, the service goes on and on. The guard stands in the upper gallery, above the candlelit nave, resting his axe against the marble railing. Below, chanting rolls up to the dome and the incense smoke drifts through the shafts of light. Halfdan has been on his feet for hours, and his mind wanders to a village far to the north.
 
 ## Panel 11: A Knife and a Railing
-<!-- ![Close detail of a hand scratching angular marks into marble with a knife point](./panel-11.png) -->
+![Close detail of a hand scratching angular marks into marble with a knife point](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -223,7 +223,7 @@ The guard takes out a small knife, glances around, and begins to scratch into th
 > **Myth or Evidence?** Evidence, with limits. Runic graffiti survive on the marble railing of the upper south gallery. Scholars usually read them as a Norse name, Halfdan, and the line is often rendered as 'Halfdan was here.' The date is debated, roughly between 800 and 1100 CE. We do not know whether Halfdan was a guard, a merchant or a visitor; the Varangian Guard, formed around 988, is a plausible but unproven context.
 
 ## Panel 12: Find the Runes
-<!-- ![Two travelers seen from behind leaning over the same gallery railing in the church today](./panel-12.png) -->
+![Two travelers seen from behind leaning over the same gallery railing in the church today](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

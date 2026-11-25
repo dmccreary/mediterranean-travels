@@ -10,7 +10,7 @@ social:
 
 # The Knights' Last Stand
 
-<!-- ![Crimson banners over the battered walls of Rhodes under drifting smoke, with the title in bold hand-lettering](./cover.png) -->
+![Crimson banners over the battered walls of Rhodes under drifting smoke, with the title in bold hand-lettering](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -88,7 +88,7 @@ In 1522 the Knights Hospitaller, a Catholic order that began as a hospital for p
 
 ## Panel 1: The Knights Arrive
 
-<!-- ![Crimson-bannered galleys land at the harbor of Rhodes beneath a Byzantine citadel](./panel-01.png) -->
+![Crimson-bannered galleys land at the harbor of Rhodes beneath a Byzantine citadel](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -101,7 +101,7 @@ Between 1306 and 1310 the knights conquer Rhodes from the Byzantines. They are t
 
 ## Panel 2: An Inn for Every Tongue
 
-<!-- ![Masons carve coats of arms over the doors of the inns on a new street](./panel-02.png) -->
+![Masons carve coats of arms over the doors of the inns on a new street](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -113,7 +113,7 @@ The knights come from all over Catholic Europe and are organized into national g
 
 ## Panel 3: Walls for the Age of Cannon
 
-<!-- ![Masons build thick, low bastions beside an older tall tower above a widened moat](./panel-03.png) -->
+![Masons build thick, low bastions beside an older tall tower above a widened moat](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -125,7 +125,7 @@ Cannon change everything. After surviving a siege in 1480 by the army of Mehmed 
 
 ## Panel 4: The Fleet Appears
 
-<!-- ![Hundreds of Ottoman ships fill the sea off Rhodes as defenders look on from the walls](./panel-04.png) -->
+![Hundreds of Ottoman ships fill the sea off Rhodes as defenders look on from the walls](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -137,7 +137,7 @@ In late June 1522 an Ottoman fleet of perhaps 300 to 400 ships lands an army on 
 
 ## Panel 5: The Sultan Takes Command
 
-<!-- ![The young sultan looks toward the walls from before a golden command tent](./panel-05.png) -->
+![The young sultan looks toward the walls from before a golden command tent](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -149,7 +149,7 @@ At the end of July the young Sultan Suleiman arrives to take command in person, 
 
 ## Panel 6: Cannon and Smoke
 
-<!-- ![Cannon smoke rises over the broken parapet while defenders carry stones to the wall](./panel-06.png) -->
+![Cannon smoke rises over the broken parapet while defenders carry stones to the wall](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -161,7 +161,7 @@ The Ottomans bombard the walls with heavy cannon, but at first they do not try t
 
 ## Panel 7: The Mouths of the Tunnels
 
-<!-- ![Miners carry soil and timber props into dark tunnel mouths in the earthen mound outside the walls](./panel-07.png) -->
+![Miners carry soil and timber props into dark tunnel mouths in the earthen mound outside the walls](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -173,7 +173,7 @@ Teams of Ottoman miners tunnel under the walls to blow them up with gunpowder, a
 
 ## Panel 8: Listening
 
-<!-- ![A knight listens beside a trembling drum while a little owl watches from a beam](./panel-08.png) -->
+![A knight listens beside a trembling drum while a little owl watches from a beam](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -187,7 +187,7 @@ The defenders listen for the digging, some say with drums whose skins tremble at
 
 ## Panel 9: Where the Tunnels Meet
 
-<!-- ![Two tunnels meet with a hole of orange light between them as defenders crouch with tools at rest](./panel-09.png) -->
+![Two tunnels meet with a hole of orange light between them as defenders crouch with tools at rest](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -199,7 +199,7 @@ Underground, the siege becomes a game of nerves. When a countermine meets an ene
 
 ## Panel 10: September 24
 
-<!-- ![A smoking breach in the wall with abandoned ladders and the order's banners still flying](./panel-10.png) -->
+![A smoking breach in the wall with abandoned ladders and the order's banners still flying](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -211,7 +211,7 @@ Assaults through the breaches in September culminate in a great general assault 
 
 ## Panel 11: The Terms
 
-<!-- ![The Grand Master reads a sealed letter of terms before an Ottoman envoy in a cold council chamber](./panel-11.png) -->
+![The Grand Master reads a sealed letter of terms before an Ottoman envoy in a cold council chamber](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -223,7 +223,7 @@ By December the walls are broken in many places, and on December 20 the Grand Ma
 
 ## Panel 12: January 1, 1523
 
-<!-- ![The knights' galleys leave the harbor between lines of Ottoman soldiers on the quay](./panel-12.png) -->
+![The knights' galleys leave the harbor between lines of Ottoman soldiers on the quay](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -235,7 +235,7 @@ On January 1, 1523 the knights sail out with several thousand Rhodians. After se
 
 ## Panel 13: The Palace the Italians Built
 
-<!-- ![Italian builders on timber scaffolding rebuild the palace from ruin in the 1930s](./panel-13.png) -->
+![Italian builders on timber scaffolding rebuild the palace from ruin in the 1930s](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -247,7 +247,7 @@ The palace that visitors tour is mostly not medieval. In 1856, under Ottoman rul
 
 ## Panel 14: Walking the Street Today
 
-<!-- ![Two travelers walk up the Street of the Knights toward the palace](./panel-14.png) -->
+![Two travelers walk up the Street of the Knights toward the palace](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

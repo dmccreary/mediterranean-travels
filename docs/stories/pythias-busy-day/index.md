@@ -10,7 +10,7 @@ social:
 
 # The Pythia's Busy Day
 
-<!-- ![A white-robed priestess with a laurel branch stands before the Temple of Apollo at Delphi while tiny pilgrims climb the Sacred Way beneath the cliffs of Mount Parnassus](./cover.png) -->
+![A white-robed priestess with a laurel branch stands before the Temple of Apollo at Delphi while tiny pilgrims climb the Sacred Way beneath the cliffs of Mount Parnassus](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -75,7 +75,7 @@ On a handful of days each year, a god is said to answer questions at Delphi. The
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Road Up Parnassus
-<!-- ![A weary farmer on the hill road looks up at the Temple of Apollo above the Sacred Way at Delphi](./panel-01.png) -->
+![A weary farmer on the hill road looks up at the Temple of Apollo above the Sacred Way at Delphi](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -124,7 +124,7 @@ The Pythia has been up before the pilgrims. She bathes in the spring, and tradit
 > **Myth or Evidence?** Picture a calm woman, not a raving one. The image of a foaming, writhing Pythia comes mostly from the Roman poet Lucan and from later painters. Plutarch, who knew the Pythias personally, and a cup painted in Athens about 440 BCE both show a calm woman speaking from her tripod.
 
 ## Panel 5: The Fee and the Sponsor
-<!-- ![The farmer counts silver coins onto a table beside a honey cake and a white goat while a Delphic sponsor looks on](./panel-05.png) -->
+![The farmer counts silver coins onto a table beside a honey cake and a white goat while a Delphic sponsor looks on](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -135,7 +135,7 @@ Keep every character and place consistent with the other images in this story. G
 Access to the god has a price. The farmer must pay a fee, the *pelanos*, a word that first meant a sacred cake and later the money paid in its place. A foreigner also needs a sponsor, a Delphic citizen called a *proxenos*, to present him. On top of the fee come the goat and the other offerings, but for most pilgrims the biggest expense was the journey itself.
 
 ## Panel 6: Will the Goat Shiver?
-<!-- ![Priests sprinkle cold water on a white goat before the temple altar while a crowd waits and a small owl watches from a statue base](./panel-06.png) -->
+![Priests sprinkle cold water on a white goat before the temple altar while a crowd waits and a small owl watches from a statue base](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -148,7 +148,7 @@ Before the oracle can speak, the god must be shown to be present. Priests sprink
 > **Myth or Evidence?** The goat test and the other steps come from Plutarch, Herodotus, Euripides and inscriptions, pieced together by modern scholars. No ancient writer sets out the whole procedure in one place, so the order of events here is a reconstruction.
 
 ## Panel 7: Walking Past the Line
-<!-- ![Two Lydian envoys carrying a gold bowl are waved to the front of a long line while the farmer watches from behind them](./panel-07.png) -->
+![Two Lydian envoys carrying a gold bowl are waved to the front of a long line while the farmer watches from behind them](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -159,7 +159,7 @@ Keep every character and place consistent with the other images in this story. G
 Some visitors never wait. Herodotus says that after Croesus sent his lavish gifts, the Delphians granted him and every Lydian forever the right to consult first, freedom from fees, front seats at festivals and even citizenship. The envoys of King Croesus walk past the farmer without a glance. The oracle is open to everyone, but not to everyone equally, and the difference is bought with gold.
 
 ## Panel 8: The King's Question
-<!-- ![In the inner chamber, the Pythia sits on a bronze tripod before a gilded statue of Apollo while Lydian envoys kneel with their backs to us](./panel-08.png) -->
+![In the inner chamber, the Pythia sits on a bronze tripod before a gilded statue of Apollo while Lydian envoys kneel with their backs to us](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -170,7 +170,7 @@ Keep every character and place consistent with the other images in this story. G
 Croesus has already tested the oracles. Herodotus says he sent envoys to seven, with orders to ask on the hundredth day what the king was doing at that moment, and only Delphi named the strange meal he had chosen: a tortoise boiled with lamb in a bronze pot. Satisfied, Croesus sent gifts and then the real question: should he make war on the Persians? In the inner chamber the Pythia answers, as Herodotus tells it, that if Croesus attacks Persia he will destroy a great empire, and that he should find the most powerful Greeks as allies.
 
 ## Panel 9: The Lot Jar
-<!-- ![As afternoon light turns amber, the farmer draws a pebble from a bronze jar on the temple steps](./panel-09.png) -->
+![As afternoon light turns amber, the farmer draws a pebble from a bronze jar on the temple steps](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -181,7 +181,7 @@ Keep every character and place consistent with the other images in this story. G
 Those without a special privilege take their turn by lot. The farmer draws a pebble from the jar, and the sun slides toward the cliffs while he waits. If the line is long, a visitor might not be heard that month at all. He rehearses his question under his breath, because a god, the Greeks said, can only answer the question we actually ask.
 
 ## Panel 10: A Plain Answer for a Plain Question
-<!-- ![In the inner chamber, the farmer kneels at the hearth as the Pythia, calm on her tripod, gives her answer](./panel-10.png) -->
+![In the inner chamber, the farmer kneels at the hearth as the Pythia, calm on her tripod, gives her answer](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -192,7 +192,7 @@ Keep every character and place consistent with the other images in this story. G
 When his turn comes, the farmer asks the sort of question ordinary people asked of oracles: is it better and more good for me to plant olives? At Dodona, the oracle of Zeus, more than 4,000 lead tablets survive with questions like this one. The answer, as the Delphic answers recorded closest to their time tend to be, is short and practical: an approval or a command, with no riddle. He steps back into the daylight with nothing to decode and a road to walk home.
 
 ## Panel 11: News Reaches Sardis
-<!-- ![In a gold-and-purple palace hall at Sardis, King Croesus smiles as his envoys report the answer](./panel-11.png) -->
+![In a gold-and-purple palace hall at Sardis, King Croesus smiles as his envoys report the answer](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -216,7 +216,7 @@ Cyrus takes Sardis and captures the king. The great empire Croesus destroyed was
 > **Myth or Evidence?** The fall of Sardis in about 546 BCE is history. The story of the answer is a tale told by Herodotus about a century later, and every famous prophecy was written down only after the event it seemed to predict. Even Croesus's end has three versions in a hundred years: a painted vase, a poem from 468 BCE and Herodotus. Treat the oracle's answer as a story that grew in the telling.
 
 ## Panel 13: Something in the Air
-<!-- ![A pale sweet haze curls from a narrow cleft in the floor of a lamp-lit waiting room while a priest sniffs the air and a pilgrim frowns](./panel-13.png) -->
+![A pale sweet haze curls from a narrow cleft in the floor of a lamp-lit waiting room while a priest sniffs the air and a pilgrim frowns](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

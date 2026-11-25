@@ -10,7 +10,7 @@ social:
 
 # The Computer at the Bottom of the Sea
 
-<!-- ![A corroded bronze gear wheel glowing in the dark water beneath an ancient cargo ship, with the title in bold hand-lettering](./cover.png) -->
+![A corroded bronze gear wheel glowing in the dark water beneath an ancient cargo ship, with the title in bold hand-lettering](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -100,7 +100,7 @@ In a glass case in the National Archaeological Museum in Athens lies something t
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: A Ship Heavy with Treasure
-<!-- ![A heavily loaded ancient cargo ship sailing toward a rocky island under gathering clouds](./panel-01.png) -->
+![A heavily loaded ancient cargo ship sailing toward a rocky island under gathering clouds](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -117,7 +117,7 @@ The ship fills the center of the frame, sailing from right to left with her bow 
 About 65 BCE, a heavily loaded merchant ship works across the Aegean, probably bound west for Italy. Her cargo is a floating museum: bronze and marble statues, glass, fine pottery, jewelry and coins from Pergamon and Ephesus, which is how scholars date the voyage to about 70-60 BCE. Somewhere among the crates travels a wooden box about the size of a shoebox, already decades old. Nobody knows who ordered it, who carried it, or where it was going.
 
 ## Panel 2: The Cargo Settles
-<!-- ![The wreck on the seabed, with amphorae, a marble horse's head and a half-buried wooden box glinting with bronze](./panel-02.png) -->
+![The wreck on the seabed, with amphorae, a marble horse's head and a half-buried wooden box glinting with bronze](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -130,7 +130,7 @@ The ship's broken wooden ribs and planks curve out of the sand like the ribs of 
 The storm is over, and the sea is empty. On the seabed, about 45 meters down, the wooden hull slowly gives way and the cargo comes to rest in the sand: amphorae, statues, glass, and the small box with its bronze inside. Salt water begins its slow work on the metal, turning it into a crust of corrosion. Because the wreck stays buried, it escapes the fate of nearly all ancient bronze, which people melted down and reused.
 
 ## Panel 3: Sheltering from the Wind
-<!-- ![A sponge-fishing boat anchored in a rocky cove while two crewmen help a diver into his copper helmet](./panel-03.png) -->
+![A sponge-fishing boat anchored in a rocky cove while two crewmen help a diver into his copper helmet](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -145,7 +145,7 @@ The caique rides at anchor in the lee of a dry, rocky headland with gray-green s
 In 1900, a crew of sponge divers bound for the fishing grounds off North Africa stops at the small island of Antikythera to wait out bad weather. The sea beyond the cove is too rough to sail, so they use the delay to dive. Their gear is the standard dress of the age: a waterproofed canvas suit, a copper helmet, and air pumped down a hose by crewmen turning a hand crank. They have no idea what the delay is about to give them.
 
 ## Panel 4: The Heap on the Seabed
-<!-- ![A diver in a copper helmet standing on the seabed among arms and horse heads emerging from the sand](./panel-04.png) -->
+![A diver in a copper helmet standing on the seabed among arms and horse heads emerging from the sand](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -160,7 +160,7 @@ Show only the diver in the foreground, a small slow figure in the heavy suit, st
 The first diver down comes back up in a hurry, struggling to describe what he saw on the bottom. The captain dives to see for himself and surfaces with the arm of a bronze statue. The crew finishes its fishing season, then returns to the island to dive on the heap. Hellenic Navy ships soon join the effort, and over the following months the divers bring up one of the great treasure finds of the ancient Mediterranean.
 
 ## Panel 5: Treasure on the Deck
-<!-- ![Crewmen on a boat deck gathering around a bronze arm and a marble horse's head while a crusted lump lies ignored on a coil of rope](./panel-05.png) -->
+![Crewmen on a boat deck gathering around a bronze arm and a marble horse's head while a crusted lump lies ignored on a coil of rope](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -177,7 +177,7 @@ In the center, four crewmen kneel and stand around a bronze statue laid on wet c
 The deck fills with wonders. Bronze and marble statues come up out of the sea, including a bronze youth now known as the Antikythera Youth, along with glass and coins. The crew and the officials crowd around the statues, which are obviously priceless. Nobody gives a second glance to a shoebox-sized lump of corroded bronze and wood that comes up with the rest, and it is carried off to Athens with everything else.
 
 ## Panel 6: A Storeroom Full of Fragments
-<!-- ![A busy museum storeroom in Athens in 1902, an archaeologist bending over a cracked lump in the far corner, a small owl perched on a windowsill](./panel-06.png) -->
+![A busy museum storeroom in Athens in 1902, an archaeologist bending over a cracked lump in the far corner, a small owl perched on a windowsill](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -196,7 +196,7 @@ Glaux the Little Owl: a true little owl (Athene noctua), small, round and compac
 In the National Archaeological Museum, the statues get all the attention. The crust of corrosion on the shoebox-sized lump slowly dries and cracks, and for two years the pieces sit on a table among the more glamorous finds. This is how most discoveries are lost: not by being destroyed, but by being filed under "later." One May day in 1902, Valerios Stais is studying the finds from the wreck when his eye falls on the crumbling lump.
 
 ## Panel 7: Gear Teeth
-<!-- ![Close-up of an archaeologist's face in profile with a magnifying glass, studying a cracked bronze lump that shows a toothed gear wheel](./panel-07.png) -->
+![Close-up of an archaeologist's face in profile with a magnifying glass, studying a cracked bronze lump that shows a toothed gear wheel](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -215,7 +215,7 @@ On 17 May 1902, Stais sees a gear wheel embedded in the crust: a flat disk of br
 > **Myth or Evidence?** Documented: Stais noticed the gear on 17 May 1902, suggested an astronomical clock, and most scholars thought the object too complex for its period. Retelling: popular accounts often add a dramatic moment of the lump "splitting open"; the sources say only that the corroded crust cracked and shrank as it dried. The mechanism itself is simply evidence that Greek makers could cut gears.
 
 ## Panel 8: The Man Who Counted Teeth
-<!-- ![A scholar in a tweed jacket counting gear teeth from photographs at a lamplit desk](./panel-08.png) -->
+![A scholar in a tweed jacket counting gear teeth from photographs at a lamplit desk](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -230,7 +230,7 @@ Price sits hunched at an overflowing desk. Spread across it are black-and-white 
 The lump keeps its secret until the British science historian Derek de Solla Price, a professor at Yale, becomes fascinated by it in 1951. He studies the photographs, counts tooth after tooth, and in 1959 publishes an article calling it an "ancient Greek computer." He knows the photographs are not enough. To count teeth that are hidden inside the crust, he needs to see inside the stone itself.
 
 ## Panel 9: Seeing Inside the Crust
-<!-- ![A scholar and a physicist in a lead-shielded room positioning a bronze fragment beneath an X-ray tube](./panel-09.png) -->
+![A scholar and a physicist in a lead-shielded room positioning a bronze fragment beneath an X-ray tube](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -247,7 +247,7 @@ On the padded table sits the cracked bronze fragment, no bigger than a hand, wit
 In 1971, Price works with a Greek physicist, Charalampos Karakalos, in Athens. They take X-ray and gamma-ray images of all 82 fragments, laying each on film and exposing it. Each plate shows a faint ghost of the hidden structure: wheels within wheels, as if the crust had been made transparent. The pictures are blurry, but they show far more than anyone has seen before.
 
 ## Panel 10: A Wall of Gray Wheels
-<!-- ![A scholar in front of a wall of X-ray films and tracing paper beside a small cardboard-and-wire model of gears](./panel-10.png) -->
+![A scholar in front of a wall of X-ray films and tracing paper beside a small cardboard-and-wire model of gears](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -264,7 +264,7 @@ Price stands seen from behind and slightly to one side, hands on hips. In front 
 Over the next years Price turns the shadows into numbers and the numbers into a gear train. In 1974 he publishes his conclusion: the box was a calendar-computer, a machine that modeled the movements of the Sun and Moon. Later researchers will correct many of his tooth counts, and add far more, but he has changed the question from "what is this lump?" to "how did they make it?"
 
 ## Panel 11: The Scanner Comes to the Museum
-<!-- ![A huge industrial CT scanner installed in a museum workroom, with three researchers and a conservator around its open door](./panel-11.png) -->
+![A huge industrial CT scanner installed in a museum workroom, with three researchers and a conservator around its open door](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -281,7 +281,7 @@ Dominating the center is a huge, boxy, steel-gray industrial scanner with a heav
 In 2005 an international team, with scientists from Britain and Greece and the museum's own conservators, hauls a huge CT scanner into the museum. CT stands for computed tomography: the scanner takes hundreds of X-ray slices from every angle and a computer builds them into a 3D picture. A fragment too fragile to clean can now be seen layer by layer, in far more detail than any X-ray plate could show.
 
 ## Panel 12: Letters Hidden in the Metal
-<!-- ![A glowing computer screen showing a scanned slice of a fragment with rows of tiny engraved marks, three researchers leaning in to look](./panel-12.png) -->
+![A glowing computer screen showing a scanned slice of a fragment with rows of tiny engraved marks, three researchers leaning in to look](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -298,7 +298,7 @@ The three of them crowd close in profile, faces lit by the screen, looking at an
 The scans reveal what no one could see: thousands of tiny Greek letters, engraved over the surfaces of the box as a built-in user's manual. The text describes dials for the Sun and Moon, a spiral of 223 lunar months that predicts eclipses, and a dial that tracks the cycle of the Games, including the Olympic festival. The mechanism is not a clock and not a toy: it is a machine for reading the future of the sky. Turn the crank, and the dials show an eclipse before it happens.
 
 ## Panel 13: Who Made It?
-<!-- ![A sunlit ancient bronze workshop above a harbor, two makers from behind working on a bronze gear mechanism](./panel-13.png) -->
+![A sunlit ancient bronze workshop above a harbor, two makers from behind working on a bronze gear mechanism](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

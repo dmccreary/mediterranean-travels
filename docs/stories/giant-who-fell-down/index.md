@@ -10,7 +10,7 @@ social:
 
 # The Giant Who Fell Down
 
-<!-- ![The bronze Colossus of Rhodes towering over a white city, with the title in bold hand-lettering](./cover.png) -->
+![The bronze Colossus of Rhodes towering over a white city, with the title in bold hand-lettering](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -74,7 +74,7 @@ Almost everyone has seen the picture: a giant bronze man straddling a harbor ent
 
 ## Panel 1: The Besieger Arrives
 
-<!-- ![A huge fleet and an iron-plated siege tower gather outside the harbor of Rhodes](./panel-01.png) -->
+![A huge fleet and an iron-plated siege tower gather outside the harbor of Rhodes](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -87,7 +87,7 @@ In 305 BCE a fleet appears off Rhodes, led by the Macedonian king Demetrius, who
 
 ## Panel 2: The Tower at the Wall
 
-<!-- ![Defenders on the wall watch the siege tower loom just beyond the stones](./panel-02.png) -->
+![Defenders on the wall watch the siege tower loom just beyond the stones](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -99,7 +99,7 @@ For a year the city holds. The defenders hold the walls, and the besiegers bring
 
 ## Panel 3: What the Enemy Left Behind
 
-<!-- ![Rhodians walk out through the gate to inspect the abandoned siege machines on the beach](./panel-03.png) -->
+![Rhodians walk out through the gate to inspect the abandoned siege machines on the beach](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -111,7 +111,7 @@ After about a year, in 304 BCE, Demetrius gives up and sails away, and he leaves
 
 ## Panel 4: From Siege Engines to a Sun God
 
-<!-- ![Rhodian magistrates weigh iron and plan a monument beside coins and a clay model](./panel-04.png) -->
+![Rhodian magistrates weigh iron and plan a monument beside coins and a clay model](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -135,7 +135,7 @@ The sculptor is Chares, a Rhodian from the city of Lindos, and the job takes abo
 
 ## Panel 6: A Giant Goes Up
 
-<!-- ![A half-built bronze giant rises behind earth ramps and wooden scaffolds](./panel-06.png) -->
+![A half-built bronze giant rises behind earth ramps and wooden scaffolds](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -159,7 +159,7 @@ Around 280 BCE the Colossus of Rhodes is finished. Visitors from across the Medi
 
 ## Panel 8: Down in a Single Night
 
-<!-- ![The broken bronze giant lies across a street among fallen roof tiles and dust](./panel-08.png) -->
+![The broken bronze giant lies across a street among fallen roof tiles and dust](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -171,7 +171,7 @@ Around 226 BCE an earthquake shakes Rhodes, and the giant comes down. It has sto
 
 ## Panel 9: A Thumb Too Big to Hold
 
-<!-- ![Visitors try to wrap their arms around the huge bronze thumb of the fallen statue](./panel-09.png) -->
+![Visitors try to wrap their arms around the huge bronze thumb of the fallen statue](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -183,7 +183,7 @@ The fallen statue becomes an attraction. The Roman writer Pliny the Elder, who s
 
 ## Panel 10: The Famous Picture Is Wrong
 
-<!-- ![A parchment sketch of a giant astride a harbor crossed out in red ink beside a harbor chart](./panel-10.png) -->
+![A parchment sketch of a giant astride a harbor crossed out in red ink beside a harbor chart](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -197,7 +197,7 @@ Now the picture that everyone knows. The famous engravings show the statue astri
 
 ## Panel 11: Sold for Scrap
 
-<!-- ![A merchant and a long camel train carry away the pieces of the broken bronze statue](./panel-11.png) -->
+![A merchant and a long camel train carry away the pieces of the broken bronze statue](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -211,7 +211,7 @@ In the 650s CE, nearly nine centuries after the earthquake, the broken bronze me
 
 ## Panel 12: Two Deer at the Harbor Mouth
 
-<!-- ![Two travelers look at two bronze deer on columns at the harbor entrance](./panel-12.png) -->
+![Two travelers look at two bronze deer on columns at the harbor entrance](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

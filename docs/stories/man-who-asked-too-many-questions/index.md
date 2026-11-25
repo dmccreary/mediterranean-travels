@@ -10,7 +10,7 @@ social:
 
 # The Man Who Asked Too Many Questions
 
-<!-- ![A barefoot, bearded philosopher stands among startled citizens in the Athenian Agora with the Parthenon above him](./cover.png) -->
+![A barefoot, bearded philosopher stands among startled citizens in the Athenian Agora with the Parthenon above him](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -83,7 +83,7 @@ In Athens the marketplace was also the government's office block, the courthouse
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Square Wakes Up
-<!-- ![A bustling morning in the Athenian Agora with the Acropolis behind and a barefoot man talking with young men in the shade of a stoa](./panel-01.png) -->
+![A bustling morning in the Athenian Agora with the Acropolis behind and a barefoot man talking with young men in the shade of a stoa](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -95,7 +95,7 @@ Keep every character and place consistent with the other images in this story. G
 On a morning in the 430s BCE the Athenian Agora wakes up as shop, courthouse and government office at once. Along the west side stand the offices of the democracy: the archive, the council hall, the round dining hall of the councillors on duty. The public notices go up on the long monument of the ten tribal heroes, so this is where an Athenian reads the news. In the shade of a stoa, a short man in a worn cloak is already talking to anyone who sits down.
 
 ## Panel 2: The Raffle Machine
-<!-- ![Citizens push bronze tickets into the slots of a tall stone slab while an official drops black and white balls down a tube and Pericles walks past in the background](./panel-02.png) -->
+![Citizens push bronze tickets into the slots of a tall stone slab while an official drops black and white balls down a tube and Pericles walks past in the background](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -106,7 +106,7 @@ Keep every character and place consistent with the other images in this story. G
 The Athenians did not trust elections. A stone slab with rows of slots, the *kleroterion*, picked jurors and council members at random: each man pushed his bronze identity ticket into a slot, and black and white balls dropped down a tube settled whole rows of men at a time. Voting favored the rich, the famous and the good speakers, so the lot gave every citizen the same chance. The main exception was the ten generals, who were elected because war needed skill, and that is how Pericles could be chosen year after year.
 
 ## Panel 3: Six Minutes by the Water Clock
-<!-- ![In a fenced court, a speaker faces rows of seated jurors while two clay pots measure his time by trickling water, and a small owl perches on the fence](./panel-03.png) -->
+![In a fenced court, a speaker faces rows of seated jurors while two clay pots measure his time by trickling water, and a small owl perches on the fence](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -117,7 +117,7 @@ Keep every character and place consistent with the other images in this story. G
 Courts needed discipline, and the Athenians solved it with water. A water clock, two clay pots where water ran from one to the other, timed each speaker, about six minutes per filling. Juries of hundreds were chosen by lot on the morning of the trial and decided cases by secret ballot, using small bronze discs: a hollow-axled one for guilty, a solid one for not guilty. These are the things in the museum in the rebuilt Stoa of Attalos that turn the bare foundations of the Agora back into a working government.
 
 ## Panel 4: A Name on a Broken Pot
-<!-- ![Citizens scratch names on pottery shards in the Agora as officials sort piles of broken pots, while a confident man in a rust-brown cloak watches](./panel-04.png) -->
+![Citizens scratch names on pottery shards in the Agora as officials sort piles of broken pots, while a confident man in a rust-brown cloak watches](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -130,7 +130,7 @@ Once a year the Assembly could vote on whether to hold an ostracism, a way of se
 > **Myth or Evidence?** Plutarch, writing about 600 years later, tells a story about the exile of Aristides, nicknamed "the Just": an illiterate countryman who did not recognize him asked him to write "Aristides" on a potsherd, because he was tired of hearing him called "the Just." Aristides wrote his own name. A story that late is a story. The ostraka themselves, however, are real evidence.
 
 ## Panel 5: Ballots Ready-Made
-<!-- ![A hooded man at the edge of the crowd passes a stack of identical shards to a confused farmer while others wait in line](./panel-05.png) -->
+![A hooded man at the edge of the crowd passes a stack of identical shards to a confused farmer while others wait in line](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -141,7 +141,7 @@ Keep every character and place consistent with the other images in this story. G
 In a well on the north slope of the Acropolis, archaeologists found about 190 ostraka with the name of Themistocles, written by only a few different hands: ready-made ballots, apparently prepared for voters and never used. Two things follow. Someone was organizing a campaign against him, and some voters needed a ballot already written, because they could not write the name themselves. A democracy that voted in writing quietly assumed a literacy that not every citizen had.
 
 ## Panel 6: A Friend Climbs to Delphi
-<!-- ![A lean man in a travel cloak climbs the Sacred Way at Delphi leading a white goat and carrying a honey cake](./panel-06.png) -->
+![A lean man in a travel cloak climbs the Sacred Way at Delphi leading a white goat and carrying a honey cake](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -152,7 +152,7 @@ Keep every character and place consistent with the other images in this story. G
 Socrates' friend Chaerephon, a man Plato's Socrates calls impulsive in everything he did, makes the long journey to Delphi. His question is simple and brash: is anyone wiser than Socrates? We know of this only because Socrates himself told it, years later, in his defense speech at his trial, as his student Plato wrote it down in the *Apology*. By then, Socrates says, Chaerephon was dead.
 
 ## Panel 7: The Answer
-<!-- ![Chaerephon kneels with his back to us as the calm Pythia speaks from her tripod in a lamp-lit chamber](./panel-07.png) -->
+![Chaerephon kneels with his back to us as the calm Pythia speaks from her tripod in a lamp-lit chamber](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -165,7 +165,7 @@ The Pythia answers that no one is wiser. In Plato's account, that is the whole o
 > **Myth or Evidence?** The three ancient sources disagree. Plato says the god said no one was wiser; Xenophon says no one was more free, more just or more sensible; a late verse quoted by Diogenes Laertius, about 600 years later and widely thought to be an invention, says Sophocles is wise, Euripides wiser, and Socrates wisest of all. Some scholars have wondered whether the whole episode is Plato's literary device. Most accept that Chaerephon asked something and got a flattering answer.
 
 ## Panel 8: Baffled
-<!-- ![Socrates scratches his head in the shade of a stoa as his lean friend talks excitedly, while young men look on](./panel-08.png) -->
+![Socrates scratches his head in the shade of a stoa as his lean friend talks excitedly, while young men look on](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -176,7 +176,7 @@ Keep every character and place consistent with the other images in this story. G
 The answer puzzles Socrates, he says, because he knows that he is not wise. So he does what he does best: he sets out to prove the god wrong. He will find someone who is wiser, and the quickest way to find one is to ask the people with the best reputations for knowing things. The stoa of Zeus the Freedom-Giver, which ancient writers name as a favorite spot for his conversations, becomes the headquarters of an investigation that will last the rest of his life.
 
 ## Panel 9: The Politician
-<!-- ![Socrates questions a pompous man in a purple-bordered cloak while two young followers look nervous](./panel-09.png) -->
+![Socrates questions a pompous man in a purple-bordered cloak while two young followers look nervous](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -187,7 +187,7 @@ Keep every character and place consistent with the other images in this story. G
 First comes a politician with a great reputation for wisdom. Socrates questions him, and in Plato's account the great man's answers fall apart under the next question. Socrates concludes that the man thinks he knows things that he does not, and is not even aware of it. The politician walks away offended, and the onlookers are delighted.
 
 ## Panel 10: The Poets
-<!-- ![A dreamy poet in a saffron tunic reads from a scroll on a porch step while Socrates asks what the lines mean](./panel-10.png) -->
+![A dreamy poet in a saffron tunic reads from a scroll on a porch step while Socrates asks what the lines mean](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -198,7 +198,7 @@ Keep every character and place consistent with the other images in this story. G
 Next come the poets. Socrates reads their finest lines and asks them to explain what they mean, and finds that they cannot. They have written beautiful things, but they speak, Plato's Socrates says, rather like prophets who say fine words without understanding them. As in the first case, they think their talent in verse makes them wise about everything else.
 
 ## Panel 11: The Craftsman
-<!-- ![In a smoky workshop, a coin-maker proudly holds up a freshly struck silver owl coin while Socrates leans in the doorway](./panel-11.png) -->
+![In a smoky workshop, a coin-maker proudly holds up a freshly struck silver owl coin while Socrates leans in the doorway](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -209,7 +209,7 @@ Keep every character and place consistent with the other images in this story. G
 The craftsmen are different. They really do know their crafts, and Socrates says so. But he finds that, because they do their own work well, they believe they are wise about everything else too. He concludes that the god meant something modest: Socrates is wiser only in that he does not think he knows what he does not know. And he takes the answer as a mission, to go on questioning people as the god's servant, even at the cost of making enemies.
 
 ## Panel 12: The Trial
-<!-- ![From high above, rows of seated jurors fill a court as a barefoot man speaks beside a water clock](./panel-12.png) -->
+![From high above, rows of seated jurors fill a court as a barefoot man speaks beside a water clock](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -222,7 +222,7 @@ In 399 BCE Athens had just lost the Peloponnesian War and survived the rule of a
 > **Myth or Evidence?** The trial is documented by two students, Plato and Xenophon, whose accounts differ. The count of 280 to 220 is an inference from one sentence in Plato. A common trap is to read the case as democracy versus philosophy. Socrates had questioned Athenians in public for decades, his students went on teaching in Athens, and the city remained the philosophy capital of the Mediterranean for nine centuries. A frightened city, just out of war and tyranny, looking for someone to blame, makes more sense of it.
 
 ## Panel 13: An Empty Chair
-<!-- ![In a small lamp-lit room, a clay cup sits on a table beside an empty wooden chair while friends stand with their backs to us](./panel-13.png) -->
+![In a small lamp-lit room, a clay cup sits on a table beside an empty wooden chair while friends stand with their backs to us](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -235,7 +235,7 @@ About a month after the verdict, Socrates drinks hemlock in the state prison. Th
 > **Myth or Evidence?** Visitors on Philopappos Hill are shown a "Prison of Socrates" cut into the rock; that is a modern tradition with no ancient evidence. The prison may have been a building at the southwest corner of the Agora, where excavators found small clay bottles of a size that would suit a dose of poison, but that too is a suggestion, not a certainty.
 
 ## Panel 14: Then and Now: The Agora Today
-<!-- ![Two travelers seen from behind look across the open ruins of the Agora of Athens toward the Acropolis on a November afternoon](./panel-14.png) -->
+![Two travelers seen from behind look across the open ruins of the Agora of Athens toward the Acropolis on a November afternoon](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

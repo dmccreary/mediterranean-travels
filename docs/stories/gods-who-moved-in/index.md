@@ -10,7 +10,7 @@ social:
 
 # Glaux and the Gods Who Moved In
 
-<!-- ![Glaux the little owl on an olive branch, with the Acropolis behind and Athena's glowing figure in the clouds](./cover.png) -->
+![Glaux the little owl on an olive branch, with the Acropolis behind and Athena's glowing figure in the clouds](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -42,7 +42,7 @@ Before this trip is over we will walk through the houses of half a dozen gods: Z
 **Find Glaux:** Unlike the other stories, Glaux is in every panel of this one, stepping out of hiding to guide you. The game here is to notice what Glaux is doing in each scene.
 
 ## Panel 1: The Headache on Olympus
-<!-- ![Zeus clutching his head on his throne while Glaux watches unimpressed](./panel-01.png) -->
+![Zeus clutching his head on his throne while Glaux watches unimpressed](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -56,7 +56,7 @@ Keep every character and place consistent with the other images in this story. G
 On a cloud-ringed peak the gods call home, Zeus, king of the gods, sits on his great throne with both hands pressed to his temples. Greek tradition says he has swallowed his first wife, the clever Metis, and has had a headache that nothing cures ever since. Poseidon and Apollo hover close, unsure how to help. Glaux, perched on the armrest with a notebook open, plainly has seen worse.
 
 ## Panel 2: A Flash of Light
-<!-- ![A burst of white-gold light erupts above Zeus as the gods shield their eyes](./panel-02.png) -->
+![A burst of white-gold light erupts above Zeus as the gods shield their eyes](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -69,7 +69,7 @@ Keep every character and place consistent with the other images in this story. G
 The headache ends in a burst of white-gold light that fills the hall and sends the clouds spinning outward. The gods shield their eyes. Glaux ducks behind the notebook, one yellow eye still fixed on the scene. Later tellings add a divine blacksmith with an axe; this telling keeps to the light.
 
 ## Panel 3: Athena Steps Out
-<!-- ![Athena, calm and armed, steps out of the light before the astonished gods](./panel-03.png) -->
+![Athena, calm and armed, steps out of the light before the astonished gods](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -85,7 +85,7 @@ As the light fades, a calm, armed woman steps out of it. She does not shout or s
 > **Myth or Evidence?** Legend. The poet Hesiod, about 700 BCE, tells that Zeus swallowed the goddess Metis and that Athena was born from his head. The scene was a favorite of vase painters, and the Parthenon's east pediment, above its main entrance, showed it; those sculptures survive only in damaged pieces. Nobody in antiquity claimed this was historical fact.
 
 ## Panel 4: A Rock Worth Having
-<!-- ![Athena and Poseidon face each other on the bare rock while Zeus and Apollo watch from a cloud](./panel-04.png) -->
+![Athena and Poseidon face each other on the bare rock while Zeus and Apollo watch from a cloud](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -99,7 +99,7 @@ Keep every character and place consistent with the other images in this story. G
 Years of legend later, two gods want the same bare hill, a flat-topped rock above a handful of simple houses. Athena arrives with her spear at rest; Poseidon arrives with his trident and a gust of sea wind. High on a cloud, Zeus and Apollo watch, while Glaux settles on a boulder with the notebook.
 
 ## Panel 5: Poseidon's Gift
-<!-- ![Poseidon plants his trident and a spring of salt water bubbles from the rock while Athenians taste it](./panel-05.png) -->
+![Poseidon plants his trident and a spring of salt water bubbles from the rock while Athenians taste it](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -112,7 +112,7 @@ Keep every character and place consistent with the other images in this story. G
 Poseidon goes first. He plants his trident into the rock and a spring wells up, bright and plentiful. The Athenians kneel, cup their hands, taste it, and spit, because it is salt. Poseidon gestures grandly at the water while Glaux, perched on the trident's shaft, plainly agrees with the crowd.
 
 ## Panel 6: Athena's Gift
-<!-- ![Athena kneels and a young olive tree grows beside her as Athenians gather round](./panel-06.png) -->
+![Athena kneels and a young olive tree grows beside her as Athenians gather round](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -125,7 +125,7 @@ Keep every character and place consistent with the other images in this story. G
 Athena's turn is quiet. She kneels, plants a small sapling in the thin soil, and rests her hand on it, and the little tree thickens until it stands over her, silver-green and heavy with olives. The Athenians touch the leaves and begin to see food, lamp oil, firewood and shade in one gift. Glaux lands on a branch and nibbles an olive.
 
 ## Panel 7: The Vote
-<!-- ![Athenians dropping pebbles into two jars as Athena and Poseidon wait](./panel-07.png) -->
+![Athenians dropping pebbles into two jars as Athena and Poseidon wait](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -140,7 +140,7 @@ Keep every character and place consistent with the other images in this story. G
 Now the Athenians must choose. They gather in a ring and drop pebbles into two jars, one for the gift of the sea and one for the gift of the tree. Athena and Poseidon wait at either side, not looking at each other. Glaux counts with one wing against the notebook, though the owl already knows who the sensible people are.
 
 ## Panel 8: The City Takes a Name
-<!-- ![Athenians crowd around Athena and the olive tree as Poseidon turns toward the sea](./panel-08.png) -->
+![Athenians crowd around Athena and the olive tree as Poseidon turns toward the sea](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -157,7 +157,7 @@ The olive jar fills fastest, and the city is named for Athena. Poseidon accepts 
 > **Myth or Evidence?** Legend, but with a trace in the landscape. Ancient visitors to the Acropolis, such as Herodotus, said the Erechtheion held an olive tree and a pool of sea water, and the Athenians showed marks in the rock as Poseidon's trident strikes. The Persians burned the olive in 480 BCE, and Herodotus says a new shoot about half a meter long had sprouted the next day. The olive growing beside the Erechtheion today is a modern planting. Roman writers later added that women voted in the contest, outnumbered the men by one and so gave Athena the win, and that Athens afterward took the vote from women; that is a late tradition, not a record.
 
 ## Panel 9: The Owl Takes the Night Shift
-<!-- ![Athena at night on the rock with Glaux perched on her wrist above the lamp-lit city](./panel-09.png) -->
+![Athena at night on the rock with Glaux perched on her wrist above the lamp-lit city](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -170,7 +170,7 @@ Keep every character and place consistent with the other images in this story. G
 Athens grows. Athena, goddess of wisdom and craft, keeps an owl at her side, because owls see in the dark and are therefore a fair symbol of a mind that sees what others miss. Glaux perches on her wrist on the moonlit rock, over a city of oil lamps. Little owls still live around the Acropolis today.
 
 ## Panel 10: Striking an Owl
-<!-- ![A mint worker strikes a silver blank to make an owl coin at a workbench with Glaux watching](./panel-10.png) -->
+![A mint worker strikes a silver blank to make an owl coin at a workbench with Glaux watching](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -183,7 +183,7 @@ Keep every character and place consistent with the other images in this story. G
 By the late 500s BCE Athens is stamping silver coins, with Athena on one face and the owl on the other. The silver comes from the mines at Laurion, worked in harsh conditions by enslaved laborers. In a workshop, a smith sets a blank disk between two carved dies and strikes it with a hammer. Glaux watches from the bench as the first owl takes shape.
 
 ## Panel 11: Owls in Every Market
-<!-- ![Merchants from many places exchanging owl coins in a busy market while Glaux perches on a stall](./panel-11.png) -->
+![Merchants from many places exchanging owl coins in a busy market while Glaux perches on a stall](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -198,7 +198,7 @@ The owls spread. Sailors, merchants and soldiers all over the Mediterranean lear
 > **Myth or Evidence?** Evidence. Owl tetradrachms were struck in Athens for centuries and are found all over the Mediterranean and beyond, and Athenians and others did call them "owls." The comic poet Aristophanes plays on the proverb about bringing owls to Athens in his comedy The Birds, in 414 BCE. A picture of an owl needed no reading, so it worked in places where few people read Greek.
 
 ## Panel 12: Where the Gods Live on Our Route
-<!-- ![Glaux unrolling a hand-drawn route map with five small pictograms on a sunny rock](./panel-12.png) -->
+![Glaux unrolling a hand-drawn route map with five small pictograms on a sunny rock](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -210,7 +210,7 @@ Keep every character and place consistent with the other images in this story. G
 Back on a sun-warm rock, Glaux unrolls a hand-drawn map of the trip. Five small pictures mark five homes of the gods: a cave on Crete, a temple at Ephesus, a harbor on Rhodes, a sanctuary at Delphi, and the rock in Athens. The route runs west from Istanbul across the Aegean, a little owl's flight away from each. The gods did not stay on Olympus, the map says; they moved in wherever people were willing to build them a house.
 
 ## Panel 13: Five Doorsteps
-<!-- ![Five framed scenes of a cave, temple, harbor statue, sanctuary and Acropolis, with Glaux flying between them](./panel-13.png) -->
+![Five framed scenes of a cave, temple, harbor statue, sanctuary and Acropolis, with Glaux flying between them](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -222,7 +222,7 @@ Keep every character and place consistent with the other images in this story. G
 Five round windows open along the route, each a doorstep where a god lives. Tradition says baby Zeus was hidden in a cave on Crete, Artemis had her great temple at Ephesus, and the bronze Helios once stood over the harbor on Rhodes, though nothing of him survives. Apollo has Delphi and Athena has Athens, and Glaux flies between them, a small brown speck with a satchel.
 
 ## Panel 14: The Owl Comes Home
-<!-- ![Two travelers from behind beside an olive tree below the Acropolis, with Glaux on a branch](./panel-14.png) -->
+![Two travelers from behind beside an olive tree below the Acropolis, with Glaux on a branch](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.

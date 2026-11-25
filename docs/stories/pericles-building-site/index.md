@@ -10,7 +10,7 @@ social:
 
 # Pericles' Building Site
 
-<!-- ![The Parthenon rising on the Acropolis in 440 BCE, half-built, with timber cranes, an ox cart of marble and Pericles watching with the architects](./cover.png) -->
+![The Parthenon rising on the Acropolis in 440 BCE, half-built, with timber cranes, an ox cart of marble and Pericles watching with the architects](./cover.png)
 <details>
 <summary>Cover Image Prompt</summary>
 (This is the Cover Image. Do not include this label in the image.)
@@ -88,7 +88,7 @@ In 454 BCE the treasury of an alliance of Greek cities moves to Athens, and Athe
 **Find Glaux:** Glaux hides in one panel of this story. Can you spot the little owl?
 
 ## Panel 1: The Treasury Leaves Delos
-<!-- ![Chests of silver being loaded onto Athenian ships at the small sacred island of Delos](./panel-01.png) -->
+![Chests of silver being loaded onto Athenian ships at the small sacred island of Delos](./panel-01.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 01. Do not include the panel number in the image.)
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
@@ -100,7 +100,7 @@ Please generate a 16:9 image in the style above depicting panel 1 of 16. Setting
 In 454 BCE Athens moves the treasury of the Delian League, the naval alliance of Greek cities it leads against Persia, from the island of Delos to Athens. The stated reason is that the money will be safer there. The allies' yearly payments, meant for defense, now sit in Athenian hands.
 
 ## Panel 2: Thirty Years of Ruins
-<!-- ![Pericles standing among charred column drums on the ruined Acropolis, looking toward the sea](./panel-02.png) -->
+![Pericles standing among charred column drums on the ruined Acropolis, looking toward the sea](./panel-02.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 02. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -111,7 +111,7 @@ Please generate a 16:9 image in the style above depicting panel 2 of 16. Setting
 When the Persians left, Athens left the Acropolis in ruins. Later writers say the Greek allies swore to leave the burned temples as memorials, though that oath survives only in 4th-century versions and its authenticity is debated. Either way, the rock stands scorched for about thirty years. Pericles, an elected general who governs by persuading the Assembly, looks at the wreckage and sees a building site.
 
 ## Panel 3: The Vote
-<!-- ![Pericles speaking to the Athenian Assembly on the Pnyx, a sea of raised hands before him](./panel-03.png) -->
+![Pericles speaking to the Athenian Assembly on the Pnyx, a sea of raised hands before him](./panel-03.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 03. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -122,7 +122,7 @@ Please generate a 16:9 image in the style above depicting panel 3 of 16. Setting
 In 447 BCE the Assembly votes to rebuild. It is a public decision, made by citizens in the open air, and the work will be paid for out of public funds. Pericles has no throne and no permanent office; he has a gift for persuasion, and enough votes.
 
 ## Panel 4: The Quarry
-<!-- ![Quarrymen cutting a huge block of white marble from the slope of Mount Pentelikon](./panel-04.png) -->
+![Quarrymen cutting a huge block of white marble from the slope of Mount Pentelikon](./panel-04.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 04. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -133,7 +133,7 @@ Please generate a 16:9 image in the style above depicting panel 4 of 16. Setting
 The marble comes from Mount Pentelikon, about 16 km from the Acropolis. Quarrymen cut it free in huge blocks with wedges, levers and patience; the white stone will turn honey-gold as it weathers. Every column drum on the Parthenon begins here as a lump of mountain.
 
 ## Panel 5: Ox Carts
-<!-- ![A long ox-drawn wagon hauling a marble column drum down a dusty road toward Athens](./panel-05.png) -->
+![A long ox-drawn wagon hauling a marble column drum down a dusty road toward Athens](./panel-05.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 05. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -144,7 +144,7 @@ Please generate a 16:9 image in the style above depicting panel 5 of 16. Setting
 Ox carts haul the blocks down the mountain to the city. Plutarch says Pericles defended the program by pointing to how many people it employed: carpenters, stonecutters, dyers, painters, merchants, sailors, teamsters, rope makers, road builders. It is a jobs program as much as a monument.
 
 ## Panel 6: Plans and Chisels
-<!-- ![Ictinus and Callicrates checking a plan at the building site while Phidias directs sculptors in the background](./panel-06.png) -->
+![Ictinus and Callicrates checking a plan at the building site while Phidias directs sculptors in the background](./panel-06.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 06. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -155,7 +155,7 @@ Please generate a 16:9 image in the style above depicting panel 6 of 16. Setting
 The architects Ictinus and Callicrates check their plans against the stone, and Phidias directs the sculpture. The temple will have 8 columns across each end and 17 down each side, and the stone arrives cut for its own place, so no two blocks are quite alike. Plutarch says Phidias oversaw the whole building program.
 
 ## Panel 7: The Floor That Rises
-<!-- ![A mason sighting along a taut cord over the temple platform, which curves upward slightly in the middle](./panel-07.png) -->
+![A mason sighting along a taut cord over the temple platform, which curves upward slightly in the middle](./panel-07.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 07. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -166,7 +166,7 @@ Please generate a 16:9 image in the style above depicting panel 7 of 16. Setting
 Almost nothing in the Parthenon is straight. The platform rises gently toward the middle of each side, by about 6 cm along the ends and about 11 cm along the long sides, so that it does not look as if it sags. A level floor would look as if it were sinking; a curved floor looks level.
 
 ## Panel 8: Columns That Swell and Lean
-<!-- ![Masons raising a marble column drum while Callicrates checks its slight inward lean with a plumb line](./panel-08.png) -->
+![Masons raising a marble column drum while Callicrates checks its slight inward lean with a plumb line](./panel-08.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 08. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -177,7 +177,7 @@ Please generate a 16:9 image in the style above depicting panel 8 of 16. Setting
 The columns lean slightly inward, swell a little in the middle, a curve called entasis, and the corner columns are a bit thicker than the others, perhaps because a column seen against the bright sky looks thinner. Every block is cut for its own place in this curved geometry. That is one reason restoration takes decades, and why the building looks alive.
 
 ## Panel 9: The Owl Hunts for a Straight Line
-<!-- ![A close view of a mason pressing a wooden straightedge against the edge of the platform, a gap of daylight showing, with a tiny owl on a column drum](./panel-09.png) -->
+![A close view of a mason pressing a wooden straightedge against the edge of the platform, a gap of daylight showing, with a tiny owl on a column drum](./panel-09.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 09. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -190,7 +190,7 @@ Glaux hunts for a straight line in the building and does not find one. Press a s
 > **Myth or Evidence?** Many books say the Parthenon was designed on the "golden ratio." No ancient source says so; the idea became popular in the 19th and 20th centuries. The platform measures about 30.9 by 69.5 m, a ratio of almost exactly 4 to 9, not the golden ratio. The curves, by contrast, are documented in the stone itself.
 
 ## Panel 10: The Accusation
-<!-- ![A rival speaker pointing toward the Acropolis building site as an angry crowd mutters, Pericles standing calm among them](./panel-10.png) -->
+![A rival speaker pointing toward the Acropolis building site as an angry crowd mutters, Pericles standing calm among them](./panel-10.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 10. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -201,7 +201,7 @@ Please generate a 16:9 image in the style above depicting panel 10 of 16. Settin
 Pericles' rivals attack. Plutarch reports that they accuse him of decking out Athens with money that belongs to its allies. The building is both a monument to Athenian genius and to Athenian empire: the democracy at home is paid for, in part, by power over others abroad. Both things are true.
 
 ## Panel 11: The Accounts in Stone
-<!-- ![A mason carving rows of fine lines into a tall marble slab while Pericles watches from the side](./panel-11.png) -->
+![A mason carving rows of fine lines into a tall marble slab while Pericles watches from the side](./panel-11.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 11. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -214,7 +214,7 @@ Please generate a 16:9 image in the style above depicting panel 11 of 16. Settin
 The most famous building in Greece is also a public works program, voted on by citizens and accounted for in public. Anyone who walks up to the rock can read, in principle, where the money went.
 
 ## Panel 12: Athena, in Gold and Ivory
-<!-- ![The colossal gold-and-ivory statue of Athena Parthenos inside the Parthenon, seen from the doorway with small worshippers in the foreground](./panel-12.png) -->
+![The colossal gold-and-ivory statue of Athena Parthenos inside the Parthenon, seen from the doorway with small worshippers in the foreground](./panel-12.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 12. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -225,7 +225,7 @@ Please generate a 16:9 image in the style above depicting panel 12 of 16. Settin
 In 438 BCE Phidias dedicates the statue of Athena Parthenos, about 12 m tall, built over a wooden core, with skin of ivory and armor and robes of gold. Thucydides reports that Pericles told the Athenians it carried 40 talents of refined gold, about a tonne, all of it removable and counted among the city's emergency reserves. Plutarch says Phidias' enemies later accused him of stealing gold; the plates were taken off and weighed, and the charge failed.
 
 ## Panel 13: A Church and a Cathedral
-<!-- ![The Parthenon as a Byzantine church, a procession with candles and a cross at its west door, a curved apse visible at the far end](./panel-13.png) -->
+![The Parthenon as a Byzantine church, a procession with candles and a cross at its west door, a curved apse visible at the far end](./panel-13.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 13. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -236,7 +236,7 @@ Please generate a 16:9 image in the style above depicting panel 13 of 16. Settin
 After the Christian Roman emperors ban the old sacrifices in the late 4th century CE, the temple's worship ends, and probably by the late 6th century it has become a church of the Virgin Mary, Our Lady of Athens. The builders move the entrance to the west, build an apse at the east, and cut windows; Christian inscriptions are still scratched into its columns. In 1018 the emperor Basil II gives thanks there for his victories, and after 1204 it becomes a Catholic cathedral.
 
 ## Panel 14: A Mosque, and an Artist at Work
-<!-- ![The Parthenon as a mosque with a slender minaret at its southwest corner, a European artist sketching its sculptures](./panel-14.png) -->
+![The Parthenon as a mosque with a slender minaret at its southwest corner, a European artist sketching its sculptures](./panel-14.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 14. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -247,7 +247,7 @@ Please generate a 16:9 image in the style above depicting panel 14 of 16. Settin
 In 1458 the Ottomans take the Acropolis, and soon afterward the cathedral becomes the city's main mosque, with a minaret at its southwest corner. Travelers in the 17th century describe the building as nearly complete, roof and all. In 1674 an artist with the French ambassador draws its sculptures, drawings that now give us our best record of what came next.
 
 ## Panel 15: September 26, 1687
-<!-- ![A Venetian battery on a hilltop, Morosini watching the Acropolis through a spyglass as a plume of smoke and dust rises from the Parthenon in the distance](./panel-15.png) -->
+![A Venetian battery on a hilltop, Morosini watching the Acropolis through a spyglass as a plume of smoke and dust rises from the Parthenon in the distance](./panel-15.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 15. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
@@ -258,7 +258,7 @@ Please generate a 16:9 image in the style above depicting panel 15 of 16. Settin
 On September 26, 1687, during the Venetian siege of Athens led by Francesco Morosini, a shell strikes the Parthenon. The Ottoman garrison has stored its gunpowder inside; it ignites, blowing out the middle of the building, and about three hundred people are said to have died. Morosini is the same commander who surrendered Candia in 1669. He then tries to lower the horses of Athena's chariot from the west pediment as trophies; the ropes fail and the sculptures shatter.
 
 ## Panel 16: Then and Now
-<!-- ![The Parthenon today with scaffolding and a crane at the northwest corner, patches of new white marble, two travelers from behind](./panel-16.png) -->
+![The Parthenon today with scaffolding and a crane at the northwest corner, patches of new white marble, two travelers from behind](./panel-16.png)
 <details><summary>Image Prompt</summary>
 (This is Panel 16. Do not include the panel number in the image.)
 Style: a hand-drawn travel-sketchbook graphic-novel illustration, with clean dark ink outlines, flat softly shaded color fills and a faint watercolor paper texture, like a page from a traveler's journal; warm, sunlit, painterly lighting; no text, captions, signs, letters or speech bubbles anywhere in the image.
