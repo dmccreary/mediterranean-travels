@@ -159,7 +159,7 @@ Istanbul's street cats are everywhere in the bazaar district, sleeping on carpet
 
 ### Meze
 
-**Meze** are small dishes served together at the start of a meal, or as the meal itself, for sharing at the table, usually with drinks. The word comes from the Persian for "taste," and the same tradition, called *mezedes*, runs through Greece, so we will meet it again on every island. Cold meze come first, carried to the table on a tray for us to choose from; hot meze follow.
+**Meze** are small dishes served together at the start of a meal, or as the meal itself, for sharing at the table, usually with drinks. The word comes from the Persian for "taste," and the same tradition, called *mezedes* <audio id="audio-mezedes" src="../../audio/mezedes.mp3" preload="none"></audio><button onclick="document.getElementById('audio-mezedes').play()" class="pronounce-btn">🔊 Pronounce</button> *meh-ZEH-dhes*, runs through Greece, so we will meet it again on every island. Cold meze come first, carried to the table on a tray for us to choose from; hot meze follow.
 
 - **Cold:** *haydari* (thick yogurt with garlic and dill), *acılı ezme* (a spicy paste of tomato, pepper, and onion), *fava* (broad-bean purée), *yaprak sarma* (stuffed vine leaves), *patlıcan salatası* (smoky eggplant salad), and *imam bayıldı*.
 - **Hot:** *sigara böreği* (thin pastry rolls filled with cheese), fried calamari, and fried mussels.

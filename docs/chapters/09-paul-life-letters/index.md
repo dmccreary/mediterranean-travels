@@ -106,7 +106,7 @@ The fall from power was gradual. Philip II of Macedon defeated Athens in 338 BCE
 | Who came | Allied envoys bringing tribute | Students, scholars, and sightseers |
 | What Paul's letters say about it | Nothing; it is five centuries before him | One line: he stayed behind in Athens alone and sent Timothy north (1 Thessalonians 3:1–2) |
 
-Read across the rows, and Athens in Paul's day looks like a university town with a glorious past: still the place to argue about ideas, no longer the place where decisions were made. That is why Acts sets one of Paul's most famous speeches there, among philosophers on the Areopagus, a scene Chapter 16 reads on the spot. It is also why Paul's real base in Greece became Corinth, the busy Roman capital about 75 km to the west.
+Read across the rows, and Athens in Paul's day looks like a university town with a glorious past: still the place to argue about ideas, no longer the place where decisions were made. That is why Acts sets one of Paul's most famous speeches there, among philosophers on the Areopagus <audio id="audio-areopagus" src="../../audio/areopagus.mp3" preload="none"></audio><button onclick="document.getElementById('audio-areopagus').play()" class="pronounce-btn">🔊 Pronounce</button> *air-ee-OP-uh-gus*, a scene Chapter 16 reads on the spot. It is also why Paul's real base in Greece became Corinth, the busy Roman capital about 75 km to the west.
 
 ### Greek Philosophy
 

@@ -83,6 +83,7 @@ nav:
     - Pronunciation Guide: appendices/pronunciation-guide.md
     - Timeline of Events: appendices/timeline-of-events.md
     - Extensions and Excursions: appendices/extensions-and-excursions.md
+    - Who Created the Antikythera Mechanism: appendices/antikythera-mechanism.md
 
   - License: license.md
   - Contact: contact.md
@@ -205,7 +206,7 @@ extra:
   textbook_name: 'Mediterranean Travels'
   textbook_version: '0.1'
 
-  # Google Analytics — uncomment once a property ID exists:
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  # Google Analytics — GTM-5T3F7B48
+  analytics:
+    provider: google
+    property: GTM-5T3F7B48

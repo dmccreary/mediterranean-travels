@@ -807,3 +807,220 @@ Tables: phases of Knossos; Thera claims vs evidence; Minotaur myth-test sources;
 - docs/chapters/01-long-timeline/index.md (Phaistos and Thera pronounce buttons only)
 - data/photo-picks.csv (1 caption, 9 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{phaistos,pithoi,rhyton,thera,kamares,larnakes,thrapsano,labrys}.mp3
 - logs/ch-13-content-generation.md, this log
+
+# Chapter 14 Session (Day 9, Part 2: Venetian Heraklion and Crete Today)
+
+- **Start:** 2026-11-24 19:19:10
+- **End:** 2026-11-24 19:40:53
+- **Chapter:** docs/chapters/14-venetian-heraklion/index.md ("Day 9, Part 2: Venetian Heraklion and Crete Today")
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **What we actually did:** old town in the late morning (photos 10:35 Lions Square, 10:38 Loggia, 10:43 Agios Titos, 11:26–11:28 the arsenal at the harbor), then Viking's "The Villages of Crete" in the afternoon (countryside 14:32 at about 310 m; Thrapsano workshop 15:28). The chapter says plainly that Chapter 2 planned the old town for the afternoon and we swapped it. The excursion gets Part Four, in the first person; Avli is described only as "a tasting at the Avli winery", with general (not winery-specific) facts about Cretan grapes and the Peza/Archanes wine country, tied to the Minoan wine press at Vathypetro and Chapter 13's palace economy. Thrapsano is tied to Chapter 13's pithoi with a Minoan-vs-today comparison table.
+- **Promises from earlier chapters honored:** Chapter 4 ("Chapter 14 walks its fortifications in Heraklion"; Agios Titos; the 1513 Plato and Byzantine copying, extended through Musurus as editor); Chapter 6 (printing, fixed vs marginal cost not repeated; gatekeepers, applied to the editor and to Aldus's privileges); Chapter 7 (Crete to Greece 1913; Agios Titos a church again in 1925; the other Francesco Morosini and the Parthenon, 1687); Chapter 9 (Letter to Titus treated as disputed; "Chapter 14 will find his church in Heraklion"); Chapter 11 (Titus at Jerusalem); Chapter 12 (Mediterranean diet and Seven Countries Study not retold, Cretan version extended; philoxenia; WWII); Chapter 13 (museum and old town, pithoi to Thrapsano, "Chapter 14 tells that visit"); Chapter 2 (route-table story "Cretan scholars and cheap printed classics"; four-step pattern).
+- **AI-Native Schools chapters opened before citing:** 07 (Content Economics and Open Educational Resources; OER definition, free vs open, penny-per-day vision) framed freshly through Aldus's privileges vs the Lyon printers (cheap but not open) and the editor's job when copying is free; paired with 06 (The Five-Level Model of Intelligent Textbooks; Level 2 interactive textbooks) for the Intelligent Textbook concept.
+- **MicroSim reuse search:** available. Map `generate` (0.484); folding calculator `generate` (0.437); network `generate` (0.351). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 14. Venetian Heraklion and Crete Today | 0 / 8 / 16 | 3,920–6,400 | ~9,260 (brief's counter; includes 6 tables, 9 captions counted twice, lists, admonitions, Practical Notes, Key Takeaways) | ~3,110 | 24/24 |
+
+Tier B (8): Venetian Crete (16), Candia (8), Cretan Renaissance (7), Marcus Musurus (5), Aldus Manutius (5), Cretan Diet (5), Venetian Walls of Heraklion (4), Aldine Editions (4). Tier C (16): the rest.
+
+Above the CIS budget, like Chapters 5, 6 and 13. The excess is in Part Four (the excursion was asked to get real room, so Cretan Village Life, a Tier C concept, runs about 450 words with a worked example and table), the Learning for All note (three concepts plus the AI parallel), and the Ottoman Crete revolts table.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 14 | 6 (plus 9 inside specs) | 9 | 8 (welcome 1, thinking 2, tip 2, warning 2, celebration 1) | walking-venetian-candia-map (Leaflet, Remember/locate); folio-quarto-octavo-paper-calculator (p5.js, Apply/calculate); greek-book-makers-venice-network (vis-network, Analyze/attribute) |
+
+Tables: five names of Heraklion; Crete from revolt to union (1821–1923); Greek vs Latin manner of icon painting; Aldus's early list; Cretan menu by source; Minoan pithos vs Thrapsano jar. Lists: the wine-cask journey, Musurus's four editing steps, Kazantzakis's three books.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (exit 0).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits, including the pronounce buttons).
+- Specification self-check: six header lines in each block, no indented lines, no layout, pixel, color, or Implementation lines, no "for example"/"such as"/"etc." in Content; counts match (8 landmarks; 3 formats, 3 challenges with ceiling arithmetic checked, including the 10- and 40-line edge cases; 10 people, 10 cards, 8 links, 3 Cretans); Chapter Anchors match the prose (1628; 1523–1540; seven bastions; less than a kilometer; 12,900 lines, 860/215, 430/27, one-eighth).
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, max run 4).
+- No TODO and no "(verify)"; all 24 concepts appear in bold.
+- `scripts/pronunciations.py`: 8 new terms with audio (Koules, Musurus, Manutius, Theotokopoulos, Erotokritos, Kazantzakis, dakos, tsikoudia). Buttons: 7 in Chapter 14; Manutius landed in Chapter 4 (first running-text use, the "following Plato" worked example). The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (`cmp` against the saved copy; diff against the pre-run copy shows only the 8 appended rows), and `appendix` (114 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Caption Changes
+
+Resolved from the contact sheet plus each photo's GPS in the Takeout sidecar metadata (no full-size photos opened):
+
+- Pick 2 (IMG_1269): "Vaulted interior of the Koules Fortress" -> "Vaulted ship shed of the Venetian arsenal, Heraklion". GPS (35.3422, 25.1353) is on the south side of the old harbor, about 300 m from the Koules, and the sheet shows open, partly roofless galley vaults behind a conservation fence.
+- Pick 3 (IMG_1268): "Koules Fortress and the Venetian harbor" -> "The Venetian arsenal beside Heraklion's old harbor". Same spot; the vaulted roofs of the arsenal are in frame, the Koules is not identifiable.
+- Pick 4 (IMG_1257): "(verify)" removed -> "The Basilica of San Marco (Agios Markos), Heraklion". GPS is in Lions Square; the columned portico matches.
+- Pick 5 (IMG_1262): "Interior of Agios Minas Cathedral (verify)" -> "Interior of the Church of Agios Titos, Heraklion". GPS (35.3400, 25.1348) is at Agios Titos, about 100 m east of the Loggia, five minutes after the Loggia photo; Agios Minas is about 400 m southwest. Worth a glance by the author.
+- Pick 7 (IMG_1281): "Cloud over a Cretan mountain (verify)" -> "A cloud-capped mountain in inland Crete" (general; taken at 35.122, 25.302, about 310 m, the peak not identifiable).
+- Pick 8 (IMG_1306): "Pots drying in a Cretan pottery workshop" -> "Pots drying in a pottery workshop at Thrapsano" (GPS 35.201, 25.258, in the Thrapsano area, during the excursion).
+- Pick 9 (IMG_1150): "Sunset over Heraklion harbor" -> "Sunrise over the port of Heraklion" (taken 07:08 Athens time; sunrise about 7:00 AM; GPS in the commercial port where the ship docked).
+- Picks 1 and 6 kept.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- Chapter 7 says Agios Titos was "a mosque until 1923" (table) and "became a church again in 1925" (worked example). Not a contradiction (the Muslims left in 1923–1924; reconsecration 1925); Chapter 14 states both. No edit needed unless the author wants one date.
+- Chapter 2 gives the Heraklion sunset as "around 5:10 PM"; the brief's computed value is about 5:15 PM, which Chapters 13 and 14 use. Trivial.
+
+## Notes for the Author
+
+- From memory, worth checking first: the 1499 contract for 700 icons of the Virgin in 45 days (500 Latin manner, 200 Greek manner, three painters, two dealers); Heraklion's two El Grecos (*View of Mount Sinai*, *The Baptism of Christ*) in the Historical Museum of Crete; the riot of August 25, 1898 (British soldiers and the British vice-consul killed) and 25th August Street being named for it; Orthodox priests having to go off the island for ordination under Venice; the relic of Titus taken to Venice in 1669 and returned in 1966; Musurus as a student of Janus Lascaris; Thrapsano potters traditionally traveling in summer teams; about 40 percent of calories from fat (mostly olive oil) for Cretan men in the Seven Countries Study; dakos also called *koukouvagia*, "owl."
+- Also from memory: Boniface sold Crete to Venice in 1204, control by about 1211; Revolt of Saint Titus 1363; Rabdh al-Khandaq "castle of the moat"; Chandax after 961; Herakleion revived in the 19th century after a harbor of Knossos; Loggia built in the 1620s, war-damaged and restored, part of city hall; Morosini Fountain 1628, aqueduct from Mount Juktas, eight-lobed basin with sea reliefs, lions older than the fountain; San Marco 13th century, a mosque, now an exhibition hall; Agios Titos history (after 961, Catholic, mosque, 1856 earthquake, 1925); Gortyn 6th-century basilica; Koules 1523–1540, *Rocca a Mare*, lion reliefs; walls by Michele Sanmicheli; bastion names and order (Sabbionara, Vitturi, Jesus, Martinengo, Bethlehem, Pantocrator, St. Andrew); siege 1648–1669 (Chania 1645, Rethymno 1646, Köprülü Fazıl Ahmed from 1667, French expedition 1669, surrender September 1669; Souda, Gramvousa, Spinalonga, the last until 1715); Arkadi 1866; Theophanes at Meteora and Athos; *Erotokritos* about 10,000 lines, around 1600, printed in Venice 1713; El Greco dates (1541; master by 1563; Venice about 1567; Rome 1570; Toledo 1577; died 1614; signed *Kres*); Musurus (Rethymno; Aristophanes 1498; Plato 1513; Hesychius 1514; Padua; Rome and archbishop 1516; died 1517); Kallierges and Vlastos, *Etymologicum Magnum* 1499; Aldus (Bassiano; Carpi; press about 1494; Torresani partner and father-in-law; New Academy; dolphin and anchor; Lascaris grammar 1495; Aristotle 1495–1498; Virgil 1501 first all-italic book; Sophocles 1502; about thirty Greek first editions; Lyon warning 1503; Venetian privilege for italic; press to 1597); Griffo; Erasmus at the press in 1508; Bembo's Petrarch and Dante; Battle of Crete details (May 20, 1941; Maleme; evacuation end of May; Kreipe kidnapping 1944); Kazantzakis (1883–1957; 33,333 lines; grave on the Martinengo Bastion; epitaph); Heraklion about 180,000, fourth-largest city; Mount Ida 2,456 m; Nativity fast from November 15; Vathypetro wine press; Vidiano, Vilana, Kotsifali, Mandilari; Peza and Archanes.
+- The map spec's reference points for cards 1–4 come from our photos' GPS; cards 7 (Martinengo) and 8 (Pantocrator Gate) are approximate, and the spec tells the generator to check all eight against OpenStreetMap.
+- The Virgil paper calculation uses illustrative page densities (15 and 30 lines per page), labeled as such in prose and spec.
+- No lunch details were invented; the chapter does not say where or what we ate.
+- Listen to the new recordings, especially Theotokopoulos, Erotokritos, tsikoudia, and Koules (*koo-LESS*).
+
+## Files Created/Updated
+
+- docs/chapters/14-venetian-heraklion/index.md
+- docs/chapters/14-venetian-heraklion/img/ (9 exported JPEGs)
+- docs/chapters/04-byzantine-constantinople/index.md (Manutius pronounce button only)
+- data/photo-picks.csv (7 captions, 9 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{koules,musurus,manutius,theotokopoulos,erotokritos,kazantzakis,dakos,tsikoudia}.mp3
+- logs/ch-14-content-generation.md, this log
+
+# Chapter 15 Session (Day 10: Athens, the Acropolis, and the Persian Wars)
+
+- **Start:** 2026-11-24 19:41:32
+- **End:** 2026-11-24 20:10:10
+- **Chapter:** docs/chapters/15-athens-acropolis/index.md ("Day 10: Athens, the Acropolis, and the Persian Wars")
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **What we actually did:** photos show the Agora around 1:00 PM (Chapter 16's material, not used here) and the Acropolis from 15:18 to 16:14 Athens time, entering by the west slope above the Odeon of Herodes Atticus (GPS), through the Propylaea (15:32), around the Parthenon and the Erechtheion; sunset about 5:10 PM. The chapter says so in the first person and keeps time words to "late afternoon" and "about an hour before sunset."
+- **Promises from earlier chapters honored:** Chapter 1 (480 BCE, Salamis near Piraeus, 454 BCE Delian treasury, 447–432 BCE; follow-the-money not retold); Chapter 2 (Pentelic marble, November weather, sunset 5:10 PM, four-step pattern); Chapter 4 (myth test on the marathon runner, the golden ratio and the Caryatids' name; contested history for the marbles; the seven "Reading a Ruin" questions on the Parthenon; restoration vs reconstruction; spolia in the north wall; Serpent Column); Chapter 5 (hünkâr beğendi, baklava dispute); Chapter 6 (imam bayıldı, patlıcan kebabı, döner); Chapter 7 (Ottoman Parthenon and 1687 extended, not retold; Hellespont crossing); Chapter 8 (Mycenaeans, Schliemann, fall of Troy on the north metopes); Chapter 10 (Doric/Ionic orders, Greek theater, Asia Minor refugees); Chapter 12 (Athena, Greek cuisine, "Chapter 15 gives eggplant, moussaka, papoutsakia and briam the full treatment"); Chapter 14 (Morosini's namesake, briam, melitzanosalata). Forward pointers: Chapter 16 (Agora, ostracism, rowers and democracy), Chapter 17 (wooden-walls oracle, Nothing in excess, Oedipus), Chapter 18 (Athenian Treasury), Chapter 20 (National Archaeological Museum copy of the Athena Parthenos, Plaka, Greek coffee).
+- **Learning for All choice:** Chapter 2's Days 10–11 story (Socrates; democracy that left most out) is left to Chapter 16. Day 10's note is "History Anyone Can Check": Herodotus' *historia* as a public, checkable account (poets and Darius at Behistun vs inquiry; Thucydides and Plutarch as resistance; free Greek men only). AI parallel: show sources, reports and conclusions separately.
+- **AI-Native Schools chapter opened before citing:** 02 (Evidence, Motivation, and the Stakeholders of Schooling; evidence-based practice and curiosity sections). Not previously cited in this book.
+- **MicroSim reuse search:** available. Map `generate` (0.325); timeline `generate` (0.343); sorter `generate` (0.356). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 15. Athens, the Acropolis, and the Persian Wars | 0 / 10 / 17 | 4,540–7,400 | ~10,790 (brief's counter; includes 10 tables, 7 captions counted twice, lists, admonitions, pronounce respellings, Practical Notes, Key Takeaways) | ~3,290 | 27/27 |
+
+Tier B (10): Acropolis (21), Persian Wars (14), Greek Tragedy (12), Pericles (7), Hubris (7), Phidias (6), Athens as Modern Capital (6), Parthenon (5), Herodotus (5), Themistocles (4). Tier C (17): the rest.
+
+Above budget and above Chapters 13–14 (~9,200) after two trimming passes (from ~12,800). The excess is in the many tables (10), the six-part structure with 27 concepts, worked examples for several Tier C concepts that needed one to be honest (marathon runner myth test, golden ratio, Parthenon's later lives), the eggplant section the brief asked to give room, and the marbles dispute, which needed both positions with dates.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 15 | 10 (plus 7 inside specs) | 7 | 10 (welcome 1, thinking 3, tip 2, warning 2, encourage 1, celebration 1) | persian-wars-campaign-map (Leaflet, Understand/infer); parthenon-five-lives-timeline (vis-timeline, Understand/classify); parthenon-marbles-fact-or-position (p5.js, Analyze/differentiate) |
+
+Tables: Persian Wars on our route; Herodotus' four kinds of statement; marathon-runner myth test; Acropolis buildings; Phidias' works; Parthenon sculptures; the two marbles positions; three tragedians; hubris in Xerxes, Agamemnon, Creon; Greek–Turkish dish pairs. Lists: Athens's three growth waves, trireme numbers, Salamis in five moves, Plutarch's trades, the seven Reading-a-Ruin questions, four eggplant dishes, Practical Notes, Key Takeaways.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (10 admonitions for 27 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits, including the pronounce buttons).
+- Specification self-check (script): six header lines in each block, objective starts "The learner will", all eleven body fields present, no indented lines, no "for example"/"such as"/"etc.", no pixel/color/Implementation lines; counts match (8 places and 5 questions; 12 cards in 5 lives, tally Temple 2, Church 2, Mosque 3, Ruin 2, Protected monument 3; 12 statements, tally 6/3/3); Chapter Anchors match the prose (20 ships, 498, 490, 10,000 and 1,000, 192, 378 and 180, 1.2–6 km from Chapter 7, 1687 and about three hundred, 1801–1812, 1816 and £35,000, 1963, 2009).
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, specs counted as non-text, max run 4).
+- No TODO and no "(verify)"; all 27 concepts appear in bold.
+- `scripts/pronunciations.py`: 8 new terms with audio (Herodotus, Themistocles, Phidias, Propylaea, Erechtheion, Caryatids, Gyros, Papoutsakia). Buttons: 6 in Chapter 15; Herodotus landed in Chapter 1 ("The Classical Period"), Erechtheion in Chapter 10 ("The Ionic Order"), their first running-text uses. The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (`cmp` identical to the saved copy; diff against the pre-run CSV shows only the 8 appended rows), and `appendix` (122 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Caption Changes
+
+Resolved from the contact sheet (crops of panels 3 and 4) plus each photo's GPS in the Takeout sidecar metadata (no full-size photos opened):
+
+- Pick 4 (IMG_1399, 15:32): "Looking up into the Propylaea (verify)" -> "Ionic columns and marble ceiling beams in the Propylaea". GPS 37.97178, 23.72523 is at the Propylaea; the sheet shows an Ionic capital and restored marble beams, matching the gateway's inner passage.
+- Pick 3 (IMG_1407, 15:39): "Doric columns and entablature of the Parthenon" -> "... of the Parthenon, with new marble set among the old". GPS 37.97169, 23.72663 is beside the Parthenon's west end; the sheet shows bright new marble patches, used in the restoration paragraph.
+- Pick 6 (IMG_1422, 16:05): "The Parthenon against the setting sun" -> "The Parthenon against the late-afternoon sun" (about an hour before the 5:10 PM sunset; GPS northeast of the temple, looking toward the low southwestern sun).
+- Pick 7 (IMG_1389, 15:22): "Athens seen from the Acropolis" -> "Athens seen from the slope of the Acropolis" (GPS 37.97130, 23.72486, altitude about 118 m, on the west approach below the summit).
+- Picks 1, 2, and 5 kept.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Chapter 1's "the Greek fleet destroyed the Persian navy at Salamis" is a little strong (the Persian fleet withdrew with heavy losses and fought again in 479), but not wrong enough to flag for an edit.
+
+## Notes for the Author
+
+- From memory, worth checking first: the Piraeus Lion taken by Morosini in 1687 with Varangian runes; COSCO majority stake since 2016; Line 1 begun 1869; Acropoli and Syntagma station displays; greater Athens about 3.7 million; Lycabettus 277 m; Darius's "remember the Athenians" (Herodotus 5.105); Herodotus' figures (1,700,000 infantry, more than five million in all; 6,400 and 192 at Marathon; 378 ships, 180 Athenian; 200 ships from Laurion at ten drachmas a head); modern army estimates "often 100,000 to 300,000"; Athos canal and Scythian tombs; Marathon 10,000 and 1,000 (later sources); Aeschylus' epitaph; Pausanias on the Athenian Treasury; Plutarch and Lucian on the runner (three names); 1908 and 1921 for 42.195 km; Olympias 36.9 m, about 170 rowers; Sicinnus as the children's tutor; Xerxes at the foot of Aigaleo; Artemisia's advice; the Oath of Plataea's authenticity; north-wall drums; Acropolis about 150 m, about 3 hectares; Glezos and Santas, May 30, 1941; Pericles' generalships "almost without a break from 443"; Plutarch's trades list and the "pay it myself" story (Per. 12, 14); Parthenon building accounts; Promachos visible from Sounion (Pausanias); Athena Parthenos about 12 m, 40 talents (Thucydides 2.13), Attic talent about 26 kg; cup "I belong to Phidias"; Propylaea 437–432, Mnesicles, five doorways, 1656 lightning, tower demolished 1874 with Schliemann's money; Nike temple 427–424, dismantled 1686, rebuilt 1830s, 1930s and 2000s; Parthenon 30.9 by 69.5 m, curvature about 6 and 11 cm; "golden ratio popularized in the 19th and 20th centuries"; 92 metopes, about 160 m frieze; Erechtheion olive shoot (Herodotus 8.55); Caryatid copies 1979, laser cleaning; Vitruvius and the korai in the accounts; church probably by the late 6th century, Basil II 1018, Latin cathedral 1204, mosque after 1458 with minaret at the southwest corner, 1674 drawings; Morosini's failed removal of the west pediment horses; clearing from 1835; Balanos's iron clamps; restoration program from 1975, titanium; Acropolis Museum June 2009, Tschumi with Photiadis, about 300 m southeast; BM holdings (15 metopes, 17 pediment figures, about 75 m of frieze); Elgin's permission surviving only in an Italian translation; 1816 and £35,000; British Museum Act 1963; Mercouri, 1983 request; Palermo 2022 and Vatican 2023 returns; talks "reported since about 2022"; Theater of Dionysus 15,000–17,000; Odeon 161 CE, restored 1950s; 32 surviving tragedies (7/7/18); Pericles as choregos of *The Persians* (472); Phrynichus fined 1,000 drachmas; feta PDO 2002, up to 30 percent goat's milk, two months in brine; gyros arriving with Anatolian refugees (hedged "probably"); Tselementes and the béchamel moussaka (hedged "usually credited"); "Greek coffee" after 1974.
+- The marbles section states both positions as each side states them and says the status is under discussion; check the news before publishing for any agreement announced after this writing.
+- The map spec's coordinates are approximate; the spec tells the generator to check each against Wikipedia, and Salamis and Mycale are areas, not exact battlefields.
+- Practical Notes avoid prices and exact winter hours ("check on the day"); the timed-entry tip says to book the day before.
+- No meal details were invented: the eggplant lunch is a worked example ("let's order"), not a claim about what we ate.
+- Listen to the new recordings, especially Erechtheion (*eh-REK-thee-on*; some English guides say *eh-rek-THEE-on*), Gyros (local *YEE-ros*), and Papoutsakia.
+- Chapter 2's route table assigns Days 10–11 one story; this chapter's Learning for All note (Herodotus' inquiry) is a new, distinct Day 10 story. The route table could be updated to list it.
+
+## Files Created/Updated
+
+- docs/chapters/15-athens-acropolis/index.md
+- docs/chapters/15-athens-acropolis/img/ (7 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (Herodotus pronounce button only)
+- docs/chapters/10-ephesus-greco-roman-city/index.md (Erechtheion pronounce button only)
+- data/photo-picks.csv (4 captions, 7 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{herodotus,themistocles,phidias,propylaea,erechtheion,caryatids,gyros,papoutsakia}.mp3
+- logs/ch-15-content-generation.md, this log
+
+# Chapter 16 Session (Day 11: Athens, the Agora, Democracy, and Paul on the Areopagus)
+
+- **Start:** 2026-11-24 20:10:59
+- **End:** 2026-11-24 20:30:10
+- **Chapter:** docs/chapters/16-athens-agora-democracy/index.md ("Day 11: Athens, the Agora, Democracy, and Paul on the Areopagus")
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **What we actually did:** photos show the Agora at 12:58–13:02 on Day 10 and a 16:20 photo whose GPS fix (37.97244, 23.72303) falls about 50 m from the Areopagus. The chapter is written as the Day 11 guide and says in the first person that we walked the Agora around 1:00 PM on Day 10 and came down to the Areopagus at about 4:20 PM, under an hour before the 5:10 PM sunset.
+- **Promises from earlier chapters honored:** Chapter 1 (30,000–50,000 citizens, a quarter of a million or more, "come back on Day 11 at the Pnyx"); Chapter 2 (Days 10–11 Learning for All story; four-step pattern; Greek letters for the plaque); Chapter 9 (Socrates' trial in the Agora, Plato's *Apology*, Stoics and Epicureans debating Paul, the Areopagus scene "read on the spot", Gallio inscription, Acts as Luke's account); Chapter 11 (grace, "neither Jew nor Greek", one body; leadership lesson extended, not repeated); Chapter 12 (philoxenia; the Rhodes list as the dark side of counting); Chapter 15 (rowers and democracy; Themistocles' ostracism; Line 1; eggplant not retold). Forward pointers only: Chapter 17 (the oracle and Socrates, in the celebration), Chapter 20 (none needed; Phaedrus, Aristotle and the Lyceum left alone).
+- **AI-Native Schools chapters opened before citing:** 19 (Microstrategies for Leading Change; section "Matching the Strategy to the Person", CBAM stage-to-microstrategy table) for meeting people where they are; 21 (Implementing the AI-Native Model Responsibly; "Equity in Implementation": cost barrier, closing or widening gaps) for Learning for All. Also read 16, 17 and 18 for CBAM; 17 is overused, so not cited.
+- **MicroSim reuse search:** available. Voter estimator `generate` (0.390); speech step-through `generate` (0.371); Agora infographic `generate` (0.438). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 16. Athens, the Agora, Democracy, and Paul on the Areopagus | 0 / 10 / 16 | 4,420–7,200 | ~10,320 (brief's counter; includes 9 tables, 5 captions counted twice, lists, admonitions, Practical Notes, Key Takeaways) | ~3,410 | 26/26 |
+
+Tier B (10): Athenian Democracy (16), Ancient Agora of Athens (13), Stoa (11), Stoicism (10), Areopagus (9), Paul and the Stoics (9), Paul in Athens (9), Areopagus Speech (8), Altar to an Unknown God (6), Meeting People Where They Are (5). Tier C (16): the rest.
+
+Above budget, in line with Chapters 13–15 (~9,200–10,800). The excess is in worked examples for Tier C concepts that needed evidence to be honest (Themistocles ostraka, Sophist fees, the trial's numbers), the three Learning for All sub-concepts, and the speech, which needed both its five moves and its sources.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 16 | 9 (plus 9 inside specs) | 5 | 9 (welcome 1, thinking 2, tip 2, warning 3, celebration 1) | athens-who-could-vote (Chart.js, Apply/calculate); agora-democracy-workplaces (html infographic, Understand/classify); areopagus-speech-stoic-ears (p5.js, Analyze/differentiate) |
+
+Tables: democratic institutions; Attica population estimates; hill or council; Stoics and Paul; Stoics and Epicureans; altar sources; stages of concern; four wines; teachers' fees. Lists: Assembly/Council/courts/officials, metics and enslaved, three Stoic ideas, the speech's five moves, two cautions, three conversations, the four-step pattern, Practical Notes, Key Takeaways.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (9 admonitions for 26 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits, including the pronounce buttons).
+- Specification self-check (script): six header lines in each block, objective starts "The learner will", all eleven body fields present, no indented lines, no "for example"/"such as"/"etc.", no pixel/color/Implementation lines. Counts match: 4 estimates, 3 challenges (16.0, 25.0, 2.4; total range 180,000–320,000, share 10.0–25.0 percent); 10 places, 9 job cards; 10 lines, tally 7 and 3. Chapter Anchors match the prose.
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, specs counted as non-text).
+- No TODO and no "(verify)"; all 26 concepts appear in bold.
+- `scripts/pronunciations.py`: 8 new terms with audio (Areopagus, Pnyx, Stoa Poikile, kleroterion, Epictetus, Aratus, mezedes, Agiorgitiko). Buttons: 5 in Chapter 16; Areopagus landed in Chapter 9 ("Athens"), Pnyx in Chapter 1 (worked example "how big was Athens's democracy?"), mezedes in Chapter 6 ("Meze"), their first running-text uses. The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (`cmp` identical to the saved copy; the run itself did not change the CSV; diff against the pre-run CSV shows only the 8 appended rows), and `appendix` (130 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Caption Changes
+
+Resolved from the contact sheet (a crop of panel 5) and the Takeout sidecar GPS (no full-size photos opened):
+
+- Pick 5 (IMG_1439, 16:20): "View from the Areopagus at sunset (verify)" -> "The pedestal of the Monument of Agrippa below the Propylaea, in late-afternoon light". The frame shows the tall Agrippa pedestal at close range and at eye level, with the Propylaea's north wing at the right and the city below on the left, so it was taken on the Acropolis's west approach, not from the Areopagus. Its GPS fix lies about 50 m from the Areopagus, but the photo a minute earlier (IMG_1438, 16:19) is 20 m from the pedestal; the fix looks like GPS drift. 16:20 is about 50 minutes before the 5:10 PM sunset, so "late afternoon". Used in "Paul in Athens" (Roman Athens honoring Agrippa).
+- Pick 3 (IMG_1373): added "and the tracks of metro Line 1 in the foreground" (the open cutting along the Agora's north edge is visible).
+- Picks 1, 2, and 4 kept.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Chapter 9 says Xenophon's Socrates "charged no fees" and Chapter 1 gives 30,000–50,000 citizens; both are consistent with this chapter.
+
+## Notes for the Author
+
+- **Photo 5 and the Areopagus time:** the only evidence that we stood on the Areopagus at 4:20 PM is the GPS fix of a photo that actually shows the Agrippa pedestal on the Acropolis's west approach. The chapter says we "came down to the Areopagus at about 4:20 PM"; adjust if your memory differs.
+- From memory or a quick check, worth verifying first: Agrippa pedestal about 8.9 m, about 178 BCE for a Pergamene chariot (attribution to Eumenes II is debated, so the text says "probably ... a king of Pergamon"), rededicated after about 27 BCE, "their own benefactor" (from Wikipedia/ysma.gr search results); Odeon of Agrippa in the Agora; American School excavation from 1931, "hundreds of houses" demolished; Holy Apostles about 1000 CE; Stoa of Attalos about 150 BCE, about 115 m, 21 shops a floor, Doric below and Ionic above, Attalos "said to have studied in Athens", Heruli 267 CE, rebuilt 1953–1956; Stoa Poikile 460s BCE, found 1981, visible from Adrianou Street; boundary stone about 500 BCE; Stoa of Zeus as a Socratic haunt (hedged "ancient writers"); Temple of Hephaestus begun about 449 BCE, 6 by 13 columns, Heracles and Theseus metopes, church of St. George until 1834; Assembly about 40 meetings a year; Council aged 30+, at most twice; 6,000 jurors; about 700 officials; jury pay from the 450s, Assembly pay from about 400 BCE; the Old Oligarch on rowers; kleroterion mechanism, bronze ballots, water clock about six minutes; Pnyx from about 500 BCE, about 6,000 then 10,000 or more, the red rope in *Acharnians*; ostracism 6,000 votes, ten days, 487 to about 417 BCE, Aristides 482; about 190 Themistocles ostraka in a well on the north slope, "a few different hands"; Pericles' law 451 BCE; population ranges (the chapter's rounded summary, labeled estimates, matching Chapter 1); trial details (Meletus, Anytus, Lycon; about 280 to 220 from *Apology* 36a; Diogenes Laertius on the larger death vote; about a month's delay for the Delos ship; the prison bottles hedged); Zeno's shipwreck story; Epictetus born at Hierapolis; CBT's debt to Epictetus; Strabo on Tarsus and Athenodorus; Seneca Letter 41; the Paul–Seneca letters as a 4th-century forgery; Zeno on temples (Plutarch); Aratus *Phaenomena* line 5; Epimenides attribution; altar sources (Pausanias at Phaleron, Philostratus, Diogenes Laertius 1.110, Jerome on Titus about 387); the *Anastasis*-as-goddess reading; CBAM history (Hall, Hord, University of Texas, 1970s); ouzo about 40 percent, EU protection for Greece and Cyprus, Plomari; Assyrtiko/Agiorgitiko/Xinomavro/Retsina (Savatiano) regions; the resin explanation (hedged "usual explanation"); Eubulus' ten bowls (attributed to "a comic poet"); Plato's *Symposium* set in 416 BCE; Erechtheion wage 1 drachma; Evenus 5 minae (*Apology* 20b); Protagoras 100 minae (Diogenes Laertius 9.52).
+- **Areopagus plaque:** no reliable installation date was found (often said to be 1951 for the 1,900th anniversary, but unconfirmed), so the chapter gives none. The annual service "around June 29" at the foot of the hill is from memory; check.
+- The speech sim's answers are the chapter's reading of the speech (labeled as such); line 8 (repentance) is the most arguable "Something new."
+- Listen to the new recordings, especially Pnyx (*PNIKS*; many English speakers say *NIKS*), mezedes (local *meh-ZEH-dhes*), and Agiorgitiko.
+- No meal details were invented: the evening food is a guide, not a claim about what we ate.
+
+## Files Created/Updated
+
+- docs/chapters/16-athens-agora-democracy/index.md
+- docs/chapters/16-athens-agora-democracy/img/ (5 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (Pnyx pronounce button only)
+- docs/chapters/06-bazaars-scripts-presses/index.md (mezedes pronounce button only)
+- docs/chapters/09-paul-life-letters/index.md (Areopagus pronounce button only)
+- data/photo-picks.csv (2 captions, 5 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{areopagus,pnyx,stoa-poikile,kleroterion,epictetus,aratus,mezedes,agiorgitiko}.mp3
+- logs/ch-16-content-generation.md, this log
