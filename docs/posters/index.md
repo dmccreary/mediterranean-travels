@@ -11,3 +11,6 @@ Quiz mode to test yourself.
 | Poster | What it compares |
 |---|---|
 | [The Three Classical Orders](column-types/index.md) | Doric, Ionic, and Corinthian columns |
+| [The Oracle and the Algorithm, Side by Side](oracle-vs-algorithm/index.md) | Six stages of a question, answered at Delphi and by a modern predictive model |
+
+More posters are planned. See [Poster Ideas](poster-ideas.md) for the candidates.

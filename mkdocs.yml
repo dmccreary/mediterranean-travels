@@ -146,7 +146,9 @@ nav:
 
   - Posters:
     - List of Posters: posters/index.md
+    - Poster Ideas: posters/poster-ideas.md
     - The Three Classical Orders: posters/column-types/index.md
+    - The Oracle and the Algorithm, Side by Side: posters/oracle-vs-algorithm/index.md
 
   - Stories:
     - Overview: stories/index.md
