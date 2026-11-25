@@ -194,6 +194,10 @@ The sorter below lets us test our judgment on route stories and two imagined AI 
 
 #### Diagram: With or To?
 
+<iframe src="../../sims/with-or-to-sorter/main.html" height="559px" width="100%" scrolling="no"></iframe>
+
+[Run the With or To? MicroSim Fullscreen](../../sims/with-or-to-sorter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>With or To?</summary>
 Type: microsim

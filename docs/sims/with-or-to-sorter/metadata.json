@@ -2,41 +2,67 @@
   "title": "With or To?",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for with or to?",
-  "date": "2026-11-24",
+  "description": "Eight cards, six efforts to widen or control learning from the trip (the Greek alphabet, the Senate's expulsion of 161 BCE, Justinian's law of 529, the Hebrew press of 1493, Carnegie libraries, the Turkish alphabet law of 1928) and two imagined AI projects; the learner judges each one Done with people or Done to people against four visible questions, with immediate feedback and a first-try score.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
-    "subjectArea": "Social Studies",
-    "topic": "With or To?",
+    "subjectArea": "Education",
+    "topic": "Learning with communities, not to them: judging how a change in learning was made",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Judge whether each of eight efforts to widen or control learning, six from the trip and two imagined AI projects, was done with the people it affected or done to them, sorting at least 6 of 8 correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Evaluate",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Costs of top-down reform",
+      "Evangelism's shadow",
+      "Education with communities",
+      "Mother-tongue learning",
+      "Chapter 2's with-versus-to distinction",
+      "Route stories from Chapters 2, 4, 6, 7, 10 and 12"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 555
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Criterion-based judgment: eight cards in fixed order judged against four visible questions, immediate feedback with misconception-specific lines, first placement scored, and an optional move of wrongly placed cards",
+    "keyQuestions": [
+      "Who chose it, whose language is it in, who was consulted, and who keeps it going?",
+      "Can a reform that worked still have been done to people?",
+      "When is using AI in a school done with a community?"
+    ],
+    "commonMisconceptions": [
+      "A reform that widened literacy must have been done with people.",
+      "Anything paid for by a donor is done to the community.",
+      "Using AI in a school is itself top-down, whoever chose it.",
+      "If an effort is in the learners' language, it was done with them."
+    ],
+    "assessmentOpportunities": [
+      "First-try score on eight cards (mastery: 6 of 8).",
+      "Apply the four questions to a new case, such as donated tablets, and justify the verdict."
+    ]
   },
-  "chapter": "21-going-home"
+  "chapter": "21-going-home",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/with-or-to-sorter/"
 }
