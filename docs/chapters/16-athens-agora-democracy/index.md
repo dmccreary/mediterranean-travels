@@ -438,7 +438,7 @@ The sim below lets us test where each line of the speech stands with a Stoic lis
 
 #### Diagram: Paul's Speech Through Stoic Ears
 
-<iframe src="../../sims/areopagus-speech-stoic-ears/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/areopagus-speech-stoic-ears/main.html" height="528px" width="100%" scrolling="no"></iframe>
 
 [Run the Paul's Speech Through Stoic Ears MicroSim Fullscreen](../../sims/areopagus-speech-stoic-ears/main.html){ .md-button .md-button--primary }
 

@@ -2,41 +2,68 @@
   "title": "Paul's Speech Through Stoic Ears",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for paul's speech through stoic ears",
-  "date": "2026-11-24",
+  "description": "Ten lines paraphrased from Paul's Areopagus speech (Acts 17:22-31) in speech order; the learner predicts whether a Stoic listener would hear each as common ground or something new, sees each line placed on a strip with its Stoic background, and then reads the audience's reaction from Acts 17:32-34.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
     ],
     "subjectArea": "Social Studies",
-    "topic": "Paul's Speech Through Stoic Ears",
+    "topic": "Paul's Areopagus speech and the Stoic and Epicurean ideas it echoes",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Differentiate the lines of Paul's Areopagus speech that build on what Stoic listeners already believed from the lines that ask them to accept something new, judging at least 8 of 10 lines correctly on the first attempt."
     ],
     "bloomsTaxonomy": "Analyze",
     "duration": "10-15 minutes",
-    "prerequisites": [],
+    "prerequisites": [
+      "Stoicism",
+      "Epicureans",
+      "Paul in Athens",
+      "The Areopagus",
+      "Paul and the Stoics",
+      "The Areopagus speech and its five moves",
+      "Aratus"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 524
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Predict, then reveal, line by line, with each line placed on a two-lane strip and a final reveal of the audience's reaction",
+    "keyQuestions": [
+      "Would a Stoic listener already agree with this line, or is it something new?",
+      "Where in the speech does it turn from common ground to new claims?",
+      "At what point does Acts say the audience scoffed?"
+    ],
+    "commonMisconceptions": [
+      "Paul dropped his own message to please philosophers.",
+      "Every idea in the speech was new to Greeks.",
+      "'We are his offspring' comes from the Hebrew Bible, rather than from the poet Aratus.",
+      "The Athenians rejected the speech as a whole, when Acts says they reacted at the resurrection."
+    ],
+    "assessmentOpportunities": [
+      "First-attempt predictions on ten lines (mastery: 8 of 10, with lines 9 and 10 correct).",
+      "Explain why quoting Aratus would persuade this audience."
+    ]
   },
-  "chapter": "16-athens-agora-democracy"
+  "chapter": "16-athens-agora-democracy",
+  "type": "Concept Classifier",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/areopagus-speech-stoic-ears/"
 }
