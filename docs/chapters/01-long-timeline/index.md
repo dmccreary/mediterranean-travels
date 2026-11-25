@@ -808,7 +808,7 @@ The MicroSim below gives us practice with fifteen objects and buildings we will 
 
 #### Diagram: Place the Site in Its Era
 
-<iframe src="../../sims/place-the-site-in-its-era/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/place-the-site-in-its-era/main.html" height="464px" width="100%" scrolling="no"></iframe>
 
 [Run the Place the Site in Its Era MicroSim Fullscreen](../../sims/place-the-site-in-its-era/main.html){ .md-button .md-button--primary }
 
