@@ -500,7 +500,7 @@ Many scholars doubted the decipherment at first. The test came from the ground. 
 
 #### Diagram: Crack Linear B Like Ventris
 
-<iframe src="../../sims/crack-linear-b-like-ventris/main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="../../sims/crack-linear-b-like-ventris/main.html" height="704px" width="100%" scrolling="no"></iframe>
 
 [Run the Crack Linear B Like Ventris MicroSim Fullscreen](../../sims/crack-linear-b-like-ventris/main.html){ .md-button .md-button--primary }
 

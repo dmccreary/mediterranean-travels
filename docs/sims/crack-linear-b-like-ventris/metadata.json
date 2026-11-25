@@ -2,8 +2,8 @@
   "title": "Crack Linear B Like Ventris",
   "creator": "Dan McCreary",
   "subject": "Mediterranean Travels",
-  "description": "Interactive MicroSim for crack linear b like ventris",
-  "date": "2026-11-24",
+  "description": "A p5.js five-step puzzle that replays a simplified version of the 1952 decipherment of Linear B: the sign count, Kober's triplet, the Cretan place-name guess, the grid that unlocks the other signs, and a test of the values on the Pylos tripod tablet (PY Ta 641), whose pictograms confirm the reading.",
+  "date": "2026-11-25",
   "educational": {
     "gradeLevel": [
       "Adult"
@@ -11,32 +11,61 @@
     "subjectArea": "Social Studies",
     "topic": "Crack Linear B Like Ventris",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Solve a simplified version of the 1952 decipherment by matching three Linear B sign groups to Cretan place names with grid clues and then using the resulting sound values to predict four objects on the Pylos tripod tablet, getting all three place names and at least 3 of 4 objects right on the first attempt."
     ],
     "bloomsTaxonomy": "Apply",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "Syllabaries and the sign-count rule (Chapter 2)",
+      "Linear B and its spelling rules",
+      "Spelling Knossos the Mycenaean way (worked example)",
+      "Alice Kober and her triplets",
+      "Michael Ventris and his grid",
+      "The decipherment of Linear B"
+    ],
     "standards": []
   },
   "technical": {
     "framework": "p5.js",
-    "version": "1.0",
+    "version": "2.3.4",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 700
     },
     "responsive": true,
-    "dependencies": [],
+    "dependencies": [
+      "p5.js 2.3.4 via jsDelivr",
+      "Noto Sans Linear B via Google Fonts"
+    ],
     "accessibility": {
-      "hasAltText": false,
-      "keyboardNavigable": false
+      "hasAltText": true,
+      "keyboardNavigable": true
     }
   },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Guided problem solving: two practice steps with retries, then two scored steps (first Check only) in which the learner applies the grid and tests the result against independent evidence",
+    "keyQuestions": [
+      "What kind of script has about 90 sound-signs?",
+      "What do two signs share when only the ending of a word changes?",
+      "Which sign groups are Knossos, Amnisos, and Tylissos?",
+      "What objects do ti-ri-po-de, qe-to-ro-we, ti-ri-o-we-e, and a-no-we name?"
+    ],
+    "commonMisconceptions": [
+      "Decipherment starts by guessing the language.",
+      "Each Linear B sign is a letter, as in an alphabet.",
+      "A single lucky guess deciphered the script.",
+      "Linear B words look like Classical Greek words."
+    ],
+    "assessmentOpportunities": [
+      "Step 3 first Check: three place names (mastery: 3 of 3).",
+      "Step 5 first Check: four tablet objects (mastery: at least 3 of 4).",
+      "Explain why the tripod tablet's pictograms convinced the doubters."
+    ]
   },
-  "chapter": "13-knossos-minoans-linear-b"
+  "chapter": "13-knossos-minoans-linear-b",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "https://dmccreary.github.io/mediterranean-travels/sims/crack-linear-b-like-ventris/"
 }
