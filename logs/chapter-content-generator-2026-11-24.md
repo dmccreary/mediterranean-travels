@@ -1024,3 +1024,201 @@ Resolved from the contact sheet (a crop of panel 5) and the Takeout sidecar GPS 
 - docs/chapters/09-paul-life-letters/index.md (Areopagus pronounce button only)
 - data/photo-picks.csv (2 captions, 5 web paths), data/pronunciations.csv (8 rows), docs/appendices/pronunciation-guide.md, docs/audio/{areopagus,pnyx,stoa-poikile,kleroterion,epictetus,aratus,mezedes,agiorgitiko}.mp3
 - logs/ch-16-content-generation.md, this log
+
+# Chapter 17 Session (The Oracle and the Algorithm, Part 1: The Oracle)
+
+- **Start:** 2026-11-24 20:30:41
+- **End:** 2026-11-24 20:55:27
+- **Chapter:** docs/chapters/17-oracle/index.md ("The Oracle and the Algorithm, Part 1: The Oracle"), deep dive read the night of Day 11
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4.
+- **Structure:** opening "The Night Before Delphi" + welcome; eight Parts (wanting to know the future; mountain, god, sanctuary and temple; how the oracle worked; famous answers tested; flaws and debates; politics, seasons and an insider; two sayings; decline and closing); a closing "Questions to Carry Up the Mountain" list that plants Chapter 19's seven parallels (data hub, human in the loop, confirmation bias, self-fulfilling prophecy, who funds the model, calibration and trust, prediction horizon) without answering them in AI terms; Key Takeaways; celebration linking to Chapter 18. No Practical Notes and no Learning for All section (deep dive).
+- **Division of labor:** site places (Castalian Spring, Sacred Way, treasuries, polygonal wall, omphalos, theater, stadium, Tholos, museum, Charioteer, Serpent Column base, French excavation) are mentioned only in passing with forward pointers to Chapter 18.
+- **Promises from earlier chapters honored:** Chapter 2 (chatbot about the future, "the Delphi chapters will come back to this"); Chapter 3 (Theodosian Decrees 391–392, the doubtful "last oracle" to Julian, Byzantium's "city of the blind" oracle); Chapter 4 (Serpent Column, primary-source and myth-versus-history test, used on every famous answer with a source-gap table); Chapter 8 (Apollo and Dionysus among the Olympians; sanctuary growth in the 8th century BCE); Chapter 9 (Socrates and the oracle; Thales' eclipse "said to have" predicted); Chapter 10 (Doric order; Croesus' columns at Ephesus); Chapter 15 (Thucydides on Themistocles as forecaster; the wooden walls answer; "Nothing in excess" and hubris); Chapter 16 (Chaerephon's question).
+- **AI-Native Schools chapter opened before citing:** 12 (AI Guardrails: Teaching Thinking Without Over-Reliance; "Hints Instead of Answers and Socratic Questioning") as a light pointer in the closing questions section. Chapters 04 and 05 were also opened and left for Chapter 19 (AI capability forecasting, doubling curves).
+- **MicroSim reuse search:** consultation step-through `generate` (0.443, diki-pyramid); hedging test `generate` (0.469, bias-classifier-quiz); timeline `generate` (0.424, calculus timeline). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 17. The Oracle and the Algorithm, Part 1: The Oracle | 7 / 14 / 12 | 8,440–13,250 | ~14,580 (brief's counter; includes 14 tables, 3 captions counted twice, lists, admonitions, Key Takeaways); ~10,410 in plain paragraphs | ~3,990 | 33/33 |
+
+Tier A (7): Mount Parnassus (88), Delphi (86), Apollo (81), Sanctuary of Apollo (76), Human Need for Foresight (52), Prediction (51), Oracle of Delphi (47). Tier B (14): Pythia (26), Oracle Consultation (22), Temple of Apollo at Delphi (15), Amphictyonic League (6), Nothing in Excess (6), Delphic Neutrality (5), Dionysus at Delphi (5), Plutarch (5), Oracle as Living Faith (4), Chaerephon's Question (4), Know Thyself (4), Apollo's Winter Absence (4), Oedipus Prophecy (4), Decline of the Oracle (4). Tier C (12): the rest.
+
+About 10% above the top of the budget by the brief's counter. The excess is in the Tier C famous-answer concepts (Croesus, wooden walls, bribery, gas theory), which needed their sources and the myth test to be told honestly, and in tables added to keep text runs at four paragraphs or fewer. One table (journey then and now) and one restating paragraph were cut in review.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 17 | 14 (plus 6 inside specs) | 3 | 10 (welcome 1, thinking 3, tip 2, warning 2, encourage 1, celebration 1) | delphi-consultation-steps (p5.js, Understand/explain); oracle-answer-hedging-test (p5.js, Analyze/distinguish); delphi-oracle-strength-timeline (vis-timeline, Analyze/distinguish) |
+
+Tables: methods of foresight; six statements sorted; heights on the road; Apollo's oracles; the sanctuary as a scoreboard; Fontenrose's categories; famous answers and their source gaps; three Croesus versions; three Chaerephon versions; the gas-theory claims by firmness; the Sacred Wars; Apollo and Dionysus; three readings of "Know thyself"; lifespans compared. Lists: three names of Delphi; eight consultation steps; Croesus' gifts; Socrates' three groups; the Oedipus chain; the Pythian dialogues; forces of decline; seven closing questions; Key Takeaways.
+
+## Validation
+
+- Frontmatter parses; `date` is a string (exit 0).
+- `validate-chapter-mascots.py`: OK, no violations (10 admonitions for 33 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines (run after all edits, including the pronounce buttons).
+- Specification self-check (script): six header lines in each block, objective starts "The learner will", all eleven body fields present, no indented lines, no "for example"/"such as"/"etc.", no pixel/color/Implementation lines. Counts match: 8 steps, 2 valid orders, 3 checkpoints; 8 answers (3 / 3 / 2); 14 events (6 strength / 8 weakness), 750 + 391 − 1 = 1,140. Chapter Anchors match the prose.
+- No more than 4 consecutive prose paragraphs without a non-text element (script check, specs counted as non-text).
+- No TODO and no "(verify)"; all 33 concepts appear in bold.
+- `scripts/pronunciations.py`: 7 new terms with audio (Croesus, Chaerephon, Amphictyonic, Phaedriades, adyton, Alcmaeonids, Thyiads). Buttons: 6 in Chapter 17; Croesus landed in Chapter 1 ("the Lydians, whose King Croesus"), its first running-text use. Pythia already had its button in Chapter 3. The uncommitted Antikythera row was temporarily removed for `all` (the dry run showed its button would land in Chapter 20's stub Summary), restored byte-for-byte (`cmp` identical to the saved copy; the run did not change the CSV; diff against the pre-session CSV shows only the 7 appended rows), and `appendix` (137 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Caption Changes
+
+Resolved from the contact sheet (crops of panels 2 and 3) and the Takeout sidecar GPS (no full-size photos opened):
+
+- Pick 2 (IMG_1732, 13:01): "Columns at the Temple of Apollo (verify)" -> "An ancient column and a tall stone pillar near the east end of the Temple of Apollo". GPS (38.48258, 22.50146) lies just east of the temple, and the frame shows a column and a tall rectangular pillar beside the paved way. The pillar is probably the Pillar of Prusias, but that is not stated. Placed in "The Oracle Consultation" after the steps that end at the great altar.
+- Pick 3 (IMG_1708, 12:41): "Stoa of the Athenians and the polygonal wall (verify)" -> "A row of ancient columns below the cliffs at Delphi". The wall behind the columns has rectangular recesses rather than the curved joints of the polygonal wall, the GPS (38.48206, 22.50268) is about 140 m east of the temple near the entrance, and it was taken 8 minutes before the Athenian Treasury photo, so it is probably the Roman agora at the entrance, not the Stoa of the Athenians. **Not placed** in Chapter 17: it belongs to Chapter 18's walk from the entrance. Its exported file was deleted and its `web_path` left empty; suggest moving the row to chapter 18 when that chapter is generated.
+- Picks 1 and 4 kept. No time-of-day words used (all photos 12:41–13:20 Athens time).
+- Note: `data/photo-picks.csv` in the working tree uses CRLF line endings (written by the export script's csv module in an earlier session); HEAD has LF. The file was kept in CRLF; the byte diff against the pre-session file shows only the four chapter-17 rows.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Chapter 3's "last oracle" verdict, Chapter 9's Socrates pointer, and Chapter 15's Themistocles, wooden-walls, and "Nothing in excess" pointers all agree with this chapter.
+
+## Notes for the Author
+
+- From memory or a quick check, worth verifying first: Fontenrose (1978) counts (535 responses: 75 historical, 268 quasi-historical, 176 legendary, 16 fictional; shown rounded); more than 4,000 Dodona lead tablets; Parnassus 2,457 m (Liakoura), national park 1938, "Greece's largest ski center"; heights (sanctuary about 550–650 m from photo altitudes, Arachova about 950 m, Itea about 15 km by road); the lapse-rate example (6.5 °C per 1,000 m, illustrative); tens of thousands of knucklebones in the Corycian Cave; Homeric Hymn to Apollo (Pytho, dolphin, Cretans from Knossos); Aeschylus *Eumenides* prologue (Earth, Themis, Phoebe); Heraclitus fragment; Tacitus on Claros; Herodotus on Patara (oracle "not always" active); Pliny's 3,000 statues; Thucydides 1.132 (Pausanias' couplet on the Serpent Column, 31 cities); Monument of the Admirals "near" the Marathon monument (Pausanias); Herodotus 2.180 (quarter of the cost, Amasis' 1,000 talents of alum) and 5.62 (Alcmaeonid marble front); temple 6 × 15 columns, about 60 m; pediment subjects (Pausanias 10.19.4); Diodorus 16.26 (Pythia over fifty); three Pythias (Plutarch); the Kodros Painter cup in Berlin, about 440 BCE; Plutarch's dying Pythia; Strabo on verse-makers and on "verse and prose"; consultation calendar (7th of Bysios, later monthly, nine months); the goat test; Phaselis fee inscription (state fee much higher; no figures given); Herodotus 1.54 (Lydian promanteia, freedom from fees); Xenophon *Anabasis* 3.1; Cyrene (Herodotus 4.150–158; the settlers' oath inscription); Croesus' test and gifts (Herodotus 1.46–51), Myson amphora (Louvre, about 500–490 BCE), Bacchylides 3 (468 BCE); wooden walls (Herodotus 7.140–143); Chaerephon (Plato *Apology* 20e–21a; Xenophon *Apology* 14; Diogenes Laertius 2.37); *Oedipus the King* "probably 420s BCE" and the Schiste tradition; Pyrrhus and Cicero *De Divinatione* 2.116; Herodotus 5.63 and 6.66 (Cobon, Perialla); Demosthenes' "philippize"; de Boer, Hale, Chanton (Geology, 2001) and Spiller; the critiques (later gas measurements around Delphi; a toxicologist and a historian, about 2007) are described without names; Amphictyony (twelve peoples, 24 votes, Anthela); Sacred War dates; Diodorus' "more than 10,000 talents"; Peace of Nicias clause; Herodotus 7.148, 7.169, 8.36–39; Thucydides 1.118; Plutarch on Dionysus' share and the three winter months; Clea; the Thyiads in the snowstorm and at Amphissa; Plutarch's dates (about 46 to after 119 CE), about thirty years as priest, the joint Delphian–Chaeronean portrait inscription; Ai Khanoum maxims (Clearchus, early 3rd century BCE, "more than 4,000 km"); Plutarch *Solon* 27 on the chronology; Sulla 87–86 BCE; Nero's 500 statues (Pausanias 10.7.1); Cicero on despised oracles (44 BCE); Hadrian's favor; the "last oracle" text and its late Byzantine source.
+- **Winter absence and our date:** the chapter says the oracle would "very probably" have been closed on November 22 in its great days; the three winter months are not pinned to exact modern dates.
+- **Didyma/Claros/Patara** are given as Apollo's other oracles near our route, without distances.
+- No Wikimedia image needed for this chapter; the Kodros Painter cup (Berlin) would be a strong addition if a freely licensed photo exists.
+- Listen to the new recordings, especially Chaerephon (*KAIR-uh-fon*; some say *KEER-*), Phaedriades, and Thyiads.
+
+## Files Created/Updated
+
+- docs/chapters/17-oracle/index.md
+- docs/chapters/17-oracle/img/ (3 exported JPEGs)
+- docs/chapters/01-long-timeline/index.md (Croesus pronounce button only)
+- data/photo-picks.csv (2 captions, 3 web paths), data/pronunciations.csv (7 rows), docs/appendices/pronunciation-guide.md, docs/audio/{croesus,chaerephon,amphictyonic,phaedriades,adyton,alcmaeonids,thyiads}.mp3
+- logs/ch-17-content-generation.md, this log
+
+# Chapter 18 Session (Day 12: Delphi)
+
+- **Start:** 2026-11-24 20:56:59
+- **End:** 2026-11-24 21:14:22
+- **Chapter:** docs/chapters/18-delphi/index.md ("Day 12: Delphi"), Sunday, November 22, day trip by road from Athens
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at CIS >= 4. All 22 concepts have CIS 1–3, so all are Tier C.
+- **Structure:** opening "A Sunday on Apollo's Mountain" + welcome; six Parts (road and spring; up the Sacred Way; games for Apollo; Athena before the temple; the museum; Delphi after the oracle); Practical Notes for Day 12; Learning for All; Key Takeaways; celebration linking to Chapter 19.
+- **Division of labor:** Chapter 17's oracle material (Pythia, consultation, famous answers, Amphictyony, Sacred Wars, Plutarch, decline) is only pointed to. Chapter 19's AI parallels are left to Chapter 19; the celebration points there.
+- **Promises from earlier chapters honored:** Chapter 3 ("on Day 12 we will stand where it first stood"); Chapter 4 (Serpent Column in the Hippodrome pit; Chapter 4's myth-versus-history test used on the Athenian Treasury, Athena Pronaia rockfall and loukoumades stories); Chapter 5 (the head fragment in the Istanbul Archaeology Museums); Chapter 8 (site museum, off-season livelihoods); Chapter 12 (olive harvest); Chapter 14 (thyme honey); Chapter 15 (Marathon, Plataea, melitzanosalata); Chapter 17 (Castalian Spring, omphalos, polygonal wall, Serpent Column base, French excavation, Fourth Sacred War and Amphissa).
+- **AI-Native Schools chapter opened before citing:** 08 (Tracking Mastery: xAPI, Learning Record Stores, and MicroSims; section "Data Portability and Student-Controlled Data"). Not previously cited in this book.
+- **Learning for All angle:** "Freedom Carved Where Everyone Could Read It": the manumission records as trusted public records, run through the four-step pattern, paralleled with learner-owned, portable mastery records (and the honest difference: a learner's record should be private).
+- **MicroSim reuse search:** freedom record `generate` (0.420, Inscribed and Circumscribed Polygons); Serpent Column sorter `generate` (0.461, Ancient Unicorn Civilizations Map); after-the-oracle timeline `generate` (0.384, same). 0 reused, 0 from template, 3 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 18. Day 12: Delphi | 0 / 0 / 22 | 2,640–4,400 | ~7,960 (brief's counter; includes 4 tables, 9 captions counted twice, lists, admonitions, Practical Notes, Key Takeaways); ~5,650 in plain paragraphs, of which ~4,940 in the 22 concept sections | ~3,210 | 22/22 |
+
+About 12% above the top of the concept budget in plain paragraphs. The excess is in the sections carrying worked examples: the Serpent Column (~540 words, the brief's "two ends of one object" example), the French excavation (~365, including the four-stage frame the timeline needs), Manumission Records (~325), the Athenian Treasury and Athena Pronaia myth tests, and the Charioteer close-looking example. The opening's second paragraph was cut back in review because it repeated the Parts paragraph.
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 18 | 4 (plus 3 inside specs) | 9 | 7 (welcome 1, thinking 2, tip 1, warning 2, celebration 1) | delphi-freedom-record-reader (html infographic, Analyze/deconstruct); serpent-column-two-ends (p5.js sorter, Analyze/attribute); delphi-after-the-oracle-timeline (vis-timeline, Understand/classify) |
+
+Tables: our day by photo timestamp; parts of a manumission record; Serpent Column evidence by place and source; the four crown games. Lists: museum highlights, Practical Notes, Key Takeaways.
+
+## Validation
+
+- Frontmatter parses (exit 0): "Day 12: Delphi | 2026-11-24 20:56:59".
+- `validate-chapter-mascots.py`: OK, no violations (7 admonitions for 22 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines, run after all edits including pronounce buttons. Built page has 9 trip-photo figures.
+- Spec self-check (script): six header lines, all eleven body fields, objectives start "The learner will", no indented lines, no "for example"/"such as"/"etc."/px/Implementation. Counts match: 8 clauses (4 protect / 3 record / 1 limits); 10 cards (3 Delphi / 3 Istanbul / 4 written); 9 events (1 / 2 / 2 / 4). Chapter Anchors match prose.
+- No run of more than 4 prose paragraphs without a non-text element (script check). No TODO, no "(verify)"; all 22 concepts bolded.
+
+## Photos and Caption Changes
+
+All 9 chapter-18 picks placed (none of Chapter 17's three Delphi photos reused). A fresh chapter-18 review sheet was rendered into the scratchpad from the current CSV (the repo's picks-ch18.jpg predated the pick-9 move); picks 4 and 9 were checked on their cached 600 px thumbnails (no full-size photos opened).
+
+- Pick 4 (IMG_1728, 12:57): "Replica of the Serpent Column (verify)" -> "A bronze copy of the Serpent Column in the Sanctuary of Apollo". The thumbnail clearly shows a twisted bronze column of three coils, green patina, on a stepped white base below the cliffs.
+- Pick 9 (IMG_1708, 12:41): "A row of ancient columns below the cliffs at Delphi" -> "Columns of the Roman agora at the entrance to the Sanctuary of Apollo". Confirms Chapter 17's guess: the wall behind the columns is Roman brick-and-stone with arched recesses, it is the first sanctuary photo of the day, and it was taken 8 minutes before the Athenian Treasury.
+- Pick 8 (IMG_1829, 16:16): "Arachova, the mountain village above Delphi" -> "A roadside sign spelling out Arachova, the mountain village above Delphi" (the frame shows the large #ARACHOVA letters, not the village).
+- Others kept. No time-of-day words in captions. `data/photo-picks.csv` kept in CRLF; byte diff shows only the 9 chapter-18 rows (3 captions, 9 web paths).
+
+## Pronounce Buttons
+
+7 new terms with audio: Castalian, omphalos, Pronaia, Tholos, Kastri, Amfissa, loukoumades. Buttons: Kastri, Amfissa, loukoumades in Chapter 18; Castalian, omphalos, Pronaia in Chapter 17 (their first running-text uses); Tholos in Chapter 16 (the Agora's Tholos, its first use; same word and pronunciation). The script split "Castalian Spring" in Chapter 17, so the button was moved by hand to after "Spring". The Amfissa button follows the bold "**Amfissa olive groves**". The uncommitted Antikythera row: dry run showed its button would land in Chapter 20's stub Summary, so it was removed for `all`, then the saved CSV was restored (`cmp` identical; the run did not change the CSV; diff against the pre-session CSV shows only the 7 appended rows); `appendix` (144 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- Chapter 17's celebration says "where we walk the Sacred Way in the morning mist"; our photos put the sanctuary visit at about 12:40–1:45 PM in clear weather.
+- Chapter 5 (Gülhane Park) says the Istanbul Archaeology Museums hold "one of the three bronze heads" of the Serpent Column; what survives there is usually described as the upper jaw of one head. This chapter says "the upper jaw of one of the serpent heads".
+
+## Notes for the Author
+
+- Worth verifying first: more than a thousand Delphic manumission records, mostly about 200 BCE to 100 CE; the record formula (entrusting the purchase to the god; guarantor; priests as witnesses; paramone); Herodotus 9.81 (tripod on the three-headed serpent "nearest the altar", from a tenth of the spoils); Pausanias 10.13.9 (Phocian leaders took the gold, bronze still there); the monument's base still in place near the altar, and the bronze copy standing near it (installation date not given); heads lost "at the end of the 17th century or soon after"; upper jaw rediscovered in the 19th century; Hesiod's Cronus stone at Pytho and Pausanias 10.24.6 (oiled stone wrapped in wool); a plainer omphalos copy beside the Sacred Way; the archaic Castalian fountain about 600 BCE and the upper fountain often fenced for rockfalls; more than twenty treasury foundations; Corinthian treasury holding Croesus' gifts; Athenian Treasury rebuilt 1903–1906 with money from the city of Athens; the Marathon base inscription and the pre-Marathon dating debate; Delphic Hymns on the treasury's south wall; Pythian Games reorganized 582 BCE, laurel from Tempe (tradition); crown-games table dates (Isthmian c. 582, Nemean c. 573); theater 35 rows, about 5,000, Eumenes II; stadium track about 178 m, about 6,500 seats, Herodes Atticus per Pausanias; Athena Pronaia "a short walk east"; the Massaliot treasury; Herodotus 8.37–39 (rocks at Athena Pronaia) and a rockfall damaging the old temple of Athena "in the early 20th century" (often given as 1905); Tholos 20 Doric and 10 Corinthian columns, three re-erected, Theodorus of Phocaea per Vitruvius; first museum 1903; silver bull and gold-and-ivory heads found 1939; Kleobis and Biton about 580 BCE (and the Dioskouroi debate); Charioteer about 1.8 m, 478–470 BCE, Polyzalos, altered inscription, found 1896, inlay details; Cyriac of Ancona 1436; Spon and Wheler 1676; excavation begun 1892 under Homolle, with an American bid before France won the rights; Delphic Festivals 1927 and 1930 and the Sikelianos house museum; Battle of Arachova 1826 under Karaiskakis and its monument; formaela cheese; *Konservolia Amfissis* PDO; "one of the largest continuous olive groves in Greece" (hedged as "often described"); Pindar's "Delphic bee"; the bee-maidens of the *Homeric Hymn to Hermes*; lokma given out in memory of the dead around İzmir; loukoumades/lokma and loukoumi/lokum etymologies.
+- The chapter does not say whether we visited the museum before or after the site; the photo gap from 11:02 to 12:41 suggests the museum came first. Adjust the Practical Notes if you remember the order.
+- No Wikimedia image needed; a freely licensed photo of the Charioteer or of the Tholos would strengthen Parts Four and Five, since we have no picks of either.
+- Listen to the new recordings, especially Kastri (*kah-STREE*), Amfissa (*AHM-fee-sah*), and loukoumades (*loo-koo-MAH-thes*).
+
+## Files Created/Updated
+
+- docs/chapters/18-delphi/index.md
+- docs/chapters/18-delphi/img/ (9 exported JPEGs)
+- docs/chapters/17-oracle/index.md (Castalian, omphalos, Pronaia pronounce buttons only)
+- docs/chapters/16-athens-agora-democracy/index.md (Tholos pronounce button only)
+- data/photo-picks.csv (3 captions, 9 web paths), data/pronunciations.csv (7 rows), docs/appendices/pronunciation-guide.md, docs/audio/{castalian,omphalos,pronaia,tholos,kastri,amfissa,loukoumades}.mp3
+- logs/ch-18-content-generation.md, this log
+
+# Chapter 19 Session (The Oracle and the Algorithm, Part 2: The Algorithm)
+
+- **Start:** 2026-11-24 21:15:56
+- **End:** 2026-11-24 21:29:53
+- **Chapter:** docs/chapters/19-algorithm/index.md, deep dive for the drive back from Delphi on Day 12 (Sunday, November 22) or that evening
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at 4–41, Tier C at <= 3.
+- **Structure:** opening "The Drive Back from Delphi" + welcome; eight Parts (learning from examples; three prediction machines; the oracle's questions asked of machines; predictions that change the world; what earns trust; an answer as the start of an inquiry; what prediction cannot decide; who asked, and where the parallel breaks, ending with seven reflection questions); Key Takeaways; celebration linking to Chapter 20. No Practical Notes and no photos (no chapter-19 picks), as briefed.
+- **Promises honored:** Chapter 2 (machine learning, LLMs, the Hagia Sophia chatbot question, "the Delphi chapters will come back to this"; the Grand Bazaar Sunday example reused in the next-word section). Chapter 17's seven "Questions to Carry Up the Mountain" are each answered: data hub (Q1), wooden wall and human in the loop (Q2), Croesus and confirmation bias (Q3), Oedipus and self-fulfilling prophecy (Q4), Croesus' promanteia and the Alcmaeonid bribe (Q5), track record and calibration (Q6), Apollo's winter absence and the prediction horizon (Q7). Know thyself → values beyond prediction; Nothing in excess → climate models and long-term consequences. Chapter 15's Laurion silver and Themistocles' ships used for acting on foresight.
+- **Left to Chapter 20:** the Antikythera mechanism (not named; the celebration points to "an ancient bronze machine that predicted the sky"), Aristotle and Alexander, Bloom's 2 sigma, AI tutoring, the Phaedrus, AI over-reliance and guardrails (one forward pointer in "AI as Thinking Partner").
+- **AI-Native Schools chapters opened before citing:** 04 (Measuring AI Capability: The METR Task-Horizon Studies; 50 percent time horizon), 05 (Projecting AI Growth: Doubling Curves, Limits, and Uncertainty; S-curves, scenario planning), 10 (Student Privacy and Data Governance; algorithmic bias, the four-fifths audit, the Wisconsin early-warning report, GDPR), 12 (AI Guardrails: Teaching Thinking Without Over-Reliance; hints instead of answers, Socratic questioning). Chapter 10 is linked three times (loan and hiring, student risk, consent), the others once.
+- **MicroSim reuse search:** calibration game `template` (0.635, Confidence Calibration Challenge, ai-persona-testing; `**Template:**` line added); next-word toy `generate` (0.526, Language Model Response Laboratory); feedback loops `generate` (0.566, Arms Race Dynamics). 0 reused, 1 from template, 2 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 19. The Oracle and the Algorithm, Part 2 | 1 / 11 / 20 | 5,650–9,150 | ~11,130 (brief's counter; includes 9 tables, lists, 10 admonitions, Key Takeaways, reflection questions); ~8,020 in plain paragraphs | ~4,490 | 32/32 |
+
+Plain-paragraph prose sits inside the budget. Machine Learning (Tier A) carries the Doric/Ionic worked example and a comparison table; every Tier B concept has a worked example (coach-lateness model, the sky shortcut, the missing reviewers, the Amazon résumé case, three ways to state a forecast, the wooden-wall method, two forecasters and the Brier score, rewriting the Croesus answer, testing old climate models, the umbrella rule, predictions made about us today).
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 19 | 9 (plus 9 inside specs) | 0 | 10 (welcome 1, thinking 3, tip 2, warning 2, encourage 1, celebration 1) | next-word-temperature-toy (p5.js, Understand/infer); prediction-feedback-loops (vis-network causal-loop, Analyze/differentiate); calibration-confidence-game (p5.js, Evaluate/assess, from template) |
+
+Tables: rules vs machine learning; coach-lateness model; three kinds of data bias; sources of uncertainty; temperature and "Know ___"; two forecasters' Brier scores; making the Croesus answer testable; answer vs thinking partner; oracle vs model. Lists: the five-step ML example, the four-step interpretation method, predictions made about us today, reflection questions, Key Takeaways.
+
+## Validation
+
+- Frontmatter parses: "The Oracle and the Algorithm, Part 2: The Algorithm | 2026-11-24 21:15:56".
+- `validate-chapter-mascots.py`: OK, no violations (10 admonitions for 32 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines, run after the pronounce buttons.
+- Spec self-check (script): six header lines, all eleven body fields, objectives start "The learner will", no indented lines, no px/Implementation, no "for example"/"such as"/"etc." in specs. Counts: 4 prompts and 5 challenges; 10 links, 3 loops, 3 questions; 12 statements (7 true, 5 false), 2 forecasters, 3 judgments. Chapter Anchors match prose (86.7/60.0/39.1 and 0.4/4.0/10.1 percent; 0.21, 0.33, 0.25).
+- No run of more than 4 prose paragraphs without a non-text element (script). No TODO. All 32 concepts bolded; three with an article inserted ("oracle as a data hub", "answer as the start of an inquiry", "AI as a thinking partner"), as Chapter 17 did with "oracle as a living faith".
+
+## Pronounce Buttons
+
+2 new terms with audio: Brier (*BRY-er*) and stochastic (*stuh-KAS-tik*), both first used in Chapter 19, both buttons in Chapter 19. The script put the stochastic button inside the quoted phrase "stochastic parrots"; the sentence was reworded so the button follows an italic *stochastic* outside the quotation. The uncommitted Antikythera row: dry run showed its button would land in Chapter 20's stub Summary, so it was removed for `all`; the script did not change the CSV; the CSV was then restored so that the pre-session file is a byte-identical prefix and the only difference is the 2 appended rows; `appendix` (146 terms) and `check` (OK; Antikythera audio=yes, no chapter button) were rerun.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found.
+
+## Notes for the Author
+
+- Worth verifying first: Reuters (2018) on Amazon's abandoned résumé tool (about ten years of résumés, "women's", two women's colleges); Merton's 1948 naming of the self-fulfilling prophecy with the bank example; *Pygmalion in the Classroom* (1968) and the continuing debate; Lum and Isaac (2016) on Oakland drug-crime records and health surveys; "several American cities have since stopped using predictive policing"; Lorenz in the 1960s and the roughly two-week limit, with useful detail fading after about a week to ten days; "studies since the 1970s" on the calibration of weather forecasts; the 2021 "stochastic parrots" paper; METR's 2025 study described only as "doubling every several months" (the companion book plans with five months; the arithmetic "about fivefold in a year, nearly 150-fold in three years" uses five); the 2020 study of climate models published 1970–2007 (Hausfather and colleagues) described as "most of them" accurate; IPCC: about 1.1 °C of warming by 2011–2020; Paris 2015 goals; the Mediterranean as a "hotspot"; European data-protection rights on solely automated decisions (GDPR Article 22, not named); 1930s redlining maps.
+- The coach-lateness table, the restaurant-review figures, the two forecasters, the temperature probabilities and the Croesus/AI testable rewrites are illustrative and say so in the text.
+- Reflection question 7 is addressed to Dan, as Chapter 11's leadership reflection was; cut it if it feels too personal.
+- No Wikimedia image is needed; this chapter has no site to show.
+- Listen to the two new recordings, especially Brier (said like "briar").
+
+## Files Created/Updated
+
+- docs/chapters/19-algorithm/index.md
+- data/pronunciations.csv (2 rows appended), docs/appendices/pronunciation-guide.md, docs/audio/{brier,stochastic}.mp3
+- logs/ch-19-content-generation.md, this log
