@@ -8,8 +8,8 @@
     {
       "id": 1,
       "label": "Hand Crank",
-      "x": 41,
-      "y": 76,
+      "x": 34,
+      "y": 78,
       "radius": 4,
       "color": "#C0392B",
       "hint": "A small L-shaped handle with a round wooden knob, sticking out of the side of the box at the lower left.",
@@ -92,8 +92,8 @@
     {
       "id": 9,
       "label": "Surviving Fragments",
-      "x": 19,
-      "y": 88,
+      "x": 21.5,
+      "y": 83,
       "radius": 4.5,
       "color": "#1F6F8B",
       "hint": "A few lumpy, green-brown corroded pieces of metal lying on the ground, one with a gear edge showing.",

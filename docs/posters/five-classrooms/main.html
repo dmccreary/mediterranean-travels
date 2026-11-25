@@ -127,5 +127,28 @@
 
 <script src="../../sims/shared-libs/grid-diagram.js"></script>
 <script src="five-classrooms.js"></script>
+<script>
+// Tell the parent page how tall this poster is, so the lesson page can size the
+// iframe (see docs/js/microsim-resize.js). The height only grows while the width
+// stays the same, so the page does not jump when a longer infobox is opened.
+(function () {
+  var maxH = 0, lastW = 0;
+  function post() {
+    var w = window.innerWidth;
+    if (w !== lastW) { lastW = w; maxH = 0; }
+    var c = document.getElementById('controls');
+    if (!c) return;
+    var h = Math.ceil(c.getBoundingClientRect().bottom + window.scrollY) + 24;
+    if (h > maxH) maxH = h;
+    window.parent.postMessage({ type: 'microsim-resize', height: maxH }, '*');
+  }
+  var t;
+  function later() { clearTimeout(t); t = setTimeout(post, 250); }
+  window.addEventListener('load', later);
+  window.addEventListener('resize', later);
+  document.addEventListener('click', later);
+  setTimeout(post, 800);
+})();
+</script>
 </body>
 </html>

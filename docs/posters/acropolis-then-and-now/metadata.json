@@ -1,0 +1,70 @@
+{
+  "title": "The Acropolis, Then and Now",
+  "creator": "Dan McCreary",
+  "subject": "Mediterranean Travels",
+  "description": "Hover over and click two aerial views of the Acropolis, about 406 BCE and today, to compare five monuments and what has been lost, rebuilt, or removed on purpose, then test yourself in Quiz mode.",
+  "date": "2026-11-25",
+  "educational": {
+    "gradeLevel": [
+      "Adult"
+    ],
+    "subjectArea": "Social Studies",
+    "topic": "The Athenian Acropolis, then and now",
+    "learningObjectives": [
+      "The learner will compare the Acropolis of about 406 BCE with the rock a visitor climbs today, and for each of five monuments name what has been lost, rebuilt, replaced, or removed on purpose."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Chapter 15: the Acropolis and the Parthenon"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Custom (grid-diagram.js infographic overlay)",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 1060
+    },
+    "responsive": true,
+    "dependencies": [
+      "../../sims/shared-libs/grid-diagram.js",
+      "../../sims/shared-libs/grid-overlay.css"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Side-by-side comparison followed by retrieval practice",
+    "keyQuestions": [
+      "What was lost, rebuilt, replaced, or removed on purpose?",
+      "What did the restorers choose to show?"
+    ],
+    "commonMisconceptions": [
+      "The Parthenon was always a ruin.",
+      "All the sculpture was white marble."
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode: click the zone that matches each idea"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Explore",
+      "type": "button",
+      "description": "Default mode: hover a zone for a tooltip, click it for the infobox."
+    },
+    {
+      "name": "Quiz Mode",
+      "type": "button",
+      "description": "Hides the name pills and asks 10 questions answered by clicking a zone."
+    }
+  ],
+  "chapter": "15-athens-acropolis",
+  "type": "Interactive Infographic",
+  "format": "text/html",
+  "language": "en"
+}
