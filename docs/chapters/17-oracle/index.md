@@ -290,6 +290,10 @@ The MicroSim below walks through a consultation step by step and asks us to pred
 
 #### Diagram: A Day at the Oracle
 
+<iframe src="../../sims/delphi-consultation-steps/main.html" height="594px" width="100%" scrolling="no"></iframe>
+
+[Run the A Day at the Oracle MicroSim Fullscreen](../../sims/delphi-consultation-steps/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>A Day at the Oracle</summary>
 Type: microsim
@@ -465,6 +469,10 @@ The most perfectly hedged answer attributed to Delphi is a Latin line said to ha
 The MicroSim below gives us eight answers to test, ancient and modern.
 
 #### Diagram: Can This Answer Lose?
+
+<iframe src="../../sims/oracle-answer-hedging-test/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Can This Answer Lose? MicroSim Fullscreen](../../sims/oracle-answer-hedging-test/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Can This Answer Lose?</summary>
@@ -669,6 +677,10 @@ Through all that time, kings and cities kept sending envoys up the mountain, eve
 The timeline below sorts fourteen moments of those centuries into signs of the oracle's strength and signs of its weakness.
 
 #### Diagram: Eleven Centuries of the Oracle
+
+<iframe src="../../sims/delphi-oracle-strength-timeline/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Eleven Centuries of the Oracle MicroSim Fullscreen](../../sims/delphi-oracle-strength-timeline/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Eleven Centuries of the Oracle</summary>
