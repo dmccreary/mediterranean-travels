@@ -1293,3 +1293,95 @@ No time-of-day words in captions.
 - docs/chapters/02-traveling-well/index.md (Phaedrus pronounce button only), docs/chapters/10-ephesus-greco-roman-city/index.md (rebetiko button only), docs/chapters/14-venetian-heraklion/index.md (kafeneio button only)
 - data/photo-picks.csv (4 captions, 10 web paths), data/pronunciations.csv (5 rows appended), docs/appendices/pronunciation-guide.md, docs/audio/{phaedrus,kallimarmaro,exarchia,kafeneio,rebetiko}.mp3
 - logs/ch-20-content-generation.md, this log
+
+# Chapter 21 Session (Going Home: Learning With Communities, Not To Them)
+
+- **Start:** 2026-11-24 21:52:06
+- **End:** 2026-11-24 22:03:33
+- **Chapter:** docs/chapters/21-going-home/index.md, the closing chapter, read on the flight home (Tuesday, November 24, which is also Teachers' Day in Turkey, per Chapter 7)
+- **cis_max:** 1771 (global). Tier A at CIS >= 42, Tier B at 4–41, Tier C at <= 3.
+- **Structure:** opening "Wheels Up from Athens" + welcome; Part One (Seeing Past the Tourist Script with a 15-row table of every Learning for All story, Cost of Delaying Technology, Scribal Resistance); Part Two (Costs of Top-Down Reform, Education Evangelism, Evangelism's Shadow); Part Three (Mother-Tongue Learning, AI Translation, Education With Communities with the one spec, AI-Native Schools Companion); closing "Writing Our Own Good News" (Good News Message with a worked example from the Fountain of Ahmed III on Day 3; Lessons Across the Route as seven reflection questions); Key Takeaways; celebration linking to the home page, Chapter 1 and AI-Native Schools. No Practical Notes, no photos (none picked).
+- **Learning for All sections read before writing:** Chapters 3, 4, 5, 6, 7, 8, 10, 12, 13, 14, 15, 16, 18, 20, plus Chapter 2's Part Six (four-step pattern, route table, with/to distinction), Chapter 9 Part Eight (euangelion, evangelist, shared language), Chapter 11 Parts Three and Eight (contested legacy, Christian anti-Judaism, who is hurt, limits of the parallel, leadership reflection) and the economics of resistance, Chapter 19's reflection questions.
+- **Promises honored:** Chapter 2 ("Chapter 21 gathers" the notes; with vs to); Chapter 9 ("Chapter 21 looks honestly at the shadow side of evangelism"; "Chapter 21 returns to this when it asks how to bring AI to learners in their mother tongues"); Chapter 11 ("Chapter 21 gathers them"; "the shadow side of evangelism: good news imposed ... missions and school reform"; "on the flight home, when Chapter 21 asks us to write our own good news"); Chapter 20 ("Read Chapter 21 on the plane").
+- **AI-Native Schools chapters opened before citing:** 04 (Measuring AI Capability: the METR Task-Horizon Studies; generative-audio row "ask a fluent speaker to sample it"), 18 (Sustaining Change: national adoption, the South Korea AI-textbook case "as reported"), 21 (Implementing the AI-Native Model Responsibly: rushed procurement, equity), 22 (Case Studies I: benefit/risk framework, Turkish study), 23 (Case Studies II: why school reforms fail, student walkouts). Chapter 13 opened but not cited (its fit is social learning, not community-led change).
+- **MicroSim reuse search:** with-or-to sorter `generate` (0.535, Public vs. Private Knowledge Boundary). 0 reused, 0 from template, 1 newly specified.
+
+## Elaboration Budget vs Actual (prose words, specifications excluded)
+
+| Chapter | Tier mix (A/B/C) | Budget | Prose words | Spec words | Concepts |
+|---|---|---|---|---|---|
+| 21. Going Home: Learning With Communities, Not To Them | 0 / 3 / 9 | 1,830–3,000 | ~5,070 (brief's counter; includes 3 tables, 2 lists, 7 reflection questions, 5 admonitions, Key Takeaways); ~2,990 in plain paragraphs | ~1,210 | 12/12 |
+
+Plain-paragraph prose sits at the top of budget; the overage in the brief's counter is the 15-row story table, the 1928 ledger, the Paul-method table and the end matter. Tier B worked examples: the 1928 ledger (top-down reform), Paul's method run on a school pitch (evangelism), the three-question shadow test (shadow). Good News Message has its worked example (the fountain we could not read).
+
+## Non-text Elements
+
+| Chapter | Tables | Photos | Mascots | New MicroSim specs |
+|---|---|---|---|---|
+| 21 | 3 (plus 1 inside the spec) | 0 | 6 (welcome 1, thinking 1, warning 2, tip 1, celebration 1) | with-or-to-sorter (p5.js, Evaluate/judge) |
+
+Tables: every Learning for All story by chapter with its lesson; the 1928 alphabet's gains and costs; Paul's practices as questions for an AI pitch. Lists: four scribal resisters, three shadow questions, three AI-Native Schools chapters, seven reflection questions, Key Takeaways. One blockquote (the worked good news message).
+
+## Validation
+
+- Frontmatter parses: "Going Home: Learning With Communities, Not To Them | 2026-11-24 21:52:06".
+- `validate-chapter-mascots.py`: OK, no violations (6 admonitions for 12 concepts).
+- `mkdocs build --strict` (into scratchpad): exit 0, no WARNING lines, run after the pronounce button.
+- Spec self-check (script): six header lines, all eleven body fields, objective starts "The learner will", no indented lines, no px/Implementation, no "for example"/"such as"/"etc."; 8 cards, 4 per bin; Chapter Anchors match the prose (161 BCE, 529, 1493 "or perhaps a decade later", Carnegie's land-and-upkeep condition, 1928 without a vote, mastery 6 of 8).
+- No run of more than 4 plain paragraphs without a non-text element (scribal resistance turned into a list, the warning moved, and the worked message set as a blockquote to fix runs of 9 and 5). No TODO. All 12 concepts bolded at definition and in Key Takeaways.
+
+## Photos and Caption Changes
+
+- None: Chapter 21 has no picks, and no captions were changed. No Wikimedia image is needed for a reflective chapter.
+
+## Pronounce Buttons
+
+1 new term with audio: Masakhane (*mah-sah-KAH-neh*, local), button landed in Chapter 21's AI Translation section, its first use. `pronunciations.py all` behaved as expected (generate, insert, appendix rebuilt to 152 terms, check OK); the existing Antikythera row was untouched.
+
+## Corrections to Earlier Chapters (reported, not edited)
+
+- None found. Minor inconsistency noted only: Chapter 6 says some of Müteferrika's editions "were still being sold decades later," while its closing paragraph and Chapter 7 say his books "sat unsold"; both can be true (slow sales), and Chapter 21 avoids the phrase.
+
+## Notes for the Author
+
+- Outside-the-route facts added, worth checking: UNESCO's 1953 monograph *The Use of Vernacular Languages in Education* ("the best medium for teaching is the mother tongue of the pupil"); the GEM Report policy paper "If you don't understand, how can you learn?" (2016) and its "as much as 40 percent" estimate; Canada's Truth and Reconciliation Commission (2015) on children punished for speaking their languages in residential schools; Masakhane as a grassroots African-language NLP community, name isiZulu for "we build together" (no founding year given on purpose).
+- The research summary on mother-tongue instruction is qualitative (easier first reading, supports a second language, needs trained teachers and books); no effect sizes were given because none were sourced here.
+- The two AI cards in the sorter (a national English-only rollout; village teachers choosing stories) are illustrative and labeled so.
+- The good news worked example deliberately avoids taking a side on teaching Ottoman Turkish, which Chapter 7 calls part of today's politics.
+- Listen to the Masakhane recording; isiZulu *kh* is aspirated, and the respelling uses plain *K*.
+
+## Files Created/Updated
+
+- docs/chapters/21-going-home/index.md
+- data/pronunciations.csv (1 row appended), docs/appendices/pronunciation-guide.md, docs/audio/masakhane.mp3
+- logs/ch-21-content-generation.md, this log
+
+---
+
+# Coordinator Summary: Chapters 7–21
+
+**Execution:** sequential, one background agent per chapter, each following a shared brief (conventions from Chapters 4–6: structure, CIS budget, spec template, photo and caption rules, pronounce buttons, validation, logging). The coordinator checked each chapter on hand-back and fixed problems agents reported in earlier chapters.
+**Finished:** 2026-11-24 22:04:34
+
+## Results
+
+- All 21 chapters now have content; no "TODO: Generate Chapter Content" remains.
+- Every chapter passes validate-chapter-mascots.py; pronunciations.py check is OK.
+- Strict build: the committed book (d9d623a) plus Chapter 21 builds with 0 warnings. The working tree as a whole currently fails strict on one warning in docs/posters/column-types/index.md (a link to ./main.html), which belongs to another session's unfinished poster work, not to any chapter.
+- Most daily chapters run over their CIS word budgets (roughly 10–80%), mainly from tables, worked examples, and stories earlier chapters promised. Chapter 9 and Chapter 19 are within budget.
+
+## Corrections Made to Earlier Chapters During the Run
+
+- Ch 3: Istanbul sunset 4:50 PM corrected to about 5:45 PM (Turkey is UTC+3 all year); the shared brief's Çanakkale and Kuşadası sunsets were likewise corrected to about 6:00 PM before those chapters were written.
+- Ch 5: the 1935 law moved the weekly day of rest from Friday to Sunday (not a Saturday-Sunday weekend); Istanbul holds the upper jaw of one Serpent Column head, not a whole head.
+- Ch 7: French Gallipoli landing at Kum Kale (British at Cape Helles); Dodecanese handed to Greece 1947, formal union 1948 (also Ch 1).
+- Ch 2: Knossos fell about 1375 BCE, the Mycenaean palaces about 1200 BCE; the 12,000-scroll figure for the Library of Celsus marked as an estimate.
+- Ch 16: removed a claimed 4:20 PM Areopagus visit that rested on a drifting GPS point.
+- Ch 17: removed "morning mist" for a midday visit; one Delphi photo moved to Ch 18 (Roman agora).
+
+## Open Items for the Author
+
+- Each chapter's "Notes for the Author" section above lists facts to verify.
+- Chapters 7, 19, and 21 have no trip photos; Ch 7, 8 (Gallipoli), and 10 (Library of Celsus, Great Theater) list Wikimedia Commons suggestions.
+- The pronunciation insert script does not skip stub Summary sections; agents worked around it for Antikythera. Worth fixing in scripts/pronunciations.py.
+- Chapter 21 and its Masakhane pronunciation are not yet committed.
