@@ -107,6 +107,10 @@ The MicroSim below lets us test our sense of the order in which the empire's lan
 
 #### Diagram: Where the Empire Withdrew, 1683–1923
 
+<iframe src="../../sims/ottoman-retreat-map/main.html" height="694px" width="100%" scrolling="no"></iframe>
+
+[Run the Where the Empire Withdrew, 1683–1923 MicroSim Fullscreen](../../sims/ottoman-retreat-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Where the Empire Withdrew, 1683–1923</summary>
 Type: map
@@ -327,6 +331,10 @@ The MicroSim below lets us apply the convention's rules to ten cases, as officia
 
 #### Diagram: Who Was Exchanged in 1923?
 
+<iframe src="../../sims/population-exchange-1923-cases/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Who Was Exchanged in 1923? MicroSim Fullscreen](../../sims/population-exchange-1923-cases/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Who Was Exchanged in 1923?</summary>
 Type: microsim
@@ -398,6 +406,10 @@ The movement's aims were set out in the **National Pact** (*Misak-ı Millî*) of
 **Worked example: reading a treaty against the Pact.** Let's test one of Sèvres's terms against the National Pact and predict what Lausanne did with it. Sèvres gave Eastern Thrace, the land around Edirne on the European side, to Greece. That land had a Muslim majority and was held by Ottoman forces at the armistice, so it lay inside the Pact's claim, and the nationalists had won the war. We should predict that Lausanne reversed this term, and it did: the border was drawn on the Maritsa River, where it still runs. Now try the Arab provinces: Sèvres took them away, but the Pact had already left them out of its claim, so we should predict that Lausanne kept that term, and it did. One question, "was it inside the Pact?", predicts most of the treaty. The MicroSim below gives us ten terms to test.
 
 #### Diagram: Sèvres or Lausanne?
+
+<iframe src="../../sims/sevres-versus-lausanne/main.html" height="450px" width="100%" scrolling="no"></iframe>
+
+[Run the Sèvres or Lausanne? MicroSim Fullscreen](../../sims/sevres-versus-lausanne/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Sèvres or Lausanne?</summary>
