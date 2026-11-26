@@ -8,5 +8,5 @@ have placed them in appendices at the "end" of the book.
 3. [Timeline of Events](./timeline-of-events.md)
 4. [Extensions and Excursions](./extensions-and-excursions.md)
 5. [Who Created the Antikythera Mechanism](./antikythera-mechanism.md)
-6. [Pausanias Saw](./pausanias-saw.md)
+6. [What Pausanias Saw](./pausanias-saw.md)
 7. [How We Built This Site](./how-we-built-this-site.md)

@@ -1,9 +1,9 @@
 ---
-title: Pausanias Saw
+title: What Pausanias Saw
 description: "What the 2nd-century travel writer Pausanias saw at the places we visited in Greece, in his own words, set beside what stands there today: Cape Sounion, the Acropolis, the Agora and Areopagus, the Temple of Olympian Zeus, and Delphi, with a few notes on Rhodes, Byzantium, Ephesus, and Knossos."
 ---
 
-# Pausanias Saw
+# What Pausanias Saw
 
 **Pausanias** was a Greek travel writer of the 2nd century CE, probably from
 Lydia in western Asia Minor. Between about 150 and 175 CE he wrote the
@@ -19,6 +19,12 @@ in Greece, it quotes what Pausanias saw and then says what is there now. The
 gap between the two is a record of earthquakes, plunder, conversion, and the
 lime kilns that burned marble into mortar. The chapters already cite
 Pausanias as a source; here he speaks for himself.
+
+This appendix was suggested by my friend
+[Ondrej Michalak](https://www.linkedin.com/in/ondrejmichalak/) of Prague,
+who noticed Pausanias in the chapters and asked whether we could add his
+original descriptions so readers could compare then and now. Thank you,
+Ondrej.
 
 !!! mascot-warning "Two Men Named Pausanias"
     ![Glaux warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
