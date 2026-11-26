@@ -41,7 +41,7 @@ The trip runs thirteen days, Wednesday, November 11 to Monday, November 23, 2026
 - **Day 7, Kuşadası**, for Ephesus.
 - **Day 8, Rhodes**, our first day in Greece.
 - **Day 9, Heraklion**, on Crete.
-- **Day 10, Piraeus**, the port of Athens, with a final night aboard.
+- **Day 10, Piraeus**, the port of Athens, with a final night aboard. That day we took Viking's excursion to the Temple of Poseidon at Cape Sounion in the morning and the Acropolis in the afternoon.
 - **Days 11–13, Athens**, including the day trip by road to Delphi on November 22.
 
 Greece is one hour behind Turkey in November, so clocks go back an hour when the ship enters Greek waters. The [Viking Cruise Map](sims/viking-cruise-map/index.md) shows every port and the road to Delphi, and [Chapter 2](chapters/02-traveling-well/index.md) explains the shape of the journey.
@@ -138,7 +138,7 @@ The guide is careful that the history comes first and the parallel second, and e
 
 Mostly, yes. The chapters were written to prepare for each day, then revised after the trip to reflect what we actually did and photographed. The photos in each chapter are our own, chosen from the trip and published without location data.
 
-Where the day went differently from the plan, the chapter says so. The clearest case is Crete. [Chapter 13](chapters/13-knossos-minoans-linear-b/index.md) still teaches the palace of Knossos in full, because no account of the Minoans can skip it, but on the day we chose Viking's "The Villages of Crete" excursion instead. We spent the morning in the Heraklion Archaeological Museum, where nearly everything movable from Knossos now lives, and the afternoon at the Avli winery and the pottery village of Thrapsano. [Chapter 14](chapters/14-venetian-heraklion/index.md) follows the day in that order.
+Where the day went differently from the plan, the chapter says so. The clearest case is Crete. [Chapter 13](chapters/13-knossos-minoans-linear-b/index.md) still teaches the palace of Knossos in full, because no account of the Minoans can skip it, but on the day we chose Viking's "The Villages of Crete" excursion instead. We spent the morning in the Heraklion Archaeological Museum, where nearly everything movable from Knossos now lives, and the afternoon at the Avli winery and the pottery village of Thrapsano. [Chapter 14](chapters/14-venetian-heraklion/index.md) follows the day in that order. In Athens on Day 10 we added a morning the plan did not have: Viking's excursion took us first to the Temple of Poseidon at Cape Sounion, then back to the city for the Ancient Agora and the Acropolis, as [Chapter 15](chapters/15-athens-acropolis/index.md) tells.
 
 Personal touches appear in the first person: the Turkish delight and saffron we bought at the Spice Bazaar, and eggplant as a favorite dish on both sides of the Aegean.
 

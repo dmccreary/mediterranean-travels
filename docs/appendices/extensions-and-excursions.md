@@ -199,7 +199,7 @@ See [Athens, the Acropolis, and the Persian Wars](../chapters/15-athens-acropoli
 | Acropolis & Plaka District by Foot | The climb to the Acropolis, then the Plaka neighborhood (also sold as a private tour for up to six) |
 | The Full Acropolis Experience | The Acropolis and the Parthenon, then the Acropolis Museum |
 | Acropolis Museum & Plaka District | The Olympic Stadium, the Acropolis Museum, and Plaka |
-| The Acropolis of Athens & the Temple of Poseidon | The Acropolis, lunch, then Cape Sounion |
+| **The Acropolis of Athens & the Temple of Poseidon** (the one we took, November 20, 2026) | The Acropolis, lunch, then Cape Sounion |
 | Temple of Poseidon & Wine Tasting | Cape Sounion, then a tasting at the Strofilia Estate |
 | Delphi & the Oracle | The Temple of Apollo, the theater, the stadium, and the Delphi Museum |
 | Mycenae & Epidaurus | The Corinth Canal, the Lion Gate and "Tomb of Agamemnon" at Mycenae, and the theater at Epidaurus |
@@ -208,6 +208,16 @@ See [Athens, the Acropolis, and the Persian Wars](../chapters/15-athens-acropoli
 | A Taste of Athens | A food walk from Syntagma to Monastiraki, ending with souvlaki and wine |
 | Traditional Greek Cooking Class | A vegetable market, then a cooking class |
 | Greek Heritage, Traditional Dinner & Folk Show | An evening dinner with wine and a *sirtaki* dance performance |
+
+### Our Excursion: The Temple of Poseidon and the Acropolis
+
+We took this excursion on **Friday, November 20, 2026**, the day the ship
+reached Piraeus. The location data on our photos shows the order was the
+reverse of Viking's listing. We were at the Temple of Poseidon on Cape Sounion
+from about 9:30 to 10:30 in the morning, were back in central Athens by noon,
+walked the Ancient Agora around 1:00, and climbed the Acropolis from about
+3:15 to 4:15 in the afternoon. [Athens, the Acropolis, and the Persian Wars](../chapters/15-athens-acropolis/index.md)
+tells how Cape Sounion and its silver-mining hills fit the story of Athens.
 
 Delphi is offered from the ship as a single long day. We saved it for a
 separate day after the cruise so that we could spend more time there and read

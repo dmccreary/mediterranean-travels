@@ -89,6 +89,7 @@ const stops = [
     intro: "The voyage ends with a full day and a final night aboard in Piraeus, the port of Athens, before disembarking on Saturday morning.",
     sights: [
       ["Acropolis and Parthenon", "the 5th-century BC temple complex above the city."],
+      ["Temple of Poseidon, Cape Sounion", "the marble temple on the cliff at the tip of Attica, about 70 km by road southeast of Athens; our Viking excursion on Friday morning."],
       ["Acropolis Museum", "the Parthenon sculptures in a striking modern building at the foot of the hill."],
       ["Ancient Agora", "the civic heart of classical Athens, with the well-preserved Temple of Hephaestus."],
       ["Plaka", "the old quarter below the Acropolis, good for wandering and tavernas."],

@@ -87,7 +87,7 @@ times and ports, so we should confirm with Viking before we go.
 | 7 | Tue Nov 17 | Kusadasi (Ephesus), Turkey | 7:00 AM – 6:00 PM |
 | 8 | Wed Nov 18 | Rhodes, Greece | 7:00 AM – 6:00 PM |
 | 9 | Thu Nov 19 | Heraklion (Knossos), Crete, Greece | 7:00 AM – 6:00 PM |
-| 10 | Fri Nov 20 | Athens (Piraeus), Greece | Arrive 7:00 AM; final night aboard |
+| 10 | Fri Nov 20 | Athens (Piraeus), Greece | Arrive 7:00 AM; Viking excursion to Cape Sounion (Temple of Poseidon) and the Acropolis; final night aboard |
 | 11 | Sat Nov 21 | Athens, Greece | Disembark; on our own |
 | 12 | Sun Nov 22 | Delphi, Greece | Day trip by road from Athens, about 2½ hours each way |
 | 13 | Mon Nov 23 | Athens, Greece | On our own |
