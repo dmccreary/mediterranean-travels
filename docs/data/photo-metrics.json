@@ -1,7 +1,7 @@
 {
   "album_title": "Ann & Dan Eastern Mediterranean Cruise 2026",
   "timezone": "Europe/Athens",
-  "generated": "2026-11-24",
+  "generated": "2026-11-26",
   "total_items": 1465,
   "photos": 1450,
   "videos": 15,
@@ -80,6 +80,1254 @@
       "date": "2026-11-24",
       "items": 2,
       "videos": 0
+    }
+  ],
+  "per_area": [
+    {
+      "area": "Frankfurt (flight out)",
+      "items": 2,
+      "videos": 0,
+      "places": 1,
+      "days": [
+        "2026-11-12"
+      ]
+    },
+    {
+      "area": "Istanbul",
+      "items": 277,
+      "videos": 11,
+      "places": 9,
+      "days": [
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15"
+      ]
+    },
+    {
+      "area": "\u00c7anakkale and Troy",
+      "items": 108,
+      "videos": 1,
+      "places": 2,
+      "days": [
+        "2026-11-16"
+      ]
+    },
+    {
+      "area": "Ku\u015fadas\u0131 and Ephesus",
+      "items": 156,
+      "videos": 0,
+      "places": 2,
+      "days": [
+        "2026-11-17"
+      ]
+    },
+    {
+      "area": "Rhodes",
+      "items": 172,
+      "videos": 0,
+      "places": 2,
+      "days": [
+        "2026-11-18"
+      ]
+    },
+    {
+      "area": "Crete",
+      "items": 166,
+      "videos": 2,
+      "places": 4,
+      "days": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "area": "Cape Sounion",
+      "items": 40,
+      "videos": 0,
+      "places": 1,
+      "days": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "area": "Athens",
+      "items": 265,
+      "videos": 1,
+      "places": 5,
+      "days": [
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23"
+      ]
+    },
+    {
+      "area": "Delphi",
+      "items": 146,
+      "videos": 0,
+      "places": 2,
+      "days": [
+        "2026-11-22"
+      ]
+    },
+    {
+      "area": "Toronto (flight home)",
+      "items": 1,
+      "videos": 0,
+      "places": 1,
+      "days": [
+        "2026-11-24"
+      ]
+    },
+    {
+      "area": "Elsewhere (at sea or on the road)",
+      "items": 17,
+      "videos": 0,
+      "places": 0,
+      "days": [
+        "2026-11-12",
+        "2026-11-20",
+        "2026-11-22"
+      ]
+    },
+    {
+      "area": "No location recorded",
+      "items": 115,
+      "videos": 0,
+      "places": 0,
+      "days": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-24"
+      ]
+    }
+  ],
+  "per_place": [
+    {
+      "place": "Frankfurt Airport",
+      "area": "Frankfurt (flight out)",
+      "chapters": [
+        "02"
+      ],
+      "items": 2,
+      "videos": 0,
+      "days": [
+        "2026-11-12"
+      ]
+    },
+    {
+      "place": "Istanbul (general)",
+      "area": "Istanbul",
+      "chapters": [
+        "03"
+      ],
+      "items": 104,
+      "videos": 2,
+      "days": [
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15"
+      ]
+    },
+    {
+      "place": "Grand Bazaar",
+      "area": "Istanbul",
+      "chapters": [
+        "06"
+      ],
+      "items": 48,
+      "videos": 6,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Hagia Sophia",
+      "area": "Istanbul",
+      "chapters": [
+        "04"
+      ],
+      "items": 43,
+      "videos": 0,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Blue Mosque",
+      "area": "Istanbul",
+      "chapters": [
+        "05",
+        "03"
+      ],
+      "items": 30,
+      "videos": 2,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Spice Bazaar",
+      "area": "Istanbul",
+      "chapters": [
+        "06"
+      ],
+      "items": 28,
+      "videos": 0,
+      "days": [
+        "2026-11-15"
+      ]
+    },
+    {
+      "place": "Bosphorus and Ortak\u00f6y",
+      "area": "Istanbul",
+      "chapters": [
+        "03"
+      ],
+      "items": 11,
+      "videos": 1,
+      "days": [
+        "2026-11-13",
+        "2026-11-14"
+      ]
+    },
+    {
+      "place": "Basilica Cistern",
+      "area": "Istanbul",
+      "chapters": [
+        "04"
+      ],
+      "items": 10,
+      "videos": 0,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Dolmabah\u00e7e Palace",
+      "area": "Istanbul",
+      "chapters": [
+        "07"
+      ],
+      "items": 2,
+      "videos": 0,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Hippodrome",
+      "area": "Istanbul",
+      "chapters": [
+        "04"
+      ],
+      "items": 1,
+      "videos": 0,
+      "days": [
+        "2026-11-13"
+      ]
+    },
+    {
+      "place": "Troy",
+      "area": "\u00c7anakkale and Troy",
+      "chapters": [
+        "08"
+      ],
+      "items": 67,
+      "videos": 1,
+      "days": [
+        "2026-11-16"
+      ]
+    },
+    {
+      "place": "\u00c7anakkale and the Dardanelles",
+      "area": "\u00c7anakkale and Troy",
+      "chapters": [
+        "08"
+      ],
+      "items": 41,
+      "videos": 0,
+      "days": [
+        "2026-11-16"
+      ]
+    },
+    {
+      "place": "Ephesus",
+      "area": "Ku\u015fadas\u0131 and Ephesus",
+      "chapters": [
+        "10",
+        "09",
+        "11"
+      ],
+      "items": 144,
+      "videos": 0,
+      "days": [
+        "2026-11-17"
+      ]
+    },
+    {
+      "place": "Ku\u015fadas\u0131",
+      "area": "Ku\u015fadas\u0131 and Ephesus",
+      "chapters": [
+        "10"
+      ],
+      "items": 12,
+      "videos": 0,
+      "days": [
+        "2026-11-17"
+      ]
+    },
+    {
+      "place": "Rhodes Old Town",
+      "area": "Rhodes",
+      "chapters": [
+        "12"
+      ],
+      "items": 108,
+      "videos": 0,
+      "days": [
+        "2026-11-18"
+      ]
+    },
+    {
+      "place": "Palace of the Grand Master",
+      "area": "Rhodes",
+      "chapters": [
+        "12"
+      ],
+      "items": 64,
+      "videos": 0,
+      "days": [
+        "2026-11-18"
+      ]
+    },
+    {
+      "place": "Heraklion Archaeological Museum",
+      "area": "Crete",
+      "chapters": [
+        "13"
+      ],
+      "items": 101,
+      "videos": 0,
+      "days": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "place": "Crete countryside",
+      "area": "Crete",
+      "chapters": [
+        "14"
+      ],
+      "items": 43,
+      "videos": 2,
+      "days": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "place": "Heraklion (general)",
+      "area": "Crete",
+      "chapters": [
+        "14"
+      ],
+      "items": 18,
+      "videos": 0,
+      "days": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "place": "Koules Fortress",
+      "area": "Crete",
+      "chapters": [
+        "14"
+      ],
+      "items": 4,
+      "videos": 0,
+      "days": [
+        "2026-11-19"
+      ]
+    },
+    {
+      "place": "Cape Sounion",
+      "area": "Cape Sounion",
+      "chapters": [
+        "15"
+      ],
+      "items": 40,
+      "videos": 0,
+      "days": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "place": "National Archaeological Museum",
+      "area": "Athens",
+      "chapters": [
+        "20"
+      ],
+      "items": 110,
+      "videos": 0,
+      "days": [
+        "2026-11-21"
+      ]
+    },
+    {
+      "place": "Athens (general)",
+      "area": "Athens",
+      "chapters": [
+        "20"
+      ],
+      "items": 73,
+      "videos": 1,
+      "days": [
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23"
+      ]
+    },
+    {
+      "place": "Acropolis",
+      "area": "Athens",
+      "chapters": [
+        "15"
+      ],
+      "items": 67,
+      "videos": 0,
+      "days": [
+        "2026-11-20",
+        "2026-11-22"
+      ]
+    },
+    {
+      "place": "Ancient Agora",
+      "area": "Athens",
+      "chapters": [
+        "16"
+      ],
+      "items": 13,
+      "videos": 0,
+      "days": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "place": "Areopagus",
+      "area": "Athens",
+      "chapters": [
+        "16"
+      ],
+      "items": 2,
+      "videos": 0,
+      "days": [
+        "2026-11-20"
+      ]
+    },
+    {
+      "place": "Delphi Sanctuary",
+      "area": "Delphi",
+      "chapters": [
+        "18",
+        "17"
+      ],
+      "items": 93,
+      "videos": 0,
+      "days": [
+        "2026-11-22"
+      ]
+    },
+    {
+      "place": "Arachova",
+      "area": "Delphi",
+      "chapters": [
+        "18"
+      ],
+      "items": 53,
+      "videos": 0,
+      "days": [
+        "2026-11-22"
+      ]
+    },
+    {
+      "place": "Toronto Pearson Airport",
+      "area": "Toronto (flight home)",
+      "chapters": [
+        "21"
+      ],
+      "items": 1,
+      "videos": 0,
+      "days": [
+        "2026-11-24"
+      ]
+    },
+    {
+      "place": "Elsewhere (at sea or on the road)",
+      "area": "Elsewhere (at sea or on the road)",
+      "chapters": [],
+      "items": 17,
+      "videos": 0,
+      "days": [
+        "2026-11-12",
+        "2026-11-20",
+        "2026-11-22"
+      ]
+    },
+    {
+      "place": "No location recorded",
+      "area": "No location recorded",
+      "chapters": [],
+      "items": 115,
+      "videos": 0,
+      "days": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-24"
+      ]
+    }
+  ],
+  "book_photos": [
+    {
+      "chapter": "01",
+      "place": "National Archaeological Museum",
+      "caption": "Gold cups from Vapheio, Mycenaean Greece, about 1500 BCE",
+      "web_path": "chapters/01-long-timeline/img/gold-cups-vapheio-mycenaean-greece.jpg"
+    },
+    {
+      "chapter": "01",
+      "place": "National Archaeological Museum",
+      "caption": "A Geometric-period lidded box (pyxis) with horses on the lid, 8th century BCE",
+      "web_path": "chapters/01-long-timeline/img/geometric-period-lidded-box-pyxis.jpg"
+    },
+    {
+      "chapter": "01",
+      "place": "Cape Sounion",
+      "caption": "Temple of Poseidon at Cape Sounion, about 440 BCE",
+      "web_path": "chapters/01-long-timeline/img/temple-poseidon-cape-sounion-about.jpg"
+    },
+    {
+      "chapter": "01",
+      "place": "Ephesus",
+      "caption": "Roman-era ruins at Ephesus",
+      "web_path": "chapters/01-long-timeline/img/roman-era-ruins-ephesus.jpg"
+    },
+    {
+      "chapter": "01",
+      "place": "Hagia Sophia",
+      "caption": "Gilded vaults in the galleries of Hagia Sophia, completed 537 CE",
+      "web_path": "chapters/01-long-timeline/img/gilded-vaults-galleries-hagia-sophia.jpg"
+    },
+    {
+      "chapter": "01",
+      "place": "Blue Mosque",
+      "caption": "Domes of the Sultan Ahmed (Blue) Mosque, completed 1616",
+      "web_path": "chapters/01-long-timeline/img/domes-sultan-ahmed-blue-mosque.jpg"
+    },
+    {
+      "chapter": "02",
+      "place": "Istanbul (general)",
+      "caption": "Our ship docked on the Bosphorus in Istanbul",
+      "web_path": "chapters/02-traveling-well/img/ship-docked-bosphorus-istanbul.jpg"
+    },
+    {
+      "chapter": "02",
+      "place": "Ku\u015fadas\u0131",
+      "caption": "Ku\u015fadas\u0131 at first light, with the ship at the pier",
+      "web_path": "chapters/02-traveling-well/img/kusadasi-first-light-ship-pier.jpg"
+    },
+    {
+      "chapter": "02",
+      "place": "Heraklion (general)",
+      "caption": "Early morning on deck as the ship reaches Heraklion",
+      "web_path": "chapters/02-traveling-well/img/early-morning-deck-ship-reaches.jpg"
+    },
+    {
+      "chapter": "02",
+      "place": "Heraklion (general)",
+      "caption": "Sunrise from the bow, approaching Heraklion",
+      "web_path": "chapters/02-traveling-well/img/sunrise-bow-approaching-heraklion.jpg"
+    },
+    {
+      "chapter": "02",
+      "place": "Rhodes Old Town",
+      "caption": "Cruise ships anchored off Rhodes",
+      "web_path": "chapters/02-traveling-well/img/cruise-ships-anchored-off-rhodes.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Bosphorus and Ortak\u00f6y",
+      "caption": "Ortak\u00f6y Mosque on the European shore of the Bosphorus",
+      "web_path": "chapters/03-istanbul-two-continents/img/ortakoy-mosque-european-shore-bosphorus.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Bosphorus and Ortak\u00f6y",
+      "caption": "Waterfront mansions (yal\u0131) along the Bosphorus",
+      "web_path": "chapters/03-istanbul-two-continents/img/waterfront-mansions-yali-along-bosphorus.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "Istanbul seen from the water",
+      "web_path": "chapters/03-istanbul-two-continents/img/istanbul-seen-water.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "The German Fountain in Sultanahmet Square, a gift from Kaiser Wilhelm II, built in 1900",
+      "web_path": "chapters/03-istanbul-two-continents/img/german-fountain-sultanahmet-square-gift.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "A quiet residential street in Istanbul",
+      "web_path": "chapters/03-istanbul-two-continents/img/quiet-residential-street-istanbul.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "A Turkish lunch of meze",
+      "web_path": "chapters/03-istanbul-two-continents/img/turkish-lunch-meze.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "Olives at a Turkish breakfast",
+      "web_path": "chapters/03-istanbul-two-continents/img/olives-turkish-breakfast.jpg"
+    },
+    {
+      "chapter": "03",
+      "place": "Istanbul (general)",
+      "caption": "Gulls rafting on the Bosphorus",
+      "web_path": "chapters/03-istanbul-two-continents/img/gulls-rafting-bosphorus.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Hagia Sophia",
+      "caption": "Mosaic of the Virgin and Child with Emperor John II Komnenos and Empress Irene, 12th century, Hagia Sophia",
+      "web_path": "chapters/04-byzantine-constantinople/img/mosaic-virgin-child-emperor-john.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Hagia Sophia",
+      "caption": "Calligraphic roundel naming the caliph Uthman, Hagia Sophia",
+      "web_path": "chapters/04-byzantine-constantinople/img/calligraphic-roundel-naming-caliph-uthman.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Hagia Sophia",
+      "caption": "Arcades of the Hagia Sophia gallery",
+      "web_path": "chapters/04-byzantine-constantinople/img/arcades-hagia-sophia-gallery.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Hagia Sophia",
+      "caption": "Column capitals in Hagia Sophia",
+      "web_path": "chapters/04-byzantine-constantinople/img/column-capitals-hagia-sophia.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Basilica Cistern",
+      "caption": "Columns of the Basilica Cistern, 532 CE",
+      "web_path": "chapters/04-byzantine-constantinople/img/columns-basilica-cistern-532-ce.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Basilica Cistern",
+      "caption": "Lit columns of the Basilica Cistern",
+      "web_path": "chapters/04-byzantine-constantinople/img/lit-columns-basilica-cistern.jpg"
+    },
+    {
+      "chapter": "04",
+      "place": "Hagia Sophia",
+      "caption": "Ottoman ablution fountain in the Hagia Sophia courtyard",
+      "web_path": "chapters/04-byzantine-constantinople/img/ottoman-ablution-fountain-hagia-sophia.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Blue Mosque",
+      "caption": "Prayer hall and domes of the Sultan Ahmed (Blue) Mosque",
+      "web_path": "chapters/05-ottoman-istanbul/img/prayer-hall-domes-sultan-ahmed.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Blue Mosque",
+      "caption": "The Blue Mosque's minarets in the late afternoon",
+      "web_path": "chapters/05-ottoman-istanbul/img/blue-mosque-s-minarets-late.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Blue Mosque",
+      "caption": "Painted dome and stained-glass windows, Blue Mosque",
+      "web_path": "chapters/05-ottoman-istanbul/img/painted-dome-stained-glass-windows.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Blue Mosque",
+      "caption": "Iznik-tiled galleries of the Blue Mosque",
+      "web_path": "chapters/05-ottoman-istanbul/img/iznik-tiled-galleries-blue-mosque.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Blue Mosque",
+      "caption": "A hanging egg-shaped ornament in the Blue Mosque",
+      "web_path": "chapters/05-ottoman-istanbul/img/hanging-egg-shaped-ornament-blue.jpg"
+    },
+    {
+      "chapter": "05",
+      "place": "Hagia Sophia",
+      "caption": "The Imperial Gate (Bab-\u0131 H\u00fcmayun), entrance to Topkap\u0131 Palace",
+      "web_path": "chapters/05-ottoman-istanbul/img/imperial-gate-bab-i-humayun.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Spice Bazaar",
+      "caption": "Towers of ground spices in the Spice Bazaar",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/towers-ground-spices-spice-bazaar.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Spice Bazaar",
+      "caption": "The vaulted main hall of the Spice Bazaar",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/vaulted-main-hall-spice-bazaar.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Spice Bazaar",
+      "caption": "A bazaar cat among evil-eye (nazar) charms",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/bazaar-cat-among-evil-eye.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Grand Bazaar",
+      "caption": "Rolls of pistachio Turkish delight",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/rolls-pistachio-turkish-delight.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Grand Bazaar",
+      "caption": "Jars of spices and teas",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/jars-spices-teas.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Grand Bazaar",
+      "caption": "Gold jewelry in the Grand Bazaar",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/gold-jewelry-grand-bazaar.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Spice Bazaar",
+      "caption": "A dried-fruit and spice stall",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/dried-fruit-spice-stall.jpg"
+    },
+    {
+      "chapter": "06",
+      "place": "Grand Bazaar",
+      "caption": "An Ottoman stone gateway near the Grand Bazaar",
+      "web_path": "chapters/06-bazaars-scripts-presses/img/ottoman-stone-gateway-near-grand.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "Troy",
+      "caption": "The wooden horse replica at the archaeological site of Troy",
+      "web_path": "chapters/08-troy-and-gallipoli/img/wooden-horse-replica-archaeological-site.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "Troy",
+      "caption": "Excavated walls of Troy",
+      "web_path": "chapters/08-troy-and-gallipoli/img/excavated-walls-troy.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "Troy",
+      "caption": "The odeon (small theater) at Troy",
+      "web_path": "chapters/08-troy-and-gallipoli/img/odeon-small-theater-troy.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "Troy",
+      "caption": "The Trojan plain seen from the citadel",
+      "web_path": "chapters/08-troy-and-gallipoli/img/trojan-plain-seen-citadel.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "\u00c7anakkale and the Dardanelles",
+      "caption": "The horse from the 2004 film Troy, on the \u00c7anakkale waterfront",
+      "web_path": "chapters/08-troy-and-gallipoli/img/horse-2004-film-troy-canakkale.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "\u00c7anakkale and the Dardanelles",
+      "caption": "Early morning on the Dardanelles, just after sunrise",
+      "web_path": "chapters/08-troy-and-gallipoli/img/early-morning-dardanelles-just-after.jpg"
+    },
+    {
+      "chapter": "08",
+      "place": "\u00c7anakkale and the Dardanelles",
+      "caption": "A heavy artillery gun on display in \u00c7anakkale",
+      "web_path": "chapters/08-troy-and-gallipoli/img/heavy-artillery-gun-display-canakkale.jpg"
+    },
+    {
+      "chapter": "09",
+      "place": "Ephesus",
+      "caption": "Rows of stone seats rising behind a line of columns, Ephesus",
+      "web_path": "chapters/09-paul-life-letters/img/rows-stone-seats-rising-behind.jpg"
+    },
+    {
+      "chapter": "09",
+      "place": "Ephesus",
+      "caption": "Relief of Nike, goddess of victory, Ephesus",
+      "web_path": "chapters/09-paul-life-letters/img/relief-nike-goddess-victory-ephesus.jpg"
+    },
+    {
+      "chapter": "09",
+      "place": "Ephesus",
+      "caption": "A lone column beside a paved street, Ephesus",
+      "web_path": "chapters/09-paul-life-letters/img/lone-column-beside-paved-street.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "The arch of the Temple of Hadrian on Curetes Street, 2nd century CE",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/arch-temple-hadrian-curetes-street.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "The Fountain of Trajan on Curetes Street, early 2nd century CE",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/fountain-trajan-curetes-street-early.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "The Memmius Monument, 1st century BCE, Ephesus",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/memmius-monument-1st-century-bce.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "Corinthian columns along a colonnaded street, Ephesus",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/corinthian-columns-along-colonnaded-street.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "A walkway past a row of columns and fields of fallen marble, Ephesus",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/walkway-past-row-columns-fields.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "Fallen column drums, Ephesus",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/fallen-column-drums-ephesus.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ephesus",
+      "caption": "Stone walls and a ruined arch in the upper city of Ephesus",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/stone-walls-ruined-arch-upper.jpg"
+    },
+    {
+      "chapter": "10",
+      "place": "Ku\u015fadas\u0131",
+      "caption": "The floodlit fortress on Pigeon Island, Ku\u015fadas\u0131, at dawn",
+      "web_path": "chapters/10-ephesus-greco-roman-city/img/floodlit-fortress-pigeon-island-kusadasi.jpg"
+    },
+    {
+      "chapter": "11",
+      "place": "Ephesus",
+      "caption": "Standing columns in the upper city of Ephesus",
+      "web_path": "chapters/11-paul-ideas-leadership/img/standing-columns-upper-city-ephesus.jpg"
+    },
+    {
+      "chapter": "11",
+      "place": "Ephesus",
+      "caption": "A lone arch above fallen blocks in the upper city of Ephesus",
+      "web_path": "chapters/11-paul-ideas-leadership/img/lone-arch-above-fallen-blocks.jpg"
+    },
+    {
+      "chapter": "11",
+      "place": "Ephesus",
+      "caption": "A stone pine above the ruins of Ephesus",
+      "web_path": "chapters/11-paul-ideas-leadership/img/stone-pine-above-ruins-ephesus.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Rhodes Old Town",
+      "caption": "The Street of the Knights, Rhodes Old Town",
+      "web_path": "chapters/12-rhodes/img/street-knights-rhodes-old-town.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Palace of the Grand Master",
+      "caption": "Courtyard of the Palace of the Grand Master",
+      "web_path": "chapters/12-rhodes/img/courtyard-palace-grand-master.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Palace of the Grand Master",
+      "caption": "The dry moat and walls of the Old Town",
+      "web_path": "chapters/12-rhodes/img/dry-moat-walls-old-town.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Rhodes Old Town",
+      "caption": "Windmills on the mole of Mandraki harbor",
+      "web_path": "chapters/12-rhodes/img/windmills-mole-mandraki-harbor.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Palace of the Grand Master",
+      "caption": "Stone siege balls in the grass of the dry moat",
+      "web_path": "chapters/12-rhodes/img/stone-siege-balls-grass-dry.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Rhodes Old Town",
+      "caption": "A ruined Gothic arch in the Old Town of Rhodes",
+      "web_path": "chapters/12-rhodes/img/ruined-gothic-arch-old-town.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Rhodes Old Town",
+      "caption": "A dolphin sculpture at the harbor, with the Old Town walls behind",
+      "web_path": "chapters/12-rhodes/img/dolphin-sculpture-harbor-old-town.jpg"
+    },
+    {
+      "chapter": "12",
+      "place": "Rhodes Old Town",
+      "caption": "The walls of the Old Town across the harbor in the morning",
+      "web_path": "chapters/12-rhodes/img/walls-old-town-across-harbor.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Bull's-head rhyton from Knossos, about 1500 BCE",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/bull-s-head-rhyton-knossos.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "The Malia bee pendant, gold, about 1700 BCE",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/malia-bee-pendant-gold-about.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Lioness-head rhyton from Knossos",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/lioness-head-rhyton-knossos.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Kamares-ware jug with spiral decoration",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/kamares-ware-jug-spiral-decoration.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Scale model of the palace of Knossos",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/scale-model-palace-knossos.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Painted Minoan clay coffins (larnakes)",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/painted-minoan-clay-coffins-larnakes.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Minoan storage jars (pithoi)",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/minoan-storage-jars-pithoi.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Fragments of a Minoan wall painting set into a modern plaster panel",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/fragments-minoan-wall-painting-set.jpg"
+    },
+    {
+      "chapter": "13",
+      "place": "Heraklion Archaeological Museum",
+      "caption": "Minoan bead necklaces",
+      "web_path": "chapters/13-knossos-minoans-linear-b/img/minoan-bead-necklaces.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Heraklion (general)",
+      "caption": "The Venetian Loggia, Heraklion, 17th century",
+      "web_path": "chapters/14-venetian-heraklion/img/venetian-loggia-heraklion-17th-century.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Koules Fortress",
+      "caption": "Vaulted ship shed of the Venetian arsenal, Heraklion",
+      "web_path": "chapters/14-venetian-heraklion/img/vaulted-ship-shed-venetian-arsenal.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Koules Fortress",
+      "caption": "The Venetian arsenal beside Heraklion's old harbor",
+      "web_path": "chapters/14-venetian-heraklion/img/venetian-arsenal-beside-heraklion-s.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Heraklion (general)",
+      "caption": "The Basilica of San Marco (Agios Markos), Heraklion",
+      "web_path": "chapters/14-venetian-heraklion/img/basilica-san-marco-agios-markos.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Heraklion (general)",
+      "caption": "Interior of the Church of Agios Titos, Heraklion",
+      "web_path": "chapters/14-venetian-heraklion/img/interior-church-agios-titos-heraklion.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Crete countryside",
+      "caption": "Olive groves and mountains of central Crete",
+      "web_path": "chapters/14-venetian-heraklion/img/olive-groves-mountains-central-crete.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Crete countryside",
+      "caption": "A cloud-capped mountain in inland Crete",
+      "web_path": "chapters/14-venetian-heraklion/img/cloud-capped-mountain-inland-crete.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Crete countryside",
+      "caption": "Pots drying in a pottery workshop at Thrapsano",
+      "web_path": "chapters/14-venetian-heraklion/img/pots-drying-pottery-workshop-thrapsano.jpg"
+    },
+    {
+      "chapter": "14",
+      "place": "Heraklion (general)",
+      "caption": "Sunrise over the port of Heraklion",
+      "web_path": "chapters/14-venetian-heraklion/img/sunrise-over-port-heraklion.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "The Parthenon in late-afternoon light",
+      "web_path": "chapters/15-athens-acropolis/img/parthenon-late-afternoon-light.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "The Erechtheion and its Porch of the Caryatids",
+      "web_path": "chapters/15-athens-acropolis/img/erechtheion-porch-caryatids.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "Doric columns and entablature of the Parthenon, with new marble set among the old",
+      "web_path": "chapters/15-athens-acropolis/img/doric-columns-entablature-parthenon-new.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "Ionic columns and marble ceiling beams in the Propylaea",
+      "web_path": "chapters/15-athens-acropolis/img/ionic-columns-marble-ceiling-beams.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "The Odeon of Herodes Atticus below the Acropolis",
+      "web_path": "chapters/15-athens-acropolis/img/odeon-herodes-atticus-below-acropolis.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "The Parthenon against the late-afternoon sun",
+      "web_path": "chapters/15-athens-acropolis/img/parthenon-against-late-afternoon-sun.jpg"
+    },
+    {
+      "chapter": "15",
+      "place": "Acropolis",
+      "caption": "Athens seen from the slope of the Acropolis",
+      "web_path": "chapters/15-athens-acropolis/img/athens-seen-slope-acropolis.jpg"
+    },
+    {
+      "chapter": "16",
+      "place": "Ancient Agora",
+      "caption": "The Temple of Hephaestus above the Ancient Agora",
+      "web_path": "chapters/16-athens-agora-democracy/img/temple-hephaestus-above-ancient-agora.jpg"
+    },
+    {
+      "chapter": "16",
+      "place": "Ancient Agora",
+      "caption": "The reconstructed Stoa of Attalos",
+      "web_path": "chapters/16-athens-agora-democracy/img/reconstructed-stoa-attalos.jpg"
+    },
+    {
+      "chapter": "16",
+      "place": "Ancient Agora",
+      "caption": "The Stoa of Attalos with the Acropolis behind and the tracks of metro Line 1 in the foreground",
+      "web_path": "chapters/16-athens-agora-democracy/img/stoa-attalos-acropolis-behind-tracks.jpg"
+    },
+    {
+      "chapter": "16",
+      "place": "Ancient Agora",
+      "caption": "The Acropolis seen from the Agora",
+      "web_path": "chapters/16-athens-agora-democracy/img/acropolis-seen-agora.jpg"
+    },
+    {
+      "chapter": "16",
+      "place": "Areopagus",
+      "caption": "The pedestal of the Monument of Agrippa below the Propylaea, in late-afternoon light",
+      "web_path": "chapters/16-athens-agora-democracy/img/pedestal-monument-agrippa-below-propylaea.jpg"
+    },
+    {
+      "chapter": "17",
+      "place": "Delphi Sanctuary",
+      "caption": "The Temple of Apollo, home of the oracle",
+      "web_path": "chapters/17-oracle/img/temple-apollo-home-oracle.jpg"
+    },
+    {
+      "chapter": "17",
+      "place": "Delphi Sanctuary",
+      "caption": "An ancient column and a tall stone pillar near the east end of the Temple of Apollo",
+      "web_path": "chapters/17-oracle/img/ancient-column-tall-stone-pillar.jpg"
+    },
+    {
+      "chapter": "17",
+      "place": "Delphi Sanctuary",
+      "caption": "Pines on the slopes of Mount Parnassus",
+      "web_path": "chapters/17-oracle/img/pines-slopes-mount-parnassus.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "The theater of Delphi above the Temple of Apollo",
+      "web_path": "chapters/18-delphi/img/theater-delphi-above-temple-apollo.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "The Treasury of the Athenians",
+      "web_path": "chapters/18-delphi/img/treasury-athenians.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "The Sanctuary of Apollo on the slopes of Parnassus",
+      "web_path": "chapters/18-delphi/img/sanctuary-apollo-slopes-parnassus.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "A bronze copy of the Serpent Column in the Sanctuary of Apollo",
+      "web_path": "chapters/18-delphi/img/bronze-copy-serpent-column-sanctuary.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "The Pleistos valley below Delphi",
+      "web_path": "chapters/18-delphi/img/pleistos-valley-below-delphi.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "The sea of olive trees below Delphi",
+      "web_path": "chapters/18-delphi/img/sea-olive-trees-below-delphi.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "Sanctuary terraces under the cliffs",
+      "web_path": "chapters/18-delphi/img/sanctuary-terraces-under-cliffs.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Arachova",
+      "caption": "A roadside sign spelling out Arachova, the mountain village above Delphi",
+      "web_path": "chapters/18-delphi/img/roadside-sign-spelling-out-arachova.jpg"
+    },
+    {
+      "chapter": "18",
+      "place": "Delphi Sanctuary",
+      "caption": "Columns of the Roman agora at the entrance to the Sanctuary of Apollo",
+      "web_path": "chapters/18-delphi/img/columns-roman-agora-entrance-sanctuary.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "National Archaeological Museum",
+      "caption": "The Jockey of Artemision, bronze, about 140 BCE",
+      "web_path": "chapters/20-athens-museums-city-today/img/jockey-artemision-bronze-about-140.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "National Archaeological Museum",
+      "caption": "Aphrodite, Pan, and Eros, marble group from Delos",
+      "web_path": "chapters/20-athens-museums-city-today/img/aphrodite-pan-eros-marble-group.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "National Archaeological Museum",
+      "caption": "A Classical grave stele",
+      "web_path": "chapters/20-athens-museums-city-today/img/classical-grave-stele.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "National Archaeological Museum",
+      "caption": "Marble relief of a horse and its handler",
+      "web_path": "chapters/20-athens-museums-city-today/img/marble-relief-horse-handler.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "National Archaeological Museum",
+      "caption": "Marble head of a bearded man in the National Archaeological Museum",
+      "web_path": "chapters/20-athens-museums-city-today/img/marble-head-bearded-man-national.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "Athens (general)",
+      "caption": "The Academy of Athens",
+      "web_path": "chapters/20-athens-museums-city-today/img/academy-athens.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "Athens (general)",
+      "caption": "The National Library of Greece on Panepistimiou Street",
+      "web_path": "chapters/20-athens-museums-city-today/img/national-library-greece-panepistimiou-street.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "Athens (general)",
+      "caption": "Parliament and the Tomb of the Unknown Soldier, Syntagma Square",
+      "web_path": "chapters/20-athens-museums-city-today/img/parliament-tomb-unknown-soldier-syntagma.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "Athens (general)",
+      "caption": "The Panathenaic Stadium, seen from the square at its entrance",
+      "web_path": "chapters/20-athens-museums-city-today/img/panathenaic-stadium-seen-square-entrance.jpg"
+    },
+    {
+      "chapter": "20",
+      "place": "Athens (general)",
+      "caption": "The palm avenue in the National Garden",
+      "web_path": "chapters/20-athens-museums-city-today/img/palm-avenue-national-garden.jpg"
     }
   ]
 }
