@@ -103,6 +103,12 @@ to compare them. Others label the parts of one picture with numbered **call-outs
 
     Part by part, the front of the library at Ephesus, from the steps to the burial chamber under the floor.
 
+-   [![Map of Ancient Ephesus](./ephesus-site-map/ephesus-site-map-thumb.jpg){ loading=lazy }](ephesus-site-map/index.md)
+
+    **[Map of Ancient Ephesus](ephesus-site-map/index.md)** (Call-outs)
+
+    The site sign's map with its 27 numbered places, from the silted harbor to the Temple of Artemis and the hill of Ayasuluk.
+
 -   [![A Trireme at Salamis](./trireme-at-salamis/trireme-at-salamis-thumb.jpg){ loading=lazy }](trireme-at-salamis/index.md)
 
     **[A Trireme at Salamis](trireme-at-salamis/index.md)** (Call-outs)
