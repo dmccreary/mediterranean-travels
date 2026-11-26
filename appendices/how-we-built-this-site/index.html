@@ -1494,6 +1494,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#step-23-add-the-chapter-quizzes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 23: Add the Chapter Quizzes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#not-done-yet" class="md-nav__link">
     <span class="md-ellipsis">
       Not Done Yet
@@ -1877,6 +1886,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#step-23-add-the-chapter-quizzes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 23: Add the Chapter Quizzes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#not-done-yet" class="md-nav__link">
     <span class="md-ellipsis">
       Not Done Yet
@@ -2180,6 +2198,12 @@ when the images were made.</p>
 <td>Nov 26 morning</td>
 <td>15 minutes</td>
 </tr>
+<tr>
+<td>23</td>
+<td>Chapter quizzes</td>
+<td>Nov 26 morning</td>
+<td>25 minutes</td>
+</tr>
 </tbody>
 </table>
 <p>Most of the book was built in about 46 hours of elapsed time, from the
@@ -2238,6 +2262,11 @@ the first step and the rest of the work.</p>
 <td>94 FAQ questions</td>
 </tr>
 <tr>
+<td><code>quiz-generator</code></td>
+<td>0.5</td>
+<td>210 quiz questions, 10 per chapter</td>
+</tr>
+<tr>
 <td><code>microsim-generator</code></td>
 <td>1.0.5</td>
 <td>MicroSims and posters</td>
@@ -2290,6 +2319,21 @@ used Google Takeout. Takeout exports the original photos plus a JSON file for
 each one with its date, time, and GPS position. Claude wrote
 <code>scripts/google_photos_takeout.py</code> to read the export, and a profiling script
 to summarize it.</p>
+<div class="admonition warning">
+<p class="admonition-title">Google really let us down here</p>
+<p>The author was <strong>very</strong> unhappy to learn that there is no simple API for
+reading the photo metadata from a shared album. All we needed was the
+date, time, and GPS position of each photo. That is a few megabytes of
+data.</p>
+<p>Google's Photos API has never returned GPS positions. Google strips the
+location from the photos it hands to apps, and says it does this on
+purpose. Since March 31, 2025, the API cannot even read an album unless
+the same app uploaded its photos. So the only way to get the metadata
+was to download the full 4.4 GB Takeout export of every original photo
+and video. This was slow, and it wasted time, bandwidth, and disk space.
+Google really has let us down. See Google's own notice:
+<a href="https://developers.google.com/photos/support/updates">Updates to the Google Photos APIs</a>.</p>
+</div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Add a Google Photos connector to this project.
 </span></code></pre></div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>The download is in the Downloads folder as a zip file. Uncompress it and do
@@ -2708,13 +2752,26 @@ data and added it to the book.</p>
 </span><span id="__span-73-3"><a id="__codelineno-73-3" name="__codelineno-73-3" href="#__codelineno-73-3"></a>estimates of how long each step took. Whenever possible, suggest the prompt
 </span><span id="__span-73-4"><a id="__codelineno-73-4" name="__codelineno-73-4" href="#__codelineno-73-4"></a>that was used and the version of the skill.
 </span></code></pre></div>
+<h2 id="step-23-add-the-chapter-quizzes">Step 23: Add the Chapter Quizzes<a class="headerlink" href="#step-23-add-the-chapter-quizzes" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 26, 6:04 to 6:27 AM.
+<strong>Time:</strong> about 25 minutes.
+<strong>Skill:</strong> <code>quiz-generator</code> v0.5.</p>
+<p>We almost forgot the quizzes. The skill used one agent that worked through
+all 21 chapters in order, writing 10 questions for each. The questions are
+spread across Bloom's levels: more recall in the first chapters, and more
+analysis and judgment in the deep dives. Many Apply questions are traveler
+scenarios, such as "A guide in Ephesus tells you…"</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-74-1"><a id="__codelineno-74-1" name="__codelineno-74-1" href="#__codelineno-74-1"></a>/quiz-generator
+</span></code></pre></div>
+<p>A script then checked every question: four options, one answer, a working
+link to the chapter section it came from, and no near-duplicates. The 210
+questions scored 93 out of 100 in the
+<a href="../../learning-graph/quiz-generation-report/">Quiz Generation Report</a>. Each
+chapter's quiz is in the nav under that chapter.</p>
 <h2 id="not-done-yet">Not Done Yet<a class="headerlink" href="#not-done-yet" title="Permanent link">&para;</a></h2>
-<p>The intelligent-textbook skills can add two more things that this book does
-not have yet:</p>
-<ul>
-<li>Chapter quizzes, with <code>quiz-generator</code> v0.5.</li>
-<li>Ten references for each chapter, with <code>reference-generator</code> v1.0.</li>
-</ul>
+<p>The intelligent-textbook skills can add one more thing that this book does
+not have yet: ten references for each chapter, with <code>reference-generator</code>
+v1.0.</p>
 <h2 id="lessons-for-your-own-trip-book">Lessons for Your Own Trip Book<a class="headerlink" href="#lessons-for-your-own-trip-book" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Set up before, write after.</strong> A small amount of work before the trip (the
