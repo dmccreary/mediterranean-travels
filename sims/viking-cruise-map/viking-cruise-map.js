@@ -1,13 +1,15 @@
 // Viking Cruise Map MicroSim - Leaflet.js
 // CANVAS_HEIGHT: 640
 // Interactive port-by-port map of the Viking Star "Ancient Mediterranean
-// Treasures" cruise, Istanbul to Athens, November 14-21, 2026, plus our
+// Treasures" cruise, Istanbul to Athens, November 14-21, 2026, plus the Viking
+// excursion to the Temple of Poseidon at Cape Sounion on November 20 and our
 // overland day trip from Athens to Delphi on November 22.
 // Click a numbered pin, a numbered dot, or use Previous/Next (or the arrow keys)
 // to step through the ports. Each leg of the sea route is highlighted as you go.
 
 // ---------- Cruise data ----------
-// "leg" is the approximate track (sea route, or road for Delphi) to reach this stop from the previous one.
+// "leg" is the approximate track (sea route, or road for Sounion and Delphi) to reach this stop
+// from the previous one. "from" overrides the start point when a leg does not begin at the previous stop.
 const stops = [
   {
     name: "Istanbul", country: "Turkey", coords: [41.0256, 28.9830], zoom: 12,
@@ -89,7 +91,6 @@ const stops = [
     intro: "The voyage ends with a full day and a final night aboard in Piraeus, the port of Athens, before disembarking on Saturday morning.",
     sights: [
       ["Acropolis and Parthenon", "the 5th-century BC temple complex above the city."],
-      ["Temple of Poseidon, Cape Sounion", "the marble temple on the cliff at the tip of Attica, about 70 km by road southeast of Athens; our Viking excursion on Friday morning."],
       ["Acropolis Museum", "the Parthenon sculptures in a striking modern building at the foot of the hill."],
       ["Ancient Agora", "the civic heart of classical Athens, with the well-preserved Temple of Hephaestus."],
       ["Plaka", "the old quarter below the Acropolis, good for wandering and tavernas."],
@@ -98,6 +99,20 @@ const stops = [
     ],
     tip: "Central Athens is about 30 minutes from the Piraeus cruise terminal by taxi or metro.",
     leg: [[35.55,25.05],[36.00,24.60],[36.50,24.20],[37.00,24.00],[37.50,23.85],[37.80,23.68]]
+  },
+  {
+    name: "Temple of Poseidon, Cape Sounion", country: "Greece", coords: [37.6502, 24.0245], zoom: 13,
+    dates: "Fri Nov 20", days: "Cruise day 7 · Viking excursion by road",
+    arrive: "About 9:30 AM", depart: "About 10:30 AM, then back to Athens for the Acropolis",
+    intro: "On the morning of our Athens day, Viking's excursion took us by bus down the coast to Cape Sounion, the cliff at the southern tip of Attica, about 70 km by road from Athens. The Athenians built a marble Doric temple to Poseidon, god of the sea, here in about 444 to 440 BCE, in the same years as the Parthenon.",
+    sights: [
+      ["Temple of Poseidon", "the white marble columns on the cliff edge, the last landmark of Attica a ship saw on the way out and the first on the way home."],
+      ["The view over the Aegean", "the cape looks south over open sea and out to the islands; it is famous for its sunsets."],
+      ["Fortress walls", "remains of the wall Athens built around the cape in 413 BCE to protect the grain ships rounding it."],
+      ["Laurion", "the silver-mining hills just to the north, whose silver paid for the fleet that won at Salamis."]
+    ],
+    tip: "The cliff top is windy and has little shade, so bring a layer. Arrive early, as we did, to see the temple before the tour buses and the sunset crowds.",
+    leg: [[37.90,23.70],[37.86,23.75],[37.81,23.78],[37.81,23.82],[37.78,23.89],[37.74,23.92],[37.72,23.95],[37.68,23.99]]
   },
   {
     name: "Delphi", country: "Greece", coords: [38.4824, 22.5010], zoom: 12,
@@ -113,6 +128,7 @@ const stops = [
       ["Castalian Spring", "where pilgrims purified themselves before approaching the oracle."]
     ],
     tip: "The site climbs steeply, so start at the top (Stadium) while legs are fresh, then work down to the museum. November days are short and winter hours close early.",
+    from: [37.9755, 23.7348], // central Athens, where the day trip began
     leg: [[37.98,23.70],[38.07,23.74],[38.20,23.72],[38.29,23.52],[38.32,23.32],[38.40,23.05],[38.43,22.88],[38.44,22.70],[38.48,22.58]]
   }
 ];
@@ -140,7 +156,7 @@ L.control.layers(baseMaps, null, { collapsed: false }).addTo(map);
 
 // Build each leg as a full path: previous port -> waypoints -> this port.
 const legPaths = stops.map((s, i) =>
-  i === 0 ? null : [stops[i - 1].coords, ...s.leg, s.coords]
+  i === 0 ? null : [s.from || stops[i - 1].coords, ...s.leg, s.coords]
 );
 
 const legLines = legPaths.map(p =>
