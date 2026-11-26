@@ -1,0 +1,2846 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A step-by-step account of how this travel book was built with Claude Code and the intelligent-textbook skills, with the prompts, skill versions, and rough time for each step.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/mediterranean-travels/appendices/how-we-built-this-site/">
+      
+      
+        <link rel="prev" href="../antikythera-mechanism/">
+      
+      
+        <link rel="next" href="../../faq/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>How We Built This Site - Mediterranean Travels</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","GTM-5T3F7B48"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","GTM-5T3F7B48",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=GTM-5T3F7B48",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#how-we-built-this-site" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Mediterranean Travels" class="md-header__button md-logo" aria-label="Mediterranean Travels" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mediterranean Travels
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How We Built This Site
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/mediterranean-travels" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mediterranean Travels" class="md-nav__button md-logo" aria-label="Mediterranean Travels" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    Mediterranean Travels
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/mediterranean-travels" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trip Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Appendices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photo-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trip Photo Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pronunciation-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pronunciation Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timeline-of-events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timeline of Events
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../extensions-and-excursions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extensions and Excursions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../antikythera-mechanism/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Who Created the Antikythera Mechanism
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    How We Built This Site
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    How We Built This Site
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-and-after-the-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before and After the Trip
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#our-photos-never-went-to-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Our Photos Never Went to GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#models-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Models Used
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-steps-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Steps at a Glance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skill-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-build-the-frame-and-the-cruise-map-before-the-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Build the Frame and the Cruise Map (Before the Trip)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-connect-the-google-photos-album" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Connect the Google Photos Album
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-check-the-plan-against-the-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Check the Plan Against the Photos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-add-the-deep-dive-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Add the Deep-Dive Topics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-generate-the-learning-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Generate the Learning Graph
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-design-the-chapters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Design the Chapters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-mascot-logo-colors-and-pronunciations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 7: Mascot, Logo, Colors, and Pronunciations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-write-chapters-1-to-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 8: Write Chapters 1 to 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-pick-the-trip-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 9: Pick the Trip Photos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-fix-the-first-chapters-and-the-content-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 10: Fix the First Chapters and the Content Guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-11-add-the-appendices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 11: Add the Appendices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-12-write-chapters-4-to-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 12: Write Chapters 4 to 21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-13-generate-the-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 13: Generate the Glossary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-14-generate-the-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 14: Generate the FAQ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-15-build-all-the-microsims" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 15: Build All the MicroSims
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-16-write-and-illustrate-the-graphic-novel-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 16: Write and Illustrate the Graphic-Novel Stories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-17-cover-landing-page-and-about-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 17: Cover, Landing Page, and About Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-18-create-the-interactive-posters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 18: Create the Interactive Posters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-19-announce-the-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 19: Announce the Book
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-20-add-a-custom-404-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 20: Add a Custom 404 Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-21-find-cape-sounion-in-the-gps-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 21: Find Cape Sounion in the GPS Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-22-write-this-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 22: Write This Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-done-yet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Not Done Yet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lessons-for-your-own-trip-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lessons for Your Own Trip Book
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#before-and-after-the-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before and After the Trip
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#our-photos-never-went-to-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Our Photos Never Went to GitHub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#models-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Models Used
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-steps-at-a-glance" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Steps at a Glance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skill-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-build-the-frame-and-the-cruise-map-before-the-trip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Build the Frame and the Cruise Map (Before the Trip)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-connect-the-google-photos-album" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: Connect the Google Photos Album
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-check-the-plan-against-the-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Check the Plan Against the Photos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-add-the-deep-dive-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Add the Deep-Dive Topics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-generate-the-learning-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Generate the Learning Graph
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-design-the-chapters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Design the Chapters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-mascot-logo-colors-and-pronunciations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 7: Mascot, Logo, Colors, and Pronunciations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-write-chapters-1-to-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 8: Write Chapters 1 to 3
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-pick-the-trip-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 9: Pick the Trip Photos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-fix-the-first-chapters-and-the-content-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 10: Fix the First Chapters and the Content Guide
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-11-add-the-appendices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 11: Add the Appendices
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-12-write-chapters-4-to-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 12: Write Chapters 4 to 21
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-13-generate-the-glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 13: Generate the Glossary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-14-generate-the-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 14: Generate the FAQ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-15-build-all-the-microsims" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 15: Build All the MicroSims
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-16-write-and-illustrate-the-graphic-novel-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 16: Write and Illustrate the Graphic-Novel Stories
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-17-cover-landing-page-and-about-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 17: Cover, Landing Page, and About Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-18-create-the-interactive-posters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 18: Create the Interactive Posters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-19-announce-the-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 19: Announce the Book
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-20-add-a-custom-404-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 20: Add a Custom 404 Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-21-find-cape-sounion-in-the-gps-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 21: Find Cape Sounion in the GPS Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-22-write-this-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 22: Write This Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-done-yet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Not Done Yet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lessons-for-your-own-trip-book" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lessons for Your Own Trip Book
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/mediterranean-travels/blob/main/docs/appendices/how-we-built-this-site.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="how-we-built-this-site">How We Built This Site<a class="headerlink" href="#how-we-built-this-site" title="Permanent link">&para;</a></h1>
+<p>This book was built with <a href="https://claude.com/claude-code">Claude Code</a> and
+a set of open-source
+<a href="https://github.com/dmccreary/claude-skills">intelligent-textbook skills</a>.
+This page lists the steps in the order we did them. For each step it gives
+the prompt we used, the skill and the skill version, and a rough estimate of
+how long the step took.</p>
+<p>The estimates come from three sources:</p>
+<ul>
+<li>The <a href="https://github.com/dmccreary/mediterranean-travels/commits/main">commit history</a>
+  of this site's GitHub repository (115 commits).</li>
+<li>The session logs in the repository's <code>logs/</code> folder, which record the skill
+  version, start and end times, and results of the larger steps.</li>
+<li>The time stamps on the prompts in 39 Claude Code sessions.</li>
+</ul>
+<p>All times are US Central time. Several sessions often ran at the same time,
+so the step times overlap and do not add up to the total elapsed time.</p>
+<h2 id="before-and-after-the-trip">Before and After the Trip<a class="headerlink" href="#before-and-after-the-trip" title="Permanent link">&para;</a></h2>
+<p>Only the first step was done before we left. Before the trip, the site held
+an empty book frame, a course description, and an interactive map of the
+cruise route. That was 3 of the 115 commits.</p>
+<p>Everything else, over 95 percent of the work, was done <strong>after</strong> we came
+home. This was on purpose. Our shared Google Photos album holds 1,465 photos
+and videos, and each one records the date, time, and GPS position where it
+was taken. That photo stream is a record of what we actually did. It shows
+which day we were at Delphi, that we went to Cape Sounion, and which sites
+on the plan we skipped. So the book describes the trip we took, not only the
+trip we planned.</p>
+<h2 id="our-photos-never-went-to-github">Our Photos Never Went to GitHub<a class="headerlink" href="#our-photos-never-went-to-github" title="Permanent link">&para;</a></h2>
+<p>The book is public, but our photo album is not. The original photos and
+videos were <strong>never</strong> checked into GitHub. They stayed on the author's
+MacBook the whole time.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Where it lives</th>
+<th>In GitHub?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google Takeout export: 1,453 original photos (mostly HEIC) and 15 videos, 4.4 GB</td>
+<td><code>data/takeout/</code> on the MacBook</td>
+<td>Never</td>
+</tr>
+<tr>
+<td>Takeout zip file</td>
+<td>Downloads folder, deleted after unzipping</td>
+<td>Never</td>
+</tr>
+<tr>
+<td>Contact sheets (thumbnails Claude used to choose photos)</td>
+<td><code>data/contact-sheets/</code> on the MacBook</td>
+<td>Never</td>
+</tr>
+<tr>
+<td>121 small web copies of the chosen photos, with GPS data removed</td>
+<td><code>docs/chapters/*/img/</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Text files of file names, dates, places, labels, and scores</td>
+<td><code>data/*.csv</code>, <code>data/*.jsonl</code></td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>Three things kept the originals out:</p>
+<ol>
+<li><strong>A <code>.gitignore</code> file came first.</strong> When we asked Claude to unzip the
+   export, we also asked for a <code>.gitignore</code> so it could not be added to the
+   repository. The file <code>data/.gitignore</code> lists <code>takeout/</code>, <code>*.zip</code>, and
+   <code>contact-sheets/</code>, so git does not see those folders at all.</li>
+<li>
+<p><strong>We asked Claude to confirm it.</strong> Before any photo work started, the
+   prompt was:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Please confirm that the photos and videos will NOT be added to GitHub.
+</span></code></pre></div>
+</li>
+<li>
+<p><strong>Only small copies are published.</strong> <code>scripts/export_web_photos.py</code> makes
+   a small JPEG of each chosen photo and drops its metadata, including the
+   GPS position, before it goes into the book.</p>
+</li>
+</ol>
+<p>Anyone can check this. This command lists every photo or video file, or
+Takeout file, that was ever committed to any branch of the repository. It
+prints nothing:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>log<span class="w"> </span>--all<span class="w"> </span>--name-only<span class="w"> </span>--format<span class="o">=</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-iE<span class="w"> </span><span class="s1">'\.(heic|mov|mp4)$|takeout/'</span>
+</span></code></pre></div>
+<p>Claude worked with the originals without sending them anywhere. The labels
+came from Apple's Vision framework running on the laptop, the places came
+from the GPS data in Takeout's JSON files, and Claude only looked at one
+contact sheet per chapter (see Step 9).</p>
+<h2 id="models-used">Models Used<a class="headerlink" href="#models-used" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Claude Sonnet 5.5</strong> was the default model for most of the work.</li>
+<li><strong>Claude Opus 5.5</strong> was used to generate the MicroSims and the posters,
+  which need more careful code and layout.</li>
+<li>The session logs for the learning graph, the chapter design, and the color
+  themes (all on November 24) record that Opus 5.5 was used for those steps.</li>
+<li><strong>OpenAI</strong> image models made every AI-generated image, including the
+  graphic-novel story panels and the poster illustrations. Claude wrote a
+  description of each image into the book's files, both on the laptop and on
+  GitHub. The author then used the ChatGPT desktop app and simply told it to
+  render the images from those descriptions. No prompts were copied and
+  pasted by hand. The
+  high-quality poster images were critical to the posters: the interactive
+  labels only work if the picture underneath is accurate and clear.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Which OpenAI image model?</p>
+<p>We believe the images were made with <strong>OpenAI Images 2.6</strong>, which OpenAI
+released for Codex and ChatGPT on November 4, 2026. Its API versions are
+GPT‑Image‑2.6 Flare (<code>gpt-image-2.6-flare</code>) and GPT‑Image‑2.6 Sunburst
+(<code>gpt-image-2.6-sunburst</code>). We could not find any metadata in the image
+files that proves this. It is what OpenAI said were its current versions
+when the images were made.</p>
+</div>
+<h2 id="the-steps-at-a-glance">The Steps at a Glance<a class="headerlink" href="#the-steps-at-a-glance" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>What</th>
+<th>When</th>
+<th>Rough time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Book frame, course description, cruise map</td>
+<td>Nov 10–11 (before the trip)</td>
+<td>1 hour</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Google Photos connector</td>
+<td>Nov 24 morning</td>
+<td>30 minutes</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Map and itinerary checked against the photos</td>
+<td>Nov 24 morning</td>
+<td>25 minutes</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Two deep-dive topics added to the course description</td>
+<td>Nov 24 morning</td>
+<td>25 minutes</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Learning graph</td>
+<td>Nov 24 morning</td>
+<td>40 minutes</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Chapter design</td>
+<td>Nov 24 morning</td>
+<td>30 minutes</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Mascot, logo, favicon, colors, pronunciations</td>
+<td>Nov 24</td>
+<td>1 hour</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Chapters 1–3</td>
+<td>Nov 24 midday</td>
+<td>1.25 hours</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Trip photos picked and added to chapters</td>
+<td>Nov 24 afternoon</td>
+<td>2 hours</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Fixes to chapters 1–3 and the content guide</td>
+<td>Nov 24 afternoon</td>
+<td>1 hour</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Appendices</td>
+<td>Nov 24</td>
+<td>1 hour</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Chapters 4–21</td>
+<td>Nov 24, 4 PM to 10 PM</td>
+<td>6.5 hours</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Glossary</td>
+<td>Nov 24 evening</td>
+<td>20 minutes</td>
+</tr>
+<tr>
+<td>14</td>
+<td>FAQ</td>
+<td>Nov 24 evening</td>
+<td>15 minutes</td>
+</tr>
+<tr>
+<td>15</td>
+<td>All the chapter MicroSims</td>
+<td>Nov 24 night to Nov 25 morning</td>
+<td>7 hours (unattended)</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Graphic-novel stories</td>
+<td>Nov 25</td>
+<td>4 hours</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Cover, landing page, About page, galleries</td>
+<td>Nov 25</td>
+<td>1.5 hours</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Interactive posters</td>
+<td>Nov 24 and Nov 25</td>
+<td>2.5 hours</td>
+</tr>
+<tr>
+<td>19</td>
+<td>LinkedIn announcement and README</td>
+<td>Nov 25 afternoon</td>
+<td>30 minutes</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Custom 404 page</td>
+<td>Nov 26 morning</td>
+<td>10 minutes</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Cape Sounion found in the GPS data</td>
+<td>Nov 26 morning</td>
+<td>30 minutes</td>
+</tr>
+<tr>
+<td>22</td>
+<td>This page</td>
+<td>Nov 26 morning</td>
+<td>15 minutes</td>
+</tr>
+</tbody>
+</table>
+<p>Most of the book was built in about 46 hours of elapsed time, from the
+morning of November 24 to the morning of November 26. Much of that time the
+agents were working on their own, for example overnight while the MicroSims
+were built. The author's own time was closer to 15 hours: writing prompts,
+reviewing drafts, and generating images.</p>
+<h2 id="skill-versions">Skill Versions<a class="headerlink" href="#skill-versions" title="Permanent link">&para;</a></h2>
+<p>These are the skill versions in the
+<a href="https://github.com/dmccreary/claude-skills">ibook-skills</a> repository on the
+days this book was built. None of them changed between November 11 and
+November 26, except <code>book-installer</code>, which went from v1.0.4 to v1.0.5 between
+the first step and the rest of the work.</p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Version</th>
+<th>Used for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>book-installer</code></td>
+<td>1.0.4, then 1.0.5</td>
+<td>Book frame, mascot, favicon, KaTeX, cover, About page, landing page, 404 page, feature checklist</td>
+</tr>
+<tr>
+<td><code>course-description-analyzer</code></td>
+<td>0.05</td>
+<td>Scoring the course description (run inside the learning-graph step)</td>
+</tr>
+<tr>
+<td><code>learning-graph-generator</code></td>
+<td>1.07</td>
+<td>598 concepts and their dependencies</td>
+</tr>
+<tr>
+<td><code>book-chapter-generator</code></td>
+<td>1.1.2</td>
+<td>The 21-chapter structure</td>
+</tr>
+<tr>
+<td><code>chapter-content-generator</code></td>
+<td>1.11</td>
+<td>All 21 chapters</td>
+</tr>
+<tr>
+<td><code>glossary-generator</code></td>
+<td>1.0</td>
+<td>666 glossary terms</td>
+</tr>
+<tr>
+<td><code>faq-generator</code></td>
+<td>1.0</td>
+<td>94 FAQ questions</td>
+</tr>
+<tr>
+<td><code>microsim-generator</code></td>
+<td>1.0.5</td>
+<td>MicroSims and posters</td>
+</tr>
+<tr>
+<td><code>microsim-utils</code></td>
+<td>1.0</td>
+<td>Standardizing the map, MicroSim to-do list, iframe heights, gallery page</td>
+</tr>
+<tr>
+<td><code>book-media-generator</code></td>
+<td>1.0</td>
+<td>Graphic-novel story scripts, pronunciation audio</td>
+</tr>
+<tr>
+<td><code>book-publisher</code></td>
+<td>1.0</td>
+<td>LinkedIn announcement, README metrics</td>
+</tr>
+</tbody>
+</table>
+<h2 id="step-1-build-the-frame-and-the-cruise-map-before-the-trip">Step 1: Build the Frame and the Cruise Map (Before the Trip)<a class="headerlink" href="#step-1-build-the-frame-and-the-cruise-map-before-the-trip" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> the evening of November 10 and the morning of November 11.
+<strong>Time:</strong> about 1 hour.
+<strong>Skills:</strong> <code>book-installer</code> v1.0.4, <code>microsim-utils</code> v1.0.</p>
+<p>We created the GitHub repository and set up an empty MkDocs Material book.
+Then we turned an existing HTML map of the cruise into a standard MicroSim,
+and wrote a course description from the cruise itinerary.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>/book-installer init
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Refactor the HTML program in docs/sims/viking-cruise-map.html into a standard
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>MicroSim format using the /microsim-utils standardization guide, and add it to
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>the MicroSims section of the mkdocs.yml nav.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>This is not actually a textbook, but a travel guide of things to notice on our
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>trip. I am a big fan of the history of civilization, culture, cuisine, and
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>trying to have deep empathy for the people in the places on our trip. Please
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>update the course description to reflect this. Here are the details of our
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>travel plans: [the cruise itinerary pasted from the cruise-agency site]
+</span></code></pre></div>
+<p>The result was the <a href="../../sims/viking-cruise-map/">Viking Cruise Map</a>
+and the first version of the <a href="../../course-description/">course description</a>.
+Then we packed.</p>
+<h2 id="step-2-connect-the-google-photos-album">Step 2: Connect the Google Photos Album<a class="headerlink" href="#step-2-connect-the-google-photos-album" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 8:27 AM, then 12:56 to 1:35 PM.
+<strong>Time:</strong> about 30 minutes of work, plus about 30 minutes waiting for Google.
+<strong>Skill:</strong> none (a custom Python script).</p>
+<p>Google Photos does not have an open API for reading a shared album, so we
+used Google Takeout. Takeout exports the original photos plus a JSON file for
+each one with its date, time, and GPS position. Claude wrote
+<code>scripts/google_photos_takeout.py</code> to read the export, and a profiling script
+to summarize it.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Add a Google Photos connector to this project.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>The download is in the Downloads folder as a zip file. Uncompress it and do
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>basic data profiling of this data. Put the results in the book's data
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>directory, but do not check the photo files into GitHub. Add a .gitignore so
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>they are not added to the repository.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Please confirm that the photos and videos will NOT be added to GitHub.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Delete the zip in Downloads.
+</span></code></pre></div>
+<p>The export held 1,465 photos and videos (4.4 GB). They stay in <code>data/takeout/</code>
+on the MacBook, which <code>data/.gitignore</code> keeps out of the repository. See
+<a href="#our-photos-never-went-to-github">Our Photos Never Went to GitHub</a>.</p>
+<h2 id="step-3-check-the-plan-against-the-photos">Step 3: Check the Plan Against the Photos<a class="headerlink" href="#step-3-check-the-plan-against-the-photos" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 8:31 to 8:55 AM.
+<strong>Time:</strong> about 25 minutes.</p>
+<p>The photo dates showed where the trip differed from the plan. We added
+Delphi to the map and fixed the places where the text and the photos
+disagreed.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Add another stop to the travel map for our trip to Delphi at the end of the
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>tour. You can see the dates in the photo metadata. We went there on
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>November 22.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Check that the photo metadata is consistent with course-description.md and
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>the about.md page.
+</span></code></pre></div>
+<h2 id="step-4-add-the-deep-dive-topics">Step 4: Add the Deep-Dive Topics<a class="headerlink" href="#step-4-add-the-deep-dive-topics" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 8:59 to 9:24 AM.
+<strong>Time:</strong> about 25 minutes.</p>
+<p>Before generating any concepts, we added the two "deep dive" topics that
+make this more than a travel guide: Paul at Ephesus, and the Oracle of Delphi
+compared with modern AI prediction. We also asked Claude to look for
+parallels with the author's work on AI in education.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Update the course description to add an entire chapter on Paul at Ephesus.
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>Put his time in Ephesus in the context of the rest of Paul's teaching and his
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>leadership. The key here is lessons in leadership and change.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Now add one more deep-dive chapter about our trip to Delphi to see the ruins
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>of the Oracle of Delphi. Look for parallels between predicting the future in
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>ancient times and the new role of machine learning and AI in making
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>predictions.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>My role is an evangelist of AI in the democratization of education for all
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>children on Earth. What other parallels do you see from this trip?
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Wonderful! Please weave these parallels into the course description.
+</span></code></pre></div>
+<h2 id="step-5-generate-the-learning-graph">Step 5: Generate the Learning Graph<a class="headerlink" href="#step-5-generate-the-learning-graph" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 9:32 to 10:12 AM.
+<strong>Time:</strong> about 40 minutes.
+<strong>Skill:</strong> <code>learning-graph-generator</code> v1.07.</p>
+<p>The learning graph lists every concept the book teaches and which concepts
+each one depends on. The skill first scored the course description at 97 out
+of 100. Then it built 595 concepts in 15 categories, checked that the graph
+had no loops, and created the graph viewer.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Now run the /learning-graph-generator on the updated course description.
+</span></code></pre></div>
+<p>Then we added a few concepts from the trip itself:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>Add "Turkish delight" and "saffron" as foods that we bought in the Spice Market.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>Please add eggplant as a favorite dish.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>Add "Graffiti" as a concept from when we drove around Athens.
+</span></code></pre></div>
+<p>The final graph has 598 concepts and 942 dependencies. See the
+<a href="../../learning-graph/">Learning Graph</a> section.</p>
+<h2 id="step-6-design-the-chapters">Step 6: Design the Chapters<a class="headerlink" href="#step-6-design-the-chapters" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 10:12 to 10:30 AM, with the log written at 12:15 PM.
+<strong>Time:</strong> about 30 minutes.
+<strong>Skill:</strong> <code>book-chapter-generator</code> v1.1.2.</p>
+<p>The skill grouped the 598 concepts into chapters that follow the trip day by
+day. Its first plan had 19 chapters. Two of them were too large, so we asked
+for them to be split.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Run the /book-chapter-generator skill.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>Day 9 has too many concepts (48) for a single chapter. Make it two separate
+</span><span id="__span-20-2"><a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>chapters. It is OK to have more chapters.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>I also think that the first chapter, with 47 concepts, is too large. Make that
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>one two chapters also.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Approve.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>Create a detailed log of this session in logs/book-chapter-design.md, and
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>include all the tradeoffs you made in designing the book structure and my
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>feedback.
+</span></code></pre></div>
+<p>The approved design has 21 chapters and no chapter that teaches a concept
+before the concepts it depends on.</p>
+<h2 id="step-7-mascot-logo-colors-and-pronunciations">Step 7: Mascot, Logo, Colors, and Pronunciations<a class="headerlink" href="#step-7-mascot-logo-colors-and-pronunciations" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, at several times during the day.
+<strong>Time:</strong> about 1 hour in all.
+<strong>Skills:</strong> <code>book-installer</code> v1.0.5, <code>book-media-generator</code> v1.0.</p>
+<p>We asked Claude to suggest a mascot, and chose Glaux, the little owl of
+Athena. Then we made Glaux the site logo and favicon, picked a color theme,
+and added recorded pronunciations for hard names.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>Suggest a mascot for the travel notebook.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>Make it the owl! I love Athena's little owl!
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>Create a mascot test page in the learning graph directory using the
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>/book-installer guide.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>Use docs/img/mascot/welcome.png as the book logo in the upper left corner.
+</span><span id="__span-27-2"><a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>Also generate a favicon using the /book-installer favicon guide.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>Please suggest some alternative color themes for the book.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>Apply theme 3, Terracotta and olive, to the book.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>Use the pronunciation guide to add a pronounce button for "Glaux" in the
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>first introduction admonition.
+</span></code></pre></div>
+<p>The pronunciation audio is made with ElevenLabs text-to-speech. The five
+color themes we considered are described in <code>logs/color-themes.md</code>. The
+results are the <a href="../pronunciation-guide/">Pronunciation Guide</a> and the
+terracotta-and-olive colors you see on every page.</p>
+<h2 id="step-8-write-chapters-1-to-3">Step 8: Write Chapters 1 to 3<a class="headerlink" href="#step-8-write-chapters-1-to-3" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 12:17 to 1:33 PM.
+<strong>Time:</strong> about 15 minutes per chapter, 1.25 hours in all.
+<strong>Skill:</strong> <code>chapter-content-generator</code> v1.11.</p>
+<p>We wrote the first three chapters one at a time, so we could read each one
+and fix problems before writing the rest.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>Run the /chapter-content-generator for chapter 1 using the stub at
+</span><span id="__span-31-2"><a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>docs/chapters/01-long-timeline/index.md
+</span></code></pre></div>
+<p>The same prompt was used for chapters 2 and 3. Each chapter came with written
+specifications for its MicroSims. We built a few of them right away to test
+the specifications:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>Generate the timeline described in the Diagram section of chapter 1 using the
+</span><span id="__span-32-2"><a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>/microsim-generator timeline guide and the vis-timeline JavaScript library.
+</span></code></pre></div>
+<h2 id="step-9-pick-the-trip-photos">Step 9: Pick the Trip Photos<a class="headerlink" href="#step-9-pick-the-trip-photos" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 1:36 to 3:25 PM.
+<strong>Time:</strong> about 2 hours, most of it the computer labeling photos.
+<strong>Skill:</strong> none (custom scripts).</p>
+<p>We wanted our own photos in the chapters. But sending 1,465 photos to an AI
+model to look at would use a very large number of tokens. So we asked for a
+cheaper way:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>I would like to enhance the chapter content with a small selection of sample
+</span><span id="__span-33-2"><a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>photos. But to do this you would have to analyze the photos for their content,
+</span><span id="__span-33-3"><a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>and that would take a LOT of tokens. Is there a low-token way to select the
+</span><span id="__span-33-4"><a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>photos that should be included?
+</span></code></pre></div>
+<p>Claude built a pipeline that runs mostly on the laptop and uses no AI tokens
+until the last step:</p>
+<ol>
+<li><code>scripts/photo_labels.swift</code> uses Apple's on-device Vision framework to
+   label each photo (for example "ruins," "mosque," or "harbor") and give it a
+   quality score.</li>
+<li><code>scripts/select_chapter_photos.py</code> uses each photo's GPS position to find
+   the nearest landmark, and so the chapter it belongs to. It drops
+   screenshots, signs, and photos where a face fills the frame, and keeps the
+   best photo from each burst.</li>
+<li>The top photos for each chapter are tiled into one numbered "contact
+   sheet" image. Claude reviews a whole chapter's choices by looking at one
+   image instead of dozens.</li>
+<li><code>scripts/export_web_photos.py</code> makes small web copies of the chosen photos
+   and removes their GPS data.</li>
+</ol>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a>Longer chapters can have up to 10 photos that are unique.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-35-1"><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>For each of the photos, add a credit to the photo caption.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-36-1"><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>Add the photo rules to CONTENT-GENERATION-GUIDE.md, including the photo
+</span><span id="__span-36-2"><a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>caption rules.
+</span></code></pre></div>
+<p>The book now uses 121 of our photos. The counts by place are on the
+<a href="../photo-metrics/">Trip Photo Metrics</a> page.</p>
+<h2 id="step-10-fix-the-first-chapters-and-the-content-guide">Step 10: Fix the First Chapters and the Content Guide<a class="headerlink" href="#step-10-fix-the-first-chapters-and-the-content-guide" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 2:25 to 3:48 PM.
+<strong>Time:</strong> about 1 hour.
+<strong>Skill:</strong> <code>microsim-generator</code> v1.0.5.</p>
+<p>Reading the first three chapters turned up problems we did not want repeated
+in the other 18. We fixed them, wrote the fix into
+<code>CONTENT-GENERATION-GUIDE.md</code> so later chapters would follow it, and asked
+for a consistency check before going on.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-37-1"><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>In chapter 1, where appropriate, replace the word "clock" with "timeline,"
+</span><span id="__span-37-2"><a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a>since a clock does not include dates. Use "map and timeline" instead of "map
+</span><span id="__span-37-3"><a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a>and clock."
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-38-1"><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>Use the /microsim-generator skill to create a high-level map of the Eastern
+</span><span id="__span-38-2"><a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a>Mediterranean region. Label only the regions named in this section, plus the
+</span><span id="__span-38-3"><a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a>seas and the larger countries.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-39-1"><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>Put on the hat of a senior instructional designer. Look at what concepts we
+</span><span id="__span-39-2"><a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>are trying to teach in this MicroSim. Would a single eras timeline be a
+</span><span id="__span-39-3"><a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>better simple introduction, with the events moved to another MicroSim? What
+</span><span id="__span-39-4"><a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a>are the tradeoffs?
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-40-1"><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a>Please recheck the consistency of the first three chapters and the content
+</span><span id="__span-40-2"><a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a>generation guide and make any updates you feel are needed. I want to make
+</span><span id="__span-40-3"><a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a>sure the guide is correct before we generate the remaining content.
+</span></code></pre></div>
+<h2 id="step-11-add-the-appendices">Step 11: Add the Appendices<a class="headerlink" href="#step-11-add-the-appendices" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, at several times from 3:51 to 9:51 PM.
+<strong>Time:</strong> about 1 hour in all.
+<strong>Skill:</strong> <code>book-installer</code> v1.0.5 (for KaTeX).</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-41-1"><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a>Please create a new appendix called "Extensions and Excursions" that describes
+</span><span id="__span-41-2"><a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a>the optional trips before the cruise in Istanbul and after it in Athens. Do
+</span><span id="__span-41-3"><a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a>web research on the Viking website to get a list of the extensions and
+</span><span id="__span-41-4"><a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a>excursions. Note that we did an excursion to the villages on the island of
+</span><span id="__span-41-5"><a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a>Crete.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-42-1"><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a>Add a new appendix called "Who Created the Antikythera Mechanism." Describe
+</span><span id="__span-42-2"><a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a>the mechanism and what skills would be needed to build it.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-43-1"><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a>Update mkdocs.yml using the /book-installer guide for LaTeX equation rendering
+</span><span id="__span-43-2"><a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a>with the KaTeX JavaScript library, and test it.
+</span></code></pre></div>
+<p>The results are <a href="../extensions-and-excursions/">Extensions and Excursions</a>,
+<a href="../antikythera-mechanism/">Who Created the Antikythera Mechanism</a>, and the
+<a href="../timeline-of-events/">Timeline of Events</a>.</p>
+<h2 id="step-12-write-chapters-4-to-21">Step 12: Write Chapters 4 to 21<a class="headerlink" href="#step-12-write-chapters-4-to-21" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 3:59 PM to 10:21 PM.
+<strong>Time:</strong> about 6.5 hours, or about 20 minutes per chapter.
+<strong>Skill:</strong> <code>chapter-content-generator</code> v1.11.</p>
+<p>With the content guide corrected, we wrote the other 18 chapters. One
+background agent wrote each chapter from a shared brief, one chapter at a
+time, and the main session checked each chapter before starting the next.
+We published the chapters in batches while the rest were being written.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-44-1"><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a>Generate the content for chapters 4, 5, and 6.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-45-1"><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>Continue generating the content for the remaining chapters of the book
+</span><span id="__span-45-2"><a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>(7 through 21).
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-46-1"><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a>Publish chapters 7–9 now while you work.
+</span></code></pre></div>
+<p>At the end we asked for better logs:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-47-1"><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a>The log files that match logs/ch-*-content-generation.md only have a start and
+</span><span id="__span-47-2"><a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a>stop time. Please add more detail, such as the number of concepts, diagrams,
+</span><span id="__span-47-3"><a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a>MicroSims, and photos in each chapter, any decisions you made about the
+</span><span id="__span-47-4"><a id="__codelineno-47-4" name="__codelineno-47-4" href="#__codelineno-47-4"></a>content length, and the reading level.
+</span></code></pre></div>
+<p>The 21 chapters hold about 320,000 words, at a reading level of about grade
+9 to 10. Each chapter's log is in <code>logs/</code>.</p>
+<h2 id="step-13-generate-the-glossary">Step 13: Generate the Glossary<a class="headerlink" href="#step-13-generate-the-glossary" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 10:08 to 10:28 PM.
+<strong>Time:</strong> about 20 minutes.
+<strong>Skill:</strong> <code>glossary-generator</code> v1.0.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-48-1"><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a>/glossary-generator Make sure to add a pronounce button if the term is hard to
+</span><span id="__span-48-2"><a id="__codelineno-48-2" name="__codelineno-48-2" href="#__codelineno-48-2"></a>pronounce. Use the pronunciation guide to find the sound files to play.
+</span></code></pre></div>
+<p>The <a href="../../glossary/">Glossary</a> has 666 terms.</p>
+<h2 id="step-14-generate-the-faq">Step 14: Generate the FAQ<a class="headerlink" href="#step-14-generate-the-faq" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 10:28 to 10:43 PM.
+<strong>Time:</strong> about 15 minutes.
+<strong>Skill:</strong> <code>faq-generator</code> v1.0.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-49-1"><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a>/faq-generator and note that the glossary has just been created.
+</span></code></pre></div>
+<p>The <a href="../../faq/">FAQ</a> has 94 questions. While writing it, the skill checked
+its claims against the chapters and corrected several facts in its first
+draft. The details are in <code>logs/faq.md</code>.</p>
+<h2 id="step-15-build-all-the-microsims">Step 15: Build All the MicroSims<a class="headerlink" href="#step-15-build-all-the-microsims" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24, 10:29 PM, to November 25, 5:53 AM.
+<strong>Time:</strong> about 7 hours, overnight and mostly unattended.
+<strong>Skills:</strong> <code>microsim-utils</code> v1.0, <code>microsim-generator</code> v1.0.5.
+<strong>Model:</strong> Claude Opus 5.5.</p>
+<p>Each chapter includes written specifications for its MicroSims, the small
+interactive simulations embedded in the text. We first turned the
+specifications into a to-do list, then built them all in one long run, with a
+commit after each one.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-50-1"><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a>From the /microsim-utils skill, generate a TODO list using Python of all the
+</span><span id="__span-50-2"><a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a>MicroSims that need to be generated, and create stubs for each MicroSim.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-51-1"><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a>Now run the /microsim-generator skill on all of the docs/TODO/*.json
+</span><span id="__span-51-2"><a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a>specifications.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-52-1"><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a>Commit and push the content to GitHub when you finish each MicroSim.
+</span></code></pre></div>
+<p>The run built about 60 MicroSims, about one every 7 minutes. While building
+them, the agent found some facts in the chapters that did not match its
+research, and listed them. The next morning one more prompt fixed the
+chapter text:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-53-1"><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a>Yes, fix the text.
+</span></code></pre></div>
+<p>Later we checked that every diagram in the chapters had a working iframe:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-54-1"><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a>Please go through all the Diagram sections in the chapters and make sure
+</span><span id="__span-54-2"><a id="__codelineno-54-2" name="__codelineno-54-2" href="#__codelineno-54-2"></a>that after each one there is an iframe that loads the MicroSim. Use
+</span><span id="__span-54-3"><a id="__codelineno-54-3" name="__codelineno-54-3" href="#__codelineno-54-3"></a>/microsim-utils to find the height rules.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-55-1"><a id="__codelineno-55-1" name="__codelineno-55-1" href="#__codelineno-55-1"></a>Run the /microsim-utils tool that will update docs/sims/index.md with a grid
+</span><span id="__span-55-2"><a id="__codelineno-55-2" name="__codelineno-55-2" href="#__codelineno-55-2"></a>view that includes a screen image of each MicroSim.
+</span></code></pre></div>
+<p>See the <a href="../../sims/">List of MicroSims</a>.</p>
+<h2 id="step-16-write-and-illustrate-the-graphic-novel-stories">Step 16: Write and Illustrate the Graphic-Novel Stories<a class="headerlink" href="#step-16-write-and-illustrate-the-graphic-novel-stories" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 25, 6:06 AM to 12:20 PM.
+<strong>Time:</strong> about 4 hours, most of it generating images.
+<strong>Skill:</strong> <code>book-media-generator</code> v1.0.</p>
+<p>The stories tell the history of the places we visited as short illustrated
+comics. Claude wrote the story ideas and the panel descriptions. Six
+background agents wrote the 22 stories at the same time, in about 15 minutes.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-56-1"><a id="__codelineno-56-1" name="__codelineno-56-1" href="#__codelineno-56-1"></a>Please generate a list of story ideas for about 20 graphic-novel stories that
+</span><span id="__span-56-2"><a id="__codelineno-56-2" name="__codelineno-56-2" href="#__codelineno-56-2"></a>would help people understand the history, people, culture, traditions, food,
+</span><span id="__span-56-3"><a id="__codelineno-56-3" name="__codelineno-56-3" href="#__codelineno-56-3"></a>and mysteries of the Eastern Mediterranean. Here are some suggestions to get
+</span><span id="__span-56-4"><a id="__codelineno-56-4" name="__codelineno-56-4" href="#__codelineno-56-4"></a>you started: the Trojan Horse, the Oracle of Delphi, the building of the
+</span><span id="__span-56-5"><a id="__codelineno-56-5" name="__codelineno-56-5" href="#__codelineno-56-5"></a>Parthenon, Paul's writings in Ephesus, and gods like Zeus and Athena with her
+</span><span id="__span-56-6"><a id="__codelineno-56-6" name="__codelineno-56-6" href="#__codelineno-56-6"></a>owl Glaux. Write the ideas to docs/stories/story-ideas.md. Each story will
+</span><span id="__span-56-7"><a id="__codelineno-56-7" name="__codelineno-56-7" href="#__codelineno-56-7"></a>have 8 to 16 panels.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-57-1"><a id="__codelineno-57-1" name="__codelineno-57-1" href="#__codelineno-57-1"></a>Now use /book-media-generator to create the directory and main index.md for
+</span><span id="__span-57-2"><a id="__codelineno-57-2" name="__codelineno-57-2" href="#__codelineno-57-2"></a>each story. Put detailed descriptions of the cover and each panel in the
+</span><span id="__span-57-3"><a id="__codelineno-57-3" name="__codelineno-57-3" href="#__codelineno-57-3"></a>story's index.md, as the guide describes. Create a single description of the
+</span><span id="__span-57-4"><a id="__codelineno-57-4" name="__codelineno-57-4" href="#__codelineno-57-4"></a>characters who appear in more than one panel or story, and reference the
+</span><span id="__span-57-5"><a id="__codelineno-57-5" name="__codelineno-57-5" href="#__codelineno-57-5"></a>character sheet in each index.md for consistency. When you have finished, I
+</span><span id="__span-57-6"><a id="__codelineno-57-6" name="__codelineno-57-6" href="#__codelineno-57-6"></a>will give the descriptions to a high-quality text-to-image model.
+</span></code></pre></div>
+<p>The author then told the ChatGPT desktop app to render the 318 cover and
+panel images from the descriptions in each story's <code>index.md</code> (see
+<a href="#models-used">Models Used</a>). The instructions for ChatGPT are in
+<code>docs/stories/text-to-image-prompt.md</code>. The character sheet kept faces and
+clothing the same from panel to panel. A small script,
+<code>scripts/uncomment_story_images.py</code>, turned on each image link once its file
+existed.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-58-1"><a id="__codelineno-58-1" name="__codelineno-58-1" href="#__codelineno-58-1"></a>Please verify all images are showing in the stories.
+</span></code></pre></div>
+<p>See the <a href="../../stories/">Stories</a>.</p>
+<h2 id="step-17-cover-landing-page-and-about-page">Step 17: Cover, Landing Page, and About Page<a class="headerlink" href="#step-17-cover-landing-page-and-about-page" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 25, 8:50 to 10:14 AM.
+<strong>Time:</strong> about 1.5 hours.
+<strong>Skill:</strong> <code>book-installer</code> v1.0.5.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-59-1"><a id="__codelineno-59-1" name="__codelineno-59-1" href="#__codelineno-59-1"></a>Update the main landing page, docs/index.md, using the guide in the
+</span><span id="__span-59-2"><a id="__codelineno-59-2" name="__codelineno-59-2" href="#__codelineno-59-2"></a>/book-installer skill. Provide links to the useful parts of the book,
+</span><span id="__span-59-3"><a id="__codelineno-59-3" name="__codelineno-59-3" href="#__codelineno-59-3"></a>including the posters and stories.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-60-1"><a id="__codelineno-60-1" name="__codelineno-60-1" href="#__codelineno-60-1"></a>Run the /book-installer tool that generates a cover image. Put the owl
+</span><span id="__span-60-2"><a id="__codelineno-60-2" name="__codelineno-60-2" href="#__codelineno-60-2"></a>welcome pose in the lower-left corner, and make the title "Mediterranean
+</span><span id="__span-60-3"><a id="__codelineno-60-3" name="__codelineno-60-3" href="#__codelineno-60-3"></a>Travels" in the center. Place a montage of our photos around these.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-61-1"><a id="__codelineno-61-1" name="__codelineno-61-1" href="#__codelineno-61-1"></a>Run the /book-installer about guide. In this guide, focus on the way that
+</span><span id="__span-61-2"><a id="__codelineno-61-2" name="__codelineno-61-2" href="#__codelineno-61-2"></a>travel can help you build your empathy skills. As you travel, you can
+</span><span id="__span-61-3"><a id="__codelineno-61-3" name="__codelineno-61-3" href="#__codelineno-61-3"></a>practice putting yourself in the shoes of others, like a merchant in the
+</span><span id="__span-61-4"><a id="__codelineno-61-4" name="__codelineno-61-4" href="#__codelineno-61-4"></a>markets of Istanbul or a citizen of ancient Athens.
+</span></code></pre></div>
+<p>The results are the <a href="../../">home page</a> and the
+<a href="../../about/">About</a> page.</p>
+<h2 id="step-18-create-the-interactive-posters">Step 18: Create the Interactive Posters<a class="headerlink" href="#step-18-create-the-interactive-posters" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 24 at 10:00 PM (the first poster), November 25 from
+12:55 to 2:50 PM, and November 25 at 9:02 PM (the Ephesus map).
+<strong>Time:</strong> about 2.5 hours for 17 posters.
+<strong>Skill:</strong> <code>microsim-generator</code> v1.0.5 (infographic overlay guide).
+<strong>Model:</strong> Claude Opus 5.5.</p>
+<p>Each poster is a picture with an interactive overlay. Claude wrote the poster
+plan and a detailed image prompt in the poster's <code>image-prompt.md</code> file. The
+author told the ChatGPT desktop app to render the picture from that file (see
+<a href="#models-used">Models Used</a>). Then Claude placed the
+clickable labels on top of it. The prompts ask for a picture with no text at
+all, because the labels are added later as an HTML overlay.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-62-1"><a id="__codelineno-62-1" name="__codelineno-62-1" href="#__codelineno-62-1"></a>Using the microsim generator skill and the guide that builds overlay
+</span><span id="__span-62-2"><a id="__codelineno-62-2" name="__codelineno-62-2" href="#__codelineno-62-2"></a>infographics, create a three-column comparison of the three orders of
+</span><span id="__span-62-3"><a id="__codelineno-62-3" name="__codelineno-62-3" href="#__codelineno-62-3"></a>architecture: Doric, Ionic, and Corinthian. Use an image generator to make
+</span><span id="__span-62-4"><a id="__codelineno-62-4" name="__codelineno-62-4" href="#__codelineno-62-4"></a>the image, and put the files in docs/posters/column-types.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-63-1"><a id="__codelineno-63-1" name="__codelineno-63-1" href="#__codelineno-63-1"></a>Please generate a few ideas for interactive overlay infographic posters. Put
+</span><span id="__span-63-2"><a id="__codelineno-63-2" name="__codelineno-63-2" href="#__codelineno-63-2"></a>the ideas in docs/posters/poster-ideas.md. Focus on visualizations that can
+</span><span id="__span-63-3"><a id="__codelineno-63-3" name="__codelineno-63-3" href="#__codelineno-63-3"></a>use overlays with call-outs or that compare items side by side.
+</span></code></pre></div>
+<p>For each poster, the loop was the same: choose an idea, generate the image
+from the prompt Claude wrote, then tell Claude it was ready.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-64-1"><a id="__codelineno-64-1" name="__codelineno-64-1" href="#__codelineno-64-1"></a>Oracle vs. Algorithm
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-65-1"><a id="__codelineno-65-1" name="__codelineno-65-1" href="#__codelineno-65-1"></a>The image has been generated.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-66-1"><a id="__codelineno-66-1" name="__codelineno-66-1" href="#__codelineno-66-1"></a>Continue generating the remaining infographic posters described in
+</span><span id="__span-66-2"><a id="__codelineno-66-2" name="__codelineno-66-2" href="#__codelineno-66-2"></a>poster-ideas.md.
+</span></code></pre></div>
+<p>The last poster was a map of Ephesus. Its picture is not generated: it is our
+own photo of the map on the information sign at the site, with the
+clickable labels placed on top.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-67-1"><a id="__codelineno-67-1" name="__codelineno-67-1" href="#__codelineno-67-1"></a>Create a new full-screen map of the ancient city of Ephesus. Use the overlay
+</span><span id="__span-67-2"><a id="__codelineno-67-2" name="__codelineno-67-2" href="#__codelineno-67-2"></a>infographic to add these points from the key on the site's information sign:
+</span><span id="__span-67-3"><a id="__codelineno-67-3" name="__codelineno-67-3" href="#__codelineno-67-3"></a>1 Magnesia Gate; 2 East Gymnasium; 3 State Agora; ...
+</span></code></pre></div>
+<p>See the <a href="../../posters/">List of Posters</a>.</p>
+<h2 id="step-19-announce-the-book">Step 19: Announce the Book<a class="headerlink" href="#step-19-announce-the-book" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 25, 2:52 PM.
+<strong>Time:</strong> about 30 minutes.
+<strong>Skill:</strong> <code>book-publisher</code> v1.0 (the prompt named <code>book-media-generator</code>).</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-68-1"><a id="__codelineno-68-1" name="__codelineno-68-1" href="#__codelineno-68-1"></a>Generate a LinkedIn announcement using the /book-publisher skill, and update
+</span><span id="__span-68-2"><a id="__codelineno-68-2" name="__codelineno-68-2" href="#__codelineno-68-2"></a>README.md with the revised metrics.
+</span></code></pre></div>
+<h2 id="step-20-add-a-custom-404-page">Step 20: Add a Custom 404 Page<a class="headerlink" href="#step-20-add-a-custom-404-page" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 26, 5:01 to 5:11 AM.
+<strong>Time:</strong> about 10 minutes.
+<strong>Skill:</strong> <code>book-installer</code> v1.0.5.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-69-1"><a id="__codelineno-69-1" name="__codelineno-69-1" href="#__codelineno-69-1"></a>Use the /book-installer skill guide to add a fun 404 error page, with a
+</span><span id="__span-69-2"><a id="__codelineno-69-2" name="__codelineno-69-2" href="#__codelineno-69-2"></a>humorous joke and the mascot's warning pose.
+</span></code></pre></div>
+<p>Try a page that does not exist to see Glaux's joke about the Colossus of
+Rhodes.</p>
+<h2 id="step-21-find-cape-sounion-in-the-gps-data">Step 21: Find Cape Sounion in the GPS Data<a class="headerlink" href="#step-21-find-cape-sounion-in-the-gps-data" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 26, 5:13 to 5:39 AM.
+<strong>Time:</strong> about 30 minutes.</p>
+<p>This step shows why we waited until after the trip. Our plan did not include
+Cape Sounion, but the photo GPS data showed we had been to the Temple of
+Poseidon on November 20, on a Viking excursion. Claude found the visit in the
+data and added it to the book.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-70-1"><a id="__codelineno-70-1" name="__codelineno-70-1" href="#__codelineno-70-1"></a>Please do some analysis of the photo GPS data in data/takeout, and then add
+</span><span id="__span-70-2"><a id="__codelineno-70-2" name="__codelineno-70-2" href="#__codelineno-70-2"></a>the date that we did a Viking excursion to the Temple of Poseidon. Update the
+</span><span id="__span-70-3"><a id="__codelineno-70-3" name="__codelineno-70-3" href="#__codelineno-70-3"></a>book with this information.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-71-1"><a id="__codelineno-71-1" name="__codelineno-71-1" href="#__codelineno-71-1"></a>In the cruise map, add a separate stop for the Temple of Poseidon as its own
+</span><span id="__span-71-2"><a id="__codelineno-71-2" name="__codelineno-71-2" href="#__codelineno-71-2"></a>item 7, and make the Delphi trip item 8.
+</span></code></pre></div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-72-1"><a id="__codelineno-72-1" name="__codelineno-72-1" href="#__codelineno-72-1"></a>Add the counts of photos by location to the photo metrics page. Add a note at
+</span><span id="__span-72-2"><a id="__codelineno-72-2" name="__codelineno-72-2" href="#__codelineno-72-2"></a>the end of the page saying how the report was created, with a link to the
+</span><span id="__span-72-3"><a id="__codelineno-72-3" name="__codelineno-72-3" href="#__codelineno-72-3"></a>source code that created it.
+</span></code></pre></div>
+<h2 id="step-22-write-this-page">Step 22: Write This Page<a class="headerlink" href="#step-22-write-this-page" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 26.
+<strong>Time:</strong> about 15 minutes.
+<strong>Skill:</strong> none.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-73-1"><a id="__codelineno-73-1" name="__codelineno-73-1" href="#__codelineno-73-1"></a>Using the log file data and GitHub commits, please create a new appendix
+</span><span id="__span-73-2"><a id="__codelineno-73-2" name="__codelineno-73-2" href="#__codelineno-73-2"></a>called "How We Built This Site." It should be a step-by-step guide with rough
+</span><span id="__span-73-3"><a id="__codelineno-73-3" name="__codelineno-73-3" href="#__codelineno-73-3"></a>estimates of how long each step took. Whenever possible, suggest the prompt
+</span><span id="__span-73-4"><a id="__codelineno-73-4" name="__codelineno-73-4" href="#__codelineno-73-4"></a>that was used and the version of the skill.
+</span></code></pre></div>
+<h2 id="not-done-yet">Not Done Yet<a class="headerlink" href="#not-done-yet" title="Permanent link">&para;</a></h2>
+<p>The intelligent-textbook skills can add two more things that this book does
+not have yet:</p>
+<ul>
+<li>Chapter quizzes, with <code>quiz-generator</code> v0.5.</li>
+<li>Ten references for each chapter, with <code>reference-generator</code> v1.0.</li>
+</ul>
+<h2 id="lessons-for-your-own-trip-book">Lessons for Your Own Trip Book<a class="headerlink" href="#lessons-for-your-own-trip-book" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Set up before, write after.</strong> A small amount of work before the trip (the
+  frame, the itinerary, and a map) is enough. The photo stream records what
+  you really did, so most of the book is better written afterward.</li>
+<li><strong>Keep the photos private and use their data.</strong> Add the <code>.gitignore</code>
+  before you unzip the export. The original photos and videos stay on your
+  own computer. Only small web copies, with the GPS removed, go into the book.</li>
+<li><strong>Avoid sending every photo to the AI.</strong> On-device labels, GPS matching,
+  and contact sheets let Claude choose photos for the cost of one image per
+  chapter.</li>
+<li><strong>Write a few chapters, then fix the guide.</strong> Checking chapters 1 to 3 and
+  updating <code>CONTENT-GENERATION-GUIDE.md</code> before writing the other 18 kept the
+  same mistakes from being repeated 18 times.</li>
+<li><strong>Let long jobs run on their own.</strong> The MicroSims took about 7 hours, but
+  needed only three short prompts and one review the next morning.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../antikythera-mechanism/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Who Created the Antikythera Mechanism">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Who Created the Antikythera Mechanism
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../faq/" class="md-footer__link md-footer__link--next" aria-label="Next: FAQ">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                FAQ
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="../../js/microsim-resize.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
