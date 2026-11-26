@@ -66,11 +66,14 @@ Chapter quizzes and per-chapter references have not been generated yet.
 | 1–3 | Nov 11–13 | Istanbul on our own |
 | 4–5 | Nov 14–15 | Istanbul, embarking the Viking Star |
 | 6 | Nov 16 | Çanakkale (Troy and Gallipoli), Turkey |
-| 7 | Nov 17 | Kusadasi (Ephesus), Turkey |
+| 7 | Nov 17 | Kuşadası (Ephesus), Turkey |
 | 8 | Nov 18 | Rhodes, Greece |
 | 9 | Nov 19 | Heraklion (Knossos), Crete, Greece |
-| 10 | Nov 20 | Athens (Piraeus), Greece: Temple of Poseidon at Cape Sounion in the morning, the Acropolis in the afternoon; final night aboard |
-| 11–13 | Nov 21–23 | Athens on our own |
+| 10 | Nov 20 | Temple of Poseidon at Cape Sounion, Greece: Viking excursion from Piraeus in the morning |
+| 10 | Nov 20 | Athens, Greece: the Acropolis in the afternoon; final night aboard at Piraeus |
+| 11 | Nov 21 | Athens on our own, after leaving the ship |
+| 12 | Nov 22 | Delphi, Greece: day trip by road from Athens |
+| 13 | Nov 23 | Athens on our own |
 
 See the [Trip Description](docs/course-description.md) for the full plan and
 port times.
