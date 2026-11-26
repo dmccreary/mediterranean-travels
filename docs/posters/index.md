@@ -1,5 +1,7 @@
 ---
 title: List of Posters
+hide:
+    toc
 ---
 
 # List of Posters

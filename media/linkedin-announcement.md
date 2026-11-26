@@ -9,27 +9,29 @@ Post-body rule: **no external links in the post.** Paste the first comment right
 
 ## Full Version
 
-I just finished a thirteen-day journey through Turkey and Greece, from Istanbul to Athens. Before I left, I built the guide I wished existed: an open, interactive textbook with one chapter for each day of the trip.
+I just finished a thirteen-day journey through Turkey and Greece, from Istanbul to Athens. When I returned, I built the guide I wished existed: an open, interactive textbook with one chapter for each day of the trip and a few deep dives into a few topics that I was interested in.
 
 Each chapter prepares you for that day's place: what happened there, who built it and why, what to look for, what to eat, and who lives there now. Paul at Ephesus, the Delphi oracle and the Athenian agora are all there. So are the people who live in those places today.
 
-📊 By the numbers:
+By the numbers:
 • 21 chapters, from the Byzantine walls of Constantinople to the Acropolis
 • 598 concepts in a dependency graph
 • 68 interactive MicroSims: maps, timelines and decision games
 • 666 glossary terms and 94 FAQs
-• 22 illustrated stories and 16 visual posters
+• 22 illustrated mini-graphic stories with over 300 illustrations and 16 interactive visual posters
 • about 700,000 words (roughly 2,800 printed pages)
 
-The part I care about most is the angle. History keeps handing us lessons about leaders, change and prediction. The Delphi oracle took in questions and gave back confident, hedged answers. That is a surprisingly good way to talk about how AI predicts the next word. The Ephesus classroom that Paul taught in leads naturally to a question about how we teach every child on Earth. I wrote about those links because I believe AI can democratize education for all children.
+The part I care about most is the angle. History keeps handing us lessons about leaders, change and prediction. The Delphi oracle took in questions and gave back confident, hedged answers. That is a surprisingly good way to talk about how AI predicts the next word. The Ephesus classroom that the apostle Paul taught in leads naturally to a question about how we teach every child on Earth. I wrote about those links because I believe AI can democratize education for all children.
 
-Transparency note: I built this with Claude Code and a set of AI skills for intelligent textbooks. AI drafts quickly, so I treat every claim as something to check, and the guide has MicroSims that ask readers to separate myth from evidence.
+We now know that AI is making us all product managers. And the key skill a product manager needs is empathy.  Great product managers put themselves into the shoes of their customers and use empathy to understand what features are important. Travel to other countries can also force us to use our empathy skills to see the world from other perspectives. Historical travel also asks us to see the world through the eyes of people that lived thousands of years ago.
+
+I built this with Claude Code and my state-of-the-art AI skills for intelligent textbooks. I designed to book so every claim as something to check, encourages critical thinking, and the guide has many interactive MicroSims that ask readers to separate myth from evidence.
 
 It is free and open source. If you travel, teach, or just love the history of civilization, I would value your feedback.
 
-🔗 Link to the full guide is in the first comment below! 👇
+Link to the full guide is in the first comment below!
 
-#AI #GenAI #GenerativeAI #Education #EdTech #OpenEducation #OER #InteractiveTextbook #MicroSims #Travel #History #Istanbul #Athens #MkDocs #ClaudeAI
+#AI #GenAI #GenerativeAI #Education #EdTech #OpenEducation #OER #InteractiveTextbook #MicroSims #Travel #History #Istanbul #Athens #MkDocs #ClaudeAI #Greece #Empathy
 
 ---
 
