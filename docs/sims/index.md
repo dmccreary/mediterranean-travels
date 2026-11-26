@@ -335,7 +335,7 @@ Plotly, Venn.js).
 
     ![Viking Cruise Map](./viking-cruise-map/viking-cruise-map.png)
 
-    An interactive map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens and our day trip to Delphi, with the route, times, key sights, and a tip for each of the seven stops.
+    An interactive map of the Viking Star Ancient Mediterranean Treasures cruise from Istanbul to Athens and our day trip to Delphi, with the route, times, key sights, and a tip for each of the eight stops.
 
 -   **[Walking Venetian Candia](./walking-venetian-candia-map/index.md)**
 
