@@ -53,8 +53,8 @@ Learning for All.
 ## Where Each Idea Stands
 
 "Built" means the poster page is live. "Idea only" means the entry below is written but there is no spec yet. Every built poster also has a `spec.md`, an
-`image-prompt.md`, and a `data.json` in its folder. The `image-prompt.md` files
-are not published on the site.
+`image-prompt.md`, and a `data.json` in its folder. The `spec.md` and
+`image-prompt.md` files are not published on the site.
 
 | # | Idea | Engine | Status |
 |---|---|---|---|
@@ -93,7 +93,7 @@ drafted quiz questions in `spec.md`.
 | **Chapters** | [Chapter 17](../chapters/17-oracle/index.md), [Chapter 18](../chapters/18-delphi/index.md), [Chapter 19](../chapters/19-algorithm/index.md) |
 | **Engine** | Grid, six tiles in a 3 × 2 grid, one zone per matched pair |
 | **The picture** | Six small diptychs. In each, Delphi is on the left and today's algorithm is on the right, drawn from the same camera height. |
-| **Status** | Built: [the poster](oracle-vs-algorithm/index.md) and [its spec](oracle-vs-algorithm/spec.md). |
+| **Status** | Built: [the poster](oracle-vs-algorithm/index.md). |
 
 **Zones** (each zone is one whole tile, so one hover compares the pair):
 
@@ -118,7 +118,7 @@ Related sims: *oracle-gears-or-data-sorter*, *oracle-answer-hedging-test*,
 | **Chapters** | [Chapter 2](../chapters/02-traveling-well/index.md), [Chapter 12](../chapters/12-rhodes/index.md), [Chapter 14](../chapters/14-venetian-heraklion/index.md), [Chapter 16](../chapters/16-athens-agora-democracy/index.md), [Chapter 20](../chapters/20-athens-museums-city-today/index.md) |
 | **Engine** | Grid, five equal-width panels |
 | **The picture** | Five classrooms in a row, drawn from the same camera height, in date order: a philosopher walking with students at the Lyceum, a rhetoric lesson on Rhodes, an Aldine print shop with a bound octavo book, a medrese courtyard beside a mosque, and one adult tutoring one child with a tablet. |
-| **Status** | Built: [the poster](five-classrooms/index.md) and [its spec](five-classrooms/spec.md). |
+| **Status** | Built: [the poster](five-classrooms/index.md). |
 
 **Each zone follows the book's own four-step pattern** from Chapter 2: locked
 up, opened, resisted, and widened but never all the way. The last step is the

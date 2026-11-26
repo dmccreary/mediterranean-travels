@@ -209,6 +209,9 @@ nav:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
+  static_templates:
+    - 404.html
   logo: img/logo.png  # 128px-tall copy of img/mascot/welcome.png
   favicon: img/favicon.ico
   palette:
@@ -300,6 +303,8 @@ exclude_docs: |
   **/cover-prompt.md
   **/cover-image-prompt.md
   **/TODO.md
+  posters/**/spec.md
+  stories/**/spec.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:
