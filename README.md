@@ -35,6 +35,30 @@ appears. Interactive MicroSims, such as the
 [Viking Cruise Map](https://dmccreary.github.io/mediterranean-travels/sims/viking-cruise-map/),
 show the route and places along the way.
 
+## Site Status and Metrics
+
+Generated on November 25, 2026 from
+[`docs/learning-graph/book-metrics.json`](docs/learning-graph/book-metrics.json).
+
+| Metric | Count |
+|--------|-------|
+| Chapters | 21 |
+| Concepts in Learning Graph | 598 |
+| MicroSims | 68 |
+| Illustrated Stories | 22 |
+| Visual Posters | 16 |
+| Glossary Terms | 666 |
+| FAQ Questions | 94 |
+| Diagrams | 63 |
+| Equations | 36 |
+| Appendices | 5 |
+| Mascot Poses | 7 |
+| Total Words | 703,883 |
+| Hyperlinks | 2,874 |
+| Equivalent Printed Pages | 2,865 |
+
+Chapter quizzes and per-chapter references have not been generated yet.
+
 ## The Itinerary
 
 | Days | Dates | Place |
@@ -100,11 +124,14 @@ mediterranean-travels/
 │   ├── index.md                   # Home page
 │   ├── course-description.md      # Trip description and itinerary
 │   ├── chapters/                  # One chapter per day of the trip
-│   ├── sims/                      # Interactive MicroSims
+│   ├── sims/                      # 68 interactive MicroSims
 │   │   └── viking-cruise-map/     # Leaflet map of the cruise route
 │   │       ├── main.html          # Standalone sim (embeddable via iframe)
 │   │       └── index.md           # Lesson page
-│   ├── learning-graph/            # Concept list and dependency graph
+│   ├── stories/                   # Illustrated stories
+│   ├── posters/                   # Visual posters
+│   ├── appendices/                # Timeline, pronunciation guide, extras
+│   ├── learning-graph/            # Concept list, dependency graph, metrics
 │   ├── css/extra.css              # Custom styles
 │   └── img/                       # Cover image and license badge
 ├── plugins/social_override.py     # Social-media preview meta tags
