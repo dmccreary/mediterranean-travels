@@ -1503,9 +1503,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#not-done-yet" class="md-nav__link">
+  <a href="#step-24-add-the-chapter-references" class="md-nav__link">
     <span class="md-ellipsis">
-      Not Done Yet
+      Step 24: Add the Chapter References
     </span>
   </a>
   
@@ -1895,9 +1895,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#not-done-yet" class="md-nav__link">
+  <a href="#step-24-add-the-chapter-references" class="md-nav__link">
     <span class="md-ellipsis">
-      Not Done Yet
+      Step 24: Add the Chapter References
     </span>
   </a>
   
@@ -2204,6 +2204,12 @@ when the images were made.</p>
 <td>Nov 26 morning</td>
 <td>25 minutes</td>
 </tr>
+<tr>
+<td>24</td>
+<td>Chapter references</td>
+<td>Nov 26 morning</td>
+<td>35 minutes</td>
+</tr>
 </tbody>
 </table>
 <p>Most of the book was built in about 46 hours of elapsed time, from the
@@ -2265,6 +2271,11 @@ the first step and the rest of the work.</p>
 <td><code>quiz-generator</code></td>
 <td>0.5</td>
 <td>210 quiz questions, 10 per chapter</td>
+</tr>
+<tr>
+<td><code>reference-generator</code></td>
+<td>1.0</td>
+<td>210 references, 10 per chapter</td>
 </tr>
 <tr>
 <td><code>microsim-generator</code></td>
@@ -2768,10 +2779,26 @@ link to the chapter section it came from, and no near-duplicates. The 210
 questions scored 93 out of 100 in the
 <a href="../../learning-graph/quiz-generation-report/">Quiz Generation Report</a>. Each
 chapter's quiz is in the nav under that chapter.</p>
-<h2 id="not-done-yet">Not Done Yet<a class="headerlink" href="#not-done-yet" title="Permanent link">&para;</a></h2>
-<p>The intelligent-textbook skills can add one more thing that this book does
-not have yet: ten references for each chapter, with <code>reference-generator</code>
-v1.0.</p>
+<h2 id="step-24-add-the-chapter-references">Step 24: Add the Chapter References<a class="headerlink" href="#step-24-add-the-chapter-references" title="Permanent link">&para;</a></h2>
+<p><strong>When:</strong> November 26, 6:35 to 7:10 AM.
+<strong>Time:</strong> about 35 minutes.
+<strong>Skill:</strong> <code>reference-generator</code> v1.0.</p>
+<p>The last missing piece was a reading list for each chapter. One agent worked
+through all 21 chapters and wrote 10 references for each: three Wikipedia
+articles, two books, and five other online sources.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-75-1"><a id="__codelineno-75-1" name="__codelineno-75-1" href="#__codelineno-75-1"></a>/reference-generator
+</span></code></pre></div>
+<p>The two book slots give credit to an author for a specific way of explaining
+the subject. For example, the Knossos chapter cites Margalit Fox's <em>The Riddle
+of the Labyrinth</em>, which tells the decipherment of Linear B through Alice
+Kober's index cards. Every book was checked against a catalogue or a review.</p>
+<p>Every link was fetched before it was written down, and fetched again by a
+separate script at the end. 165 of the 168 links loaded. UNESCO had started
+limiting requests from our computer, so its last three links could not be
+checked again that day. Sites that block automated checks, such as
+Britannica, were left out because their links could not be verified. Each
+chapter's references are in the nav under that chapter, and each chapter now
+ends with a link to them.</p>
 <h2 id="lessons-for-your-own-trip-book">Lessons for Your Own Trip Book<a class="headerlink" href="#lessons-for-your-own-trip-book" title="Permanent link">&para;</a></h2>
 <ul>
 <li><strong>Set up before, write after.</strong> A small amount of work before the trip (the
