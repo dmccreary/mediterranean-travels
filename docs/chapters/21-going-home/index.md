@@ -305,3 +305,19 @@ Now test it. *A story we saw:* yes, the fountain, on Day 3. *Honest about the co
 !!! mascot-celebration "Home, With a Notebook Full of Good News"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now line up fifteen Learning for All stories on one four-step pattern, weigh what waiting cost against what rushing cost, and draw up an honest ledger for a reform that worked. You can also tell good news done with people from good news done to them, and you have written a message of your own from a story you saw with your own eyes. That's the whole route handled: for the next trip, start again at [the beginning](../../index.md) and [Chapter 1's long timeline](../01-long-timeline/index.md), and for the next school, open [*AI-Native Schools*](https://dmccreary.github.io/ai-native-schools/).
+
+## Where to Go Next
+
+This trip took us through two countries that share a sea, a long history, and many of the same roots. There are many places in the world we have yet to visit, and each could give us a deeper appreciation for other cultures and traditions. The best ones to choose are the places where people **do not think like you**. In a place like that, the tourist script runs out sooner. Habits we took for granted turn out to be choices, and we have to ask the question this guide asked at every stop: who got to learn here, and how?
+
+Three places are at the top of my own list.
+
+- **Egypt.** We have already stood beside an Egyptian stone: the obelisk of Thutmose III in the Hippodrome, carved about 1450 BCE. In Egypt it would stand among the temples it was made for, carved in hieroglyphs, a writing system that only a small class of trained scribes could read for most of its three thousand years.
+- **China.** Chinese writing is not an alphabet; each character carries meaning, and learning to read means learning thousands of them. China also had a long tradition of choosing officials by written examination, which put a particular idea of education at the center of public life for more than a thousand years.
+- **Thailand.** Thailand is a Buddhist country, and for centuries its monasteries were also village schools, where boys learned to read alongside their religious training. Watching how learning and faith fit together there would set the Christian and Muslim stories from this route in a new light.
+
+Japan and India are not on the list, but only because I have been there already. I traveled to Japan, and I lived in India as a child. Both taught me early what this guide has tried to teach since Chapter 2: the most valuable part of a trip is finding out that sensible people can see the world very differently from the way you do.
+
+One more place is in Turkey itself. **Göbekli Tepe**, a hilltop near Şanlıurfa in the southeast, holds circles of carved T-shaped limestone pillars, some over five meters tall, decorated with foxes, boars, snakes, and vultures. Radiocarbon dates show the oldest structures were built about 9500 BCE, roughly 11,500 years ago. That is about 6,500 years before Stonehenge, and before farming, pottery, or writing. On Chapter 1's long timeline it would sit far to the left of anything we visited on this trip. The research there is still changing what we know. The site's first excavator, Klaus Schmidt, read it as a temple where no one lived. Later digs found houses and cisterns for collecting rain, so people did live there. Since 2021, a project called *Taş Tepeler* ("Stone Hills") has been excavating a dozen related sites nearby, including Karahan Tepe. The dates and their meaning are still debated, which is part of the attraction: it is a place where the story is being written while we watch.
+
+I wish all of you happy travels. We sincerely hope this book has inspired you not only to know thyself better, as the inscription at Delphi advised, but also to appreciate the diversity of our world.
