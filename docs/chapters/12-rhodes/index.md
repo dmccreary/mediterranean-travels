@@ -701,3 +701,5 @@ That is why data about learners is not a neutral by-product of teaching. An AI t
 !!! mascot-celebration "Every Layer Has a Name"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk the Old Town and say who built each layer, from the knights' bulwarks to an Italian gate pretending to be medieval, and tell the siege of 1522 from both sides. You can order lunch in Greek, judge an olive oil label, and explain what a list of names had to do with the deportation of 1944. Next stop: [Knossos, the Minoans, and Linear B](../13-knossos-minoans-linear-b/index.md), on Crete, where writing itself was once a palace secret.
+
+[See Annotated References](./references.md)

@@ -593,3 +593,5 @@ The lesson for AI and education is about who keeps the record of what a person h
 !!! mascot-celebration "From the Spring to the Stadium"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk Delphi from the Castalian Spring to the stadium and tell what each terrace was built to say, read the parts of a freedom record on the polygonal wall, and trace the Serpent Column from Apollo's altar to the Hippodrome and back. You also know why a village moved so that we could see all this. Next stop: [The Oracle and the Algorithm, Part 2: The Algorithm](../19-algorithm/index.md), where the oracle's questions meet the prediction machines of our own day.
+
+[See Annotated References](./references.md)

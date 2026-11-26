@@ -41,66 +41,87 @@ nav:
       - "1. Before We Go, Part 1: The Long Timeline of the Eastern Mediterranean":
           - Content: chapters/01-long-timeline/index.md
           - Quiz: chapters/01-long-timeline/quiz.md
+          - Annotated References: chapters/01-long-timeline/references.md
       - "2. Before We Go, Part 2: Traveling Well and the Learning for All Thread":
           - Content: chapters/02-traveling-well/index.md
           - Quiz: chapters/02-traveling-well/quiz.md
+          - Annotated References: chapters/02-traveling-well/references.md
       - "3. Day 1: Istanbul, a City on Two Continents":
           - Content: chapters/03-istanbul-two-continents/index.md
           - Quiz: chapters/03-istanbul-two-continents/quiz.md
+          - Annotated References: chapters/03-istanbul-two-continents/references.md
       - "4. Day 2: Byzantine Constantinople and Hagia Sophia":
           - Content: chapters/04-byzantine-constantinople/index.md
           - Quiz: chapters/04-byzantine-constantinople/quiz.md
+          - Annotated References: chapters/04-byzantine-constantinople/references.md
       - "5. Day 3: Ottoman Istanbul, Topkapı, and Friday Prayer":
           - Content: chapters/05-ottoman-istanbul/index.md
           - Quiz: chapters/05-ottoman-istanbul/quiz.md
+          - Annotated References: chapters/05-ottoman-istanbul/references.md
       - "6. Day 4: Bazaars, Scripts, and Presses":
           - Content: chapters/06-bazaars-scripts-presses/index.md
           - Quiz: chapters/06-bazaars-scripts-presses/quiz.md
+          - Annotated References: chapters/06-bazaars-scripts-presses/references.md
       - "7. Day 5: The End of Empire and the Birth of Modern Turkey":
           - Content: chapters/07-end-of-empire-modern-turkey/index.md
           - Quiz: chapters/07-end-of-empire-modern-turkey/quiz.md
+          - Annotated References: chapters/07-end-of-empire-modern-turkey/references.md
       - "8. Day 6: Troy and Gallipoli":
           - Content: chapters/08-troy-and-gallipoli/index.md
           - Quiz: chapters/08-troy-and-gallipoli/quiz.md
+          - Annotated References: chapters/08-troy-and-gallipoli/references.md
       - "9. Paul at Ephesus, Part 1: The Apostle's Life, Letters, and Ephesian Years":
           - Content: chapters/09-paul-life-letters/index.md
           - Quiz: chapters/09-paul-life-letters/quiz.md
+          - Annotated References: chapters/09-paul-life-letters/references.md
       - "10. Day 7: Ephesus, a Greco-Roman City":
           - Content: chapters/10-ephesus-greco-roman-city/index.md
           - Quiz: chapters/10-ephesus-greco-roman-city/quiz.md
+          - Annotated References: chapters/10-ephesus-greco-roman-city/references.md
       - "11. Paul at Ephesus, Part 2: Ideas, Legacy, and Lessons in Leading Change":
           - Content: chapters/11-paul-ideas-leadership/index.md
           - Quiz: chapters/11-paul-ideas-leadership/quiz.md
+          - Annotated References: chapters/11-paul-ideas-leadership/references.md
       - "12. Day 8: Rhodes, From the Colossus to the Knights":
           - Content: chapters/12-rhodes/index.md
           - Quiz: chapters/12-rhodes/quiz.md
+          - Annotated References: chapters/12-rhodes/references.md
       - "13. Day 9, Part 1: Knossos, the Minoans, and Linear B":
           - Content: chapters/13-knossos-minoans-linear-b/index.md
           - Quiz: chapters/13-knossos-minoans-linear-b/quiz.md
+          - Annotated References: chapters/13-knossos-minoans-linear-b/references.md
       - "14. Day 9, Part 2: Venetian Heraklion and Crete Today":
           - Content: chapters/14-venetian-heraklion/index.md
           - Quiz: chapters/14-venetian-heraklion/quiz.md
+          - Annotated References: chapters/14-venetian-heraklion/references.md
       - "15. Day 10: Athens, the Acropolis, and the Persian Wars":
           - Content: chapters/15-athens-acropolis/index.md
           - Quiz: chapters/15-athens-acropolis/quiz.md
+          - Annotated References: chapters/15-athens-acropolis/references.md
       - "16. Day 11: Athens, the Agora, Democracy, and Paul on the Areopagus":
           - Content: chapters/16-athens-agora-democracy/index.md
           - Quiz: chapters/16-athens-agora-democracy/quiz.md
+          - Annotated References: chapters/16-athens-agora-democracy/references.md
       - "17. The Oracle and the Algorithm, Part 1: The Oracle":
           - Content: chapters/17-oracle/index.md
           - Quiz: chapters/17-oracle/quiz.md
+          - Annotated References: chapters/17-oracle/references.md
       - "18. Day 12: Delphi":
           - Content: chapters/18-delphi/index.md
           - Quiz: chapters/18-delphi/quiz.md
+          - Annotated References: chapters/18-delphi/references.md
       - "19. The Oracle and the Algorithm, Part 2: The Algorithm":
           - Content: chapters/19-algorithm/index.md
           - Quiz: chapters/19-algorithm/quiz.md
+          - Annotated References: chapters/19-algorithm/references.md
       - "20. Day 13: Athens, Museums, Tutors, and the City Today":
           - Content: chapters/20-athens-museums-city-today/index.md
           - Quiz: chapters/20-athens-museums-city-today/quiz.md
+          - Annotated References: chapters/20-athens-museums-city-today/references.md
       - "21. Going Home: Learning With Communities, Not To Them":
           - Content: chapters/21-going-home/index.md
           - Quiz: chapters/21-going-home/quiz.md
+          - Annotated References: chapters/21-going-home/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md

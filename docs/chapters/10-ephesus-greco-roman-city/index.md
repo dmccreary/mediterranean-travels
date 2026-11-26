@@ -760,3 +760,5 @@ That last point is the lesson for AI and education. A gift of knowledge reaches 
 !!! mascot-celebration "A City You Can Read"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now name a column's order by its capital, read the first line of a statue base, date a street by its layers, and tell a historical building from the tradition attached to it. You have also stood where the silversmiths shouted and heard both memories of 1922. Next stop: [Paul at Ephesus, Part 2: Ideas, Legacy, and Lessons in Leading Change](../11-paul-ideas-leadership/index.md), tonight's reading as we sail for Rhodes.
+
+[See Annotated References](./references.md)

@@ -649,3 +649,5 @@ The third lesson is about measurement: a claim that a new tool raised learning d
 !!! mascot-celebration "From Sick Man to Republic"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now trace the empire's retreat from Vienna to Lausanne, explain why Rhodes, Crete, and Athens became Greek in different generations, and apply the 1923 exchange rule that sorted people by faith. You can also sound out a Turkish sign and ask the right questions of a literacy statistic. Next stop: [Troy and Gallipoli](../08-troy-and-gallipoli/index.md), where we stand on the ridges where Mustafa Kemal made his name and the mound where Homer's war was fought.
+
+[See Annotated References](./references.md)

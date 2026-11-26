@@ -608,3 +608,5 @@ The AI parallel is about cost, and about checking. Aldus cut the cost of each co
 !!! mascot-celebration "From Bastion to Pocket Book"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk from the Lions to the Koules and name each Venetian layer, explain why Candia's bastions are shaped like arrowheads, and count the sheets in an Aldine Virgil. You can also order a Cretan lunch by where each dish comes from, and tell a Minoan pithos from a Thrapsano jar by its job rather than its shape. Next stop: [Athens, the Acropolis, and the Persian Wars](../15-athens-acropolis/index.md), where we climb to the Parthenon that the other Francesco Morosini's guns wrecked in 1687.
+
+[See Annotated References](./references.md)

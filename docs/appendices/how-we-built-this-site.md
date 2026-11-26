@@ -131,6 +131,7 @@ contact sheet per chapter (see Step 9).
 | 21 | Cape Sounion found in the GPS data | Nov 26 morning | 30 minutes |
 | 22 | This page | Nov 26 morning | 15 minutes |
 | 23 | Chapter quizzes | Nov 26 morning | 25 minutes |
+| 24 | Chapter references | Nov 26 morning | 35 minutes |
 
 Most of the book was built in about 46 hours of elapsed time, from the
 morning of November 24 to the morning of November 26. Much of that time the
@@ -156,6 +157,7 @@ the first step and the rest of the work.
 | `glossary-generator` | 1.0 | 666 glossary terms |
 | `faq-generator` | 1.0 | 94 FAQ questions |
 | `quiz-generator` | 0.5 | 210 quiz questions, 10 per chapter |
+| `reference-generator` | 1.0 | 210 references, 10 per chapter |
 | `microsim-generator` | 1.0.5 | MicroSims and posters |
 | `microsim-utils` | 1.0 | Standardizing the map, MicroSim to-do list, iframe heights, gallery page |
 | `book-media-generator` | 1.0 | Graphic-novel story scripts, pronunciation audio |
@@ -873,11 +875,32 @@ questions scored 93 out of 100 in the
 [Quiz Generation Report](../learning-graph/quiz-generation-report.md). Each
 chapter's quiz is in the nav under that chapter.
 
-## Not Done Yet
+## Step 24: Add the Chapter References
 
-The intelligent-textbook skills can add one more thing that this book does
-not have yet: ten references for each chapter, with `reference-generator`
-v1.0.
+**When:** November 26, 6:35 to 7:10 AM.
+**Time:** about 35 minutes.
+**Skill:** `reference-generator` v1.0.
+
+The last missing piece was a reading list for each chapter. One agent worked
+through all 21 chapters and wrote 10 references for each: three Wikipedia
+articles, two books, and five other online sources.
+
+```text
+/reference-generator
+```
+
+The two book slots give credit to an author for a specific way of explaining
+the subject. For example, the Knossos chapter cites Margalit Fox's *The Riddle
+of the Labyrinth*, which tells the decipherment of Linear B through Alice
+Kober's index cards. Every book was checked against a catalogue or a review.
+
+Every link was fetched before it was written down, and fetched again by a
+separate script at the end. 165 of the 168 links loaded. UNESCO had started
+limiting requests from our computer, so its last three links could not be
+checked again that day. Sites that block automated checks, such as
+Britannica, were left out because their links could not be verified. Each
+chapter's references are in the nav under that chapter, and each chapter now
+ends with a link to them.
 
 ## Lessons for Your Own Trip Book
 

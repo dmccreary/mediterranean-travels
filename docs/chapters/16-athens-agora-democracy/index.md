@@ -660,3 +660,5 @@ The lesson for AI and education has the same two halves. An AI tutor can look li
 !!! mascot-celebration "From the Marketplace to the Rock"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk the Agora's west side and name the job each building did, explain how a raffle and a potsherd ran a democracy, and estimate how few of Athens's people it included. You can also read Paul's speech line by line and see where he built on Stoic ground and where he asked his listeners to cross. Next stop: [The Oracle and the Algorithm, Part 1: The Oracle](../17-oracle/index.md), where we read tonight about the sanctuary we drive to in the morning, and about the oracle that called Socrates the wisest of men.
+
+[See Annotated References](./references.md)

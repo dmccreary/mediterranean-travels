@@ -705,3 +705,5 @@ But the singer's lesson cuts both ways. Like a Homeric singer, an AI model recom
 !!! mascot-celebration "From Windy Ilios to Anzac Cove"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now read the trench at Troy from the top down, match Wilusa to Ilios, and name which gods fought for which side. You can also judge a story by the gap between the event and its evidence, and hold the Johnnies and Mehmets words honestly as both doubtful history and real memory. Next stop: [Paul's Life and Letters](../09-paul-life-letters/index.md), the evening read for our sail south to Ephesus.
+
+[See Annotated References](./references.md)

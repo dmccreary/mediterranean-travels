@@ -698,3 +698,5 @@ The lesson for AI and education is about showing the inquiry. An AI system usual
 !!! mascot-celebration "From the Burned Rock to the Shared Table"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now tell the Persian Wars from Marathon to Salamis and test Herodotus' numbers, walk the Acropolis from the Propylaea to the Caryatids, and tell the Parthenon's five lives and both sides of the marbles dispute. You can also order an eggplant lunch in two languages. Next stop: [Athens, the Agora, Democracy, and Paul on the Areopagus](../16-athens-agora-democracy/index.md), where we walk down from the rock into the marketplace where Socrates taught for free.
+
+[See Annotated References](./references.md)

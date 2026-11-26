@@ -641,3 +641,5 @@ That last point matters for schools, because a breakthrough, in a lab or a class
 !!! mascot-celebration "You Can Read Ko-No-So"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk through Knossos, or its scale model, and tell Minoan stone from Evans's concrete, follow a jar of oil through the palace accounts, and spell a Cretan place name the way a Mycenaean scribe did. You can also tell the whole story of Linear B, with Alice Kober in it where she belongs. Next stop: [Venetian Heraklion and Crete Today](../14-venetian-heraklion/index.md), where the afternoon takes us from Venetian walls to the potters of Thrapsano.
+
+[See Annotated References](./references.md)

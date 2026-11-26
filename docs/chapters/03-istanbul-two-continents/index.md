@@ -879,3 +879,5 @@ The parallel for AI and education is about resilience. A single great school beh
 !!! mascot-celebration "Two Continents, One Story"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now stand on the Galata Bridge and name what you see: the Greek harbor, Constantine's peninsula, the Genoese tower, and the domes Mehmed's city built. You also know why the walls held for a thousand years, and how they fell in 53 days. Next stop: [Byzantine Constantinople](../04-byzantine-constantinople/index.md), and the building that has been a cathedral, a mosque, a museum, and a mosque again.
+
+[See Annotated References](./references.md)

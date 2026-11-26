@@ -887,3 +887,5 @@ Cards, presented in shuffled order:
 !!! mascot-celebration "You Have the Map and the Timeline"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now place any stop on our route in space and any site in one of nine periods, and you know to ask which layer, which definition, and who ruled here. That's the hardest groundwork of the whole trip done before we board a plane. Next, in [Part 2](../02-traveling-well/index.md), we pack for November and start the Learning for All thread.
+
+[See Annotated References](./references.md)

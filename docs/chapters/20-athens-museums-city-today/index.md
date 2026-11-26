@@ -666,3 +666,5 @@ The lesson for AI and education is that Socrates and Theuth were both right, and
 !!! mascot-celebration "From the Gears to the Tutor"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now explain how a box of bronze gears predicted eclipses, and tell an oracle, a cycle model, and a learned model apart. You can translate "two sigma" into percentiles and say why the real effect of tutoring is smaller but still large, and you can read the city's last day, from the Polytechnic gate to a rebetiko club, as the story of modern Greece. Next stop: [Going Home: Learning With Communities, Not To Them](../21-going-home/index.md), the chapter for the flight home.
+
+[See Annotated References](./references.md)

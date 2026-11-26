@@ -709,3 +709,5 @@ Three of these differences matter most. First, **respect**: for the people who c
 !!! mascot-celebration "From the Tripod to the Algorithm"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now explain how a machine learns from examples and where its data can mislead it, set a language model's temperature and say what it changes, and score a forecaster, yourself included, for calibration. You can also trace a prediction that feeds itself, rewrite a hedge so that it can lose, and put the oracle's old questions to any AI you meet. Next stop: [Day 13: Athens, Museums, Tutors, and the City Today](../20-athens-museums-city-today/index.md), where an ancient bronze machine that predicted the sky waits in the National Archaeological Museum.
+
+[See Annotated References](./references.md)

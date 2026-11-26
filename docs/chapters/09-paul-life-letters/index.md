@@ -1065,3 +1065,5 @@ Chapter 6 traced the same pattern with printing, which widened the circle of rea
 !!! mascot-celebration "An Apostle Among His Friends"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now tell Paul's own words from what Acts and later tradition say about him, place his letters in his life, and name the friends who made the Ephesian years work: Priscilla and Aquila, Apollos, Timothy, Titus, and Phoebe. That is the hardest part of reading Paul, and you have it before breakfast. Next stop: [Ephesus, a Greco-Roman City](../10-ephesus-greco-roman-city/index.md), where we walk the streets they walked and stand in the theater where the silversmiths rioted.
+
+[See Annotated References](./references.md)

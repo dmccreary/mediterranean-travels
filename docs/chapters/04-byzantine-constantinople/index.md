@@ -650,3 +650,5 @@ The parallel for our own time is direct. Today's bottleneck is not parchment but
 !!! mascot-celebration "You Can Read a Ruin"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now stand in Hagia Sophia and tell Justinian's dome from Mehmed's minaret, a 12th-century mosaic from a 19th-century roundel, and a primary source from a guide's legend. That skill will work at every ruin from Troy to Delphi. Next stop: [Ottoman Istanbul](../05-ottoman-istanbul/index.md), where the sultans built their palace and Sinan answered Hagia Sophia's dome with his own.
+
+[See Annotated References](./references.md)

@@ -465,3 +465,5 @@ That lesson is the one to carry into the age of AI. An AI tutor, like the press,
 !!! mascot-celebration "From Spice Stall to Printing Press"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk the Grand Bazaar by its trades, spot fake saffron, read the five letters of a roundel, and explain why a city with presses in 1493 waited until 1729 to print in its own script. That is the whole arc from scribe to press, and it sets up tomorrow's story. Next stop: [The End of Empire and the Birth of Modern Turkey](../07-end-of-empire-modern-turkey/index.md), where a new alphabet finally widens the circle.
+
+[See Annotated References](./references.md)

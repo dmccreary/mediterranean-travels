@@ -779,3 +779,5 @@ The companion book *AI-Native Schools* asks a version of the Socrates question a
 !!! mascot-celebration "Ready for the Mountain"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk up to the Temple of Apollo and explain how a consultation worked, from the cold-water goat to the prophet's answer, and tell the Croesus and Salamis stories while testing them like a historian. You can also tell a real prediction from a hedge, and you know why the god would probably have been away for our visit. Next stop: [Day 12: Delphi](../18-delphi/index.md), where we walk the Sacred Way under the cliffs.
+
+[See Annotated References](./references.md)

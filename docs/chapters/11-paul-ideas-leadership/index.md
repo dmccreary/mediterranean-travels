@@ -878,3 +878,5 @@ For Dan, the second question has a sharp answer. Teachers, aides, tutoring compa
 !!! mascot-celebration "From the Apostle's Ideas to Monday Morning"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now explain what Paul meant by grace, by "neither Jew nor Greek," and by one body, trace how those ideas traveled through Augustine and Luther, and face honestly how his words were used against Jews. You can also sort a school's practices into purposes and inherited forms, read a feedback loop, and ask who is hurt before a change begins. Next stop: [Rhodes, From the Colossus to the Knights](../12-rhodes/index.md), where we wake in Greece in the harbor Paul's ship passed.
+
+[See Annotated References](./references.md)

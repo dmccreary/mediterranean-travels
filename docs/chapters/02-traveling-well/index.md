@@ -774,3 +774,5 @@ AI could be the next lowering of that first step: a tutor that meets each child 
 !!! mascot-celebration "Ready for the Road"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now read a Greek sign, plan a November day around closing times and a time-zone change, and judge a travel moment by six principles. You also know why an upside-down ox head became the first letter of the alphabet that opened reading to the world. Next stop: [Istanbul, a City on Two Continents](../03-istanbul-two-continents/index.md).
+
+[See Annotated References](./references.md)

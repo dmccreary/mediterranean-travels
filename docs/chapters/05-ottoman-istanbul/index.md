@@ -519,3 +519,5 @@ The lesson for AI and education is about funding. Most educational technology, i
 !!! mascot-celebration "A Society in a Courtyard"
     ![Glaux celebrating with wings spread](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You can now walk around the Süleymaniye and name its schools, kitchen, hospital, and shops, and explain how a 16th-century deed kept them all paid. You also know why the city pauses five times a day, and how to visit a mosque as a welcome guest. Next stop: [Bazaars, Scripts, and Presses](../06-bazaars-scripts-presses/index.md), where we shop for saffron and ask why printing took so long to reach this city.
+
+[See Annotated References](./references.md)
