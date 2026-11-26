@@ -69,11 +69,22 @@ Chapter quizzes and per-chapter references have not been generated yet.
 | 7 | Nov 17 | Kusadasi (Ephesus), Turkey |
 | 8 | Nov 18 | Rhodes, Greece |
 | 9 | Nov 19 | Heraklion (Knossos), Crete, Greece |
-| 10 | Nov 20 | Athens (Piraeus), Greece; final night aboard |
+| 10 | Nov 20 | Athens (Piraeus), Greece: Temple of Poseidon at Cape Sounion in the morning, the Acropolis in the afternoon; final night aboard |
 | 11–13 | Nov 21–23 | Athens on our own |
 
 See the [Trip Description](docs/course-description.md) for the full plan and
 port times.
+
+## Trip Photos by Location
+
+The [Trip Photo Metrics](https://dmccreary.github.io/mediterranean-travels/appendices/photo-metrics/)
+page shows where our 1,465 photos and videos were taken. It counts them by
+area (ten areas, from Istanbul to Cape Sounion and Delphi) and by landmark
+(29 landmarks). It also lists all 121 photos used in the chapters under the
+place where each was taken. The page is generated from the GPS data in a
+Google Takeout export by
+[`scripts/google_photos_takeout.py`](scripts/google_photos_takeout.py), using
+the landmark list in [`data/chapter-places.json`](data/chapter-places.json).
 
 ## Getting Started
 
@@ -130,10 +141,12 @@ mediterranean-travels/
 │   │       └── index.md           # Lesson page
 │   ├── stories/                   # Illustrated stories
 │   ├── posters/                   # Visual posters
-│   ├── appendices/                # Timeline, pronunciation guide, extras
+│   ├── appendices/                # Timeline, pronunciation guide, photo metrics, extras
 │   ├── learning-graph/            # Concept list, dependency graph, metrics
 │   ├── css/extra.css              # Custom styles
 │   └── img/                       # Cover image and license badge
+├── data/                          # Photo pipeline data: landmarks, photo picks
+├── scripts/                       # Photo metrics, selection, and export scripts
 ├── plugins/social_override.py     # Social-media preview meta tags
 ├── AGENTS.md                      # Instructions for AI coding agents
 ├── CONTENT-GENERATION-GUIDE.md    # Writing and formatting rules
