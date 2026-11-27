@@ -1,5 +1,5 @@
 ---
-title: The Press That Waited: Istanbul's 275-Year Printing Mystery
+title: "The Press That Waited: Istanbul's 275-Year Printing Mystery"
 description: Istanbul had printing presses in the 1490s, yet the first Ottoman Turkish book in Arabic script appeared only in 1729. Meet the refugees, scribes and printer in a puzzle with disputed answers.
 image: /stories/the-press-that-waited/cover.png
 og:image: /stories/the-press-that-waited/cover.png

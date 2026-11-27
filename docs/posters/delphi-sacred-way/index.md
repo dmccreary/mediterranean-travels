@@ -1,5 +1,5 @@
 ---
-title: Delphi: Climbing the Sacred Way
+title: "Delphi: Climbing the Sacred Way"
 description: Hover over nine places on the Delphi hillside, in the order a visitor climbs them, to learn what a petitioner or an athlete did at each and what survives today, then test yourself in Quiz mode.
 status: built
 hide:

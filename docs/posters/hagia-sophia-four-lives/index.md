@@ -1,5 +1,5 @@
 ---
-title: Hagia Sophia: One Building, Four Lives
+title: "Hagia Sophia: One Building, Four Lives"
 description: Hover over and click four views of the interior of Hagia Sophia, as a cathedral, a mosque, a museum, and a mosque again, and a cross-section of what never changed, then test yourself in Quiz mode.
 status: built
 image: /posters/hagia-sophia-four-lives/hagia-sophia-four-lives-thumb.jpg

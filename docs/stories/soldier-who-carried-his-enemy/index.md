@@ -1,5 +1,5 @@
 ---
-title: The Soldier Who Carried His Enemy: Gallipoli and Memory
+title: "The Soldier Who Carried His Enemy: Gallipoli and Memory"
 description: A famous statue shows a Turkish soldier carrying a wounded enemy officer to safety. Follow Gallipoli from the mines to the truce, and learn what is documented, what is legend, and why both matter.
 image: /stories/soldier-who-carried-his-enemy/cover.png
 og:image: /stories/soldier-who-carried-his-enemy/cover.png

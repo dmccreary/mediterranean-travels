@@ -1,5 +1,5 @@
 ---
-title: The Colossus: Popular Picture and Likely Truth
+title: "The Colossus: Popular Picture and Likely Truth"
 description: Hover over and click six scenes, the popular picture of the Colossus of Rhodes on the left and what the evidence supports on the right, for its pose, its place, and its end, then test yourself in Quiz mode.
 status: built
 image: /posters/colossus-myth-and-evidence/colossus-myth-and-evidence-thumb.jpg

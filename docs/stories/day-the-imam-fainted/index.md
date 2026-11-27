@@ -1,5 +1,5 @@
 ---
-title: The Day the Imam Fainted: One Eggplant, Two Languages
+title: "The Day the Imam Fainted: One Eggplant, Two Languages"
 description: A stuffed eggplant so good, or so rich in olive oil, that an imam fainted. Follow the vegetable from Ottoman kitchens to Greek tavernas, and through the exchange of 1923 that carried recipes across the sea.
 image: /stories/day-the-imam-fainted/cover.png
 og:image: /stories/day-the-imam-fainted/cover.png

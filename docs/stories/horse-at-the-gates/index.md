@@ -1,5 +1,5 @@
 ---
-title: The Horse at the Gates: Myth, Troy and the Man Who Dug Too Fast
+title: "The Horse at the Gates: Myth, Troy and the Man Who Dug Too Fast"
 description: The wooden horse is not in the Iliad, and the man who found Troy dug through the city he sought. Follow the legend, the 1870s dig, and a gold hoard that went from Troy to Berlin to Moscow.
 image: /stories/horse-at-the-gates/cover.png
 og:image: /stories/horse-at-the-gates/cover.png

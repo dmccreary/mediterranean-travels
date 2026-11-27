@@ -1,5 +1,5 @@
 ---
-title: The Sultan's Sweet Tooth: Spice, Coffee and Turkish Delight
+title: "The Sultan's Sweet Tooth: Spice, Coffee and Turkish Delight"
 description: Follow one box of Turkish delight and one pinch of saffron through Istanbul's Spice Bazaar, past coffeehouses a sultan tried to close, and into the hands of two travelers heading home.
 image: /stories/sultans-sweet-tooth/cover.png
 og:image: /stories/sultans-sweet-tooth/cover.png

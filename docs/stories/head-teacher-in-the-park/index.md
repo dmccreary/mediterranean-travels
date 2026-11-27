@@ -1,5 +1,5 @@
 ---
-title: The Head Teacher in the Park: How Turkey Learned a New Alphabet
+title: "The Head Teacher in the Park: How Turkey Learned a New Alphabet"
 description: In August 1928 a head of state stood at a blackboard in an Istanbul park and taught a nation new letters. See how one alphabet sent adults back to school, and what that change cost and gave.
 image: /stories/head-teacher-in-the-park/cover.png
 og:image: /stories/head-teacher-in-the-park/cover.png
